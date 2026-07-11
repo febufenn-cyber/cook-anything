@@ -25,6 +25,10 @@ function boundedInt(raw: string | undefined, fallback: number, min: number, max:
   return Number.isFinite(parsed) ? Math.min(max, Math.max(min, parsed)) : fallback;
 }
 
+function sessionTtl(env: Env): number {
+  return boundedInt(env.COMPANION_SESSION_TTL_SECONDS, 7_200, 300, 86_400);
+}
+
 function sameOrigin(request: Request): boolean {
   const origin = request.headers.get("origin");
   return !origin || origin === new URL(request.url).origin;
@@ -88,8 +92,7 @@ async function handleCreateSession(request: Request, env: Env): Promise<Response
   const body = (await initialized.json().catch(() => null)) as HostedSessionResponse | null;
   if (!initialized.ok || !body) return jsonResponse({ state: null, error: body?.error ?? "internal" }, 500);
 
-  const ttl = boundedInt(env.COMPANION_SESSION_TTL_SECONDS, 7_200, 300, 86_400);
-  return jsonResponse(body, 201, { "set-cookie": sessionCookie(sessionId, ttl) });
+  return jsonResponse(body, 201, { "set-cookie": sessionCookie(sessionId, sessionTtl(env)) });
 }
 
 async function handleTurn(request: Request, env: Env): Promise<Response> {
@@ -99,7 +102,11 @@ async function handleTurn(request: Request, env: Env): Promise<Response> {
 
   const sessionId = parseCookie(request, SESSION_COOKIE);
   if (!sessionId || !/^[0-9a-f-]{36}$/i.test(sessionId)) {
-    return jsonResponse({ reply: "", state: null, error: "session_expired" }, 401);
+    return jsonResponse(
+      { reply: "", state: null, error: "session_expired" },
+      401,
+      { "set-cookie": clearSessionCookie() },
+    );
   }
 
   const turnLimit = await env.COMPANION_TURN_RATE_LIMITER.limit({
@@ -118,10 +125,20 @@ async function handleTurn(request: Request, env: Env): Promise<Response> {
   if (!input) return jsonResponse({ reply: "", state: null, error: "bad_request" }, 400);
 
   const session = env.COMPANION_SESSIONS.get(env.COMPANION_SESSIONS.idFromName(sessionId));
-  return session.fetch("https://companion-session/turn", {
+  const response = await session.fetch("https://companion-session/turn", {
     method: "POST",
     headers: { "content-type": "application/json" },
     body: JSON.stringify(input),
+  });
+  const headers = new Headers(response.headers);
+  headers.set(
+    "set-cookie",
+    response.status === 401 ? clearSessionCookie() : sessionCookie(sessionId, sessionTtl(env)),
+  );
+  return new Response(response.body, {
+    status: response.status,
+    statusText: response.statusText,
+    headers,
   });
 }
 
