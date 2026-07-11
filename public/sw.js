@@ -1,19 +1,29 @@
-const CACHE_VERSION = "cook-anything-phase4-v1";
+const CACHE_VERSION = "cook-anything-phase5-v1";
 const APP_SHELL = [
   "/",
   "/what-can-i-cook/",
   "/kitchen/",
+  "/account/",
   "/search-index.json",
   "/trust-manifest.json",
   "/manifest.webmanifest"
 ];
 
 function isPrivateOrCompanion(request, url) {
+  const accountCallback = url.pathname.startsWith("/account") && (
+    url.searchParams.has("code")
+    || url.searchParams.has("invite")
+    || url.searchParams.has("token")
+    || url.searchParams.has("error")
+    || url.searchParams.has("error_description")
+  );
   return request.headers.has("authorization")
     || request.headers.has("x-api-key")
+    || request.headers.has("apikey")
     || url.pathname.startsWith("/api/")
     || url.pathname.startsWith("/companion-recipes/")
-    || url.pathname.includes("companion");
+    || url.pathname.includes("companion")
+    || accountCallback;
 }
 
 self.addEventListener("install", (event) => {
