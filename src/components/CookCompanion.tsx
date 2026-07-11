@@ -13,24 +13,30 @@ import type {
 import { initialCompanionState } from "@/lib/companion/types";
 import {
   BYOK_DEFAULTS,
+  inspectByokEndpoint,
   loadByokConfig,
   saveByokConfig,
   sendDirectTurn,
   type ByokConfig,
+  type ByokEndpointDisclosure,
   type ByokProvider,
 } from "@/lib/companion/client";
+
+const HOSTED_NOTICE_VERSION = "2026-07-phase2-v1";
+const HOSTED_NOTICE_KEY = "cook-anything.companion.hosted-notice";
 
 const ERROR_COPY: Record<string, string> = {
   not_configured:
     "The hosted companion is temporarily unavailable while its security controls are being verified. Connect your own API key under ⚙️, or use normal Cook Mode.",
   bad_api_key: "The API key was rejected by the provider — check it under ⚙️.",
+  invalid_endpoint: "That provider endpoint is invalid or unsafe. Use HTTPS, with no embedded password, query or fragment.",
   rate_limited: "Too many requests right now — wait a moment and try again.",
   overloaded: "The companion provider is overloaded — try again shortly.",
   busy: "The hosted kitchen is at capacity — try again shortly.",
   daily_limit: "The hosted companion has reached today’s safety limit. You can connect your own API key under ⚙️.",
   session_limit: "This hosted cooking session reached its turn limit. Close it and begin a fresh session.",
   session_expired: "That hosted session expired. I’ll start a fresh one when you send again.",
-  hosted_text_only: "Hosted mode is text-only during Phase 1. Connect your own vision-capable API key under ⚙️ to send photos.",
+  hosted_text_only: "Hosted mode is text-only. Connect your own vision-capable API key under ⚙️ to send photos.",
   payload_too_large: "That request is too large.",
   recipe_not_found: "I couldn’t load the trusted cooking snapshot for this recipe.",
   forbidden: "This request was blocked by the companion’s security checks.",
@@ -88,9 +94,12 @@ export default function CookCompanion({
   const [showLedger, setShowLedger] = useState(false);
   const [byok, setByok] = useState<ByokConfig | null>(null);
   const [showSettings, setShowSettings] = useState(false);
+  const [showHostedNotice, setShowHostedNotice] = useState(false);
+  const [hostedNoticeAccepted, setHostedNoticeAccepted] = useState(false);
 
   const historyRef = useRef<ChatMessage[]>([]);
   const hostedSessionReadyRef = useRef(false);
+  const hostedNoticeAcceptedRef = useRef(false);
   const stateRef = useRef<CompanionState>(initialCompanionState(companionRecipe));
   const scrollRef = useRef<HTMLDivElement>(null);
   const recognitionRef = useRef<SpeechRecognitionLike | null>(null);
@@ -99,7 +108,16 @@ export default function CookCompanion({
   const [, forceRender] = useState(0);
   const state = stateRef.current;
 
-  useEffect(() => setByok(loadByokConfig()), []);
+  useEffect(() => {
+    setByok(loadByokConfig());
+    try {
+      const accepted = window.localStorage.getItem(HOSTED_NOTICE_KEY) === HOSTED_NOTICE_VERSION;
+      hostedNoticeAcceptedRef.current = accepted;
+      setHostedNoticeAccepted(accepted);
+    } catch {
+      hostedNoticeAcceptedRef.current = false;
+    }
+  }, []);
 
   useEffect(() => {
     hostedSessionReadyRef.current = false;
@@ -128,7 +146,7 @@ export default function CookCompanion({
 
   useEffect(() => {
     scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: "smooth" });
-  }, [bubbles, busy]);
+  }, [bubbles, busy, showHostedNotice]);
 
   function say(text: string) {
     if (!speak || !("speechSynthesis" in window)) return;
@@ -152,6 +170,12 @@ export default function CookCompanion({
     return response.json() as Promise<T>;
   }
 
+  async function closeHostedSession(): Promise<void> {
+    if (!hostedSessionReadyRef.current) return;
+    hostedSessionReadyRef.current = false;
+    await fetch("/api/companion/session", { method: "DELETE" }).catch(() => undefined);
+  }
+
   async function ensureHostedSession(): Promise<void> {
     if (hostedSessionReadyRef.current) return;
     const response = await fetch("/api/companion/session", {
@@ -168,7 +192,6 @@ export default function CookCompanion({
   async function hostedTurn(message: string): Promise<CompanionResponse> {
     await ensureHostedSession();
     const clientTurnId = freshTurnId();
-
     const execute = async () => {
       const response = await fetch("/api/companion/turn", {
         method: "POST",
@@ -177,7 +200,6 @@ export default function CookCompanion({
       });
       return { response, data: await readJsonResponse<CompanionResponse>(response) };
     };
-
     let result = await execute();
     if (result.data.error === "session_expired") {
       hostedSessionReadyRef.current = false;
@@ -193,6 +215,10 @@ export default function CookCompanion({
   async function send(text: string, photo?: { media_type: string; data: string } | null) {
     const trimmed = text.trim();
     if ((!trimmed && !photo) || busy) return;
+    if (!byok && !hostedNoticeAcceptedRef.current) {
+      setShowHostedNotice(true);
+      return;
+    }
     if (!byok && photo) {
       setShowSettings(true);
       setBubbles((current) => [...current, { role: "assistant", text: `⚠️ ${ERROR_COPY.hosted_text_only}` }]);
@@ -202,7 +228,6 @@ export default function CookCompanion({
     setBusy(true);
     setInput("");
     setPendingPhoto(null);
-
     const blocks: ChatContentBlock[] = [];
     if (photo) blocks.push({ type: "image", source: { type: "base64", ...photo } });
     blocks.push({ type: "text", text: trimmed || "Here’s a photo — what do you see?" });
@@ -221,11 +246,8 @@ export default function CookCompanion({
       const data = byok
         ? await sendDirectTurn(byok, companionRecipe, stateRef.current, leanHistory(historyRef.current))
         : await hostedTurn(trimmed);
-
       if (data.error === "not_configured") setShowSettings(true);
-      if (data.error || !data.reply) {
-        throw new Error(ERROR_COPY[data.error ?? ""] ?? "Something went wrong — try again.");
-      }
+      if (data.error || !data.reply) throw new Error(ERROR_COPY[data.error ?? ""] ?? "Something went wrong — try again.");
       historyRef.current = [...historyRef.current, { role: "assistant", content: data.reply }];
       acceptState(data.state);
       setBubbles((current) => [...current, { role: "assistant", text: data.reply }]);
@@ -237,6 +259,16 @@ export default function CookCompanion({
       setBubbles((current) => [...current, { role: "assistant", text: `⚠️ ${message}` }]);
     } finally {
       setBusy(false);
+    }
+  }
+
+  function acceptHostedNotice() {
+    hostedNoticeAcceptedRef.current = true;
+    setHostedNoticeAccepted(true);
+    setShowHostedNotice(false);
+    try { window.localStorage.setItem(HOSTED_NOTICE_KEY, HOSTED_NOTICE_VERSION); } catch { /* session still allowed */ }
+    if (bubbles.length === 0) {
+      void send(`I’m cooking ${recipe.title} for ${recipe.servings}. I’m at the start — what’s my first move?`);
     }
   }
 
@@ -286,9 +318,12 @@ export default function CookCompanion({
 
   function start() {
     setOpen(true);
-    if (bubbles.length === 0) {
-      void send(`I’m cooking ${recipe.title} for ${recipe.servings}. I’m at the start — what’s my first move?`);
+    if (bubbles.length > 0) return;
+    if (!byok && !hostedNoticeAcceptedRef.current) {
+      setShowHostedNotice(true);
+      return;
     }
+    void send(`I’m cooking ${recipe.title} for ${recipe.servings}. I’m at the start — what’s my first move?`);
   }
 
   if (!open) {
@@ -312,6 +347,7 @@ export default function CookCompanion({
             Stage: <span className="font-semibold text-turmeric-deep">{state.stage}</span>
             {" · "}serves {state.servings}
             {!byok && <span>{" · "}hosted text-only</span>}
+            {byok?.remember && <span>{" · "}key remembered on device</span>}
           </p>
         </div>
         <div className="flex shrink-0 items-center gap-2">
@@ -335,7 +371,11 @@ export default function CookCompanion({
           <button onClick={() => setShowLedger((value) => !value)} className="rounded-full border border-cardamom bg-card px-3 py-1.5 text-sm font-medium">
             Swaps{state.substitution_ledger.length > 0 ? ` (${state.substitution_ledger.length})` : ""}
           </button>
-          <button onClick={() => setOpen(false)} className="rounded-full border border-cardamom bg-card px-3 py-1.5 text-sm font-medium" aria-label="Close companion">✕</button>
+          <button
+            onClick={() => { void closeHostedSession(); setOpen(false); }}
+            className="rounded-full border border-cardamom bg-card px-3 py-1.5 text-sm font-medium"
+            aria-label="Close companion and erase hosted session"
+          >✕</button>
         </div>
       </div>
 
@@ -347,13 +387,30 @@ export default function CookCompanion({
         ))}
       </div>
 
+      <div className="mx-4 mt-2 rounded-card border border-cardamom bg-rice-deep/50 px-3 py-2 text-xs text-tamarind-soft">
+        Allergen status: {companionRecipe.trust.allergen_status}. This is not an allergen-free guarantee. Check exact product labels before relying on any recipe or substitution.
+      </div>
+
+      {showHostedNotice && !byok && (
+        <HostedConsent
+          accepted={hostedNoticeAccepted}
+          onAccept={acceptHostedNotice}
+          onUseOwnKey={() => { setShowHostedNotice(false); setShowSettings(true); }}
+        />
+      )}
+
       {showSettings && (
         <ByokSettings
           byok={byok}
-          onSave={(config) => {
-            saveByokConfig(config);
-            setByok(config);
+          onSave={(config, remember) => {
+            const saved = saveByokConfig(config, remember);
+            setByok(saved);
             setShowSettings(false);
+            setShowHostedNotice(false);
+            void closeHostedSession();
+            if (bubbles.length === 0 && saved) {
+              void send(`I’m cooking ${recipe.title} for ${recipe.servings}. I’m at the start — what’s my first move?`);
+            }
           }}
           onClear={() => {
             saveByokConfig(null);
@@ -365,7 +422,7 @@ export default function CookCompanion({
       {showLedger && (
         <div className="border-b border-cardamom bg-turmeric-tint/40 px-4 py-3 text-sm">
           {state.substitution_ledger.length === 0 ? (
-            <p className="text-tamarind-faint">No swaps yet — tell me what you’re missing and we’ll sort it.</p>
+            <p className="text-tamarind-faint">No swaps yet — every replacement can change allergens, so check its label.</p>
           ) : (
             <ul className="space-y-1">
               {state.substitution_ledger.map((entry, index) => (
@@ -419,12 +476,10 @@ export default function CookCompanion({
           <button
             type="button"
             onClick={() => byok ? fileRef.current?.click() : setShowSettings(true)}
-            className="shrink-0 rounded-full border border-cardamom bg-card p-2.5 text-lg disabled:opacity-40"
+            className="shrink-0 rounded-full border border-cardamom bg-card p-2.5 text-lg"
             aria-label={byok ? "Send a photo" : "Connect your own key to send photos"}
             title={byok ? "Show me your pan or ingredient" : "Hosted mode is text-only; connect your own key for photos"}
-          >
-            📷
-          </button>
+          >📷</button>
           <button type="button" onClick={toggleVoiceInput} className={`shrink-0 rounded-full border p-2.5 text-lg ${listening ? "border-chilli bg-chilli-tint" : "border-cardamom bg-card"}`} aria-label={listening ? "Stop listening" : "Speak instead of typing"} aria-pressed={listening}>
             {listening ? "⏹" : "🎤"}
           </button>
@@ -436,30 +491,86 @@ export default function CookCompanion({
   );
 }
 
+function HostedConsent({
+  accepted,
+  onAccept,
+  onUseOwnKey,
+}: {
+  accepted: boolean;
+  onAccept: () => void;
+  onUseOwnKey: () => void;
+}) {
+  return (
+    <div className="border-b border-cardamom bg-card px-4 py-4 text-sm">
+      <p className="font-semibold">Before using the hosted companion</p>
+      <p className="mt-1 max-w-3xl text-tamarind-soft">
+        Your text messages, selected recipe, recent conversation context and temporary cooking state may be processed through Cloudflare and the configured AI provider or private bridge. Hosted mode accepts no photos. Inactive hosted sessions are configured to be deleted after about two hours; closing this panel requests earlier deletion.
+      </p>
+      <p className="mt-2 text-xs text-tamarind-faint">
+        The recipe is {accepted ? "already covered by the current notice" : "not cook-tested unless the trust panel explicitly says so"}. Do not send secrets, medical information or identity documents.
+      </p>
+      <div className="mt-3 flex flex-wrap gap-3">
+        <button onClick={onAccept} className="rounded-full bg-turmeric px-4 py-2 font-semibold text-tamarind">Continue with hosted text</button>
+        <button onClick={onUseOwnKey} className="rounded-full border border-cardamom bg-rice px-4 py-2 font-semibold">Use my own key instead</button>
+      </div>
+    </div>
+  );
+}
+
 function ByokSettings({
   byok,
   onSave,
   onClear,
 }: {
   byok: ByokConfig | null;
-  onSave: (config: ByokConfig) => void;
+  onSave: (config: ByokConfig, remember: boolean) => void;
   onClear: () => void;
 }) {
   const [provider, setProvider] = useState<ByokProvider>(byok?.provider ?? "anthropic");
   const [apiKey, setApiKey] = useState(byok?.apiKey ?? "");
   const [model, setModel] = useState(byok?.model ?? BYOK_DEFAULTS.anthropic.model);
   const [baseUrl, setBaseUrl] = useState(byok?.baseUrl ?? BYOK_DEFAULTS["openai-compatible"].baseUrl!);
+  const [remember, setRemember] = useState(Boolean(byok?.remember));
+  const [trustEndpoint, setTrustEndpoint] = useState(false);
+  const [error, setError] = useState("");
+
+  let disclosure: ByokEndpointDisclosure | null = null;
+  if (provider === "openai-compatible") {
+    try {
+      disclosure = inspectByokEndpoint(baseUrl);
+    } catch {
+      disclosure = null;
+    }
+  }
 
   function switchProvider(next: ByokProvider) {
     setProvider(next);
+    setTrustEndpoint(false);
+    setError("");
     if (!byok || byok.provider !== next) setModel(BYOK_DEFAULTS[next].model);
+  }
+
+  function save() {
+    setError("");
+    if (provider === "openai-compatible") {
+      if (!disclosure) return setError(ERROR_COPY.invalid_endpoint);
+      if (disclosure.requiresConfirmation && !trustEndpoint) {
+        return setError(`Confirm that you trust ${disclosure.hostname} before sending it your API key.`);
+      }
+    }
+    onSave({
+      provider,
+      apiKey: apiKey.trim(),
+      model: model.trim(),
+      ...(provider === "openai-compatible" ? { baseUrl: disclosure!.normalizedUrl } : {}),
+    }, remember);
   }
 
   return (
     <div className="border-b border-cardamom bg-card px-4 py-3 text-sm">
       <p className="font-semibold">Connect your API key</p>
       <p className="mt-0.5 text-xs text-tamarind-faint">
-        BYOK calls go directly from this browser to your provider. Hosted mode remains text-only and may be unavailable during security verification.
+        Calls go directly from this browser to the provider below. The key stays only in memory by default and disappears when this page session ends.
       </p>
       <div className="mt-3 grid gap-2 sm:grid-cols-2">
         <label className="block">
@@ -480,13 +591,37 @@ function ByokSettings({
         {provider === "openai-compatible" && (
           <label className="block sm:col-span-2">
             <span className="text-xs font-semibold uppercase tracking-wider text-tamarind-faint">Base URL</span>
-            <input value={baseUrl} onChange={(event) => setBaseUrl(event.target.value)} placeholder="https://api.openai.com/v1" className="mt-1 w-full rounded-card border border-cardamom bg-rice px-3 py-2" />
+            <input value={baseUrl} onChange={(event) => { setBaseUrl(event.target.value); setTrustEndpoint(false); }} placeholder="https://api.openai.com/v1" className="mt-1 w-full rounded-card border border-cardamom bg-rice px-3 py-2" />
           </label>
         )}
       </div>
+
+      {provider === "anthropic" ? (
+        <p className="mt-2 rounded-card bg-rice-deep px-3 py-2 text-xs text-tamarind-soft">Your key will be sent directly to api.anthropic.com.</p>
+      ) : disclosure ? (
+        <div className="mt-2 rounded-card bg-rice-deep px-3 py-2 text-xs text-tamarind-soft">
+          <p>{disclosure.warning}</p>
+          {disclosure.requiresConfirmation && (
+            <label className="mt-2 flex items-start gap-2">
+              <input type="checkbox" checked={trustEndpoint} onChange={(event) => setTrustEndpoint(event.target.checked)} className="mt-0.5" />
+              <span>I trust {disclosure.hostname} to receive and process this API key and my companion content.</span>
+            </label>
+          )}
+        </div>
+      ) : (
+        <p className="mt-2 text-xs text-chilli">Enter a valid HTTPS endpoint. Plain HTTP is allowed only for localhost.</p>
+      )}
+
+      <label className="mt-3 flex items-start gap-2 rounded-card border border-cardamom p-3 text-xs">
+        <input type="checkbox" checked={remember} onChange={(event) => setRemember(event.target.checked)} className="mt-0.5" />
+        <span>
+          <strong>Remember key on this device.</strong> This stores the raw key in this browser until you disconnect it or clear browser data. Code running on this site could access it.
+        </span>
+      </label>
       <p className="mt-2 text-xs text-tamarind-faint">Photo check-ins require a vision-capable BYOK model. Provider usage may be billed to your account.</p>
+      {error && <p className="mt-2 text-xs font-medium text-chilli">{error}</p>}
       <div className="mt-3 flex items-center gap-3">
-        <button onClick={() => onSave({ provider, apiKey: apiKey.trim(), model: model.trim(), ...(provider === "openai-compatible" ? { baseUrl: baseUrl.trim() } : {}) })} disabled={!apiKey.trim() || !model.trim()} className="rounded-full bg-turmeric px-4 py-2 font-semibold text-tamarind disabled:opacity-40">Save key</button>
+        <button onClick={save} disabled={!apiKey.trim() || !model.trim()} className="rounded-full bg-turmeric px-4 py-2 font-semibold text-tamarind disabled:opacity-40">Use key</button>
         {byok && <button onClick={onClear} className="text-xs text-chilli underline">Disconnect &amp; forget key</button>}
       </div>
     </div>
@@ -496,7 +631,7 @@ function ByokSettings({
 interface SpeechRecognitionLike {
   lang: string;
   interimResults: boolean;
-  onresult: ((event: { results: ArrayLike<ArrayLike<{ transcript: string }>> }) => void) | null;
+  onresult: ((event: { results: ArrayLike<ArrayLike<{ transcript: string }> }>) => void) | null;
   onerror: (() => void) | null;
   onend: (() => void) | null;
   start: () => void;
