@@ -81,6 +81,7 @@ supabase/migrations/20260712_phase5_portable_kitchen.sql
 supabase/migrations/20260712_phase5_sync_push_hardening.sql
 supabase/migrations/20260712_phase5_migration_device_registration.sql
 supabase/migrations/20260712_phase6_living_cookbook.sql
+supabase/migrations/20260712_phase6_account_deletion_hardening.sql
 ```
 
 Never place a Supabase service-role credential in a `NEXT_PUBLIC_*` variable.
