@@ -17,7 +17,7 @@ concurrency:
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
 
     steps:
       - name: Check out repository
@@ -38,17 +38,21 @@ jobs:
       - name: Phase 2 trust tests
         run: npm run test:trust 2>&1 | tee trust-test.log
 
+      - name: Phase 3 product-loop tests
+        run: npm run test:product 2>&1 | tee product-test.log
+
       - name: Mandatory recipe trust gate
         run: npm run trust:gate 2>&1 | tee trust-gate.log
 
-      - name: Preserve security and trust output
+      - name: Preserve security, trust and product output
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: trust-and-companion-test-output
+          name: verification-output
           path: |
             companion-test.log
             trust-test.log
+            product-test.log
             trust-gate.log
           if-no-files-found: ignore
           retention-days: 3
