@@ -86,6 +86,7 @@ export interface RightsAttestation {
 
 export interface RecipeDraft {
   id: string;
+  cloudDraftId?: string;
   ownerId?: string;
   scope: ContributionScope;
   status: RecipeDraftStatus;
@@ -198,7 +199,7 @@ export interface ContributionStatusEvent {
   fromStatus: SubmissionStatus | null;
   toStatus: SubmissionStatus;
   actorId: string;
-  actorRole: "contributor" | ReviewerRole | "system";
+  actorRole: "contributor" | ReviewerRole | "cook_tester" | "administrator" | "system";
   reason?: string;
   createdAt: string;
 }
