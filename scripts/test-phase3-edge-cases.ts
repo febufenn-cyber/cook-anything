@@ -106,10 +106,46 @@ function testSubstitutionOnlyCoverage(): void {
   assert.equal(result.missing.length, 0);
 }
 
+function testDiversityNeverCrossesBuckets(): void {
+  const readyA = recipe({
+    slug: "ready-a",
+    title: "Quick Potato",
+    cuisine: "same",
+    req: ["potato"],
+    ingredientMeta: { potato: { importance: "identity", weight: 8 } },
+  });
+  const readyB = recipe({
+    slug: "ready-b",
+    title: "Spicy Potato",
+    cuisine: "same",
+    req: ["potato"],
+    ingredientMeta: { potato: { importance: "identity", weight: 8 } },
+  });
+  const shopping = recipe({
+    slug: "shopping-variety",
+    title: "Different Cuisine Potato Feast",
+    cuisine: "different",
+    req: ["potato", "paneer"],
+    ingredientMeta: {
+      potato: { importance: "identity", weight: 8 },
+      paneer: { importance: "structural", weight: 5 },
+    },
+  });
+
+  const results = matchRecipes([readyA, readyB, shopping], {
+    have: ["potato"],
+    pantrySlugs: new Set(),
+  });
+  const firstShopping = results.findIndex((result) => result.bucket === "needs_shopping");
+  const lastReady = results.map((result) => result.bucket).lastIndexOf("ready");
+  assert.ok(lastReady >= 0 && firstShopping > lastReady, "diversity must never promote a worse feasibility bucket");
+}
+
 function main(): void {
   testAssumeNothing();
   testEmptyEquipmentInventory();
   testSubstitutionOnlyCoverage();
+  testDiversityNeverCrossesBuckets();
   console.log("Phase 3 edge-case tests passed.");
 }
 
