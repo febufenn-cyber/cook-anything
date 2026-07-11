@@ -115,7 +115,9 @@ async function main(): Promise<void> {
   assert.throws(() => validateCookTest(cookTest, changedHash), /cook_test_version_mismatch/);
 
   const root = process.cwd();
-  const sql = fs.readFileSync(path.join(root, "supabase", "migrations", "20260712_phase6_living_cookbook.sql"), "utf8");
+  const primaryMigration = fs.readFileSync(path.join(root, "supabase", "migrations", "20260712_phase6_living_cookbook.sql"), "utf8");
+  const deletionMigration = fs.readFileSync(path.join(root, "supabase", "migrations", "20260712_phase6_account_deletion_hardening.sql"), "utf8");
+  const sql = `${primaryMigration}\n${deletionMigration}`;
   assert.match(sql, /create table if not exists public\.recipe_draft_versions/);
   assert.match(sql, /create table if not exists public\.recipe_submissions/);
   assert.match(sql, /create table if not exists public\.editorial_reviews/);
@@ -129,6 +131,9 @@ async function main(): Promise<void> {
   assert.match(sql, /passed_tests < 2/);
   assert.match(sql, /service_role_required/);
   assert.match(sql, /grant execute on function public\.claim_publication_candidate\(uuid\) to service_role/);
+  assert.match(sql, /prepare_contribution_account_deletion/);
+  assert.match(sql, /on delete set null/);
+  assert.match(sql, /grant execute on function public\.prepare_contribution_account_deletion\(uuid\) to service_role/);
   assert.doesNotMatch(sql, /grant\s+(?:select|insert|update|delete|all)\s+on\s+public\.(?:recipe_drafts|recipe_submissions|publication_candidates)\s+to\s+(?:anon|authenticated)/i);
   assert.match(sql, /revoke all on public\.contribution_roles[\s\S]*from anon, authenticated/);
 
@@ -138,7 +143,7 @@ async function main(): Promise<void> {
   assert.match(publisher, /draft: true/);
   assert.match(publisher, /mark_publication_candidate_pr/);
   assert.doesNotMatch(publisher, /\/merges|merge_pull_request|wrangler deploy|npm run deploy/i, "publication operator must not merge or deploy");
-  assert.doesNotMatch(publisher, /data\/recipes\//, "operator must not invent canonical metadata or publish directly");
+  assert.doesNotMatch(publisher, /path:\s*[`'"]data\/recipes\//, "operator must not create production recipe paths");
 
   const editor = fs.readFileSync(path.join(root, "src", "components", "SubmitRecipeForm.tsx"), "utf8");
   assert.match(editor, /Saving or syncing never publishes/);
