@@ -10,9 +10,10 @@ import type {
 } from "./types";
 
 const POULTRY_SLUGS = new Set(["chicken", "turkey", "duck", "quail"]);
-const MEAT_SLUGS = new Set(["mutton", "lamb", "beef", "pork", "goat", "keema"]);
-const SEAFOOD_SLUGS = new Set(["fish", "prawn", "shrimp", "crab", "squid", "mussels", "clam"]);
-const EGG_SLUGS = new Set(["egg", "eggs"]);
+const MEAT_SLUGS = new Set(["mutton", "lamb", "beef", "pork", "goat", "keema", "gelatin", "lard", "bacon"]);
+const SEAFOOD_SLUGS = new Set(["fish", "prawn", "shrimp", "crab", "squid", "mussels", "clam", "fish-sauce", "oyster-sauce", "shrimp-paste"]);
+const EGG_SLUGS = new Set(["egg", "eggs", "mayonnaise"]);
+const VEGETARIAN_NOT_VEGAN_SLUGS = new Set(["honey"]);
 const ATTRIBUTION_LICENSES = new Set(["CC-BY-4.0", "CC-BY-SA-4.0"]);
 
 function sorted<T extends string>(values: Iterable<T>): T[] {
@@ -28,6 +29,7 @@ function sourceTypeFor(recipe: Recipe): ProvenanceSourceType {
     case "licensed_partner": return "licensed";
     case "editor_needed": return recipe.license === "original" ? "original" : "unknown";
     case "verified": return recipe.license === "original" ? "original" : "unknown";
+    default: return "unknown";
   }
 }
 
@@ -43,25 +45,40 @@ function cookTestStatusFor(recipe: Recipe): CookTestStatus {
   return recipe.verificationStatus === "verified" ? "cook_tested" : "not_cook_tested";
 }
 
+function hasAnySlug(slugs: Set<string>, candidates: Set<string>): boolean {
+  return [...slugs].some((slug) => candidates.has(slug));
+}
+
+function defsContainAllergen(defs: IngredientDef[], allergens: Allergen[]): boolean {
+  return defs.some((definition) => allergens.some((allergen) => definition.allergens.includes(allergen)));
+}
+
 function safetyProfile(recipe: Recipe, defs: IngredientDef[]): SafetyProfile {
   const slugs = new Set(recipe.ingredients.map((ingredient) => ingredient.normalizedName));
   const hazards = new Set<RecipeHazard>();
+  const hasPoultry = hasAnySlug(slugs, POULTRY_SLUGS);
+  const hasOtherMeat = hasAnySlug(slugs, MEAT_SLUGS)
+    || (!hasPoultry && defs.some((definition) => definition.category === "meat"));
+  const hasSeafood = hasAnySlug(slugs, SEAFOOD_SLUGS)
+    || defs.some((definition) => definition.category === "seafood")
+    || defsContainAllergen(defs, ["fish", "shellfish"]);
+  const hasEgg = hasAnySlug(slugs, EGG_SLUGS)
+    || defs.some((definition) => definition.category === "egg")
+    || defsContainAllergen(defs, ["egg"]);
 
-  if ([...slugs].some((slug) => POULTRY_SLUGS.has(slug))) {
+  if (hasPoultry) {
     hazards.add("raw_poultry");
     hazards.add("cross_contamination");
   }
-  if ([...slugs].some((slug) => MEAT_SLUGS.has(slug)) || defs.some((def) => def.category === "meat")) {
+  if (hasOtherMeat) {
     hazards.add("raw_meat");
     hazards.add("cross_contamination");
   }
-  if ([...slugs].some((slug) => SEAFOOD_SLUGS.has(slug)) || defs.some((def) => def.category === "seafood")) {
+  if (hasSeafood) {
     hazards.add("seafood");
     hazards.add("cross_contamination");
   }
-  if ([...slugs].some((slug) => EGG_SLUGS.has(slug)) || defs.some((def) => def.category === "egg")) {
-    hazards.add("egg");
-  }
+  if (hasEgg) hazards.add("egg");
   if (recipe.methods.includes("deep-frying") || recipe.methods.includes("shallow-frying")) {
     hazards.add("hot_oil");
   }
@@ -100,11 +117,26 @@ function safetyProfile(recipe: Recipe, defs: IngredientDef[]): SafetyProfile {
   return { hazards: sorted(hazards), warnings, criticalChecks };
 }
 
-function derivedPrimary(defs: IngredientDef[]): RecipeTrustRecord["dietary"]["derivedPrimary"] {
-  if (defs.some((def) => def.category === "meat")) return "non_vegetarian";
-  if (defs.some((def) => def.category === "seafood")) return "pescatarian";
-  if (defs.some((def) => def.category === "egg")) return "eggetarian";
-  if (defs.some((def) => def.category === "dairy")) return "vegetarian";
+function derivedPrimary(recipe: Recipe, defs: IngredientDef[]): RecipeTrustRecord["dietary"]["derivedPrimary"] {
+  const slugs = new Set(recipe.ingredients.map((ingredient) => ingredient.normalizedName));
+  if (hasAnySlug(slugs, MEAT_SLUGS) || defs.some((definition) => definition.category === "meat")) {
+    return "non_vegetarian";
+  }
+  if (hasAnySlug(slugs, SEAFOOD_SLUGS)
+    || defs.some((definition) => definition.category === "seafood")
+    || defsContainAllergen(defs, ["fish", "shellfish"])) {
+    return "pescatarian";
+  }
+  if (hasAnySlug(slugs, EGG_SLUGS)
+    || defs.some((definition) => definition.category === "egg")
+    || defsContainAllergen(defs, ["egg"])) {
+    return "eggetarian";
+  }
+  if (defs.some((definition) => definition.category === "dairy")
+    || defsContainAllergen(defs, ["dairy"])
+    || hasAnySlug(slugs, VEGETARIAN_NOT_VEGAN_SLUGS)) {
+    return "vegetarian";
+  }
   return "vegan";
 }
 
@@ -117,7 +149,7 @@ function dietaryConflicts(recipe: Recipe, primary: RecipeTrustRecord["dietary"][
     conflicts.push(`Claims vegetarian but canonical ingredients derive as ${primary}.`);
   }
   if (recipe.dietType.includes("eggetarian") && ["pescatarian", "non_vegetarian"].includes(primary)) {
-    conflicts.push(`Claims eggetarian but contains meat or seafood ingredients.`);
+    conflicts.push("Claims eggetarian but contains meat or seafood ingredients.");
   }
   if (recipe.dietType.includes("pescatarian") && primary === "non_vegetarian") {
     conflicts.push("Claims pescatarian but contains non-seafood meat ingredients.");
@@ -154,7 +186,7 @@ export function deriveRecipeTrust(
   }
 
   const allergenStatus = missingDefinitions.length ? "incomplete" : "derived";
-  const primary = derivedPrimary(defs);
+  const primary = derivedPrimary(recipe, defs);
   const conflicts = dietaryConflicts(recipe, primary, contains);
   const sourceType = sourceTypeFor(recipe);
   const attributionRequired = ATTRIBUTION_LICENSES.has(recipe.license);
@@ -220,7 +252,7 @@ export function deriveRecipeTrust(
       claimed: recipe.dietType,
       derivedPrimary: primary,
       conflicts,
-      basis: "Derived from canonical ingredient categories; packaged ingredients and manufacturing cross-contact still require label checks.",
+      basis: "Derived from canonical ingredient categories, allergen metadata and known animal-derived ingredients; packaged products and manufacturing cross-contact still require label checks.",
     },
     provenance: {
       sourceType,
