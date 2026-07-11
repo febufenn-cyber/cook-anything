@@ -309,11 +309,19 @@ export async function listRecoverySnapshots(): Promise<RecoverySnapshot[]> {
 }
 
 export async function clearSyncState(options: { keepDeviceId?: boolean; keepRecovery?: boolean } = {}): Promise<void> {
+  // Read the retained value before opening the write transaction. Calling
+  // getDeviceId() after clearing META would open another transaction and can
+  // deadlock or cause the first transaction to auto-close.
+  const retainedDeviceId = options.keepDeviceId
+    ? await readMeta<string | null>(META_DEVICE_ID, null)
+    : null;
   const db = await openSyncDatabase();
   const stores = [STORE_QUEUE, STORE_REVISIONS, STORE_CONFLICTS, STORE_META, ...(options.keepRecovery ? [] : [STORE_RECOVERY])];
   const tx = db.transaction(stores, "readwrite");
   for (const name of stores) tx.objectStore(name).clear();
-  if (options.keepDeviceId) tx.objectStore(STORE_META).put({ key: META_DEVICE_ID, value: await getDeviceId(), updatedAt: isoNow() });
+  if (retainedDeviceId) {
+    tx.objectStore(STORE_META).put({ key: META_DEVICE_ID, value: retainedDeviceId, updatedAt: isoNow() } satisfies SyncMeta);
+  }
   await transactionDone(tx);
 }
 
