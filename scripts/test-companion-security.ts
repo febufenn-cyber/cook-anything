@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import type { TrustedCompanionRecipe } from "../src/lib/companion/types";
 import { initialCompanionState } from "../src/lib/companion/types";
 import { parseStateBlock } from "../src/lib/companion/prompt";
+import worker from "../worker/index";
 import { CompanionGate, CompanionSession } from "../worker/companion-session";
 import type { DurableObjectStateLike, DurableObjectStorage, Env } from "../worker/env";
 import {
@@ -84,6 +85,38 @@ function request(path: string, method: string, body?: unknown): Request {
       ? {}
       : { headers: { "content-type": "application/json" }, body: JSON.stringify(body) }),
   });
+}
+
+async function testFailClosedWorker(): Promise<void> {
+  const forbiddenBinding = new Proxy({}, {
+    get(_target, property) {
+      throw new Error(`disabled request touched binding ${String(property)}`);
+    },
+  });
+  const env = {
+    HOSTED_COMPANION_ENABLED: "false",
+    ASSETS: forbiddenBinding,
+    COMPANION_SESSIONS: forbiddenBinding,
+    COMPANION_GATE: forbiddenBinding,
+    COMPANION_SESSION_RATE_LIMITER: forbiddenBinding,
+    COMPANION_TURN_RATE_LIMITER: forbiddenBinding,
+  } as unknown as Env;
+
+  const malformed = new Request("https://cook-anything.example/api/companion/session", {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: "{this is deliberately invalid json",
+  });
+  const sessionResponse = await worker.fetch(malformed, env);
+  assert.equal(sessionResponse.status, 503);
+  assert.equal((await sessionResponse.json() as { error: string }).error, "not_configured");
+
+  const legacyResponse = await worker.fetch(
+    new Request("https://cook-anything.example/api/companion", { method: "POST", body: "{" }),
+    env,
+  );
+  assert.equal(legacyResponse.status, 503);
+  assert.equal((await legacyResponse.json() as { error: string }).error, "not_configured");
 }
 
 async function testValidators(): Promise<void> {
@@ -229,6 +262,7 @@ async function testSessionIdempotencyAndExpiry(): Promise<void> {
 }
 
 async function main(): Promise<void> {
+  await testFailClosedWorker();
   await testValidators();
   await testStateBlockBoundary();
   await testGate();
