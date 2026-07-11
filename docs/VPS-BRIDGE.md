@@ -1,158 +1,211 @@
-# Subscription bridge — hosted execution architecture
+# Subscription bridge — Phase 1 deployment notes
 
-> **Phase 0 status: disabled.** The public Worker rejects hosted companion turns
-> and bridge-origin announcements unless `HOSTED_COMPANION_ENABLED` is exactly
-> `"true"`. The VPS must retain `/opt/cook-anything/BRIDGE_DISABLED`. See
-> `docs/PHASE-0-CONTAINMENT.md` before operating any bridge service.
+> **Hosted execution remains disabled.** Keep
+> `HOSTED_COMPANION_ENABLED="false"` and retain
+> `/opt/cook-anything/BRIDGE_DISABLED` until every check in
+> `docs/PHASE-1-COMPANION.md` passes in a private staging environment.
 
-The Anthropic Messages API does not use a consumer Claude subscription as an API
-credential. The experimental bridge runs a turn through headless Claude Code on
-a machine controlled by the operator and lets the Cloudflare Worker proxy to it.
+The bridge runs a bounded text-only cooking turn through headless Claude Code on
+an operator-controlled machine. It is not a public prompt proxy and must never be
+reachable directly from the internet.
 
 ```text
-browser ──> Worker /api/companion ──> isolated bridge (:8788)
-                                           └─ claude -p
+browser
+  └─ narrow session API
+       └─ Cloudflare Worker + Durable Objects
+            └─ HMAC-signed request through named/private tunnel
+                 └─ 127.0.0.1:8788 hardened bridge
+                      └─ one stateless claude -p process
 ```
 
-This path is intentionally unavailable during Phase 0. Browser BYOK remains the
-supported companion mode because requests go directly from the browser to the
-user-selected provider.
+## What changed from the legacy bridge
 
-## Why it is disabled
+Removed:
 
-Before a public hosted bridge can be re-enabled, it needs a trusted server-side
-recipe lookup, isolated file access, application-owned session identifiers,
-rate limiting, bounded concurrency, runtime state validation, privacy disclosure,
-and a tested emergency kill switch. The current bridge is retained as an
-experimental implementation, not as a production boundary.
+- browser-provided recipe, state and conversation history
+- browser-visible Claude session IDs
+- Claude `--resume`
+- kitchen-photo files and the Read tool
+- bearer-token-only authentication
+- automatic quick-tunnel origin publication
+- unlimited process spawning
+- execution under a general deployment account
 
-## Phase 0 shutdown
+Added:
 
-Deploy the fail-closed Worker first, then run the VPS shutdown command:
+- trusted Worker-generated prompt envelopes
+- HMAC-SHA256 body authentication
+- timestamp and request-ID replay protection
+- strict request schema and size limits
+- text-only stateless execution
+- one-turn Claude invocation with all tools disabled
+- bounded concurrency, output and timeout
+- process-group termination on timeout or disconnect
+- minimal child-process environment
+- hardened systemd service identity and filesystem boundary
+
+## Phase 0 shutdown remains authoritative
+
+To force the bridge off:
 
 ```bash
 scp bridge/phase0-disable.sh <VPS_HOST>:/tmp/phase0-disable.sh
 ssh <VPS_HOST> 'chmod +x /tmp/phase0-disable.sh && sudo /tmp/phase0-disable.sh'
 ```
 
-The marker-aware watchdog, tunnel script, and systemd unit must be installed
-before any future service restart:
+The Worker flag is an independent kill switch. A disabled Worker must reject
+hosted session creation before recipe lookup or Durable Object creation.
+
+## Dedicated service identity
+
+Create a restricted account and directories. Do not reuse `ubuntu`, a developer
+login, or an account that owns unrelated repositories and SSH credentials.
 
 ```bash
-scp bridge/companion-watchdog.sh bridge/companion-tunnel.sh \
-  bridge/companion-bridge.service <VPS_HOST>:/tmp/
-
-ssh <VPS_HOST> '
-  sudo install -m 0755 /tmp/companion-watchdog.sh /opt/cook-anything/bridge/companion-watchdog.sh
-  sudo install -m 0755 /tmp/companion-tunnel.sh /opt/cook-anything/bridge/companion-tunnel.sh
-  sudo install -m 0644 /tmp/companion-bridge.service /etc/systemd/system/companion-bridge.service
-  sudo systemctl daemon-reload
-'
-```
-
-Do not record real VPS addresses, OAuth tokens, bridge tokens, private tunnel
-origins, or SSH commands containing deployment identifiers in this repository.
-
-## Experimental from-scratch setup
-
-These instructions are retained only for future Phase 1 work on an isolated host.
-Do not use them to re-enable the public production path during Phase 0.
-
-### 1. Create a dedicated machine identity
-
-The bridge must not run as a general deployment or login account. Create a
-restricted service user:
-
-```bash
-sudo useradd -r -m -d /opt/cook-anything companion 2>/dev/null || true
+sudo useradd --system --home-dir /var/lib/companion-bridge \
+  --create-home --shell /usr/sbin/nologin companion 2>/dev/null || true
+sudo install -d -o companion -g companion -m 0700 /var/lib/companion-bridge
 sudo install -d -o companion -g companion -m 0750 /opt/cook-anything/bridge
 sudo install -d -o companion -g companion -m 0750 /opt/cook-anything/logs
 ```
 
-Do not give this user access to SSH keys, unrelated repositories, cloud
-credentials, shell history, or home directories belonging to other users.
-A container or stronger filesystem sandbox is required before Phase 1 exits.
+Install Claude Code using current official instructions for this restricted
+identity. Keep its authentication material outside the repository. The bridge
+must not have access to:
 
-### 2. Install and authenticate Claude Code
+- `/home/*`
+- SSH keys
+- unrelated source repositories
+- cloud credentials
+- shell history
+- database backups
+- deployment secrets other than its own required authentication
 
-Install Claude Code using current official instructions, authenticate the
-restricted identity, and store credentials outside the repository. The bridge
-requires Node 20 or newer.
+## Environment file
 
-Create a root-owned environment file:
+Generate a new random HMAC secret:
+
+```bash
+openssl rand -hex 32
+```
+
+Store it in the Worker:
+
+```bash
+npx wrangler secret put COMPANION_UPSTREAM_SIGNING_SECRET
+```
+
+Store the identical value in a root-owned VPS environment file:
 
 ```bash
 sudo tee /etc/companion-bridge.env >/dev/null <<'EOF'
-BRIDGE_TOKEN=REPLACE_WITH_A_LONG_RANDOM_VALUE
+BRIDGE_SIGNING_SECRET=REPLACE_WITH_THE_RANDOM_VALUE
 CLAUDE_CODE_OAUTH_TOKEN=REPLACE_OUTSIDE_SOURCE_CONTROL
 COMPANION_MODEL=sonnet
-CLAUDE_BIN=/opt/cook-anything/.local/bin/claude
+CLAUDE_BIN=/usr/local/bin/claude
+MAX_CONCURRENCY=2
+TURN_TIMEOUT_MS=90000
+MAX_BODY_BYTES=300000
+MAX_OUTPUT_BYTES=1000000
 EOF
+sudo chown root:root /etc/companion-bridge.env
 sudo chmod 600 /etc/companion-bridge.env
 ```
 
-Never paste live values into documentation, issues, commits, screenshots, or
-chat transcripts.
+The bridge passes only a small allowlist of environment variables to Claude. The
+HMAC signing secret is not inherited by child processes.
 
-### 3. Install the bridge service
+## Install the bridge service
 
 ```bash
-sudo install -m 0755 bridge/server.mjs /opt/cook-anything/bridge/server.mjs
-sudo install -m 0644 bridge/companion-bridge.service /etc/systemd/system/companion-bridge.service
+sudo install -o companion -g companion -m 0755 \
+  bridge/server.mjs /opt/cook-anything/bridge/server.mjs
+sudo install -o root -g root -m 0644 \
+  bridge/companion-bridge.service /etc/systemd/system/companion-bridge.service
 sudo systemctl daemon-reload
 ```
 
-The checked-in unit includes a `ConditionPathExists` safety interlock. It will
-not start while `/opt/cook-anything/BRIDGE_DISABLED` exists.
+The checked-in unit applies extensive systemd hardening and refuses to start
+while `/opt/cook-anything/BRIDGE_DISABLED` exists.
 
-### 4. Tunnel architecture
+Validate the unit before any canary:
 
-A named Cloudflare Tunnel on a stable hostname is preferable to a quick tunnel.
-Quick tunnels rotate origins and should remain development-only. In either case,
-keep the bridge bound to `127.0.0.1`; do not open the bridge port publicly.
+```bash
+systemd-analyze verify /etc/systemd/system/companion-bridge.service
+sudo systemctl start companion-bridge
+sudo systemctl status companion-bridge --no-pager
+sudo journalctl -u companion-bridge -n 100 --no-pager
+```
 
-The experimental quick-tunnel script can announce an origin to
-`POST /api/bridge-origin`, but the Worker rejects that endpoint during Phase 0.
+Run these only on isolated staging after deliberately removing the staging
+marker. If Claude or Node needs an additional syscall or path, identify that
+specific requirement. Do not broadly disable `ProtectHome`, `ProtectSystem`, the
+capability boundary, or the syscall filter.
 
-### 5. Worker configuration
+## Tunnel
 
-Hosted execution has two independent requirements:
+Use a stable named Cloudflare Tunnel or another private authenticated network
+path. The bridge listens only on `127.0.0.1:8788`; do not firewall-open that port.
 
-1. `HOSTED_COMPANION_ENABLED` must be exactly `"true"`.
-2. A valid hosted backend must be configured.
+`bridge/companion-tunnel.sh` is retained for explicit development use only. It:
 
-Example for a future controlled environment only:
+- refuses to run during Phase 0
+- requires `ALLOW_INSECURE_QUICK_TUNNEL=true`
+- does not publish an origin to the Worker
+
+The production Worker no longer consumes KV-discovered quick-tunnel origins, and
+`POST /api/bridge-origin` is permanently gone.
+
+Configure the stable origin only in the Worker environment:
 
 ```jsonc
 {
   "vars": {
-    "HOSTED_COMPANION_ENABLED": "true",
-    "COMPANION_UPSTREAM": "https://companion-bridge.example.com"
+    "HOSTED_COMPANION_ENABLED": "false",
+    "COMPANION_UPSTREAM": "https://private-companion.example.com"
   }
 }
 ```
 
-The upstream token remains a Worker secret:
+Cloudflare Access or the private network is the outer transport boundary. HMAC
+verification inside the bridge remains mandatory even when the tunnel is
+private.
+
+## Health and protocol
+
+Local health check:
 
 ```bash
-npx wrangler secret put COMPANION_UPSTREAM_TOKEN
+curl --fail http://127.0.0.1:8788/health
 ```
 
-A missing or malformed enable value must always fail closed.
+A turn requires these headers:
 
-## Operations after Phase 1 approval
+```text
+X-Request-Id
+X-Timestamp
+X-Body-SHA256
+X-Signature
+```
 
-Future operations must include:
+The body contains only the Worker-generated system text, validated state,
+bounded server-owned history and newest user message. The bridge accepts no
+model, tool, path, image, recipe authority or Claude session identifier from the
+browser.
 
-- a dedicated restricted user or container
-- a small process concurrency pool
-- request and session ownership controls
-- IP/user quotas
-- temporary photo directories with no broader filesystem visibility
-- secret rotation procedures
-- log redaction
-- monitoring that distinguishes safety shutdown from service failure
+Do not create a manual curl command containing the live HMAC secret. Use an
+automated staging test that computes a fresh signature and redacts credentials.
 
-Do not remove `/opt/cook-anything/BRIDGE_DISABLED` merely to test availability.
-Use a separate private staging environment until every exit condition in
-`docs/PHASE-0-CONTAINMENT.md` has been satisfied.
+## Operations
+
+- Keep default bridge and Worker concurrency equal at two during canary.
+- Alert on authentication failures, replay attempts, timeouts and saturation.
+- Log request IDs, duration, status and process exit outcomes only.
+- Do not log full prompts, messages, state, OAuth material or HMAC secrets.
+- Rotate both copies of the signing secret together.
+- Re-run the Phase 0 shutdown drill after every deployment change.
+- Never re-enable production directly; progress through operator-only staging and
+  invited canary traffic.
+
+The complete architecture, API contract and exit checklist are in
+`docs/PHASE-1-COMPANION.md`.
