@@ -3,7 +3,7 @@ import PageHero from "@/components/PageHero";
 
 export const metadata: Metadata = {
   title: "Privacy",
-  description: "What Cook Anything processes, where it goes, and how long companion sessions last.",
+  description: "What Cook Anything stores locally, what may be cached offline, where companion content goes, and how to export or delete your data.",
   alternates: { canonical: "/privacy/" },
 };
 
@@ -13,13 +13,35 @@ export default function PrivacyPage() {
       <PageHero eyebrow="Trust" title="Privacy" />
       <div className="mx-auto max-w-3xl space-y-8 px-4 py-10 leading-relaxed text-tamarind-soft sm:px-6">
         <section className="space-y-3">
-          <h2 className="font-display text-2xl text-tamarind">Search, saved recipes and local drafts</h2>
+          <h2 className="font-display text-2xl text-tamarind">Search, local kitchen and drafts</h2>
           <p>
             Cook Anything currently runs without accounts and without advertising trackers. Ingredient
             searches are processed in your browser against a downloaded recipe index and are not sent
-            to our server. Saved recipes, cookbook collections and recipe drafts are stored locally in
-            your browser. A draft saved on this device has not been submitted, uploaded, reviewed or
-            published. Clearing browser data removes it.
+            to our server. Your pantry, explicit preferences, saved recipes, cooking history, shopping
+            list and meal plan are stored in IndexedDB in this browser. Cook Mode progress and a few small
+            settings use browser storage so interrupted sessions can recover.
+          </p>
+          <p>
+            You can inspect, export, import or delete these records from <strong>My Kitchen</strong>. Kitchen
+            exports do not include API keys, hosted cookies, companion messages or photos. A recipe draft
+            saved on this device has not been submitted, uploaded, reviewed or published. Clearing browser
+            data or using the delete-all control removes local records from this browser.
+          </p>
+        </section>
+
+        <section className="space-y-3">
+          <h2 className="font-display text-2xl text-tamarind">Offline application cache</h2>
+          <p>
+            If your browser supports service workers, Cook Anything may cache same-origin application
+            pages, static assets, the recipe search index and the public trust manifest so previously
+            available core features can work offline. A waiting application update is activated only when
+            you choose to update; it is not forced during an active cooking session.
+          </p>
+          <p>
+            The service worker is designed not to cache companion API routes, trusted companion snapshots,
+            requests carrying authorization or API-key headers, cross-origin provider calls, companion
+            messages, responses or photos. Deleting all local data also requests removal of Cook Anything
+            application caches.
           </p>
         </section>
 

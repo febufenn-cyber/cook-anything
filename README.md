@@ -4,8 +4,8 @@
 
 A global cooking knowledge engine: describe the ingredients in your kitchen in
 English, Tamil/Tanglish or Hindi/Hinglish and receive explainable, safety-filtered
-recipe matches with honest missing items, feasible substitutions and interruption-safe
-Cook Mode.
+recipe matches with honest missing items, feasible substitutions, interruption-safe
+Cook Mode and a private local kitchen that works without an account.
 
 ## Stack
 
@@ -13,6 +13,8 @@ Cook Mode.
 - Local JSON data layer (`data/`) with a Postgres-compatible mirror (`db/schema.sql`)
 - Versioned client-side matching index (`public/search-index.json`)
 - Build-generated public recipe trust manifest (`public/trust-manifest.json`)
+- Native IndexedDB local-kitchen repository
+- Installable offline web app with an explicit private-cache boundary
 - Cloudflare Worker serving static assets and the disabled-by-default hosted companion API
 - Durable Objects owning optional hosted cooking sessions and execution capacity
 - Browser BYOK companion calling the selected provider directly
@@ -24,31 +26,35 @@ Hosted execution remains **disabled by default**. `wrangler.jsonc` sets
 is exactly `"true"`.
 
 Phase 1 rebuilt the hosted execution boundary. Phase 2 added the mandatory recipe,
-privacy and publication trust layer. Phase 3 strengthens the anonymous local-first
-product loop:
+privacy and publication trust layer. Phase 3 strengthened the anonymous matching and
+Cook Mode loop. Phase 4 adds the return loop without adding accounts:
 
-- identity and structural ingredients carry more ranking weight than seasonings
-- textual substitutions count only when the replacement is actually in the kitchen
-- pantry assumptions are explicit, user-controlled and disclosed per result
-- allergen, ingredient, diet and special-equipment constraints are hard filters
-- natural English/Tamil/Hindi input is parsed without silent guessing
-- typo candidates and ambiguous ingredients require user confirmation
-- results explain essential missing items, available swaps and equipment blockers
-- repetitive dish families are diversified on the first screen
-- one-extra-ingredient suggestions show what would unlock more viable dishes
-- Cook Mode locally persists progress, servings and drift-free timestamp timers
-- active sessions are bound to a recipe version so instructions cannot silently change
+- pantry, kitchen preferences, saved recipes, history, shopping and plans live in IndexedDB
+- the matcher can reuse saved pantry items on a later visit
+- search overrides do not silently rewrite the permanent profile
+- recipe saves carry a corpus/recipe version reference
+- Cook Mode records only explicit completion
+- cooking never silently deducts ingredients from pantry
+- missing recipe ingredients can be added to a source-aware shopping list
+- lightweight meal planning remains local and makes no nutrition claims
+- exports exclude API keys, hosted sessions, companion messages and photos
+- imports reject future schemas, prototype pollution and secret-like fields
+- same-browser tabs receive kitchen-change events
+- the service worker caches only approved same-origin static content
+- companion routes, companion snapshots and credential-bearing requests are never cached
+- updates remain user-controlled so an active cooking session is not silently replaced
 
 The current corpus is not silently relabelled as human-reviewed. Most recipes remain
 honestly described as structurally validated, not cook-tested drafts.
 
-Browser BYOK, recipe search, ingredient matching and normal Cook Mode remain available
-while hosted execution is off. Do not enable hosted mode until every Phase 1 staging
-exit condition passes. See:
+Browser BYOK, recipe search, ingredient matching, local kitchen features and normal Cook
+Mode remain available while hosted execution is off. Do not enable hosted mode until every
+Phase 1 staging exit condition passes. See:
 
 - `docs/PHASE-1-COMPANION.md`
 - `docs/PHASE-2-TRUST.md`
 - `docs/PHASE-3-PRODUCT.md`
+- `docs/PHASE-4-LOCAL-KITCHEN.md`
 
 ## Commands
 
@@ -61,6 +67,7 @@ npm run deploy           # build + wrangler deploy
 npm run test:companion   # hosted-session and execution-boundary regressions
 npm run test:trust       # provenance, allergen, BYOK and header regressions
 npm run test:product     # matcher, parser, pantry, Cook Mode and timer regressions
+npm run test:kitchen     # IndexedDB/import/offline/privacy-boundary regressions
 npm run trust:gate       # production publication gate
 
 # Data pipeline
@@ -86,12 +93,14 @@ data/recipes/           production-authorized recipe JSON only
 quarantine/             rejected imports and review candidates
 src/lib/match.ts        weighted deterministic matcher and natural input parser
 src/lib/cook-session.ts persistent version-bound Cook Mode state and scaling
+src/lib/kitchen/        local data contracts, validation and IndexedDB repository
 src/lib/trust/          provenance, allergen, dietary, safety and evidence policy
-src/components/         matcher, Cook Mode, companion and trust UI
+src/components/         matcher, Cook Mode, kitchen dashboard, companion and trust UI
+public/sw.js            offline cache boundary; excludes companion and credential traffic
 worker/                 public API, validation, headers and Durable Objects
 bridge/                 optional hardened Claude Code bridge and shutdown controls
 scripts/                publication gates, generated indexes and regression suites
-docs/                   recipe spec and Phase 0/1/2/3 runbooks
+docs/                   recipe spec and Phase 0/1/2/3/4 runbooks
 db/schema.sql           Postgres/Supabase upgrade path
 ```
 

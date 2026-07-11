@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
-import IngredientMatcher from "@/components/IngredientMatcher";
+import KitchenMatcherBridge from "@/components/KitchenMatcherBridge";
 import PageHero from "@/components/PageHero";
 
 export const metadata: Metadata = {
   title: "What can I cook with these ingredients?",
   description:
-    "Enter ingredients naturally in English, Tamil, Tanglish, Hindi or Hinglish. See explainable recipe matches, essential missing items, feasible substitutions and equipment constraints.",
+    "Reuse a local pantry or enter ingredients naturally in English, Tamil, Tanglish, Hindi or Hinglish. See explainable matches, missing items, substitutions and equipment constraints.",
   alternates: { canonical: "/what-can-i-cook/" },
 };
 
@@ -16,11 +16,11 @@ export default function WhatCanICookPage() {
       <PageHero
         eyebrow="Your kitchen → a real dish"
         title="Tell us what you have"
-        intro="Type it naturally. We weight the ingredients that define a dish, disclose every pantry assumption, and explain what is truly ready, close, substitutable or still needs shopping."
+        intro="Your saved pantry can be reused without an account. We still disclose every assumption and explain what is truly ready, close, substitutable or needs shopping."
       />
       <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
-        <Suspense fallback={<p className="text-sm text-tamarind-faint">Loading the pantry matcher…</p>}>
-          <IngredientMatcher />
+        <Suspense fallback={<p className="text-sm text-tamarind-faint">Loading your local kitchen…</p>}>
+          <KitchenMatcherBridge />
         </Suspense>
       </div>
     </>
