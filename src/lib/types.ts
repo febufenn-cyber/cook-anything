@@ -286,16 +286,61 @@ export interface CollectionDef {
 
 /* ------------------------- Matching shapes ------------------------- */
 
+export type IngredientImportance =
+  | "identity"
+  | "structural"
+  | "important"
+  | "flavour"
+  | "optional"
+  | "pantry";
+
+export type SubstitutionQuality = "equivalent" | "good" | "workable" | "identity_change";
+
+export type MatchBucket = "ready" | "very_close" | "substitutable" | "needs_shopping";
+
+export interface IndexedIngredientMeta {
+  importance: IngredientImportance;
+  weight: number;
+}
+
+export interface IndexedSubstitution {
+  ingredient: string;
+  substitute: string;
+  replacementSlugs: string[];
+  quality: SubstitutionQuality;
+}
+
+export interface MissingIngredientDetail {
+  ingredient: string;
+  importance: IngredientImportance;
+  weight: number;
+  essential: boolean;
+}
+
+export interface FeasibleSubstitution {
+  ingredient: string;
+  substitute: string;
+  quality: SubstitutionQuality;
+  replacementSlugs: string[];
+  available: boolean;
+}
+
 export interface MatchResult {
   recipe: RecipeIndexEntry;
   matched: string[];
   missing: string[];
   missingOptional: string[];
-  substitutable: { ingredient: string; substitute: string }[];
-  /** 0..1 — share of required ingredients covered (subs count at partial weight) */
+  substitutable: FeasibleSubstitution[];
+  /** 0..1 — weighted share of required ingredient identity covered. */
   score: number;
-  /** Human-readable reason this recipe matched */
+  /** Human-readable reason this recipe matched. */
   reason: string;
+  bucket: MatchBucket;
+  missingDetails: MissingIngredientDetail[];
+  assumedPantry: string[];
+  unavailableCookware: string[];
+  matchedWeight: number;
+  totalWeight: number;
 }
 
 /** Compact entry used in the client-side search index (public/search-index.json) */
@@ -318,8 +363,12 @@ export interface RecipeIndexEntry {
   req: string[];
   /** optional normalized ingredient slugs */
   opt: string[];
-  /** substitutions as [ingredientSlug, substituteText] pairs */
+  /** legacy substitution tuples retained for compatibility */
   subs: [string, string][];
+  /** Phase 3 weighted ingredient metadata, generated at build time. */
+  ingredientMeta?: Record<string, IndexedIngredientMeta>;
+  /** Phase 3 structured substitutions, generated at build time. */
+  subMeta?: IndexedSubstitution[];
   cookware: string[];
   methods: string[];
   tags: string[];
