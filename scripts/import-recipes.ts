@@ -1,13 +1,13 @@
 /**
  * import-recipes.ts — the safe intake gate for external recipe JSON.
  * Pipeline: read -> field defaults -> slug generation -> ingredient
- * normalization -> validation -> license check -> write batch file.
+ * normalization -> validation -> trust/license gates -> production write.
  *
  * Usage:
  *   npx tsx scripts/import-recipes.ts --file <input.json> [--batch <name>] [--status open_license_imported]
  *
- * The input must be a JSON array of recipe-shaped objects. Anything that
- * fails validation is written to <batch>.rejected.json instead of imported.
+ * The input must be a JSON array of recipe-shaped objects. Anything that fails
+ * a gate is moved outside the production tree to quarantine/rejected-imports/.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -17,6 +17,7 @@ import { slugify } from "./generate-slugs";
 
 const ROOT = path.join(__dirname, "..");
 const RECIPES_DIR = path.join(ROOT, "data", "recipes");
+const QUARANTINE_DIR = path.join(ROOT, "quarantine", "rejected-imports");
 
 const args = process.argv.slice(2);
 const fileArg = args.includes("--file") ? args[args.indexOf("--file") + 1] : null;
@@ -31,7 +32,8 @@ if (!(VERIFICATION_STATUSES as readonly string[]).includes(status) || status ===
   process.exit(1);
 }
 
-const input = JSON.parse(fs.readFileSync(path.resolve(fileArg), "utf8"));
+const inputPath = path.resolve(fileArg);
+const input = JSON.parse(fs.readFileSync(inputPath, "utf8"));
 if (!Array.isArray(input)) {
   console.error("Input must be a JSON array of recipes.");
   process.exit(1);
@@ -64,15 +66,29 @@ const prepared = input.map((r: any) => {
 const outFile = path.join(RECIPES_DIR, `${batch}.json`);
 fs.writeFileSync(outFile, JSON.stringify(prepared, null, 2) + "\n");
 
-// normalize, then validate; on failure quarantine the batch
 try {
   execSync(`npx tsx "${path.join(__dirname, "normalize-ingredients.ts")}" --file "${outFile}" --fix`, { stdio: "inherit" });
   execSync(`npx tsx "${path.join(__dirname, "validate-recipes.ts")}" --file "${outFile}"`, { stdio: "inherit" });
   execSync(`npx tsx "${path.join(__dirname, "check-licenses.ts")}"`, { stdio: "inherit" });
+  execSync(`npx tsx "${path.join(__dirname, "check-trust.ts")}"`, { stdio: "inherit" });
+  execSync(`npx tsx "${path.join(__dirname, "check-exact-duplicates.ts")}"`, { stdio: "inherit" });
   console.log(`\nimport-recipes: imported ${prepared.length} recipes into data/recipes/${batch}.json`);
-} catch {
-  const rejected = outFile.replace(/\.json$/, ".rejected.json");
+} catch (cause) {
+  fs.mkdirSync(QUARANTINE_DIR, { recursive: true });
+  const stamp = new Date().toISOString().replace(/[:.]/g, "-");
+  const rejected = path.join(QUARANTINE_DIR, `${batch}.${stamp}.rejected.json`);
   fs.renameSync(outFile, rejected);
-  console.error(`\nimport-recipes: batch FAILED validation — quarantined at ${path.relative(ROOT, rejected)}. Fix and re-run.`);
+  const report = {
+    schemaVersion: 1,
+    batch,
+    sourceFile: inputPath,
+    quarantinedAt: new Date().toISOString(),
+    recipeCount: prepared.length,
+    reason: cause instanceof Error ? cause.message : "trust_gate_failed",
+    productionPathRemoved: path.relative(ROOT, outFile),
+    quarantinedPath: path.relative(ROOT, rejected),
+  };
+  fs.writeFileSync(`${rejected}.report.json`, `${JSON.stringify(report, null, 2)}\n`, "utf8");
+  console.error(`\nimport-recipes: batch FAILED validation — quarantined at ${path.relative(ROOT, rejected)}. It is outside data/recipes and cannot be loaded by production.`);
   process.exit(1);
 }
