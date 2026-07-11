@@ -109,8 +109,12 @@ export class CompanionGate {
     const maxActive = boundedInt(this.env.COMPANION_MAX_ACTIVE_EXECUTIONS, 2, 1, 20);
     const dailyLimit = boundedInt(this.env.COMPANION_DAILY_EXECUTION_LIMIT, 300, 1, 100_000);
     const stored = await this.ctx.storage.get<GateRecord>(GATE_STORAGE_KEY);
-    const gate: GateRecord = stored?.utc_day === day
-      ? stored
+    const gate: GateRecord = stored
+      ? {
+          utc_day: day,
+          execution_count: stored.utc_day === day ? stored.execution_count : 0,
+          active_leases: stored.active_leases,
+        }
       : { utc_day: day, execution_count: 0, active_leases: {} };
 
     gate.active_leases = Object.fromEntries(
