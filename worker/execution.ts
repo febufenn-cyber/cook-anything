@@ -7,6 +7,7 @@ const DEFAULT_MODEL = "claude-sonnet-4-6";
 const MAX_TOKENS = 700;
 const UPSTREAM_TIMEOUT_MS = 90_000;
 const MAX_UPSTREAM_TEXT_CHARS = 100_000;
+const MAX_VISIBLE_REPLY_CHARS = 8_000;
 const MAX_BRIDGE_HISTORY_MESSAGES = 16;
 const MAX_BRIDGE_HISTORY_CHARS = 24_000;
 
@@ -45,6 +46,13 @@ function normalizeProviderError(status: number): string {
   if (status === 429) return "rate_limited";
   if (status === 529) return "overloaded";
   return "upstream_error";
+}
+
+function parseBoundedResult(raw: string): ExecutionResult {
+  if (!raw || raw.length > MAX_UPSTREAM_TEXT_CHARS) throw new Error("upstream_error");
+  const parsed = parseStateBlock(raw);
+  if (!parsed.reply || parsed.reply.length > MAX_VISIBLE_REPLY_CHARS) throw new Error("upstream_error");
+  return { reply: parsed.reply, candidateState: parsed.state };
 }
 
 function bridgeHistory(history: ChatMessage[]): { role: "user" | "assistant"; content: string }[] {
@@ -111,10 +119,7 @@ async function executeThroughBridge(
     const error = typeof data?.error === "string" ? data.error : normalizeProviderError(response.status);
     throw new Error(error);
   }
-  if (data.result.length > MAX_UPSTREAM_TEXT_CHARS) throw new Error("upstream_error");
-
-  const parsed = parseStateBlock(data.result);
-  return { reply: parsed.reply, candidateState: parsed.state };
+  return parseBoundedResult(data.result);
 }
 
 async function executeThroughAnthropic(
@@ -159,10 +164,7 @@ async function executeThroughAnthropic(
     .filter((block) => block.type === "text" && typeof block.text === "string")
     .map((block) => block.text as string)
     .join("\n");
-  if (!rawText || rawText.length > MAX_UPSTREAM_TEXT_CHARS) throw new Error("upstream_error");
-
-  const parsed = parseStateBlock(rawText);
-  return { reply: parsed.reply, candidateState: parsed.state };
+  return parseBoundedResult(rawText);
 }
 
 /**
