@@ -125,7 +125,7 @@ const meatConflict = trustFor(recipe({
   methods: ["deep-frying"],
 }));
 assert.equal(meatConflict.publication.eligible, false);
-assert.ok(meatConflict.safety.hazards.includes("raw_meat"));
+assert.ok(meatConflict.safety.hazards.includes("raw_poultry"));
 assert.ok(meatConflict.safety.hazards.includes("hot_oil"));
 assert.ok(meatConflict.safety.hazards.includes("cross_contamination"));
 
