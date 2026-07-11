@@ -1,207 +1,168 @@
-/**
- * Cook Anything Worker: serves the static export (ASSETS binding) and hosts
- * POST /api/companion — the Cooking Companion endpoint. The Anthropic API key
- * lives here as a secret (`wrangler secret put ANTHROPIC_API_KEY`); nothing
- * key-shaped ever reaches the client.
- */
-import { buildRecipeSystemText, buildStateSystemText, parseStateBlock } from "../src/lib/companion/prompt";
-import type { CompanionRequest, CompanionResponse } from "../src/lib/companion/types";
+import type { CompanionResponse, HostedSessionResponse } from "../src/lib/companion/types";
+import { CompanionGate, CompanionSession } from "./companion-session";
+import type { Env } from "./env";
+import {
+  SESSION_COOKIE,
+  clearSessionCookie,
+  jsonResponse,
+  parseCookie,
+  readSmallJson,
+  sessionCookie,
+  sha256Hex,
+  validateRecipeId,
+  validateTrustedRecipe,
+  validateTurnInput,
+} from "./security";
 
-interface Env {
-  ASSETS: { fetch(request: Request): Promise<Response> };
-  /** Fail-closed Phase 0 switch. Hosted execution is available only when exactly "true". */
-  HOSTED_COMPANION_ENABLED?: string;
-  ANTHROPIC_API_KEY?: string;
-  /** Override the default model without a redeploy of code */
-  COMPANION_MODEL?: string;
-  /**
-   * Subscription bridge (bridge/server.mjs on a VPS): when set, turns are
-   * proxied there and run through headless Claude Code on a Claude
-   * subscription instead of the API. e.g. https://companion-bridge.robofox.online
-   */
-  COMPANION_UPSTREAM?: string;
-  COMPANION_UPSTREAM_TOKEN?: string;
-  /** KV holding the bridge's current quick-tunnel origin under key "origin" */
-  COMPANION_CONFIG?: {
-    get(key: string): Promise<string | null>;
-    put(key: string, value: string): Promise<void>;
-  };
-}
+export { CompanionGate, CompanionSession };
 
-const MAX_BODY_BYTES = 2_500_000; // one downscaled photo + history, generously
-const MAX_MESSAGES = 40;
-const MAX_TOKENS = 700;
-const DEFAULT_MODEL = "claude-sonnet-4-6";
-
-const JSON_HEADERS = { "content-type": "application/json; charset=utf-8" };
-
-function jsonResponse(body: CompanionResponse, status = 200): Response {
-  return new Response(JSON.stringify(body), { status, headers: JSON_HEADERS });
-}
-
-/**
- * Hosted execution is fail-closed: a missing, malformed, or unavailable value
- * is treated as disabled. Browser BYOK calls do not pass through this Worker.
- */
 function hostedCompanionEnabled(env: Env): boolean {
   return env.HOSTED_COMPANION_ENABLED === "true";
 }
 
-/** Subscription mode: proxy the turn to the VPS bridge running Claude Code. */
-async function bridgeTurn(env: Env, upstreamUrl: string, body: CompanionRequest): Promise<Response> {
-  const upstream = upstreamUrl.replace(/\/$/, "");
-  let res: globalThis.Response;
-  try {
-    res = await fetch(`${upstream}/turn`, {
-      method: "POST",
-      headers: {
-        "content-type": "application/json",
-        "x-bridge-token": env.COMPANION_UPSTREAM_TOKEN ?? "",
-      },
-      body: JSON.stringify({
-        system: buildRecipeSystemText(body.recipe),
-        state_system: buildStateSystemText(body.state),
-        messages: body.messages,
-        bridge_session_id: body.bridge_session_id ?? null,
-      }),
-    });
-  } catch {
-    return jsonResponse({ reply: "", state: null, error: "upstream_error" }, 502);
-  }
-  const data = (await res.json().catch(() => null)) as
-    | { result?: string; session_id?: string | null; error?: string }
-    | null;
-  if (!res.ok || !data || data.error || !data.result) {
-    return jsonResponse({ reply: "", state: null, error: data?.error ?? "upstream_error" }, 502);
-  }
-  const { reply, state } = parseStateBlock(data.result);
-  return jsonResponse({ reply, state, ...(data.session_id ? { bridge_session_id: data.session_id } : {}) });
+function boundedInt(raw: string | undefined, fallback: number, min: number, max: number): number {
+  const parsed = Number.parseInt(raw ?? "", 10);
+  return Number.isFinite(parsed) ? Math.min(max, Math.max(min, parsed)) : fallback;
 }
 
-/**
- * The VPS tunnel script announces its current quick-tunnel origin here
- * (authenticated by the shared bridge token) — the Worker persists it to KV.
- * This avoids needing any Cloudflare API credentials on the VPS.
- */
-async function handleBridgeOrigin(request: Request, env: Env): Promise<Response> {
-  if (request.method !== "POST") return new Response(null, { status: 405 });
-  // Phase 0: do not even authenticate, parse, or mutate KV while hosted mode is off.
-  if (!hostedCompanionEnabled(env)) {
-    return new Response(JSON.stringify({ error: "disabled" }), { status: 503, headers: JSON_HEADERS });
-  }
-  if (
-    !env.COMPANION_CONFIG ||
-    !env.COMPANION_UPSTREAM_TOKEN ||
-    request.headers.get("x-bridge-token") !== env.COMPANION_UPSTREAM_TOKEN
-  ) {
-    return new Response(JSON.stringify({ error: "unauthorized" }), { status: 401, headers: JSON_HEADERS });
-  }
-  const body = (await request.json().catch(() => null)) as { origin?: string } | null;
-  const origin = body?.origin ?? "";
-  if (!/^https:\/\/[a-z0-9-]+\.trycloudflare\.com$/.test(origin)) {
-    return new Response(JSON.stringify({ error: "bad_origin" }), { status: 400, headers: JSON_HEADERS });
-  }
-  await env.COMPANION_CONFIG.put("origin", origin);
-  return new Response(JSON.stringify({ ok: true, origin }), { headers: JSON_HEADERS });
+function sameOrigin(request: Request): boolean {
+  const origin = request.headers.get("origin");
+  return !origin || origin === new URL(request.url).origin;
 }
 
-async function handleCompanion(request: Request, env: Env): Promise<Response> {
-  if (request.method !== "POST") {
-    return jsonResponse({ reply: "", state: null, error: "method_not_allowed" }, 405);
-  }
-  // Phase 0 containment: reject before reading the body, touching KV, or calling
-  // either the VPS bridge or a hosted API key. Existing UI treats this as BYOK-only.
-  if (!hostedCompanionEnabled(env)) {
-    return jsonResponse({ reply: "", state: null, error: "not_configured" }, 503);
-  }
-  if (!env.COMPANION_UPSTREAM && !env.COMPANION_CONFIG && !env.ANTHROPIC_API_KEY) {
-    return jsonResponse({ reply: "", state: null, error: "not_configured" }, 503);
-  }
-  const bodyText = await request.text();
-  if (bodyText.length > MAX_BODY_BYTES) {
-    return jsonResponse({ reply: "", state: null, error: "payload_too_large" }, 413);
-  }
+function hostedDisabledResponse(): Response {
+  return jsonResponse({ reply: "", state: null, error: "not_configured" }, 503);
+}
 
-  let body: CompanionRequest;
-  try {
-    body = JSON.parse(bodyText) as CompanionRequest;
-  } catch {
-    return jsonResponse({ reply: "", state: null, error: "bad_json" }, 400);
-  }
-  if (!body?.recipe?.recipe_id || !Array.isArray(body.messages) || body.messages.length === 0) {
-    return jsonResponse({ reply: "", state: null, error: "bad_request" }, 400);
-  }
-  const messages = body.messages.slice(-MAX_MESSAGES);
+async function rateLimitKey(request: Request, scope: string, subject: string): Promise<string> {
+  const userAgent = request.headers.get("user-agent") ?? "";
+  return `${scope}:${await sha256Hex(`${subject}|${userAgent}`)}`;
+}
 
-  // Bridge origin: static var, or the quick tunnel's current URL published to KV.
-  const upstream =
-    env.COMPANION_UPSTREAM ??
-    (env.COMPANION_CONFIG ? await env.COMPANION_CONFIG.get("origin") : null);
-  if (upstream) {
-    return bridgeTurn(env, upstream, { ...body, messages });
-  }
-  if (!env.ANTHROPIC_API_KEY) {
-    return jsonResponse({ reply: "", state: null, error: "not_configured" }, 503);
-  }
+async function loadTrustedRecipe(request: Request, env: Env, recipeId: string) {
+  const assetUrl = new URL(`/companion-recipes/${recipeId}.json`, request.url);
+  const assetResponse = await env.ASSETS.fetch(new Request(assetUrl.toString(), {
+    headers: { accept: "application/json" },
+  }));
+  if (!assetResponse.ok) return null;
+  const raw = await assetResponse.json().catch(() => null);
+  return validateTrustedRecipe(raw, recipeId);
+}
 
-  const anthropicRes = await fetch("https://api.anthropic.com/v1/messages", {
-    method: "POST",
-    headers: {
-      "content-type": "application/json",
-      "x-api-key": env.ANTHROPIC_API_KEY,
-      "anthropic-version": "2023-06-01",
-    },
-    body: JSON.stringify({
-      model: env.COMPANION_MODEL || DEFAULT_MODEL,
-      max_tokens: MAX_TOKENS,
-      system: [
-        {
-          type: "text",
-          text: buildRecipeSystemText(body.recipe),
-          // The prompt + recipe are identical across a session's turns — cache them.
-          cache_control: { type: "ephemeral" },
-        },
-        { type: "text", text: buildStateSystemText(body.state) },
-      ],
-      messages,
-    }),
+async function handleCreateSession(request: Request, env: Env): Promise<Response> {
+  if (request.method !== "POST") return jsonResponse({ state: null, error: "method_not_allowed" }, 405);
+  if (!hostedCompanionEnabled(env)) return hostedDisabledResponse();
+  if (!sameOrigin(request)) return jsonResponse({ state: null, error: "forbidden" }, 403);
+
+  const ip = request.headers.get("cf-connecting-ip") ?? "unknown";
+  const createLimit = await env.COMPANION_SESSION_RATE_LIMITER.limit({
+    key: await rateLimitKey(request, "session-create", ip),
   });
+  if (!createLimit.success) return jsonResponse({ state: null, error: "rate_limited" }, 429);
 
-  if (!anthropicRes.ok) {
-    const status = anthropicRes.status;
-    const error =
-      status === 401 ? "bad_api_key" : status === 429 ? "rate_limited" : status === 529 ? "overloaded" : "upstream_error";
-    return jsonResponse({ reply: "", state: null, error }, status === 429 || status === 529 ? 503 : 502);
+  let raw: unknown;
+  try {
+    raw = await readSmallJson(request, 1_024);
+  } catch (cause) {
+    const error = cause instanceof Error ? cause.message : "bad_request";
+    return jsonResponse({ state: null, error }, error === "payload_too_large" ? 413 : 400);
+  }
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) {
+    return jsonResponse({ state: null, error: "bad_request" }, 400);
+  }
+  const record = raw as Record<string, unknown>;
+  if (Object.keys(record).length !== 1) return jsonResponse({ state: null, error: "bad_request" }, 400);
+  const recipeId = validateRecipeId(record.recipe_id);
+  if (!recipeId) return jsonResponse({ state: null, error: "bad_request" }, 400);
+
+  const recipe = await loadTrustedRecipe(request, env, recipeId);
+  if (!recipe) return jsonResponse({ state: null, error: "recipe_not_found" }, 404);
+
+  const sessionId = crypto.randomUUID();
+  const session = env.COMPANION_SESSIONS.get(env.COMPANION_SESSIONS.idFromName(sessionId));
+  const initialized = await session.fetch("https://companion-session/initialize", {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify(recipe),
+  });
+  const body = (await initialized.json().catch(() => null)) as HostedSessionResponse | null;
+  if (!initialized.ok || !body) return jsonResponse({ state: null, error: body?.error ?? "internal" }, 500);
+
+  const ttl = boundedInt(env.COMPANION_SESSION_TTL_SECONDS, 7_200, 300, 86_400);
+  return jsonResponse(body, 201, { "set-cookie": sessionCookie(sessionId, ttl) });
+}
+
+async function handleTurn(request: Request, env: Env): Promise<Response> {
+  if (request.method !== "POST") return jsonResponse({ reply: "", state: null, error: "method_not_allowed" }, 405);
+  if (!hostedCompanionEnabled(env)) return hostedDisabledResponse();
+  if (!sameOrigin(request)) return jsonResponse({ reply: "", state: null, error: "forbidden" }, 403);
+
+  const sessionId = parseCookie(request, SESSION_COOKIE);
+  if (!sessionId || !/^[0-9a-f-]{36}$/i.test(sessionId)) {
+    return jsonResponse({ reply: "", state: null, error: "session_expired" }, 401);
   }
 
-  const data = (await anthropicRes.json()) as {
-    content: { type: string; text?: string }[];
-  };
-  const rawText = data.content
-    .filter((b) => b.type === "text" && b.text)
-    .map((b) => b.text)
-    .join("\n");
-  const { reply, state } = parseStateBlock(rawText);
-  return jsonResponse({ reply, state });
+  const turnLimit = await env.COMPANION_TURN_RATE_LIMITER.limit({
+    key: await rateLimitKey(request, "turn", sessionId),
+  });
+  if (!turnLimit.success) return jsonResponse({ reply: "", state: null, error: "rate_limited" }, 429);
+
+  let raw: unknown;
+  try {
+    raw = await readSmallJson(request);
+  } catch (cause) {
+    const error = cause instanceof Error ? cause.message : "bad_request";
+    return jsonResponse({ reply: "", state: null, error }, error === "payload_too_large" ? 413 : 400);
+  }
+  const input = validateTurnInput(raw);
+  if (!input) return jsonResponse({ reply: "", state: null, error: "bad_request" }, 400);
+
+  const session = env.COMPANION_SESSIONS.get(env.COMPANION_SESSIONS.idFromName(sessionId));
+  return session.fetch("https://companion-session/turn", {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify(input),
+  });
+}
+
+async function handleCloseSession(request: Request, env: Env): Promise<Response> {
+  if (request.method !== "DELETE") return jsonResponse({ error: "method_not_allowed" }, 405);
+  if (!sameOrigin(request)) return jsonResponse({ error: "forbidden" }, 403);
+
+  const sessionId = parseCookie(request, SESSION_COOKIE);
+  if (sessionId && /^[0-9a-f-]{36}$/i.test(sessionId)) {
+    const session = env.COMPANION_SESSIONS.get(env.COMPANION_SESSIONS.idFromName(sessionId));
+    await session.fetch("https://companion-session/close", { method: "DELETE" }).catch(() => undefined);
+  }
+  return jsonResponse({ ok: true }, 200, { "set-cookie": clearSessionCookie() });
+}
+
+function legacyCompanionResponse(env: Env): Response {
+  if (!hostedCompanionEnabled(env)) return hostedDisabledResponse();
+  const body: CompanionResponse = { reply: "", state: null, error: "session_api_required" };
+  return jsonResponse(body, 426);
 }
 
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
-    if (url.pathname === "/api/companion") {
-      try {
-        return await handleCompanion(request, env);
-      } catch {
+    try {
+      if (url.pathname === "/api/companion/session") {
+        return request.method === "DELETE"
+          ? handleCloseSession(request, env)
+          : handleCreateSession(request, env);
+      }
+      if (url.pathname === "/api/companion/turn") return handleTurn(request, env);
+      if (url.pathname === "/api/companion") return legacyCompanionResponse(env);
+      if (url.pathname === "/api/bridge-origin") {
+        return jsonResponse({ error: "quick_tunnel_discovery_removed" }, 410);
+      }
+      return env.ASSETS.fetch(request);
+    } catch {
+      if (url.pathname.startsWith("/api/companion")) {
         return jsonResponse({ reply: "", state: null, error: "internal" }, 500);
       }
+      return jsonResponse({ error: "internal" }, 500);
     }
-    if (url.pathname === "/api/bridge-origin") {
-      try {
-        return await handleBridgeOrigin(request, env);
-      } catch {
-        return new Response(JSON.stringify({ error: "internal" }), { status: 500, headers: JSON_HEADERS });
-      }
-    }
-    return env.ASSETS.fetch(request);
   },
 };
