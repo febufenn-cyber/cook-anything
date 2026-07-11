@@ -1,10 +1,11 @@
+import type { Allergen } from "../types";
+
 /**
  * Cooking Companion — shared recipe, state, BYOK chat, and hosted API shapes.
  *
- * Phase 1 deliberately separates the two trust models:
- * - BYOK runs in the browser and may use the full local recipe/state/history.
- * - Hosted mode sends only a recipe id when creating a session and only the
- *   newest text message plus an idempotency key for each turn.
+ * Phase 1 separates browser authority from hosted server authority. Phase 2
+ * adds a conservative trust context so neither hosted nor BYOK responses can
+ * silently upgrade allergen, safety, provenance or cook-test claims.
  */
 
 export type IngredientRole =
@@ -48,6 +49,17 @@ export interface CompanionStep {
   timer_minutes?: number;
 }
 
+export interface CompanionTrustContext {
+  allergen_status: "derived" | "reviewed" | "incomplete" | "unknown";
+  contains_allergens: Allergen[];
+  cross_contact_notes: string[];
+  safety_warnings: string[];
+  critical_checks: string[];
+  cook_test_status: "not_cook_tested" | "partially_cook_tested" | "cook_tested";
+  provenance_summary: string;
+  substitution_warning: string;
+}
+
 /** The recipe JSON used to ground a companion session. */
 export interface CompanionRecipe {
   recipe_id: string;
@@ -58,6 +70,7 @@ export interface CompanionRecipe {
   stages: string[];
   ingredients: CompanionIngredient[];
   steps: CompanionStep[];
+  trust: CompanionTrustContext;
   substitution_notes?: string;
   indian_kitchen_adaptation?: string | null;
 }
