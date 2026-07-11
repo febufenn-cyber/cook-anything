@@ -57,7 +57,7 @@ Cloudflare Worker
   │    ├─ bounded state/history
   │    └─ automatic expiry alarm
   └─ singleton CompanionGate Durable Object
-       ├─ strict active-execution ceiling
+       ├─ serialized active-execution leases
        └─ strict daily execution circuit breaker
                     │
                     v
@@ -73,6 +73,10 @@ snapshot rather than accepting browser-provided content.
 
 The build runs this generator automatically.
 
+Recipe and session JSON is escaped before it is placed inside prompt delimiters.
+Literal `<`, `>` and `&` characters inside data cannot close the application’s
+`<recipe_data>` or `<session_state>` boundary.
+
 ## Session ownership and retention
 
 - Browser receives a random `__Host-` HttpOnly, Secure, SameSite=Strict cookie.
@@ -80,6 +84,8 @@ The build runs this generator automatically.
 - Default inactivity lifetime is two hours.
 - A Durable Object alarm deletes abandoned sessions even when no later request
   arrives.
+- The expiry alarm is renewed before a provider execution starts and again when
+  the result is committed, so it cannot delete a live long-running turn.
 - A session accepts at most 30 successful turns by default.
 - Closing the API session deletes its stored state immediately.
 
@@ -104,9 +110,14 @@ Model state is untrusted. Before committing it, the session validates:
 - bounded servings, arrays and strings
 - maximum five timers and valid timer ranges
 - bounded substitution ledger and flags
+- no duplicate completed-step identifiers
+- completed steps, flags and substitution ledger are append-only
+- at most one new completed step and one stage/step advance per turn
+- no backward or multi-step stage/current-step jumps
 
-Malformed state is discarded while the last valid state is preserved. The text
-reply may still be returned with `state_warning: "invalid_model_state"`.
+Malformed or invalidly advancing state is discarded while the last valid state
+is preserved. The text reply may still be returned with
+`state_warning: "invalid_model_state"`.
 
 ## Global abuse controls
 
@@ -118,8 +129,8 @@ Defaults in `wrangler.jsonc`:
 - maximum 300 hosted execution attempts per UTC day
 - maximum 30 successful turns per session
 
-The Cloudflare Rate Limiting binding is a coarse edge defense. The Durable Object
-limits are the strict capacity and budget boundary.
+The Cloudflare Rate Limiting binding is a coarse edge defense. The serialized
+singleton Durable Object gate is the strict capacity and budget boundary.
 
 The `namespace_id` values under `ratelimits` must be unique within the Cloudflare
 account. Confirm `91017` and `91018` are unused before deployment; replace them
@@ -154,6 +165,7 @@ The bridge is text-only and stateless:
 - all other tools disabled
 - one model turn
 - bounded input and output
+- newest server-owned history retained within strict message/character budgets
 - maximum two child processes by default
 - timeout and client disconnect terminate the whole process group
 - minimal child environment excludes the bridge signing secret
@@ -228,8 +240,11 @@ Public API:
 - expired and malformed cookies are rejected
 - repeated `client_turn_id` never executes twice
 - simultaneous turns remain ordered
+- simultaneous global lease requests cannot exceed capacity
 - session turn, global concurrency and daily limits trigger correctly
 - abandoned session data disappears after the configured alarm
+- prompt delimiter strings inside trusted recipe/state fields remain data
+- model state cannot remove progress, rewrite ledger entries or jump steps/stages
 
 Bridge:
 
@@ -238,6 +253,7 @@ Bridge:
 - repeated request ID is rejected
 - timestamp outside the replay window is rejected
 - unknown body fields are rejected
+- newest history is retained while old history is discarded at size limits
 - history and output limits are enforced
 - timeout kills the Claude process group
 - disconnect kills the Claude process group
