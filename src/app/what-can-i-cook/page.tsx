@@ -6,7 +6,7 @@ import PageHero from "@/components/PageHero";
 export const metadata: Metadata = {
   title: "What can I cook with these ingredients?",
   description:
-    "Enter the ingredients in your kitchen — in English, Tamil or Hindi — and discover matching dishes from every cuisine, with missing items, substitutions and cook times.",
+    "Enter ingredients naturally in English, Tamil, Tanglish, Hindi or Hinglish. See explainable recipe matches, essential missing items, feasible substitutions and equipment constraints.",
   alternates: { canonical: "/what-can-i-cook/" },
 };
 
@@ -14,12 +14,12 @@ export default function WhatCanICookPage() {
   return (
     <>
       <PageHero
-        eyebrow="Ingredient matcher"
-        title="What can I cook?"
-        intro="Add what's in your kitchen. Recipes from every culture line up by how much of them you already have — turmeric dots you have, hollow dots you're missing."
+        eyebrow="Your kitchen → a real dish"
+        title="Tell us what you have"
+        intro="Type it naturally. We weight the ingredients that define a dish, disclose every pantry assumption, and explain what is truly ready, close, substitutable or still needs shopping."
       />
       <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
-        <Suspense>
+        <Suspense fallback={<p className="text-sm text-tamarind-faint">Loading the pantry matcher…</p>}>
           <IngredientMatcher />
         </Suspense>
       </div>
