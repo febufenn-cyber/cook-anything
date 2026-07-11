@@ -9,7 +9,7 @@ import type { DurableObjectStateLike, Env } from "./env";
 import { executeHostedTurn } from "./execution";
 import {
   jsonResponse,
-  validateCompanionState,
+  validateCompanionStateTransition,
   validateTrustedRecipe,
   validateTurnInput,
 } from "./security";
@@ -79,6 +79,8 @@ function trimRecentTurns(turns: Record<string, StoredTurn>): Record<string, Stor
 
 /** Global active-execution and daily-budget gate. */
 export class CompanionGate {
+  private queue: Promise<void> = Promise.resolve();
+
   constructor(
     private readonly ctx: DurableObjectStateLike,
     private readonly env: Env,
@@ -86,9 +88,19 @@ export class CompanionGate {
 
   async fetch(request: Request): Promise<Response> {
     const url = new URL(request.url);
-    if (request.method === "POST" && url.pathname === "/acquire") return this.acquire();
-    if (request.method === "POST" && url.pathname === "/release") return this.release(request);
+    if (request.method === "POST" && url.pathname === "/acquire") {
+      return this.enqueue(() => this.acquire());
+    }
+    if (request.method === "POST" && url.pathname === "/release") {
+      return this.enqueue(() => this.release(request));
+    }
     return jsonResponse({ error: "not_found" }, 404);
+  }
+
+  private enqueue<T>(task: () => Promise<T>): Promise<T> {
+    const running = this.queue.then(task, task);
+    this.queue = running.then(() => undefined, () => undefined);
+    return running;
   }
 
   private async acquire(): Promise<Response> {
@@ -97,14 +109,13 @@ export class CompanionGate {
     const maxActive = boundedInt(this.env.COMPANION_MAX_ACTIVE_EXECUTIONS, 2, 1, 20);
     const dailyLimit = boundedInt(this.env.COMPANION_DAILY_EXECUTION_LIMIT, 300, 1, 100_000);
     const stored = await this.ctx.storage.get<GateRecord>(GATE_STORAGE_KEY);
-    const activeLeases = Object.fromEntries(
-      Object.entries(stored?.active_leases ?? {}).filter(([, expiresAt]) => expiresAt > now),
+    const gate: GateRecord = stored?.utc_day === day
+      ? stored
+      : { utc_day: day, execution_count: 0, active_leases: {} };
+
+    gate.active_leases = Object.fromEntries(
+      Object.entries(gate.active_leases).filter(([, expiresAt]) => expiresAt > now),
     );
-    const gate: GateRecord = {
-      utc_day: day,
-      execution_count: stored?.utc_day === day ? stored.execution_count : 0,
-      active_leases: activeLeases,
-    };
 
     if (gate.execution_count >= dailyLimit) {
       await this.ctx.storage.put(GATE_STORAGE_KEY, gate);
@@ -256,7 +267,10 @@ export class CompanionSession {
     const leaseId = acquiredBody.lease_id;
     record.recent_turns[input.client_turn_id] = { status: "processing", at: now };
     record.recent_turns = trimRecentTurns(record.recent_turns);
-    await this.ctx.storage.put(SESSION_STORAGE_KEY, record);
+    await Promise.all([
+      this.ctx.storage.put(SESSION_STORAGE_KEY, record),
+      this.scheduleExpiry(now),
+    ]);
 
     try {
       const executed = await executeHostedTurn(
@@ -269,7 +283,7 @@ export class CompanionSession {
       if (!executed.reply) throw new Error("upstream_error");
 
       const validatedState = executed.candidateState
-        ? validateCompanionState(executed.candidateState, record.recipe)
+        ? validateCompanionStateTransition(executed.candidateState, record.state, record.recipe)
         : null;
       const response: CompanionResponse = {
         reply: executed.reply,
