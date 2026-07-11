@@ -8,8 +8,8 @@ const MAX_TOKENS = 700;
 const UPSTREAM_TIMEOUT_MS = 90_000;
 const MAX_UPSTREAM_TEXT_CHARS = 100_000;
 const MAX_VISIBLE_REPLY_CHARS = 8_000;
-const MAX_BRIDGE_HISTORY_MESSAGES = 16;
-const MAX_BRIDGE_HISTORY_CHARS = 24_000;
+const MAX_HISTORY_MESSAGES = 16;
+const MAX_HISTORY_CHARS = 24_000;
 
 export interface ExecutionResult {
   reply: string;
@@ -55,17 +55,22 @@ function parseBoundedResult(raw: string): ExecutionResult {
   return { reply: parsed.reply, candidateState: parsed.state };
 }
 
-function bridgeHistory(history: ChatMessage[]): { role: "user" | "assistant"; content: string }[] {
-  const bounded: { role: "user" | "assistant"; content: string }[] = [];
+/** Keep the newest text turns while bounding both messages and characters. */
+function boundedHistory(history: ChatMessage[]): { role: "user" | "assistant"; content: string }[] {
+  const selected: { role: "user" | "assistant"; content: string }[] = [];
   let chars = 0;
-  for (const message of history.slice(-MAX_BRIDGE_HISTORY_MESSAGES)) {
+  const candidates = history.slice(-MAX_HISTORY_MESSAGES);
+
+  for (let index = candidates.length - 1; index >= 0; index -= 1) {
+    const message = candidates[index];
     if (typeof message.content !== "string") continue;
     const content = message.content.slice(0, 4_000);
-    if (!content || chars + content.length > MAX_BRIDGE_HISTORY_CHARS) break;
-    bounded.push({ role: message.role, content });
+    if (!content) continue;
+    if (chars + content.length > MAX_HISTORY_CHARS) break;
+    selected.unshift({ role: message.role, content });
     chars += content.length;
   }
-  return bounded;
+  return selected;
 }
 
 async function executeThroughBridge(
@@ -86,7 +91,7 @@ async function executeThroughBridge(
     request_id: requestId,
     system: buildRecipeSystemText(recipe),
     state_system: buildStateSystemText(state),
-    history: bridgeHistory(history),
+    history: boundedHistory(history),
     message,
   });
   const bodyHash = await sha256Hex(body);
@@ -151,7 +156,7 @@ async function executeThroughAnthropic(
           },
           { type: "text", text: buildStateSystemText(state) },
         ],
-        messages: [...history, { role: "user", content: message }],
+        messages: [...boundedHistory(history), { role: "user", content: message }],
       }),
     });
   } catch {
