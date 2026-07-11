@@ -13,7 +13,7 @@ import {
   type SavedRecipe,
   type ShoppingListItem,
 } from "./types";
-import { queueLocalDelete, queueLocalUpsert } from "../sync/local-store";
+import { clearSyncState, queueLocalDelete, queueLocalUpsert } from "../sync/local-store";
 import type { RemoteSyncRecord, SyncEntityType, SyncPayload } from "../sync/types";
 
 const DB_NAME = "cook-anything-kitchen";
@@ -381,6 +381,7 @@ export const kitchenRepository = new IndexedDbKitchenRepository();
 
 export async function deleteAllLocalCookAnythingData(): Promise<void> {
   try { await kitchenRepository.clearKitchenStores(); } catch { /* IndexedDB may be unavailable */ }
+  try { await clearSyncState(); } catch { /* Sync IndexedDB may be unavailable */ }
   if (typeof window !== "undefined") {
     for (const storage of [window.localStorage, window.sessionStorage]) {
       const keys = Array.from({ length: storage.length }, (_, index) => storage.key(index)).filter((key): key is string => Boolean(key));
