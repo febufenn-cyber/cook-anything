@@ -6,6 +6,7 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import PwaRegistration from "@/components/PwaRegistration";
 import LegacyCookbookMigration from "@/components/LegacyCookbookMigration";
+import PortableKitchenProvider from "@/components/PortableKitchenProvider";
 import "./globals.css";
 
 const youngSerif = Young_Serif({
@@ -49,11 +50,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${youngSerif.variable} ${schibsted.variable}`}>
       <body className="min-h-screen flex flex-col">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd()) }} />
-        <SiteHeader />
-        <main className="flex-1">{children}</main>
-        <SiteFooter />
-        <LegacyCookbookMigration />
-        <PwaRegistration />
+        <PortableKitchenProvider>
+          <SiteHeader />
+          <main className="flex-1">{children}</main>
+          <SiteFooter />
+          <LegacyCookbookMigration />
+          <PwaRegistration />
+        </PortableKitchenProvider>
       </body>
     </html>
   );
