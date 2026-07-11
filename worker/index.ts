@@ -19,6 +19,11 @@ interface Env {
    */
   COMPANION_UPSTREAM?: string;
   COMPANION_UPSTREAM_TOKEN?: string;
+  /** KV holding the bridge's current quick-tunnel origin under key "origin" */
+  COMPANION_CONFIG?: {
+    get(key: string): Promise<string | null>;
+    put(key: string, value: string): Promise<void>;
+  };
 }
 
 const MAX_BODY_BYTES = 2_500_000; // one downscaled photo + history, generously
@@ -33,8 +38,8 @@ function jsonResponse(body: CompanionResponse, status = 200): Response {
 }
 
 /** Subscription mode: proxy the turn to the VPS bridge running Claude Code. */
-async function bridgeTurn(env: Env, body: CompanionRequest): Promise<Response> {
-  const upstream = env.COMPANION_UPSTREAM!.replace(/\/$/, "");
+async function bridgeTurn(env: Env, upstreamUrl: string, body: CompanionRequest): Promise<Response> {
+  const upstream = upstreamUrl.replace(/\/$/, "");
   let res: globalThis.Response;
   try {
     res = await fetch(`${upstream}/turn`, {
@@ -63,11 +68,34 @@ async function bridgeTurn(env: Env, body: CompanionRequest): Promise<Response> {
   return jsonResponse({ reply, state, ...(data.session_id ? { bridge_session_id: data.session_id } : {}) });
 }
 
+/**
+ * The VPS tunnel script announces its current quick-tunnel origin here
+ * (authenticated by the shared bridge token) — the Worker persists it to KV.
+ * This avoids needing any Cloudflare API credentials on the VPS.
+ */
+async function handleBridgeOrigin(request: Request, env: Env): Promise<Response> {
+  if (request.method !== "POST") return new Response(null, { status: 405 });
+  if (
+    !env.COMPANION_CONFIG ||
+    !env.COMPANION_UPSTREAM_TOKEN ||
+    request.headers.get("x-bridge-token") !== env.COMPANION_UPSTREAM_TOKEN
+  ) {
+    return new Response(JSON.stringify({ error: "unauthorized" }), { status: 401, headers: JSON_HEADERS });
+  }
+  const body = (await request.json().catch(() => null)) as { origin?: string } | null;
+  const origin = body?.origin ?? "";
+  if (!/^https:\/\/[a-z0-9-]+\.trycloudflare\.com$/.test(origin)) {
+    return new Response(JSON.stringify({ error: "bad_origin" }), { status: 400, headers: JSON_HEADERS });
+  }
+  await env.COMPANION_CONFIG.put("origin", origin);
+  return new Response(JSON.stringify({ ok: true, origin }), { headers: JSON_HEADERS });
+}
+
 async function handleCompanion(request: Request, env: Env): Promise<Response> {
   if (request.method !== "POST") {
     return jsonResponse({ reply: "", state: null, error: "method_not_allowed" }, 405);
   }
-  if (!env.COMPANION_UPSTREAM && !env.ANTHROPIC_API_KEY) {
+  if (!env.COMPANION_UPSTREAM && !env.COMPANION_CONFIG && !env.ANTHROPIC_API_KEY) {
     return jsonResponse({ reply: "", state: null, error: "not_configured" }, 503);
   }
   const bodyText = await request.text();
@@ -86,8 +114,12 @@ async function handleCompanion(request: Request, env: Env): Promise<Response> {
   }
   const messages = body.messages.slice(-MAX_MESSAGES);
 
-  if (env.COMPANION_UPSTREAM) {
-    return bridgeTurn(env, { ...body, messages });
+  // Bridge origin: static var, or the quick tunnel's current URL published to KV.
+  const upstream =
+    env.COMPANION_UPSTREAM ??
+    (env.COMPANION_CONFIG ? await env.COMPANION_CONFIG.get("origin") : null);
+  if (upstream) {
+    return bridgeTurn(env, upstream, { ...body, messages });
   }
   if (!env.ANTHROPIC_API_KEY) {
     return jsonResponse({ reply: "", state: null, error: "not_configured" }, 503);
@@ -142,6 +174,13 @@ export default {
         return await handleCompanion(request, env);
       } catch {
         return jsonResponse({ reply: "", state: null, error: "internal" }, 500);
+      }
+    }
+    if (url.pathname === "/api/bridge-origin") {
+      try {
+        return await handleBridgeOrigin(request, env);
+      } catch {
+        return new Response(JSON.stringify({ error: "internal" }), { status: 500, headers: JSON_HEADERS });
       }
     }
     return env.ASSETS.fetch(request);

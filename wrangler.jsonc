@@ -6,6 +6,11 @@
   //     and `wrangler secret put COMPANION_UPSTREAM_TOKEN`.
   //   Hosted key — `wrangler secret put ANTHROPIC_API_KEY`.
   // "vars": { "COMPANION_UPSTREAM": "https://companion-bridge.robofox.online" },
+  // Subscription bridge via quick tunnel: bridge/tunnel script on the VPS
+  // publishes its current trycloudflare origin to this KV under key "origin".
+  "kv_namespaces": [
+    { "binding": "COMPANION_CONFIG", "id": "6ff2aa2e59384dd18a512e455f2b682b" }
+  ],
   "name": "cook-anything",
   "main": "worker/index.ts",
   "compatibility_date": "2026-07-01",

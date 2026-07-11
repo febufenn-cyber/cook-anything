@@ -11,6 +11,30 @@ browser ──> worker /api/companion ──> VPS bridge (:8788, localhost)
                                         └─ claude -p  (subscription auth)
 ```
 
+## As deployed (2026-07-11, OCI VPS 68.233.116.11)
+
+The live setup skips the named tunnel entirely and mirrors the
+leadfinder-radar pattern already running on the same box:
+
+- `companion-bridge.service` — `bridge/server.mjs` as `ubuntu` on
+  `127.0.0.1:8788`, using the VPS's existing `claude` Max login (so no
+  `CLAUDE_CODE_OAUTH_TOKEN` needed in `/etc/companion-bridge.env`).
+- `companion-tunnel.service` — `bridge/companion-tunnel.sh`: a cloudflared
+  *quick tunnel* (`*.trycloudflare.com`) fronting :8788; on every (re)start it
+  publishes the fresh origin to the Worker's `COMPANION_CONFIG` KV namespace
+  (key `origin`), which the Worker reads per turn. No zone cert, no open
+  ports, survives URL rotation.
+- Shared secret: `BRIDGE_TOKEN` in `/etc/companion-bridge.env` ==
+  `COMPANION_UPSTREAM_TOKEN` Worker secret.
+- Logs on the VPS: `/opt/cook-anything/logs/{bridge,tunnel}*.log`.
+- Updating the bridge code: `scp bridge/server.mjs bridge/companion-tunnel.sh
+  68.233.116.11:/opt/cook-anything/bridge/ && ssh 68.233.116.11 "sudo
+  systemctl restart companion-bridge companion-tunnel"`.
+
+The sections below describe the from-scratch setup (fresh box, named tunnel
+on your own hostname) — use them if the quick-tunnel pattern ever needs
+upgrading to a stable hostname.
+
 Trade-offs vs an API key: turns share your plan's 5-hour session windows with
 your other Claude Code usage (mid-cook rate-limiting is possible), and each
 turn pays ~2-4s of CLI startup latency. Photos work (written to temp files,

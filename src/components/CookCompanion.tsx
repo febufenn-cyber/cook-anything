@@ -338,13 +338,21 @@ export default function CookCompanion({
             <p className="text-tamarind-faint">No swaps yet — tell me what you&apos;re missing and we&apos;ll sort it.</p>
           ) : (
             <ul className="space-y-1">
-              {state.substitution_ledger.map((entry, i) => (
-                <li key={i}>
-                  <span className="font-medium">{entry.original}</span>
-                  <span className="text-tamarind-soft"> → {entry.now}{entry.qty ? ` (${entry.qty})` : ""}</span>
-                  {entry.constraint && <span className="block text-xs text-tamarind-faint">{entry.constraint}</span>}
-                </li>
-              ))}
+              {state.substitution_ledger.map((raw, i) => {
+                // Models sometimes emit substitute/ratio/reason instead of
+                // the schema's now/qty/constraint — accept both spellings.
+                const entry = raw as Record<string, string | undefined>;
+                const now = entry.now ?? entry.substitute ?? "?";
+                const qty = entry.qty ?? entry.ratio;
+                const note = entry.constraint ?? entry.reason;
+                return (
+                  <li key={i}>
+                    <span className="font-medium">{entry.original}</span>
+                    <span className="text-tamarind-soft"> → {now}{qty ? ` (${qty})` : ""}</span>
+                    {note && <span className="block text-xs text-tamarind-faint">{note}</span>}
+                  </li>
+                );
+              })}
             </ul>
           )}
         </div>
