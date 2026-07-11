@@ -12,12 +12,22 @@ for every international dish.
 - Next.js (App Router, static export) + TypeScript + Tailwind v4
 - Local JSON data layer (`data/`) with a Postgres-compatible mirror (`db/schema.sql`)
 - Client-side matching/search over a compiled index (`public/search-index.json`)
-- Cloudflare Worker (`worker/index.ts`) serving the static export + the
-  Cooking Companion API (`POST /api/companion`). The companion is
-  bring-your-own-key by default: users connect their own Claude or
-  OpenAI-compatible API key in the UI (stored in their browser, calls go
-  browser → provider). Optionally host a site-wide key via
-  `wrangler secret put ANTHROPIC_API_KEY` — see `docs/AI-ASSISTANT.md`.
+- Cloudflare Worker (`worker/index.ts`) serving the static export and retaining
+  the hosted Cooking Companion API boundary (`POST /api/companion`).
+- Browser BYOK companion: users connect their own Claude or OpenAI-compatible
+  API key in the UI; calls go browser → provider.
+
+## Hosted companion safety status
+
+Hosted execution through a site-wide API key or the Claude Code VPS bridge is
+**disabled by default under Phase 0 containment**. `wrangler.jsonc` sets
+`HOSTED_COMPANION_ENABLED` to `"false"`, and the Worker fails closed unless the
+value is exactly `"true"`. Browser BYOK, recipe search, ingredient matching and
+normal Cook Mode remain available.
+
+Do not re-enable hosted execution until every exit condition in
+`docs/PHASE-0-CONTAINMENT.md` is complete. VPS bridge architecture and the
+sanitized future setup notes live in `docs/VPS-BRIDGE.md`.
 
 ## Commands
 
@@ -25,7 +35,7 @@ for every international dish.
 npm install
 npm run dev              # local dev at localhost:3000
 npm run build            # validates data, builds search index, exports to out/
-npm run preview          # build + wrangler dev (full site incl. companion API)
+npm run preview          # build + wrangler dev
 npm run deploy           # build + wrangler deploy
 
 # Data pipeline
@@ -51,8 +61,8 @@ src/lib/          types.ts (schema), canon.ts (enums), match.ts (engine),
 src/app/          all routes (recipes, cuisines, countries, regions,
                   ingredients, methods, diets, 14 SEO collections, trust pages)
 scripts/          the import/validation/dedup/license pipeline
-docs/             RECIPE-SPEC (authoring contract), SCALING (to 1M recipes),
-                  AI-ASSISTANT (assistant architecture), MONETIZATION
+docs/             RECIPE-SPEC, SCALING, AI-ASSISTANT, MONETIZATION,
+                  PHASE-0-CONTAINMENT, VPS-BRIDGE
 db/schema.sql     Postgres/Supabase upgrade path
 ```
 
