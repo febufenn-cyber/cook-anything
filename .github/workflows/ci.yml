@@ -64,4 +64,13 @@ jobs:
           retention-days: 3
 
       - name: Bundle Worker without deploying
-        run: npx --yes wrangler@latest deploy --dry-run --outdir .wrangler-dry-run
+        run: npx --yes wrangler@latest deploy --dry-run --outdir .wrangler-dry-run 2>&1 | tee wrangler-dry-run.log
+
+      - name: Preserve Wrangler dry-run output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wrangler-dry-run-output
+          path: wrangler-dry-run.log
+          if-no-files-found: ignore
+          retention-days: 3
