@@ -3,11 +3,13 @@
  * /what-can-i-cook and /search into public/search-index.json.
  *
  * Phase 3 adds deterministic ingredient importance, feasible substitution
- * metadata and a corpus version without changing the canonical recipe JSON.
+ * metadata and a corpus version without changing the source batch JSON.
  */
 import { createHash } from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
+import { applyIngredientCorrections, applyRecipeCorrections, CORPUS_CORRECTION_VERSION } from "../src/lib/corpus-corrections";
+import type { IngredientDef, Recipe } from "../src/lib/types";
 
 const ROOT = path.join(__dirname, "..");
 const RECIPES_DIR = path.join(ROOT, "data", "recipes");
@@ -40,16 +42,17 @@ function normalise(value: string): string {
 
 const files = fs.readdirSync(RECIPES_DIR).filter((file) => file.endsWith(".json")).sort();
 const seen = new Set<string>();
-const recipes: AnyRecipe[] = [];
+const recipes: Recipe[] = [];
 for (const file of files) {
-  for (const recipe of JSON.parse(fs.readFileSync(path.join(RECIPES_DIR, file), "utf8"))) {
-    if (seen.has(recipe.slug)) throw new Error(`duplicate slug reached search-index build: ${recipe.slug}`);
-    seen.add(recipe.slug);
-    recipes.push(recipe);
+  for (const rawRecipe of JSON.parse(fs.readFileSync(path.join(RECIPES_DIR, file), "utf8")) as Recipe[]) {
+    if (seen.has(rawRecipe.slug)) throw new Error(`duplicate slug reached search-index build: ${rawRecipe.slug}`);
+    seen.add(rawRecipe.slug);
+    recipes.push(applyRecipeCorrections(rawRecipe));
   }
 }
 
-const ingredients = JSON.parse(fs.readFileSync(path.join(TAXO, "ingredients.json"), "utf8")) as AnyRecipe[];
+const ingredients = (JSON.parse(fs.readFileSync(path.join(TAXO, "ingredients.json"), "utf8")) as IngredientDef[])
+  .map(applyIngredientCorrections);
 const cuisines = JSON.parse(fs.readFileSync(path.join(TAXO, "cuisines.json"), "utf8")) as AnyRecipe[];
 const ingredientBySlug = new Map(ingredients.map((ingredient) => [ingredient.slug, ingredient]));
 
@@ -60,43 +63,43 @@ const aliasEntries = ingredients
       ingredient.name.replace(/\s*\(.*\)\s*/g, ""),
       ingredient.ta,
       ingredient.hi,
-      ...(ingredient.aliases ?? []),
+      ...ingredient.aliases,
     ]
       .filter(Boolean)
-      .map((term: string) => normalise(term))
-      .filter((term: string) => term.length >= 2);
+      .map((term) => normalise(String(term)))
+      .filter((term) => term.length >= 2);
     return [...new Set(terms)].map((term) => ({ term, slug: ingredient.slug }));
   })
   .sort((a, b) => b.term.length - a.term.length);
 
-function titleMentionsIngredient(recipe: AnyRecipe, ingredient: AnyRecipe): boolean {
+function titleMentionsIngredient(recipe: Recipe, ingredient: IngredientDef): boolean {
   const title = normalise(`${recipe.title ?? ""} ${recipe.nativeTitle ?? ""}`);
   const terms = [
     ingredient.slug.replace(/-/g, " "),
     ingredient.name.replace(/\s*\(.*\)\s*/g, ""),
     ingredient.ta,
     ingredient.hi,
-    ...(ingredient.aliases ?? []),
+    ...ingredient.aliases,
   ]
     .filter(Boolean)
-    .map((term: string) => normalise(term))
-    .filter((term: string) => term.length >= 3);
+    .map((term) => normalise(String(term)))
+    .filter((term) => term.length >= 3);
   return terms.some((term) => new RegExp(`(?:^|\\s)${term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?:$|\\s)`).test(title));
 }
 
-function importanceFor(recipe: AnyRecipe, ingredient: AnyRecipe, index: number): Importance {
+function importanceFor(recipe: Recipe, ingredient: Recipe["ingredients"][number], index: number): Importance {
   if (ingredient.optional) return "optional";
   const definition = ingredientBySlug.get(ingredient.normalizedName);
   if (definition?.pantryStaple) return "pantry";
   if (definition && titleMentionsIngredient(recipe, definition)) return "identity";
 
   const category = definition?.category;
-  if (["meat", "seafood", "egg", "grain", "pulse"].includes(category)) return "structural";
+  if (category && ["meat", "seafood", "egg", "grain", "pulse"].includes(category)) return "structural";
   if (category === "dairy" && /paneer|cheese|curd|yog|cream|milk|khoya/.test(ingredient.normalizedName)) {
     return index <= 2 ? "structural" : "important";
   }
-  if (index === 0 && !["spice", "herb", "oil", "condiment", "sweetener"].includes(category)) return "structural";
-  if (index <= 2 || ["vegetable", "fruit", "nut"].includes(category)) return "important";
+  if (index === 0 && category && !["spice", "herb", "oil", "condiment", "sweetener"].includes(category)) return "structural";
+  if (index <= 2 || (category && ["vegetable", "fruit", "nut"].includes(category))) return "important";
   return "flavour";
 }
 
@@ -117,22 +120,21 @@ function substitutionQuality(
   ingredientMeta: Record<string, { importance: Importance; weight: number }>,
 ): Quality {
   if (replacements.includes(sourceSlug)) return "equivalent";
-  const source = ingredientBySlug.get(sourceSlug);
-  const sourceCategory = source?.category;
+  const sourceCategory = ingredientBySlug.get(sourceSlug)?.category;
   const replacementCategories = replacements
     .map((slug) => ingredientBySlug.get(slug)?.category)
-    .filter(Boolean);
+    .filter((category): category is IngredientDef["category"] => Boolean(category));
   if (replacements.length && replacementCategories.every((category) => category === sourceCategory)) return "good";
   if (ingredientMeta[sourceSlug]?.importance === "identity") return "identity_change";
-  return replacements.length ? "workable" : "workable";
+  return "workable";
 }
 
 const compactRecipes = recipes.map((recipe) => {
-  const requiredIngredients = recipe.ingredients.filter((ingredient: AnyRecipe) => !ingredient.optional);
-  const optionalIngredients = recipe.ingredients.filter((ingredient: AnyRecipe) => ingredient.optional);
+  const requiredIngredients = recipe.ingredients.filter((ingredient) => !ingredient.optional);
+  const optionalIngredients = recipe.ingredients.filter((ingredient) => ingredient.optional);
   const ingredientMeta: Record<string, { importance: Importance; weight: number }> = {};
 
-  recipe.ingredients.forEach((ingredient: AnyRecipe, index: number) => {
+  recipe.ingredients.forEach((ingredient, index) => {
     const importance = importanceFor(recipe, ingredient, index);
     const existing = ingredientMeta[ingredient.normalizedName];
     if (!existing || IMPORTANCE_WEIGHT[importance] > existing.weight) {
@@ -140,7 +142,7 @@ const compactRecipes = recipes.map((recipe) => {
     }
   });
 
-  const subMeta = recipe.substitutions.map((substitution: AnyRecipe) => {
+  const subMeta = recipe.substitutions.map((substitution) => {
     const replacements = replacementSlugs(`${substitution.substitute ?? ""} ${substitution.notes ?? ""}`);
     return {
       ingredient: substitution.ingredient,
@@ -165,9 +167,9 @@ const compactRecipes = recipes.map((recipe) => {
     budgetLevel: recipe.budgetLevel,
     totalTimeMinutes: recipe.totalTimeMinutes,
     servings: recipe.servings,
-    req: [...new Set(requiredIngredients.map((ingredient: AnyRecipe) => ingredient.normalizedName))],
-    opt: [...new Set(optionalIngredients.map((ingredient: AnyRecipe) => ingredient.normalizedName))],
-    subs: recipe.substitutions.map((substitution: AnyRecipe) => [substitution.ingredient, substitution.substitute]),
+    req: [...new Set(requiredIngredients.map((ingredient) => ingredient.normalizedName))],
+    opt: [...new Set(optionalIngredients.map((ingredient) => ingredient.normalizedName))],
+    subs: recipe.substitutions.map((substitution) => [substitution.ingredient, substitution.substitute]),
     ingredientMeta,
     subMeta,
     cookware: recipe.cookware,
@@ -179,13 +181,14 @@ const compactRecipes = recipes.map((recipe) => {
 });
 
 const corpusVersion = createHash("sha256")
-  .update(JSON.stringify({ recipes: compactRecipes, ingredients }))
+  .update(JSON.stringify({ recipes: compactRecipes, ingredients, correctionVersion: CORPUS_CORRECTION_VERSION }))
   .digest("hex")
   .slice(0, 20);
 
 const index = {
   schemaVersion: SCHEMA_VERSION,
   corpusVersion,
+  correctionVersion: CORPUS_CORRECTION_VERSION,
   generatedAt: new Date().toISOString(),
   ingredients: ingredients.map((ingredient) => ({
     slug: ingredient.slug,
@@ -205,5 +208,5 @@ fs.mkdirSync(path.dirname(OUT), { recursive: true });
 fs.writeFileSync(OUT, JSON.stringify(index));
 const kb = Math.round(fs.statSync(OUT).size / 1024);
 console.log(
-  `build-search-index: schema ${SCHEMA_VERSION}, corpus ${corpusVersion}, ${index.recipes.length} recipes, ${index.ingredients.length} ingredients -> public/search-index.json (${kb} KB)`,
+  `build-search-index: schema ${SCHEMA_VERSION}, corpus ${corpusVersion}, corrections ${CORPUS_CORRECTION_VERSION}, ${index.recipes.length} recipes, ${index.ingredients.length} ingredients -> public/search-index.json (${kb} KB)`,
 );
