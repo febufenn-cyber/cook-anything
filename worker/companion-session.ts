@@ -77,10 +77,7 @@ function trimRecentTurns(turns: Record<string, StoredTurn>): Record<string, Stor
   );
 }
 
-/**
- * Singleton execution gate. Every hosted execution acquires a lease from the
- * same Durable Object, making active-process and daily limits strict globally.
- */
+/** Global active-execution and daily-budget gate. */
 export class CompanionGate {
   constructor(
     private readonly ctx: DurableObjectStateLike,
@@ -159,6 +156,11 @@ export class CompanionSession {
     return jsonResponse({ error: "not_found" }, 404);
   }
 
+  /** Cloudflare invokes this even when the user never returns. */
+  async alarm(): Promise<void> {
+    await this.ctx.storage.deleteAll();
+  }
+
   private enqueue<T>(task: () => Promise<T>): Promise<T> {
     const running = this.queue.then(task, task);
     this.queue = running.then(() => undefined, () => undefined);
@@ -173,20 +175,33 @@ export class CompanionSession {
     return boundedInt(this.env.COMPANION_MAX_TURNS_PER_SESSION, 30, 1, 100);
   }
 
+  private async scheduleExpiry(from: number): Promise<void> {
+    await this.ctx.storage.setAlarm(from + this.sessionTtlSeconds() * 1_000);
+  }
+
+  private async purge(): Promise<void> {
+    await Promise.all([
+      this.ctx.storage.deleteAlarm().catch(() => undefined),
+      this.ctx.storage.deleteAll(),
+    ]);
+  }
+
   private async initialize(request: Request): Promise<Response> {
     const raw = await request.json().catch(() => null);
     const recipe = validateTrustedRecipe(raw);
     if (!recipe) return jsonResponse({ state: null, error: "invalid_recipe_snapshot" }, 500);
 
+    const now = Date.now();
     const existing = await this.ctx.storage.get<SessionRecord>(SESSION_STORAGE_KEY);
-    if (existing) {
+    if (existing && now - existing.updated_at <= this.sessionTtlSeconds() * 1_000) {
       if (existing.recipe.recipe_id !== recipe.recipe_id || existing.recipe.version !== recipe.version) {
         return jsonResponse({ state: null, error: "session_conflict" }, 409);
       }
+      await this.scheduleExpiry(now);
       return jsonResponse({ state: existing.state });
     }
+    if (existing) await this.purge();
 
-    const now = Date.now();
     const record: SessionRecord = {
       schema_version: 1,
       recipe,
@@ -197,7 +212,10 @@ export class CompanionSession {
       turn_count: 0,
       recent_turns: {},
     };
-    await this.ctx.storage.put(SESSION_STORAGE_KEY, record);
+    await Promise.all([
+      this.ctx.storage.put(SESSION_STORAGE_KEY, record),
+      this.scheduleExpiry(now),
+    ]);
     return jsonResponse({ state: record.state });
   }
 
@@ -210,7 +228,7 @@ export class CompanionSession {
 
     const now = Date.now();
     if (now - record.updated_at > this.sessionTtlSeconds() * 1_000) {
-      await this.ctx.storage.deleteAll();
+      await this.purge();
       return jsonResponse({ reply: "", state: null, error: "session_expired" }, 401);
     }
 
@@ -274,7 +292,10 @@ export class CompanionSession {
         response,
       };
       record.recent_turns = trimRecentTurns(record.recent_turns);
-      await this.ctx.storage.put(SESSION_STORAGE_KEY, record);
+      await Promise.all([
+        this.ctx.storage.put(SESSION_STORAGE_KEY, record),
+        this.scheduleExpiry(completedAt),
+      ]);
       return jsonResponse(response);
     } catch (cause) {
       const error = cause instanceof Error ? cause.message : "upstream_error";
@@ -289,7 +310,10 @@ export class CompanionSession {
         response,
       };
       record.recent_turns = trimRecentTurns(record.recent_turns);
-      await this.ctx.storage.put(SESSION_STORAGE_KEY, record);
+      await Promise.all([
+        this.ctx.storage.put(SESSION_STORAGE_KEY, record),
+        this.scheduleExpiry(failedAt),
+      ]);
       return jsonResponse(response, status);
     } finally {
       this.ctx.waitUntil(gate.fetch("https://companion-gate/release", {
@@ -301,7 +325,7 @@ export class CompanionSession {
   }
 
   private async close(): Promise<Response> {
-    await this.ctx.storage.deleteAll();
+    await this.purge();
     return jsonResponse({ ok: true });
   }
 }
