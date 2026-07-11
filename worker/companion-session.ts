@@ -14,21 +14,29 @@ import {
   validateTurnInput,
 } from "./security";
 
-interface CachedTurn {
+interface ProcessingTurn {
+  status: "processing";
   at: number;
+}
+
+interface CompletedTurn {
+  status: "complete";
+  at: number;
+  http_status: number;
   response: CompanionResponse;
 }
+
+type StoredTurn = ProcessingTurn | CompletedTurn;
 
 interface SessionRecord {
   schema_version: 1;
   recipe: TrustedCompanionRecipe;
   state: CompanionState;
   history: ChatMessage[];
-  backend_session_id?: string;
   created_at: number;
   updated_at: number;
   turn_count: number;
-  recent_turns: Record<string, CachedTurn>;
+  recent_turns: Record<string, StoredTurn>;
 }
 
 interface GateRecord {
@@ -55,15 +63,23 @@ function todayUtc(now = Date.now()): string {
 function errorStatus(error: string): number {
   if (error === "bad_request" || error === "bad_json") return 400;
   if (error === "session_expired") return 401;
+  if (error === "turn_in_progress" || error === "turn_unknown") return 409;
   if (error === "session_limit" || error === "daily_limit" || error === "rate_limited") return 429;
   if (error === "busy" || error === "overloaded" || error === "not_configured") return 503;
   return 502;
 }
 
+function trimRecentTurns(turns: Record<string, StoredTurn>): Record<string, StoredTurn> {
+  return Object.fromEntries(
+    Object.entries(turns)
+      .sort(([, left], [, right]) => right.at - left.at)
+      .slice(0, IDEMPOTENCY_RESULTS),
+  );
+}
+
 /**
- * Singleton execution gate. Because every hosted execution acquires a lease
- * from the same Durable Object, active-process and daily limits are strict even
- * when requests arrive through different Worker isolates or sessions.
+ * Singleton execution gate. Every hosted execution acquires a lease from the
+ * same Durable Object, making active-process and daily limits strict globally.
  */
 export class CompanionGate {
   constructor(
@@ -198,8 +214,14 @@ export class CompanionSession {
       return jsonResponse({ reply: "", state: null, error: "session_expired" }, 401);
     }
 
-    const cached = record.recent_turns[input.client_turn_id];
-    if (cached) return jsonResponse(cached.response);
+    const existingTurn = record.recent_turns[input.client_turn_id];
+    if (existingTurn?.status === "complete") {
+      return jsonResponse(existingTurn.response, existingTurn.http_status);
+    }
+    if (existingTurn?.status === "processing") {
+      const error = now - existingTurn.at <= LEASE_TTL_MS ? "turn_in_progress" : "turn_unknown";
+      return jsonResponse({ reply: "", state: record.state, error }, 409);
+    }
     if (record.turn_count >= this.maxTurns()) {
       return jsonResponse({ reply: "", state: record.state, error: "session_limit" }, 429);
     }
@@ -213,6 +235,10 @@ export class CompanionSession {
     }
 
     const leaseId = acquiredBody.lease_id;
+    record.recent_turns[input.client_turn_id] = { status: "processing", at: now };
+    record.recent_turns = trimRecentTurns(record.recent_turns);
+    await this.ctx.storage.put(SESSION_STORAGE_KEY, record);
+
     try {
       const executed = await executeHostedTurn(
         this.env,
@@ -220,7 +246,6 @@ export class CompanionSession {
         record.state,
         record.history,
         input.message,
-        record.backend_session_id,
       );
       if (!executed.reply) throw new Error("upstream_error");
 
@@ -233,26 +258,39 @@ export class CompanionSession {
         ...(!validatedState ? { state_warning: "invalid_model_state" as const } : {}),
       };
 
+      const completedAt = Date.now();
       record.state = response.state ?? record.state;
       record.history = [
         ...record.history,
         { role: "user", content: input.message },
         { role: "assistant", content: executed.reply },
       ].slice(-HISTORY_MESSAGES);
-      record.backend_session_id = executed.backendSessionId ?? record.backend_session_id;
       record.turn_count += 1;
-      record.updated_at = now;
-      record.recent_turns[input.client_turn_id] = { at: now, response };
-
-      const recentEntries = Object.entries(record.recent_turns)
-        .sort(([, a], [, b]) => b.at - a.at)
-        .slice(0, IDEMPOTENCY_RESULTS);
-      record.recent_turns = Object.fromEntries(recentEntries);
+      record.updated_at = completedAt;
+      record.recent_turns[input.client_turn_id] = {
+        status: "complete",
+        at: completedAt,
+        http_status: 200,
+        response,
+      };
+      record.recent_turns = trimRecentTurns(record.recent_turns);
       await this.ctx.storage.put(SESSION_STORAGE_KEY, record);
       return jsonResponse(response);
     } catch (cause) {
       const error = cause instanceof Error ? cause.message : "upstream_error";
-      return jsonResponse({ reply: "", state: record.state, error }, errorStatus(error));
+      const status = errorStatus(error);
+      const response: CompanionResponse = { reply: "", state: record.state, error };
+      const failedAt = Date.now();
+      record.updated_at = failedAt;
+      record.recent_turns[input.client_turn_id] = {
+        status: "complete",
+        at: failedAt,
+        http_status: status,
+        response,
+      };
+      record.recent_turns = trimRecentTurns(record.recent_turns);
+      await this.ctx.storage.put(SESSION_STORAGE_KEY, record);
+      return jsonResponse(response, status);
     } finally {
       this.ctx.waitUntil(gate.fetch("https://companion-gate/release", {
         method: "POST",
