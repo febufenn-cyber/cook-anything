@@ -13,6 +13,8 @@ import {
   type SavedRecipe,
   type ShoppingListItem,
 } from "./types";
+import { clearSyncState, queueLocalDelete, queueLocalUpsert } from "../sync/local-store";
+import type { RemoteSyncRecord, SyncEntityType, SyncPayload } from "../sync/types";
 
 const DB_NAME = "cook-anything-kitchen";
 const DB_VERSION = 1;
@@ -33,11 +35,18 @@ export type KitchenEventType =
   | "shopping_list_updated"
   | "meal_plan_updated"
   | "local_data_replaced"
-  | "local_data_deleted";
+  | "local_data_deleted"
+  | "remote_sync_applied";
 
 export interface KitchenEvent {
   type: KitchenEventType;
   at: string;
+}
+
+export interface LocalSyncRecord {
+  entityType: SyncEntityType;
+  recordId: string;
+  payload: SyncPayload;
 }
 
 let databasePromise: Promise<IDBDatabase> | null = null;
@@ -146,6 +155,30 @@ async function clearStore(storeName: string): Promise<void> {
   await transactionDone(transaction);
 }
 
+function storeForEntity(entityType: SyncEntityType): string {
+  const stores: Record<SyncEntityType, string> = {
+    profile: STORE_PROFILE,
+    pantry_item: STORE_PANTRY,
+    saved_recipe: STORE_SAVED,
+    cook_history: STORE_HISTORY,
+    shopping_item: STORE_SHOPPING,
+    meal_plan_entry: STORE_PLAN,
+  };
+  return stores[entityType];
+}
+
+function eventForEntity(entityType: SyncEntityType): KitchenEventType {
+  const events: Record<SyncEntityType, KitchenEventType> = {
+    profile: "profile_changed",
+    pantry_item: "pantry_updated",
+    saved_recipe: "saved_recipes_updated",
+    cook_history: "cook_session_completed",
+    shopping_item: "shopping_list_updated",
+    meal_plan_entry: "meal_plan_updated",
+  };
+  return events[entityType];
+}
+
 export class IndexedDbKitchenRepository {
   async getProfile(): Promise<LocalKitchenProfile> {
     const db = await openDatabase();
@@ -155,7 +188,9 @@ export class IndexedDbKitchenRepository {
   }
 
   async saveProfile(profile: LocalKitchenProfile): Promise<void> {
-    await put(STORE_PROFILE, { ...profile, schemaVersion: KITCHEN_SCHEMA_VERSION, profileId: "local", updatedAt: isoNow() });
+    const normalized = { ...profile, schemaVersion: KITCHEN_SCHEMA_VERSION, profileId: "local" as const, updatedAt: isoNow() };
+    await put(STORE_PROFILE, normalized);
+    await queueLocalUpsert("profile", "local", normalized);
     broadcast("profile_changed");
   }
 
@@ -164,12 +199,15 @@ export class IndexedDbKitchenRepository {
   }
 
   async upsertPantryItem(item: PantryItem): Promise<void> {
-    await put(STORE_PANTRY, { ...item, updatedAt: isoNow() });
+    const normalized = { ...item, updatedAt: isoNow() };
+    await put(STORE_PANTRY, normalized);
+    await queueLocalUpsert("pantry_item", normalized.ingredientSlug, normalized);
     broadcast("pantry_updated");
   }
 
   async deletePantryItem(ingredientSlug: string): Promise<void> {
     await remove(STORE_PANTRY, ingredientSlug);
+    await queueLocalDelete("pantry_item", ingredientSlug);
     broadcast("pantry_updated");
   }
 
@@ -185,11 +223,13 @@ export class IndexedDbKitchenRepository {
 
   async saveRecipe(recipe: SavedRecipe): Promise<void> {
     await put(STORE_SAVED, recipe);
+    await queueLocalUpsert("saved_recipe", recipe.recipeId, recipe);
     broadcast("saved_recipes_updated");
   }
 
   async deleteSavedRecipe(recipeId: string): Promise<void> {
     await remove(STORE_SAVED, recipeId);
+    await queueLocalDelete("saved_recipe", recipeId);
     broadcast("saved_recipes_updated");
   }
 
@@ -203,10 +243,13 @@ export class IndexedDbKitchenRepository {
     transaction.objectStore(STORE_HISTORY).put(entry);
     const savedStore = transaction.objectStore(STORE_SAVED);
     const saved = await requestResult(savedStore.get(entry.recipeId) as IDBRequest<SavedRecipe | undefined>);
-    if (saved) {
-      savedStore.put({ ...saved, lastCookedAt: entry.completedAt ?? isoNow(), timesCooked: saved.timesCooked + 1 });
-    }
+    const updatedSaved = saved
+      ? { ...saved, lastCookedAt: entry.completedAt ?? isoNow(), timesCooked: saved.timesCooked + 1 }
+      : null;
+    if (updatedSaved) savedStore.put(updatedSaved);
     await transactionDone(transaction);
+    await queueLocalUpsert("cook_history", entry.id, entry);
+    if (updatedSaved) await queueLocalUpsert("saved_recipe", updatedSaved.recipeId, updatedSaved);
     broadcast("cook_session_completed");
   }
 
@@ -215,12 +258,15 @@ export class IndexedDbKitchenRepository {
   }
 
   async saveShoppingItem(item: ShoppingListItem): Promise<void> {
-    await put(STORE_SHOPPING, { ...item, updatedAt: isoNow() });
+    const normalized = { ...item, updatedAt: isoNow() };
+    await put(STORE_SHOPPING, normalized);
+    await queueLocalUpsert("shopping_item", normalized.id, normalized);
     broadcast("shopping_list_updated");
   }
 
   async deleteShoppingItem(id: string): Promise<void> {
     await remove(STORE_SHOPPING, id);
+    await queueLocalDelete("shopping_item", id);
     broadcast("shopping_list_updated");
   }
 
@@ -229,12 +275,15 @@ export class IndexedDbKitchenRepository {
   }
 
   async saveMealPlanEntry(entry: MealPlanEntry): Promise<void> {
-    await put(STORE_PLAN, { ...entry, updatedAt: isoNow() });
+    const normalized = { ...entry, updatedAt: isoNow() };
+    await put(STORE_PLAN, normalized);
+    await queueLocalUpsert("meal_plan_entry", normalized.id, normalized);
     broadcast("meal_plan_updated");
   }
 
   async deleteMealPlanEntry(id: string): Promise<void> {
     await remove(STORE_PLAN, id);
+    await queueLocalDelete("meal_plan_entry", id);
     broadcast("meal_plan_updated");
   }
 
@@ -277,6 +326,32 @@ export class IndexedDbKitchenRepository {
     });
   }
 
+  async snapshotSyncRecords(): Promise<LocalSyncRecord[]> {
+    const exported = await this.exportData();
+    return [
+      ...(exported.profile ? [{ entityType: "profile" as const, recordId: "local", payload: exported.profile }] : []),
+      ...exported.pantry.map((payload) => ({ entityType: "pantry_item" as const, recordId: payload.ingredientSlug, payload })),
+      ...exported.savedRecipes.map((payload) => ({ entityType: "saved_recipe" as const, recordId: payload.recipeId, payload })),
+      ...exported.history.map((payload) => ({ entityType: "cook_history" as const, recordId: payload.id, payload })),
+      ...exported.shoppingList.map((payload) => ({ entityType: "shopping_item" as const, recordId: payload.id, payload })),
+      ...exported.mealPlan.map((payload) => ({ entityType: "meal_plan_entry" as const, recordId: payload.id, payload })),
+    ];
+  }
+
+  async applyRemoteRecord(record: RemoteSyncRecord): Promise<void> {
+    const store = storeForEntity(record.entityType);
+    if (record.deletedAt || !record.payload) {
+      await remove(store, record.entityType === "profile" ? "local" : record.recordId);
+    } else {
+      const payload = record.entityType === "profile"
+        ? { ...(record.payload as LocalKitchenProfile), profileId: "local" as const, schemaVersion: KITCHEN_SCHEMA_VERSION }
+        : record.payload;
+      await put(store, payload);
+    }
+    broadcast(eventForEntity(record.entityType));
+    broadcast("remote_sync_applied");
+  }
+
   async importData(raw: string, mode: "replace" | "merge"): Promise<void> {
     const imported = parseKitchenExport(raw);
     const db = await openDatabase();
@@ -290,9 +365,12 @@ export class IndexedDbKitchenRepository {
     imported.shoppingList.forEach((item) => transaction.objectStore(STORE_SHOPPING).put(item));
     imported.mealPlan.forEach((item) => transaction.objectStore(STORE_PLAN).put(item));
     await transactionDone(transaction);
+    const records = await this.snapshotSyncRecords();
+    for (const record of records) await queueLocalUpsert(record.entityType, record.recordId, record.payload);
     broadcast("local_data_replaced");
   }
 
+  /** Clears this browser only. Cloud deletion is a separate authenticated action. */
   async clearKitchenStores(): Promise<void> {
     await Promise.all([STORE_PROFILE, STORE_PANTRY, STORE_SAVED, STORE_HISTORY, STORE_SHOPPING, STORE_PLAN].map(clearStore));
     broadcast("local_data_deleted");
@@ -303,6 +381,7 @@ export const kitchenRepository = new IndexedDbKitchenRepository();
 
 export async function deleteAllLocalCookAnythingData(): Promise<void> {
   try { await kitchenRepository.clearKitchenStores(); } catch { /* IndexedDB may be unavailable */ }
+  try { await clearSyncState(); } catch { /* Sync IndexedDB may be unavailable */ }
   if (typeof window !== "undefined") {
     for (const storage of [window.localStorage, window.sessionStorage]) {
       const keys = Array.from({ length: storage.length }, (_, index) => storage.key(index)).filter((key): key is string => Boolean(key));

@@ -23,6 +23,7 @@
     "test:trust": "tsx scripts/test-phase2-trust.ts && tsx scripts/test-phase2-dietary-edge.ts && tsx scripts/test-worker-security-headers.ts",
     "test:product": "tsx scripts/test-phase3-product.ts && tsx scripts/test-phase3-edge-cases.ts && tsx scripts/test-corpus-corrections.ts",
     "test:kitchen": "tsx scripts/test-phase4-kitchen.ts",
+    "test:sync": "tsx scripts/test-phase5-sync.ts",
     "licenses": "tsx scripts/check-licenses.ts",
     "export-recipes": "tsx scripts/export-recipes.ts",
     "import-recipes": "tsx scripts/import-recipes.ts",
