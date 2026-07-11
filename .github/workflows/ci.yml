@@ -19,6 +19,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
+    defaults:
+      run:
+        shell: bash
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -33,16 +37,24 @@ jobs:
         run: npm ci
 
       - name: Companion security tests
-        run: npm run test:companion 2>&1 | tee companion-test.log
+        run: |
+          set -o pipefail
+          npm run test:companion 2>&1 | tee companion-test.log
 
       - name: Phase 2 trust tests
-        run: npm run test:trust 2>&1 | tee trust-test.log
+        run: |
+          set -o pipefail
+          npm run test:trust 2>&1 | tee trust-test.log
 
       - name: Phase 3 product-loop tests
-        run: npm run test:product 2>&1 | tee product-test.log
+        run: |
+          set -o pipefail
+          npm run test:product 2>&1 | tee product-test.log
 
       - name: Mandatory recipe trust gate
-        run: npm run trust:gate 2>&1 | tee trust-gate.log
+        run: |
+          set -o pipefail
+          npm run trust:gate 2>&1 | tee trust-gate.log
 
       - name: Preserve security, trust and product output
         if: always()
@@ -65,7 +77,9 @@ jobs:
           bash -n bridge/phase0-disable.sh
 
       - name: Build static site and trusted manifests
-        run: npm run build 2>&1 | tee production-build.log
+        run: |
+          set -o pipefail
+          npm run build 2>&1 | tee production-build.log
 
       - name: Preserve production build output
         if: always()
@@ -77,7 +91,9 @@ jobs:
           retention-days: 3
 
       - name: Bundle Worker without deploying
-        run: npx --yes wrangler@latest deploy --dry-run --outdir .wrangler-dry-run 2>&1 | tee wrangler-dry-run.log
+        run: |
+          set -o pipefail
+          npx --yes wrangler@latest deploy --dry-run --outdir .wrangler-dry-run 2>&1 | tee wrangler-dry-run.log
 
       - name: Preserve Wrangler dry-run output
         if: always()
