@@ -1,14 +1,10 @@
 /**
  * Adapts a platform Recipe into the role-tagged CompanionRecipe the live
  * cooking agent consumes. Role / criticality / heat-stability are inferred
- * heuristically from the ingredient taxonomy and recipe context — the system
- * prompt tells the model to treat them as strong hints, not gospel, so a
- * misclassified garnish degrades gracefully.
- *
- * Runs at build time (server) — output is embedded in the recipe page and
- * sent to /api/companion with every turn.
+ * heuristically from the ingredient taxonomy and recipe context.
  */
 import type { IngredientDef, Recipe, RecipeIngredient } from "../types";
+import type { RecipeTrustRecord } from "../trust/types";
 import type {
   CompanionIngredient,
   CompanionRecipe,
@@ -66,7 +62,6 @@ function inferHeatStability(ing: RecipeIngredient, role: IngredientRole): HeatSt
   return "COOK_STABLE";
 }
 
-/** Coarse, human-meaningful stage label for a step. */
 function stageForStep(text: string, method: string | undefined, index: number, total: number): string {
   const t = `${text} ${method ?? ""}`.toLowerCase();
   if (/marinat/.test(t)) return "MARINATE";
@@ -85,6 +80,7 @@ function stageForStep(text: string, method: string | undefined, index: number, t
 export function toCompanionRecipe(
   recipe: Recipe,
   ingredientDefs: Map<string, IngredientDef>,
+  trust?: RecipeTrustRecord,
 ): CompanionRecipe {
   const total = recipe.steps.length;
   const steps: CompanionStep[] = recipe.steps.map((s, i) => ({
@@ -93,7 +89,6 @@ export function toCompanionRecipe(
     text: s.text,
     ...(s.timerMinutes ? { timer_minutes: s.timerMinutes } : {}),
   }));
-  // Stage list in first-appearance order, deduplicated, PLATED terminal.
   const stages = [...new Set(steps.map((s) => s.stage))];
   if (!stages.includes("PLATED")) stages.push("PLATED");
 
@@ -107,8 +102,6 @@ export function toCompanionRecipe(
   const ingredients: CompanionIngredient[] = recipe.ingredients.map((ing) => {
     const def = ingredientDefs.get(ing.normalizedName);
     const role = inferRole(ing, def, recipe);
-    // First step that mentions this ingredient by any of its names decides
-    // which stage consumes it; default to the first stage.
     const names = [ing.name, def?.name, ing.normalizedName.replace(/-/g, " ")]
       .filter((n): n is string => Boolean(n))
       .map((n) => n.toLowerCase().replace(/\s*\(.*\)\s*/, ""));
@@ -142,6 +135,27 @@ export function toCompanionRecipe(
     stages,
     ingredients,
     steps,
+    trust: trust
+      ? {
+          allergen_status: trust.allergen.status,
+          contains_allergens: trust.allergen.contains,
+          cross_contact_notes: trust.allergen.crossContactNotes,
+          safety_warnings: trust.safety.warnings,
+          critical_checks: trust.safety.criticalChecks,
+          cook_test_status: trust.verification.cookTestStatus,
+          provenance_summary: `${trust.provenance.sourceLabel}; declared licence ${trust.provenance.licenseId}.`,
+          substitution_warning: "A substitution can introduce allergens or change dietary suitability. Never claim a swap is safe without checking the replacement's label and the user's allergy context.",
+        }
+      : {
+          allergen_status: "unknown",
+          contains_allergens: recipe.allergens,
+          cross_contact_notes: ["Check every packaged ingredient label and cross-contact statement."],
+          safety_warnings: [],
+          critical_checks: [],
+          cook_test_status: "not_cook_tested",
+          provenance_summary: `Legacy recipe metadata; declared licence ${recipe.license}.`,
+          substitution_warning: "A substitution can introduce allergens or change dietary suitability. Check the replacement label.",
+        },
     ...(recipe.substitutions.length
       ? {
           substitution_notes: recipe.substitutions

@@ -4,6 +4,7 @@ import path from "node:path";
 import { getAllRecipes, getIngredients } from "../src/lib/data";
 import { toCompanionRecipe } from "../src/lib/companion/adapt";
 import type { TrustedCompanionRecipe } from "../src/lib/companion/types";
+import { buildRecipeTrustRecord } from "../src/lib/trust/server";
 
 const outputDir = path.join(process.cwd(), "public", "companion-recipes");
 const ingredientDefs = new Map(getIngredients().map((ingredient) => [ingredient.slug, ingredient]));
@@ -19,7 +20,11 @@ for (const recipe of recipes) {
     throw new Error(`Unsafe companion recipe slug: ${recipe.slug}`);
   }
 
-  const companionRecipe = toCompanionRecipe(recipe, ingredientDefs);
+  const trust = buildRecipeTrustRecord(recipe, ingredientDefs, recipe.updatedAt);
+  if (!trust.publication.eligible) {
+    throw new Error(`Cannot build companion snapshot for ${recipe.slug}: ${trust.publication.blockers.join("; ")}`);
+  }
+  const companionRecipe = toCompanionRecipe(recipe, ingredientDefs, trust);
   const canonical = JSON.stringify(companionRecipe);
   const version = createHash("sha256").update(canonical).digest("hex");
   const trusted: TrustedCompanionRecipe = { ...companionRecipe, version };

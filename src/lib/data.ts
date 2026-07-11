@@ -23,13 +23,14 @@ function readJson<T>(file: string): T {
 let _recipes: Recipe[] | null = null;
 export function getAllRecipes(): Recipe[] {
   if (_recipes) return _recipes;
-  const files = fs.readdirSync(RECIPES_DIR).filter((f) => f.endsWith(".json"));
+  const files = fs.readdirSync(RECIPES_DIR).filter((f) => f.endsWith(".json")).sort();
   const all: Recipe[] = [];
-  const seen = new Set<string>();
+  const seen = new Map<string, string>();
   for (const f of files) {
     for (const r of readJson<Recipe[]>(path.join(RECIPES_DIR, f))) {
-      if (seen.has(r.slug)) continue; // duplicate slugs: first file wins
-      seen.add(r.slug);
+      const prior = seen.get(r.slug);
+      if (prior) throw new Error(`Duplicate recipe slug "${r.slug}" in ${prior} and ${f}`);
+      seen.set(r.slug, f);
       all.push(r);
     }
   }
