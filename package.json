@@ -21,7 +21,7 @@
     "trust:gate": "npm run validate && npm run licenses && tsx scripts/check-import-boundaries.ts && tsx scripts/check-exact-duplicates.ts && tsx scripts/check-trust.ts",
     "test:companion": "node scripts/run-companion-security-test.mjs && tsx scripts/test-companion-gate-rollover.ts",
     "test:trust": "tsx scripts/test-phase2-trust.ts && tsx scripts/test-phase2-dietary-edge.ts && tsx scripts/test-worker-security-headers.ts",
-    "test:product": "tsx scripts/test-phase3-product.ts && tsx scripts/test-phase3-edge-cases.ts",
+    "test:product": "tsx scripts/test-phase3-product.ts && tsx scripts/test-phase3-edge-cases.ts && tsx scripts/test-corpus-corrections.ts",
     "licenses": "tsx scripts/check-licenses.ts",
     "export-recipes": "tsx scripts/export-recipes.ts",
     "import-recipes": "tsx scripts/import-recipes.ts",
