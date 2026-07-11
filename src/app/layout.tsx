@@ -5,6 +5,7 @@ import { websiteJsonLd } from "@/lib/jsonld";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import PwaRegistration from "@/components/PwaRegistration";
+import LegacyCookbookMigration from "@/components/LegacyCookbookMigration";
 import "./globals.css";
 
 const youngSerif = Young_Serif({
@@ -51,6 +52,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />
+        <LegacyCookbookMigration />
         <PwaRegistration />
       </body>
     </html>
