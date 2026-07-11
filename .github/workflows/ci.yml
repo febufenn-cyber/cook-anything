@@ -56,6 +56,11 @@ jobs:
           set -o pipefail
           npm run test:kitchen 2>&1 | tee kitchen-test.log
 
+      - name: Phase 5 portable-kitchen sync tests
+        run: |
+          set -o pipefail
+          npm run test:sync 2>&1 | tee sync-test.log
+
       - name: Mandatory recipe trust gate
         run: |
           set -o pipefail
@@ -71,14 +76,17 @@ jobs:
             trust-test.log
             product-test.log
             kitchen-test.log
+            sync-test.log
             trust-gate.log
           if-no-files-found: ignore
           retention-days: 3
 
-      - name: Validate bridge JavaScript and shell scripts
+      - name: Validate bridge, service worker and SQL migration files
         run: |
           node --check bridge/server.mjs
           node --check public/sw.js
+          test -s supabase/migrations/20260712_phase5_portable_kitchen.sql
+          test -s supabase/migrations/20260712_phase5_sync_push_hardening.sql
           bash -n bridge/companion-tunnel.sh
           bash -n bridge/companion-watchdog.sh
           bash -n bridge/phase0-disable.sh
