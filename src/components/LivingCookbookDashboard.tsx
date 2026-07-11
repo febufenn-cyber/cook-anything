@@ -83,9 +83,10 @@ export default function LivingCookbookDashboard() {
     setError(null);
     try {
       const result = await contributionRepository.restoreVersion(draftId, versionId, session?.user.id);
+      const refreshedVersions = await contributionRepository.listVersions(draftId);
       setMessage(`Restored version as new version ${result.version.versionNumber}. Existing history was not rewritten.`);
       await refresh();
-      setVersions((current) => ({ ...current, [draftId]: await contributionRepository.listVersions(draftId) }));
+      setVersions((current) => ({ ...current, [draftId]: refreshedVersions }));
     } catch (cause) {
       setError(cause instanceof Error ? cause.message.replaceAll("_", " ") : "Could not restore version.");
     }
