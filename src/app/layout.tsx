@@ -7,6 +7,7 @@ import SiteFooter from "@/components/SiteFooter";
 import PwaRegistration from "@/components/PwaRegistration";
 import LegacyCookbookMigration from "@/components/LegacyCookbookMigration";
 import PortableKitchenProvider from "@/components/PortableKitchenProvider";
+import ContributionDeletionBridge from "@/components/ContributionDeletionBridge";
 import "./globals.css";
 
 const youngSerif = Young_Serif({
@@ -55,6 +56,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main className="flex-1">{children}</main>
           <SiteFooter />
           <LegacyCookbookMigration />
+          <ContributionDeletionBridge />
           <PwaRegistration />
         </PortableKitchenProvider>
       </body>
