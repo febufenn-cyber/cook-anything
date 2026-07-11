@@ -7,8 +7,8 @@ import {
 } from "@/lib/data";
 import { recipeJsonLd, breadcrumbJsonLd } from "@/lib/jsonld";
 import {
-  formatMinutes, formatQuantity, DIFFICULTY_LABEL, SPICE_LABEL, SPICE_CHILLIES,
-  BUDGET_LABEL, VERIFICATION_LABEL, titleFromSlug,
+  formatMinutes, formatQuantity, DIFFICULTY_LABEL, SPICE_LABEL,
+  BUDGET_LABEL, titleFromSlug,
 } from "@/lib/format";
 import CookMode from "@/components/CookMode";
 import CookCompanion from "@/components/CookCompanion";
@@ -16,6 +16,8 @@ import { toCompanionRecipe } from "@/lib/companion/adapt";
 import SaveRecipeButton from "@/components/SaveRecipeButton";
 import ShareButton from "@/components/ShareButton";
 import RecipeGrid from "@/components/RecipeGrid";
+import RecipeTrustPanel from "@/components/RecipeTrustPanel";
+import { buildRecipeTrustRecord } from "@/lib/trust/server";
 
 export function generateStaticParams() {
   return getAllRecipes().map((r) => ({ slug: r.slug }));
@@ -49,7 +51,8 @@ export default async function RecipePage({ params }: { params: Promise<{ slug: s
   const cookwareDefs = new Map(getCookware().map((c) => [c.slug, c]));
   const related = getRelatedRecipes(recipe);
   const crossCulture = getCrossCultureRecipes(recipe);
-  const verification = VERIFICATION_LABEL[recipe.verificationStatus];
+  const trust = buildRecipeTrustRecord(recipe, ingredientDefs);
+  const companionRecipe = toCompanionRecipe(recipe, ingredientDefs, trust);
 
   const facts: [string, string][] = [
     ["Prep", formatMinutes(recipe.prepTimeMinutes)],
@@ -77,7 +80,6 @@ export default async function RecipePage({ params }: { params: Promise<{ slug: s
         }}
       />
 
-      {/* Breadcrumb */}
       <nav aria-label="Breadcrumb" className="no-print text-sm text-tamarind-faint">
         <Link href="/recipes" className="hover:text-tamarind">Recipes</Link>
         <span aria-hidden> / </span>
@@ -88,7 +90,6 @@ export default async function RecipePage({ params }: { params: Promise<{ slug: s
         <span className="text-tamarind-soft">{recipe.title}</span>
       </nav>
 
-      {/* Header */}
       <header className="mt-6">
         <div className="flex flex-wrap items-center gap-2 text-sm">
           <Link href={`/cuisines/${recipe.cuisine}`} className="rounded-full bg-curry-tint px-3 py-1 font-semibold text-curry hover:bg-curry hover:text-white">
@@ -110,33 +111,23 @@ export default async function RecipePage({ params }: { params: Promise<{ slug: s
         {recipe.nativeTitle && <p className="mt-2 text-xl text-tamarind-faint">{recipe.nativeTitle}</p>}
         <p className="mt-4 max-w-3xl text-lg text-tamarind-soft">{recipe.description}</p>
 
-        {/* Trust strip */}
         <div className="mt-5 flex flex-wrap items-center gap-3">
-          <span
-            className={`rounded-full px-3 py-1 text-xs font-semibold ${
-              recipe.verificationStatus === "verified"
-                ? "bg-curry text-white"
-                : "bg-turmeric-tint text-turmeric-deep"
-            }`}
-            title={verification.note}
-          >
-            {verification.label}
+          <span className="rounded-full bg-turmeric-tint px-3 py-1 text-xs font-semibold text-turmeric-deep">
+            {trust.verification.cookTestStatus === "cook_tested" ? "Cook-tested" : "Not cook-tested"}
           </span>
           <span className="text-xs text-tamarind-faint">
-            {recipe.author} · License: {recipe.license}
+            {trust.provenance.sourceLabel} · Licence declaration: {trust.provenance.licenseId}
           </span>
         </div>
 
-        {/* Actions */}
         <div className="no-print mt-6 flex flex-wrap items-center gap-3">
           <CookMode recipe={recipe} />
-          <CookCompanion recipe={recipe} companionRecipe={toCompanionRecipe(recipe, ingredientDefs)} />
+          <CookCompanion recipe={recipe} companionRecipe={companionRecipe} />
           <SaveRecipeButton slug={recipe.slug} title={recipe.title} cuisine={recipe.cuisine} />
           <ShareButton title={recipe.title} />
         </div>
       </header>
 
-      {/* Fact bar */}
       <div className="mt-8 grid grid-cols-3 gap-px overflow-hidden rounded-card border border-cardamom bg-cardamom sm:grid-cols-7">
         {facts.map(([k, v]) => (
           <div key={k} className="bg-card px-3 py-3 text-center">
@@ -147,7 +138,6 @@ export default async function RecipePage({ params }: { params: Promise<{ slug: s
       </div>
 
       <div className="mt-10 grid gap-10 lg:grid-cols-[1fr_1.6fr]">
-        {/* Ingredients column */}
         <div>
           <h2 className="font-display text-2xl">Ingredients</h2>
           <p className="mt-1 text-sm text-tamarind-faint">For {recipe.servings} servings</p>
@@ -177,6 +167,9 @@ export default async function RecipePage({ params }: { params: Promise<{ slug: s
           {recipe.substitutions.length > 0 && (
             <div className="mt-6 rounded-card border border-cardamom bg-turmeric-tint/50 p-5">
               <h3 className="font-display text-lg">Don&apos;t have it? Swap it</h3>
+              <p className="mt-1 text-xs text-tamarind-faint">
+                Substitutions can introduce allergens or change dietary suitability. Check every replacement label before using it.
+              </p>
               <ul className="mt-3 space-y-2 text-sm">
                 {recipe.substitutions.map((s, i) => (
                   <li key={i}>
@@ -189,7 +182,6 @@ export default async function RecipePage({ params }: { params: Promise<{ slug: s
             </div>
           )}
 
-          {/* Cookware & allergens */}
           <div className="mt-6 space-y-4 text-sm">
             <div>
               <h3 className="text-xs font-semibold uppercase tracking-wider text-tamarind-faint">Cookware</h3>
@@ -211,18 +203,23 @@ export default async function RecipePage({ params }: { params: Promise<{ slug: s
                 ))}
               </div>
             </div>
-            {recipe.allergens.length > 0 && (
-              <div>
-                <h3 className="text-xs font-semibold uppercase tracking-wider text-tamarind-faint">Allergens</h3>
+            <div>
+              <h3 className="text-xs font-semibold uppercase tracking-wider text-tamarind-faint">Allergen assessment</h3>
+              {trust.allergen.contains.length > 0 ? (
                 <div className="mt-2 flex flex-wrap gap-2">
-                  {recipe.allergens.map((a) => (
+                  {trust.allergen.contains.map((a) => (
                     <span key={a} className="rounded-full bg-chilli-tint px-3 py-1 text-xs font-medium text-chilli">
-                      {titleFromSlug(a)}
+                      Contains {titleFromSlug(a)}
                     </span>
                   ))}
                 </div>
-              </div>
-            )}
+              ) : (
+                <p className="mt-2 text-xs text-tamarind-soft">
+                  No listed allergens detected from canonical ingredients. This does not mean allergen-free; check product labels and cross-contact.
+                </p>
+              )}
+              <p className="mt-2 text-xs text-tamarind-faint">Status: {trust.allergen.status}. {trust.allergen.basis}</p>
+            </div>
             <div>
               <h3 className="text-xs font-semibold uppercase tracking-wider text-tamarind-faint">Diet</h3>
               <div className="mt-2 flex flex-wrap gap-2">
@@ -232,10 +229,10 @@ export default async function RecipePage({ params }: { params: Promise<{ slug: s
                   </Link>
                 ))}
               </div>
+              <p className="mt-2 text-xs text-tamarind-faint">Ingredient-derived primary diet: {titleFromSlug(trust.dietary.derivedPrimary)}.</p>
             </div>
           </div>
 
-          {/* Nutrition */}
           {recipe.nutrition && (
             <div className="mt-6 rounded-card border border-cardamom bg-card p-5">
               <h3 className="font-display text-lg">Nutrition per serving</h3>
@@ -267,7 +264,6 @@ export default async function RecipePage({ params }: { params: Promise<{ slug: s
           )}
         </div>
 
-        {/* Method column */}
         <div>
           <h2 className="font-display text-2xl">Method</h2>
           <ol className="mt-4 space-y-6">
@@ -289,7 +285,6 @@ export default async function RecipePage({ params }: { params: Promise<{ slug: s
             ))}
           </ol>
 
-          {/* Notes */}
           <div className="mt-10 space-y-4">
             {recipe.indianKitchenAdaptation && (
               <div className="rounded-card border-l-4 border-turmeric bg-turmeric-tint/60 p-5">
@@ -311,30 +306,18 @@ export default async function RecipePage({ params }: { params: Promise<{ slug: s
             )}
           </div>
 
-          {/* Provenance */}
-          <div className="mt-8 rounded-card bg-rice-deep/60 p-5 text-xs text-tamarind-faint">
-            <p>
-              <strong className="text-tamarind-soft">{verification.label}:</strong> {verification.note}
-            </p>
-            <p className="mt-2">
-              Source: {recipe.source}
+          <div className="mt-8">
+            <RecipeTrustPanel trust={trust} source={recipe.source} author={recipe.author} />
+            <p className="mt-3 text-xs text-tamarind-faint">
               {recipe.sourceUrl && (
-                <> · <a href={recipe.sourceUrl} rel="nofollow noopener" className="underline">original</a></>
-              )}{" "}
-              · License: {recipe.license} · Contributor: {recipe.author}
-            </p>
-            <p className="mt-2">
-              Spot an issue?{" "}
-              <Link href="/sources" className="underline hover:text-tamarind">
-                Report it or suggest a correction
-              </Link>
-              .
+                <><a href={recipe.sourceUrl} rel="nofollow noopener" className="underline">View declared source</a>{" · "}</>
+              )}
+              <Link href="/sources" className="underline hover:text-tamarind">Report an issue or suggest a correction</Link>.
             </p>
           </div>
         </div>
       </div>
 
-      {/* Cross-culture */}
       {crossCulture.length > 0 && (
         <section className="no-print mt-14">
           <h2 className="font-display text-2xl">The same pantry, other worlds</h2>
@@ -347,7 +330,6 @@ export default async function RecipePage({ params }: { params: Promise<{ slug: s
         </section>
       )}
 
-      {/* Related */}
       {related.length > 0 && (
         <section className="no-print mt-12">
           <h2 className="font-display text-2xl">More like this</h2>
