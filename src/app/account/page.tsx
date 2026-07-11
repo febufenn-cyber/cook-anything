@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import AccountPanel from "@/components/AccountPanel";
+import CloudDataTools from "@/components/CloudDataTools";
 import PageHero from "@/components/PageHero";
 
 export const metadata: Metadata = {
@@ -19,6 +20,7 @@ export default function AccountPage() {
       />
       <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
         <AccountPanel />
+        <CloudDataTools />
       </div>
     </>
   );
