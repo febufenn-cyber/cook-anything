@@ -89,6 +89,9 @@ async function handleCompanion(request: Request, env: Env): Promise<Response> {
   if (env.COMPANION_UPSTREAM) {
     return bridgeTurn(env, { ...body, messages });
   }
+  if (!env.ANTHROPIC_API_KEY) {
+    return jsonResponse({ reply: "", state: null, error: "not_configured" }, 503);
+  }
 
   const anthropicRes = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
