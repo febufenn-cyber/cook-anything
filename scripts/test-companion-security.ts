@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
-import type { CompanionState, TrustedCompanionRecipe } from "../src/lib/companion/types";
+import type { TrustedCompanionRecipe } from "../src/lib/companion/types";
 import { initialCompanionState } from "../src/lib/companion/types";
+import { parseStateBlock } from "../src/lib/companion/prompt";
 import { CompanionGate, CompanionSession } from "../worker/companion-session";
 import type { DurableObjectStateLike, DurableObjectStorage, Env } from "../worker/env";
 import {
@@ -114,6 +115,21 @@ async function testValidators(): Promise<void> {
   );
 }
 
+async function testStateBlockBoundary(): Promise<void> {
+  const state = initialCompanionState(recipe);
+  const valid = parseStateBlock(`Do this next.\n<state>${JSON.stringify(state)}</state>`);
+  assert.equal(valid.reply, "Do this next.");
+  assert.deepEqual(valid.state, state);
+
+  const malformedJson = parseStateBlock("Safe visible reply.<state>{not-json}</state>hidden-tail");
+  assert.equal(malformedJson.reply, "Safe visible reply.hidden-tail");
+  assert.equal(malformedJson.state, null);
+
+  const missingClose = parseStateBlock("Safe visible reply.<state>{\"secret\":\"must not leak\"}");
+  assert.equal(missingClose.reply, "Safe visible reply.");
+  assert.equal(missingClose.state, null);
+}
+
 async function testGate(): Promise<void> {
   const ctx = new MemoryContext();
   const env = {
@@ -208,6 +224,7 @@ async function testSessionIdempotencyAndExpiry(): Promise<void> {
 
 async function main(): Promise<void> {
   await testValidators();
+  await testStateBlockBoundary();
   await testGate();
   await testSessionIdempotencyAndExpiry();
   console.log("Companion security tests passed.");
