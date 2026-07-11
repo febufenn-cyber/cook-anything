@@ -8,7 +8,8 @@ const NAV = [
   { href: "/cuisines", label: "Cuisines" },
   { href: "/ingredients", label: "Ingredients" },
   { href: "/search", label: "Search" },
-  { href: "/family-cookbook", label: "My cookbook" },
+  { href: "/family-cookbook", label: "Saved recipes" },
+  { href: "/my-recipes", label: "Family recipes" },
 ];
 
 export default function SiteHeader() {
