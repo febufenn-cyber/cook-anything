@@ -16,6 +16,7 @@
     "slugs": "tsx scripts/generate-slugs.ts",
     "search-index": "tsx scripts/build-search-index.ts",
     "companion-recipes": "tsx scripts/build-companion-recipes.ts",
+    "test:companion": "tsx scripts/test-companion-security.ts",
     "licenses": "tsx scripts/check-licenses.ts",
     "export-recipes": "tsx scripts/export-recipes.ts",
     "import-recipes": "tsx scripts/import-recipes.ts",
