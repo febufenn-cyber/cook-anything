@@ -2,9 +2,9 @@
 
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
 import {
-  acceptHouseholdInvite,
-  createHousehold,
-  createHouseholdInvite,
+  acceptHouseholdInvite as acceptHouseholdInviteRemote,
+  createHousehold as createHouseholdRemote,
+  createHouseholdInvite as createHouseholdInviteRemote,
   deleteCloudAccount,
   getCloudKitchenSummary,
   listDevices,
@@ -12,7 +12,7 @@ import {
   migrateKitchen,
   pauseSync,
   resolveConflict,
-  revokeDevice,
+  revokeDevice as revokeDeviceRemote,
   syncDiagnostics,
   syncNow,
   type SyncRunResult,
@@ -21,7 +21,6 @@ import {
   clearSyncState,
   getLastSyncAt,
   hasCompletedMigration,
-  isSyncPaused,
   pendingMutationCount,
 } from "@/lib/sync/local-store";
 import {
@@ -29,7 +28,7 @@ import {
   consumeAuthRedirect,
   isCloudSyncConfigured,
   loadStoredSession,
-  sendMagicLink,
+  sendMagicLink as sendMagicLinkRemote,
   signOutCloud,
   subscribeAuth,
 } from "@/lib/sync/supabase-rest";
@@ -80,7 +79,7 @@ export function usePortableKitchen(): PortableKitchenContextValue {
 export default function PortableKitchenProvider({ children }: { children: React.ReactNode }) {
   const configured = isCloudSyncConfigured();
   const [session, setSession] = useState<AuthSession | null>(null);
-  const [status, setStatus] = useState<SyncStatus>(configured ? "local_only" : "local_only");
+  const [status, setStatus] = useState<SyncStatus>("local_only");
   const [pending, setPending] = useState(0);
   const [conflicts, setConflicts] = useState<SyncConflict[]>([]);
   const [lastSyncAt, setLastSyncAtState] = useState<string | null>(null);
@@ -182,10 +181,10 @@ export default function PortableKitchenProvider({ children }: { children: React.
     households,
     error,
     signInOAuth: beginOAuth,
-    sendMagicLink,
+    sendMagicLink: sendMagicLinkRemote,
     async signOut() {
       await signOutCloud();
-      await clearSyncState({ keepDeviceId: true, keepRecovery: true });
+      await clearSyncState({ keepRecovery: true });
       setSession(null);
       setStatus("local_only");
       await refresh();
@@ -206,16 +205,16 @@ export default function PortableKitchenProvider({ children }: { children: React.
       await runSync();
     },
     async revokeDevice(deviceId) {
-      await revokeDevice(deviceId);
+      await revokeDeviceRemote(deviceId);
       await refresh();
     },
     async createHousehold(name) {
-      await createHousehold(name);
+      await createHouseholdRemote(name);
       await refresh();
     },
-    createInvite: createHouseholdInvite,
+    createInvite: createHouseholdInviteRemote,
     async acceptInvite(token) {
-      await acceptHouseholdInvite(token);
+      await acceptHouseholdInviteRemote(token);
       await refresh();
     },
     async deleteAccount(eraseLocal) {
