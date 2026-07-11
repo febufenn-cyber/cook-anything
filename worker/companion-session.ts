@@ -296,12 +296,13 @@ export class CompanionSession {
       };
 
       const completedAt = Date.now();
-      record.state = response.state ?? record.state;
-      record.history = [
+      const appendedHistory: ChatMessage[] = [
         ...record.history,
         { role: "user", content: input.message },
         { role: "assistant", content: executed.reply },
-      ].slice(-HISTORY_MESSAGES);
+      ];
+      record.state = response.state ?? record.state;
+      record.history = appendedHistory.slice(-HISTORY_MESSAGES);
       record.turn_count += 1;
       record.updated_at = completedAt;
       record.recent_turns[input.client_turn_id] = {
