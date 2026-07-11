@@ -51,12 +51,17 @@ jobs:
           set -o pipefail
           npm run test:product 2>&1 | tee product-test.log
 
+      - name: Phase 4 local-kitchen tests
+        run: |
+          set -o pipefail
+          npm run test:kitchen 2>&1 | tee kitchen-test.log
+
       - name: Mandatory recipe trust gate
         run: |
           set -o pipefail
           npm run trust:gate 2>&1 | tee trust-gate.log
 
-      - name: Preserve security, trust and product output
+      - name: Preserve verification output
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -65,6 +70,7 @@ jobs:
             companion-test.log
             trust-test.log
             product-test.log
+            kitchen-test.log
             trust-gate.log
           if-no-files-found: ignore
           retention-days: 3
@@ -72,6 +78,7 @@ jobs:
       - name: Validate bridge JavaScript and shell scripts
         run: |
           node --check bridge/server.mjs
+          node --check public/sw.js
           bash -n bridge/companion-tunnel.sh
           bash -n bridge/companion-watchdog.sh
           bash -n bridge/phase0-disable.sh
