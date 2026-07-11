@@ -341,7 +341,7 @@ export default function CookCompanion({
               {state.substitution_ledger.map((raw, i) => {
                 // Models sometimes emit substitute/ratio/reason instead of
                 // the schema's now/qty/constraint — accept both spellings.
-                const entry = raw as Record<string, string | undefined>;
+                const entry = raw as unknown as Record<string, string | undefined>;
                 const now = entry.now ?? entry.substitute ?? "?";
                 const qty = entry.qty ?? entry.ratio;
                 const note = entry.constraint ?? entry.reason;
