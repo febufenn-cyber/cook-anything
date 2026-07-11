@@ -74,12 +74,16 @@ export function syncEntityKey(
   scopeType = "personal",
   scopeId = "self",
 ): string {
-  return `${scopeType}:${scopeId}:${entityType}:${recordId}`;
+  // The server expands personal scope to auth.uid(), but every personal record
+  // on one browser must share the same local revision namespace before and after
+  // authentication. Household scope retains its explicit UUID.
+  const normalizedScopeId = scopeType === "personal" ? "self" : scopeId;
+  return `${scopeType}:${normalizedScopeId}:${entityType}:${recordId}`;
 }
 
 export function compactMutations(mutations: PendingMutation[]): PendingMutation[] {
   const latest = new Map<string, PendingMutation>();
-  for (const mutation of mutations.sort((a, b) => a.createdAt.localeCompare(b.createdAt))) {
+  for (const mutation of [...mutations].sort((a, b) => a.createdAt.localeCompare(b.createdAt))) {
     const key = syncEntityKey(mutation.entityType, mutation.recordId, mutation.scope.type, mutation.scope.id ?? "self");
     latest.set(key, mutation);
   }
