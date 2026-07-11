@@ -1,7 +1,11 @@
 {
   // Cook Anything — static export + Cooking Companion API on Cloudflare Workers.
-  // Secrets: `wrangler secret put ANTHROPIC_API_KEY` (required for /api/companion).
-  // Optional var: COMPANION_MODEL to override the default Claude model.
+  // Companion backends (see docs/AI-ASSISTANT.md + docs/VPS-BRIDGE.md):
+  //   BYOK (default, zero config) — users connect their own key in the UI.
+  //   Subscription bridge — uncomment "vars" below once the VPS bridge is up,
+  //     and `wrangler secret put COMPANION_UPSTREAM_TOKEN`.
+  //   Hosted key — `wrangler secret put ANTHROPIC_API_KEY`.
+  // "vars": { "COMPANION_UPSTREAM": "https://companion-bridge.robofox.online" },
   "name": "cook-anything",
   "main": "worker/index.ts",
   "compatibility_date": "2026-07-01",

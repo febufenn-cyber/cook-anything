@@ -104,6 +104,8 @@ export interface CompanionRequest {
   recipe: CompanionRecipe;
   state: CompanionState;
   messages: ChatMessage[];
+  /** Subscription-bridge conversation id (opaque; echo back what you last got) */
+  bridge_session_id?: string | null;
 }
 
 export interface CompanionResponse {
@@ -111,6 +113,8 @@ export interface CompanionResponse {
   /** Updated session state parsed from the model's <state> block, if any */
   state: CompanionState | null;
   error?: string;
+  /** Present when the subscription bridge answered; send it on the next turn */
+  bridge_session_id?: string;
 }
 
 export function initialCompanionState(recipe: CompanionRecipe): CompanionState {

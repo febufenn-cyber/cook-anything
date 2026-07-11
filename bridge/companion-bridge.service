@@ -1,0 +1,22 @@
+# systemd unit for the Cooking Companion subscription bridge.
+# Install: sudo cp companion-bridge.service /etc/systemd/system/
+#          sudo systemctl enable --now companion-bridge
+[Unit]
+Description=Cook Anything companion bridge (headless Claude Code)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=companion
+WorkingDirectory=/opt/cook-anything/bridge
+# BRIDGE_TOKEN, CLAUDE_CODE_OAUTH_TOKEN, COMPANION_MODEL, CLAUDE_BIN live here:
+EnvironmentFile=/etc/companion-bridge.env
+ExecStart=/usr/bin/env node server.mjs
+Restart=always
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=false
+
+[Install]
+WantedBy=multi-user.target

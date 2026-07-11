@@ -85,6 +85,7 @@ export default function CookCompanion({
   const [showSettings, setShowSettings] = useState(false);
 
   const historyRef = useRef<ChatMessage[]>([]);
+  const bridgeSessionRef = useRef<string | null>(null);
   const stateRef = useRef<CompanionState>(initialCompanionState(companionRecipe));
   const scrollRef = useRef<HTMLDivElement>(null);
   const recognitionRef = useRef<{ start: () => void; stop: () => void } | null>(null);
@@ -162,6 +163,7 @@ export default function CookCompanion({
             recipe: companionRecipe,
             state: stateRef.current,
             messages: leanHistory(historyRef.current),
+            bridge_session_id: bridgeSessionRef.current,
           }),
         });
         const contentType = res.headers.get("content-type") ?? "";
@@ -177,6 +179,7 @@ export default function CookCompanion({
         throw new Error(ERROR_COPY[data.error ?? ""] ?? "Something went wrong — try that again.");
       }
       historyRef.current = [...historyRef.current, { role: "assistant", content: data.reply }];
+      if (data.bridge_session_id) bridgeSessionRef.current = data.bridge_session_id;
       if (data.state && data.state.recipe_id === companionRecipe.recipe_id) {
         stateRef.current = data.state;
         forceRender((n) => n + 1);
