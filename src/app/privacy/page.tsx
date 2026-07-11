@@ -13,12 +13,13 @@ export default function PrivacyPage() {
       <PageHero eyebrow="Trust" title="Privacy" />
       <div className="mx-auto max-w-3xl space-y-8 px-4 py-10 leading-relaxed text-tamarind-soft sm:px-6">
         <section className="space-y-3">
-          <h2 className="font-display text-2xl text-tamarind">Search, saved recipes and drafts</h2>
+          <h2 className="font-display text-2xl text-tamarind">Search, saved recipes and local drafts</h2>
           <p>
             Cook Anything currently runs without accounts and without advertising trackers. Ingredient
             searches are processed in your browser against a downloaded recipe index and are not sent
-            to our server. Saved recipes, cookbook collections and submitted recipe drafts are stored
-            in your browser&apos;s local storage on your device; clearing browser data removes them.
+            to our server. Saved recipes, cookbook collections and recipe drafts are stored locally in
+            your browser. A draft saved on this device has not been submitted, uploaded, reviewed or
+            published. Clearing browser data removes it.
           </p>
         </section>
 
@@ -26,31 +27,57 @@ export default function PrivacyPage() {
           <h2 className="font-display text-2xl text-tamarind">Bring-your-own-key companion</h2>
           <p>
             When you connect your own API key, companion messages and any photos you attach are sent
-            directly from your browser to the provider and endpoint you selected. They do not pass
-            through the Cook Anything companion server. Your key is currently stored in this browser
-            until you disconnect it or clear browser data. Your provider may charge for requests and
-            process or retain content under its own terms and privacy policy.
+            directly from your browser to the provider and endpoint shown in the settings panel. They do
+            not pass through the Cook Anything hosted companion server. A custom OpenAI-compatible endpoint
+            receives both your API key and companion content, so continue only when you trust the exact
+            hostname displayed.
           </p>
           <p>
-            Do not attach faces, identity documents, private messages or other sensitive material to a
-            cooking request. A kitchen photo may contain more personal information than you intended.
+            Your key is kept only in the current page session by default. It is written to persistent
+            browser storage only when you explicitly select “Remember key on this device.” A remembered
+            key remains raw browser data accessible to code running on this site until you disconnect it
+            or clear browser data; it is not protected by meaningful device-level encryption from the site
+            itself. Provider usage may be billed and processed or retained under the provider&apos;s terms.
+          </p>
+          <p>
+            Do not attach faces, identity documents, private messages, medical records or other sensitive
+            material to a cooking request. A kitchen photo may contain more personal information than you
+            intended. Photo analysis cannot prove internal doneness, oil temperature, exact weight or
+            allergen safety.
           </p>
         </section>
 
         <section className="space-y-3">
           <h2 className="font-display text-2xl text-tamarind">Hosted companion</h2>
           <p>
-            Hosted companion execution is disabled while its Phase 1 security controls are verified.
-            When it is enabled, hosted mode will accept text only. Your message, the selected recipe,
-            recent conversation context and cooking state will be processed through Cloudflare and
-            either Anthropic or our private companion bridge, depending on the active backend.
+            Hosted companion execution remains disabled while its security and staging controls are
+            verified. Before the first hosted session, the product shows the active processing notice.
+            When enabled, hosted mode accepts text only. Your message, selected recipe, recent bounded
+            conversation context and cooking state may be processed through Cloudflare and either the
+            configured AI provider or the private companion bridge.
           </p>
           <p>
-            Hosted cooking sessions are associated with a random, secure browser cookie rather than an
-            account. Their bounded conversation history and cooking state are stored temporarily so the
-            companion can continue the same cooking session. The service is configured to erase an
-            inactive session after approximately two hours, and closing a session may erase it sooner.
-            Hosted mode does not accept kitchen photos during Phase 1.
+            Hosted sessions use a random secure browser cookie rather than an account. Bounded conversation
+            history and cooking state are stored temporarily so the session can continue. The service is
+            configured to delete an inactive session after approximately two hours. Closing the companion
+            sends a deletion request and clears the session cookie, although an interrupted network request
+            may leave server data until automatic expiry.
+          </p>
+        </section>
+
+        <section className="space-y-3">
+          <h2 className="font-display text-2xl text-tamarind">Recipe trust and allergen information</h2>
+          <p>
+            Allergen, dietary and safety information is derived from canonical ingredient metadata and
+            recipe declarations unless a page explicitly identifies a human review. Automated assessment
+            is not an allergen-free guarantee, medical advice or proof against packaged-product
+            cross-contact. Check the labels of the exact products you use and seek qualified medical advice
+            where a food allergy or health condition makes mistakes consequential.
+          </p>
+          <p>
+            Most current recipes are structurally validated drafts and are not cook-tested. Trust records
+            are version-bound so material recipe changes cannot silently inherit stronger evidence from an
+            older version.
           </p>
         </section>
 
