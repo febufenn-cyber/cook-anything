@@ -1,9 +1,10 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Young_Serif, Schibsted_Grotesk } from "next/font/google";
 import { SITE_NAME, SITE_TAGLINE, SITE_URL, SITE_DESCRIPTION } from "@/lib/site";
 import { websiteJsonLd } from "@/lib/jsonld";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import PwaRegistration from "@/components/PwaRegistration";
 import "./globals.css";
 
 const youngSerif = Young_Serif({
@@ -26,6 +27,8 @@ export const metadata: Metadata = {
     template: `%s · ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,
+  manifest: "/manifest.webmanifest",
+  appleWebApp: { capable: true, title: SITE_NAME, statusBarStyle: "default" },
   openGraph: {
     siteName: SITE_NAME,
     type: "website",
@@ -35,17 +38,20 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 };
 
+export const viewport: Viewport = {
+  themeColor: "#d99a16",
+  colorScheme: "light",
+};
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${youngSerif.variable} ${schibsted.variable}`}>
       <body className="min-h-screen flex flex-col">
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd()) }}
-        />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd()) }} />
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />
+        <PwaRegistration />
       </body>
     </html>
   );
