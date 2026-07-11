@@ -1,123 +1,158 @@
-# Subscription bridge — run the companion on a Claude Max plan (no API key)
+# Subscription bridge — hosted execution architecture
 
-The Anthropic Messages API rejects Max-subscription OAuth tokens, so the
-legitimate way to power the companion with a subscription is to run each turn
-through **headless Claude Code** on a box you control. `bridge/server.mjs`
-does exactly that; the Cloudflare Worker proxies `/api/companion` to it when
-`COMPANION_UPSTREAM` is set.
+> **Phase 0 status: disabled.** The public Worker rejects hosted companion turns
+> and bridge-origin announcements unless `HOSTED_COMPANION_ENABLED` is exactly
+> `"true"`. The VPS must retain `/opt/cook-anything/BRIDGE_DISABLED`. See
+> `docs/PHASE-0-CONTAINMENT.md` before operating any bridge service.
 
+The Anthropic Messages API does not use a consumer Claude subscription as an API
+credential. The experimental bridge runs a turn through headless Claude Code on
+a machine controlled by the operator and lets the Cloudflare Worker proxy to it.
+
+```text
+browser ──> Worker /api/companion ──> isolated bridge (:8788)
+                                           └─ claude -p
 ```
-browser ──> worker /api/companion ──> VPS bridge (:8788, localhost)
-                                        └─ claude -p  (subscription auth)
-```
 
-## As deployed (2026-07-11, OCI VPS 68.233.116.11)
+This path is intentionally unavailable during Phase 0. Browser BYOK remains the
+supported companion mode because requests go directly from the browser to the
+user-selected provider.
 
-The live setup skips the named tunnel entirely and mirrors the
-leadfinder-radar pattern already running on the same box:
+## Why it is disabled
 
-- `companion-bridge.service` — `bridge/server.mjs` as `ubuntu` on
-  `127.0.0.1:8788`, using the VPS's existing `claude` Max login (so no
-  `CLAUDE_CODE_OAUTH_TOKEN` needed in `/etc/companion-bridge.env`).
-- `companion-tunnel.service` — `bridge/companion-tunnel.sh`: a cloudflared
-  *quick tunnel* (`*.trycloudflare.com`) fronting :8788; on every (re)start it
-  publishes the fresh origin to the Worker's `COMPANION_CONFIG` KV namespace
-  (key `origin`), which the Worker reads per turn. No zone cert, no open
-  ports, survives URL rotation.
-- Shared secret: `BRIDGE_TOKEN` in `/etc/companion-bridge.env` ==
-  `COMPANION_UPSTREAM_TOKEN` Worker secret.
-- Logs on the VPS: `/opt/cook-anything/logs/{bridge,tunnel}*.log`.
-- Updating the bridge code: `scp bridge/server.mjs bridge/companion-tunnel.sh
-  68.233.116.11:/opt/cook-anything/bridge/ && ssh 68.233.116.11 "sudo
-  systemctl restart companion-bridge companion-tunnel"`.
+Before a public hosted bridge can be re-enabled, it needs a trusted server-side
+recipe lookup, isolated file access, application-owned session identifiers,
+rate limiting, bounded concurrency, runtime state validation, privacy disclosure,
+and a tested emergency kill switch. The current bridge is retained as an
+experimental implementation, not as a production boundary.
 
-The sections below describe the from-scratch setup (fresh box, named tunnel
-on your own hostname) — use them if the quick-tunnel pattern ever needs
-upgrading to a stable hostname.
+## Phase 0 shutdown
 
-Trade-offs vs an API key: turns share your plan's 5-hour session windows with
-your other Claude Code usage (mid-cook rate-limiting is possible), and each
-turn pays ~2-4s of CLI startup latency. Photos work (written to temp files,
-viewed with Claude Code's Read tool).
-
-## 1. VPS: install Claude Code + authenticate browserless
+Deploy the fail-closed Worker first, then run the VPS shutdown command:
 
 ```bash
-# native installer, no Node needed for the CLI itself
-curl -fsSL https://claude.ai/install.sh | bash
-
-# browserless OAuth: prints a URL — open it on your phone/laptop, sign in to
-# the Max account, paste the code back into the terminal. Copy the printed
-# long-lived token (sk-ant-oat01-…).
-claude setup-token
+scp bridge/phase0-disable.sh <VPS_HOST>:/tmp/phase0-disable.sh
+ssh <VPS_HOST> 'chmod +x /tmp/phase0-disable.sh && sudo /tmp/phase0-disable.sh'
 ```
 
-The bridge itself needs Node 20+ (`sudo apt install -y nodejs` or fnm).
+The marker-aware watchdog, tunnel script, and systemd unit must be installed
+before any future service restart:
 
-## 2. VPS: install the bridge
+```bash
+scp bridge/companion-watchdog.sh bridge/companion-tunnel.sh \
+  bridge/companion-bridge.service <VPS_HOST>:/tmp/
+
+ssh <VPS_HOST> '
+  sudo install -m 0755 /tmp/companion-watchdog.sh /opt/cook-anything/bridge/companion-watchdog.sh
+  sudo install -m 0755 /tmp/companion-tunnel.sh /opt/cook-anything/bridge/companion-tunnel.sh
+  sudo install -m 0644 /tmp/companion-bridge.service /etc/systemd/system/companion-bridge.service
+  sudo systemctl daemon-reload
+'
+```
+
+Do not record real VPS addresses, OAuth tokens, bridge tokens, private tunnel
+origins, or SSH commands containing deployment identifiers in this repository.
+
+## Experimental from-scratch setup
+
+These instructions are retained only for future Phase 1 work on an isolated host.
+Do not use them to re-enable the public production path during Phase 0.
+
+### 1. Create a dedicated machine identity
+
+The bridge must not run as a general deployment or login account. Create a
+restricted service user:
 
 ```bash
 sudo useradd -r -m -d /opt/cook-anything companion 2>/dev/null || true
-sudo -u companion git clone https://github.com/febufenn-cyber/cook-anything /opt/cook-anything
+sudo install -d -o companion -g companion -m 0750 /opt/cook-anything/bridge
+sudo install -d -o companion -g companion -m 0750 /opt/cook-anything/logs
+```
 
-sudo tee /etc/companion-bridge.env >/dev/null <<EOF
-BRIDGE_TOKEN=$(openssl rand -hex 24)
-CLAUDE_CODE_OAUTH_TOKEN=sk-ant-oat01-PASTE-THE-TOKEN-HERE
+Do not give this user access to SSH keys, unrelated repositories, cloud
+credentials, shell history, or home directories belonging to other users.
+A container or stronger filesystem sandbox is required before Phase 1 exits.
+
+### 2. Install and authenticate Claude Code
+
+Install Claude Code using current official instructions, authenticate the
+restricted identity, and store credentials outside the repository. The bridge
+requires Node 20 or newer.
+
+Create a root-owned environment file:
+
+```bash
+sudo tee /etc/companion-bridge.env >/dev/null <<'EOF'
+BRIDGE_TOKEN=REPLACE_WITH_A_LONG_RANDOM_VALUE
+CLAUDE_CODE_OAUTH_TOKEN=REPLACE_OUTSIDE_SOURCE_CONTROL
 COMPANION_MODEL=sonnet
-CLAUDE_BIN=/opt/cook-anything/.local/bin/claude   # wherever install.sh put it (`which claude`)
+CLAUDE_BIN=/opt/cook-anything/.local/bin/claude
 EOF
 sudo chmod 600 /etc/companion-bridge.env
-
-sudo cp /opt/cook-anything/bridge/companion-bridge.service /etc/systemd/system/
-sudo systemctl enable --now companion-bridge
-curl -s localhost:8788/health   # -> {"ok":true}
 ```
 
-## 3. VPS: expose it via Cloudflare Tunnel (no open ports, free TLS)
+Never paste live values into documentation, issues, commits, screenshots, or
+chat transcripts.
+
+### 3. Install the bridge service
 
 ```bash
-sudo mkdir -p --mode=0755 /usr/share/keyrings
-curl -fsSL https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-main.gpg >/dev/null
-echo "deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared any main" | sudo tee /etc/apt/sources.list.d/cloudflared.list
-sudo apt update && sudo apt install -y cloudflared
-
-cloudflared tunnel login                       # pick the robofox.online zone
-cloudflared tunnel create companion-bridge
-cloudflared tunnel route dns companion-bridge companion-bridge.robofox.online
-
-sudo tee /etc/cloudflared/config.yml >/dev/null <<EOF
-tunnel: companion-bridge
-credentials-file: /root/.cloudflared/$(cloudflared tunnel list | awk '/companion-bridge/{print $1}').json
-ingress:
-  - hostname: companion-bridge.robofox.online
-    service: http://localhost:8788
-  - service: http_status:404
-EOF
-sudo cloudflared service install && sudo systemctl enable --now cloudflared
+sudo install -m 0755 bridge/server.mjs /opt/cook-anything/bridge/server.mjs
+sudo install -m 0644 bridge/companion-bridge.service /etc/systemd/system/companion-bridge.service
+sudo systemctl daemon-reload
 ```
 
-## 4. Local repo: point the Worker at the bridge
+The checked-in unit includes a `ConditionPathExists` safety interlock. It will
+not start while `/opt/cook-anything/BRIDGE_DISABLED` exists.
+
+### 4. Tunnel architecture
+
+A named Cloudflare Tunnel on a stable hostname is preferable to a quick tunnel.
+Quick tunnels rotate origins and should remain development-only. In either case,
+keep the bridge bound to `127.0.0.1`; do not open the bridge port publicly.
+
+The experimental quick-tunnel script can announce an origin to
+`POST /api/bridge-origin`, but the Worker rejects that endpoint during Phase 0.
+
+### 5. Worker configuration
+
+Hosted execution has two independent requirements:
+
+1. `HOSTED_COMPANION_ENABLED` must be exactly `"true"`.
+2. A valid hosted backend must be configured.
+
+Example for a future controlled environment only:
+
+```jsonc
+{
+  "vars": {
+    "HOSTED_COMPANION_ENABLED": "true",
+    "COMPANION_UPSTREAM": "https://companion-bridge.example.com"
+  }
+}
+```
+
+The upstream token remains a Worker secret:
 
 ```bash
-# same value you generated into /etc/companion-bridge.env
 npx wrangler secret put COMPANION_UPSTREAM_TOKEN
 ```
 
-Then add to `wrangler.jsonc` and `npm run deploy`:
+A missing or malformed enable value must always fail closed.
 
-```jsonc
-"vars": { "COMPANION_UPSTREAM": "https://companion-bridge.robofox.online" }
-```
+## Operations after Phase 1 approval
 
-Backend priority in the shipped code: user's own key (⚙️ BYOK, straight from
-their browser) → `COMPANION_UPSTREAM` bridge → hosted `ANTHROPIC_API_KEY` →
-`not_configured`.
+Future operations must include:
 
-## Operations
+- a dedicated restricted user or container
+- a small process concurrency pool
+- request and session ownership controls
+- IP/user quotas
+- temporary photo directories with no broader filesystem visibility
+- secret rotation procedures
+- log redaction
+- monitoring that distinguishes safety shutdown from service failure
 
-- Logs: `journalctl -u companion-bridge -f`
-- Rotate the OAuth token: rerun `claude setup-token`, update
-  `/etc/companion-bridge.env`, `sudo systemctl restart companion-bridge`.
-- Hitting session limits mid-cook returns `rate_limited`; the UI shows a
-  friendly retry message. If that annoys you, this is the signal to switch to
-  a hosted API key.
+Do not remove `/opt/cook-anything/BRIDGE_DISABLED` merely to test availability.
+Use a separate private staging environment until every exit condition in
+`docs/PHASE-0-CONTAINMENT.md` has been satisfied.
