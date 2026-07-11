@@ -40,6 +40,14 @@ function isStringArray(value: unknown, maxItems: number, maxChars: number): valu
     && value.every((item) => isBoundedString(item, maxChars));
 }
 
+function hasStringPrefix(next: string[], previous: string[]): boolean {
+  return previous.every((value, index) => next[index] === value);
+}
+
+function hasLedgerPrefix(next: LedgerEntry[], previous: LedgerEntry[]): boolean {
+  return previous.every((value, index) => JSON.stringify(next[index]) === JSON.stringify(value));
+}
+
 export function jsonResponse(body: unknown, status = 200, extraHeaders?: HeadersInit): Response {
   const headers = new Headers(JSON_HEADERS);
   if (extraHeaders) new Headers(extraHeaders).forEach((value, key) => headers.set(key, value));
@@ -158,6 +166,7 @@ export function validateCompanionState(value: unknown, recipe: TrustedCompanionR
 
   const stepIds = new Set(recipe.steps.map((step) => step.id));
   if (!isStringArray(value.steps_done, recipe.steps.length, 100)) return null;
+  if (new Set(value.steps_done).size !== value.steps_done.length) return null;
   if (!value.steps_done.every((id) => stepIds.has(id))) return null;
   if (!isBoundedString(value.current_step, 100)) return null;
   if (!stepIds.has(value.current_step) && value.current_step !== "start") return null;
@@ -176,6 +185,39 @@ export function validateCompanionState(value: unknown, recipe: TrustedCompanionR
     && timer.remaining_s <= 86_400)) return null;
 
   return value as unknown as CompanionState;
+}
+
+/**
+ * Model output may be structurally valid but still rewrite history or jump ahead.
+ * Enforce monotonic, one-action-at-a-time transitions before committing state.
+ */
+export function validateCompanionStateTransition(
+  value: unknown,
+  previous: CompanionState,
+  recipe: TrustedCompanionRecipe,
+): CompanionState | null {
+  const next = validateCompanionState(value, recipe);
+  if (!next) return null;
+
+  if (!hasStringPrefix(next.steps_done, previous.steps_done)) return null;
+  if (next.steps_done.length > previous.steps_done.length + 1) return null;
+  if (!hasLedgerPrefix(next.substitution_ledger, previous.substitution_ledger)) return null;
+  if (next.substitution_ledger.length > previous.substitution_ledger.length + 2) return null;
+  if (!hasStringPrefix(next.flags, previous.flags)) return null;
+  if (next.flags.length > previous.flags.length + 2) return null;
+
+  const previousStage = recipe.stages.indexOf(previous.stage);
+  const nextStage = recipe.stages.indexOf(next.stage);
+  if (nextStage < previousStage || nextStage > previousStage + 1) return null;
+
+  const stepIndex = new Map(recipe.steps.map((step, index) => [step.id, index]));
+  const previousStep = previous.current_step === "start" ? -1 : stepIndex.get(previous.current_step);
+  const nextStep = next.current_step === "start" ? -1 : stepIndex.get(next.current_step);
+  if (previousStep === undefined || nextStep === undefined) return null;
+  if (nextStep < previousStep || nextStep > previousStep + 1) return null;
+  if (next.steps_done.some((id) => (stepIndex.get(id) ?? Number.POSITIVE_INFINITY) > nextStep)) return null;
+
+  return next;
 }
 
 export function parseCookie(request: Request, name: string): string | null {
