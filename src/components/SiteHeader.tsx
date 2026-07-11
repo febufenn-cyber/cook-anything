@@ -1,4 +1,5 @@
 import Link from "next/link";
+import SyncStatusPill from "./SyncStatusPill";
 
 const NAV = [
   { href: "/what-can-i-cook", label: "What can I cook?" },
@@ -13,7 +14,7 @@ const NAV = [
 export default function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 border-b border-cardamom bg-rice/95 backdrop-blur">
-      <div className="mx-auto flex max-w-6xl items-center gap-4 px-4 py-3 sm:px-6">
+      <div className="mx-auto flex max-w-6xl items-center gap-3 px-4 py-3 sm:px-6">
         <Link href="/" className="flex shrink-0 items-baseline gap-1.5" aria-label="Cook Anything home">
           <span aria-hidden className="pantry-dot pantry-dot--have translate-y-[-1px]" />
           <span className="font-display text-xl leading-none">Cook Anything</span>
@@ -29,6 +30,7 @@ export default function SiteHeader() {
             </Link>
           ))}
         </nav>
+        <SyncStatusPill />
       </div>
     </header>
   );
