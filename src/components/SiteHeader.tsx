@@ -2,6 +2,7 @@ import Link from "next/link";
 
 const NAV = [
   { href: "/what-can-i-cook", label: "What can I cook?" },
+  { href: "/kitchen", label: "My kitchen" },
   { href: "/recipes", label: "Recipes" },
   { href: "/cuisines", label: "Cuisines" },
   { href: "/ingredients", label: "Ingredients" },
