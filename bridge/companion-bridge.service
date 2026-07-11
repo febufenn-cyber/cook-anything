@@ -5,6 +5,8 @@
 Description=Cook Anything companion bridge (headless Claude Code)
 After=network-online.target
 Wants=network-online.target
+# Phase 0 safety interlock. bridge/phase0-disable.sh creates this marker.
+ConditionPathExists=!/opt/cook-anything/BRIDGE_DISABLED
 
 [Service]
 Type=simple
