@@ -106,15 +106,20 @@ export function subscribeAuth(listener: () => void): () => void {
   };
 }
 
+/** Auth tokens are intentionally validated separately and are never accepted as sync payloads. */
 export function loadStoredSession(): AuthSession | null {
   if (typeof window === "undefined") return null;
   try {
     const value = JSON.parse(window.localStorage.getItem(SESSION_KEY) ?? "null") as unknown;
-    assertSyncPayloadSafe(value);
-    if (!value || typeof value !== "object") return null;
+    if (!value || typeof value !== "object" || Array.isArray(value)) return null;
     const session = value as Partial<AuthSession>;
-    if (typeof session.accessToken !== "string" || typeof session.refreshToken !== "string" || typeof session.expiresAt !== "number") return null;
-    if (!session.user || typeof session.user.id !== "string") return null;
+    if (typeof session.accessToken !== "string" || session.accessToken.length > 20_000) return null;
+    if (typeof session.refreshToken !== "string" || session.refreshToken.length > 20_000) return null;
+    if (typeof session.expiresAt !== "number" || !Number.isFinite(session.expiresAt)) return null;
+    if (session.tokenType !== "bearer" && session.tokenType !== "Bearer") return null;
+    if (!session.user || typeof session.user.id !== "string" || session.user.id.length > 100) return null;
+    if (session.user.email !== null && typeof session.user.email !== "string") return null;
+    if (session.user.displayName !== null && typeof session.user.displayName !== "string") return null;
     return session as AuthSession;
   } catch {
     return null;
