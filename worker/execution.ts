@@ -1,9 +1,5 @@
 import { buildRecipeSystemText, buildStateSystemText, parseStateBlock } from "../src/lib/companion/prompt";
-import type {
-  ChatMessage,
-  CompanionState,
-  TrustedCompanionRecipe,
-} from "../src/lib/companion/types";
+import type { ChatMessage, CompanionState, TrustedCompanionRecipe } from "../src/lib/companion/types";
 import type { Env } from "./env";
 import { sha256Hex } from "./security";
 
@@ -11,11 +7,12 @@ const DEFAULT_MODEL = "claude-sonnet-4-6";
 const MAX_TOKENS = 700;
 const UPSTREAM_TIMEOUT_MS = 90_000;
 const MAX_UPSTREAM_TEXT_CHARS = 100_000;
+const MAX_BRIDGE_HISTORY_MESSAGES = 16;
+const MAX_BRIDGE_HISTORY_CHARS = 24_000;
 
 export interface ExecutionResult {
   reply: string;
   candidateState: CompanionState | null;
-  backendSessionId?: string;
 }
 
 function bytesToHex(bytes: ArrayBuffer): string {
@@ -50,12 +47,25 @@ function normalizeProviderError(status: number): string {
   return "upstream_error";
 }
 
+function bridgeHistory(history: ChatMessage[]): { role: "user" | "assistant"; content: string }[] {
+  const bounded: { role: "user" | "assistant"; content: string }[] = [];
+  let chars = 0;
+  for (const message of history.slice(-MAX_BRIDGE_HISTORY_MESSAGES)) {
+    if (typeof message.content !== "string") continue;
+    const content = message.content.slice(0, 4_000);
+    if (!content || chars + content.length > MAX_BRIDGE_HISTORY_CHARS) break;
+    bounded.push({ role: message.role, content });
+    chars += content.length;
+  }
+  return bounded;
+}
+
 async function executeThroughBridge(
   env: Env,
   recipe: TrustedCompanionRecipe,
   state: CompanionState,
+  history: ChatMessage[],
   message: string,
-  backendSessionId?: string,
 ): Promise<ExecutionResult> {
   if (!env.COMPANION_UPSTREAM || !env.COMPANION_UPSTREAM_SIGNING_SECRET) {
     throw new Error("bridge_not_configured");
@@ -68,8 +78,8 @@ async function executeThroughBridge(
     request_id: requestId,
     system: buildRecipeSystemText(recipe),
     state_system: buildStateSystemText(state),
+    history: bridgeHistory(history),
     message,
-    backend_session_id: backendSessionId ?? null,
   });
   const bodyHash = await sha256Hex(body);
   const signature = await hmacSha256Hex(
@@ -95,7 +105,7 @@ async function executeThroughBridge(
   }
 
   const data = (await response.json().catch(() => null)) as
-    | { result?: unknown; backend_session_id?: unknown; error?: unknown }
+    | { result?: unknown; error?: unknown }
     | null;
   if (!response.ok || !data || typeof data.result !== "string") {
     const error = typeof data?.error === "string" ? data.error : normalizeProviderError(response.status);
@@ -104,13 +114,7 @@ async function executeThroughBridge(
   if (data.result.length > MAX_UPSTREAM_TEXT_CHARS) throw new Error("upstream_error");
 
   const parsed = parseStateBlock(data.result);
-  return {
-    reply: parsed.reply,
-    candidateState: parsed.state,
-    ...(typeof data.backend_session_id === "string" && data.backend_session_id.length <= 200
-      ? { backendSessionId: data.backend_session_id }
-      : {}),
-  };
+  return { reply: parsed.reply, candidateState: parsed.state };
 }
 
 async function executeThroughAnthropic(
@@ -171,9 +175,8 @@ export async function executeHostedTurn(
   state: CompanionState,
   history: ChatMessage[],
   message: string,
-  backendSessionId?: string,
 ): Promise<ExecutionResult> {
   return env.COMPANION_UPSTREAM
-    ? executeThroughBridge(env, recipe, state, message, backendSessionId)
+    ? executeThroughBridge(env, recipe, state, history, message)
     : executeThroughAnthropic(env, recipe, state, history, message);
 }
