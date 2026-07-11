@@ -24,6 +24,8 @@
     "test:product": "tsx scripts/test-phase3-product.ts && tsx scripts/test-phase3-edge-cases.ts && tsx scripts/test-corpus-corrections.ts",
     "test:kitchen": "tsx scripts/test-phase4-kitchen.ts",
     "test:sync": "tsx scripts/test-phase5-sync.ts",
+    "test:contributions": "tsx scripts/test-phase6-contributions.ts",
+    "publication:open-pr": "tsx scripts/open-publication-candidate-pr.ts",
     "licenses": "tsx scripts/check-licenses.ts",
     "export-recipes": "tsx scripts/export-recipes.ts",
     "import-recipes": "tsx scripts/import-recipes.ts",

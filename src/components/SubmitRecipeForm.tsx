@@ -1,225 +1,227 @@
 "use client";
 
-/**
- * Local recipe-draft foundation. It creates a structured file in the platform
- * shape, but does not upload, submit, moderate or publish anything.
- */
-import { useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { usePortableKitchen } from "./PortableKitchenProvider";
+import { contributionRepository } from "@/lib/contributions/local-store";
+import { getCloudDraft, saveCloudDraftVersion, submitCloudVersion } from "@/lib/contributions/cloud";
+import { linkLocalDraftToCloud } from "@/lib/contributions/links";
+import type {
+  AiAssistance,
+  ContributionScope,
+  DraftIngredient,
+  DraftStep,
+  PublicationLicence,
+  RecipeDraftContent,
+  RightsAttestation,
+  SourceType,
+} from "@/lib/contributions/types";
 
-interface DraftIngredient { name: string; quantity: string; unit: string; }
-
-const DRAFTS_KEY = "ca:recipe-drafts";
-const LEGACY_DRAFTS_KEY = "ca:submitted-drafts";
+function id(prefix: string): string {
+  return `${prefix}-${typeof crypto !== "undefined" && "randomUUID" in crypto ? crypto.randomUUID() : `${Date.now()}-${Math.random()}`}`;
+}
+const emptyIngredient = (): DraftIngredient => ({ id: id("ingredient"), name: "", optional: false });
+const emptyStep = (order: number): DraftStep => ({ id: id("step"), order, text: "" });
 
 export default function SubmitRecipeForm() {
+  const { configured, session, households } = usePortableKitchen();
+  const [draftId, setDraftId] = useState<string | undefined>();
+  const [cloudDraftId, setCloudDraftId] = useState<string | undefined>();
+  const [cloudLatestVersionId, setCloudLatestVersionId] = useState<string | undefined>();
   const [title, setTitle] = useState("");
   const [nativeTitle, setNativeTitle] = useState("");
+  const [description, setDescription] = useState("");
   const [cuisine, setCuisine] = useState("");
   const [region, setRegion] = useState("");
   const [language, setLanguage] = useState("en");
+  const [servings, setServings] = useState(4);
+  const [prepMinutes, setPrepMinutes] = useState("");
+  const [cookMinutes, setCookMinutes] = useState("");
   const [story, setStory] = useState("");
-  const [contributor, setContributor] = useState("");
-  const [ingredients, setIngredients] = useState<DraftIngredient[]>([{ name: "", quantity: "", unit: "" }]);
-  const [steps, setSteps] = useState<string[]>([""]);
-  const [rightsConfirmed, setRightsConfirmed] = useState(false);
-  const [saved, setSaved] = useState(false);
-  const [errorMsg, setErrorMsg] = useState<string | null>(null);
+  const [ingredients, setIngredients] = useState<DraftIngredient[]>([emptyIngredient(), emptyIngredient()]);
+  const [steps, setSteps] = useState<DraftStep[]>([emptyStep(1), emptyStep(2)]);
+  const [cookware, setCookware] = useState("");
+  const [allergens, setAllergens] = useState<string[]>([]);
+  const [dietary, setDietary] = useState("");
+  const [safetyNotes, setSafetyNotes] = useState("");
+  const [sourceType, setSourceType] = useState<SourceType>("family");
+  const [aiAssistance, setAiAssistance] = useState<AiAssistance>("none");
+  const [aiNotes, setAiNotes] = useState("");
+  const [publicName, setPublicName] = useState("");
+  const [licence, setLicence] = useState<PublicationLicence>("CC-BY-4.0");
+  const [publishStory, setPublishStory] = useState(false);
+  const [ownWords, setOwnWords] = useState(false);
+  const [rightToShare, setRightToShare] = useState(false);
+  const [target, setTarget] = useState("local");
+  const [message, setMessage] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  const [saving, setSaving] = useState(false);
 
-  function buildDraft() {
-    const slug = title.toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  useEffect(() => {
+    void contributionRepository.migrateLegacyDrafts();
+    if (typeof window === "undefined") return;
+    const requested = new URLSearchParams(window.location.search).get("draft");
+    if (!requested) return;
+    void contributionRepository.getDraft(requested).then(async (draft) => {
+      if (!draft) return;
+      const version = await contributionRepository.getVersion(draft.latestVersionId);
+      if (!version) return;
+      const content = version.content;
+      setDraftId(draft.id);
+      setCloudDraftId(draft.cloudDraftId);
+      setTarget(draft.cloudDraftId ? draft.scope.type === "household" ? `household:${draft.scope.id}` : "personal" : "local");
+      if (draft.cloudDraftId && session) {
+        const cloud = await getCloudDraft(draft.cloudDraftId).catch(() => null);
+        if (cloud) setCloudLatestVersionId(cloud.latestVersion.id);
+      }
+      setTitle(content.title);
+      setNativeTitle(content.nativeTitle ?? "");
+      setDescription(content.description);
+      setCuisine(content.cuisine);
+      setRegion(content.region ?? "");
+      setLanguage(content.language);
+      setServings(content.servings);
+      setPrepMinutes(content.prepMinutes?.toString() ?? "");
+      setCookMinutes(content.cookMinutes?.toString() ?? "");
+      setStory(content.culturalStory ?? "");
+      setIngredients(content.ingredients);
+      setSteps(content.steps);
+      setCookware(content.cookware.join(", "));
+      setAllergens(content.declaredAllergens);
+      setDietary(content.claimedDietaryLabels.join(", "));
+      setSafetyNotes((content.safetyNotes ?? []).join("\n"));
+      if (version.rights) {
+        setSourceType(version.rights.sourceType);
+        setAiAssistance(version.rights.aiAssistance);
+        setAiNotes(version.rights.aiAssistanceNotes ?? "");
+        setPublicName(version.rights.publicContributorName ?? "");
+        setLicence(version.rights.licence);
+        setPublishStory(version.rights.publishCulturalStory);
+        setOwnWords(version.rights.writtenInOwnWords);
+        setRightToShare(version.rights.rightToShare);
+      }
+    });
+  }, [session]);
+
+  const selectedScope = useMemo<ContributionScope>(() => {
+    if (target.startsWith("household:")) return { type: "household", id: target.slice("household:".length) };
+    return { type: "personal" };
+  }, [target]);
+
+  function buildContent(): RecipeDraftContent {
     return {
-      id: `ca-${slug}`,
-      slug,
+      schemaVersion: 1,
       title: title.trim(),
-      nativeTitle: nativeTitle.trim() || null,
-      description: story.trim().slice(0, 200) || `A family recipe draft by ${contributor.trim() || "a home cook"}.`,
-      cuisine: cuisine.trim().toLowerCase(),
-      region: region.trim() || null,
+      ...(nativeTitle.trim() ? { nativeTitle: nativeTitle.trim() } : {}),
+      description: description.trim(),
+      cuisine: cuisine.trim(),
+      ...(region.trim() ? { region: region.trim() } : {}),
       language,
-      ingredients: ingredients
-        .filter((ingredient) => ingredient.name.trim())
-        .map((ingredient) => ({
-          name: ingredient.name.trim(),
-          normalizedName: ingredient.name.trim().toLowerCase().replace(/\s+/g, "-"),
-          quantity: ingredient.quantity ? Number(ingredient.quantity) || null : null,
-          unit: ingredient.unit || null,
-          optional: false,
-        })),
-      steps: steps.filter((step) => step.trim()).map((text, index) => ({ order: index + 1, text: text.trim() })),
-      culturalNote: story.trim() || null,
-      author: contributor.trim() || "Anonymous home cook",
-      source: "Local community recipe draft",
-      sourceUrl: null,
-      license: "original",
-      verificationStatus: "community_submitted",
-      image: null,
-      imageLicense: null,
-      draftSavedAt: new Date().toISOString(),
-      submissionStatus: "local_only_not_submitted",
+      servings,
+      ...(prepMinutes ? { prepMinutes: Number(prepMinutes) } : {}),
+      ...(cookMinutes ? { cookMinutes: Number(cookMinutes) } : {}),
+      ingredients: ingredients.filter((item) => item.name.trim()).map((item) => ({
+        ...item,
+        name: item.name.trim(),
+        ...(item.canonicalSlug?.trim() ? { canonicalSlug: item.canonicalSlug.trim() } : {}),
+        ...(item.unit?.trim() ? { unit: item.unit.trim() } : {}),
+        ...(item.quantityText?.trim() ? { quantityText: item.quantityText.trim() } : {}),
+        ...(item.notes?.trim() ? { notes: item.notes.trim() } : {}),
+      })),
+      steps: steps.filter((item) => item.text.trim()).map((item, index) => ({ ...item, order: index + 1, text: item.text.trim() })),
+      cookware: cookware.split(",").map((item) => item.trim()).filter(Boolean),
+      ...(story.trim() ? { culturalStory: story.trim() } : {}),
+      safetyNotes: safetyNotes.split("\n").map((item) => item.trim()).filter(Boolean),
+      claimedDietaryLabels: dietary.split(",").map((item) => item.trim()).filter(Boolean),
+      declaredAllergens: allergens,
     };
   }
 
-  function saveDraft() {
-    setErrorMsg(null);
-    if (!title.trim()) return setErrorMsg("Give your recipe a title.");
-    if (!cuisine.trim()) return setErrorMsg("Which cuisine or community does this come from?");
-    if (ingredients.filter((ingredient) => ingredient.name.trim()).length < 2) return setErrorMsg("List at least two ingredients.");
-    if (steps.filter((step) => step.trim()).length < 2) return setErrorMsg("Describe at least two steps.");
-    if (!rightsConfirmed) return setErrorMsg("Please confirm this recipe is yours to share.");
-
-    const draft = buildDraft();
-    try {
-      const current = JSON.parse(localStorage.getItem(DRAFTS_KEY) ?? localStorage.getItem(LEGACY_DRAFTS_KEY) ?? "[]");
-      localStorage.setItem(DRAFTS_KEY, JSON.stringify([...current, draft]));
-      localStorage.removeItem(LEGACY_DRAFTS_KEY);
-    } catch {
-      // Storage may be unavailable. The user can still download the draft file.
-    }
-    setSaved(true);
+  function buildRights(): RightsAttestation | null {
+    if (!ownWords && !rightToShare) return null;
+    return {
+      sourceType,
+      writtenInOwnWords: ownWords,
+      rightToShare,
+      aiAssistance,
+      ...(aiNotes.trim() ? { aiAssistanceNotes: aiNotes.trim() } : {}),
+      ...(publicName.trim() ? { publicContributorName: publicName.trim() } : {}),
+      publishCulturalStory: publishStory,
+      licence,
+      acceptedAt: new Date().toISOString(),
+    };
   }
 
-  function download() {
-    const draft = buildDraft();
-    const blob = new Blob([JSON.stringify(draft, null, 2)], { type: "application/json" });
-    const anchor = document.createElement("a");
-    anchor.href = URL.createObjectURL(blob);
-    anchor.download = `${draft.slug || "recipe"}.json`;
-    anchor.click();
-    URL.revokeObjectURL(anchor.href);
+  async function save(submit = false) {
+    setSaving(true); setMessage(null); setError(null);
+    try {
+      const content = buildContent();
+      const rights = buildRights();
+      const local = await contributionRepository.saveVersion({
+        draftId,
+        content,
+        rights,
+        ...(session && target !== "local" ? { ownerId: session.user.id } : {}),
+        scope: target === "local" ? { type: "personal" } : selectedScope,
+      });
+      setDraftId(local.draft.id);
+      if (typeof window !== "undefined") window.history.replaceState(null, "", `/submit-recipe/?draft=${encodeURIComponent(local.draft.id)}`);
+      if (target === "local") {
+        if (submit) throw new Error("sign_in_and_choose_cloud_before_submission");
+        setMessage(`Version ${local.version.versionNumber} saved only on this device. Nothing was uploaded or submitted.`);
+        return;
+      }
+      if (!configured || !session) throw new Error("sign_in_required_for_cloud_drafts");
+      const cloud = await saveCloudDraftVersion({
+        draftId: cloudDraftId,
+        scope: selectedScope,
+        content,
+        rights,
+        expectedLatestVersionId: cloudLatestVersionId,
+      });
+      setCloudDraftId(cloud.draft.id);
+      setCloudLatestVersionId(cloud.latestVersion.id);
+      await linkLocalDraftToCloud({ localDraftId: local.draft.id, cloudDraftId: cloud.draft.id, ownerId: session.user.id, scope: selectedScope });
+      if (submit) {
+        if (!rights) throw new Error("rights_incomplete");
+        const result = await submitCloudVersion(cloud.draft.id, cloud.latestVersion.id);
+        await contributionRepository.saveSubmission(result.submission);
+        setMessage(`Submitted immutable version ${cloud.latestVersion.versionNumber} for automated checks and editorial review.`);
+      } else {
+        setMessage(`Saved version ${cloud.latestVersion.versionNumber} to ${selectedScope.type === "household" ? "the household cookbook" : "your private cloud cookbook"}. It is not public.`);
+      }
+    } catch (cause) {
+      setError(cause instanceof Error ? cause.message.replaceAll("_", " ") : "Could not save the draft.");
+    } finally { setSaving(false); }
   }
 
   const input = "w-full rounded-xl border border-cardamom bg-rice px-4 py-2.5 text-sm outline-none focus:border-turmeric placeholder:text-tamarind-faint";
-  const label = "block text-sm font-medium text-tamarind-soft mb-1.5 mt-5 first:mt-0";
-
-  if (saved) {
-    return (
-      <div className="rounded-card border border-curry/30 bg-curry-tint p-8 text-center">
-        <p className="font-display text-2xl text-curry">Draft saved on this device</p>
-        <p className="mx-auto mt-3 max-w-md text-sm text-tamarind-soft">
-          Nothing was uploaded or submitted. Nobody has reviewed this draft, and it is not published.
-          It remains in this browser until you clear browser data. Download the structured JSON below
-          to keep a separate copy.
-        </p>
-        <div className="mt-5 flex flex-wrap justify-center gap-3">
-          <button onClick={download} className="rounded-full bg-turmeric px-5 py-2.5 text-sm font-semibold text-tamarind">
-            Download draft JSON
-          </button>
-          <button onClick={() => setSaved(false)} className="rounded-full border border-cardamom bg-card px-5 py-2.5 text-sm font-medium">
-            Create another draft
-          </button>
-        </div>
-      </div>
-    );
-  }
+  const label = "mb-1.5 mt-5 block text-sm font-medium text-tamarind-soft first:mt-0";
+  const allergenOptions = ["dairy", "gluten", "nuts", "peanuts", "soy", "egg", "fish", "shellfish", "sesame", "mustard"];
 
   return (
-    <div className="rounded-card border border-cardamom bg-card p-6 shadow-lift sm:p-8">
-      <div className="mb-6 rounded-card bg-turmeric-tint/60 p-4 text-sm text-tamarind-soft">
-        <strong>This is a local draft tool, not a submission form.</strong> Saving stores the draft only
-        in this browser. Accounts, uploading and moderation are not active yet.
-      </div>
-
-      <label className={label} htmlFor="sr-title">Recipe title</label>
-      <input id="sr-title" className={input} value={title} onChange={(event) => setTitle(event.target.value)} placeholder="Paatti's kathirikai curry" />
-
+    <div className="space-y-6 rounded-card border border-cardamom bg-card p-6 shadow-lift sm:p-8">
+      <div className="rounded-card bg-turmeric-tint/60 p-4 text-sm text-tamarind-soft"><strong>Private by default.</strong> Saving locally or to a household does not publish the recipe. Submission freezes one exact version for checks and review; later edits create another version. Saving or syncing never publishes.</div>
+      <div><label className={label} htmlFor="draft-target">Save target</label><select id="draft-target" className={input} value={target} onChange={(event) => setTarget(event.target.value)}><option value="local">This device only</option>{session && <option value="personal">My private cloud cookbook</option>}{session && households.map((household) => <option key={household.id} value={`household:${household.id}`}>{household.name} household</option>)}</select>{!session && <p className="mt-2 text-xs text-tamarind-faint">Sign in from Account only when you want cloud backup, household collaboration or submission.</p>}</div>
       <div className="grid gap-4 sm:grid-cols-2">
-        <div>
-          <label className={label} htmlFor="sr-native">Native title (any script)</label>
-          <input id="sr-native" className={input} value={nativeTitle} onChange={(event) => setNativeTitle(event.target.value)} placeholder="பாட்டி கத்திரிக்காய் கறி" />
-        </div>
-        <div>
-          <label className={label} htmlFor="sr-lang">Language</label>
-          <select id="sr-lang" className={input} value={language} onChange={(event) => setLanguage(event.target.value)}>
-            <option value="en">English</option>
-            <option value="ta">Tamil</option>
-            <option value="hi">Hindi</option>
-            <option value="other">Other</option>
-          </select>
-        </div>
-        <div>
-          <label className={label} htmlFor="sr-cuisine">Cuisine / community</label>
-          <input id="sr-cuisine" className={input} value={cuisine} onChange={(event) => setCuisine(event.target.value)} placeholder="Tamil, Chettinad, Kerala…" />
-        </div>
-        <div>
-          <label className={label} htmlFor="sr-region">Region / town (optional)</label>
-          <input id="sr-region" className={input} value={region} onChange={(event) => setRegion(event.target.value)} placeholder="Madurai" />
-        </div>
+        <div><label className={label} htmlFor="draft-title">Recipe title</label><input id="draft-title" className={input} value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Paatti’s kathirikai curry" /></div>
+        <div><label className={label} htmlFor="draft-native">Native title</label><input id="draft-native" className={input} value={nativeTitle} onChange={(e) => setNativeTitle(e.target.value)} placeholder="பாட்டி கத்திரிக்காய் கறி" /></div>
+        <div><label className={label} htmlFor="draft-cuisine">Cuisine or community</label><input id="draft-cuisine" className={input} value={cuisine} onChange={(e) => setCuisine(e.target.value)} placeholder="Tamil, Chettinad, Kerala…" /></div>
+        <div><label className={label} htmlFor="draft-region">Region or town</label><input id="draft-region" className={input} value={region} onChange={(e) => setRegion(e.target.value)} placeholder="Madurai" /></div>
+        <div><label className={label} htmlFor="draft-language">Primary language</label><select id="draft-language" className={input} value={language} onChange={(e) => setLanguage(e.target.value)}><option value="en">English</option><option value="ta">Tamil</option><option value="hi">Hindi</option><option value="other">Other</option></select></div>
+        <div><label className={label} htmlFor="draft-servings">Servings</label><input id="draft-servings" type="number" min={1} max={100} className={input} value={servings} onChange={(e) => setServings(Number(e.target.value))} /></div>
+        <div><label className={label} htmlFor="draft-prep">Preparation minutes</label><input id="draft-prep" type="number" min={0} className={input} value={prepMinutes} onChange={(e) => setPrepMinutes(e.target.value)} /></div>
+        <div><label className={label} htmlFor="draft-cook">Cooking minutes</label><input id="draft-cook" type="number" min={0} className={input} value={cookMinutes} onChange={(e) => setCookMinutes(e.target.value)} /></div>
       </div>
-
-      <label className={label}>Ingredients</label>
-      <div className="space-y-2">
-        {ingredients.map((ingredient, index) => (
-          <div key={index} className="flex gap-2">
-            <input
-              className={input}
-              value={ingredient.name}
-              onChange={(event) => setIngredients((current) => current.map((item, itemIndex) => itemIndex === index ? { ...item, name: event.target.value } : item))}
-              placeholder="Ingredient"
-              aria-label={`Ingredient ${index + 1} name`}
-            />
-            <input
-              className={`${input} max-w-20`}
-              value={ingredient.quantity}
-              onChange={(event) => setIngredients((current) => current.map((item, itemIndex) => itemIndex === index ? { ...item, quantity: event.target.value } : item))}
-              placeholder="Qty"
-              aria-label={`Ingredient ${index + 1} quantity`}
-            />
-            <input
-              className={`${input} max-w-24`}
-              value={ingredient.unit}
-              onChange={(event) => setIngredients((current) => current.map((item, itemIndex) => itemIndex === index ? { ...item, unit: event.target.value } : item))}
-              placeholder="Unit"
-              aria-label={`Ingredient ${index + 1} unit`}
-            />
-          </div>
-        ))}
-      </div>
-      <button onClick={() => setIngredients((current) => [...current, { name: "", quantity: "", unit: "" }])} className="mt-2 text-sm font-medium text-turmeric-deep hover:underline">
-        + Add ingredient
-      </button>
-
-      <label className={label}>Steps</label>
-      <div className="space-y-2">
-        {steps.map((step, index) => (
-          <textarea
-            key={index}
-            className={`${input} min-h-16`}
-            value={step}
-            onChange={(event) => setSteps((current) => current.map((item, itemIndex) => itemIndex === index ? event.target.value : item))}
-            placeholder={`Step ${index + 1}`}
-            aria-label={`Step ${index + 1}`}
-          />
-        ))}
-      </div>
-      <button onClick={() => setSteps((current) => [...current, ""])} className="mt-2 text-sm font-medium text-turmeric-deep hover:underline">
-        + Add step
-      </button>
-
-      <label className={label} htmlFor="sr-story">The story behind it (optional)</label>
-      <textarea id="sr-story" className={`${input} min-h-20`} value={story} onChange={(event) => setStory(event.target.value)} placeholder="Whose recipe is this? When is it cooked in your family?" />
-
-      <label className={label} htmlFor="sr-name">Your name for the future contributor record</label>
-      <input id="sr-name" className={input} value={contributor} onChange={(event) => setContributor(event.target.value)} placeholder="Febin from Chennai" />
-
-      <label className="mt-6 flex items-start gap-3 rounded-xl border border-cardamom bg-rice p-4 text-sm text-tamarind-soft">
-        <input
-          type="checkbox"
-          checked={rightsConfirmed}
-          onChange={(event) => setRightsConfirmed(event.target.checked)}
-          className="mt-0.5 h-4 w-4 accent-turmeric"
-        />
-        <span>
-          This is my own recipe or a family/traditional recipe I have the right to share, written in my
-          own words. I&apos;m not pasting text from a book, website or app. This confirmation is saved in
-          the local draft but does not grant Cook Anything permission until a real submission flow exists.
-        </span>
-      </label>
-
-      {errorMsg && <p className="mt-4 text-sm font-medium text-chilli">{errorMsg}</p>}
-
-      <button onClick={saveDraft} className="mt-6 w-full rounded-card bg-turmeric px-6 py-3.5 font-semibold text-tamarind transition-colors hover:bg-turmeric-deep hover:text-rice sm:w-auto">
-        Save draft on this device
-      </button>
+      <label className={label} htmlFor="draft-description">Short description</label><textarea id="draft-description" className={`${input} min-h-20`} value={description} onChange={(e) => setDescription(e.target.value)} placeholder="Describe the dish in your own words." />
+      <div><label className={label}>Ingredients</label><div className="space-y-3">{ingredients.map((ingredient, index) => <div key={ingredient.id} className="grid gap-2 rounded-xl border border-cardamom p-3 sm:grid-cols-[1fr_8rem_8rem_auto]"><input className={input} value={ingredient.name} onChange={(e) => setIngredients((current) => current.map((item) => item.id === ingredient.id ? { ...item, name: e.target.value } : item))} placeholder="Ingredient" aria-label={`Ingredient ${index + 1} name`} /><input className={input} value={ingredient.quantityText ?? ""} onChange={(e) => setIngredients((current) => current.map((item) => item.id === ingredient.id ? { ...item, quantityText: e.target.value } : item))} placeholder="Quantity" aria-label={`Ingredient ${index + 1} quantity`} /><input className={input} value={ingredient.unit ?? ""} onChange={(e) => setIngredients((current) => current.map((item) => item.id === ingredient.id ? { ...item, unit: e.target.value } : item))} placeholder="Unit" aria-label={`Ingredient ${index + 1} unit`} /><button type="button" className="text-xs font-medium text-chilli" onClick={() => setIngredients((current) => current.filter((item) => item.id !== ingredient.id))}>Remove</button><input className={`${input} sm:col-span-3`} value={ingredient.canonicalSlug ?? ""} onChange={(e) => setIngredients((current) => current.map((item) => item.id === ingredient.id ? { ...item, canonicalSlug: e.target.value } : item))} placeholder="Canonical slug if known, e.g. coconut-milk" aria-label={`Ingredient ${index + 1} canonical slug`} /><label className="flex items-center gap-2 text-xs text-tamarind-soft"><input type="checkbox" checked={ingredient.optional} onChange={(e) => setIngredients((current) => current.map((item) => item.id === ingredient.id ? { ...item, optional: e.target.checked } : item))} /> Optional</label></div>)}</div><button type="button" onClick={() => setIngredients((current) => [...current, emptyIngredient()])} className="mt-3 text-sm font-medium text-turmeric-deep">+ Add ingredient</button></div>
+      <div><label className={label}>Steps</label><div className="space-y-3">{steps.map((step, index) => <div key={step.id} className="flex gap-2"><span className="mt-3 w-6 text-sm text-tamarind-faint">{index + 1}</span><textarea className={`${input} min-h-20`} value={step.text} onChange={(e) => setSteps((current) => current.map((item) => item.id === step.id ? { ...item, text: e.target.value } : item))} placeholder={`Step ${index + 1}`} /><button type="button" className="text-xs font-medium text-chilli" onClick={() => setSteps((current) => current.filter((item) => item.id !== step.id).map((item, itemIndex) => ({ ...item, order: itemIndex + 1 })))}>Remove</button></div>)}</div><button type="button" onClick={() => setSteps((current) => [...current, emptyStep(current.length + 1)])} className="mt-3 text-sm font-medium text-turmeric-deep">+ Add step</button></div>
+      <div className="grid gap-4 sm:grid-cols-2"><div><label className={label} htmlFor="draft-cookware">Cookware, comma separated</label><input id="draft-cookware" className={input} value={cookware} onChange={(e) => setCookware(e.target.value)} placeholder="kadai, pressure cooker" /></div><div><label className={label} htmlFor="draft-dietary">Claimed dietary labels</label><input id="draft-dietary" className={input} value={dietary} onChange={(e) => setDietary(e.target.value)} placeholder="vegetarian, gluten-free" /></div></div>
+      <fieldset><legend className={label}>Known allergens in the recipe</legend><div className="flex flex-wrap gap-3">{allergenOptions.map((allergen) => <label key={allergen} className="flex items-center gap-2 text-sm"><input type="checkbox" checked={allergens.includes(allergen)} onChange={(e) => setAllergens((current) => e.target.checked ? [...current, allergen] : current.filter((item) => item !== allergen))} /> {allergen}</label>)}</div><p className="mt-2 text-xs text-tamarind-faint">Leaving this empty never means allergen-free. Automated derivation and human review remain required.</p></fieldset>
+      <label className={label} htmlFor="draft-safety">Safety notes, one per line</label><textarea id="draft-safety" className={`${input} min-h-20`} value={safetyNotes} onChange={(e) => setSafetyNotes(e.target.value)} placeholder="Pressure-release method, raw poultry cross-contamination, hot-oil warning…" />
+      <label className={label} htmlFor="draft-story">Family or cultural story</label><textarea id="draft-story" className={`${input} min-h-24`} value={story} onChange={(e) => setStory(e.target.value)} placeholder="Who taught you? When is this dish cooked?" />
+      <section className="rounded-card border border-cardamom bg-rice p-5"><h2 className="font-display text-xl">Rights and transparency</h2><div className="grid gap-4 sm:grid-cols-2"><div><label className={label} htmlFor="draft-source">Source type</label><select id="draft-source" className={input} value={sourceType} onChange={(e) => setSourceType(e.target.value as SourceType)}><option value="original">Original formulation</option><option value="family">Family recipe</option><option value="traditional">Traditional dish</option><option value="adapted">Adapted formulation</option><option value="documented">Documented source</option></select></div><div><label className={label} htmlFor="draft-licence">Publication licence</label><select id="draft-licence" className={input} value={licence} onChange={(e) => setLicence(e.target.value as PublicationLicence)}><option value="CC-BY-4.0">CC BY 4.0</option><option value="CC-BY-SA-4.0">CC BY-SA 4.0</option><option value="CC0-1.0">CC0 1.0</option><option value="permission-granted">Specific permission granted</option></select></div><div><label className={label} htmlFor="draft-ai">AI assistance</label><select id="draft-ai" className={input} value={aiAssistance} onChange={(e) => setAiAssistance(e.target.value as AiAssistance)}><option value="none">None</option><option value="structure">Structure only</option><option value="translation">Translation</option><option value="drafting">Drafting assistance</option></select></div><div><label className={label} htmlFor="draft-name">Public contributor name or pseudonym</label><input id="draft-name" className={input} value={publicName} onChange={(e) => setPublicName(e.target.value)} placeholder="Febin from Madurai" /></div></div>{aiAssistance !== "none" && <><label className={label} htmlFor="draft-ai-notes">How AI was used</label><textarea id="draft-ai-notes" className={`${input} min-h-16`} value={aiNotes} onChange={(e) => setAiNotes(e.target.value)} /></>}<label className="mt-4 flex items-start gap-3 text-sm"><input type="checkbox" checked={ownWords} onChange={(e) => setOwnWords(e.target.checked)} className="mt-1" /><span>I wrote this recipe in my own words and did not paste protected text from a book, website or app.</span></label><label className="mt-3 flex items-start gap-3 text-sm"><input type="checkbox" checked={rightToShare} onChange={(e) => setRightToShare(e.target.checked)} className="mt-1" /><span>I own this formulation or have the right to share this family/traditional recipe under the selected licence.</span></label><label className="mt-3 flex items-start gap-3 text-sm"><input type="checkbox" checked={publishStory} onChange={(e) => setPublishStory(e.target.checked)} className="mt-1" /><span>The cultural story may be shown publicly if this exact version is approved.</span></label></section>
+      {message && <p className="rounded-xl bg-curry-tint p-4 text-sm text-curry">{message}</p>}{error && <p className="rounded-xl bg-chilli/10 p-4 text-sm font-medium text-chilli">{error}</p>}
+      <div className="flex flex-wrap gap-3"><button type="button" disabled={saving} onClick={() => void save(false)} className="rounded-full bg-turmeric px-6 py-3 font-semibold text-tamarind disabled:opacity-50">{saving ? "Saving…" : "Save new version"}</button><button type="button" disabled={saving || target === "local" || !session} onClick={() => void save(true)} className="rounded-full border border-curry bg-curry-tint px-6 py-3 font-semibold text-curry disabled:opacity-40">Submit this exact version for review</button></div>
     </div>
   );
 }

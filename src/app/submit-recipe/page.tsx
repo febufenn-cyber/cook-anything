@@ -3,21 +3,22 @@ import SubmitRecipeForm from "@/components/SubmitRecipeForm";
 import PageHero from "@/components/PageHero";
 
 export const metadata: Metadata = {
-  title: "Create a local recipe draft",
+  title: "Write a family recipe",
   description:
-    "Structure a family recipe in your own words and save or download the draft on this device. Uploading and publishing are not active yet.",
+    "Create a private, versioned family recipe draft. Optionally back it up, collaborate in a household or submit one immutable version for review.",
   alternates: { canonical: "/submit-recipe/" },
+  robots: { index: false, follow: false },
 };
 
 export default function SubmitRecipePage() {
   return (
     <>
       <PageHero
-        eyebrow="Local draft"
+        eyebrow="The Living Cookbook"
         title="Write down the recipe before it disappears"
-        intro="Create a structured draft in your own words. It stays on this device unless you download it. Nothing is uploaded, reviewed or published yet."
+        intro="Save privately first. Every edit creates a new version, and only an explicitly submitted version enters automated checks and human review. Saving or syncing never publishes it."
       />
-      <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6">
+      <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6">
         <SubmitRecipeForm />
       </div>
     </>
