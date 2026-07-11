@@ -1,11 +1,5 @@
 "use client";
 
-/**
- * Cooking Companion: a live, hands-on cooking chat for one recipe.
- * Full-screen overlay (like CookMode) with photo check-ins, optional voice
- * in/out, the substitution ledger, and model-maintained session state.
- * Talks to POST /api/companion (Cloudflare Worker).
- */
 import { useEffect, useRef, useState } from "react";
 import type { Recipe } from "@/lib/types";
 import type {
@@ -14,6 +8,7 @@ import type {
   CompanionRecipe,
   CompanionResponse,
   CompanionState,
+  HostedSessionResponse,
 } from "@/lib/companion/types";
 import { initialCompanionState } from "@/lib/companion/types";
 import {
@@ -27,14 +22,20 @@ import {
 
 const ERROR_COPY: Record<string, string> = {
   not_configured:
-    "This site doesn't have a hosted companion key. Tap ⚙️ and connect your own API key — it stays in your browser.",
+    "The hosted companion is temporarily unavailable while its security controls are being verified. Connect your own API key under ⚙️, or use normal Cook Mode.",
   bad_api_key: "The API key was rejected by the provider — check it under ⚙️.",
-  rate_limited: "The kitchen is busy right now — give it a few seconds and try again.",
-  overloaded: "The companion is overloaded right now — try again in a moment.",
-  payload_too_large: "That photo is too large — try again; it should compress automatically.",
+  rate_limited: "Too many requests right now — wait a moment and try again.",
+  overloaded: "The companion provider is overloaded — try again shortly.",
+  busy: "The hosted kitchen is at capacity — try again shortly.",
+  daily_limit: "The hosted companion has reached today’s safety limit. You can connect your own API key under ⚙️.",
+  session_limit: "This hosted cooking session reached its turn limit. Close it and begin a fresh session.",
+  session_expired: "That hosted session expired. I’ll start a fresh one when you send again.",
+  hosted_text_only: "Hosted mode is text-only during Phase 1. Connect your own vision-capable API key under ⚙️ to send photos.",
+  payload_too_large: "That request is too large.",
+  recipe_not_found: "I couldn’t load the trusted cooking snapshot for this recipe.",
+  forbidden: "This request was blocked by the companion’s security checks.",
 };
 
-/** Downscale a photo to ≤1280px JPEG so payloads stay small on kitchen wifi. */
 async function compressImage(file: File): Promise<{ media_type: string; data: string }> {
   const bitmap = await createImageBitmap(file);
   const scale = Math.min(1, 1280 / Math.max(bitmap.width, bitmap.height));
@@ -46,18 +47,22 @@ async function compressImage(file: File): Promise<{ media_type: string; data: st
   return { media_type: "image/jpeg", data: dataUrl.split(",")[1] };
 }
 
-/** Strip image data from all but the last message to keep request bodies lean. */
 function leanHistory(messages: ChatMessage[]): ChatMessage[] {
   const recent = messages.slice(-16);
-  return recent.map((m, i) => {
-    if (typeof m.content === "string" || i === recent.length - 1) return m;
+  return recent.map((message, index) => {
+    if (typeof message.content === "string" || index === recent.length - 1) return message;
     return {
-      role: m.role,
-      content: m.content.map((b): ChatContentBlock =>
-        b.type === "image" ? { type: "text", text: "[photo sent earlier]" } : b,
+      role: message.role,
+      content: message.content.map((block): ChatContentBlock =>
+        block.type === "image" ? { type: "text", text: "[photo sent earlier]" } : block,
       ),
     };
   });
+}
+
+function freshTurnId(): string {
+  if (typeof crypto.randomUUID === "function") return crypto.randomUUID();
+  return `${Date.now()}_${Math.random().toString(36).slice(2)}_${Math.random().toString(36).slice(2)}`;
 }
 
 interface Bubble {
@@ -85,27 +90,31 @@ export default function CookCompanion({
   const [showSettings, setShowSettings] = useState(false);
 
   const historyRef = useRef<ChatMessage[]>([]);
-  const bridgeSessionRef = useRef<string | null>(null);
+  const hostedSessionReadyRef = useRef(false);
   const stateRef = useRef<CompanionState>(initialCompanionState(companionRecipe));
   const scrollRef = useRef<HTMLDivElement>(null);
-  const recognitionRef = useRef<{ start: () => void; stop: () => void } | null>(null);
+  const recognitionRef = useRef<SpeechRecognitionLike | null>(null);
   const wakeLockRef = useRef<{ release: () => Promise<void> } | null>(null);
   const fileRef = useRef<HTMLInputElement>(null);
-
   const [, forceRender] = useState(0);
   const state = stateRef.current;
 
+  useEffect(() => setByok(loadByokConfig()), []);
+
   useEffect(() => {
-    setByok(loadByokConfig());
-  }, []);
+    hostedSessionReadyRef.current = false;
+    stateRef.current = initialCompanionState(companionRecipe);
+    historyRef.current = [];
+    setBubbles([]);
+  }, [companionRecipe]);
 
   useEffect(() => {
     if (!open) return;
     document.body.style.overflow = "hidden";
     if ("wakeLock" in navigator) {
-      (navigator as Navigator & { wakeLock: { request: (t: string) => Promise<{ release: () => Promise<void> }> } })
+      (navigator as Navigator & { wakeLock: { request: (type: string) => Promise<{ release: () => Promise<void> }> } })
         .wakeLock.request("screen")
-        .then((l) => { wakeLockRef.current = l; })
+        .then((lock) => { wakeLockRef.current = lock; })
         .catch(() => {});
     }
     return () => {
@@ -113,6 +122,7 @@ export default function CookCompanion({
       wakeLockRef.current?.release().catch(() => {});
       wakeLockRef.current = null;
       window.speechSynthesis?.cancel();
+      recognitionRef.current?.stop();
     };
   }, [open]);
 
@@ -129,20 +139,77 @@ export default function CookCompanion({
     window.speechSynthesis.speak(utterance);
   }
 
+  function acceptState(next: CompanionState | null) {
+    if (next && next.recipe_id === companionRecipe.recipe_id) {
+      stateRef.current = next;
+      forceRender((value) => value + 1);
+    }
+  }
+
+  async function readJsonResponse<T>(response: Response): Promise<T> {
+    const contentType = response.headers.get("content-type") ?? "";
+    if (!contentType.includes("application/json")) throw new Error(ERROR_COPY.not_configured);
+    return response.json() as Promise<T>;
+  }
+
+  async function ensureHostedSession(): Promise<void> {
+    if (hostedSessionReadyRef.current) return;
+    const response = await fetch("/api/companion/session", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ recipe_id: companionRecipe.recipe_id }),
+    });
+    const data = await readJsonResponse<HostedSessionResponse>(response);
+    if (!response.ok || data.error) throw new Error(ERROR_COPY[data.error ?? ""] ?? "Couldn’t start the hosted session.");
+    acceptState(data.state);
+    hostedSessionReadyRef.current = true;
+  }
+
+  async function hostedTurn(message: string): Promise<CompanionResponse> {
+    await ensureHostedSession();
+    const clientTurnId = freshTurnId();
+
+    const execute = async () => {
+      const response = await fetch("/api/companion/turn", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ message, client_turn_id: clientTurnId }),
+      });
+      return { response, data: await readJsonResponse<CompanionResponse>(response) };
+    };
+
+    let result = await execute();
+    if (result.data.error === "session_expired") {
+      hostedSessionReadyRef.current = false;
+      await ensureHostedSession();
+      result = await execute();
+    }
+    if (!result.response.ok || result.data.error) {
+      throw new Error(ERROR_COPY[result.data.error ?? ""] ?? "Something went wrong — try again.");
+    }
+    return result.data;
+  }
+
   async function send(text: string, photo?: { media_type: string; data: string } | null) {
     const trimmed = text.trim();
     if ((!trimmed && !photo) || busy) return;
+    if (!byok && photo) {
+      setShowSettings(true);
+      setBubbles((current) => [...current, { role: "assistant", text: `⚠️ ${ERROR_COPY.hosted_text_only}` }]);
+      return;
+    }
+
     setBusy(true);
     setInput("");
     setPendingPhoto(null);
 
     const blocks: ChatContentBlock[] = [];
     if (photo) blocks.push({ type: "image", source: { type: "base64", ...photo } });
-    blocks.push({ type: "text", text: trimmed || "Here's a photo — what do you see?" });
+    blocks.push({ type: "text", text: trimmed || "Here’s a photo — what do you see?" });
     const userMessage: ChatMessage = { role: "user", content: photo ? blocks : trimmed };
     historyRef.current = [...historyRef.current, userMessage];
-    setBubbles((b) => [
-      ...b,
+    setBubbles((current) => [
+      ...current,
       {
         role: "user",
         text: trimmed || "📷 photo",
@@ -151,46 +218,23 @@ export default function CookCompanion({
     ]);
 
     try {
-      let data: CompanionResponse;
-      if (byok) {
-        // User's own key: straight from their browser to their provider.
-        data = await sendDirectTurn(byok, companionRecipe, stateRef.current, leanHistory(historyRef.current));
-      } else {
-        const res = await fetch("/api/companion", {
-          method: "POST",
-          headers: { "content-type": "application/json" },
-          body: JSON.stringify({
-            recipe: companionRecipe,
-            state: stateRef.current,
-            messages: leanHistory(historyRef.current),
-            bridge_session_id: bridgeSessionRef.current,
-          }),
-        });
-        const contentType = res.headers.get("content-type") ?? "";
-        if (!contentType.includes("application/json")) {
-          // next dev / static preview without the Worker in front
-          setShowSettings(true);
-          throw new Error(ERROR_COPY.not_configured);
-        }
-        data = (await res.json()) as CompanionResponse;
-      }
+      const data = byok
+        ? await sendDirectTurn(byok, companionRecipe, stateRef.current, leanHistory(historyRef.current))
+        : await hostedTurn(trimmed);
+
       if (data.error === "not_configured") setShowSettings(true);
       if (data.error || !data.reply) {
-        throw new Error(ERROR_COPY[data.error ?? ""] ?? "Something went wrong — try that again.");
+        throw new Error(ERROR_COPY[data.error ?? ""] ?? "Something went wrong — try again.");
       }
       historyRef.current = [...historyRef.current, { role: "assistant", content: data.reply }];
-      if (data.bridge_session_id) bridgeSessionRef.current = data.bridge_session_id;
-      if (data.state && data.state.recipe_id === companionRecipe.recipe_id) {
-        stateRef.current = data.state;
-        forceRender((n) => n + 1);
-      }
-      setBubbles((b) => [...b, { role: "assistant", text: data.reply }]);
+      acceptState(data.state);
+      setBubbles((current) => [...current, { role: "assistant", text: data.reply }]);
       say(data.reply);
-    } catch (err) {
-      // Failed turns don't poison the conversation history
+    } catch (cause) {
       historyRef.current = historyRef.current.slice(0, -1);
-      const message = err instanceof Error ? err.message : "Network hiccup — try again.";
-      setBubbles((b) => [...b, { role: "assistant", text: `⚠️ ${message}` }]);
+      const message = cause instanceof Error ? cause.message : "Network hiccup — try again.";
+      if (message === ERROR_COPY.not_configured) setShowSettings(true);
+      setBubbles((current) => [...current, { role: "assistant", text: `⚠️ ${message}` }]);
     } finally {
       setBusy(false);
     }
@@ -202,45 +246,48 @@ export default function CookCompanion({
       setListening(false);
       return;
     }
-    const w = window as unknown as {
+    const browser = window as unknown as {
       SpeechRecognition?: new () => SpeechRecognitionLike;
       webkitSpeechRecognition?: new () => SpeechRecognitionLike;
     };
-    const Ctor = w.SpeechRecognition ?? w.webkitSpeechRecognition;
-    if (!Ctor) {
-      setBubbles((b) => [...b, { role: "assistant", text: "⚠️ Voice input isn't supported in this browser — type instead." }]);
+    const Constructor = browser.SpeechRecognition ?? browser.webkitSpeechRecognition;
+    if (!Constructor) {
+      setBubbles((current) => [...current, { role: "assistant", text: "⚠️ Voice input isn’t supported in this browser — type instead." }]);
       return;
     }
-    const rec = new Ctor();
-    rec.lang = "en-IN";
-    rec.interimResults = false;
-    rec.onresult = (e) => {
-      const transcript = Array.from(e.results).map((r) => r[0].transcript).join(" ");
+    const recognition = new Constructor();
+    recognition.lang = "en-IN";
+    recognition.interimResults = false;
+    recognition.onresult = (event) => {
+      const transcript = Array.from(event.results).map((result) => result[0].transcript).join(" ");
       setListening(false);
       void send(transcript);
     };
-    rec.onerror = () => setListening(false);
-    rec.onend = () => setListening(false);
-    recognitionRef.current = rec;
+    recognition.onerror = () => setListening(false);
+    recognition.onend = () => setListening(false);
+    recognitionRef.current = recognition;
     setListening(true);
-    rec.start();
+    recognition.start();
   }
 
   async function onPhotoPicked(file: File | undefined) {
     if (!file) return;
+    if (!byok) {
+      setShowSettings(true);
+      setBubbles((current) => [...current, { role: "assistant", text: `⚠️ ${ERROR_COPY.hosted_text_only}` }]);
+      return;
+    }
     try {
       setPendingPhoto(await compressImage(file));
     } catch {
-      setBubbles((b) => [...b, { role: "assistant", text: "⚠️ Couldn't read that photo — try another." }]);
+      setBubbles((current) => [...current, { role: "assistant", text: "⚠️ Couldn’t read that photo — try another." }]);
     }
   }
 
   function start() {
     setOpen(true);
     if (bubbles.length === 0) {
-      void send(
-        `I'm cooking ${recipe.title} for ${recipe.servings}. I'm at the start — what's my first move?`,
-      );
+      void send(`I’m cooking ${recipe.title} for ${recipe.servings}. I’m at the start — what’s my first move?`);
     }
   }
 
@@ -258,18 +305,18 @@ export default function CookCompanion({
 
   return (
     <div className="fixed inset-0 z-50 flex flex-col bg-rice" role="dialog" aria-label={`Cooking ${recipe.title} with the companion`}>
-      {/* Top bar */}
       <div className="flex items-center justify-between gap-2 border-b border-cardamom px-4 py-3">
         <div className="min-w-0">
           <p className="font-display truncate text-lg leading-tight">{recipe.title}</p>
           <p className="truncate text-xs text-tamarind-faint">
             Stage: <span className="font-semibold text-turmeric-deep">{state.stage}</span>
             {" · "}serves {state.servings}
+            {!byok && <span>{" · "}hosted text-only</span>}
           </p>
         </div>
         <div className="flex shrink-0 items-center gap-2">
           <button
-            onClick={() => setShowSettings((v) => !v)}
+            onClick={() => setShowSettings((value) => !value)}
             className={`relative rounded-full border px-3 py-1.5 text-sm font-medium ${showSettings ? "border-turmeric bg-turmeric-tint" : "border-cardamom bg-card"}`}
             aria-label="API key settings"
             title={byok ? `Using your key (${byok.provider})` : "Connect your API key"}
@@ -278,50 +325,34 @@ export default function CookCompanion({
             {byok && <span className="absolute -right-0.5 -top-0.5 h-2.5 w-2.5 rounded-full bg-curry" aria-hidden />}
           </button>
           <button
-            onClick={() => setSpeak((v) => !v)}
+            onClick={() => setSpeak((value) => !value)}
             className={`rounded-full border px-3 py-1.5 text-sm font-medium ${speak ? "border-turmeric bg-turmeric-tint text-turmeric-deep" : "border-cardamom bg-card"}`}
             aria-pressed={speak}
             title="Read replies aloud"
           >
             {speak ? "🔊" : "🔇"}
           </button>
-          <button
-            onClick={() => setShowLedger((v) => !v)}
-            className="rounded-full border border-cardamom bg-card px-3 py-1.5 text-sm font-medium"
-          >
+          <button onClick={() => setShowLedger((value) => !value)} className="rounded-full border border-cardamom bg-card px-3 py-1.5 text-sm font-medium">
             Swaps{state.substitution_ledger.length > 0 ? ` (${state.substitution_ledger.length})` : ""}
           </button>
-          <button
-            onClick={() => setOpen(false)}
-            className="rounded-full border border-cardamom bg-card px-3 py-1.5 text-sm font-medium"
-            aria-label="Close companion"
-          >
-            ✕
-          </button>
+          <button onClick={() => setOpen(false)} className="rounded-full border border-cardamom bg-card px-3 py-1.5 text-sm font-medium" aria-label="Close companion">✕</button>
         </div>
       </div>
 
-      {/* Stage strip */}
       <div className="rail flex gap-1.5 overflow-x-auto px-4 pt-2" aria-hidden>
-        {companionRecipe.stages.map((s) => (
-          <span
-            key={s}
-            className={`shrink-0 rounded-full px-2.5 py-0.5 text-[11px] font-semibold ${
-              s === state.stage ? "bg-turmeric text-tamarind" : "bg-rice-deep text-tamarind-faint"
-            }`}
-          >
-            {s.replace(/_/g, " ")}
+        {companionRecipe.stages.map((stage) => (
+          <span key={stage} className={`shrink-0 rounded-full px-2.5 py-0.5 text-[11px] font-semibold ${stage === state.stage ? "bg-turmeric text-tamarind" : "bg-rice-deep text-tamarind-faint"}`}>
+            {stage.replace(/_/g, " ")}
           </span>
         ))}
       </div>
 
-      {/* BYOK settings */}
       {showSettings && (
         <ByokSettings
           byok={byok}
-          onSave={(cfg) => {
-            saveByokConfig(cfg);
-            setByok(cfg);
+          onSave={(config) => {
+            saveByokConfig(config);
+            setByok(config);
             setShowSettings(false);
           }}
           onClear={() => {
@@ -331,131 +362,74 @@ export default function CookCompanion({
         />
       )}
 
-      {/* Ledger drawer */}
       {showLedger && (
         <div className="border-b border-cardamom bg-turmeric-tint/40 px-4 py-3 text-sm">
           {state.substitution_ledger.length === 0 ? (
-            <p className="text-tamarind-faint">No swaps yet — tell me what you&apos;re missing and we&apos;ll sort it.</p>
+            <p className="text-tamarind-faint">No swaps yet — tell me what you’re missing and we’ll sort it.</p>
           ) : (
             <ul className="space-y-1">
-              {state.substitution_ledger.map((raw, i) => {
-                // Models sometimes emit substitute/ratio/reason instead of
-                // the schema's now/qty/constraint — accept both spellings.
-                const entry = raw as unknown as Record<string, string | undefined>;
-                const now = entry.now ?? entry.substitute ?? "?";
-                const qty = entry.qty ?? entry.ratio;
-                const note = entry.constraint ?? entry.reason;
-                return (
-                  <li key={i}>
-                    <span className="font-medium">{entry.original}</span>
-                    <span className="text-tamarind-soft"> → {now}{qty ? ` (${qty})` : ""}</span>
-                    {note && <span className="block text-xs text-tamarind-faint">{note}</span>}
-                  </li>
-                );
-              })}
+              {state.substitution_ledger.map((entry, index) => (
+                <li key={`${entry.original}-${index}`}>
+                  <span className="font-medium">{entry.original}</span>
+                  <span className="text-tamarind-soft"> → {entry.now}{entry.qty ? ` (${entry.qty})` : ""}</span>
+                  {entry.constraint && <span className="block text-xs text-tamarind-faint">{entry.constraint}</span>}
+                </li>
+              ))}
             </ul>
           )}
         </div>
       )}
 
-      {/* Chat thread */}
       <div ref={scrollRef} className="flex-1 overflow-y-auto px-4 py-4">
         <div className="mx-auto max-w-2xl space-y-3">
-          {bubbles.map((b, i) => (
-            <div key={i} className={`flex ${b.role === "user" ? "justify-end" : "justify-start"}`}>
-              <div
-                className={`max-w-[85%] rounded-card px-4 py-2.5 text-[15px] leading-relaxed ${
-                  b.role === "user" ? "bg-turmeric-tint text-tamarind" : "bg-card shadow-lift"
-                }`}
-              >
-                {b.imageUrl && (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img src={b.imageUrl} alt="Your kitchen photo" className="mb-2 max-h-48 rounded-lg" />
-                )}
-                <p className="whitespace-pre-wrap">{b.text}</p>
+          {bubbles.map((bubble, index) => (
+            <div key={index} className={`flex ${bubble.role === "user" ? "justify-end" : "justify-start"}`}>
+              <div className={`max-w-[85%] rounded-card px-4 py-2.5 text-[15px] leading-relaxed ${bubble.role === "user" ? "bg-turmeric-tint text-tamarind" : "bg-card shadow-lift"}`}>
+                {bubble.imageUrl && <img src={bubble.imageUrl} alt="Your kitchen" className="mb-2 max-h-48 rounded-lg" />}
+                <p className="whitespace-pre-wrap">{bubble.text}</p>
               </div>
             </div>
           ))}
           {busy && (
             <div className="flex justify-start">
-              <div className="rounded-card bg-card px-4 py-2.5 shadow-lift">
-                <span className="inline-flex gap-1 text-tamarind-faint" aria-label="Companion is thinking">
-                  <span className="animate-bounce">·</span>
-                  <span className="animate-bounce [animation-delay:120ms]">·</span>
-                  <span className="animate-bounce [animation-delay:240ms]">·</span>
-                </span>
-              </div>
+              <div className="rounded-card bg-card px-4 py-2.5 shadow-lift" aria-label="Companion is thinking">···</div>
             </div>
           )}
         </div>
       </div>
 
-      {/* Quick actions */}
       <div className="rail flex gap-2 overflow-x-auto px-4 pb-2">
-        {["Where am I?", "Done, what's next?", "I don't have an ingredient", "Something went wrong"].map((q) => (
-          <button
-            key={q}
-            onClick={() => void send(q)}
-            disabled={busy}
-            className="shrink-0 rounded-full border border-cardamom bg-card px-3 py-1.5 text-xs font-medium text-tamarind-soft disabled:opacity-40"
-          >
-            {q}
+        {["Where am I?", "Done, what’s next?", "I don’t have an ingredient", "Something went wrong"].map((question) => (
+          <button key={question} onClick={() => void send(question)} disabled={busy} className="shrink-0 rounded-full border border-cardamom bg-card px-3 py-1.5 text-xs font-medium text-tamarind-soft disabled:opacity-40">
+            {question}
           </button>
         ))}
       </div>
 
-      {/* Composer */}
       <div className="border-t border-cardamom p-3">
         {pendingPhoto && (
           <div className="mb-2 flex items-center gap-2 px-1">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={`data:${pendingPhoto.media_type};base64,${pendingPhoto.data}`}
-              alt="Photo ready to send"
-              className="h-12 w-12 rounded-lg object-cover"
-            />
-            <span className="text-xs text-tamarind-faint">Photo attached — add a question or just send.</span>
+            <img src={`data:${pendingPhoto.media_type};base64,${pendingPhoto.data}`} alt="Photo ready to send" className="h-12 w-12 rounded-lg object-cover" />
+            <span className="text-xs text-tamarind-faint">Photo attached — add a question or send.</span>
             <button onClick={() => setPendingPhoto(null)} className="ml-auto text-xs underline">remove</button>
           </div>
         )}
-        <form
-          className="flex items-center gap-2"
-          onSubmit={(e) => { e.preventDefault(); void send(input, pendingPhoto); }}
-        >
-          <input ref={fileRef} type="file" accept="image/*" capture="environment" hidden
-            onChange={(e) => void onPhotoPicked(e.target.files?.[0])} />
+        <form className="flex items-center gap-2" onSubmit={(event) => { event.preventDefault(); void send(input, pendingPhoto); }}>
+          <input ref={fileRef} type="file" accept="image/*" capture="environment" hidden onChange={(event) => void onPhotoPicked(event.target.files?.[0])} />
           <button
             type="button"
-            onClick={() => fileRef.current?.click()}
-            className="shrink-0 rounded-full border border-cardamom bg-card p-2.5 text-lg"
-            aria-label="Send a photo"
-            title="Show me your pan / ingredient"
+            onClick={() => byok ? fileRef.current?.click() : setShowSettings(true)}
+            className="shrink-0 rounded-full border border-cardamom bg-card p-2.5 text-lg disabled:opacity-40"
+            aria-label={byok ? "Send a photo" : "Connect your own key to send photos"}
+            title={byok ? "Show me your pan or ingredient" : "Hosted mode is text-only; connect your own key for photos"}
           >
             📷
           </button>
-          <button
-            type="button"
-            onClick={toggleVoiceInput}
-            className={`shrink-0 rounded-full border p-2.5 text-lg ${listening ? "border-chilli bg-chilli-tint" : "border-cardamom bg-card"}`}
-            aria-label={listening ? "Stop listening" : "Speak instead of typing"}
-            aria-pressed={listening}
-          >
+          <button type="button" onClick={toggleVoiceInput} className={`shrink-0 rounded-full border p-2.5 text-lg ${listening ? "border-chilli bg-chilli-tint" : "border-cardamom bg-card"}`} aria-label={listening ? "Stop listening" : "Speak instead of typing"} aria-pressed={listening}>
             {listening ? "⏹" : "🎤"}
           </button>
-          <input
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-            placeholder={listening ? "Listening…" : "Ask, or say what happened…"}
-            className="min-w-0 flex-1 rounded-full border border-cardamom bg-card px-4 py-2.5 text-[15px] outline-none focus:border-turmeric"
-            enterKeyHint="send"
-          />
-          <button
-            type="submit"
-            disabled={busy || (!input.trim() && !pendingPhoto)}
-            className="shrink-0 rounded-full bg-turmeric px-4 py-2.5 font-semibold text-tamarind disabled:opacity-40"
-          >
-            Send
-          </button>
+          <input value={input} onChange={(event) => setInput(event.target.value)} placeholder={listening ? "Listening…" : "Ask, or say what happened…"} maxLength={2000} className="min-w-0 flex-1 rounded-full border border-cardamom bg-card px-4 py-2.5 text-[15px] outline-none focus:border-turmeric" enterKeyHint="send" />
+          <button type="submit" disabled={busy || (!input.trim() && !pendingPhoto)} className="shrink-0 rounded-full bg-turmeric px-4 py-2.5 font-semibold text-tamarind disabled:opacity-40">Send</button>
         </form>
       </div>
     </div>
@@ -468,7 +442,7 @@ function ByokSettings({
   onClear,
 }: {
   byok: ByokConfig | null;
-  onSave: (cfg: ByokConfig) => void;
+  onSave: (config: ByokConfig) => void;
   onClear: () => void;
 }) {
   const [provider, setProvider] = useState<ByokProvider>(byok?.provider ?? "anthropic");
@@ -476,95 +450,53 @@ function ByokSettings({
   const [model, setModel] = useState(byok?.model ?? BYOK_DEFAULTS.anthropic.model);
   const [baseUrl, setBaseUrl] = useState(byok?.baseUrl ?? BYOK_DEFAULTS["openai-compatible"].baseUrl!);
 
-  function switchProvider(p: ByokProvider) {
-    setProvider(p);
-    if (!byok || byok.provider !== p) setModel(BYOK_DEFAULTS[p].model);
+  function switchProvider(next: ByokProvider) {
+    setProvider(next);
+    if (!byok || byok.provider !== next) setModel(BYOK_DEFAULTS[next].model);
   }
 
   return (
     <div className="border-b border-cardamom bg-card px-4 py-3 text-sm">
       <p className="font-semibold">Connect your API key</p>
       <p className="mt-0.5 text-xs text-tamarind-faint">
-        Bring your own key from any compatible provider. It&apos;s stored only in this browser and sent
-        only to your provider — never to this site.
+        BYOK calls go directly from this browser to your provider. Hosted mode remains text-only and may be unavailable during security verification.
       </p>
       <div className="mt-3 grid gap-2 sm:grid-cols-2">
         <label className="block">
           <span className="text-xs font-semibold uppercase tracking-wider text-tamarind-faint">Provider</span>
-          <select
-            value={provider}
-            onChange={(e) => switchProvider(e.target.value as ByokProvider)}
-            className="mt-1 w-full rounded-card border border-cardamom bg-rice px-3 py-2"
-          >
+          <select value={provider} onChange={(event) => switchProvider(event.target.value as ByokProvider)} className="mt-1 w-full rounded-card border border-cardamom bg-rice px-3 py-2">
             <option value="anthropic">Claude (Anthropic)</option>
-            <option value="openai-compatible">OpenAI-compatible (OpenAI, OpenRouter, Groq…)</option>
+            <option value="openai-compatible">OpenAI-compatible</option>
           </select>
         </label>
         <label className="block">
           <span className="text-xs font-semibold uppercase tracking-wider text-tamarind-faint">Model</span>
-          <input
-            value={model}
-            onChange={(e) => setModel(e.target.value)}
-            placeholder={provider === "anthropic" ? "claude-sonnet-4-6" : "model id, e.g. gpt-5.5"}
-            className="mt-1 w-full rounded-card border border-cardamom bg-rice px-3 py-2"
-          />
+          <input value={model} onChange={(event) => setModel(event.target.value)} placeholder={provider === "anthropic" ? "claude-sonnet-4-6" : "model id"} className="mt-1 w-full rounded-card border border-cardamom bg-rice px-3 py-2" />
         </label>
         <label className="block sm:col-span-2">
           <span className="text-xs font-semibold uppercase tracking-wider text-tamarind-faint">API key</span>
-          <input
-            type="password"
-            value={apiKey}
-            onChange={(e) => setApiKey(e.target.value)}
-            placeholder={provider === "anthropic" ? "sk-ant-…" : "sk-…"}
-            autoComplete="off"
-            className="mt-1 w-full rounded-card border border-cardamom bg-rice px-3 py-2"
-          />
+          <input type="password" value={apiKey} onChange={(event) => setApiKey(event.target.value)} placeholder={provider === "anthropic" ? "sk-ant-…" : "sk-…"} autoComplete="off" className="mt-1 w-full rounded-card border border-cardamom bg-rice px-3 py-2" />
         </label>
         {provider === "openai-compatible" && (
           <label className="block sm:col-span-2">
             <span className="text-xs font-semibold uppercase tracking-wider text-tamarind-faint">Base URL</span>
-            <input
-              value={baseUrl}
-              onChange={(e) => setBaseUrl(e.target.value)}
-              placeholder="https://api.openai.com/v1"
-              className="mt-1 w-full rounded-card border border-cardamom bg-rice px-3 py-2"
-            />
+            <input value={baseUrl} onChange={(event) => setBaseUrl(event.target.value)} placeholder="https://api.openai.com/v1" className="mt-1 w-full rounded-card border border-cardamom bg-rice px-3 py-2" />
           </label>
         )}
       </div>
-      <p className="mt-2 text-xs text-tamarind-faint">
-        Photo check-ins need a vision-capable model. Calls are pay-per-use on your provider account.
-      </p>
+      <p className="mt-2 text-xs text-tamarind-faint">Photo check-ins require a vision-capable BYOK model. Provider usage may be billed to your account.</p>
       <div className="mt-3 flex items-center gap-3">
-        <button
-          onClick={() =>
-            onSave({
-              provider,
-              apiKey: apiKey.trim(),
-              model: model.trim(),
-              ...(provider === "openai-compatible" ? { baseUrl: baseUrl.trim() } : {}),
-            })
-          }
-          disabled={!apiKey.trim() || !model.trim()}
-          className="rounded-full bg-turmeric px-4 py-2 font-semibold text-tamarind disabled:opacity-40"
-        >
-          Save key
-        </button>
-        {byok && (
-          <button onClick={onClear} className="text-xs text-chilli underline">
-            Disconnect &amp; forget key
-          </button>
-        )}
+        <button onClick={() => onSave({ provider, apiKey: apiKey.trim(), model: model.trim(), ...(provider === "openai-compatible" ? { baseUrl: baseUrl.trim() } : {}) })} disabled={!apiKey.trim() || !model.trim()} className="rounded-full bg-turmeric px-4 py-2 font-semibold text-tamarind disabled:opacity-40">Save key</button>
+        {byok && <button onClick={onClear} className="text-xs text-chilli underline">Disconnect &amp; forget key</button>}
       </div>
     </div>
   );
 }
 
-/* Minimal Web Speech API surface (not in TS DOM lib) */
 interface SpeechRecognitionLike {
   lang: string;
   interimResults: boolean;
-  onresult: ((e: { results: ArrayLike<ArrayLike<{ transcript: string }>> }) => void) | null;
+  onresult: ((event: { results: ArrayLike<ArrayLike<{ transcript: string }>> }) => void) | null;
   onerror: (() => void) | null;
   onend: (() => void) | null;
   start: () => void;

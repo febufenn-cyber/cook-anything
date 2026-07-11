@@ -1,32 +1,39 @@
 #!/bin/bash
-# Watchdog for the companion bridge + tunnel (cron every 5 min). systemd's
-# Restart=always already revives crashed processes and reboots; this catches
-# what systemd can't see — a hung bridge, a zombie tunnel, or a published
-# origin that no longer routes. The one failure it cannot fix is an expired
-# Claude subscription login (re-auth with the vps-claude-oauth flow).
+# Phase 1 watchdog. It never discovers, publishes, or revives a quick tunnel.
+# A stable private tunnel may be checked only when an operator explicitly names
+# its systemd service and private health URL in the watchdog environment file.
 set -u
+
 LOG=/opt/cook-anything/logs/watchdog.log
 DISABLE_MARKER=/opt/cook-anything/BRIDGE_DISABLED
+WATCHDOG_ENV=/etc/companion-bridge-watchdog.env
+LOCAL_HEALTH_URL="${LOCAL_HEALTH_URL:-http://127.0.0.1:8788/health}"
+PRIVATE_HEALTH_URL="${PRIVATE_HEALTH_URL:-}"
+PRIVATE_TUNNEL_SERVICE="${PRIVATE_TUNNEL_SERVICE:-}"
+
+if [ -r "$WATCHDOG_ENV" ]; then
+  # shellcheck disable=SC1090
+  . "$WATCHDOG_ENV"
+fi
+
 mkdir -p "$(dirname "$LOG")"
 note() { printf '%s %s\n' "$(date -u +%FT%TZ)" "$1" >> "$LOG"; }
 
-# Safety shutdown beats availability. phase0-disable.sh creates this marker;
-# cron may continue to invoke the watchdog, but it must never resurrect either
-# service until an operator deliberately removes the marker.
+# Safety shutdown always beats availability recovery.
 if [ -e "$DISABLE_MARKER" ]; then
   exit 0
 fi
 
-# 1. Bridge answering locally?
-if ! curl -fsS -m 5 localhost:8788/health >/dev/null 2>&1; then
-  note "bridge health failed — restarting companion-bridge"
-  sudo systemctl restart companion-bridge
+if ! curl -fsS -m 5 "$LOCAL_HEALTH_URL" >/dev/null 2>&1; then
+  note "local bridge health failed — restarting companion-bridge"
+  systemctl restart companion-bridge
 fi
 
-# 2. Tunnel end-to-end: the last announced origin must still serve /health.
-origin=$(grep -a "published companion origin" /opt/cook-anything/logs/tunnel.log 2>/dev/null \
-  | tail -1 | grep -oE 'https://[a-z0-9-]+\.trycloudflare\.com')
-if [ -z "$origin" ] || ! curl -fsS -m 10 "$origin/health" >/dev/null 2>&1; then
-  note "tunnel check failed (origin: ${origin:-none}) — restarting companion-tunnel"
-  sudo systemctl restart companion-tunnel
+# Private transport recovery is opt-in. Never infer an origin from logs and
+# never start the development-only companion-tunnel service automatically.
+if [ -n "$PRIVATE_HEALTH_URL" ] && [ -n "$PRIVATE_TUNNEL_SERVICE" ]; then
+  if ! curl -fsS -m 10 "$PRIVATE_HEALTH_URL" >/dev/null 2>&1; then
+    note "private transport health failed — restarting configured service"
+    systemctl restart "$PRIVATE_TUNNEL_SERVICE"
+  fi
 fi

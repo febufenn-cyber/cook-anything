@@ -1,25 +1,54 @@
 {
-  // Cook Anything — static export + Cooking Companion API on Cloudflare Workers.
-  // Phase 0 containment: hosted execution is fail-closed and explicitly off.
-  // Browser BYOK still works because those calls go directly to the provider.
-  // Do not set this to "true" until Phase 1 trust-boundary, sandboxing,
-  // rate-limiting, session ownership, and privacy controls are complete.
-  "vars": { "HOSTED_COMPANION_ENABLED": "false" },
-  // Companion backends (see docs/AI-ASSISTANT.md + docs/VPS-BRIDGE.md):
-  //   BYOK (default) — users connect their own key in the UI.
-  //   Subscription bridge — requires HOSTED_COMPANION_ENABLED="true" plus
-  //     COMPANION_UPSTREAM_TOKEN and a configured upstream/origin.
-  //   Hosted key — requires HOSTED_COMPANION_ENABLED="true" plus
-  //     `wrangler secret put ANTHROPIC_API_KEY`.
-  // "vars": {
-  //   "HOSTED_COMPANION_ENABLED": "true",
-  //   "COMPANION_UPSTREAM": "https://companion-bridge.robofox.online"
-  // },
-  // Quick-tunnel mode may publish its current trycloudflare origin to this KV
-  // under key "origin", but origin publication is rejected while Phase 0 is on.
+  // Cook Anything — static export + session-owned Cooking Companion API.
+  // Hosted execution remains explicitly off until Phase 1 review, deployment,
+  // bridge isolation, privacy disclosure, and canary verification are complete.
+  "vars": {
+    "HOSTED_COMPANION_ENABLED": "false",
+    "COMPANION_SESSION_TTL_SECONDS": "7200",
+    "COMPANION_MAX_TURNS_PER_SESSION": "30",
+    "COMPANION_MAX_ACTIVE_EXECUTIONS": "2",
+    "COMPANION_DAILY_EXECUTION_LIMIT": "300"
+  },
+
+  // Future hosted backends:
+  // - API: wrangler secret put ANTHROPIC_API_KEY
+  // - Private bridge: set COMPANION_UPSTREAM to a stable named/private tunnel and
+  //   wrangler secret put COMPANION_UPSTREAM_SIGNING_SECRET
+  // Quick-tunnel origin discovery is intentionally no longer used.
+
+  "durable_objects": {
+    "bindings": [
+      { "name": "COMPANION_SESSIONS", "class_name": "CompanionSession" },
+      { "name": "COMPANION_GATE", "class_name": "CompanionGate" }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "companion-phase1-v1",
+      "new_sqlite_classes": ["CompanionSession", "CompanionGate"]
+    }
+  ],
+
+  // Per-location abuse controls. Strict per-session turn and global execution
+  // limits are additionally enforced inside Durable Objects.
+  "ratelimits": [
+    {
+      "name": "COMPANION_SESSION_RATE_LIMITER",
+      "namespace_id": "91017",
+      "simple": { "limit": 5, "period": 60 }
+    },
+    {
+      "name": "COMPANION_TURN_RATE_LIMITER",
+      "namespace_id": "91018",
+      "simple": { "limit": 10, "period": 60 }
+    }
+  ],
+
+  // Retained for Phase 0 operational state only; no longer selects an upstream.
   "kv_namespaces": [
     { "binding": "COMPANION_CONFIG", "id": "6ff2aa2e59384dd18a512e455f2b682b" }
   ],
+
   "name": "cook-anything",
   "main": "worker/index.ts",
   "compatibility_date": "2026-07-01",

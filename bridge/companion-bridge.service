@@ -1,24 +1,56 @@
-# systemd unit for the Cooking Companion subscription bridge.
-# Install: sudo cp companion-bridge.service /etc/systemd/system/
-#          sudo systemctl enable --now companion-bridge
+# Hardened systemd unit for the Phase 1 text-only companion bridge.
+# Install only after the dedicated `companion` user exists and Phase 0 remains
+# disabled until the full verification runbook passes.
 [Unit]
-Description=Cook Anything companion bridge (headless Claude Code)
+Description=Cook Anything companion bridge (headless Claude Code, text-only)
 After=network-online.target
 Wants=network-online.target
-# Phase 0 safety interlock. bridge/phase0-disable.sh creates this marker.
 ConditionPathExists=!/opt/cook-anything/BRIDGE_DISABLED
 
 [Service]
 Type=simple
 User=companion
+Group=companion
+UMask=0077
 WorkingDirectory=/opt/cook-anything/bridge
-# BRIDGE_TOKEN, CLAUDE_CODE_OAUTH_TOKEN, COMPANION_MODEL, CLAUDE_BIN live here:
+# BRIDGE_SIGNING_SECRET, CLAUDE_CODE_OAUTH_TOKEN, COMPANION_MODEL,
+# CLAUDE_BIN, MAX_CONCURRENCY and timeout limits live here.
 EnvironmentFile=/etc/companion-bridge.env
+Environment=HOME=/var/lib/companion-bridge
+Environment=TMPDIR=/run/companion-bridge
+StateDirectory=companion-bridge
+RuntimeDirectory=companion-bridge
 ExecStart=/usr/bin/env node server.mjs
-Restart=always
-RestartSec=3
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=10
+
+# OS boundary: the process can read the deployed bridge code and write only its
+# private state/runtime/temp locations. It cannot see real user home directories.
 NoNewPrivileges=true
-PrivateTmp=false
+PrivateTmp=true
+PrivateDevices=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/companion-bridge /run/companion-bridge
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectKernelLogs=true
+ProtectControlGroups=true
+ProtectClock=true
+ProtectHostname=true
+ProtectProc=invisible
+ProcSubset=pid
+RestrictNamespaces=true
+RestrictRealtime=true
+RestrictSUIDSGID=true
+LockPersonality=true
+CapabilityBoundingSet=
+AmbientCapabilities=
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+SystemCallArchitectures=native
+SystemCallFilter=@system-service
+SystemCallErrorNumber=EPERM
 
 [Install]
 WantedBy=multi-user.target

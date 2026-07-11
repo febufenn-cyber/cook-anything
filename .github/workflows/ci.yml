@@ -1,0 +1,76 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - "agent/**"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install locked dependencies
+        run: npm ci
+
+      - name: Companion security tests
+        run: npm run test:companion 2>&1 | tee companion-test.log
+
+      - name: Preserve companion test output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: companion-test-output
+          path: companion-test.log
+          if-no-files-found: ignore
+          retention-days: 3
+
+      - name: Validate bridge JavaScript and shell scripts
+        run: |
+          node --check bridge/server.mjs
+          bash -n bridge/companion-tunnel.sh
+          bash -n bridge/companion-watchdog.sh
+          bash -n bridge/phase0-disable.sh
+
+      - name: Build static site and trusted recipe snapshots
+        run: npm run build 2>&1 | tee production-build.log
+
+      - name: Preserve production build output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: production-build-output
+          path: production-build.log
+          if-no-files-found: ignore
+          retention-days: 3
+
+      - name: Bundle Worker without deploying
+        run: npx --yes wrangler@latest deploy --dry-run --outdir .wrangler-dry-run 2>&1 | tee wrangler-dry-run.log
+
+      - name: Preserve Wrangler dry-run output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wrangler-dry-run-output
+          path: wrangler-dry-run.log
+          if-no-files-found: ignore
+          retention-days: 3
