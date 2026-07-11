@@ -92,8 +92,8 @@ export function compactMutations(mutations: PendingMutation[]): PendingMutation[
 
 /** Safety preferences merge by union so another device cannot silently weaken them. */
 export function mergeProfilePayload(local: SyncPayload, remote: SyncPayload): SyncPayload {
-  const left = local as Record<string, unknown>;
-  const right = remote as Record<string, unknown>;
+  const left = local as unknown as Record<string, unknown>;
+  const right = remote as unknown as Record<string, unknown>;
   if (left.profileId !== "local" || right.profileId !== "local") return local;
   const union = (a: unknown, b: unknown) => [...new Set([
     ...(Array.isArray(a) ? a.filter((item): item is string => typeof item === "string") : []),
@@ -105,7 +105,7 @@ export function mergeProfilePayload(local: SyncPayload, remote: SyncPayload): Sy
     allergensToAvoid: union(left.allergensToAvoid, right.allergensToAvoid),
     excludedIngredients: union(left.excludedIngredients, right.excludedIngredients),
     updatedAt: new Date().toISOString(),
-  } as SyncPayload;
+  } as unknown as SyncPayload;
 }
 
 export function conflictReason(mutation: PendingMutation, remote: RemoteSyncRecord): SyncConflict["reason"] {
