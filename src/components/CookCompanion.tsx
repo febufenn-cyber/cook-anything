@@ -408,8 +408,14 @@ export default function CookCompanion({
             setShowSettings(false);
             setShowHostedNotice(false);
             void closeHostedSession();
-            if (bubbles.length === 0 && saved) {
-              void send(`I’m cooking ${recipe.title} for ${recipe.servings}. I’m at the start — what’s my first move?`);
+            if (saved) {
+              setBubbles((current) => [
+                ...current,
+                {
+                  role: "assistant",
+                  text: `Your ${saved.provider === "anthropic" ? "Anthropic" : "custom provider"} key is connected for this ${saved.remember ? "device" : "page session"}. Send a message when you’re ready.`,
+                },
+              ]);
             }
           }}
           onClear={() => {
