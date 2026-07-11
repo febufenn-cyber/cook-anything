@@ -150,6 +150,12 @@ async function main(): Promise<void> {
   assert.match(editor, /Submit this exact version for review/);
   assert.match(editor, /right to share/);
 
+  const deletionBridge = fs.readFileSync(path.join(root, "src", "components", "ContributionDeletionBridge.tsx"), "utf8");
+  const rootLayout = fs.readFileSync(path.join(root, "src", "app", "layout.tsx"), "utf8");
+  assert.match(deletionBridge, /local_data_deleted/);
+  assert.match(deletionBridge, /contributionRepository\.deleteAll\(\)/);
+  assert.match(rootLayout, /<ContributionDeletionBridge \/>/);
+
   console.log("Phase 6 living-cookbook tests passed.");
 }
 
