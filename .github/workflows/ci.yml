@@ -33,7 +33,16 @@ jobs:
         run: npm ci
 
       - name: Companion security tests
-        run: npm run test:companion
+        run: npm run test:companion 2>&1 | tee companion-test.log
+
+      - name: Preserve companion test output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: companion-test-output
+          path: companion-test.log
+          if-no-files-found: ignore
+          retention-days: 3
 
       - name: Validate bridge JavaScript and shell scripts
         run: |
