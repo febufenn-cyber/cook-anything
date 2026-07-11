@@ -12,7 +12,15 @@ set -u
 BRIDGE_PORT="${PORT:-8788}"
 WORKER_URL="${WORKER_URL:-https://cook-anything.robofox.online}"
 LOG="${TUNNEL_LOG:-/opt/cook-anything/logs/tunnel.log}"
+DISABLE_MARKER=/opt/cook-anything/BRIDGE_DISABLED
 mkdir -p "$(dirname "$LOG")"
+
+# Fail closed when Phase 0 containment is active. This protects against a
+# manual/systemd restart even if the watchdog or service state was mismanaged.
+if [ -e "$DISABLE_MARKER" ]; then
+  printf '%s tunnel startup blocked: %s exists\n' "$(date -u +%FT%TZ)" "$DISABLE_MARKER" >> "$LOG"
+  exit 0
+fi
 
 published=""
 /usr/local/bin/cloudflared tunnel --url "http://localhost:${BRIDGE_PORT}" --no-autoupdate 2>&1 | \
