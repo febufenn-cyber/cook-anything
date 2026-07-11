@@ -52,7 +52,16 @@ jobs:
           bash -n bridge/phase0-disable.sh
 
       - name: Build static site and trusted recipe snapshots
-        run: npm run build
+        run: npm run build 2>&1 | tee production-build.log
+
+      - name: Preserve production build output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: production-build-output
+          path: production-build.log
+          if-no-files-found: ignore
+          retention-days: 3
 
       - name: Bundle Worker without deploying
         run: npx --yes wrangler@latest deploy --dry-run --outdir .wrangler-dry-run
