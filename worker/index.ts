@@ -9,6 +9,8 @@ import type { CompanionRequest, CompanionResponse } from "../src/lib/companion/t
 
 interface Env {
   ASSETS: { fetch(request: Request): Promise<Response> };
+  /** Fail-closed Phase 0 switch. Hosted execution is available only when exactly "true". */
+  HOSTED_COMPANION_ENABLED?: string;
   ANTHROPIC_API_KEY?: string;
   /** Override the default model without a redeploy of code */
   COMPANION_MODEL?: string;
@@ -35,6 +37,14 @@ const JSON_HEADERS = { "content-type": "application/json; charset=utf-8" };
 
 function jsonResponse(body: CompanionResponse, status = 200): Response {
   return new Response(JSON.stringify(body), { status, headers: JSON_HEADERS });
+}
+
+/**
+ * Hosted execution is fail-closed: a missing, malformed, or unavailable value
+ * is treated as disabled. Browser BYOK calls do not pass through this Worker.
+ */
+function hostedCompanionEnabled(env: Env): boolean {
+  return env.HOSTED_COMPANION_ENABLED === "true";
 }
 
 /** Subscription mode: proxy the turn to the VPS bridge running Claude Code. */
@@ -75,6 +85,10 @@ async function bridgeTurn(env: Env, upstreamUrl: string, body: CompanionRequest)
  */
 async function handleBridgeOrigin(request: Request, env: Env): Promise<Response> {
   if (request.method !== "POST") return new Response(null, { status: 405 });
+  // Phase 0: do not even authenticate, parse, or mutate KV while hosted mode is off.
+  if (!hostedCompanionEnabled(env)) {
+    return new Response(JSON.stringify({ error: "disabled" }), { status: 503, headers: JSON_HEADERS });
+  }
   if (
     !env.COMPANION_CONFIG ||
     !env.COMPANION_UPSTREAM_TOKEN ||
@@ -94,6 +108,11 @@ async function handleBridgeOrigin(request: Request, env: Env): Promise<Response>
 async function handleCompanion(request: Request, env: Env): Promise<Response> {
   if (request.method !== "POST") {
     return jsonResponse({ reply: "", state: null, error: "method_not_allowed" }, 405);
+  }
+  // Phase 0 containment: reject before reading the body, touching KV, or calling
+  // either the VPS bridge or a hosted API key. Existing UI treats this as BYOK-only.
+  if (!hostedCompanionEnabled(env)) {
+    return jsonResponse({ reply: "", state: null, error: "not_configured" }, 503);
   }
   if (!env.COMPANION_UPSTREAM && !env.COMPANION_CONFIG && !env.ANTHROPIC_API_KEY) {
     return jsonResponse({ reply: "", state: null, error: "not_configured" }, 503);
