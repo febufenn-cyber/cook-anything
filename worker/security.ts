@@ -16,6 +16,11 @@ const INGREDIENT_ROLES = new Set([
 ]);
 const CRITICALITIES = new Set(["STRUCTURAL", "FLAVOR", "OPTIONAL"]);
 const HEAT_STABILITIES = new Set(["COOK_STABLE", "ADD_LATE"]);
+const ALLERGENS = new Set([
+  "dairy", "gluten", "nuts", "peanuts", "soy", "egg", "fish", "shellfish", "sesame", "mustard",
+]);
+const ALLERGEN_STATUSES = new Set(["derived", "reviewed", "incomplete", "unknown"]);
+const COOK_TEST_STATUSES = new Set(["not_cook_tested", "partially_cook_tested", "cook_tested"]);
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return value !== null && typeof value === "object" && !Array.isArray(value);
@@ -108,11 +113,28 @@ function validateIngredient(value: unknown): boolean {
   return true;
 }
 
+function validateTrust(value: unknown): boolean {
+  if (!isRecord(value) || !hasOnlyKeys(value, [
+    "allergen_status", "contains_allergens", "cross_contact_notes", "safety_warnings",
+    "critical_checks", "cook_test_status", "provenance_summary", "substitution_warning",
+  ])) return false;
+  if (!isBoundedString(value.allergen_status, 30) || !ALLERGEN_STATUSES.has(value.allergen_status)) return false;
+  if (!isStringArray(value.contains_allergens, 20, 40)
+    || !value.contains_allergens.every((allergen) => ALLERGENS.has(allergen))) return false;
+  if (!isStringArray(value.cross_contact_notes, 10, 1_000)) return false;
+  if (!isStringArray(value.safety_warnings, 20, 1_000)) return false;
+  if (!isStringArray(value.critical_checks, 20, 1_000)) return false;
+  if (!isBoundedString(value.cook_test_status, 40) || !COOK_TEST_STATUSES.has(value.cook_test_status)) return false;
+  if (!isBoundedString(value.provenance_summary, 1_000)) return false;
+  if (!isBoundedString(value.substitution_warning, 1_000)) return false;
+  return true;
+}
+
 export function validateTrustedRecipe(value: unknown, expectedId?: string): TrustedCompanionRecipe | null {
   if (!isRecord(value)) return null;
   if (!hasOnlyKeys(value, [
     "recipe_id", "title", "base_servings", "spice_level", "cookware", "stages",
-    "ingredients", "steps", "substitution_notes", "indian_kitchen_adaptation", "version",
+    "ingredients", "steps", "trust", "substitution_notes", "indian_kitchen_adaptation", "version",
   ])) return null;
 
   const recipeId = validateRecipeId(value.recipe_id);
@@ -125,6 +147,7 @@ export function validateTrustedRecipe(value: unknown, expectedId?: string): Trus
   if (!Array.isArray(value.ingredients) || value.ingredients.length === 0 || value.ingredients.length > 150) return null;
   if (!value.ingredients.every(validateIngredient)) return null;
   if (!Array.isArray(value.steps) || value.steps.length === 0 || value.steps.length > 150) return null;
+  if (!validateTrust(value.trust)) return null;
   if (!isBoundedString(value.version, 64) || !/^[a-f0-9]{64}$/.test(value.version)) return null;
   if (value.substitution_notes !== undefined && !isBoundedString(value.substitution_notes, 8_000, true)) return null;
   if (value.indian_kitchen_adaptation !== undefined
@@ -187,10 +210,7 @@ export function validateCompanionState(value: unknown, recipe: TrustedCompanionR
   return value as unknown as CompanionState;
 }
 
-/**
- * Model output may be structurally valid but still rewrite history or jump ahead.
- * Enforce monotonic, one-action-at-a-time transitions before committing state.
- */
+/** Enforce monotonic, one-action-at-a-time model state transitions. */
 export function validateCompanionStateTransition(
   value: unknown,
   previous: CompanionState,
