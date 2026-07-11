@@ -1,0 +1,12 @@
+{
+  "name": "Cook Anything",
+  "short_name": "Cook Anything",
+  "description": "Find trustworthy dishes from what is already in your kitchen, save a local pantry and cook offline.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fffaf0",
+  "theme_color": "#d99a16",
+  "categories": ["food", "lifestyle", "utilities"],
+  "lang": "en-IN"
+}
