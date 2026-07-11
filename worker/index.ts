@@ -38,9 +38,12 @@ function hostedDisabledResponse(): Response {
   return jsonResponse({ reply: "", state: null, error: "not_configured" }, 503);
 }
 
-async function rateLimitKey(request: Request, scope: string, subject: string): Promise<string> {
-  const userAgent = request.headers.get("user-agent") ?? "";
-  return `${scope}:${await sha256Hex(`${subject}|${userAgent}`)}`;
+async function rateLimitKey(scope: string, subject: string): Promise<string> {
+  return `${scope}:${await sha256Hex(subject)}`;
+}
+
+function clientIp(request: Request): string {
+  return request.headers.get("cf-connecting-ip") ?? "unknown";
 }
 
 async function loadTrustedRecipe(request: Request, env: Env, recipeId: string) {
@@ -58,9 +61,8 @@ async function handleCreateSession(request: Request, env: Env): Promise<Response
   if (!hostedCompanionEnabled(env)) return hostedDisabledResponse();
   if (!sameOrigin(request)) return jsonResponse({ state: null, error: "forbidden" }, 403);
 
-  const ip = request.headers.get("cf-connecting-ip") ?? "unknown";
   const createLimit = await env.COMPANION_SESSION_RATE_LIMITER.limit({
-    key: await rateLimitKey(request, "session-create", ip),
+    key: await rateLimitKey("session-create-ip", clientIp(request)),
   });
   if (!createLimit.success) return jsonResponse({ state: null, error: "rate_limited" }, 429);
 
@@ -109,10 +111,17 @@ async function handleTurn(request: Request, env: Env): Promise<Response> {
     );
   }
 
-  const turnLimit = await env.COMPANION_TURN_RATE_LIMITER.limit({
-    key: await rateLimitKey(request, "turn", sessionId),
-  });
-  if (!turnLimit.success) return jsonResponse({ reply: "", state: null, error: "rate_limited" }, 429);
+  const [ipLimit, sessionLimit] = await Promise.all([
+    env.COMPANION_TURN_RATE_LIMITER.limit({
+      key: await rateLimitKey("turn-ip", clientIp(request)),
+    }),
+    env.COMPANION_TURN_RATE_LIMITER.limit({
+      key: await rateLimitKey("turn-session", sessionId),
+    }),
+  ]);
+  if (!ipLimit.success || !sessionLimit.success) {
+    return jsonResponse({ reply: "", state: null, error: "rate_limited" }, 429);
+  }
 
   let raw: unknown;
   try {
