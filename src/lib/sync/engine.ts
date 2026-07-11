@@ -118,8 +118,8 @@ async function pullRemote(deviceId: string): Promise<number> {
     });
     const result = parsePullResult(raw);
     for (const record of result.records) {
-      // Household records are authorized and revision-tracked, but do not overwrite
-      // the personal local kitchen until the user selects that household space.
+      // Household changes are authorization-checked and revision-tracked, but do
+      // not overwrite the selected personal kitchen until a household space is opened.
       if (record.scope.type === "personal") await kitchenRepository.applyRemoteRecord(record);
     }
     await saveRemoteRevisions(result.records);
@@ -179,7 +179,7 @@ export function syncNow(): Promise<SyncRunResult> {
   return activeSync;
 }
 
-export async function getCloudKitchenSummary(): Promise<CloudKitchenSummary> {
+export function getCloudKitchenSummary(): Promise<CloudKitchenSummary> {
   return callCloudRpc<CloudKitchenSummary>("sync_kitchen_summary", {});
 }
 
@@ -200,17 +200,17 @@ export async function migrateKitchen(strategy: MigrationStrategy): Promise<SyncR
   const session = await getValidSession();
   if (!session) throw new Error("authentication_required");
   await recoverySnapshot(session.user.id, strategy === "merge" ? "account_migration" : strategy);
-  const deviceId = await getDeviceId();
+  const currentDeviceId = await getDeviceId();
 
   if (strategy === "use_local") {
-    await callCloudRpc("sync_reset_personal_scope", { p_device_id: deviceId });
-    await clearSyncState({ keepDeviceId: true, keepRecovery: true });
+    await callCloudRpc("sync_reset_personal_scope", { p_device_id: currentDeviceId });
+    await clearSyncState({ keepRecovery: true });
     await setBoundAccountId(session.user.id);
     await setCompletedMigration(session.user.id, true);
     await queueFullLocalKitchen();
   } else if (strategy === "use_cloud") {
     await kitchenRepository.clearKitchenStores();
-    await clearSyncState({ keepDeviceId: true, keepRecovery: true });
+    await clearSyncState({ keepRecovery: true });
     await setBoundAccountId(session.user.id);
     await setCompletedMigration(session.user.id, true);
     await setPullCursor(0);
@@ -224,8 +224,8 @@ export async function migrateKitchen(strategy: MigrationStrategy): Promise<SyncR
   return syncNow();
 }
 
-export async function pauseSync(paused: boolean): Promise<void> {
-  await setSyncPaused(paused);
+export function pauseSync(paused: boolean): Promise<void> {
+  return setSyncPaused(paused);
 }
 
 export async function resolveConflict(conflict: SyncConflict, resolution: "keep_local" | "keep_cloud" | "safe_merge"): Promise<void> {
@@ -254,8 +254,8 @@ export async function syncDiagnostics() {
   return { pending: pending.length, conflicts, paused, boundAccountId };
 }
 
-export function listDevices(): Promise<DeviceInfo[]> {
-  return callCloudRpc<DeviceInfo[]>("list_sync_devices", {});
+export async function listDevices(): Promise<DeviceInfo[]> {
+  return callCloudRpc<DeviceInfo[]>("list_sync_devices", { p_current_device_id: await getDeviceId() });
 }
 
 export function revokeDevice(deviceId: string): Promise<{ ok: boolean }> {
@@ -283,11 +283,15 @@ export function acceptHouseholdInvite(token: string): Promise<HouseholdSummary> 
   return callCloudRpc("accept_household_invite", { p_token: token.trim() });
 }
 
+export function exportCloudKitchen(): Promise<unknown> {
+  return callCloudRpc("export_cloud_kitchen", {});
+}
+
 export async function deleteCloudAccount(eraseLocal: boolean): Promise<void> {
   const session = await getValidSession();
   if (!session) throw new Error("authentication_required");
   await recoverySnapshot(session.user.id, "use_cloud");
   await callCloudRpc("request_account_deletion", {});
   if (eraseLocal) await kitchenRepository.clearKitchenStores();
-  await clearSyncState({ keepDeviceId: true, keepRecovery: !eraseLocal });
+  await clearSyncState({ keepRecovery: !eraseLocal });
 }
