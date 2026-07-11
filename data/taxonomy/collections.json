@@ -1,0 +1,145 @@
+[
+  {
+    "slug": "quick-recipes",
+    "name": "Quick Recipes",
+    "intro": "Life is busy, but a good meal doesn't have to take hours. These recipes are verified to reach the table in 30 minutes or less, using efficient techniques and well-stocked pantry staples — without sacrificing the flavour that makes cooking worthwhile.",
+    "rules": [
+      { "maxTotalTimeMinutes": 30 }
+    ],
+    "relatedCollections": ["budget-recipes", "bachelor-recipes", "pressure-cooker-recipes", "kadai-recipes"]
+  },
+  {
+    "slug": "budget-recipes",
+    "name": "Budget Recipes",
+    "intro": "Delicious food doesn't require an expensive shopping list. These recipes lean on lentils, seasonal vegetables, eggs, and whole grains — ingredients that are affordable everywhere in India — to deliver satisfying meals without stretching your wallet.",
+    "rules": [
+      { "budgetLevels": ["budget"] }
+    ],
+    "relatedCollections": ["quick-recipes", "bachelor-recipes", "vegetarian-recipes", "indian-recipes"]
+  },
+  {
+    "slug": "indian-recipes",
+    "name": "Indian Recipes",
+    "intro": "India's cuisine is not one thing — it is hundreds of regional traditions, spice philosophies, and cooking techniques gathered under one vast umbrella. This collection spans every corner of the subcontinent, from Kashmiri wazwan to Chettinad pepper curries to Goan coconut seafood.",
+    "rules": [
+      {
+        "cuisines": [
+          "tamil", "chettinad", "kerala", "andhra", "telangana", "hyderabadi",
+          "karnataka", "north-indian", "punjabi", "mughlai", "gujarati",
+          "rajasthani", "maharashtrian", "goan", "bengali", "kashmiri"
+        ]
+      }
+    ],
+    "relatedCollections": ["tamil-recipes", "south-indian-recipes", "festival-recipes", "vegetarian-recipes"]
+  },
+  {
+    "slug": "tamil-recipes",
+    "name": "Tamil Recipes",
+    "intro": "Tamil cooking is rooted in the Sangam-era principle of balance — heat from pepper and chilli, sour from tamarind, richness from coconut, and depth from dried lentil preparations. This collection gathers authentic recipes from Tamil Nadu and the famed Chettinad tradition.",
+    "rules": [
+      { "cuisines": ["tamil", "chettinad"] }
+    ],
+    "relatedCollections": ["south-indian-recipes", "indian-recipes", "rice-recipes", "festival-recipes"]
+  },
+  {
+    "slug": "south-indian-recipes",
+    "name": "South Indian Recipes",
+    "intro": "The five states of South India — Tamil Nadu, Kerala, Karnataka, Andhra Pradesh, and Telangana — share a love of rice, coconut, tamarind, and complex spice work while each maintaining a fiercely individual culinary identity. Explore the full breadth of the Deccan and coastal south here.",
+    "rules": [
+      {
+        "cuisines": ["tamil", "chettinad", "kerala", "andhra", "telangana", "karnataka", "hyderabadi"]
+      }
+    ],
+    "relatedCollections": ["tamil-recipes", "indian-recipes", "rice-recipes", "kadai-recipes"]
+  },
+  {
+    "slug": "chicken-recipes",
+    "name": "Chicken Recipes",
+    "intro": "Chicken is the most versatile protein in Indian cooking — it absorbs marinades deeply, cooks quickly, and pairs with every regional spice palette, from the yoghurt-based gravies of the north to the pepper-forward curries of the south. Find the full range here.",
+    "rules": [
+      { "ingredients": ["chicken"] }
+    ],
+    "relatedCollections": ["indian-recipes", "high-protein-recipes", "kadai-recipes", "pressure-cooker-recipes"]
+  },
+  {
+    "slug": "vegetarian-recipes",
+    "name": "Vegetarian Recipes",
+    "intro": "India's vegetarian tradition is among the most developed and diverse in the world, encompassing thousands of years of Ayurvedic wisdom, temple cooking, and regional ingenuity. Whether you eat plant-based every day or just a few times a week, this collection offers extraordinary variety.",
+    "rules": [
+      { "dietTypes": ["vegetarian"] },
+      { "dietTypes": ["vegan"] }
+    ],
+    "relatedCollections": ["indian-recipes", "budget-recipes", "festival-recipes", "high-protein-recipes"]
+  },
+  {
+    "slug": "egg-recipes",
+    "name": "Egg Recipes",
+    "intro": "Eggs are arguably the most useful ingredient in the Indian kitchen — affordable, fast-cooking, and endlessly adaptable from a quick omelette to a slow-simmered egg curry. This collection celebrates every way the humble egg can anchor a great meal.",
+    "rules": [
+      { "ingredients": ["egg"] }
+    ],
+    "relatedCollections": ["quick-recipes", "budget-recipes", "bachelor-recipes", "high-protein-recipes"]
+  },
+  {
+    "slug": "rice-recipes",
+    "name": "Rice Recipes",
+    "intro": "Rice is the heartbeat of South Asian cooking — steamed plain as the canvas for a full meal, cooked into biryanis and pulaos for celebration, fermented into idli and dosa batter, or simmered into comforting porridges. Every grain variety and every technique is represented here.",
+    "rules": [
+      { "ingredients": ["rice"] },
+      { "ingredients": ["basmati-rice"] },
+      { "ingredients": ["idli-rice"] }
+    ],
+    "relatedCollections": ["south-indian-recipes", "tamil-recipes", "indian-recipes", "pressure-cooker-recipes"]
+  },
+  {
+    "slug": "festival-recipes",
+    "name": "Festival Recipes",
+    "intro": "Food is the centrepiece of every Indian celebration — each festival brings its own canonical dishes, rituals around cooking, and the sense that a meal shared with family is itself a form of worship. This collection gathers the recipes that mark the calendar year.",
+    "rules": [
+      { "tags": ["festival"] },
+      { "tags": ["diwali"] },
+      { "tags": ["pongal"] },
+      { "tags": ["onam"] },
+      { "tags": ["eid"] },
+      { "tags": ["christmas"] },
+      { "tags": ["navratri"] }
+    ],
+    "relatedCollections": ["indian-recipes", "vegetarian-recipes", "tamil-recipes", "rice-recipes"]
+  },
+  {
+    "slug": "high-protein-recipes",
+    "name": "High Protein Recipes",
+    "intro": "Indian cooking is remarkably protein-rich when you know where to look — from rajma and chana to paneer, chicken breast, and egg preparations. These recipes are curated for anyone looking to hit protein targets without giving up on flavour or authenticity.",
+    "rules": [
+      { "dietTypes": ["high_protein"] }
+    ],
+    "relatedCollections": ["chicken-recipes", "egg-recipes", "vegetarian-recipes", "quick-recipes"]
+  },
+  {
+    "slug": "bachelor-recipes",
+    "name": "Bachelor Recipes",
+    "intro": "Cooking for yourself shouldn't require a full spice rack, an hour of prep, or culinary school training. These recipes are genuinely achievable with minimal equipment, short ingredient lists, and honest time estimates — the real survival guide for the solo cook.",
+    "rules": [
+      { "tags": ["bachelor-friendly"] }
+    ],
+    "relatedCollections": ["quick-recipes", "budget-recipes", "egg-recipes", "pressure-cooker-recipes"]
+  },
+  {
+    "slug": "pressure-cooker-recipes",
+    "name": "Pressure Cooker Recipes",
+    "intro": "The pressure cooker is the unsung hero of the Indian kitchen, cutting hours off dal and bean cooking, tenderising meat in minutes, and making weeknight meals genuinely viable. These recipes are built around and optimised for this essential piece of equipment.",
+    "rules": [
+      { "methods": ["pressure-cooking"] }
+    ],
+    "relatedCollections": ["quick-recipes", "indian-recipes", "rice-recipes", "budget-recipes"]
+  },
+  {
+    "slug": "kadai-recipes",
+    "name": "Kadai Recipes",
+    "intro": "The kadai is the most versatile piece of cookware in the Indian kitchen — a single vessel that can fry, sauté, simmer, and smoke with equal authority. These recipes are designed around its unique geometry and heat characteristics to produce the boldest possible results.",
+    "rules": [
+      { "methods": ["kadai-cooking"] }
+    ],
+    "relatedCollections": ["indian-recipes", "chicken-recipes", "vegetarian-recipes", "south-indian-recipes"]
+  }
+]

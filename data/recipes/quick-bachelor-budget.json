@@ -1,0 +1,3788 @@
+[
+  {
+    "id": "ca-indo-chinese-masala-noodles-upgrade",
+    "slug": "indo-chinese-masala-noodles-upgrade",
+    "title": "Masala Instant Noodles Upgrade",
+    "nativeTitle": null,
+    "description": "Humble instant noodles transformed into a satisfying Indo-Chinese meal with a fried egg, mixed vegetables, and fresh aromatics. Ready in under 10 minutes, this bachelor staple is spicier, more nutritious, and far more filling than the packet alone.",
+    "cuisine": "indo-chinese",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "dinner",
+      "snack"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 10,
+    "totalTimeMinutes": 15,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "instant noodles (1 packet, any brand)",
+        "normalizedName": "noodles",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "egg",
+        "normalizedName": "egg",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "capsicum, thinly sliced",
+        "normalizedName": "capsicum",
+        "quantity": 0.25,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "spring onion, chopped",
+        "normalizedName": "spring-onion",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": true
+      },
+      {
+        "name": "green chilli, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 2,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "tomato ketchup",
+        "normalizedName": "tomato-ketchup",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper powder",
+        "normalizedName": "black-pepper",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Boil 1.5 cups water and cook the noodles for 2 minutes — slightly underdone. Drain, toss with a few drops of oil to prevent sticking, and set aside. Save the tastemaker sachet.",
+        "timerMinutes": 3,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a kadai or frying pan on high flame. Add garlic and green chilli and fry 15 seconds until fragrant. Add onion and capsicum and stir-fry on high for 2 minutes until the edges just begin to char.",
+        "timerMinutes": 3,
+        "method": "stir-frying"
+      },
+      {
+        "order": 3,
+        "text": "Push the vegetables to one side. Crack the egg into the pan and scramble it quickly until just set, then break it up and mix through the vegetables."
+      },
+      {
+        "order": 4,
+        "text": "Add the drained noodles, half the tastemaker sachet, red chilli powder, soy sauce, ketchup and black pepper. Toss on high flame for 1–2 minutes until everything is coated and the noodles pick up a little colour.",
+        "timerMinutes": 2,
+        "method": "stir-frying"
+      },
+      {
+        "order": 5,
+        "text": "Taste and adjust salt. Scatter spring onion on top and serve immediately while hot — the noodles get sticky if they sit."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "frying-pan"
+    ],
+    "methods": [
+      "boiling",
+      "stir-frying"
+    ],
+    "tags": [
+      "bachelor-friendly",
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "comfort-food"
+    ],
+    "allergens": [
+      "gluten",
+      "egg",
+      "soy"
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein": 14,
+      "carbs": 48,
+      "fat": 15,
+      "fiber": 3,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "egg",
+        "substitute": "50 g paneer, crumbled",
+        "notes": "makes it vegetarian — fry until golden before adding noodles"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "a few drops of vinegar + a pinch of salt",
+        "notes": "if soy sauce is unavailable"
+      },
+      {
+        "ingredient": "capsicum",
+        "substitute": "cabbage or carrot, shredded",
+        "notes": "any quick-cooking vegetable works"
+      }
+    ],
+    "culturalNote": "The instant noodles upgrade is an unwritten rite of passage for every Indian hostel student — the packet becomes a canvas.",
+    "regionalVariation": "South Indian hostels often add sambar powder or a squeeze of lemon in place of soy sauce for a completely different character.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-north-indian-egg-bhurji",
+    "slug": "north-indian-egg-bhurji",
+    "title": "Egg Bhurji",
+    "nativeTitle": "अंडा भुर्जी",
+    "description": "Soft spiced scrambled eggs cooked with onion, tomato, and green chilli — India's answer to a quick protein fix. Ready in 8 minutes flat, egg bhurji is equally at home stuffed in bread, scooped with roti, or eaten straight from the pan.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": "delhi",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "dinner",
+      "snack"
+    ],
+    "dietType": [
+      "eggetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 8,
+    "totalTimeMinutes": 13,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "eggs",
+        "normalizedName": "egg",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, finely chopped",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "oil or butter",
+        "normalizedName": "oil",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Beat the eggs with a pinch of salt and set aside. Prep all the vegetables so they are ready — the cook is fast."
+      },
+      {
+        "order": 2,
+        "text": "Heat oil or butter in a tawa or kadai on medium-high. Add onion and fry until translucent and lightly golden at the edges, about 3 minutes.",
+        "timerMinutes": 3,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add green chilli and ginger and stir for 30 seconds. Add tomato, turmeric and chilli powder, and cook until the tomato softens and the mixture is nearly dry, about 2 minutes.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 4,
+        "text": "Pour in the beaten eggs and immediately start breaking and folding with a spatula on medium heat. Keep stirring constantly — you want soft, small curds, not a flat omelette.",
+        "timerMinutes": 2,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Pull the pan off the heat when the eggs are just set but still look slightly glossy — residual heat finishes them. Fold in coriander leaves, taste for salt, and serve immediately with bread or roti."
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "kadai"
+    ],
+    "methods": [
+      "sauteing",
+      "tawa-cooking"
+    ],
+    "tags": [
+      "bachelor-friendly",
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "street-food"
+    ],
+    "allergens": [
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 220,
+      "protein": 16,
+      "carbs": 8,
+      "fat": 14,
+      "fiber": 2,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "onion",
+        "substitute": "2 shallots, chopped finely",
+        "notes": "sweeter result"
+      },
+      {
+        "ingredient": "oil",
+        "substitute": "butter for a richer flavour",
+        "notes": "use 1 tbsp — lowers the smoke point, so keep heat medium"
+      },
+      {
+        "ingredient": "coriander-leaves",
+        "substitute": "spring onion greens",
+        "notes": "lighter finish"
+      }
+    ],
+    "culturalNote": "Bhurji is the default 2 AM fix across North Indian cities, sold from carts with pav, and the go-to when the fridge holds nothing but eggs.",
+    "regionalVariation": "In Mumbai, bhurji pav gets a touch of pav bhaji masala; in Punjab, a knob of butter is non-negotiable.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-north-indian-quick-egg-curry",
+    "slug": "north-indian-quick-egg-curry",
+    "title": "Quick Egg Curry",
+    "nativeTitle": "अंडा करी",
+    "description": "Boiled eggs simmered in a punchy tomato-onion gravy spiced with everyday masalas — a weeknight curry that comes together in 20 minutes and pairs beautifully with rice, roti, or bread. The gravy is deliberately thin enough to soak into rice and thick enough to coat the eggs.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": "delhi",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "eggetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 25,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "eggs",
+        "normalizedName": "egg",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Place eggs in a saucepan, cover with cold water, bring to a boil and cook 8 minutes. Transfer to cold water, peel, and make 3–4 shallow slits in each egg so the gravy soaks in.",
+        "timerMinutes": 10,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a kadai on medium. Splutter cumin seeds, then add onion and cook stirring until golden brown, about 5 minutes. Do not rush — the deep colour builds the gravy base.",
+        "timerMinutes": 5,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add ginger-garlic paste and fry until the raw smell disappears, about 1 minute. Add tomatoes with a pinch of salt and cook until they completely break down and the oil starts to separate, about 5 minutes.",
+        "timerMinutes": 6
+      },
+      {
+        "order": 4,
+        "text": "Reduce heat to low. Add turmeric, chilli powder, and coriander powder. Stir for 30 seconds, then pour in 250 ml water and bring to a simmer. Season with salt.",
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Add the peeled eggs to the gravy and simmer covered for 5 minutes so they absorb flavour. Stir in garam masala, finish with coriander leaves, and serve hot with rice or roti.",
+        "timerMinutes": 5
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "saucepan"
+    ],
+    "methods": [
+      "boiling",
+      "sauteing",
+      "simmering"
+    ],
+    "tags": [
+      "bachelor-friendly",
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "gravy",
+      "comfort-food"
+    ],
+    "allergens": [
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 280,
+      "protein": 18,
+      "carbs": 12,
+      "fat": 18,
+      "fiber": 3,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "tomato",
+        "substitute": "3 tbsp tomato ketchup + 50 ml water",
+        "notes": "bachelor shortcut when fresh tomatoes are out"
+      },
+      {
+        "ingredient": "ginger-garlic-paste",
+        "substitute": "1 tsp each ginger and garlic, grated separately",
+        "notes": "same flavour, just more prep"
+      },
+      {
+        "ingredient": "garam-masala",
+        "substitute": "a pinch of cinnamon + a pinch of clove powder",
+        "notes": "makeshift if no garam masala at hand"
+      }
+    ],
+    "culturalNote": "Anda curry is the great equaliser of Indian cooking — it appears across regions in different avatars, from Bengal to Punjab, always cheap and always satisfying.",
+    "regionalVariation": "Kerala adds coconut milk for a gentler, creamier gravy; Andhra versions use more chilli and tamarind for a sharp, hot finish.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-south-indian-capsicum-rice",
+    "slug": "south-indian-capsicum-rice",
+    "title": "Capsicum Rice",
+    "nativeTitle": "குடை மிளகாய் சாதம்",
+    "description": "A fragrant one-pan rice dish where fresh capsicum is stir-fried with curry leaves, mustard, and a simple spice blend before being tossed with cooked rice. Quick to assemble from pantry staples and leftover rice, it makes a complete meal in under 20 minutes.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 20,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "cooked rice (day-old preferred)",
+        "normalizedName": "rice",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "capsicum (any colour), diced",
+        "normalizedName": "capsicum",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, sliced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "urad dal",
+        "normalizedName": "urad-dal",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "If using freshly cooked rice, spread it on a plate and cool to room temperature so the grains separate — clumpy hot rice turns mushy when stir-fried."
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a kadai on medium-high. Splutter mustard seeds, then add urad dal and fry until golden. Add dried red chillies and curry leaves and let them crisp for 15 seconds.",
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add onion and sauté until translucent, about 3 minutes. Add capsicum, turmeric, chilli powder, and coriander powder. Stir-fry on high heat for 4–5 minutes until the capsicum softens but still has a slight bite.",
+        "timerMinutes": 5,
+        "method": "stir-frying"
+      },
+      {
+        "order": 4,
+        "text": "Add the cooked rice and salt. Toss gently on high flame for 2 minutes until every grain is coated in the masala and heated through. Avoid pressing down — you want separate grains.",
+        "timerMinutes": 2,
+        "method": "stir-frying"
+      },
+      {
+        "order": 5,
+        "text": "Squeeze lemon juice over, toss once more, and taste for salt. Serve with raita, pickle, or papad — it needs no other accompaniment."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "tempering",
+      "stir-frying",
+      "one-pot"
+    ],
+    "tags": [
+      "bachelor-friendly",
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "leftover-friendly",
+      "lunchbox"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 310,
+      "protein": 6,
+      "carbs": 55,
+      "fat": 8,
+      "fiber": 4,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "capsicum",
+        "substitute": "brinjal or beans, chopped small",
+        "notes": "increase stir-fry time by 2 minutes"
+      },
+      {
+        "ingredient": "urad-dal",
+        "substitute": "chana dal",
+        "notes": "soak for 15 minutes first for even frying"
+      },
+      {
+        "ingredient": "lemon",
+        "substitute": "a pinch of amchur (dry mango powder)",
+        "notes": "same bright tartness"
+      }
+    ],
+    "culturalNote": "Capsicum rice (kudai milagai sadam) is a popular lunchbox dish across Tamil Nadu homes, valued for being quick, tasty, and able to hold well for hours without refrigeration.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-south-indian-curd-semiya",
+    "slug": "south-indian-curd-semiya",
+    "title": "10-Minute Curd Semiya",
+    "nativeTitle": "தயிர் சேமியா",
+    "description": "Chilled vermicelli tossed in fresh curd with a quick mustard-curry leaf tempering — the South Indian cousin of curd rice, even lighter and faster. This is the ideal dish when the kitchen heat is unbearable and hunger is immediate.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "lunch",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 3,
+    "cookTimeMinutes": 7,
+    "totalTimeMinutes": 10,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "wheat vermicelli (semiya)",
+        "normalizedName": "vermicelli",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "fresh curd, whisked smooth",
+        "normalizedName": "curd",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "green chilli, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "urad dal",
+        "normalizedName": "urad-dal",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": true
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Bring 2 cups water to a boil with a pinch of salt. Add vermicelli and cook 3–4 minutes until just tender — it should have a very slight bite. Drain through a colander, rinse with cold water, and spread to cool.",
+        "timerMinutes": 5,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a small pan on medium. Splutter mustard seeds, then add urad dal and fry until golden. Add curry leaves, green chilli, ginger, and asafoetida and fry 20 seconds until fragrant.",
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Pour the hot tempering immediately over the whisked curd and stir to combine — the curd will absorb the aromas."
+      },
+      {
+        "order": 4,
+        "text": "Add the cooled vermicelli to the curd mixture and fold gently. Add salt to taste. The semiya will absorb the curd and thicken slightly — if it looks too thick, stir in 2 tablespoons of water or milk."
+      },
+      {
+        "order": 5,
+        "text": "Finish with coriander leaves and serve at room temperature or lightly chilled. It holds well for a few hours, making it an excellent lunchbox option."
+      }
+    ],
+    "cookware": [
+      "saucepan",
+      "frying-pan"
+    ],
+    "methods": [
+      "boiling",
+      "tempering",
+      "no-cook"
+    ],
+    "tags": [
+      "bachelor-friendly",
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "summer",
+      "lunchbox",
+      "comfort-food"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 250,
+      "protein": 9,
+      "carbs": 38,
+      "fat": 7,
+      "fiber": 2,
+      "sugar": 6,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "curd",
+        "substitute": "thin coconut milk for a dairy-free version",
+        "notes": "serve immediately — coconut milk doesn't hold well"
+      },
+      {
+        "ingredient": "vermicelli",
+        "substitute": "leftover cooked rice",
+        "notes": "effectively becomes curd rice — equally good"
+      },
+      {
+        "ingredient": "ginger",
+        "substitute": "omit if not available",
+        "notes": "the curry leaf tempering provides enough fragrance"
+      }
+    ],
+    "culturalNote": "Curd semiya is a staple across Tamil homes during Navratri and summer months when light, cooling foods are preferred over heavier cooked meals.",
+    "regionalVariation": "Karnataka versions add grated carrot and pomegranate seeds for colour and crunch; some households add a pinch of sugar to balance the curd's tartness.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-maharashtrian-bread-upma",
+    "slug": "maharashtrian-bread-upma",
+    "title": "Bread Upma",
+    "nativeTitle": "ब्रेड उपमा",
+    "description": "Day-old bread torn into cubes and tossed in a spiced mustard-onion-tomato base — a breakfast reinvention that uses up stale bread in 12 minutes. Crisp at the edges, tangy from tomato, and satisfying enough to hold you through the morning.",
+    "cuisine": "maharashtrian",
+    "country": "india",
+    "region": "maharashtra",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "snack",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 12,
+    "totalTimeMinutes": 17,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "bread slices, torn into rough cubes",
+        "normalizedName": "bread",
+        "quantity": 6,
+        "unit": "slice",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, chopped",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tear the bread into roughly 2 cm pieces and set aside. Day-old bread works best — fresh bread tends to turn soggy; if using fresh, leave the pieces uncovered for 10 minutes to dry slightly."
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a kadai on medium-high. Splutter mustard seeds, then add curry leaves and green chilli and fry 10 seconds. Add onion and sauté until lightly golden, about 3 minutes.",
+        "timerMinutes": 3,
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add tomato, turmeric, and chilli powder. Cook stirring until the tomato softens and the mixture becomes a loose masala, about 3 minutes. Season with salt.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 4,
+        "text": "Add the bread pieces and toss gently to coat every cube in the masala. Press lightly with the back of a spatula and let cook undisturbed for 1 minute so the bottom crisps, then toss again. Repeat once more.",
+        "timerMinutes": 3,
+        "method": "pan-frying"
+      },
+      {
+        "order": 5,
+        "text": "Squeeze lemon juice over, scatter coriander leaves, and serve immediately while the edges are still crisp. It softens quickly, so eat it fresh from the pan."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "tempering",
+      "pan-frying",
+      "one-pot"
+    ],
+    "tags": [
+      "bachelor-friendly",
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "leftover-friendly"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 260,
+      "protein": 7,
+      "carbs": 38,
+      "fat": 10,
+      "fiber": 3,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "bread",
+        "substitute": "leftover idli, crumbled",
+        "notes": "makes idli upma — equally popular"
+      },
+      {
+        "ingredient": "tomato",
+        "substitute": "1 tbsp tomato ketchup",
+        "notes": "bachelor shortcut; add after the onion is cooked"
+      },
+      {
+        "ingredient": "curry-leaves",
+        "substitute": "a pinch of asafoetida",
+        "notes": "different but still fragrant"
+      }
+    ],
+    "culturalNote": "Bread upma began as a thrifty way to use stale loaves in Maharashtrian and South Indian homes — it is now a beloved street breakfast in its own right.",
+    "regionalVariation": "Tamil Nadu versions add sambar powder and grated coconut; Gujarat versions skip the tomato and use lemon only for sourness.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-north-indian-bread-omelette",
+    "slug": "north-indian-bread-omelette",
+    "title": "Bread Omelette",
+    "nativeTitle": "ब्रेड ऑमलेट",
+    "description": "A spiced egg omelette cooked directly between two slices of butter-toasted bread — the definitive Indian roadside breakfast that is done in under 10 minutes. Masala-spiced, slightly crisp on the outside and custardy within, it needs nothing else on the side.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": "delhi",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "snack"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 3,
+    "cookTimeMinutes": 7,
+    "totalTimeMinutes": 10,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "eggs",
+        "normalizedName": "egg",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "bread slices",
+        "normalizedName": "bread",
+        "quantity": 2,
+        "unit": "slice",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "green chilli, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "black pepper, crushed",
+        "normalizedName": "black-pepper",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "butter",
+        "normalizedName": "butter",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Beat the eggs with onion, green chilli, coriander leaves, turmeric, pepper, and salt until combined and slightly frothy."
+      },
+      {
+        "order": 2,
+        "text": "Melt half the butter in a tawa on medium heat. Place both bread slices on the tawa and toast 1 minute until the underside is light golden. Flip and toast the other side briefly, then push to the edge of the pan.",
+        "timerMinutes": 2,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Add the remaining butter to the centre of the tawa. Pour the egg mixture and let it spread into a rough circle slightly larger than one bread slice. Cook 1 minute until the edges set.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 4,
+        "text": "Before the top sets, press one bread slice onto the egg, untoasted-side down. Flip the whole assembly — bread is now on the bottom — and cook 1 more minute so the egg firms up completely.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 5,
+        "text": "Press the second bread slice on top to make a sandwich, press gently, and slide onto a plate. Cut diagonally and eat immediately while hot. Add a drop of tomato ketchup on the side if you like."
+      }
+    ],
+    "cookware": [
+      "tawa"
+    ],
+    "methods": [
+      "tawa-cooking",
+      "pan-frying"
+    ],
+    "tags": [
+      "bachelor-friendly",
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "street-food"
+    ],
+    "allergens": [
+      "egg",
+      "gluten",
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 320,
+      "protein": 16,
+      "carbs": 28,
+      "fat": 16,
+      "fiber": 2,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "butter",
+        "substitute": "oil for a dairy-free version",
+        "notes": "less rich but still good"
+      },
+      {
+        "ingredient": "bread",
+        "substitute": "pav (dinner roll), split and toasted",
+        "notes": "the Mumbai street version"
+      },
+      {
+        "ingredient": "green-chilli",
+        "substitute": "a pinch of red chilli powder in the egg batter",
+        "notes": "same heat, milder texture"
+      }
+    ],
+    "culturalNote": "Bread omelette is India's most democratic fast food — made identically by roadside thelas in Delhi, Chennai, and Kolkata and beloved by all.",
+    "regionalVariation": "Mumbai versions use pav instead of bread slices; South Indian stalls add sambar powder and sometimes grated coconut to the egg batter.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-north-indian-aloo-fry",
+    "slug": "north-indian-aloo-fry",
+    "title": "Aloo Fry",
+    "nativeTitle": "आलू फ्राई",
+    "description": "Thinly sliced potatoes pan-fried in spiced oil until crisp and golden — the most forgiving, most reliable side dish in the Indian bachelor kitchen. Just five spices, one pan, and fifteen minutes stand between you and something that makes plain rice taste special.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": "delhi",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 20,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "potatoes, peeled and thinly sliced",
+        "normalizedName": "potato",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, sliced thin",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "green chilli, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "amchur (dry mango powder)",
+        "normalizedName": "amchur",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Slice potatoes about 3 mm thin — uniform thickness ensures even cooking. Pat dry with a cloth if they are wet from washing, or they will steam instead of fry."
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a wide kadai on medium-high. Add cumin seeds and let them sizzle for 10 seconds. Add green chilli and onion (if using) and fry 2 minutes.",
+        "timerMinutes": 2,
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add potato slices in a single layer (or as close to it as possible). Add turmeric, chilli powder, coriander powder, and salt. Toss to coat and spread flat. Do not stir for 3 minutes so the bottom layer develops a crust.",
+        "timerMinutes": 3,
+        "method": "pan-frying"
+      },
+      {
+        "order": 4,
+        "text": "Flip the potatoes in sections — not individual slices — and press down gently. Cook another 5–7 minutes on medium, turning every 2 minutes, until most slices are golden and cooked through when pierced with a knife.",
+        "timerMinutes": 7,
+        "method": "pan-frying"
+      },
+      {
+        "order": 5,
+        "text": "Sprinkle amchur over if using and toss once. Taste for salt. Garnish with coriander leaves and serve immediately alongside dal and rice or stuffed into roti."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "tempering",
+      "pan-frying"
+    ],
+    "tags": [
+      "bachelor-friendly",
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "dry-curry",
+      "comfort-food"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 240,
+      "protein": 4,
+      "carbs": 32,
+      "fat": 12,
+      "fiber": 4,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "amchur",
+        "substitute": "a squeeze of lemon juice at the end",
+        "notes": "add off-heat so the lemon doesn't turn bitter"
+      },
+      {
+        "ingredient": "potato",
+        "substitute": "raw banana (vazhakkai), sliced",
+        "notes": "same method, slightly earthier flavour"
+      },
+      {
+        "ingredient": "onion",
+        "substitute": "omit entirely",
+        "notes": "still excellent — a no-onion-no-garlic version is popular during fasts"
+      }
+    ],
+    "culturalNote": "Aloo fry in one form or another appears on every Indian home table from Kashmir to Kanyakumari — its simplicity and reliability have made it the backbone of the budget meal.",
+    "regionalVariation": "Tamil aloo fry (urulai roast) uses a dry coconut-spice masala; Kerala adds coconut oil and curry leaves for a distinctly southern character.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-north-indian-dal-tadka-pressure-cooker",
+    "slug": "north-indian-dal-tadka-pressure-cooker",
+    "title": "Quick Pressure-Cooker Dal Tadka",
+    "nativeTitle": "दाल तड़का",
+    "description": "Toor dal cooked soft in the pressure cooker and finished with a sizzling ghee-cumin-garlic tadka — the single most useful recipe a bachelor can know. Rich, protein-packed, and ready in 25 minutes from dry dal to table.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": "punjab",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 25,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "toor dal (pigeon pea)",
+        "normalizedName": "toor-dal",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "tomato, chopped",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, chopped",
+        "normalizedName": "onion",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "garlic, sliced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, finely chopped",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "green chilli, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": true
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Rinse toor dal three times until the water runs mostly clear. In the pressure cooker, combine the dal with tomato, onion, green chilli, turmeric, 2 cups water, and a generous pinch of salt.",
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "Pressure cook on high heat until 3 whistles, then lower heat and cook 2 more minutes. Turn off and let pressure release naturally for 8 minutes before opening.",
+        "timerMinutes": 15,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Open the cooker and mash the dal lightly with the back of a ladle — you want a creamy consistency, not a paste. Add more hot water if it is too thick. Taste and adjust salt."
+      },
+      {
+        "order": 4,
+        "text": "Heat ghee in a small tadka pan or ladle on medium-high until shimmering. Add cumin seeds and let them darken for 5 seconds. Add garlic slices and fry until golden and beginning to crisp. Add dried red chillies and asafoetida, then red chilli powder — stand back, it will spit.",
+        "method": "tempering"
+      },
+      {
+        "order": 5,
+        "text": "Pour the sizzling tadka immediately over the dal and cover for 30 seconds so the aroma infuses. Stir through, finish with coriander leaves, and serve hot over steamed rice or with roti."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "frying-pan"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "tempering"
+    ],
+    "tags": [
+      "bachelor-friendly",
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "comfort-food",
+      "healthy"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 260,
+      "protein": 13,
+      "carbs": 32,
+      "fat": 9,
+      "fiber": 8,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "toor-dal",
+        "substitute": "masoor dal (red lentil) — cooks even faster",
+        "notes": "only 2 whistles needed; colour turns orange-gold"
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "oil for a vegan version",
+        "notes": "the flavour is lighter but still good"
+      },
+      {
+        "ingredient": "garlic",
+        "substitute": "omit for a no-onion-no-garlic version",
+        "notes": "increase asafoetida to 2 pinches to compensate"
+      }
+    ],
+    "culturalNote": "Dal tadka is the defining dal of North Indian dhabas — roadside eateries where truckers and travellers fuel up on dal-roti combinations that are economical, hearty, and ready in minutes.",
+    "regionalVariation": "Gujarati dal tadka is sweetened with jaggery and has a thinner consistency; Bengali dal uses a simpler tempering with panch phoron (five-spice) instead of garlic.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-north-indian-one-pot-dal-chawal",
+    "slug": "north-indian-one-pot-dal-chawal",
+    "title": "One-Pot Dal Chawal",
+    "nativeTitle": "दाल चावल",
+    "description": "Dal and rice cooked together in a single pressure cooker in one shot — the ultimate bachelor meal that turns pantry staples into a nourishing, complete dinner in under 30 minutes. Minimal washing up, maximum comfort.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": "delhi",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 25,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "rice, washed",
+        "normalizedName": "rice",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "moong dal (split yellow)",
+        "normalizedName": "moong-dal",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "onion, roughly chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "tomato, chopped",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, minced",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, to garnish",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Rinse rice and moong dal together until water is mostly clear. Set aside to drain."
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in the pressure cooker on medium. Add cumin seeds and sizzle 10 seconds. Add onion, garlic, and ginger and fry until the onion is translucent, about 3 minutes.",
+        "timerMinutes": 3,
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add tomato, turmeric, and chilli powder. Stir and cook until tomato breaks down, about 2 minutes. Season with salt.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 4,
+        "text": "Add the drained rice and moong dal, pour in 3 cups water, stir once, and close the pressure cooker lid. Cook on high until 3 whistles, then turn off the heat and let pressure release naturally — at least 10 minutes.",
+        "timerMinutes": 15,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Open the cooker and gently stir — the texture should be porridge-like (khichdi style), with dal and rice merged. Taste for salt, scatter coriander, and serve with pickle and papad for a complete meal."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker"
+    ],
+    "methods": [
+      "tempering",
+      "pressure-cooking",
+      "one-pot"
+    ],
+    "tags": [
+      "bachelor-friendly",
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "one-pot-meal",
+      "comfort-food",
+      "healthy"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 420,
+      "protein": 16,
+      "carbs": 68,
+      "fat": 8,
+      "fiber": 9,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "moong-dal",
+        "substitute": "masoor dal (red lentil)",
+        "notes": "same cooking time — adds an earthy reddish colour"
+      },
+      {
+        "ingredient": "rice",
+        "substitute": "50% rice + 50% broken wheat (dalia) for a high-fibre version",
+        "notes": "soak the dalia for 10 minutes first"
+      },
+      {
+        "ingredient": "onion",
+        "substitute": "omit for a simpler khichdi",
+        "notes": "add a pinch more asafoetida if omitting"
+      }
+    ],
+    "culturalNote": "Dal chawal is India's most eaten combination meal — simple, complete (protein + carb in one bowl), and the dish that every hostel student, new bachelor, and weeknight cook returns to.",
+    "regionalVariation": "In Gujarat it evolves into khichdi (more dal, more ghee, sweeter); in Bengal it is called khichuri and gets vegetables and ghee; South Indian versions use a sambar-like spice profile.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-north-indian-veg-sandwich",
+    "slug": "north-indian-veg-sandwich",
+    "title": "Spiced Veg Sandwich",
+    "nativeTitle": "वेज सैंडविच",
+    "description": "A Mumbai-style pressed sandwich packed with potato, capsicum, and green chutney between toasted bread slices — spicy, satisfying, and assembled in under 10 minutes with no cooking required beyond toasting. The mint chutney is the hero.",
+    "cuisine": "maharashtrian",
+    "country": "india",
+    "region": "maharashtra",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "snack",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 8,
+    "cookTimeMinutes": 5,
+    "totalTimeMinutes": 13,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "bread slices",
+        "normalizedName": "bread",
+        "quantity": 4,
+        "unit": "slice",
+        "optional": false
+      },
+      {
+        "name": "potato, boiled and sliced",
+        "normalizedName": "potato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, thinly sliced",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cucumber, thinly sliced",
+        "normalizedName": "cucumber",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "capsicum, thinly sliced",
+        "normalizedName": "capsicum",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "onion, thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "mint leaves, for chutney",
+        "normalizedName": "mint",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, for chutney",
+        "normalizedName": "coriander-leaves",
+        "quantity": 0.25,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "green chilli, for chutney",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin powder, for chutney",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "butter or oil, for toasting",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Blend mint, coriander leaves, green chilli, lemon juice, cumin, a pinch of salt, and 1 tablespoon of water into a smooth green chutney. Taste and adjust tartness and heat.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Spread the green chutney generously on one side of each bread slice. Arrange the boiled potato slices, tomato, cucumber, capsicum, and onion on two of the slices. Season the filling with a pinch of salt and cumin powder."
+      },
+      {
+        "order": 3,
+        "text": "Press the remaining chutney-spread bread slices firmly on top to form two sandwiches. Press down with your palm to compact the filling."
+      },
+      {
+        "order": 4,
+        "text": "Heat a tawa on medium. Brush the outsides with butter or oil and toast the sandwiches 2 minutes per side, pressing with a flat spatula, until the bread is golden and crisp.",
+        "timerMinutes": 4,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Cut diagonally and serve immediately with tomato ketchup on the side. The sandwich loses its crunch quickly, so eat it fresh."
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "mixie"
+    ],
+    "methods": [
+      "tawa-cooking",
+      "no-cook"
+    ],
+    "tags": [
+      "bachelor-friendly",
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "street-food",
+      "lunchbox"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 230,
+      "protein": 6,
+      "carbs": 40,
+      "fat": 5,
+      "fiber": 4,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "mint",
+        "substitute": "only coriander leaves if mint is unavailable",
+        "notes": "chutney is greener and earthier — still works"
+      },
+      {
+        "ingredient": "potato",
+        "substitute": "paneer slices",
+        "notes": "makes it richer and higher protein"
+      },
+      {
+        "ingredient": "bread",
+        "substitute": "whole wheat or multigrain bread",
+        "notes": "healthier option — same method"
+      }
+    ],
+    "culturalNote": "The Mumbai veg sandwich is a street-food institution — sold by cart vendors at every train station, the defining quick meal of the city.",
+    "regionalVariation": "Pune versions skip the boiled potato and rely on cucumber-tomato-chutney alone; Delhi versions often add pickled jalapeños or chaat masala.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-north-indian-corn-cheese-sandwich",
+    "slug": "north-indian-corn-cheese-sandwich",
+    "title": "Corn Cheese Sandwich",
+    "nativeTitle": null,
+    "description": "Sweet corn kernels mixed with processed cheese and mild spices, piled onto buttered bread and toasted until the filling is molten and the crust is golden. A party-cafe classic that is astonishingly easy to make at home in under 15 minutes.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": "delhi",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "snack"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 8,
+    "totalTimeMinutes": 13,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "bread slices",
+        "normalizedName": "bread",
+        "quantity": 4,
+        "unit": "slice",
+        "optional": false
+      },
+      {
+        "name": "sweet corn kernels (boiled or canned)",
+        "normalizedName": "corn",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "processed cheese or mozzarella, grated",
+        "normalizedName": "cheese",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "green chilli, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "black pepper, crushed",
+        "normalizedName": "black-pepper",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "butter",
+        "normalizedName": "butter",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Mix the corn kernels with cheese, black pepper, red chilli powder, green chilli, and a small pinch of salt. The cheese will provide most of the saltiness so season lightly."
+      },
+      {
+        "order": 2,
+        "text": "Butter one side of each bread slice generously. Place two slices butter-side down. Divide the corn-cheese mixture between them and spread evenly. Top with the remaining slices butter-side up."
+      },
+      {
+        "order": 3,
+        "text": "Heat a tawa on medium-low. Place the sandwiches butter-side down and toast for 3–4 minutes until the bottom is deep golden. Press gently with a spatula to help the filling adhere.",
+        "timerMinutes": 4,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Flip carefully and toast the other side 2–3 minutes until golden and the cheese inside is visibly melted when you press the sandwich and feel it give.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 5,
+        "text": "Remove from the tawa, cut diagonally to reveal the melted filling, and serve immediately. Ketchup or green chutney alongside is optional but welcome."
+      }
+    ],
+    "cookware": [
+      "tawa"
+    ],
+    "methods": [
+      "tawa-cooking"
+    ],
+    "tags": [
+      "bachelor-friendly",
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "kids-friendly",
+      "comfort-food"
+    ],
+    "allergens": [
+      "gluten",
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 290,
+      "protein": 10,
+      "carbs": 38,
+      "fat": 12,
+      "fiber": 2,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "cheese",
+        "substitute": "paneer, grated finely",
+        "notes": "drier result but same flavour profile; add 1 tsp cream if available"
+      },
+      {
+        "ingredient": "corn",
+        "substitute": "frozen peas, boiled and lightly mashed",
+        "notes": "equally sweet and binding"
+      },
+      {
+        "ingredient": "butter",
+        "substitute": "oil for a lighter version",
+        "notes": "less rich but still crisps well"
+      }
+    ],
+    "culturalNote": "Corn cheese toast and sandwiches became a staple of Indian café culture in the 1990s, when pizza culture introduced mozzarella to middle-class kitchens.",
+    "regionalVariation": "Some cafes add a thin layer of green chutney under the filling for a tangy contrast; Pune and Bengaluru versions sometimes fold in finely chopped capsicum.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-north-indian-masala-oats",
+    "slug": "north-indian-masala-oats",
+    "title": "Masala Oats",
+    "nativeTitle": null,
+    "description": "Quick rolled oats cooked savoury with mustard tempering, onion, tomato, and a handful of vegetables — a protein-and-fibre packed breakfast that cooks in 10 minutes and keeps you full through the morning. The Indian answer to porridge.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "snack"
+    ],
+    "dietType": [
+      "vegan",
+      "diabetic_friendly_placeholder"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 3,
+    "cookTimeMinutes": 10,
+    "totalTimeMinutes": 13,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "quick-cooking rolled oats",
+        "normalizedName": "oats",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "tomato, finely chopped",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "carrot, grated or finely diced",
+        "normalizedName": "carrot",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat oil in a small saucepan or kadai on medium. Splutter mustard seeds, then add cumin and curry leaves and fry 10 seconds. Add onion and green chilli and sauté 2 minutes until soft.",
+        "timerMinutes": 2,
+        "method": "tempering"
+      },
+      {
+        "order": 2,
+        "text": "Add tomato and carrot. Cook stirring for 2 minutes until the tomato collapses. Add turmeric and salt.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 3,
+        "text": "Pour in 1 cup water and bring to a vigorous boil. Add the oats and stir well to combine.",
+        "timerMinutes": 2,
+        "method": "boiling"
+      },
+      {
+        "order": 4,
+        "text": "Cook on medium heat for 3–4 minutes, stirring constantly, until the oats absorb the water and the mixture thickens to a porridge consistency. It should fall from the spoon in thick ribbons.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 5,
+        "text": "Remove from heat, squeeze lemon over, and scatter coriander leaves. Eat immediately — masala oats thicken quickly and are best enjoyed fresh and piping hot."
+      }
+    ],
+    "cookware": [
+      "saucepan",
+      "kadai"
+    ],
+    "methods": [
+      "tempering",
+      "boiling",
+      "one-pot"
+    ],
+    "tags": [
+      "bachelor-friendly",
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "healthy",
+      "low-oil"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 190,
+      "protein": 6,
+      "carbs": 28,
+      "fat": 6,
+      "fiber": 5,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "oats",
+        "substitute": "broken wheat (dalia), soaked 10 minutes",
+        "notes": "cook 5 minutes longer; nuttier flavour"
+      },
+      {
+        "ingredient": "carrot",
+        "substitute": "finely diced capsicum or beans",
+        "notes": "any small-cut vegetable adds texture"
+      },
+      {
+        "ingredient": "curry-leaves",
+        "substitute": "a pinch of asafoetida",
+        "notes": "different aroma but keeps the South Indian character"
+      }
+    ],
+    "culturalNote": "Savoury oats entered Indian home cooking as a health-conscious alternative to rava upma, with the same tempering logic adapted for a faster grain.",
+    "regionalVariation": "South Indian versions use coconut oil and add grated coconut as a topping; North Indian versions sometimes add a dollop of curd at the end.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-american-peanut-butter-banana-toast",
+    "slug": "american-peanut-butter-banana-toast",
+    "title": "Peanut Butter Banana Toast",
+    "nativeTitle": null,
+    "description": "Toasted bread loaded with peanut butter, banana slices, and a drizzle of honey — a high-protein breakfast that is assembled in 5 minutes with zero cooking and zero cleaning. Genuinely filling and nutritionally dense enough to count as a real meal.",
+    "cuisine": "american",
+    "country": "united-states",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "snack"
+    ],
+    "dietType": [
+      "vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 3,
+    "totalTimeMinutes": 8,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "bread slices",
+        "normalizedName": "bread",
+        "quantity": 2,
+        "unit": "slice",
+        "optional": false
+      },
+      {
+        "name": "peanut butter (smooth or crunchy)",
+        "normalizedName": "peanut",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "banana, ripe",
+        "normalizedName": "banana",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "honey",
+        "normalizedName": "honey",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "cinnamon powder",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Toast the bread slices to your preferred doneness — light golden for a soft result, dark golden for a crunch that holds up under the topping.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 2,
+        "text": "While the toast is still hot, spread a generous tablespoon of peanut butter on each slice. The warmth will help it spread smoothly to the edges."
+      },
+      {
+        "order": 3,
+        "text": "Slice the banana into 5 mm rounds and lay them overlapping on top of the peanut butter."
+      },
+      {
+        "order": 4,
+        "text": "Drizzle honey over both slices and add a pinch of cinnamon if using. Serve immediately."
+      }
+    ],
+    "cookware": [
+      "tawa"
+    ],
+    "methods": [
+      "no-cook"
+    ],
+    "tags": [
+      "bachelor-friendly",
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "healthy"
+    ],
+    "allergens": [
+      "gluten",
+      "peanuts"
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein": 12,
+      "carbs": 52,
+      "fat": 14,
+      "fiber": 5,
+      "sugar": 20,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "peanut",
+        "substitute": "almond butter",
+        "notes": "lower allergen option; slightly milder flavour"
+      },
+      {
+        "ingredient": "honey",
+        "substitute": "a drizzle of jaggery syrup (melt jaggery in warm water)",
+        "notes": "a more Indian-pantry friendly sweetener"
+      },
+      {
+        "ingredient": "banana",
+        "substitute": "sliced apple or mango",
+        "notes": "different fruit, same concept"
+      }
+    ],
+    "culturalNote": "Peanut butter and banana toast gained popularity in Indian cities with the rise of café culture and international breakfast menus, and it maps naturally onto the Indian kitchen's love of peanuts.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": "Toast bread on a dry tawa instead of a toaster — press lightly and flip once for even golden colour. Indian peanut butter (Sundrop, Dr. Oetker) is widely available; alternatively, blend roasted peanuts in a mixie with a pinch of salt for a homemade version.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-italian-garlic-butter-pasta",
+    "slug": "italian-garlic-butter-pasta",
+    "title": "15-Minute Garlic Butter Pasta",
+    "nativeTitle": "Pasta aglio e burro",
+    "description": "Pasta tossed in a simple sauce of browned garlic, butter, black pepper, and a splash of pasta water — the Italian pantry emergency meal that proves less is more. Rich, fragrant, and completely satisfying without a single vegetable required.",
+    "cuisine": "italian",
+    "country": "italy",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 3,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 18,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "pasta (penne or spaghetti)",
+        "normalizedName": "pasta",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "butter",
+        "normalizedName": "butter",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "garlic, thinly sliced",
+        "normalizedName": "garlic",
+        "quantity": 6,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "black pepper, freshly ground",
+        "normalizedName": "black-pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder or chilli flakes",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "cheese, grated (parmesan or processed)",
+        "normalizedName": "cheese",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "parsley or coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Bring a large pot of well-salted water to a rolling boil. Cook the pasta according to packet directions until just al dente — with a tiny firm centre. Before draining, scoop out half a cup of the starchy pasta water.",
+        "timerMinutes": 12,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "While the pasta cooks, melt butter in a wide kadai or frying pan on medium-low. Add garlic slices and cook very slowly, stirring, until the garlic turns light golden and fragrant — about 3 minutes. Do not let it brown too darkly or it will turn bitter.",
+        "timerMinutes": 3,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add black pepper and chilli flakes to the butter and stir 15 seconds so the spices bloom in the fat."
+      },
+      {
+        "order": 4,
+        "text": "Add the drained pasta directly to the pan. Pour in 4 tablespoons of the reserved pasta water and toss vigorously on medium heat for 1–2 minutes. The starchy water emulsifies with the butter to form a glossy, clinging sauce.",
+        "timerMinutes": 2,
+        "method": "sauteing"
+      },
+      {
+        "order": 5,
+        "text": "Remove from heat and toss in grated cheese if using. Taste for salt — the pasta water brings salt, so add cautiously. Scatter chopped parsley or coriander over and serve immediately."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "kadai"
+    ],
+    "methods": [
+      "boiling",
+      "sauteing"
+    ],
+    "tags": [
+      "bachelor-friendly",
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "comfort-food"
+    ],
+    "allergens": [
+      "gluten",
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 440,
+      "protein": 12,
+      "carbs": 58,
+      "fat": 18,
+      "fiber": 3,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "butter",
+        "substitute": "olive oil (3 tbsp) for a dairy-free version",
+        "notes": "classic Italian aglio e olio — equally authentic"
+      },
+      {
+        "ingredient": "cheese",
+        "substitute": "nutritional yeast for a vegan finish",
+        "notes": "adds a savoury, nutty note"
+      },
+      {
+        "ingredient": "pasta",
+        "substitute": "any dry Indian vermicelli (semiya)",
+        "notes": "cook only 3 minutes — check frequently to avoid overcooking"
+      }
+    ],
+    "culturalNote": "This dish descends from the Neapolitan tradition of pasta aglio e olio, where cooks turned the emptiest pantry into a late-night feast using only garlic, oil, and pasta water.",
+    "regionalVariation": "The Naples original uses olive oil, not butter, and sometimes adds anchovies for umami depth; the Roman version adds a mountain of black pepper for warmth.",
+    "indianKitchenAdaptation": "Cook pasta in a heavy-bottomed pot or pressure-cooker without the lid on medium-high — no specialised equipment needed. Any neutral oil or butter available at Indian grocery stores works for the sauce. If parmesan is unavailable, grated Amul processed cheese melts beautifully into the pasta and is sold everywhere.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-indo-chinese-egg-fried-rice",
+    "slug": "indo-chinese-egg-fried-rice",
+    "title": "Leftover-Rice Egg Fried Rice",
+    "nativeTitle": null,
+    "description": "Day-old rice stir-fried on high heat with eggs, spring onion, and soy sauce until each grain is separate, smoky, and glossy. The classic bachelor rescue meal — the only dish that actually improves with leftover rice.",
+    "cuisine": "indo-chinese",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 12,
+    "totalTimeMinutes": 17,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "cooked rice, day-old (cold from fridge)",
+        "normalizedName": "rice",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "eggs",
+        "normalizedName": "egg",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "spring onion, whites and greens separated",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "carrot, finely diced",
+        "normalizedName": "carrot",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "peas (fresh or frozen)",
+        "normalizedName": "peas",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, crushed",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 2.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Break the cold rice apart with your hands so there are no clumps — this is essential. Cold, separated grains stir-fry; fresh clumpy rice steams and turns mushy."
+      },
+      {
+        "order": 2,
+        "text": "Heat a kadai or wok on the highest flame possible until it begins to smoke. Add oil and immediately add garlic and spring onion whites. Stir-fry 30 seconds until fragrant.",
+        "method": "stir-frying"
+      },
+      {
+        "order": 3,
+        "text": "Add carrot and peas and stir-fry 2 minutes on high until barely tender. Push everything to the side and pour the beaten eggs into the cleared space. Scramble quickly into small curds, then mix through the vegetables.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 4,
+        "text": "Add the rice and toss vigorously on high heat for 3–4 minutes, spreading across the pan and letting it sit untouched for 30 seconds at a time to develop a light crust on some grains.",
+        "timerMinutes": 4,
+        "method": "stir-frying"
+      },
+      {
+        "order": 5,
+        "text": "Add soy sauce, black pepper, and vinegar. Toss another minute. Taste for salt — soy sauce is salty, so go carefully. Scatter spring onion greens over and serve immediately."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "wok"
+    ],
+    "methods": [
+      "stir-frying"
+    ],
+    "tags": [
+      "bachelor-friendly",
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "leftover-friendly",
+      "one-pot-meal"
+    ],
+    "allergens": [
+      "gluten",
+      "egg",
+      "soy"
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein": 14,
+      "carbs": 52,
+      "fat": 14,
+      "fiber": 3,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "egg",
+        "substitute": "100 g firm tofu, crumbled and pan-fried",
+        "notes": "vegan version — fry tofu separately until golden before adding rice"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "1 tsp salt + a dash of vinegar",
+        "notes": "if soy sauce is not available; will miss the umami depth"
+      },
+      {
+        "ingredient": "spring-onion",
+        "substitute": "regular onion, finely chopped",
+        "notes": "cook the onion 3 minutes before adding garlic"
+      }
+    ],
+    "culturalNote": "Egg fried rice is the canonical rescue dish of the Indian bachelor kitchen — the rule is simple: the older the rice, the better the result.",
+    "regionalVariation": "Kolkata Chinese restaurants add a pinch of MSG and use a screaming hot iron kadai (bhaat chhokha style); Mumbai versions are lighter and more garlicky.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-onion-uttapam",
+    "slug": "tamil-onion-uttapam",
+    "title": "Onion Uttapam from Batter",
+    "nativeTitle": "வெங்காய உத்தப்பம்",
+    "description": "Thick, spongy fermented rice-lentil pancakes topped with a generous scatter of onion, green chilli, and coriander, pressed into the batter as they cook. When ready-made idli-dosa batter is in the fridge, uttapam becomes a 15-minute complete breakfast.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 20,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "idli-dosa batter (ready-made or homemade)",
+        "normalizedName": "idli-dosa-batter",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, finely chopped",
+        "normalizedName": "tomato",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Mix onion, green chilli, tomato, coriander leaves, and cumin together in a small bowl. Taste the batter and adjust salt if needed — the topping is raw, so season the batter well."
+      },
+      {
+        "order": 2,
+        "text": "Heat a tawa on medium. Drizzle a few drops of oil and wipe with a paper towel. Pour a large ladle of batter (about 80 ml) and spread it gently into a 15 cm circle — do not spread as thin as dosa; uttapam should be about 7–8 mm thick.",
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Immediately scatter a generous portion of the onion topping over the wet batter surface. Press lightly with the back of the ladle so the topping embeds into the batter."
+      },
+      {
+        "order": 4,
+        "text": "Drizzle 0.5 tsp oil around the edges. Cook on medium for 3–4 minutes until the bottom is golden and the edges look set and start to lift. Tiny bubbles will appear on the surface.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 5,
+        "text": "Flip carefully with a flat spatula and cook the topping side 2 minutes until the onion softens and picks up a little colour. Serve hot with coconut chutney or sambar.",
+        "timerMinutes": 2
+      }
+    ],
+    "cookware": [
+      "tawa"
+    ],
+    "methods": [
+      "tawa-cooking"
+    ],
+    "tags": [
+      "bachelor-friendly",
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "tiffin",
+      "comfort-food"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 220,
+      "protein": 6,
+      "carbs": 38,
+      "fat": 5,
+      "fiber": 2,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "idli-dosa-batter",
+        "substitute": "rava (semolina) batter — mix 1 cup rava + 1 cup curd + water to pouring consistency; rest 20 minutes",
+        "notes": "instant rava uttapam for when there is no fermented batter"
+      },
+      {
+        "ingredient": "onion",
+        "substitute": "capsicum + corn for a no-onion version",
+        "notes": "equally colourful and tasty"
+      },
+      {
+        "ingredient": "tomato",
+        "substitute": "omit if not available",
+        "notes": "onion alone is the classic topping"
+      }
+    ],
+    "culturalNote": "Uttapam is the thicker, easier sibling of dosa — traditionally made to use batter that has over-fermented and thinned out, turning a mistake into a staple.",
+    "regionalVariation": "Karnataka versions add grated coconut to the topping; some homes add grated beetroot for a bright pink uttapam that is popular with children.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-american-potato-egg-hash",
+    "slug": "american-potato-egg-hash",
+    "title": "Potato Egg Hash",
+    "nativeTitle": null,
+    "description": "Diced potatoes pan-fried until crisp and golden, then eggs cracked directly into the pan and cooked to your liking — a one-pan breakfast hash that is hearty enough to be dinner. Spiced Indian-style, it bridges the gap between Western brunch and desi street food.",
+    "cuisine": "american",
+    "country": "united-states",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "dinner"
+    ],
+    "dietType": [
+      "eggetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 18,
+    "totalTimeMinutes": 23,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "potatoes, diced into 1 cm cubes",
+        "normalizedName": "potato",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "eggs",
+        "normalizedName": "egg",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, diced",
+        "normalizedName": "onion",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "capsicum, diced",
+        "normalizedName": "capsicum",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 2,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "green chilli, chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, crushed",
+        "normalizedName": "black-pepper",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat oil in a wide frying pan or tawa on medium-high. Add cumin seeds and let them sputter 10 seconds. Add onion, garlic, and green chilli and sauté 2 minutes.",
+        "timerMinutes": 2,
+        "method": "tempering"
+      },
+      {
+        "order": 2,
+        "text": "Add potato cubes, turmeric, chilli powder, and salt. Spread in a single layer and cook without stirring for 4 minutes until the bottom develops a golden crust. Then toss and press flat again. Repeat twice more until the potatoes are golden all over and cooked through when pierced.",
+        "timerMinutes": 12,
+        "method": "pan-frying"
+      },
+      {
+        "order": 3,
+        "text": "Add capsicum and toss for 1 minute until it just softens. Taste the potato and adjust salt."
+      },
+      {
+        "order": 4,
+        "text": "Make three wells in the potato mixture. Crack one egg into each well. Season the eggs lightly with salt and pepper. Cover the pan with a lid and cook on medium-low until the whites are fully set but the yolks are still soft, about 3–4 minutes.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 5,
+        "text": "Remove from heat while the yolks are still glossy — they will continue cooking for a minute off the flame. Scatter coriander leaves over and serve directly from the pan with bread or roti."
+      }
+    ],
+    "cookware": [
+      "frying-pan",
+      "tawa"
+    ],
+    "methods": [
+      "tempering",
+      "pan-frying"
+    ],
+    "tags": [
+      "bachelor-friendly",
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "comfort-food",
+      "one-pot-meal"
+    ],
+    "allergens": [
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 340,
+      "protein": 15,
+      "carbs": 34,
+      "fat": 16,
+      "fiber": 4,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "egg",
+        "substitute": "crumbled paneer pressed into the wells",
+        "notes": "vegetarian — add after potatoes are done and heat through"
+      },
+      {
+        "ingredient": "capsicum",
+        "substitute": "spinach or kale, wilted in",
+        "notes": "stir in at the end — takes only 1 minute"
+      },
+      {
+        "ingredient": "potato",
+        "substitute": "sweet potato, diced",
+        "notes": "cooks slightly faster; sweeter result that balances the chilli well"
+      }
+    ],
+    "culturalNote": "The hash is an American diner staple, but the Indian spiced version with turmeric and cumin slots naturally into the tradition of masala aloo — the two dishes meet halfway in the bachelor kitchen.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": "A kadai or tawa works perfectly in place of a cast-iron skillet. Use groundnut oil for a higher smoke point and better crust. If you want runny yolks but lack a lid, cover the pan with a large plate or thali for the final egg-cooking step.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-north-indian-one-pot-mixed-veg-pulao",
+    "slug": "north-indian-one-pot-mixed-veg-pulao",
+    "title": "One-Pot Mixed Veg Pulao",
+    "nativeTitle": "सब्ज़ी पुलाव",
+    "description": "Basmati rice cooked with mixed vegetables and whole spices in one pressure cooker — fragrant, light, and ready in 25 minutes. Satisfying as a standalone meal or paired with raita, this is the weeknight one-pot that every Indian bachelor should have in rotation.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": "awadh",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 8,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 28,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "basmati rice, washed and soaked 10 minutes",
+        "normalizedName": "basmati-rice",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "onion, thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "carrot, diced",
+        "normalizedName": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green peas (fresh or frozen)",
+        "normalizedName": "peas",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "beans or capsicum, chopped",
+        "normalizedName": "beans",
+        "quantity": 0.25,
+        "unit": "cup",
+        "optional": true
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, minced",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "bay leaf",
+        "normalizedName": "bay-leaf",
+        "quantity": 1,
+        "unit": "leaf",
+        "optional": false
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cinnamon stick",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mint leaves",
+        "normalizedName": "mint",
+        "quantity": 8,
+        "unit": "leaf",
+        "optional": true
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat oil in the pressure cooker on medium. Add bay leaf, cloves, and cinnamon and fry 20 seconds until fragrant. Add cumin seeds and sizzle 10 seconds. Add onion, garlic, and ginger and fry until the onion turns golden, about 4 minutes.",
+        "timerMinutes": 4,
+        "method": "tempering"
+      },
+      {
+        "order": 2,
+        "text": "Add carrot, beans, and peas and stir-fry 2 minutes. Add garam masala and salt. Stir well so the vegetables are coated in the spices.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 3,
+        "text": "Drain the soaked rice and add it to the cooker. Gently stir to combine with the vegetables without breaking the grains. Add mint leaves if using."
+      },
+      {
+        "order": 4,
+        "text": "Pour in 2.5 cups water. Stir once, close the lid, and pressure cook on high heat for 2 whistles. Immediately remove from heat and let pressure release naturally for 10 minutes — do not rush this step or the rice will clump.",
+        "timerMinutes": 15,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Open the lid and gently fluff the rice with a fork, starting from the edges. Taste for salt. Serve with curd, raita, pickle, or papad."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker"
+    ],
+    "methods": [
+      "tempering",
+      "pressure-cooking",
+      "one-pot"
+    ],
+    "tags": [
+      "bachelor-friendly",
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "one-pot-meal",
+      "lunchbox"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 350,
+      "protein": 8,
+      "carbs": 60,
+      "fat": 8,
+      "fiber": 5,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "basmati-rice",
+        "substitute": "regular sona masoori rice",
+        "notes": "use the same water ratio; slightly less fragrant but works well"
+      },
+      {
+        "ingredient": "peas",
+        "substitute": "chickpeas (canned, drained)",
+        "notes": "adds protein; rinse well before adding"
+      },
+      {
+        "ingredient": "clove",
+        "substitute": "a pinch of garam masala added earlier",
+        "notes": "if whole spices are unavailable — the fragrance is gentler"
+      }
+    ],
+    "culturalNote": "Veg pulao is the slightly dressed-up everyday one-pot of the North Indian home — less work than biryani but far more satisfying than plain rice, it has earned a permanent place on the bachelor weekly menu.",
+    "regionalVariation": "South Indian veg rice (thakkali sadam, capsicum rice) uses a simpler tempering without whole spices; Hyderabadi kachchi veg dum pulao layers the vegetables raw under the rice and dum-cooks for a more complex result.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-maharashtrian-sprouts-bhel",
+    "slug": "maharashtrian-sprouts-bhel",
+    "title": "Sprouts Bhel",
+    "nativeTitle": "स्प्राउट्स भेल",
+    "description": "Sprouted moong tossed with puffed rice, chopped vegetables, green chutney, tamarind, and chaat masala — a crunchy, protein-rich snack that requires zero cooking and comes together in under 10 minutes. Healthy enough to be breakfast, tasty enough to be a party snack.",
+    "cuisine": "maharashtrian",
+    "country": "india",
+    "region": "maharashtra",
+    "language": "en",
+    "mealType": [
+      "snack",
+      "breakfast"
+    ],
+    "dietType": [
+      "vegan",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 3,
+    "totalTimeMinutes": 13,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "sprouted moong (overnight sprouted)",
+        "normalizedName": "sprouts",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "puffed rice (murmura)",
+        "normalizedName": "puffed-rice",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, finely chopped",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cucumber, finely diced",
+        "normalizedName": "cucumber",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "green chilli, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "chaat masala or sambar powder",
+        "normalizedName": "curry-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "tamarind chutney (ready-made)",
+        "normalizedName": "tamarind",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "peanuts, roasted",
+        "normalizedName": "peanut",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Steam or microwave the sprouted moong for 2–3 minutes until barely cooked but still crunchy — raw sprouts can cause digestive discomfort. Alternatively, blanch in boiling water 1 minute and drain. Cool completely.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 2,
+        "text": "In a large bowl combine onion, tomato, cucumber, green chilli, and coriander leaves. Add lemon juice, chaat masala, and salt and mix well."
+      },
+      {
+        "order": 3,
+        "text": "Add the cooled sprouts and roasted peanuts and toss to coat in the seasoning. Taste and adjust salt and lemon."
+      },
+      {
+        "order": 4,
+        "text": "Add the puffed rice just before serving and toss quickly — add it early and it turns soggy within minutes. Drizzle tamarind chutney over if using."
+      },
+      {
+        "order": 5,
+        "text": "Serve immediately in bowls or on plates. The bhel must be eaten within 5 minutes of adding the puffed rice to keep the crunch."
+      }
+    ],
+    "cookware": [
+      "saucepan"
+    ],
+    "methods": [
+      "no-cook",
+      "boiling"
+    ],
+    "tags": [
+      "bachelor-friendly",
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "healthy",
+      "street-food",
+      "salad"
+    ],
+    "allergens": [
+      "peanuts"
+    ],
+    "nutrition": {
+      "calories": 210,
+      "protein": 10,
+      "carbs": 34,
+      "fat": 5,
+      "fiber": 6,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "sprouts",
+        "substitute": "canned chickpeas, drained and rinsed",
+        "notes": "no sprouting required; adds protein and substance"
+      },
+      {
+        "ingredient": "puffed-rice",
+        "substitute": "crushed papad or murmura mix",
+        "notes": "same crunch, different flavour"
+      },
+      {
+        "ingredient": "tamarind",
+        "substitute": "a few drops of tomato ketchup mixed with lemon juice",
+        "notes": "approximate sweet-sour balance when ready-made chutney is not available"
+      }
+    ],
+    "culturalNote": "Bhel puri evolved on the beaches of Mumbai as a way to turn humble puffed rice and pantry condiments into a proper snack — sprouts bhel is the health-forward home version.",
+    "regionalVariation": "Gujarat bhel is sweeter (more tamarind, date chutney) and lacks green chutney; Chennai bhels add sev and sambar powder for a Tamil twist.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  }
+]

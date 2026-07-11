@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "dairy",
+    "name": "Dairy",
+    "blurb": "Includes all cow's and buffalo's milk derivatives — milk, ghee, butter, paneer, curd, cream, and khoya. Dairy is pervasive in North Indian cooking and many South Indian sweets, so labels are applied whenever any milk product is used."
+  },
+  {
+    "slug": "gluten",
+    "name": "Gluten",
+    "blurb": "Present in wheat, barley, and rye, gluten appears in atta (wheat flour), maida, bread, and most Indian flatbreads. Recipes using besan, rice flour, or millets are typically gluten free, but cross-contamination in spice blends is common."
+  },
+  {
+    "slug": "nuts",
+    "name": "Tree Nuts",
+    "blurb": "Covers cashews, almonds, pistachios, walnuts, and other tree nuts commonly used as richness and texture in Indian gravies, biryanis, sweets, and chutneys. Cashew paste is an especially frequent hidden nut source in restaurant-style curries."
+  },
+  {
+    "slug": "peanuts",
+    "name": "Peanuts",
+    "blurb": "Peanuts are widely used in South Indian cooking — in chutneys, rice preparations, and stir-fries — and are a major allergen separate from other tree nuts. Groundnut oil is also commonly used for frying across India."
+  },
+  {
+    "slug": "soy",
+    "name": "Soy",
+    "blurb": "Soy is present in soya chunks (meal maker), soy sauce used in Indo-Chinese dishes, and some processed ingredient blends. It is less pervasive in traditional Indian cooking but increasingly common in modern plant-based adaptations."
+  },
+  {
+    "slug": "egg",
+    "name": "Egg",
+    "blurb": "Eggs appear as a primary ingredient in egg curries and omelettes, and as a binding agent in cutlets, bread preparations, and some sweets. The allergen label is applied whether eggs are central or incidental to the recipe."
+  },
+  {
+    "slug": "fish",
+    "name": "Fish",
+    "blurb": "Applies to all freshwater and saltwater fish varieties used in Indian coastal cooking, from rohu and catla in Bengal to mackerel, seer, and anchovies along the south and west coasts. Dried fish powder used in Chettinad spice mixes is a common hidden source."
+  },
+  {
+    "slug": "shellfish",
+    "name": "Shellfish",
+    "blurb": "Covers prawns, crab, lobster, and other crustaceans as well as molluscs such as squid and mussels, which feature prominently in Coastal Andhra, Goan, Malabar, and Sri Lankan cooking. Shrimp paste and dried prawns are hidden shellfish sources."
+  },
+  {
+    "slug": "sesame",
+    "name": "Sesame",
+    "blurb": "Sesame seeds (til) and sesame oil are significant allergens used extensively in South Indian cooking, Rajasthani sweets, chikkis, and Maharashtra's winter preparations. Til ka ladoo and sesame chutneys are common sources."
+  },
+  {
+    "slug": "mustard",
+    "name": "Mustard",
+    "blurb": "Mustard seeds are one of the most used tempering spices in South Indian cooking, and mustard oil is the dominant cooking fat in Bengal, Assam, and parts of North India. Both seeds and oil can trigger reactions in sensitive individuals."
+  }
+]

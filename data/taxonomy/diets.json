@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "vegetarian",
+    "name": "Vegetarian",
+    "blurb": "Vegetarian recipes contain no meat, poultry, or seafood, but may include dairy products and eggs depending on tradition. India has one of the world's richest vegetarian cuisines, ranging from creamy paneer gravies to crispy lentil snacks.",
+    "isPlaceholderLabel": false
+  },
+  {
+    "slug": "vegan",
+    "name": "Vegan",
+    "blurb": "Vegan recipes exclude all animal-derived ingredients — no meat, seafood, dairy, eggs, or honey — relying entirely on plant foods for nutrition and flavour. Many traditional South Indian rice and lentil dishes are vegan by default.",
+    "isPlaceholderLabel": false
+  },
+  {
+    "slug": "eggetarian",
+    "name": "Eggetarian",
+    "blurb": "Eggetarian is a diet common in India where eggs are accepted but all other meat and seafood are excluded, giving egg-lovers the protein of an omnivorous diet while avoiding flesh. Egg curries, omelettes, and egg rice are staples of this style.",
+    "isPlaceholderLabel": false
+  },
+  {
+    "slug": "non_vegetarian",
+    "name": "Non-Vegetarian",
+    "blurb": "Non-vegetarian recipes include meat, poultry, or seafood as a primary or supporting ingredient, spanning the full spectrum from quick chicken stir-fries to slow-cooked mutton curries. This is the broadest diet category on the platform.",
+    "isPlaceholderLabel": false
+  },
+  {
+    "slug": "pescatarian",
+    "name": "Pescatarian",
+    "blurb": "Pescatarian recipes include fish and seafood but exclude land-based meat and poultry, making them a popular middle ground between vegetarian eating and omnivorous diets. Coastal South Indian and Bengali cuisines offer a wealth of pescatarian dishes.",
+    "isPlaceholderLabel": false
+  },
+  {
+    "slug": "high_protein",
+    "name": "High Protein",
+    "blurb": "High-protein recipes prioritise protein-dense ingredients such as lentils, legumes, paneer, eggs, chicken breast, or fish to support muscle building, satiety, and active lifestyles. Many traditional dal and bean dishes are naturally high in protein when combined with rice.",
+    "isPlaceholderLabel": false
+  },
+  {
+    "slug": "low_carb",
+    "name": "Low Carb",
+    "blurb": "Low-carb recipes limit starchy grains, potatoes, and sugars, focusing instead on vegetables, protein, and healthy fats to help manage blood sugar and support certain dietary goals. Cauliflower rice and egg-based preparations are popular low-carb adaptations of Indian favourites.",
+    "isPlaceholderLabel": false
+  },
+  {
+    "slug": "gluten_free_placeholder",
+    "name": "Gluten Free (Coming Soon)",
+    "blurb": "Gluten-free filtering is being refined to accurately flag hidden gluten sources such as asafoetida and certain spice blends — full support is coming soon. Many Indian recipes using rice flour, chickpea flour, or whole lentils are naturally gluten free.",
+    "isPlaceholderLabel": true
+  },
+  {
+    "slug": "dairy_free_placeholder",
+    "name": "Dairy Free (Coming Soon)",
+    "blurb": "Dairy-free filtering is being expanded to catch ghee, paneer, and lesser-known dairy-derived ingredients across all recipes — full support is coming soon. Coconut-based curries and oil-tempered dals are excellent dairy-free starting points.",
+    "isPlaceholderLabel": true
+  },
+  {
+    "slug": "diabetic_friendly_placeholder",
+    "name": "Diabetic Friendly (Coming Soon)",
+    "blurb": "Diabetic-friendly labelling requires verified glycaemic index data and portion-controlled nutrition estimates — full support is coming soon. In the meantime, dishes marked low-carb or high-protein are often a sensible starting point for blood-sugar management.",
+    "isPlaceholderLabel": true
+  }
+]

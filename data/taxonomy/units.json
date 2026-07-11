@@ -1,0 +1,22 @@
+[
+  { "slug": "g", "name": "Grams", "kind": "weight" },
+  { "slug": "kg", "name": "Kilograms", "kind": "weight" },
+  { "slug": "ml", "name": "Millilitres", "kind": "volume" },
+  { "slug": "l", "name": "Litres", "kind": "volume" },
+  { "slug": "tsp", "name": "Teaspoon", "kind": "volume" },
+  { "slug": "tbsp", "name": "Tablespoon", "kind": "volume" },
+  { "slug": "cup", "name": "Cup", "kind": "volume" },
+  { "slug": "piece", "name": "Piece", "kind": "count" },
+  { "slug": "whole", "name": "Whole", "kind": "count" },
+  { "slug": "clove", "name": "Clove", "kind": "count" },
+  { "slug": "sprig", "name": "Sprig", "kind": "count" },
+  { "slug": "leaf", "name": "Leaf", "kind": "count" },
+  { "slug": "pinch", "name": "Pinch", "kind": "other" },
+  { "slug": "handful", "name": "Handful", "kind": "other" },
+  { "slug": "inch", "name": "Inch", "kind": "other" },
+  { "slug": "cm", "name": "Centimetre", "kind": "other" },
+  { "slug": "slice", "name": "Slice", "kind": "count" },
+  { "slug": "bunch", "name": "Bunch", "kind": "count" },
+  { "slug": "can", "name": "Can", "kind": "count" },
+  { "slug": "to_taste", "name": "To Taste", "kind": "other" }
+]

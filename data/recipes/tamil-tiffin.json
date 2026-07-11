@@ -1,0 +1,3291 @@
+[
+  {
+    "id": "ca-tamil-idli",
+    "slug": "tamil-idli",
+    "title": "Tamil Idli",
+    "nativeTitle": "இட்லி",
+    "description": "Pillowy, cloud-soft steamed rice cakes that anchor the Tamil breakfast table. Made from overnight-fermented rice-and-lentil batter, idli are naturally light, gut-friendly and gluten-free — served best with sambar and freshly ground coconut chutney.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "fermented idli-dosa batter",
+        "normalizedName": "idli-dosa-batter",
+        "quantity": 2.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "store-bought or home-fermented overnight; see cultural note"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 400,
+        "unit": "ml",
+        "optional": false,
+        "notes": "for the steamer base"
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "to grease idli molds; ghee makes them richer"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pour 400 ml water into the base of an idli steamer or a large pot fitted with a steamer rack. Set over high flame and bring to a vigorous boil.",
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "If the batter has been refrigerated, rest it at room temperature for 20 minutes until it loosens. Stir in salt and mix gently — the batter should pour like thick cream, coating the back of a spoon."
+      },
+      {
+        "order": 3,
+        "text": "Lightly grease each idli cup with a dab of oil using your fingertip or a pastry brush. Even coverage prevents the idlis from tearing when you scoop them out."
+      },
+      {
+        "order": 4,
+        "text": "Ladle batter into each mold, filling to three-quarters — they will puff during steaming and a full mold will overflow. Lower the rack into the steamer.",
+        "method": "steaming"
+      },
+      {
+        "order": 5,
+        "text": "Cover tightly and steam on medium-high flame for 10–12 minutes. Pierce the centre of one idli with a toothpick; it should emerge clean and dry. If batter clings, steam for 2 more minutes.",
+        "timerMinutes": 12
+      },
+      {
+        "order": 6,
+        "text": "Remove the rack and rest for 2 minutes before scooping the idlis out with a wet spoon or knife. They will release easily when the steam has settled. Serve immediately with sambar and coconut chutney."
+      }
+    ],
+    "cookware": [
+      "idli-steamer"
+    ],
+    "methods": [
+      "steaming"
+    ],
+    "tags": [
+      "tiffin",
+      "comfort-food",
+      "budget",
+      "kids-friendly",
+      "no-onion-no-garlic",
+      "healthy",
+      "low-oil",
+      "lunchbox",
+      "under-30-minutes"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 160,
+      "protein": 5,
+      "carbs": 30,
+      "fat": 2,
+      "fiber": 1,
+      "sugar": 1,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "idli-dosa-batter",
+        "substitute": "Soak 2 cups idli rice and 0.5 cup urad dal separately overnight; drain, grind urad dal first until fluffy, then rice into a coarse paste, combine and ferment 8–10 hours in a warm spot.",
+        "notes": "from-scratch batter is noticeably more flavourful"
+      },
+      {
+        "ingredient": "oil",
+        "substitute": "ghee",
+        "notes": "adds a subtle richness; traditional Brahmin idlis use ghee in the molds"
+      }
+    ],
+    "culturalNote": "Idli's origins stretch back over a thousand years in Tamil Nadu and Karnataka, referenced in ancient Sangam literature; today it is sold from tiny tiffin shops before dawn across the state.",
+    "regionalVariation": "In Chettinad, idlis are served with a dark, peppery seeraga milagu kulambu rather than plain sambar. Some Tanjore households add a handful of soaked poha (aval) to the batter for an even softer, wetter texture.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-plain-dosa",
+    "slug": "tamil-plain-dosa",
+    "title": "Tamil Plain Dosa",
+    "nativeTitle": "தோசை",
+    "description": "The classic fermented rice-and-lentil crepe of Tamil Nadu — thin, lacework-crispy at the edges, golden underneath, and just pliable enough to roll. Nothing more than good batter, a hot tawa, and a confident wrist.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "fermented idli-dosa batter",
+        "normalizedName": "idli-dosa-batter",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false,
+        "notes": "well-fermented for best crispiness; thin with a few tbsp water if needed"
+      },
+      {
+        "name": "oil or ghee",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "for the tawa; gingelly oil gives authentic flavour"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 0.25,
+        "unit": "cup",
+        "optional": true,
+        "notes": "to adjust batter consistency"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Season the tawa first if using a new pan: heat it dry on high flame until smoking, wipe with a cut onion or damp cloth, then rub a few drops of oil across the surface. For a well-seasoned iron tawa, simply heat on medium-high."
+      },
+      {
+        "order": 2,
+        "text": "Mix salt into the batter and thin with a few tablespoons of water until it flows like whole milk — the consistency is what lets you spread a thin dosa. The batter should not be thick enough to hold its shape on a ladle."
+      },
+      {
+        "order": 3,
+        "text": "When the tawa is hot and a drop of water on the surface sizzles instantly, lower the flame to medium. Pour one ladle (about 3–4 tbsp) of batter onto the centre and immediately spread it outward in quick, circular strokes with the back of the ladle.",
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Drizzle 0.5 tsp oil around the edges of the dosa and a little on top. Cook on medium flame until the edges start to lift and turn golden, and the surface looks dry and matte — about 2–3 minutes.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 5,
+        "text": "Slide a flat spatula under one edge and fold or roll the dosa. It should release cleanly; if it sticks, cook for another 30 seconds. Serve immediately on a hot plate — dosa turns soggy if it sits. Pair with coconut chutney and sambar."
+      }
+    ],
+    "cookware": [
+      "tawa"
+    ],
+    "methods": [
+      "tawa-cooking",
+      "fermenting"
+    ],
+    "tags": [
+      "tiffin",
+      "comfort-food",
+      "budget",
+      "under-30-minutes",
+      "kids-friendly",
+      "no-onion-no-garlic",
+      "healthy",
+      "low-oil"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 145,
+      "protein": 4,
+      "carbs": 28,
+      "fat": 3,
+      "fiber": 1,
+      "sugar": 1,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "idli-dosa-batter",
+        "substitute": "For instant dosa: blend 1 cup rice flour, 0.25 cup urad-dal flour, 1 tbsp curd and salt with enough water into a thin batter; use immediately without fermenting for a crispier, less tangy result.",
+        "notes": "flavour is different but passable for a quick weekday dosa"
+      },
+      {
+        "ingredient": "oil",
+        "substitute": "gingelly-oil",
+        "notes": "traditional choice; gives a nutty sesame note and a crispier, darker crust"
+      }
+    ],
+    "culturalNote": "Dosa traces its roots to a Sangam-era flatbread called dosai; the fermentation step — which gives dosa its characteristic tang and lift — was likely developed in Tamil Nadu before spreading across South India.",
+    "regionalVariation": "Thirunelveli dosas are often made slightly thicker and served with a fiery poondu (garlic) chutney as the only accompaniment. Salem paper-roast dosas are spread razor-thin and cooked until paper-crisp, requiring no fold.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-masala-dosa",
+    "slug": "tamil-masala-dosa",
+    "title": "Tamil Masala Dosa",
+    "nativeTitle": "மசாலா தோசை",
+    "description": "A crisp golden dosa wrapped around a spiced potato-onion filling — arguably South India's most beloved tiffin. The contrast of a shatteringly thin crepe against a warmly seasoned, buttery filling is what makes this dish travel the world.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "fermented idli-dosa batter",
+        "normalizedName": "idli-dosa-batter",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "potatoes, boiled and peeled",
+        "normalizedName": "potato",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false,
+        "notes": "medium size; boil until fork-tender"
+      },
+      {
+        "name": "onion, thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger, finely grated",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "urad dal",
+        "normalizedName": "urad-dal",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "chana dal",
+        "normalizedName": "chana-dal",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "divided between filling and dosa cooking"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Make the filling: heat 2 tbsp oil in a kadai on medium flame. Splutter mustard seeds, then add urad dal and chana dal and fry until golden. Add curry leaves, green chilli and ginger; fry for 30 seconds.",
+        "method": "tempering"
+      },
+      {
+        "order": 2,
+        "text": "Add the sliced onions with a pinch of salt and saute on medium flame until soft and translucent, about 5 minutes. Do not let them brown.",
+        "timerMinutes": 5,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add turmeric and mix well. Roughly mash the boiled potatoes and add them to the kadai. Fold everything together, breaking large lumps but leaving some texture. Taste and adjust salt. Stir in coriander leaves and remove from heat."
+      },
+      {
+        "order": 4,
+        "text": "Mix salt into the dosa batter. Heat the tawa on high until a water droplet sizzles on contact, then reduce to medium. Pour a ladle of batter in the centre and spread quickly into a thin circle.",
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Drizzle 0.5 tsp oil around the edges. Cook until the surface looks dry and the underside is golden with crispy, lace-like edges — about 2 minutes.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 6,
+        "text": "Spoon 2–3 tbsp of the potato filling onto the centre-left half of the dosa. Fold the right side over the filling like a half-moon, pressing gently."
+      },
+      {
+        "order": 7,
+        "text": "Slide off onto a plate and serve immediately with coconut chutney and sambar. The dosa should still be audibly crisp when it hits the plate."
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "kadai"
+    ],
+    "methods": [
+      "tempering",
+      "sauteing",
+      "tawa-cooking"
+    ],
+    "tags": [
+      "tiffin",
+      "comfort-food",
+      "budget",
+      "street-food",
+      "kids-friendly",
+      "party"
+    ],
+    "allergens": [
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 310,
+      "protein": 7,
+      "carbs": 52,
+      "fat": 8,
+      "fiber": 4,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "potato",
+        "substitute": "boiled and mashed raw banana (vazhakkai)",
+        "notes": "gives a drier, starchier filling with a slightly earthy flavour"
+      },
+      {
+        "ingredient": "green-chilli",
+        "substitute": "0.5 tsp red chilli powder added with turmeric",
+        "notes": "for a less visible heat in the filling"
+      },
+      {
+        "ingredient": "onion",
+        "substitute": "4 shallots (small onions), sliced",
+        "notes": "sweeter and more fragrant than regular onion in the filling"
+      }
+    ],
+    "culturalNote": "Masala dosa is thought to have been popularised by Udipi restaurants in the early 20th century and spread through Tamil Nadu via hotel breakfast menus; it is now one of the most widely ordered dishes in Indian restaurants worldwide.",
+    "regionalVariation": "In Madurai, masala dosas are often served with a wet coconut-chilli chutney spread inside the fold rather than on the side. Brahmin-style masala dosa omits onions from the filling and adds more turmeric.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-ven-pongal",
+    "slug": "tamil-ven-pongal",
+    "title": "Ven Pongal",
+    "nativeTitle": "வெண் பொங்கல்",
+    "description": "Creamy rice-and-moong-dal porridge cooked until thick and velvety, then showered with cracked black pepper, cumin, fresh ginger and fried cashews in a generous pour of ghee. This is the definitive Tamil tiffin — humble to make, deeply satisfying to eat.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "raw rice (ponni or sona masoori)",
+        "normalizedName": "rice",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "split moong dal (paasi paruppu)",
+        "normalizedName": "moong-dal",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 4,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, coarsely cracked",
+        "normalizedName": "black-pepper",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "ginger, finely chopped",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "cashews",
+        "normalizedName": "cashew",
+        "quantity": 12,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Wash the rice and moong dal together in two changes of water. Dry-roast the moong dal in a dry pressure cooker base on medium flame, stirring, until it turns light golden and smells nutty — about 2 minutes. This step deepens flavour.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 2,
+        "text": "Add the washed rice, 4 cups water and salt to the cooker. Pressure cook on medium-high flame for 4–5 whistles until the rice and dal are very soft and almost dissolving into each other. Let the pressure release naturally.",
+        "timerMinutes": 20,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Open the cooker and stir well — the mixture should be loose and creamy, like thick oatmeal porridge. If it is too thick, add half a cup of hot water and mix on low flame."
+      },
+      {
+        "order": 4,
+        "text": "Heat ghee in a small tempering pan or ladle. Fry the cashews until golden, then remove and set aside. In the same ghee, add cumin seeds and let them crackle. Add curry leaves, ginger, asafoetida and cracked black pepper and fry for 45 seconds until fragrant.",
+        "method": "tempering"
+      },
+      {
+        "order": 5,
+        "text": "Pour the entire ghee tempering over the pongal and fold it through. Taste for salt — pongal needs more salt than you expect."
+      },
+      {
+        "order": 6,
+        "text": "Scatter the fried cashews on top. Serve hot with coconut chutney and sambar. Ven pongal thickens quickly as it cools; reheat with a splash of water."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "frying-pan"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "tempering",
+      "one-pot"
+    ],
+    "tags": [
+      "tiffin",
+      "comfort-food",
+      "budget",
+      "pongal",
+      "kids-friendly",
+      "no-onion-no-garlic",
+      "healthy"
+    ],
+    "allergens": [
+      "dairy",
+      "nuts"
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein": 11,
+      "carbs": 52,
+      "fat": 14,
+      "fiber": 3,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "ghee",
+        "substitute": "coconut oil",
+        "notes": "makes it dairy-free; use 2 tbsp instead of 3 — coconut oil is richer than ghee in mouthfeel"
+      },
+      {
+        "ingredient": "cashew",
+        "substitute": "peanuts (roasted or fried)",
+        "notes": "more budget-friendly; add with the tempering"
+      },
+      {
+        "ingredient": "moong-dal",
+        "substitute": "toor-dal",
+        "notes": "slightly more earthy flavour; reduce water by half a cup as toor dal absorbs less"
+      }
+    ],
+    "culturalNote": "Ven pongal is offered as temple prasadam across Tamil Nadu, especially at the Pongal festival in January when new-harvest rice is cooked in clay pots outdoors until it boils over — a symbol of abundance.",
+    "regionalVariation": "Brahmin households cook pongal without asafoetida and are generous with black pepper; Kongunadu versions add extra ginger and sometimes a small piece of turmeric root for colour.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-rava-upma",
+    "slug": "tamil-rava-upma",
+    "title": "Rava Upma",
+    "nativeTitle": "ரவை உப்மா",
+    "description": "A quick, satisfying semolina porridge cooked with tempered spices, onions and green chillies — the go-to Tamil breakfast when time is short. Well-made upma has each grain separate and faintly fluffy, never gluey or lumpy.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rava (semolina / ravai)",
+        "normalizedName": "rava",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger, finely grated",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "urad dal",
+        "normalizedName": "urad-dal",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "chana dal",
+        "normalizedName": "chana-dal",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "cashews",
+        "normalizedName": "cashew",
+        "quantity": 10,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "or coconut oil for dairy-free"
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 3,
+        "unit": "cup",
+        "optional": false,
+        "notes": "hot water gives best texture"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Dry-roast the rava in a heavy kadai on medium flame, stirring continuously, until it turns pale golden and smells of toast — about 4 minutes. Do not let it brown. Tip into a bowl and set aside.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 2,
+        "text": "Heat oil and ghee together in the same kadai. Fry cashews until golden and set aside. In the remaining fat, splutter mustard seeds, then add urad dal and chana dal and fry until golden. Add curry leaves, green chilli and ginger; fry for 30 seconds.",
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add the chopped onions with a pinch of salt and saute on medium flame until soft and translucent, about 3 minutes.",
+        "timerMinutes": 3,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Pour 3 cups of hot water into the kadai and increase to high flame. Bring to a rolling boil, then add salt and taste — the water should taste slightly salty."
+      },
+      {
+        "order": 5,
+        "text": "Lower the flame to medium and add the roasted rava in a steady stream while stirring constantly with the other hand. Lumps form quickly if you stop stirring — keep going for the first 30 seconds.",
+        "method": "one-pot"
+      },
+      {
+        "order": 6,
+        "text": "Reduce to low flame, cover and cook for 3 minutes until the water is fully absorbed. The upma should look fluffy, not wet. Uncover, scatter fried cashews on top and fold through. Serve hot with coconut chutney or a squeeze of lemon.",
+        "timerMinutes": 3
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "tempering",
+      "sauteing",
+      "one-pot"
+    ],
+    "tags": [
+      "tiffin",
+      "comfort-food",
+      "budget",
+      "quick",
+      "bachelor-friendly",
+      "kids-friendly"
+    ],
+    "allergens": [
+      "gluten",
+      "dairy",
+      "nuts",
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 290,
+      "protein": 8,
+      "carbs": 46,
+      "fat": 9,
+      "fiber": 2,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "rava",
+        "substitute": "broken wheat (dalia)",
+        "notes": "healthier, nuttier upma; cook 3–4 minutes longer and add 0.5 cup extra water"
+      },
+      {
+        "ingredient": "cashew",
+        "substitute": "peanut",
+        "notes": "more authentic in many Tamil kitchens; roast peanuts in oil before the tempering"
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "coconut oil",
+        "notes": "dairy-free; gives a subtle coconut fragrance that works well with the dish"
+      }
+    ],
+    "culturalNote": "Upma was originally a savory version of the sweet Akki Thari (cream of wheat dish) and spread across South India as a quick, cheap, filling breakfast; it remains the iconic tiffin item of home and office canteen alike.",
+    "regionalVariation": "Tambram (Tamil Brahmin) upma uses asafoetida liberally, skips onions entirely and is enriched with extra ghee. Coimbatore-style upma often adds a grated carrot and peas for colour.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-semiya-upma",
+    "slug": "tamil-semiya-upma",
+    "title": "Semiya Upma",
+    "nativeTitle": "சேமியா உப்மா",
+    "description": "Delicate wheat vermicelli (semiya) cooked with mustard, dal and onion until each strand is separate and lightly coated in spiced oil. Faster and lighter than rava upma, semiya upma is a popular school-morning breakfast across Tamil Nadu.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "wheat vermicelli (semiya)",
+        "normalizedName": "vermicelli",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "roasted or plain; plain needs 2 minutes of dry roasting first"
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger, finely grated",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "urad dal",
+        "normalizedName": "urad-dal",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "chana dal",
+        "normalizedName": "chana-dal",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 2.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "If using plain (un-roasted) vermicelli, dry-roast it in a kadai on medium flame, stirring constantly, until pale golden and fragrant — about 2 minutes. Set aside. If using pre-roasted vermicelli, skip this step."
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in the same kadai. Splutter mustard seeds, then add urad dal and chana dal and fry until golden. Add curry leaves, green chilli and ginger and saute for 30 seconds.",
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add the onion with a pinch of salt and saute on medium flame until soft, about 3 minutes.",
+        "timerMinutes": 3,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Pour in 2.5 cups water, add salt and bring to a boil on high flame.",
+        "method": "boiling"
+      },
+      {
+        "order": 5,
+        "text": "Add the roasted vermicelli to the boiling water, stirring immediately. Reduce to medium flame, cover and cook for 3–4 minutes until all the water is absorbed and the strands are just tender but not mushy. Taste one strand — it should be cooked through but still have a slight bite.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 6,
+        "text": "Uncover and fluff gently with a fork. Scatter coriander leaves on top. Serve hot with coconut chutney. Semiya upma is best eaten right away; it clumps as it cools."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "tempering",
+      "sauteing",
+      "boiling",
+      "one-pot"
+    ],
+    "tags": [
+      "tiffin",
+      "comfort-food",
+      "budget",
+      "quick",
+      "under-30-minutes",
+      "kids-friendly",
+      "lunchbox"
+    ],
+    "allergens": [
+      "gluten",
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 240,
+      "protein": 6,
+      "carbs": 40,
+      "fat": 7,
+      "fiber": 2,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "vermicelli",
+        "substitute": "rice vermicelli (rice noodles)",
+        "notes": "makes it gluten-free; do not roast rice noodles; cook them in boiling water for 2–3 minutes and drain before adding to tempering"
+      },
+      {
+        "ingredient": "onion",
+        "substitute": "3 shallots, finely sliced",
+        "notes": "sweeter flavour; small onions are preferred in Chettinad homes"
+      },
+      {
+        "ingredient": "chana-dal",
+        "substitute": "moong-dal",
+        "notes": "softer texture; soak 10 minutes before frying if substituting whole moong"
+      }
+    ],
+    "culturalNote": "Semiya upma became a Tamil household staple in the mid-20th century when packaged vermicelli became widely available; its quick cooking time made it a favourite among working families for weekday mornings.",
+    "regionalVariation": "Some households in the Coimbatore and Erode districts add a handful of frozen peas and grated carrot to the onion stage, creating a more colourful version that doubles as a lunchbox item.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-adai",
+    "slug": "tamil-adai",
+    "title": "Adai",
+    "nativeTitle": "அடை",
+    "description": "A thick, speckled savoury pancake made from coarsely ground rice and mixed lentils — no fermentation needed. Adai has a pleasingly grainy bite, a smoky, lentil-rich flavour, and a perfectly crispy edge when cooked on a hot tawa with generous oil.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "idli rice (parboiled), soaked 3 hours",
+        "normalizedName": "idli-rice",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "chana dal (kadalai paruppu), soaked 3 hours",
+        "normalizedName": "chana-dal",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "toor dal, soaked 3 hours",
+        "normalizedName": "toor-dal",
+        "quantity": 0.25,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "urad dal, soaked 3 hours",
+        "normalizedName": "urad-dal",
+        "quantity": 0.25,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "fennel seeds",
+        "normalizedName": "fennel",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "adds a subtle sweetness"
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "curry leaves, torn",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "for cooking; gingelly oil is traditional"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Plan ahead: soak the idli rice, chana dal, toor dal and urad dal in separate bowls of water for 3 hours (or up to 8 hours). Drain all of them before grinding."
+      },
+      {
+        "order": 2,
+        "text": "Combine all the soaked ingredients with dried red chillies, ginger, fennel, asafoetida and salt. Grind in a mixie, adding water a tablespoon at a time, until you have a coarse, thick batter — not smooth, but no large whole grains visible. The texture is key: it should be chunkier than dosa batter."
+      },
+      {
+        "order": 3,
+        "text": "Transfer to a bowl and fold in curry leaves and coriander leaves. Taste for salt. The batter should be thick enough to hold its shape when poured — do not add excess water."
+      },
+      {
+        "order": 4,
+        "text": "Heat the tawa on high until very hot. Reduce to medium-high. Do not season the tawa with water first — adai needs a hot, dry surface. Pour a large ladle of batter and spread to a circle about 15 cm wide and 5 mm thick (thicker than dosa).",
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Drizzle 1 tsp oil generously around and over the adai. Cook on medium-high until the underside is dark golden and the edges are crispy and pulling away — about 4 minutes. Make a small hole in the centre with the ladle tip to help heat reach the middle.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 6,
+        "text": "Flip the adai and cook the other side for 2–3 minutes until evenly golden. Adai should feel firm, not soft, when pressed — the lentils should be cooked through. Serve immediately with avial, jaggery or coconut chutney.",
+        "timerMinutes": 3
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "mixie"
+    ],
+    "methods": [
+      "tawa-cooking"
+    ],
+    "tags": [
+      "tiffin",
+      "comfort-food",
+      "budget",
+      "healthy"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 320,
+      "protein": 14,
+      "carbs": 44,
+      "fat": 10,
+      "fiber": 6,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "idli-rice",
+        "substitute": "regular raw rice",
+        "notes": "slightly different texture; parboiled rice gives more body"
+      },
+      {
+        "ingredient": "toor-dal",
+        "substitute": "masoor-dal",
+        "notes": "cooks faster; adds a reddish tinge to the batter"
+      },
+      {
+        "ingredient": "dried-red-chilli",
+        "substitute": "green-chilli (3–4 pieces)",
+        "notes": "for a fresher, sharper heat rather than the rounded heat of dried chillies"
+      }
+    ],
+    "culturalNote": "Adai is one of the oldest Tamil tiffin items, mentioned in classical Sangam poetry; it is considered more nutritionally complete than plain dosa because of the mixed-lentil batter, making it a favourite among farmers and labourers for its staying power.",
+    "regionalVariation": "Kongunadu adai sometimes includes grated raw coconut folded into the batter for added richness. In Chettinad, adai is served with a very coarse coconut chutney and a drizzle of palm jaggery on top.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-uttapam",
+    "slug": "tamil-uttapam",
+    "title": "Uttapam",
+    "nativeTitle": "உத்தாப்பம்",
+    "description": "A thick, spongy rice-and-lentil pancake cooked with finely chopped vegetables pressed into the top — the perfect use for leftover batter that has turned a little too sour. Each uttapam is soft inside, lightly charred underneath and colourful with toppings.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "fermented idli-dosa batter",
+        "normalizedName": "idli-dosa-batter",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false,
+        "notes": "slightly over-fermented batter works best here"
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, finely chopped",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "ginger, finely grated",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "inch",
+        "optional": true
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Mix the chopped onion, tomato, green chilli, ginger and coriander leaves together in a small bowl. Season lightly with salt — this is your topping mix."
+      },
+      {
+        "order": 2,
+        "text": "Stir salt into the batter. It should be thicker than dosa batter — if it is too runny, the uttapam will not hold its shape. Do not thin it."
+      },
+      {
+        "order": 3,
+        "text": "Heat a tawa on medium flame until a droplet of water sizzles and evaporates. Pour a large ladle of batter onto the centre and let it spread on its own to about 15 cm — do not spread like a dosa. The thickness is part of the dish.",
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Immediately scatter a heaped spoonful of the topping mix over the wet surface and press gently with the back of the ladle to embed the vegetables. Drizzle 0.5 tsp oil around the edges."
+      },
+      {
+        "order": 5,
+        "text": "Cover loosely with a lid or foil and cook on medium flame for 3–4 minutes until the base is golden and the surface is set and no longer shiny. The uttapam is ready to flip when the edges lift easily.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 6,
+        "text": "Flip and cook the topping side for 1 minute — the vegetables should soften slightly but not char. Serve warm with sambar and coconut chutney. Uttapam stays good for a few minutes, unlike dosa, making it ideal for feeding a family in batches.",
+        "timerMinutes": 1
+      }
+    ],
+    "cookware": [
+      "tawa"
+    ],
+    "methods": [
+      "tawa-cooking"
+    ],
+    "tags": [
+      "tiffin",
+      "comfort-food",
+      "budget",
+      "kids-friendly",
+      "quick",
+      "leftover-friendly",
+      "lunchbox"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 220,
+      "protein": 6,
+      "carbs": 36,
+      "fat": 6,
+      "fiber": 2,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "onion",
+        "substitute": "spring-onion",
+        "notes": "milder taste; add the green parts along with the white bulbs"
+      },
+      {
+        "ingredient": "tomato",
+        "substitute": "beetroot, finely grated",
+        "notes": "adds earthy sweetness and a vivid pink colour; squeeze out excess water before using"
+      },
+      {
+        "ingredient": "idli-dosa-batter",
+        "substitute": "Mix 1 cup rice flour, 0.25 cup urad-dal flour and 0.5 cup curd with enough water to make a thick batter; use immediately for an instant version.",
+        "notes": "tanginess comes from curd; no fermentation needed"
+      }
+    ],
+    "culturalNote": "Uttapam is sometimes called the pizza of South India — a thick, topping-covered flatbread cooked on a tawa — and was historically a way to use sour, over-fermented batter before it went to waste.",
+    "regionalVariation": "Karnataka households often add grated coconut to the topping; hotel-style uttapams in Chennai come in set sizes — mini (kuzhi uttapam, palm-sized) and regular — each served with its own sambar and three chutneys.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-idiyappam",
+    "slug": "tamil-idiyappam",
+    "title": "Idiyappam",
+    "nativeTitle": "இடியாப்பம்",
+    "description": "Delicate, lacy nests of steamed rice flour noodles — one of the most elegant Tamil tiffin items. Idiyappam is gluten-free, feather-light, and absorbs the flavour of whatever it is served with: coconut milk, vegetable stew or a fiery kulambu.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice flour (arisi maavu), fine-milled",
+        "normalizedName": "rice-flour",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false,
+        "notes": "use idiyappam rice flour or fine-ground rice flour, not coarse"
+      },
+      {
+        "name": "hot water",
+        "normalizedName": "water",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "just off the boil; hot water makes the dough smooth and pliable"
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "coconut oil preferred; mixed into dough"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "grated coconut",
+        "normalizedName": "coconut",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "to serve on top"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Dry-roast the rice flour in a dry pan on medium-low flame, stirring, for 2 minutes until it is warm to the touch and smells faintly of cooked rice. This pre-toasting makes the dough easier to press. Tip into a mixing bowl.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 2,
+        "text": "Add salt and oil to the warm flour. Gradually pour in the very hot water while mixing with a spoon, adding just enough to bring the flour together. When it is cool enough to handle, knead it briefly for 1 minute into a soft, smooth, non-sticky dough. It should feel like soft Play-Doh."
+      },
+      {
+        "order": 3,
+        "text": "Fill the idiyappam press (or a sev/murukku press fitted with the fine-hole disc) with the dough. Grease the idli plates or a steamer basket with a few drops of oil."
+      },
+      {
+        "order": 4,
+        "text": "Press the dough through the mold in a circular, overlapping motion over each idli cup or plate, building up a loose, cloud-like nest about 2 cm thick. Do not press too densely — the strands should be light and tangled, not compacted.",
+        "method": "steaming"
+      },
+      {
+        "order": 5,
+        "text": "Pour water into the base of the idli steamer, bring to a boil, then place the idiyappam nests inside. Cover and steam on medium-high flame for 8–10 minutes until the nests are cooked through — they will look translucent and feel firm but not dry.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 6,
+        "text": "Remove carefully with a spoon and place on serving plates. Scatter grated coconut on top. Serve immediately with coconut milk sweetened with a pinch of sugar and cardamom, or with vegetable stew or chicken kulambu."
+      }
+    ],
+    "cookware": [
+      "idli-steamer"
+    ],
+    "methods": [
+      "steaming"
+    ],
+    "tags": [
+      "tiffin",
+      "comfort-food",
+      "budget",
+      "healthy",
+      "no-onion-no-garlic",
+      "kids-friendly"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 210,
+      "protein": 4,
+      "carbs": 44,
+      "fat": 2,
+      "fiber": 1,
+      "sugar": 1,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "rice-flour",
+        "substitute": "store-bought idiyappam instant flour mix",
+        "notes": "pre-salted; no dry-roasting needed; follow package water ratio"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "coconut-milk (100 ml, sweetened with sugar and cardamom)",
+        "notes": "pour over the idiyappam as a sauce rather than garnish"
+      }
+    ],
+    "culturalNote": "Idiyappam is believed to have Sri Lankan Tamil origins and is equally beloved in Kerala; the word comes from 'idai' (to press) and 'appam' (flatbread), describing the pressing action through the mold.",
+    "regionalVariation": "In Jaffna (Sri Lanka), idiyappam is served with sambol coconut and buffalo curd. Tamil Nadu coastal homes serve it with crab or fish kulambu for a hearty weekend breakfast.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-kuzhi-paniyaram",
+    "slug": "tamil-kuzhi-paniyaram",
+    "title": "Kuzhi Paniyaram",
+    "nativeTitle": "குழி பணியாரம்",
+    "description": "Golden, crispy-outside, fluffy-inside spheres cooked in the dimpled wells of a paniyaram pan from fermented idli-dosa batter seasoned with tempered shallots and green chillies. Kuzhi paniyaram are irresistible as a breakfast or evening tiffin snack.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "tiffin",
+      "snack",
+      "breakfast"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "fermented idli-dosa batter",
+        "normalizedName": "idli-dosa-batter",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "shallots (small onions), finely chopped",
+        "normalizedName": "shallot",
+        "quantity": 6,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger, finely grated",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves, finely torn",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "gingelly oil gives the best flavour and crispiness"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat 1 tbsp oil in a small pan. Splutter mustard seeds, then add shallots, green chilli and ginger and saute on medium flame until the shallots are soft and beginning to turn golden — about 3 minutes. Add curry leaves and fry for 30 seconds.",
+        "timerMinutes": 3,
+        "method": "tempering"
+      },
+      {
+        "order": 2,
+        "text": "Cool the shallot mixture for 2 minutes then fold it into the fermented batter along with coriander leaves and salt. Stir gently — the batter should be thick, pourable and well-seasoned."
+      },
+      {
+        "order": 3,
+        "text": "Place the kuzhi paniyaram pan (or an ebelskiver pan) on medium flame. Add a few drops of oil into each dimple and let the pan heat until the oil shimmers."
+      },
+      {
+        "order": 4,
+        "text": "Pour batter into each dimple, filling them about three-quarters full. The batter will start to sizzle as it hits the hot oil.",
+        "method": "pan-frying"
+      },
+      {
+        "order": 5,
+        "text": "Cover with a lid and cook on medium-low flame for 2–3 minutes until the tops look set and the bottoms are golden brown when you check the underside.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 6,
+        "text": "Use a skewer, chopstick or the tip of a small spoon to flip each paniyaram quickly. Cook uncovered for 1–2 more minutes until the newly exposed surface is golden and the paniyaram feels firm when pressed.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 7,
+        "text": "Remove to a plate and repeat with remaining batter, adding a small drop of oil to each dimple between batches. Serve hot with coconut chutney and red tomato chutney."
+      }
+    ],
+    "cookware": [
+      "frying-pan",
+      "kadai"
+    ],
+    "methods": [
+      "tempering",
+      "pan-frying"
+    ],
+    "tags": [
+      "tiffin",
+      "street-food",
+      "comfort-food",
+      "budget",
+      "kids-friendly",
+      "fried-snack"
+    ],
+    "allergens": [
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 200,
+      "protein": 5,
+      "carbs": 30,
+      "fat": 7,
+      "fiber": 1,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "shallot",
+        "substitute": "spring-onion",
+        "notes": "use both white and green parts; milder flavour"
+      },
+      {
+        "ingredient": "idli-dosa-batter",
+        "substitute": "Mix 1 cup rice flour, 0.25 cup urad-dal flour, 0.5 cup curd and salt with water to a thick batter; let rest 10 minutes.",
+        "notes": "instant version without fermentation; add a tiny pinch of baking soda for lift"
+      },
+      {
+        "ingredient": "oil",
+        "substitute": "gingelly-oil",
+        "notes": "traditional and gives a wonderful sesame-scented crust; use 0.5 tsp per dimple"
+      }
+    ],
+    "culturalNote": "Kuzhi paniyaram is a Chettinad specialty that has been adopted across all of Tamil Nadu; the word kuzhi means 'pit' or 'well', referring to the dimpled pan, which creates the characteristic round shape.",
+    "regionalVariation": "Chettinad sweet paniyaram (inippu paniyaram) uses the same pan but a batter of rice, jaggery and coconut — a dessert counterpart to this savoury version. Salem district versions sometimes add grated coconut directly into the batter.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-rava-kesari",
+    "slug": "tamil-rava-kesari",
+    "title": "Rava Kesari",
+    "nativeTitle": "ரவை கேசரி",
+    "description": "A silky, saffron-golden semolina halwa cooked in ghee until translucent, then sweetened and finished with fried cashews and raisins. Rava kesari is served as a tiffin sweet at temples, weddings and celebratory breakfasts — made in under 25 minutes from pantry staples.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "tiffin",
+      "dessert",
+      "breakfast"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rava (semolina / ravai)",
+        "normalizedName": "rava",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false,
+        "notes": "adjust to taste; the standard Tamil ratio is 1:0.75 rava to sugar"
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cashews",
+        "normalizedName": "cashew",
+        "quantity": 15,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "raisins",
+        "normalizedName": "raisin",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cardamom pods, crushed",
+        "normalizedName": "cardamom",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 2.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "must be hot; boil it first"
+      },
+      {
+        "name": "saffron strands",
+        "normalizedName": "saffron",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": true,
+        "notes": "soaked in 2 tbsp warm water for 5 min; gives colour and aroma"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat 2 tbsp ghee in a heavy-bottomed kadai on medium-low flame. Fry the cashews, turning, until golden — about 2 minutes. Add raisins and fry until they puff. Remove cashews and raisins and set aside.",
+        "timerMinutes": 2,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "In the same ghee, add the rava and roast on medium-low flame, stirring constantly, until it turns pale golden and smells nutty — about 5 minutes. Even a light tan is enough; do not let it brown dark.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Keep one hand on the ladle and with the other slowly pour 2.5 cups of boiling water into the kadai. Stand back slightly — it will splutter. Stir constantly and break any lumps immediately; the rava will absorb the water quickly."
+      },
+      {
+        "order": 4,
+        "text": "Cook on medium flame, stirring, until the rava is fully swollen and the mixture is thick — about 3 minutes. It should flow like thick porridge with no raw flour taste.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 5,
+        "text": "Add the sugar and the saffron water. Stir continuously — the mixture will loosen then thicken again as the sugar dissolves and cooks. Add the remaining 2 tbsp ghee and crushed cardamom."
+      },
+      {
+        "order": 6,
+        "text": "Cook on low flame for 3–4 more minutes, stirring, until the kesari pulls away from the sides of the kadai and a small lump pressed between fingers holds its shape. Fold in the fried cashews and raisins. Serve hot.",
+        "timerMinutes": 4
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "sauteing",
+      "one-pot"
+    ],
+    "tags": [
+      "tiffin",
+      "sweet",
+      "festival",
+      "pongal",
+      "comfort-food",
+      "budget",
+      "kids-friendly",
+      "under-30-minutes"
+    ],
+    "allergens": [
+      "gluten",
+      "dairy",
+      "nuts"
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein": 6,
+      "carbs": 68,
+      "fat": 15,
+      "fiber": 1,
+      "sugar": 40,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "ghee",
+        "substitute": "coconut oil",
+        "notes": "dairy-free version; use 3 tbsp — the flavour will be more tropical"
+      },
+      {
+        "ingredient": "saffron",
+        "substitute": "1 pinch of turmeric or a few drops of food-grade orange colour",
+        "notes": "gives colour without the cost; flavour will be slightly different but visually similar"
+      },
+      {
+        "ingredient": "cashew",
+        "substitute": "almond (blanched and slivered)",
+        "notes": "adds a different crunch; fry a little longer than cashews"
+      }
+    ],
+    "culturalNote": "Rava kesari is a mandatory item at Tamil temple prasadams, especially at temples dedicated to Murugan and Vinayagar; the bright saffron colour is considered auspicious, and the dish is offered before any auspicious beginning.",
+    "regionalVariation": "Some Coimbatore households make a denser version using 1:1 rava to sugar that can be pressed into moulds and shaped into diamond-cut pieces called 'kesari pieces'. Brahmin households use a splash of rose water instead of saffron.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-medu-vada",
+    "slug": "tamil-medu-vada",
+    "title": "Medu Vada",
+    "nativeTitle": "மெது வடை",
+    "description": "Crispy, airy urad-dal donuts with a paper-thin, crunchy shell and a soft, yielding centre — one of South India's most celebrated deep-fried tiffin items. The secret is in whipping the ground batter until it is almost as light as mousse before frying.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "tiffin",
+      "snack",
+      "breakfast"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "urad dal (ulundhu), soaked 3–4 hours",
+        "normalizedName": "urad-dal",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false,
+        "notes": "soak until the dal splits and whitens; drain completely before grinding"
+      },
+      {
+        "name": "ginger, finely grated",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "green chilli, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "black pepper, coarsely cracked",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "curry leaves, finely torn",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 500,
+        "unit": "ml",
+        "optional": false,
+        "notes": "for deep frying; fill kadai to at least 8 cm depth"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Drain the soaked urad dal thoroughly — even a little excess water makes the batter runny. Do not rinse after draining."
+      },
+      {
+        "order": 2,
+        "text": "Grind the urad dal in a mixie with minimal water (add 1 tbsp at a time, using 2–3 tbsp maximum) until very smooth and almost fluffy. The batter should be thick enough to stand in peaks — test by dropping a small ball in a glass of water: it should float. Grind in short pulses, scraping the sides, for 5–6 minutes.",
+        "timerMinutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Transfer batter to a bowl and beat vigorously with your hand or a spoon for 2 minutes to incorporate air — this is what makes vada light and airy inside. Fold in ginger, green chilli, black pepper, asafoetida, curry leaves and salt."
+      },
+      {
+        "order": 4,
+        "text": "Heat oil in a deep kadai to 170°C (medium heat). Test by dropping a small ball of batter — it should rise to the surface in 3–4 seconds without burning immediately.",
+        "method": "deep-frying"
+      },
+      {
+        "order": 5,
+        "text": "Wet both palms with water. Take a lime-sized ball of batter, flatten it on your palm into a disc about 1 cm thick, then poke a hole in the centre with a wet index finger. Gently slide it off your palm into the hot oil. Work in batches of 3–4."
+      },
+      {
+        "order": 6,
+        "text": "Fry on medium flame, turning once, until both sides are deep golden and the vada sounds hollow when tapped — about 3–4 minutes total. Remove with a slotted spoon and drain on paper. Do not crowd the kadai.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 7,
+        "text": "Serve hot immediately with coconut chutney and sambar for dipping. Medu vada loses its crispiness quickly — it must be eaten within 10 minutes of frying for the best experience."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "mixie"
+    ],
+    "methods": [
+      "deep-frying"
+    ],
+    "tags": [
+      "tiffin",
+      "street-food",
+      "fried-snack",
+      "comfort-food",
+      "budget",
+      "festival"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 280,
+      "protein": 11,
+      "carbs": 28,
+      "fat": 14,
+      "fiber": 3,
+      "sugar": 1,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "urad-dal",
+        "substitute": "Add 2 tbsp rice flour to the urad-dal batter",
+        "notes": "makes the exterior extra crispy; add with the spices, not during grinding"
+      },
+      {
+        "ingredient": "green-chilli",
+        "substitute": "dried-red-chilli (ground to a coarse powder)",
+        "notes": "more heat but without visible green flecks"
+      }
+    ],
+    "culturalNote": "Medu vada is thought to have originated in Karnataka's Udupi temples and spread south into Tamil Nadu; in Chennai tiffin hotels, a plate of two vadas with a cup of sambar for dipping is considered the ideal morning breakfast combination.",
+    "regionalVariation": "In Chettinad, vadas are sometimes prepared with cracked black pepper and dried ginger giving a sharper spice profile; Brahmin-household vadas exclude chilli and rely only on asafoetida and pepper for flavour.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-kal-dosa",
+    "slug": "tamil-kal-dosa",
+    "title": "Kal Dosa",
+    "nativeTitle": "கல் தோசை",
+    "description": "A thick, soft, lightly puffy dosa that is cooked only on one side and never flipped — the name means 'stone dosa' after the heavy iron tawa it is traditionally cooked on. The result is a creamy, tender interior and a faintly golden bottom, quite different from the thin crispy dosa.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "fermented idli-dosa batter, slightly thin",
+        "normalizedName": "idli-dosa-batter",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false,
+        "notes": "ideally batter that has fermented a little longer than usual, giving a tang"
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 0.25,
+        "unit": "cup",
+        "optional": false,
+        "notes": "to thin the batter slightly — it should pour more freely than for crispy dosa"
+      },
+      {
+        "name": "gingelly oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "for the tawa; gingelly oil gives the characteristic aroma"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "grated coconut",
+        "normalizedName": "coconut",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "scattered on top while the batter is still wet"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Thin the fermented batter with water and add salt. The consistency should be thinner than regular dosa batter — when poured from a ladle, it should flow freely and spread on its own."
+      },
+      {
+        "order": 2,
+        "text": "Heat a heavy cast-iron tawa or a thick iron pan on medium-high flame for 3–4 minutes until very hot. Rub the surface with a few drops of gingelly oil using a folded cloth or onion half.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 3,
+        "text": "Pour a generous ladle of batter — slightly more than for a regular dosa — onto the centre of the tawa. Tilt the tawa or use the ladle back to spread it into a circle about 18 cm wide and 4–5 mm thick. Do not try to make it as thin as a crispy dosa.",
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 4,
+        "text": "If using, scatter grated coconut over the wet top. Drizzle a few drops of gingelly oil around the edge of the dosa."
+      },
+      {
+        "order": 5,
+        "text": "Cover with a domed lid and cook on medium flame for 3–4 minutes until the top surface turns completely matte and the edges have lifted from the tawa. The dosa is ready when no wet batter is visible on the surface. Do not flip.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 6,
+        "text": "Slide the dosa off with a flat spatula — it should come away cleanly. The underside should be pale golden, not dark. Serve open face (do not fold) with red chilli coconut chutney and sambar."
+      }
+    ],
+    "cookware": [
+      "tawa"
+    ],
+    "methods": [
+      "tawa-cooking"
+    ],
+    "tags": [
+      "tiffin",
+      "comfort-food",
+      "budget",
+      "no-onion-no-garlic",
+      "kids-friendly",
+      "under-30-minutes"
+    ],
+    "allergens": [
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 150,
+      "protein": 4,
+      "carbs": 28,
+      "fat": 3,
+      "fiber": 1,
+      "sugar": 1,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "coconut oil",
+        "notes": "equally authentic in Kerala-influenced coastal Tamil kitchens; gives a slightly sweeter note"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "finely sliced shallots scattered on top while wet",
+        "notes": "adds sweetness and colour; press gently with ladle to embed"
+      }
+    ],
+    "culturalNote": "Kal dosa takes its name from the heavy stone or iron griddle (kal = stone) on which it was originally cooked; the thick, one-sided cooking style is more forgiving than crispy dosa and is popular in street stalls and home kitchens alike.",
+    "regionalVariation": "In some parts of Coimbatore and Salem, kal dosa is served with a spicy onion-tomato chutney called vengaya chutney rather than coconut chutney — a bolder pairing for a milder dosa.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-ragi-dosa",
+    "slug": "tamil-ragi-dosa",
+    "title": "Ragi Dosa",
+    "nativeTitle": "ராகி தோசை",
+    "description": "A nutritious, instant finger-millet crepe that needs no fermentation — ready to cook in 15 minutes. The ragi batter has a characteristic dark hue and an earthy, slightly nutty flavour that pairs beautifully with coconut chutney and peanut chutney.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "ragi flour (finger millet / kezhvaragu)",
+        "normalizedName": "ragi",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "rice flour (arisi maavu)",
+        "normalizedName": "rice-flour",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "adds crispiness; substitute with all ragi for a denser, chewier dosa"
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger, finely grated",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves, finely chopped",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "enough to make a thin, pourable batter"
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "for cooking"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Whisk the ragi flour, rice flour and salt together in a bowl. Add water a little at a time and whisk to a smooth, thin batter — thinner than regular dosa batter, closer to the consistency of pouring cream. Let rest for 10 minutes.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Fold in the chopped onion, green chilli, ginger, cumin seeds, curry leaves and coriander leaves. The batter should be well-mixed and fragrant."
+      },
+      {
+        "order": 3,
+        "text": "Heat a tawa on medium-high until very hot. Rub the surface lightly with oil using a cloth or an onion half. Ragi batter sticks easily — ensure the tawa is well-greased before each dosa.",
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Pour a ladle of batter and quickly spread in a circle while the tawa is very hot. Ragi batter sets faster than rice batter — spread immediately. Drizzle 0.5 tsp oil around the edges."
+      },
+      {
+        "order": 5,
+        "text": "Cook on medium flame until the edges lift and look dry and the surface is no longer shiny — about 2–3 minutes. The dosa will be darker than a rice dosa but should not smell burnt.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 6,
+        "text": "Flip and cook for 1 more minute if you like it crisper, or serve directly without flipping for a softer dosa. Serve hot with coconut chutney or peanut chutney — the earthiness of ragi pairs particularly well with peanut-based chutneys."
+      }
+    ],
+    "cookware": [
+      "tawa"
+    ],
+    "methods": [
+      "tawa-cooking"
+    ],
+    "tags": [
+      "tiffin",
+      "budget",
+      "healthy",
+      "low-oil",
+      "no-onion-no-garlic"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 190,
+      "protein": 5,
+      "carbs": 36,
+      "fat": 5,
+      "fiber": 3,
+      "sugar": 1,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "ragi",
+        "substitute": "Use 0.75 cup ragi + 0.25 cup millet (thinai) flour",
+        "notes": "mixed millet dosa; slightly lighter texture"
+      },
+      {
+        "ingredient": "rice-flour",
+        "substitute": "omit and use all ragi",
+        "notes": "denser, chewier result but fully gluten-free and single-grain"
+      },
+      {
+        "ingredient": "onion",
+        "substitute": "spring-onion",
+        "notes": "milder; use the full stalk including the green top for colour"
+      }
+    ],
+    "culturalNote": "Ragi has been cultivated in Tamil Nadu for over 2,000 years and is a dietary cornerstone of the Kongunadu region; ragi dosa became popular in urban homes as awareness of finger millet's nutritional benefits — high iron, calcium and fibre — spread through the 1990s.",
+    "regionalVariation": "In the Nilgiris and Coimbatore belt where ragi farming is concentrated, ragi dosa is made coarser (without rice flour) and eaten with a simple shallot-coconut chutney. Some households add a teaspoon of curd to the batter for a gentle tang.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-tomato-rice",
+    "slug": "tamil-tomato-rice",
+    "title": "Tamil Tomato Rice",
+    "nativeTitle": "தக்காளி சாதம்",
+    "description": "Tangy, spiced rice cooked with onion-tomato masala and a bright tempering of mustard and curry leaves. Tamil tomato rice is bolder and more assertive than its Karnataka counterpart — the tomatoes are cooked down until the oil floats and the masala clings to every grain.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "tiffin",
+      "lunch"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "cooked rice (cooled)",
+        "normalizedName": "rice",
+        "quantity": 3,
+        "unit": "cup",
+        "optional": false,
+        "notes": "day-old or freshly cooked and spread to cool; hot sticky rice does not mix well"
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, chopped",
+        "normalizedName": "tomato",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false,
+        "notes": "ripe and slightly sour for best flavour"
+      },
+      {
+        "name": "green chilli, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "urad dal",
+        "normalizedName": "urad-dal",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat oil in a wide kadai on medium flame. Splutter mustard seeds, then add urad dal and fry until golden. Add curry leaves and green chilli and fry for 30 seconds.",
+        "method": "tempering"
+      },
+      {
+        "order": 2,
+        "text": "Add onions and fry on medium-high flame, stirring frequently, until they turn golden brown at the edges — about 6 minutes. Do not rush this step; well-browned onions are the base of the masala.",
+        "timerMinutes": 6,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add ginger-garlic paste and fry until the raw smell goes, about 1 minute. Add the chopped tomatoes with a pinch of salt and cook on medium flame until they completely break down and the oil begins to separate — about 8 minutes. The masala should look dark and jammy.",
+        "timerMinutes": 8
+      },
+      {
+        "order": 4,
+        "text": "Lower the flame and add red chilli powder, coriander powder and turmeric. Stir for 30 seconds — do not let the powders burn. The masala should be dry, not watery."
+      },
+      {
+        "order": 5,
+        "text": "Add the cooked rice in batches, folding it through the masala with a wide spatula. Be gentle to avoid breaking the grains. The rice should be evenly coated in the reddish-orange masala.",
+        "method": "one-pot"
+      },
+      {
+        "order": 6,
+        "text": "Taste and adjust salt. Scatter coriander leaves on top. Serve with pappad and raw onion slices. Excellent in lunchboxes as the flavour deepens after an hour."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "tempering",
+      "sauteing",
+      "one-pot"
+    ],
+    "tags": [
+      "tiffin",
+      "lunchbox",
+      "comfort-food",
+      "budget",
+      "leftover-friendly",
+      "quick"
+    ],
+    "allergens": [
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 310,
+      "protein": 6,
+      "carbs": 54,
+      "fat": 9,
+      "fiber": 3,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "tomato",
+        "substitute": "canned crushed tomatoes (200 g)",
+        "notes": "works well and cuts the cooking time of the masala by half"
+      },
+      {
+        "ingredient": "rice",
+        "substitute": "leftover rice from the fridge",
+        "notes": "cold rice separates better and does not turn mushy when mixed with hot masala"
+      },
+      {
+        "ingredient": "ginger-garlic-paste",
+        "substitute": "1 tsp each of finely minced fresh ginger and garlic",
+        "notes": "fresher flavour"
+      }
+    ],
+    "culturalNote": "Tomato rice is a staple tiffin dish at Tamil tea shops (kadi kadais) and is the standard packed lunch at schools and factories across the state; the fact that it tastes better a few hours after cooking makes it ideal for early-morning prep.",
+    "regionalVariation": "Madurai-style tomato rice is made much spicier with extra dried red chillies fried in the tempering; Brahmin households skip the ginger-garlic paste and rely on asafoetida for depth.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-lemon-rice",
+    "slug": "tamil-lemon-rice",
+    "title": "Tamil Lemon Rice",
+    "nativeTitle": "எலுமிச்சை சாதம்",
+    "description": "Bright, turmeric-yellow rice tossed in a sharp lemon tempering with crunchy peanuts, dried red chillies and curry leaves — one of Tamil Nadu's most iconic tiffin box dishes. Simple to make in 20 minutes with leftover rice, it travels beautifully and improves as it sits.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "tiffin",
+      "lunch"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "cooked rice (cooled)",
+        "normalizedName": "rice",
+        "quantity": 3,
+        "unit": "cup",
+        "optional": false,
+        "notes": "spread rice to cool before mixing; hot rice becomes mushy"
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "about 2 medium lemons; add more to taste"
+      },
+      {
+        "name": "peanuts (raw or roasted)",
+        "normalizedName": "peanut",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "urad dal",
+        "normalizedName": "urad-dal",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "chana dal",
+        "normalizedName": "chana-dal",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "gingelly oil (nallennai)",
+        "normalizedName": "gingelly-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "gingelly oil is traditional and gives the best flavour; regular oil works too"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "If using raw peanuts, fry them first in a dry pan or in 0.5 tsp oil until they crackle and develop dark spots. Set aside."
+      },
+      {
+        "order": 2,
+        "text": "Heat gingelly oil in a kadai on medium flame. Splutter mustard seeds, then add urad dal and chana dal and fry until golden. Add dried red chillies and fry until they darken slightly.",
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add curry leaves, green chilli and asafoetida; fry for 30 seconds. Sprinkle turmeric powder and stir immediately — it will colour the oil bright yellow."
+      },
+      {
+        "order": 4,
+        "text": "Add the fried peanuts and the lemon juice to the tempering. Stir once and immediately turn off the flame — lemon juice should not cook in high heat or it turns bitter."
+      },
+      {
+        "order": 5,
+        "text": "Add the cooled cooked rice and fold gently through the lemon tempering, ensuring every grain is coated in the yellow oil. Season with salt and taste — it should be distinctly tangy and aromatic.",
+        "method": "one-pot"
+      },
+      {
+        "order": 6,
+        "text": "Rest for 5 minutes to allow the flavours to meld. Serve at room temperature with pappad or raw sliced onions. Lemon rice keeps well in a lunchbox for 6–8 hours without refrigeration."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "tempering",
+      "one-pot"
+    ],
+    "tags": [
+      "tiffin",
+      "lunchbox",
+      "budget",
+      "quick",
+      "leftover-friendly",
+      "no-onion-no-garlic",
+      "summer"
+    ],
+    "allergens": [
+      "peanuts",
+      "mustard",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 330,
+      "protein": 7,
+      "carbs": 52,
+      "fat": 11,
+      "fiber": 2,
+      "sugar": 1,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "lemon",
+        "substitute": "raw mango, grated (about 3 tbsp)",
+        "notes": "gives a fruitier, slightly sweeter sourness; this variation is called maangai sadam"
+      },
+      {
+        "ingredient": "peanut",
+        "substitute": "cashew",
+        "notes": "fry in a little extra oil until golden before adding with the tempering"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "oil",
+        "notes": "use coconut oil for a more aromatic substitute; regular oil gives a blander result"
+      }
+    ],
+    "culturalNote": "Lemon rice is the most popular of Tamil Nadu's rice varieties for temple offerings and travel food; its tanginess and the natural preservative effect of lemon juice allow it to stay safe at room temperature for hours — essential for train journeys and pilgrimage trips.",
+    "regionalVariation": "Iyengar households use tamarind juice instead of lemon for a darker, deeper sourness. Madurai versions add extra dried red chillies in the tempering for a more fiery heat.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-coconut-rice",
+    "slug": "tamil-coconut-rice",
+    "title": "Tamil Coconut Rice",
+    "nativeTitle": "தேங்காய் சாதம்",
+    "description": "Fluffy rice tossed in a rich coconut-tempering with fried cashews and dried red chillies — milky-white, subtly sweet and aromatic with curry leaves and gingelly oil. Thengai sadam is temple prasadam, festival food and the perfect lunchbox companion.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "tiffin",
+      "lunch"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "cooked rice (cooled)",
+        "normalizedName": "rice",
+        "quantity": 3,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "freshly grated coconut",
+        "normalizedName": "coconut",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false,
+        "notes": "fresh is best; desiccated coconut moistened with a little water works as a substitute"
+      },
+      {
+        "name": "cashews",
+        "normalizedName": "cashew",
+        "quantity": 15,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "urad dal",
+        "normalizedName": "urad-dal",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "chana dal",
+        "normalizedName": "chana-dal",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "gingelly oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat gingelly oil in a kadai on medium flame. Fry cashews until golden and remove. Add mustard seeds and let them crackle. Add urad dal and chana dal and fry until they turn pale gold.",
+        "method": "tempering"
+      },
+      {
+        "order": 2,
+        "text": "Add the dried red chillies and fry for 30 seconds until they darken and become fragrant. Add green chilli, curry leaves and asafoetida and fry for another 30 seconds. The oil should be vividly aromatic at this stage."
+      },
+      {
+        "order": 3,
+        "text": "Add the grated coconut and stir-fry on medium flame for 3–4 minutes until the coconut turns pale golden and any moisture evaporates. The coconut should smell fragrant and toasted, not raw.",
+        "timerMinutes": 4,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Add the cooled cooked rice to the kadai in batches. Fold gently but thoroughly, coating each grain in the coconut tempering. Season with salt.",
+        "method": "one-pot"
+      },
+      {
+        "order": 5,
+        "text": "Scatter the fried cashews on top and fold through once more. Taste and adjust salt. Serve at room temperature — coconut rice is best eaten warm or at room temperature, not piping hot. Pairs well with pappad, mango pickle and a simple raw salad."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "tempering",
+      "sauteing",
+      "one-pot"
+    ],
+    "tags": [
+      "tiffin",
+      "lunchbox",
+      "festival",
+      "budget",
+      "leftover-friendly",
+      "no-onion-no-garlic",
+      "comfort-food"
+    ],
+    "allergens": [
+      "nuts",
+      "mustard",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "protein": 7,
+      "carbs": 52,
+      "fat": 14,
+      "fiber": 3,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "coconut",
+        "substitute": "3 tbsp coconut milk powder dissolved in 3 tbsp water",
+        "notes": "mix into the rice after the tempering; less texture but good coconut flavour"
+      },
+      {
+        "ingredient": "cashew",
+        "substitute": "peanut",
+        "notes": "more budget-friendly; roast peanuts in a dry pan before adding to the tempering"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "coconut-oil",
+        "notes": "intensifies the coconut flavour; use the same quantity"
+      }
+    ],
+    "culturalNote": "Coconut rice is offered as naivedyam (food offering) at Vinayagar Chaturthi and at Murugan temples; the white colour is considered pure, and it is one of the three rice varieties (along with lemon and tamarind rice) served at major Tamil festivals.",
+    "regionalVariation": "Iyengar-style thengai sadam uses ghee instead of gingelly oil and adds roasted dried coconut. Chettinad versions include kalpasi (stone flower) in the tempering for a distinctive floral note.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-sakkarai-pongal",
+    "slug": "tamil-sakkarai-pongal",
+    "title": "Sakkarai Pongal",
+    "nativeTitle": "சக்கரை பொங்கல்",
+    "description": "A fragrant, golden-brown jaggery-and-rice sweet pudding enriched with ghee, fried cashews and raisins, and perfumed with cardamom. Sakkarai pongal is the sacred sweet prepared on Pongal festival and offered at temples across Tamil Nadu.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "tiffin",
+      "dessert"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "raw rice (ponni or sona masoori)",
+        "normalizedName": "rice",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "moong dal (split yellow)",
+        "normalizedName": "moong-dal",
+        "quantity": 0.25,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "jaggery (vellam), grated or broken",
+        "normalizedName": "jaggery",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false,
+        "notes": "palm jaggery (karupatti) gives a deeper, smokier sweetness than cane jaggery"
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "use generously — this is a festive dish"
+      },
+      {
+        "name": "cashews",
+        "normalizedName": "cashew",
+        "quantity": 15,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "raisins",
+        "normalizedName": "raisin",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cardamom pods, seeds crushed",
+        "normalizedName": "cardamom",
+        "quantity": 5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 4,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "grated coconut",
+        "normalizedName": "coconut",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "folded in at the end; traditional in some families"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Dry-roast the moong dal in the pressure cooker base for 1–2 minutes on medium flame until it smells nutty. Add washed rice, 4 cups water and a tiny pinch of salt. Pressure cook for 5 whistles on medium-high flame until the rice and dal are very soft, slightly overcooked and beginning to meld together. Let pressure release naturally.",
+        "timerMinutes": 20,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "While the pongal cooks, make the jaggery syrup: dissolve grated jaggery in 0.5 cup water in a saucepan on low flame, stirring until fully melted. Strain through a sieve to remove any grit. The syrup should be thin and dark."
+      },
+      {
+        "order": 3,
+        "text": "Mash the cooked rice-dal mixture well with the back of a ladle — you want it smooth and creamy with no separate grains visible. If it is stiff, add a splash of hot water."
+      },
+      {
+        "order": 4,
+        "text": "Pour the strained jaggery syrup into the mashed rice mixture and stir on medium-low flame. Cook for 3–4 minutes, stirring constantly, until the jaggery is absorbed and the pongal turns glossy and a deep caramel colour.",
+        "timerMinutes": 4,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Heat ghee in a small pan and fry cashews until golden, then add raisins until they puff. Pour the entire contents — ghee, cashews and raisins — over the pongal. Add crushed cardamom and fold through.",
+        "method": "tempering"
+      },
+      {
+        "order": 6,
+        "text": "Taste for sweetness — add more jaggery syrup if needed. Fold in grated coconut if using. Serve warm. Sakkarai pongal thickens as it cools; reheat with a splash of water and a small knob of ghee."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "saucepan",
+      "frying-pan"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "simmering",
+      "tempering"
+    ],
+    "tags": [
+      "tiffin",
+      "sweet",
+      "festival",
+      "pongal",
+      "comfort-food",
+      "budget",
+      "kids-friendly"
+    ],
+    "allergens": [
+      "dairy",
+      "nuts"
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 9,
+      "carbs": 82,
+      "fat": 14,
+      "fiber": 2,
+      "sugar": 48,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "jaggery",
+        "substitute": "brown sugar (reduce to 0.75 cup)",
+        "notes": "lacks the complex caramel depth of jaggery; add a pinch of cardamom extra to compensate"
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "coconut oil (3 tbsp)",
+        "notes": "dairy-free version; gives a coconutty note that actually complements the jaggery well"
+      },
+      {
+        "ingredient": "moong-dal",
+        "substitute": "chana-dal (soaked 30 min)",
+        "notes": "gives a nuttier, chewier texture; cook 2 extra whistles to ensure it softens"
+      }
+    ],
+    "culturalNote": "Sakkarai pongal is cooked outdoors in clay pots on the Pongal festival (Tai month, January) when the boiling pot is allowed to overflow — the overflow symbolises abundance and prosperity for the new harvest season.",
+    "regionalVariation": "Some households in Thirunelveli and Nagercoil use karupatti (palm jaggery) rather than cane jaggery, giving the pongal a darker colour and a faintly smoky, treacle-like depth. Brahmin families may add a small piece of edible camphor (pachai karpooram) for an aromatic finish.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  }
+]

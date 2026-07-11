@@ -1,0 +1,3320 @@
+[
+  {
+    "id": "ca-thai-green-curry",
+    "slug": "thai-green-curry",
+    "title": "Thai Green Curry with Homemade Paste",
+    "nativeTitle": "แกงเขียวหวาน",
+    "description": "Thailand's beloved green curry built from a freshly ground paste of green chillies, lemongrass and kaffir lime, then simmered in rich coconut milk with chicken and handfuls of Thai basil. The colour comes from fresh rather than dried chillies, giving the sauce a grassy, aromatic heat that distinguishes it from every other curry on the table.",
+    "cuisine": "thai",
+    "country": "thailand",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "boneless chicken thighs, cut into 3 cm pieces",
+        "normalizedName": "chicken",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "coconut milk, full-fat",
+        "normalizedName": "coconut-milk",
+        "quantity": 1,
+        "unit": "can",
+        "optional": false,
+        "notes": "400 ml; do not shake — the thick cream on top is used first"
+      },
+      {
+        "name": "fresh green chillies (bird's eye or serrano)",
+        "normalizedName": "green-chilli",
+        "quantity": 6,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "lemongrass stalks, tender white part only",
+        "normalizedName": "lemongrass",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "kaffir lime leaves",
+        "normalizedName": "kaffir-lime-leaves",
+        "quantity": 8,
+        "unit": "leaf",
+        "optional": false,
+        "notes": "4 go into the paste; 4 torn for cooking"
+      },
+      {
+        "name": "galangal or fresh ginger, thinly sliced",
+        "normalizedName": "ginger",
+        "quantity": 3,
+        "unit": "slice",
+        "optional": false,
+        "notes": "galangal is traditional; fresh ginger is a fine substitute"
+      },
+      {
+        "name": "garlic cloves",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander seeds",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "shrimp paste",
+        "normalizedName": "prawn",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "omit to keep it pescatarian-friendly"
+      },
+      {
+        "name": "fish sauce",
+        "normalizedName": "fish-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "palm sugar or jaggery",
+        "normalizedName": "jaggery",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "Thai basil or holy basil leaves",
+        "normalizedName": "basil",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false,
+        "notes": "fresh tulsi is botanically close and works well"
+      },
+      {
+        "name": "neutral cooking oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Blend the green chillies, lemongrass, 4 kaffir lime leaves, galangal (or ginger), garlic, cumin, coriander seeds and shrimp paste (if using) with 3 tablespoons of water until a smooth, fragrant paste forms. A blender gives the finest result; a food processor or mixie also works. Set aside."
+      },
+      {
+        "order": 2,
+        "text": "Open the coconut milk without shaking it. Spoon the thick cream off the top into a cold wok or kadai — you should get about 5-6 tablespoons. Heat over medium-high flame until the cream bubbles and sizzles, about 2-3 minutes.",
+        "timerMinutes": 3,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Add all the green curry paste to the bubbling coconut cream. Stir-fry continuously on medium-high heat for 3-4 minutes until the paste darkens slightly, turns fragrant and the oil begins to separate at the edges — this step is essential to remove the raw taste.",
+        "timerMinutes": 4,
+        "method": "stir-frying"
+      },
+      {
+        "order": 4,
+        "text": "Add the chicken pieces and toss to coat in the paste. Stir-fry on high heat for 3 minutes until the outside of the chicken is sealed and coloured, though it will still be raw inside — that is expected at this stage.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 5,
+        "text": "Pour in the remaining coconut milk and 100 ml of water. Add the fish sauce, jaggery and the remaining 4 torn kaffir lime leaves. Stir everything together and bring to a gentle simmer.",
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Cover and simmer on low-medium heat for 15 minutes, stirring once or twice, until the chicken is fully cooked through and the sauce has thickened slightly. Taste — it should be creamy, mildly sweet and fragrant. Adjust fish sauce for saltiness and jaggery for sweetness.",
+        "timerMinutes": 15
+      },
+      {
+        "order": 7,
+        "text": "Turn off the heat and stir in the Thai basil or tulsi leaves. The residual heat wilts the leaves and releases their aroma without destroying it. Serve immediately over steamed jasmine rice."
+      }
+    ],
+    "cookware": [
+      "wok",
+      "blender"
+    ],
+    "methods": [
+      "stir-frying",
+      "simmering",
+      "one-pot"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "party"
+    ],
+    "allergens": [
+      "fish",
+      "shellfish"
+    ],
+    "nutrition": {
+      "calories": 390,
+      "protein": 29,
+      "carbs": 10,
+      "fat": 27,
+      "fiber": 2,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "400 g firm tofu or mixed vegetables (brinjal, zucchini, baby corn)",
+        "notes": "reduce simmering time to 8 minutes for tofu"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "substitute": "2 tbsp light soy sauce plus a pinch of salt",
+        "notes": "loses some depth but still tasty"
+      },
+      {
+        "ingredient": "jaggery",
+        "substitute": "1 tsp brown sugar or regular sugar"
+      },
+      {
+        "ingredient": "kaffir-lime-leaves",
+        "substitute": "1 tsp finely grated lime or lemon zest",
+        "notes": "add at the same stage, a little goes a long way"
+      }
+    ],
+    "culturalNote": "Green curry — gang kiao wan, meaning 'sweet green curry' — is one of Thailand's most iconic dishes, the colour and freshness of its paste a marker of how recently it was ground. Thai street vendors and home cooks alike consider making the paste from scratch a mark of care.",
+    "regionalVariation": "Central Thailand keeps the paste thin and the gravy loose; northern Thailand makes a drier version with less coconut milk and more galangal, closer in spirit to a dry stir-fry.",
+    "indianKitchenAdaptation": "A kadai works perfectly in place of a wok — high heat and a heavy base are all that matter. Galangal is sold as 'Thai adrak' in some metro specialty stores (Chennai, Mumbai, Bengaluru); fresh ginger (adrak) is an excellent everyday substitute. Holy basil (tulsi) plants are found in most Indian homes and work well in place of Thai basil. Full-fat coconut milk cans are widely available on BigBasket and Amazon India. If fish sauce is unavailable, use 2 tbsp soy sauce and a pinch of salt.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-thai-red-curry",
+    "slug": "thai-red-curry",
+    "title": "Thai Red Curry with Tofu and Vegetables",
+    "nativeTitle": "แกงแดง",
+    "description": "A deeply aromatic Thai red curry built on a vibrant paste of dried red chillies, lemongrass and galangal, simmered in coconut milk with golden tofu, brinjal and capsicum. Lighter in heat than the green version but equally perfumed, it is a weeknight-friendly vegan dish that improves as it rests.",
+    "cuisine": "thai",
+    "country": "thailand",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "firm tofu, pressed and cubed",
+        "normalizedName": "tofu",
+        "quantity": 350,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "coconut milk, full-fat",
+        "normalizedName": "coconut-milk",
+        "quantity": 1,
+        "unit": "can",
+        "optional": false,
+        "notes": "400 ml; do not shake"
+      },
+      {
+        "name": "dried red chillies, soaked in hot water 10 min",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 6,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "lemongrass stalks, white part only",
+        "normalizedName": "lemongrass",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "kaffir lime leaves",
+        "normalizedName": "kaffir-lime-leaves",
+        "quantity": 6,
+        "unit": "leaf",
+        "optional": false,
+        "notes": "3 for paste, 3 torn for cooking"
+      },
+      {
+        "name": "galangal or fresh ginger",
+        "normalizedName": "ginger",
+        "quantity": 3,
+        "unit": "slice",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander seeds",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "brinjal (Thai eggplant), quartered",
+        "normalizedName": "brinjal",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "capsicum (red or green bell pepper), sliced",
+        "normalizedName": "capsicum",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "light soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "palm sugar or jaggery",
+        "normalizedName": "jaggery",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "Thai basil or holy basil leaves",
+        "normalizedName": "basil",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "neutral cooking oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Drain the soaked red chillies and blend with lemongrass, 3 kaffir lime leaves, galangal or ginger, garlic, cumin and coriander seeds with 3 tablespoons of water until a smooth, dark red paste forms. Set aside."
+      },
+      {
+        "order": 2,
+        "text": "Press the tofu firmly between layers of paper towel or a clean cloth for 5 minutes to remove excess water, then cut into 2 cm cubes. This prevents splattering when you pan-fry and helps the tofu hold its shape in the curry.",
+        "method": "pan-frying"
+      },
+      {
+        "order": 3,
+        "text": "Heat 1 tablespoon oil in a non-stick pan on medium-high heat. Pan-fry the tofu cubes for 4-5 minutes, turning once or twice, until golden on most sides. Remove and set aside — they will finish cooking in the curry.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 4,
+        "text": "In the same pan, heat remaining oil and spoon off the thick coconut cream from the top of the can. Fry the cream over medium-high heat for 2 minutes until it bubbles and separates slightly. Add the red curry paste and stir-fry for 3-4 minutes until dark, fragrant and the paste no longer smells raw.",
+        "timerMinutes": 4,
+        "method": "stir-frying"
+      },
+      {
+        "order": 5,
+        "text": "Add the brinjal and capsicum and stir to coat in the paste. Pour in the remaining coconut milk, add soy sauce, jaggery and the remaining 3 torn kaffir lime leaves. Stir everything together.",
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Simmer uncovered on medium heat for 10-12 minutes until the vegetables are tender and the sauce is slightly thickened. Add the pan-fried tofu in the last 3 minutes so it warms through without breaking apart. Taste and adjust soy sauce and jaggery.",
+        "timerMinutes": 12
+      },
+      {
+        "order": 7,
+        "text": "Turn off the heat and stir in the basil leaves. Serve hot over jasmine rice — the curry tastes even better the next day once the flavours have melded."
+      }
+    ],
+    "cookware": [
+      "wok",
+      "blender",
+      "frying-pan"
+    ],
+    "methods": [
+      "stir-frying",
+      "simmering",
+      "pan-frying"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "healthy"
+    ],
+    "allergens": [
+      "soy",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 310,
+      "protein": 14,
+      "carbs": 14,
+      "fat": 23,
+      "fiber": 3,
+      "sugar": 6,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "tofu",
+        "substitute": "350 g mixed vegetables (mushroom, broccoli, baby corn)",
+        "notes": "reduce simmering time to 8 minutes"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "coconut aminos for a soy-free version"
+      },
+      {
+        "ingredient": "jaggery",
+        "substitute": "1 tsp brown sugar"
+      },
+      {
+        "ingredient": "brinjal",
+        "substitute": "zucchini or mushrooms",
+        "notes": "any firm vegetable works well"
+      }
+    ],
+    "culturalNote": "Red curry paste gets its deep colour from dried red chillies rather than fresh, making it more shelf-stable than green curry paste and traditionally associated with the central plains of Thailand where dried spices were more common.",
+    "regionalVariation": "Southern Thai red curry is sharper and spicier with extra dried chillies and turmeric; Chiang Mai-style versions use bamboo shoots and minimal coconut milk.",
+    "indianKitchenAdaptation": "Use a kadai or non-stick pan. Dried Kashmiri red chillies or Byadgi chillies work beautifully in the paste — they give colour without overwhelming heat. Tofu (also known as 'bean curd' or 'tau fu') is available in the refrigerated section of large Indian supermarkets and organic stores. All other ingredients are readily sourced at Indian grocery stores or online.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-thai-pad-thai",
+    "slug": "thai-pad-thai",
+    "title": "Pad Thai with Prawns and Peanuts",
+    "nativeTitle": "ผัดไทย",
+    "description": "Thailand's definitive street noodle — flat rice noodles tossed on furious heat with plump prawns, scrambled egg, crunchy bean sprouts and a tangy tamarind sauce, then blanketed in crushed peanuts and finished with a wedge of lime. Street food made at home in under 40 minutes.",
+    "cuisine": "thai",
+    "country": "thailand",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "pescatarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 35,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "flat rice noodles, 3-5 mm width",
+        "normalizedName": "noodles",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false,
+        "notes": "soak in cold water 20 minutes until pliable, then drain"
+      },
+      {
+        "name": "medium prawns, peeled and deveined",
+        "normalizedName": "prawn",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "eggs",
+        "normalizedName": "egg",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "bean sprouts",
+        "normalizedName": "sprouts",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "spring onions, cut into 3 cm pieces",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tamarind pulp, dissolved in 4 tbsp warm water and strained",
+        "normalizedName": "tamarind",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "fish sauce",
+        "normalizedName": "fish-sauce",
+        "quantity": 2.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, minced",
+        "normalizedName": "garlic",
+        "quantity": 2,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "roasted peanuts, roughly crushed",
+        "normalizedName": "peanut",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "lime or lemon wedges, to serve",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "dried red chilli flakes, to garnish",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "neutral cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soak the rice noodles in cold water for 20 minutes until they are pliable and bend without snapping but are not fully soft — they will finish cooking in the wok. Drain and set aside. Meanwhile, mix the tamarind liquid, fish sauce and sugar in a small bowl to make the pad Thai sauce."
+      },
+      {
+        "order": 2,
+        "text": "Heat a wok or large kadai on the highest flame your stove allows. Add 2 tablespoons of oil and, when it shimmers, add the minced garlic. Stir-fry for 20 seconds until lightly golden.",
+        "method": "stir-frying"
+      },
+      {
+        "order": 3,
+        "text": "Add the prawns and stir-fry for 2 minutes until they turn pink and curl. Push them to the side of the wok, add the remaining tablespoon of oil to the centre, crack in the eggs and scramble them lightly. When the eggs are half-set, fold everything together.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 4,
+        "text": "Add the drained noodles to the wok and pour the pad Thai sauce over them immediately. Toss everything together on high heat for 2-3 minutes, using tongs or two spatulas, until the noodles absorb the sauce and pick up a little colour at the edges.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 5,
+        "text": "Add the bean sprouts and the white parts of the spring onion. Toss once or twice — 30 seconds maximum — to keep the sprouts crunchy. Taste and adjust fish sauce for salt or sugar for sweetness."
+      },
+      {
+        "order": 6,
+        "text": "Plate immediately. Scatter crushed peanuts and the green parts of the spring onion over the top. Serve with a lime wedge for squeezing and a pinch of chilli flakes on the side for those who want more heat."
+      }
+    ],
+    "cookware": [
+      "wok"
+    ],
+    "methods": [
+      "stir-frying",
+      "sauteing"
+    ],
+    "tags": [
+      "street-food",
+      "quick",
+      "comfort-food"
+    ],
+    "allergens": [
+      "shellfish",
+      "fish",
+      "egg",
+      "peanuts"
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 28,
+      "carbs": 52,
+      "fat": 18,
+      "fiber": 3,
+      "sugar": 7,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "prawn",
+        "substitute": "200 g chicken strips or firm tofu for non-seafood versions",
+        "notes": "chicken needs 4 minutes; tofu should be pressed and pan-fried first"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "substitute": "2.5 tbsp soy sauce plus a pinch of salt",
+        "notes": "slightly less complex but works well"
+      },
+      {
+        "ingredient": "tamarind",
+        "substitute": "2 tbsp lime juice plus 1 tsp brown sugar",
+        "notes": "less deep but tangy"
+      },
+      {
+        "ingredient": "peanut",
+        "substitute": "roasted cashew pieces or toasted sesame seeds for peanut allergy",
+        "notes": "cashews give a richer mouthfeel"
+      }
+    ],
+    "culturalNote": "Pad Thai became Thailand's national noodle dish partly through a 1940s government campaign to promote rice noodles over wheat noodles and unify a sense of Thai identity — a rare example of politics shaping a country's most beloved street food.",
+    "regionalVariation": "Bangkok street stalls serve it drier, with the egg cooked in a thin omelette wrapper around the noodles; Chiang Mai versions often use thin rice vermicelli instead of flat noodles.",
+    "indianKitchenAdaptation": "High heat is the soul of Pad Thai — a cast-iron kadai on a gas burner works perfectly. Use your stove's largest burner at full power. Flat rice noodles (called 'rice noodles' or 'banh pho' in Indian stores) are sold in most large supermarkets and online. Tamarind pulp (imli) is at every Indian grocery store; dissolve a small ball the size of a cherry in warm water and strain. Fish sauce is available at select gourmet stores and on Amazon India; soy sauce is a straightforward substitute.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-thai-pad-krapow",
+    "slug": "thai-pad-krapow",
+    "title": "Thai Pad Krapow (Holy Basil Chicken Stir-Fry)",
+    "nativeTitle": "ผัดกะเพรา",
+    "description": "The quintessential Thai street-food fix — minced chicken stir-fried at fierce heat with garlic, fresh chillies, fish sauce and oyster sauce, then lifted by an avalanche of holy basil. Spooned over jasmine rice and crowned with a runny-yolk fried egg, it is ready in under 25 minutes and endlessly satisfying.",
+    "cuisine": "thai",
+    "country": "thailand",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 12,
+    "totalTimeMinutes": 22,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "minced chicken (murgh keema)",
+        "normalizedName": "keema",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, roughly chopped",
+        "normalizedName": "garlic",
+        "quantity": 5,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "fresh green chillies, roughly chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "holy basil or Thai basil leaves (krapow)",
+        "normalizedName": "basil",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false,
+        "notes": "about 25-30 leaves; fresh tulsi is an excellent substitute"
+      },
+      {
+        "name": "fish sauce",
+        "normalizedName": "fish-sauce",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "oyster sauce",
+        "normalizedName": "oyster-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "light soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "eggs, 1 per serving",
+        "normalizedName": "egg",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "neutral cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Using the flat of a knife or a small mortar and pestle, pound the garlic and green chillies into a rough paste — leave some texture and visible chilli seeds rather than grinding it smooth. This coarse paste fries better and gives more character than a blender paste."
+      },
+      {
+        "order": 2,
+        "text": "Heat 2 tablespoons of oil in a wok or kadai on the highest flame available. When a drop of water flicked in the oil spits immediately, add the garlic-chilli paste and stir-fry for 30 seconds until fragrant and just turning golden at the edges.",
+        "method": "stir-frying"
+      },
+      {
+        "order": 3,
+        "text": "Add the minced chicken, breaking it up immediately with a spatula into small pieces. Stir-fry on high heat for 4-5 minutes, pressing the mince against the wok surface occasionally, until no pink remains and the chicken begins to caramelise lightly at the edges.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 4,
+        "text": "Add fish sauce, oyster sauce, soy sauce and sugar. Toss and stir for 1 minute until the sauces coat every piece of chicken and reduce to a glossy glaze. Taste — it should be intensely savoury, slightly sweet and fiery.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 5,
+        "text": "Turn off the flame and immediately add the basil leaves. Toss them through with the residual heat — about 10-15 seconds is enough to wilt and perfume them without turning them black and bitter. Remove from heat."
+      },
+      {
+        "order": 6,
+        "text": "In a separate small pan, heat 1 tablespoon oil over medium-high heat. Crack in the eggs and fry until the whites are set and crispy at the edges but the yolk is still runny, about 2 minutes. Spoon the basil chicken over individual bowls of steamed rice and top each with a fried egg. Serve at once.",
+        "timerMinutes": 2,
+        "method": "pan-frying"
+      }
+    ],
+    "cookware": [
+      "wok",
+      "frying-pan"
+    ],
+    "methods": [
+      "stir-frying",
+      "pan-frying"
+    ],
+    "tags": [
+      "street-food",
+      "quick",
+      "comfort-food",
+      "bachelor-friendly"
+    ],
+    "allergens": [
+      "fish",
+      "shellfish",
+      "soy",
+      "gluten",
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 430,
+      "protein": 36,
+      "carbs": 10,
+      "fat": 26,
+      "fiber": 1,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "keema",
+        "substitute": "300 g firm tofu, crumbled, for a vegetarian version",
+        "notes": "reduce stir-fry time to 3 minutes; the tofu should be pressed dry first"
+      },
+      {
+        "ingredient": "oyster-sauce",
+        "substitute": "1 tbsp soy sauce plus 0.5 tsp sugar",
+        "notes": "approximates the sweet-savoury balance"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "substitute": "1.5 tbsp soy sauce"
+      },
+      {
+        "ingredient": "basil",
+        "substitute": "20 fresh tulsi (holy basil) leaves",
+        "notes": "tulsi is botanically similar and gives an almost identical aroma"
+      }
+    ],
+    "culturalNote": "Pad Krapow is the dish Thais order when they cannot decide — sold from almost every street stall and cafeteria in Thailand as a reliable, fast and intensely comforting one-bowl meal. The fried egg on top (khai dao) is so expected that ordering without it is considered unusual.",
+    "regionalVariation": "Pork (moo krapow) is the original street version; seafood krapow is popular in coastal cities. Northern Thai cooks sometimes stir a spoonful of red curry paste into the mince for extra depth and colour.",
+    "indianKitchenAdaptation": "A cast-iron kadai on maximum gas flame replicates the wok perfectly. Minced chicken (murgh keema) is available fresh at any Indian chicken shop. Holy basil (tulsi) grows in most Indian homes and yards and is the closest plant to krapow basil — use it freely. Oyster sauce is found in the sauces aisle of most large Indian supermarkets; if unavailable, extra soy sauce with a pinch of sugar is a simple swap.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-thai-tom-yum-soup",
+    "slug": "thai-tom-yum-soup",
+    "title": "Thai Tom Yum Soup with Prawns",
+    "nativeTitle": "ต้มยำกุ้ง",
+    "description": "Thailand's electrifying hot-and-sour broth — a clear, spiced stock of lemongrass, kaffir lime and galangal made deeply aromatic, then loaded with plump prawns, mushrooms and ripe tomato. One spoonful is sharp, fragrant and warming all at once; it is the soup that defines an entire culinary tradition.",
+    "cuisine": "thai",
+    "country": "thailand",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "dietType": [
+      "pescatarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "medium prawns, shell-on (heads reserved)",
+        "normalizedName": "prawn",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "lemongrass stalks, bruised and cut into 4 cm pieces",
+        "normalizedName": "lemongrass",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "kaffir lime leaves, torn in half",
+        "normalizedName": "kaffir-lime-leaves",
+        "quantity": 6,
+        "unit": "leaf",
+        "optional": false
+      },
+      {
+        "name": "galangal or fresh ginger, thinly sliced",
+        "normalizedName": "ginger",
+        "quantity": 5,
+        "unit": "slice",
+        "optional": false,
+        "notes": "galangal is traditional; ginger gives a slightly sharper broth"
+      },
+      {
+        "name": "mushrooms (button or oyster), halved",
+        "normalizedName": "mushroom",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "ripe tomatoes, cut into wedges",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "fresh green or red chillies, bruised",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "fish sauce",
+        "normalizedName": "fish-sauce",
+        "quantity": 2.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "lime or lemon juice, freshly squeezed",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false,
+        "notes": "about 3-4 tbsp juice; add off the heat to preserve brightness"
+      },
+      {
+        "name": "roasted chilli paste (nam prik pao)",
+        "normalizedName": "green-chilli-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "for a richer, smokier broth; substitute with 1 tsp extra chilli or omit"
+      },
+      {
+        "name": "fresh coriander leaves",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "spring onions, sliced",
+        "normalizedName": "spring-onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 1,
+        "unit": "l",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Peel and devein the prawns, keeping the shells and heads aside. Place the prawn shells and heads in a saucepan with 1 litre of water and bring to a boil. Simmer for 8-10 minutes, then strain and discard the shells, reserving the sweet, amber-coloured prawn stock.",
+        "timerMinutes": 10,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Bruise the lemongrass stalks firmly with a rolling pin or the back of a knife — they should be battered open to release their oils. Tear the kaffir lime leaves in half. These aromatics are not eaten; they are flavouring agents only."
+      },
+      {
+        "order": 3,
+        "text": "Bring the prawn stock back to a rolling boil. Add the lemongrass, kaffir lime leaves, galangal or ginger slices and bruised chillies. Boil for 3 minutes to steep the aromatics and build the base.",
+        "timerMinutes": 3,
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "Add the mushrooms and tomato wedges. Simmer for 3 minutes until the mushrooms are just cooked but still have a little bite. Add the roasted chilli paste if using and stir to dissolve.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 5,
+        "text": "Add the peeled prawns and cook for 2-3 minutes, just until they turn fully pink and opaque. Prawns overcook quickly — they should be just done, not rubbery.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 6,
+        "text": "Remove from heat. Add fish sauce and lime or lemon juice — both are added off the heat to keep their fresh, bright character. Taste: the soup should be intensely sour, salty and hot. Adjust by adding more lime for sourness, fish sauce for saltiness, or extra chilli for heat."
+      },
+      {
+        "order": 7,
+        "text": "Ladle into bowls and top with fresh coriander and sliced spring onion. Warn diners that the lemongrass, galangal and kaffir lime leaves are for fragrance only and should be pushed aside when eating."
+      }
+    ],
+    "cookware": [
+      "saucepan",
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "boiling",
+      "simmering",
+      "one-pot"
+    ],
+    "tags": [
+      "soup",
+      "healthy",
+      "quick",
+      "comfort-food"
+    ],
+    "allergens": [
+      "shellfish",
+      "fish"
+    ],
+    "nutrition": {
+      "calories": 145,
+      "protein": 18,
+      "carbs": 8,
+      "fat": 3,
+      "fiber": 2,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "prawn",
+        "substitute": "200 g fish fillets (tilapia, cod) or mixed mushrooms for a vegetarian version"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "substitute": "2.5 tbsp soy sauce plus a pinch of salt"
+      },
+      {
+        "ingredient": "lemon",
+        "substitute": "3 tbsp white vinegar (less fragrant but achieves the sourness)",
+        "notes": "fresh lime is always preferred"
+      },
+      {
+        "ingredient": "kaffir-lime-leaves",
+        "substitute": "1 tsp grated lime zest added with the aromatics"
+      }
+    ],
+    "culturalNote": "Tom yum — literally 'boil and mix' in Thai — has been a household and restaurant staple for centuries, its broth as variable as the households that make it. The clear version (nam sai) showcases the aromatics cleanly; a tablespoon of coconut milk or evaporated milk stirred in at the end creates the creamier nam khon variant.",
+    "regionalVariation": "Southern Thai tom yum includes more chillies and turmeric; in the north, the aromatics are heavier on galangal and lesser on lemongrass. Bangkok restaurants often serve it with straw mushrooms, which are sweeter than button mushrooms.",
+    "indianKitchenAdaptation": "A heavy-bottomed patila or saucepan works well. Galangal can be fully replaced with fresh ginger (adrak), widely available everywhere. Lemongrass is sold at vegetable markets in larger Indian cities and increasingly on BigBasket; if unavailable, add a strip of lemon peel and a tablespoon of lemon juice at the start of cooking for a partial substitute. Fish sauce is available at gourmet stores and online; soy sauce is a quick swap.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-thai-pineapple-fried-rice",
+    "slug": "thai-pineapple-fried-rice",
+    "title": "Thai Pineapple Fried Rice",
+    "nativeTitle": "ข้าวผัดสับปะรด",
+    "description": "Fragrant jasmine rice stir-fried with sweet pineapple chunks, prawns, egg and cashews, perfumed with curry powder and fish sauce, and served inside a hollowed pineapple shell for a festive presentation. The natural sweetness of the fruit balances every savoury element in the wok.",
+    "cuisine": "thai",
+    "country": "thailand",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 30,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "cooked jasmine rice, a day old and cold",
+        "normalizedName": "rice",
+        "quantity": 3,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "fresh pineapple, cut into small chunks",
+        "normalizedName": "pineapple",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "medium prawns, peeled and deveined",
+        "normalizedName": "prawn",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "eggs",
+        "normalizedName": "egg",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cashew nuts",
+        "normalizedName": "cashew",
+        "quantity": 40,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "spring onions, sliced",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, minced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "curry powder or mild yellow curry masala",
+        "normalizedName": "curry-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fish sauce",
+        "normalizedName": "fish-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "light soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "neutral cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "fresh coriander leaves, to garnish",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "If you have a whole pineapple, halve it lengthwise, scoop out the flesh (cutting around the core) and cut the flesh into small chunks, keeping the shell intact for serving. If using pre-cut pineapple, simply cut into 1.5 cm chunks. Cold leftover rice is essential — fresh rice steams and clumps; day-old rice fries and separates."
+      },
+      {
+        "order": 2,
+        "text": "Heat a wok over high heat until it smokes lightly. Add the cashews to the dry wok and toast for 1-2 minutes until golden and fragrant, then remove and set aside. Return the wok to high heat, add 1 tablespoon oil and stir-fry the prawns for 2 minutes until just pink. Remove and set aside.",
+        "timerMinutes": 4,
+        "method": "stir-frying"
+      },
+      {
+        "order": 3,
+        "text": "Add remaining oil to the wok. Add garlic and stir-fry 20 seconds until fragrant. Add the curry powder and stir for 10 seconds — it will bloom and turn the oil golden. Quickly add the cold rice and toss vigorously for 2-3 minutes, pressing and folding, until every grain is coated and heated through.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 4,
+        "text": "Push the rice to the sides. Add a little more oil to the centre, crack in the eggs and scramble loosely. When half-set, fold the egg through the rice and toss everything together until the egg is fully incorporated and the rice looks dry and separate."
+      },
+      {
+        "order": 5,
+        "text": "Add the pineapple chunks, fish sauce, soy sauce and sugar. Toss everything together for 1 minute on high heat. The pineapple will release a little juice that the rice absorbs quickly. Add the cooked prawns back and toss once more.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 6,
+        "text": "Add the white parts of the spring onion and toasted cashews. Taste and adjust — it should be savoury, slightly sweet from the pineapple and warmly spiced. Serve in the hollowed pineapple shells or in bowls, garnished with coriander leaves and the green tops of the spring onion."
+      }
+    ],
+    "cookware": [
+      "wok"
+    ],
+    "methods": [
+      "stir-frying",
+      "sauteing"
+    ],
+    "tags": [
+      "party",
+      "comfort-food",
+      "quick",
+      "leftover-friendly"
+    ],
+    "allergens": [
+      "shellfish",
+      "fish",
+      "egg",
+      "nuts",
+      "soy",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 540,
+      "protein": 24,
+      "carbs": 68,
+      "fat": 18,
+      "fiber": 3,
+      "sugar": 10,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "prawn",
+        "substitute": "150 g chicken strips or extra cashews for vegetarian",
+        "notes": "chicken needs 4 minutes stir-fry time"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "substitute": "2 tbsp soy sauce plus a pinch of salt"
+      },
+      {
+        "ingredient": "pineapple",
+        "substitute": "mango chunks or raisins for a different tropical note"
+      },
+      {
+        "ingredient": "cashew",
+        "substitute": "roasted peanuts or slivered almonds",
+        "notes": "different texture but equally good"
+      }
+    ],
+    "culturalNote": "Pineapple fried rice served inside the fruit shell is a dish found across Thai resort towns and beachside restaurants, balancing the tropical abundance of the Thai coast with the wok's transformative heat.",
+    "regionalVariation": "Southern coastal versions may include crab meat or squid; restaurant versions in Bangkok sometimes add golden raisins and a splash of fish sauce caramel for extra depth.",
+    "indianKitchenAdaptation": "Use a cast-iron kadai or large non-stick pan at maximum heat. Day-old rice from your normal sona masoori or ponni stock works perfectly — the grain size is similar to jasmine rice. Curry powder (sold everywhere in India) replaces the Thai yellow curry spice blend closely. Fresh pineapple (annasi) is available at most sabzi markets year-round in tropical India. Cashews (kaju) are a natural Indian pantry staple.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-thai-mango-sticky-rice",
+    "slug": "thai-mango-sticky-rice",
+    "title": "Thai Mango Sticky Rice",
+    "nativeTitle": "ข้าวเหนียวมะม่วง",
+    "description": "One of Thailand's most iconic street desserts — glutinous rice steamed until tender, soaked in sweetened warm coconut milk and served alongside sliced ripe mango with a drizzle of salted coconut cream on top. Deceptively simple, deeply satisfying and completely vegan.",
+    "cuisine": "thai",
+    "country": "thailand",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "dessert",
+      "snack"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 240,
+    "cookTimeMinutes": 40,
+    "totalTimeMinutes": 280,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "glutinous (sticky) rice, soaked 4 hours or overnight",
+        "normalizedName": "rice",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "also called sweet rice or khao niao; soak before starting"
+      },
+      {
+        "name": "ripe alphonso or kesar mangoes",
+        "normalizedName": "mango",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false,
+        "notes": "must be fully ripe and sweet"
+      },
+      {
+        "name": "coconut milk, full-fat",
+        "normalizedName": "coconut-milk",
+        "quantity": 400,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "sesame seeds, toasted, to garnish",
+        "normalizedName": "sesame-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Rinse the soaked glutinous rice until the water runs clear, then drain. Line a steamer basket with a damp muslin cloth or cheesecloth and spread the rice in an even layer. Steam over boiling water on medium heat for 25-30 minutes until the grains are translucent and tender but still slightly chewy — a grain pressed between fingers should be fully soft with no hard white centre.",
+        "timerMinutes": 30,
+        "method": "steaming"
+      },
+      {
+        "order": 2,
+        "text": "While the rice steams, gently heat the coconut milk in a small saucepan over low heat. Add 3 tablespoons of sugar and 0.25 teaspoon of salt, stirring until dissolved. Do not boil — just warm enough to dissolve the sugar, about 3 minutes. Remove from heat and divide into two portions: roughly 300 ml for soaking the rice, and 100 ml reserved for the topping sauce.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 3,
+        "text": "Transfer the hot steamed rice to a large mixing bowl immediately. Pour the 300 ml portion of sweetened coconut milk over the hot rice and fold gently to coat every grain. Cover tightly with a plate or cling film and rest for 20-25 minutes — the rice will absorb the coconut milk and become glossy, soft and fragrant.",
+        "timerMinutes": 25
+      },
+      {
+        "order": 4,
+        "text": "Make the salted coconut topping sauce: to the reserved 100 ml of coconut milk, add the remaining 1 tablespoon of sugar and 0.25 teaspoon of salt. Stir over low heat for 1 minute until the sugar dissolves. This thin, salty-sweet sauce is the finishing touch."
+      },
+      {
+        "order": 5,
+        "text": "Peel the mangoes and slice the flesh cleanly off the stone in smooth, long cuts. Fan the slices out on a plate or arrange alongside a generous mound of the soaked sticky rice. Drizzle the salted coconut topping sauce over the rice, scatter toasted sesame seeds on top if using, and serve at room temperature. The dish does not keep well; eat within 2 hours.",
+        "method": "no-cook"
+      }
+    ],
+    "cookware": [
+      "steamer",
+      "saucepan"
+    ],
+    "methods": [
+      "steaming",
+      "simmering",
+      "no-cook"
+    ],
+    "tags": [
+      "sweet",
+      "summer",
+      "street-food",
+      "festival",
+      "kids-friendly"
+    ],
+    "allergens": [
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein": 5,
+      "carbs": 78,
+      "fat": 11,
+      "fiber": 3,
+      "sugar": 32,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "mango",
+        "substitute": "ripe papaya slices or fresh lychees",
+        "notes": "papaya is more widely available and equally complementary"
+      },
+      {
+        "ingredient": "rice",
+        "substitute": "short-grain sushi rice for a slightly different texture",
+        "notes": "sushi rice works in a pinch; sticky rice gives a more authentic chewy result"
+      },
+      {
+        "ingredient": "sesame-seeds",
+        "substitute": "a drizzle of coconut cream and a mint leaf for garnish"
+      }
+    ],
+    "culturalNote": "Mango sticky rice (khao niao mamuang) follows the Thai mango season — April and May — when the fields of Chachoengsao and Nakhon Pathom flood the markets with fragrant nam dok mai mangoes. Street vendors push carts through Bangkok's lanes selling this dessert wrapped in banana leaves from April onwards.",
+    "regionalVariation": "Northern Thai versions sometimes use black glutinous rice which gives a striking purple colour and a slightly nuttier flavour; the sweet coconut milk proportion and mango pairing remain the same.",
+    "indianKitchenAdaptation": "Steam the rice in an idli steamer lined with a damp muslin cloth — this works excellently. Sticky (glutinous) rice is sold as 'sweet rice' or 'glutinous rice' in Indian Asian grocery stores and online (Amazon India). Indian alphonso, kesar or banganapalli mangoes in season are arguably better than Thai varieties and work perfectly. All other ingredients are readily available in India.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-thai-fish-cakes",
+    "slug": "thai-fish-cakes",
+    "title": "Thai Fish Cakes",
+    "nativeTitle": "ทอดมันปลา",
+    "description": "Springy, fragrant discs of minced fish mixed with red curry paste, kaffir lime leaves, green beans and fish sauce, shallow-fried until golden and served with a sweet-tangy cucumber relish. A beloved Thai street snack that is crisp outside, bouncy within and packed with herbal aromatics.",
+    "cuisine": "thai",
+    "country": "thailand",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack",
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "pescatarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "white fish fillets (tilapia, pollock or any firm white fish), roughly chopped",
+        "normalizedName": "fish",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "red curry paste (store-bought)",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "store-bought Thai red curry paste; mix of chilli powder and spices approximates it"
+      },
+      {
+        "name": "kaffir lime leaves, very finely sliced into thin strips",
+        "normalizedName": "kaffir-lime-leaves",
+        "quantity": 4,
+        "unit": "leaf",
+        "optional": false
+      },
+      {
+        "name": "green beans, thinly sliced into 3 mm rounds",
+        "normalizedName": "beans",
+        "quantity": 80,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "fish sauce",
+        "normalizedName": "fish-sauce",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "egg",
+        "normalizedName": "egg",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cucumber, finely diced (for relish)",
+        "normalizedName": "cucumber",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "vinegar (white or rice)",
+        "normalizedName": "vinegar",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "for the dipping relish"
+      },
+      {
+        "name": "sugar (for relish)",
+        "normalizedName": "sugar",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "for the cucumber relish"
+      },
+      {
+        "name": "peanuts, crushed (for relish)",
+        "normalizedName": "peanut",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "sprinkled on the relish"
+      },
+      {
+        "name": "neutral cooking oil, for shallow-frying",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Make the cucumber relish first so it has time to meld: combine the diced cucumber with vinegar, sugar and a pinch of salt in a small bowl. Stir until the sugar dissolves. Add crushed peanuts if using. Set aside at room temperature."
+      },
+      {
+        "order": 2,
+        "text": "Place the fish pieces in a food processor or mixie. Blend to a rough paste — you want it sticky but not completely smooth; some texture is good. Add the red curry paste, fish sauce, egg, sugar and half the kaffir lime leaf strips. Pulse a few times to combine.",
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Transfer the fish paste to a bowl. Add the sliced green beans and the remaining kaffir lime leaf strips. Mix well by hand — the mixture should be sticky enough to hold its shape when pressed into a patty. If too wet, refrigerate for 15 minutes."
+      },
+      {
+        "order": 4,
+        "text": "With wet hands, shape the mixture into flat round patties about 6 cm wide and 1 cm thick. You should get about 12-14 pieces. Wet hands prevent sticking and help shape the patties smoothly.",
+        "method": "shallow-frying"
+      },
+      {
+        "order": 5,
+        "text": "Heat the oil in a flat-bottomed pan or tawa over medium heat. When the oil shimmers, add the fish cakes in a single layer without crowding. Fry for 3-4 minutes per side until deep golden and cooked through — press one gently with a spatula; it should feel firm, not squishy.",
+        "timerMinutes": 8,
+        "method": "shallow-frying"
+      },
+      {
+        "order": 6,
+        "text": "Drain on paper towel for 1 minute. Serve hot with the cucumber relish on the side for dipping. Fish cakes are best eaten immediately while crisp; they soften as they cool."
+      }
+    ],
+    "cookware": [
+      "frying-pan",
+      "blender"
+    ],
+    "methods": [
+      "shallow-frying",
+      "sauteing"
+    ],
+    "tags": [
+      "street-food",
+      "fried-snack",
+      "party",
+      "quick"
+    ],
+    "allergens": [
+      "fish",
+      "egg",
+      "peanuts"
+    ],
+    "nutrition": {
+      "calories": 240,
+      "protein": 24,
+      "carbs": 10,
+      "fat": 13,
+      "fiber": 2,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "fish",
+        "substitute": "400 g peeled prawns, blended, for a prawn cake version"
+      },
+      {
+        "ingredient": "red-chilli-powder",
+        "substitute": "1 tbsp red chilli paste or a mix of 1 tsp chilli powder, 1 tsp lemongrass paste and 0.5 tsp turmeric",
+        "notes": "approximate the curry paste flavour"
+      },
+      {
+        "ingredient": "kaffir-lime-leaves",
+        "substitute": "0.5 tsp finely grated lime zest mixed into the paste"
+      },
+      {
+        "ingredient": "beans",
+        "substitute": "finely sliced spring onion or grated carrot",
+        "notes": "for crunch and colour"
+      }
+    ],
+    "culturalNote": "Tod mun pla (literally 'fried fish paste') is one of Thailand's most popular street snacks, sold from carts alongside sticky rice and papaya salad. The bounce of a good fish cake — achieved by beating the paste until it becomes elastic — is a mark of the cook's skill.",
+    "regionalVariation": "Southern Thai fish cakes are spicier and sometimes include turmeric for a yellow hue; versions in Isan use fresh river catfish and less coconut-based spicing.",
+    "indianKitchenAdaptation": "Use a flat tawa or non-stick pan for even shallow-frying. Any firm white fish available in Indian markets works well — tilapia (tilapia), seer fish (vanjaram) or pomfret all give good results. Red curry paste can be approximated with a mixture of Kashmiri chilli paste, lemongrass paste (available as a tube in specialty stores) and a little ginger-garlic paste. A mixie blends the fish paste perfectly.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-thai-larb-chicken",
+    "slug": "thai-larb-chicken",
+    "title": "Thai Larb-Style Minced Chicken Salad",
+    "nativeTitle": "ลาบไก่",
+    "description": "A vibrant, textured minced chicken salad from northeastern Thailand — cooked chicken mince tossed with fresh herbs, toasted rice powder, lime juice, fish sauce and chilli. Served at room temperature with a few sticky rice balls and raw vegetables on the side, it is as refreshing as it is fiery.",
+    "cuisine": "thai",
+    "country": "thailand",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein",
+      "low_carb"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 10,
+    "totalTimeMinutes": 25,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "minced chicken",
+        "normalizedName": "keema",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false,
+        "notes": "murgh keema; ask for coarsely ground, not paste-fine"
+      },
+      {
+        "name": "raw rice, toasted and ground to powder",
+        "normalizedName": "rice",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "dry-toast in a pan until golden, then grind coarsely in mixie"
+      },
+      {
+        "name": "shallots or small red onions, thinly sliced",
+        "normalizedName": "shallot",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "lemon or lime, juiced",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false,
+        "notes": "about 4 tbsp fresh juice"
+      },
+      {
+        "name": "fish sauce",
+        "normalizedName": "fish-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chilli flakes",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "adjust to taste; larb is traditionally very hot"
+      },
+      {
+        "name": "fresh mint leaves",
+        "normalizedName": "mint",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "fresh coriander leaves, roughly torn",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "spring onions, thinly sliced",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "neutral cooking oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Toast the raw rice in a dry pan over medium heat, shaking frequently, for 3-4 minutes until the grains are evenly golden and smell nutty. Let cool for 2 minutes, then grind coarsely in a mixie or mortar — it should have the texture of coarse sand, not fine powder. This toasted rice powder (khao khua) is what gives larb its distinctive textured bite.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a pan on medium-high heat. Add the minced chicken and cook, breaking it up constantly, for 6-8 minutes until fully cooked through and slightly caramelised. There should be no pink visible. Remove from heat and let it cool for 5 minutes.",
+        "timerMinutes": 8,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "In a large mixing bowl, combine the warm chicken mince with lime juice, fish sauce, sugar, chilli flakes and toasted rice powder. Toss well — the lime juice and fish sauce are the dressing, not a garnish, so mix thoroughly."
+      },
+      {
+        "order": 4,
+        "text": "Add the sliced shallots, spring onion, mint leaves and coriander. Toss gently to combine everything without bruising the herbs. Taste: the salad should be lip-smackingly sour, salty, spicy and just barely sweet. Add more lime for sourness, fish sauce for saltiness or chilli for heat."
+      },
+      {
+        "order": 5,
+        "text": "Pile onto a serving plate. Serve immediately with raw cucumber slices, cabbage wedges or a few balls of sticky rice on the side for wrapping. The herbs will wilt if left too long, so this dish must be eaten soon after tossing.",
+        "method": "no-cook"
+      }
+    ],
+    "cookware": [
+      "frying-pan",
+      "mixie"
+    ],
+    "methods": [
+      "sauteing",
+      "no-cook"
+    ],
+    "tags": [
+      "salad",
+      "healthy",
+      "quick",
+      "gym",
+      "low-oil"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "nutrition": {
+      "calories": 280,
+      "protein": 34,
+      "carbs": 12,
+      "fat": 11,
+      "fiber": 2,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "keema",
+        "substitute": "minced pork or soya chunks (soaked and squeezed) for a vegetarian version"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "substitute": "2 tbsp soy sauce plus a pinch of salt"
+      },
+      {
+        "ingredient": "lemon",
+        "substitute": "4 tbsp tamarind water for a more tropical sourness"
+      },
+      {
+        "ingredient": "mint",
+        "substitute": "extra coriander or Vietnamese coriander (rau ram), if available"
+      }
+    ],
+    "culturalNote": "Larb (sometimes spelled laab or laap) is the national dish of Laos and equally beloved in northeastern Thailand (Isan), where it is eaten with sticky rice and is considered a dish of celebration — served at weddings, merit-making events and family gatherings.",
+    "regionalVariation": "The raw version (larb dip) uses uncooked minced meat with more blood and extra chilli and is eaten in rural northern Thailand; the cooked version is more widely eaten and safer for home cooking. Pork larb is common in Laos; chicken is more typical of Thai restaurants.",
+    "indianKitchenAdaptation": "Minced chicken (murgh keema) is available at every Indian chicken shop — ask for a coarse grind. A mixie or small food processor grinds the toasted rice to the right consistency in 10 seconds. All herbs — mint (pudina) and coriander (kothamalli) — are Indian pantry essentials. This salad requires no special equipment and comes together entirely in a kadai and a mixing bowl.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-viet-pho-ga",
+    "slug": "viet-pho-ga",
+    "title": "Vietnamese Chicken Pho (Pho Ga)",
+    "nativeTitle": "Phở Gà",
+    "description": "A pale, crystal-clear Vietnamese chicken broth perfumed with charred ginger, star anise and cinnamon, served over silky rice noodles with shredded chicken and a generous garnish platter. Lighter than the beef version, pho ga is a restorative bowl that proves fragrance is as important as flavour.",
+    "cuisine": "vietnamese",
+    "country": "vietnam",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 70,
+    "totalTimeMinutes": 90,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "whole chicken or 800 g chicken pieces with bone",
+        "normalizedName": "chicken",
+        "quantity": 800,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "fresh ginger, halved lengthwise",
+        "normalizedName": "ginger",
+        "quantity": 6,
+        "unit": "slice",
+        "optional": false,
+        "notes": "char directly over flame or dry-toast in pan for depth"
+      },
+      {
+        "name": "onion, halved",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false,
+        "notes": "charred alongside the ginger for sweetness"
+      },
+      {
+        "name": "star anise",
+        "normalizedName": "star-anise",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cinnamon stick",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "flat rice noodles (pho noodles)",
+        "normalizedName": "noodles",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false,
+        "notes": "soak in cold water 20 minutes, blanch 1 minute in boiling water before serving"
+      },
+      {
+        "name": "fish sauce",
+        "normalizedName": "fish-sauce",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "spring onions, thinly sliced",
+        "normalizedName": "spring-onion",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "fresh coriander",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "bunch",
+        "optional": false
+      },
+      {
+        "name": "bean sprouts, for garnish",
+        "normalizedName": "sprouts",
+        "quantity": 100,
+        "unit": "g",
+        "optional": true
+      },
+      {
+        "name": "lime or lemon, wedges for serving",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chillies, sliced for garnish",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 2,
+        "unit": "l",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Char the ginger and halved onion: hold them over a gas flame with tongs, turning, until charred in patches and soft, about 4-5 minutes. Alternatively, place cut-side down in a dry heavy pan over high heat until blackened. This step creates a sweet smokiness that is the signature of pho broth.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Place the chicken in a large pot with 2 litres of cold water. Bring to a boil over high heat. When the scum rises (about 5 minutes), pour off the water and rinse both the chicken and pot. This parboiling removes impurities and produces a clear, clean broth.",
+        "timerMinutes": 5,
+        "method": "boiling"
+      },
+      {
+        "order": 3,
+        "text": "Return the cleaned chicken to the pot with fresh cold water (2 litres). Add the charred ginger, charred onion, star anise, cinnamon stick and cloves. Bring to a gentle boil, then reduce to the lowest simmer — the broth should barely murmur, not roll. Simmer for 50-60 minutes until the chicken is completely tender and the broth is fragrant.",
+        "timerMinutes": 60,
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "Remove the chicken and set aside to cool slightly. Strain the broth through a fine sieve into a clean pot, discarding all solids. Season with fish sauce, sugar and salt. The broth should taste clear, savoury and deeply fragrant. Return to a gentle simmer.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 5,
+        "text": "When the chicken is cool enough to handle, shred the meat from the bones using your fingers or two forks. Discard skin and bones. Fluff the shredded meat and set aside."
+      },
+      {
+        "order": 6,
+        "text": "Prepare the noodles: blanch the soaked rice noodles in a separate pot of boiling water for 1 minute until just tender. Drain and divide between 4 large deep bowls. Top each bowl with shredded chicken."
+      },
+      {
+        "order": 7,
+        "text": "Ladle the hot broth over the noodles and chicken — it should be piping hot. Garnish with spring onion, coriander sprigs and bean sprouts. Serve immediately with lime wedges and sliced green chillies on the side so each diner can customise their bowl."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "saucepan"
+    ],
+    "methods": [
+      "boiling",
+      "simmering",
+      "one-pot"
+    ],
+    "tags": [
+      "soup",
+      "comfort-food",
+      "healthy",
+      "bowl"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "nutrition": {
+      "calories": 390,
+      "protein": 32,
+      "carbs": 45,
+      "fat": 7,
+      "fiber": 2,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "800 g mixed vegetables and tofu with vegetable stock for a vegan pho",
+        "notes": "use soy sauce instead of fish sauce"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "substitute": "3 tbsp soy sauce plus a pinch of salt"
+      },
+      {
+        "ingredient": "star-anise",
+        "substitute": "fennel seeds (sombu), 1 tsp, for a milder anise note",
+        "notes": "the spice profile will be subtler but still aromatic"
+      },
+      {
+        "ingredient": "noodles",
+        "substitute": "any flat rice noodle or thin vermicelli; even leftover rice works as a rice soup variant"
+      }
+    ],
+    "culturalNote": "Pho originated in northern Vietnam in the early 20th century, likely as a fusion of French pot-au-feu and Chinese beef noodle soup influences, and has since become Vietnam's most internationally recognised dish. Pho ga (chicken pho) is lighter than the beef version and often served as a morning meal in Vietnamese homes.",
+    "regionalVariation": "Hanoi-style pho is spare — fewer garnishes, clear broth, scallion oil; Saigon-style pho comes with a wide garnish plate of bean sprouts, fresh basil and hoisin sauce, and the broth is slightly sweeter.",
+    "indianKitchenAdaptation": "Use a large stainless steel patila or pressure cooker (without pressurising it) for the broth — simmer with the lid ajar for the full time. Charring ginger and onion is easiest over an Indian gas flame using tongs. Star anise (annachi mokku) and cinnamon are Indian pantry staples. Flat rice noodles are sold in large Indian supermarkets; if unavailable, thin rice vermicelli (semiya made from rice) works. Fish sauce can be replaced with soy sauce.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-viet-banh-mi",
+    "slug": "viet-banh-mi",
+    "title": "Vietnamese Banh Mi Sandwich",
+    "nativeTitle": "Bánh Mì",
+    "description": "Vietnam's iconic baguette sandwich — a crisp French-style roll split and layered with savoury pork patties, pickled carrot and daikon, cucumber, fresh coriander and a slick of chilli mayonnaise. The meeting of French colonialism and Vietnamese flavour is delicious, inexpensive and ready in 30 minutes.",
+    "cuisine": "vietnamese",
+    "country": "vietnam",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "lunch",
+      "snack"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "baguette or small French bread rolls (4 individual)",
+        "normalizedName": "bread",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false,
+        "notes": "crusty outside, soft inside; cut lengthwise without breaking through the back"
+      },
+      {
+        "name": "minced pork or chicken (for pork patties)",
+        "normalizedName": "keema",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "carrot, julienned or coarsely grated",
+        "normalizedName": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cucumber, sliced into thin strips",
+        "normalizedName": "cucumber",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, minced",
+        "normalizedName": "garlic",
+        "quantity": 2,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "fish sauce",
+        "normalizedName": "fish-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "1 tbsp for pickling, 1 tbsp for meat"
+      },
+      {
+        "name": "vinegar (white or rice)",
+        "normalizedName": "vinegar",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "for quick-pickling the carrot"
+      },
+      {
+        "name": "black pepper, freshly ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fresh coriander, large handful",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "green chilli, sliced (for garnish)",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "neutral cooking oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Quick-pickle the carrot: toss the julienned carrot with 1 tablespoon vinegar, 1 tablespoon sugar and a pinch of salt. Massage briefly and let sit for at least 15 minutes — the carrot will soften slightly and turn tangy. This is the essential acidic note in banh mi.",
+        "timerMinutes": 15,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Make the pork/chicken patties: combine the minced meat with garlic, soy sauce, fish sauce, 1 tablespoon sugar, black pepper and a pinch of salt. Mix well with your hands, then shape into 8-10 small flat patties or short sausage shapes."
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a frying pan or tawa on medium-high heat. Cook the patties for 3-4 minutes per side until golden and cooked through with no pink inside. They should be slightly caramelised on the outside from the sugar in the marinade.",
+        "timerMinutes": 8,
+        "method": "pan-frying"
+      },
+      {
+        "order": 4,
+        "text": "If the bread is not fresh and crusty, warm it in a dry pan, tawa or oven for 3-5 minutes until the crust is crisp. Split lengthwise without cutting all the way through, leaving a hinge at the back."
+      },
+      {
+        "order": 5,
+        "text": "Assemble the banh mi: spread a thin layer of butter or oil on both cut surfaces of the bread. Layer in the cooked patties, drained pickled carrot, cucumber strips, generous coriander sprigs and sliced green chilli. Press gently to compact."
+      },
+      {
+        "order": 6,
+        "text": "Drizzle with the remaining 2 tablespoons of vinegar mixed with a pinch of sugar as a light dressing — this mimics the classic daikon and carrot pickle brine. Serve immediately while the bread is still crisp."
+      }
+    ],
+    "cookware": [
+      "frying-pan",
+      "tawa"
+    ],
+    "methods": [
+      "pan-frying",
+      "marinating"
+    ],
+    "tags": [
+      "street-food",
+      "quick",
+      "wrap",
+      "lunchbox",
+      "bachelor-friendly"
+    ],
+    "allergens": [
+      "gluten",
+      "fish",
+      "soy"
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein": 26,
+      "carbs": 45,
+      "fat": 14,
+      "fiber": 3,
+      "sugar": 8,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "keema",
+        "substitute": "200 g firm tofu, sliced and pan-fried, for a vegetarian filling",
+        "notes": "marinate with same soy sauce mixture"
+      },
+      {
+        "ingredient": "bread",
+        "substitute": "any crusty roll, ciabatta, or even a thick slice of toasted white bread in a pinch"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "substitute": "extra soy sauce for a fish-free version"
+      },
+      {
+        "ingredient": "vinegar",
+        "substitute": "lime juice for a brighter, more tropical pickle"
+      }
+    ],
+    "culturalNote": "Banh mi is the living culinary legacy of French rule in Vietnam — the baguette adopted and transformed by Vietnamese cooks who stuffed it with local ingredients, chilli, fish sauce and fresh herbs to create something entirely new and entirely Vietnamese.",
+    "regionalVariation": "Hanoi-style banh mi is simpler, often just pork liver pate and butter; Saigon banh mi is loaded — multiple meats, pickles, herbs, cucumber and chilli sauce. Street vendors in Ho Chi Minh City serve hundreds a morning from a single cart.",
+    "indianKitchenAdaptation": "French bread (baguette) is sold at bakeries in most Indian cities; pav (soft bread roll) can substitute in a pinch, though it is softer. A tawa works perfectly for pan-frying the patties. The quick-pickled carrot (gajar) with vinegar (sirka) and sugar is easy to make anywhere in India. Mince (keema) of chicken or pork is widely available; chicken keema at any Indian poultry shop is fresh and affordable.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-viet-spring-rolls",
+    "slug": "viet-spring-rolls",
+    "title": "Fresh Vietnamese Spring Rolls",
+    "nativeTitle": "Gỏi Cuốn",
+    "description": "Translucent rice paper wrappers filled with rice vermicelli, crisp vegetables, fresh herbs and tofu — assembled cold, never fried, and served with a punchy peanut-sesame dipping sauce. Light, crunchy and endlessly customisable, these are the perfect summer appetiser or make-ahead lunch.",
+    "cuisine": "vietnamese",
+    "country": "vietnam",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack",
+      "lunch"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 10,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "dried rice paper wrappers (22 cm round)",
+        "normalizedName": "rice",
+        "quantity": 12,
+        "unit": "piece",
+        "optional": false,
+        "notes": "banh trang; sold in Indian Asian stores and online"
+      },
+      {
+        "name": "rice vermicelli or glass noodles, cooked and cooled",
+        "normalizedName": "noodles",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "firm tofu, pressed and sliced into thin strips",
+        "normalizedName": "tofu",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "cucumber, julienned",
+        "normalizedName": "cucumber",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "carrot, julienned",
+        "normalizedName": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "fresh mint leaves",
+        "normalizedName": "mint",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "fresh coriander sprigs",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "lettuce leaves or fresh spinach, torn",
+        "normalizedName": "spinach",
+        "quantity": 4,
+        "unit": "leaf",
+        "optional": false,
+        "notes": "any soft lettuce leaf or baby spinach works"
+      },
+      {
+        "name": "spring onions, cut into 5 cm pieces",
+        "normalizedName": "spring-onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "peanut butter or roasted peanuts, ground",
+        "normalizedName": "peanut",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "for the dipping sauce"
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "for the dipping sauce"
+      },
+      {
+        "name": "lime or lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false,
+        "notes": "about 2 tbsp juice, for dipping sauce"
+      },
+      {
+        "name": "ginger, finely grated (for dipping sauce)",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "for dipping sauce"
+      },
+      {
+        "name": "sesame oil or toasted sesame oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "a few drops add depth to the dipping sauce"
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "to thin the peanut dipping sauce to a pourable consistency"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Make the peanut dipping sauce: whisk together peanut butter (or ground roasted peanuts), soy sauce, lime juice, grated ginger, sugar and water until smooth. Add sesame oil if using. The sauce should be thick enough to coat a spoon but thin enough to drizzle. Taste and adjust lime for brightness and soy for salt. Set aside.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Cook the rice vermicelli in boiling water for 3-4 minutes until tender, then drain and rinse under cold water to stop cooking and prevent sticking. Toss with a few drops of oil. Slice the tofu into thin strips and prepare all vegetables into neat julienne or bite-sized pieces so the rolling is easy.",
+        "timerMinutes": 5,
+        "method": "boiling"
+      },
+      {
+        "order": 3,
+        "text": "Fill a wide, shallow bowl with warm water (not hot — hot water makes the wrappers tear). Dip one rice paper wrapper into the water and swirl for 10-15 seconds until it just begins to soften and is pliable but still has slight resistance. Lay it flat on a clean damp surface — it will soften further as you fill it."
+      },
+      {
+        "order": 4,
+        "text": "Place a lettuce leaf at the bottom third of the wrapper, leaving a 2 cm border. Layer a small amount of noodles, tofu strips, cucumber, carrot, a few mint leaves, coriander sprigs and spring onion pieces on top of the lettuce. Do not overfill — less is more for clean rolling.",
+        "method": "no-cook"
+      },
+      {
+        "order": 5,
+        "text": "Fold the bottom of the wrapper up over the filling. Fold in the two sides tightly, then roll forward firmly into a compact cylinder. The wrapper will stick to itself and seal. Repeat with remaining wrappers and filling, placing finished rolls seam-side down on a lightly oiled plate."
+      },
+      {
+        "order": 6,
+        "text": "Serve immediately with the peanut dipping sauce. If not serving straight away, cover the rolls with a damp cloth to prevent the wrappers from drying out — do not refrigerate for more than 1 hour or the wrappers become tough."
+      }
+    ],
+    "cookware": [
+      "saucepan"
+    ],
+    "methods": [
+      "boiling",
+      "no-cook"
+    ],
+    "tags": [
+      "healthy",
+      "summer",
+      "salad",
+      "quick",
+      "kids-friendly",
+      "low-oil"
+    ],
+    "allergens": [
+      "soy",
+      "gluten",
+      "peanuts",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 240,
+      "protein": 10,
+      "carbs": 34,
+      "fat": 8,
+      "fiber": 3,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "tofu",
+        "substitute": "cooked prawn or shredded chicken for a non-vegetarian version",
+        "notes": "lay prawns decoratively near the top of the wrapper so they show through"
+      },
+      {
+        "ingredient": "peanut",
+        "substitute": "sunflower seed butter or tahini for peanut allergy",
+        "notes": "adjust seasoning of the dipping sauce"
+      },
+      {
+        "ingredient": "rice",
+        "substitute": "if rice paper is unavailable, use iceberg lettuce leaves as wrapping — do not soak; just fill and fold",
+        "notes": "serves as a no-carb alternative"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "a few drops of any neutral oil",
+        "notes": "sesame oil adds authenticity but the sauce is good without it"
+      }
+    ],
+    "culturalNote": "Goi cuon — fresh spring rolls — are a staple of Vietnamese home cooking and street food, light enough for the tropical climate and quick to assemble. They are distinct from the fried version (cha gio) that became famous internationally; fresh rolls are what Vietnamese families actually eat.",
+    "regionalVariation": "Southern Vietnam (Ho Chi Minh City) tends to serve goi cuon with a peanut-hoisin dipping sauce; central Vietnam adds more herbs and a saltier dipping sauce called nuoc cham made with fish sauce, lime and chilli.",
+    "indianKitchenAdaptation": "Rice paper wrappers (banh trang) are sold at Indian Asian grocery stores in Chennai, Mumbai, Bengaluru and Delhi, and widely available on Amazon India. If unavailable, soak idiyappam (rice noodle) rice and press into thin rounds — a close approximation. All vegetables and herbs are standard Indian market produce. The peanut dipping sauce uses groundnut butter (moongphali ka paste) which can be made fresh by blending roasted peanuts with a little oil.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-viet-caramel-fish",
+    "slug": "viet-caramel-fish",
+    "title": "Vietnamese Caramel Fish (Ca Kho To)",
+    "nativeTitle": "Cá Kho Tộ",
+    "description": "Fish fillets braised in a dark, sticky caramel sauce fragrant with ginger and fish sauce — one of Vietnam's most comforting home dishes. The sugar caramelises slowly to a deep amber that coats the fish in a sweet, salty, slightly smoky glaze. Served with steamed rice, it feeds a family on very little.",
+    "cuisine": "vietnamese",
+    "country": "vietnam",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "pescatarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "firm fish fillets or steaks (tilapia, catfish, mackerel)",
+        "normalizedName": "fish",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "sugar, for caramel",
+        "normalizedName": "sugar",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "fish sauce",
+        "normalizedName": "fish-sauce",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "fresh ginger, cut into matchsticks",
+        "normalizedName": "ginger",
+        "quantity": 4,
+        "unit": "slice",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, minced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "spring onions, cut into 3 cm lengths",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "black pepper, freshly cracked",
+        "normalizedName": "black-pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "green chilli, sliced",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 100,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "neutral cooking oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pat the fish pieces dry with paper towel — surface moisture prevents caramelisation. Season lightly with salt on both sides and set aside."
+      },
+      {
+        "order": 2,
+        "text": "Make the caramel: place the sugar in a small heavy saucepan or clay pot over medium heat. Do not stir — just swirl the pan occasionally. Watch carefully as the sugar melts and turns from golden to a deep amber, about 4-5 minutes. The moment it is dark amber (not black), remove from heat briefly.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 3,
+        "text": "Carefully add 100 ml of hot water to the caramel — it will sputter and steam dramatically. Return to heat and stir until the caramel dissolves into the water, then add fish sauce, minced garlic, ginger matchsticks and black pepper. Stir to combine."
+      },
+      {
+        "order": 4,
+        "text": "Heat oil in a wide frying pan or clay pot over medium-high heat. Place the fish pieces in a single layer and sear for 2 minutes per side without moving them, until lightly golden. This builds flavour and helps the fish hold together during braising.",
+        "timerMinutes": 4,
+        "method": "pan-frying"
+      },
+      {
+        "order": 5,
+        "text": "Pour the caramel sauce over the seared fish. Bring to a simmer over medium heat. Cook uncovered for 15-20 minutes, spooning the sauce over the fish every 4-5 minutes, until the sauce reduces to a thick, dark, glossy glaze that coats the fish. Taste — it should be deeply savoury and sticky-sweet.",
+        "timerMinutes": 20,
+        "method": "braising"
+      },
+      {
+        "order": 6,
+        "text": "Scatter spring onion lengths and sliced green chilli over the top in the last 2 minutes of cooking. Serve hot directly from the pot with steamed white rice — the dark braising liquid is the best part; spoon it over the rice."
+      }
+    ],
+    "cookware": [
+      "clay-pot",
+      "frying-pan",
+      "saucepan"
+    ],
+    "methods": [
+      "pan-frying",
+      "braising",
+      "simmering"
+    ],
+    "tags": [
+      "comfort-food",
+      "budget",
+      "gravy",
+      "one-pot-meal"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "nutrition": {
+      "calories": 260,
+      "protein": 30,
+      "carbs": 12,
+      "fat": 9,
+      "fiber": 0,
+      "sugar": 10,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "fish",
+        "substitute": "400 g firm tofu steaks, pressed and dried, for a vegan version",
+        "notes": "reduce braising time to 10 minutes; caramel will still coat beautifully"
+      },
+      {
+        "ingredient": "sugar",
+        "substitute": "jaggery or palm sugar for a deeper, molasses-like caramel",
+        "notes": "watch closely as jaggery burns faster than white sugar"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "substitute": "3 tbsp soy sauce for a fish-free version",
+        "notes": "the caramel will still be richly flavoured"
+      }
+    ],
+    "culturalNote": "Ca kho to is the defining dish of Vietnamese home cooking in the south — the clay pot (to) keeps the heat gentle and gives the dish a slightly smoky edge. Every Vietnamese mother and grandmother has their own proportion of caramel to fish sauce, and the dish is always slightly different depending on the kitchen.",
+    "regionalVariation": "Northern Vietnamese versions use less sugar and more pepper; southern versions are sweeter. Some cooks add a splash of coconut water to the braise instead of plain water for additional sweetness and depth.",
+    "indianKitchenAdaptation": "A heavy-bottomed kadai or non-stick pan works as well as a clay pot. Any firm fish available in Indian markets is perfect — mackerel (bangda), tilapia, surmai (seer fish) or catfish all braise well. Caramel-making is the only technical step; use white sugar (cheeni) over medium gas flame. The dish is a natural fit for the Indian palate — the sweet-savoury combination is reminiscent of Parsi and Goan sweet-sour fish preparations.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-viet-lemongrass-chicken",
+    "slug": "viet-lemongrass-chicken",
+    "title": "Vietnamese Lemongrass Chicken",
+    "nativeTitle": "Gà Xào Sả Ớt",
+    "description": "A fragrant Vietnamese stir-fry of chicken thighs cooked with pounded lemongrass, garlic, chilli and a splash of fish sauce until the meat is caramelised at the edges and perfumed through with citrusy aromatics. One of the fastest and most flavourful dishes in Vietnamese home cooking.",
+    "cuisine": "vietnamese",
+    "country": "vietnam",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 18,
+    "totalTimeMinutes": 33,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "boneless chicken thighs, cut into 3 cm pieces",
+        "normalizedName": "chicken",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "lemongrass stalks, white part only, finely sliced",
+        "normalizedName": "lemongrass",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "fresh red or green chillies, sliced",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "shallots or small onions, sliced",
+        "normalizedName": "shallot",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "fish sauce",
+        "normalizedName": "fish-sauce",
+        "quantity": 2.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "gives the chicken a golden colour"
+      },
+      {
+        "name": "spring onion, sliced into rounds",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, to garnish",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "neutral cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pound or finely mince the lemongrass into a near-paste using a mortar and pestle, blender or rolling pin — the finer the better, as coarsely chopped lemongrass is fibrous and unpleasant to eat. Combine with minced garlic and set aside."
+      },
+      {
+        "order": 2,
+        "text": "Marinate the chicken: toss the chicken pieces with fish sauce, turmeric and sugar. Let sit for 10 minutes minimum while you prepare the aromatics.",
+        "timerMinutes": 10,
+        "method": "marinating"
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a wok or kadai on high heat. Add the lemongrass-garlic paste and stir-fry for 1-2 minutes until fragrant and just beginning to turn golden. Add the sliced shallots and chillies and fry for another minute.",
+        "timerMinutes": 3,
+        "method": "stir-frying"
+      },
+      {
+        "order": 4,
+        "text": "Add the marinated chicken in a single layer. Let it sear for 2-3 minutes without stirring so it picks up colour on the bottom. Then toss and stir-fry on high heat for 6-8 minutes until the chicken is cooked through with golden, caramelised edges and no pink inside.",
+        "timerMinutes": 8
+      },
+      {
+        "order": 5,
+        "text": "If the pan looks dry, add 2 tablespoons of water and scrape up any caramelised bits — these are flavour. Taste and adjust: add more fish sauce for salt or a pinch of sugar if it needs balance."
+      },
+      {
+        "order": 6,
+        "text": "Scatter spring onion rounds over the top and toss once. Remove from heat, garnish with coriander if using, and serve immediately over steamed jasmine rice. The dish should be dry-ish rather than saucy, with the lemongrass perfume prominent in every bite."
+      }
+    ],
+    "cookware": [
+      "wok"
+    ],
+    "methods": [
+      "stir-frying",
+      "marinating"
+    ],
+    "tags": [
+      "quick",
+      "comfort-food",
+      "dry-curry",
+      "budget",
+      "bachelor-friendly"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "nutrition": {
+      "calories": 320,
+      "protein": 36,
+      "carbs": 8,
+      "fat": 16,
+      "fiber": 1,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "600 g firm tofu or soya chunks (soaked) for a vegetarian version",
+        "notes": "use soy sauce in place of fish sauce"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "substitute": "2.5 tbsp soy sauce for a fish-free version"
+      },
+      {
+        "ingredient": "lemongrass",
+        "substitute": "2 tbsp lemon zest plus 1 tbsp ginger, finely grated",
+        "notes": "not identical but gives a citrusy-gingery note"
+      },
+      {
+        "ingredient": "shallot",
+        "substitute": "1 small red onion, thinly sliced"
+      }
+    ],
+    "culturalNote": "Lemongrass chicken is a Vietnamese staple that crosses regional boundaries — found from street stalls in Hanoi to home kitchens in the Mekong Delta. It relies on the combination of lemongrass and fish sauce that defines the Vietnamese flavour palette.",
+    "regionalVariation": "Central Vietnamese versions are sharper and more chilli-forward with less sugar; the north uses more black pepper. Southern cooks sometimes add a tablespoon of coconut milk at the end for a slightly richer finish.",
+    "indianKitchenAdaptation": "A kadai on high gas flame works exactly like a wok. Lemongrass (also sold as 'lemon grass' at Indian grocery stores and online on BigBasket) can be pounded in an Indian stone mortar (ammi). Turmeric (haldi) and all other spices are standard Indian pantry items. Boneless chicken thighs (deboned chicken) are available at most Indian butchers. This dish pairs well with Indian basmati or sona masoori rice.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-viet-iced-coffee",
+    "slug": "viet-iced-coffee",
+    "title": "Vietnamese Iced Coffee",
+    "nativeTitle": "Cà Phê Sữa Đá",
+    "description": "Strong, dark Vietnamese drip coffee sweetened with condensed milk and poured over a tall glass of ice — one of the most popular drinks on earth for good reason. Intense, sweet, cold and deeply caffeinated, it is as much a mood as a beverage.",
+    "cuisine": "vietnamese",
+    "country": "vietnam",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "drink",
+      "snack"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 10,
+    "totalTimeMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "ground dark roast coffee (Vietnamese robusta or strong espresso blend)",
+        "normalizedName": "coffee",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "coarsely ground; Vietnamese Trung Nguyen or Bru is ideal; instant coffee works as backup"
+      },
+      {
+        "name": "sweetened condensed milk",
+        "normalizedName": "condensed-milk",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "2 tbsp per glass; adjust to taste"
+      },
+      {
+        "name": "hot water (just off the boil)",
+        "normalizedName": "water",
+        "quantity": 200,
+        "unit": "ml",
+        "optional": false,
+        "notes": "100 ml per glass; use 93-96°C water for best extraction"
+      },
+      {
+        "name": "ice cubes (generous amount)",
+        "normalizedName": "water",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false,
+        "notes": "about a full glass of ice per serving; keeps the drink cold without diluting immediately"
+      },
+      {
+        "name": "milk (optional, for a lighter version)",
+        "normalizedName": "milk",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "for ca phe sua nong (hot version), skip the ice and stir milk in after the condensed milk"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "If you have a Vietnamese phin filter: place 2 tablespoons of ground coffee in the filter over a glass. Add 100 ml of hot water (about 95°C) and cover. Let it drip slowly for 4-5 minutes — the brew will be dark, intense and syrupy. If you do not have a phin filter, brew double-strength coffee by making a very concentrated French press or Moka pot coffee: use double the normal amount of coffee grounds.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 2,
+        "text": "While the coffee brews, place 2 tablespoons of condensed milk at the bottom of each glass. The condensed milk goes in first so it melts into the hot coffee rather than sitting on top of cold milk."
+      },
+      {
+        "order": 3,
+        "text": "Pour the hot brewed coffee directly over the condensed milk. Stir briefly so the milk dissolves into the coffee. Taste — it should be intensely strong and very sweet; the ice will dilute it slightly."
+      },
+      {
+        "order": 4,
+        "text": "Fill a tall glass generously with ice cubes. Pour the hot coffee-condensed milk mixture over the ice all at once — the contrast of hot coffee hitting cold ice creates a slightly frothy, chilled drink instantly. Stir once with a long spoon and serve immediately."
+      },
+      {
+        "order": 5,
+        "text": "Drink slowly. The condensed milk settles and the ice melts gradually, subtly changing the drink's sweetness and strength as you go. This is part of the ritual. For the hot version (ca phe sua nong), skip the ice and serve in a small cup."
+      }
+    ],
+    "cookware": [
+      "saucepan"
+    ],
+    "methods": [
+      "no-cook"
+    ],
+    "tags": [
+      "quick",
+      "summer",
+      "under-30-minutes",
+      "budget"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 120,
+      "protein": 2,
+      "carbs": 22,
+      "fat": 3,
+      "fiber": 0,
+      "sugar": 22,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "condensed-milk",
+        "substitute": "3 tsp sugar plus 2 tbsp cream or full-fat milk for a less sweet version"
+      },
+      {
+        "ingredient": "coffee",
+        "substitute": "2 tsp instant coffee dissolved in 100 ml hot water for a quick version",
+        "notes": "flavour will be lighter but the method is the same"
+      },
+      {
+        "ingredient": "milk",
+        "substitute": "coconut condensed milk for a dairy-free version",
+        "notes": "available online and at specialty stores"
+      }
+    ],
+    "culturalNote": "Ca phe sua da is Vietnam's most democratic drink — sold from tin-tray street carts, luxury hotel lobbies and every cafe in between. Vietnamese coffee culture runs deep: the phin filter is slow, meditative and yields a brew unlike any other in the world.",
+    "regionalVariation": "Hanoi's coffee culture prefers the egg coffee (ca phe trung) — whipped egg yolk and condensed milk over black coffee, served in cold weather. Ho Chi Minh City's coffee scene is sweeter and more ice-heavy; coconut coffee (ca phe dua) is increasingly popular in the south.",
+    "indianKitchenAdaptation": "South Indian filter coffee lovers will feel right at home — the double-decoction from a Moka pot or Bru/Nescafe strong brew makes an excellent substitute for Vietnamese drip coffee. Milkmaid (sweetened condensed milk) is at every Indian kirana store and supermarket. The only equipment needed is a kettle and two glasses. For the most authentic result, try Vietnamese robusta coffee brands (Trung Nguyen, G7) available on Amazon India.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-thai-garlic-greens",
+    "slug": "thai-garlic-greens",
+    "title": "Thai Stir-Fried Garlic Greens",
+    "nativeTitle": "ผักผัดกระเทียม",
+    "description": "The simplest Thai side dish — leafy greens stir-fried at scorching heat with plenty of garlic, oyster sauce and a splash of soy sauce until just wilted and glistening. Ready in 8 minutes, it is the dish every Thai home cook makes to round out a meal when the rice is almost ready.",
+    "cuisine": "thai",
+    "country": "thailand",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "side",
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 8,
+    "totalTimeMinutes": 13,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "bok choy, pak choi or fresh spinach, washed and halved lengthwise",
+        "normalizedName": "spinach",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false,
+        "notes": "any leafy Asian green works; spinach (palak) is the closest Indian substitute"
+      },
+      {
+        "name": "garlic cloves, thinly sliced",
+        "normalizedName": "garlic",
+        "quantity": 6,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "soy sauce (light)",
+        "normalizedName": "soy-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "white or black pepper",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "toasted sesame oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "drizzled at the end for fragrance"
+      },
+      {
+        "name": "neutral cooking oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Wash and dry the greens thoroughly — excess water hitting a hot wok causes dangerous splattering and steams the vegetables instead of frying them. Cut large leaves in half or thirds lengthwise so they cook evenly."
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a wok or kadai over the highest flame available. When the oil shimmers and just begins to smoke, add the sliced garlic. Stir-fry for 30 seconds until the edges turn golden but not brown — work fast to avoid burning.",
+        "method": "stir-frying"
+      },
+      {
+        "order": 3,
+        "text": "Add all the greens at once and toss vigorously with a spatula and tongs. The greens will hiss, steam and reduce dramatically in volume — this is expected. Toss continuously for 2-3 minutes until they are just wilted and bright green, with the stems starting to become tender.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 4,
+        "text": "Add soy sauce, sugar and pepper. Toss for another 30 seconds to coat every leaf evenly. The greens should be glistening and bright; if they look dull or yellowish, they have been overcooked."
+      },
+      {
+        "order": 5,
+        "text": "Drizzle the sesame oil over the top if using, toss once, and immediately transfer to a serving plate. Serve at once alongside rice and other dishes — stir-fried greens lose their vibrancy if they sit in the wok."
+      }
+    ],
+    "cookware": [
+      "wok"
+    ],
+    "methods": [
+      "stir-frying"
+    ],
+    "tags": [
+      "quick",
+      "healthy",
+      "under-30-minutes",
+      "low-oil",
+      "budget"
+    ],
+    "allergens": [
+      "soy",
+      "gluten",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 100,
+      "protein": 4,
+      "carbs": 7,
+      "fat": 7,
+      "fiber": 3,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "spinach",
+        "substitute": "broccoli, beans or cabbage — any firm vegetable can be stir-fried this way, adjusting time upward for firmer vegetables"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "coconut aminos for a soy-free version"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "a few drops of any toasted nut oil, or simply omit"
+      }
+    ],
+    "culturalNote": "Stir-fried greens with garlic are served as a side dish alongside rice and curry at virtually every Thai meal — the wok ensures the garlic perfumes the oil in seconds and the greens retain their colour and crunch.",
+    "regionalVariation": "Restaurants in tourist areas often add oyster sauce for more depth; home cooks in rural Thailand rely on whatever greens the garden produces that day, from morning glory to sweet potato leaves.",
+    "indianKitchenAdaptation": "A cast-iron kadai over maximum gas flame works identically to a wok for quick stir-frying. Fresh palak (spinach) is the most available and direct substitute for bok choy across India. Methi leaves (fenugreek greens) give a more bitter, complex result. Light soy sauce is widely available in Indian supermarkets. This dish is one of the easiest to reproduce in an Indian kitchen with zero specialty ingredients.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  }
+]

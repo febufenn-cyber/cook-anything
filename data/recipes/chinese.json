@@ -1,0 +1,3308 @@
+[
+  {
+    "id": "ca-chinese-egg-fried-rice",
+    "slug": "chinese-egg-fried-rice",
+    "title": "Chinese Egg Fried Rice",
+    "nativeTitle": "蛋炒饭",
+    "description": "A classic Chinese home-kitchen staple — day-old rice tossed over fierce heat with eggs, spring onions and a splash of soy sauce until every grain is separate and lightly golden. Fast, deeply satisfying, and the best use of leftover rice you will find.",
+    "cuisine": "chinese",
+    "country": "china",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 10,
+    "totalTimeMinutes": 20,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "cooked rice (day-old, cold)",
+        "normalizedName": "rice",
+        "quantity": 3,
+        "unit": "cup",
+        "optional": false,
+        "notes": "cold leftover rice fries better; freshly cooked rice can be spread on a tray and cooled in the fridge for 30 minutes"
+      },
+      {
+        "name": "eggs",
+        "normalizedName": "egg",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "spring onions, thinly sliced (white and green parts separated)",
+        "normalizedName": "spring-onion",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "light soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "toasted sesame oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "neutral cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "frozen peas",
+        "normalizedName": "peas",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "white pepper (or black pepper)",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Beat the eggs with a pinch of salt and set aside. Break up any clumps in the cold rice with your fingers so the grains are loose.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Heat a wok or wide kadai over the highest flame possible until it just begins to smoke. Add 2 tablespoons of oil and swirl to coat.",
+        "method": "stir-frying"
+      },
+      {
+        "order": 3,
+        "text": "Pour in the beaten eggs. Leave them for 10 seconds until the edges set, then scramble them quickly until just cooked but still soft. Remove the eggs to a plate.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 4,
+        "text": "Add the remaining 1 tablespoon of oil to the same hot wok. Add garlic and the white parts of the spring onion. Stir-fry for 30 seconds until fragrant — do not let them brown."
+      },
+      {
+        "order": 5,
+        "text": "Tip in the peas if using, and stir for 1 minute until heated through.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 6,
+        "text": "Add all the cold rice at once. Press it down with the spatula and let it sit on the heat for 30 seconds to pick up colour, then toss and repeat. Continue for 3–4 minutes until each grain is hot and slightly golden.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 7,
+        "text": "Season with soy sauce and pepper. Toss well so every grain is coated. Return the scrambled eggs, breaking them into bite-size pieces as you fold them in."
+      },
+      {
+        "order": 8,
+        "text": "Remove from heat, drizzle with sesame oil, and finish with the green parts of the spring onion. Serve immediately."
+      }
+    ],
+    "cookware": [
+      "wok",
+      "kadai"
+    ],
+    "methods": [
+      "stir-frying"
+    ],
+    "tags": [
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "leftover-friendly",
+      "bachelor-friendly",
+      "one-pot-meal"
+    ],
+    "allergens": [
+      "egg",
+      "soy",
+      "gluten",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein": 14,
+      "carbs": 60,
+      "fat": 14,
+      "fiber": 2,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "rice",
+        "substitute": "cooked jasmine rice or sona masoori rice",
+        "notes": "sona masoori works perfectly; ensure it is cold"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "2 tbsp soy sauce + 1 tsp salt if soy sauce is unavailable",
+        "notes": "use less salt if the soy is already salty"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "a few drops of mustard oil for a pungent finish",
+        "notes": "sesame oil is preferred for authenticity"
+      },
+      {
+        "ingredient": "peas",
+        "substitute": "diced carrot or corn kernels",
+        "notes": "add carrot 1 minute earlier as it takes longer to cook"
+      }
+    ],
+    "culturalNote": "Egg fried rice (dàn chǎo fàn) is the backbone of Chinese home cooking, born from the practical need to transform yesterday's rice into something better than it started. Street stalls across China serve it as a quick meal at any hour.",
+    "regionalVariation": "Yangzhou-style fried rice adds cooked prawn and char siu pork for a more elaborate version; Cantonese home cooks often use a bit of oyster sauce for depth.",
+    "indianKitchenAdaptation": "A wide kadai on the highest gas flame replicates wok heat well — the key is not overcrowding. Use day-old ponni or sona masoori rice. Gingelly oil (nallennai) is your sesame oil; find it in any South Indian grocery. Light soy sauce is available at most Indian supermarkets and Big Bazaar under brands like Chings or Maggi.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-chinese-chicken-chow-mein",
+    "slug": "chinese-chicken-chow-mein",
+    "title": "Cantonese-Style Chicken Chow Mein",
+    "nativeTitle": "雞肉炒麵",
+    "description": "Thin egg noodles stir-fried with tender sliced chicken, crunchy cabbage and spring onions, all glossed with a savoury oyster-soy sauce. A Cantonese takeaway classic that comes together in one blazing-hot wok in under 20 minutes.",
+    "cuisine": "chinese",
+    "country": "china",
+    "region": "guangdong",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 12,
+    "totalTimeMinutes": 27,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "dried egg noodles (hakka or thin egg noodles)",
+        "normalizedName": "noodles",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "chicken breast or thigh, thinly sliced",
+        "normalizedName": "chicken",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "cabbage (napa or regular), shredded",
+        "normalizedName": "cabbage",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "carrot, julienned",
+        "normalizedName": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "spring onions, cut into 5 cm lengths",
+        "normalizedName": "spring-onion",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, minced",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "light soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "oyster sauce",
+        "normalizedName": "oyster-sauce",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "toasted sesame oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cornflour",
+        "normalizedName": "cornflour",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "for marinating chicken"
+      },
+      {
+        "name": "neutral cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "bean sprouts",
+        "normalizedName": "sprouts",
+        "quantity": 100,
+        "unit": "g",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Marinate the sliced chicken with 1 teaspoon soy sauce, the cornflour and a pinch of salt. Set aside for 10 minutes.",
+        "timerMinutes": 10,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Cook the noodles in boiling water for 1 minute less than the packet says — they should be just underdone. Drain, rinse with cold water and toss with 1 teaspoon of oil to prevent sticking.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 3,
+        "text": "Mix together the remaining soy sauce and the oyster sauce in a small bowl and set aside."
+      },
+      {
+        "order": 4,
+        "text": "Heat a wok or wide kadai over the highest flame until smoking. Add 2 tablespoons of oil and stir-fry the chicken, spreading it in a single layer. Cook undisturbed for 1 minute until golden on one side, then toss and cook for another minute until just cooked through. Remove and set aside.",
+        "timerMinutes": 2,
+        "method": "stir-frying"
+      },
+      {
+        "order": 5,
+        "text": "In the same wok, add the remaining oil. Add garlic and ginger, stir for 20 seconds. Add carrot and cabbage and stir-fry on high heat for 2 minutes until they soften slightly but retain some crunch.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 6,
+        "text": "Add the noodles, spreading them out. Let them sit on the heat for 30 seconds to pick up colour, then toss everything together."
+      },
+      {
+        "order": 7,
+        "text": "Pour the sauce over the noodles, return the chicken, and add the spring onions and bean sprouts if using. Toss vigorously for 1 minute until everything is well coated and piping hot.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 8,
+        "text": "Remove from heat, drizzle with sesame oil, and serve immediately — chow mein waits for no one."
+      }
+    ],
+    "cookware": [
+      "wok",
+      "kadai",
+      "saucepan"
+    ],
+    "methods": [
+      "stir-frying",
+      "boiling",
+      "marinating"
+    ],
+    "tags": [
+      "quick",
+      "budget",
+      "bachelor-friendly",
+      "comfort-food"
+    ],
+    "allergens": [
+      "gluten",
+      "soy",
+      "shellfish",
+      "sesame",
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 28,
+      "carbs": 58,
+      "fat": 14,
+      "fiber": 4,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "oyster-sauce",
+        "substitute": "extra 1 tbsp soy sauce + 1 tsp sugar",
+        "notes": "flavour will be less savoury-sweet"
+      },
+      {
+        "ingredient": "chicken",
+        "substitute": "300 g tofu, pressed and sliced, for a vegetarian version",
+        "notes": "fry tofu until golden before adding"
+      },
+      {
+        "ingredient": "noodles",
+        "substitute": "hakka noodles (widely available in India) or thin wheat noodles",
+        "notes": "instant noodles work in a pinch — discard the masala sachets"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "skip or use a drop of mustard oil for a nutty finish"
+      }
+    ],
+    "culturalNote": "Chow mein (炒麵, literally 'stir-fried noodles') is a staple of Cantonese cuisine that spread worldwide through Chinese emigrants. The version served in Hong Kong cha chaan teng (café-style diners) is lighter and more focused on wok fragrance than the saucy versions abroad.",
+    "regionalVariation": "Northern Chinese chow mein often uses a thick soy-braised sauce; Cantonese versions favour a lighter gloss. In Fujian, a thick egg-based gravy is ladled over fried noodles for a more elaborate presentation.",
+    "indianKitchenAdaptation": "Use widely available Chings hakka noodles or any dried egg noodles from Indian grocery stores. A large kadai on high gas flame works well. Oyster sauce and soy sauce are easily found in Indian supermarkets; the Chings and Maggi brands are reliable and affordable. Bean sprouts can be substituted with blanched moong sprouts (ankurit moong).",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-chinese-mapo-tofu",
+    "slug": "chinese-mapo-tofu",
+    "title": "Mapo Tofu",
+    "nativeTitle": "麻婆豆腐",
+    "description": "A Sichuan icon — silken tofu cubes bathed in a fiery, tongue-tingling sauce of fermented chilli-bean paste, minced meat and ground spices. The name translates roughly as 'pockmarked grandmother's tofu', and the dish delivers the numbing heat that defines Sichuan cooking.",
+    "cuisine": "chinese",
+    "country": "china",
+    "region": "sichuan",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "firm tofu, cut into 2 cm cubes",
+        "normalizedName": "tofu",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "minced chicken or pork (keema)",
+        "normalizedName": "keema",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false,
+        "notes": "omit for vegetarian version"
+      },
+      {
+        "name": "chilli bean paste (doubanjiang) or chilli-garlic sauce",
+        "normalizedName": "green-chilli-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "doubanjiang is traditional; sambal oelek or chilli-garlic paste are good substitutes"
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 5,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, minced",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "light soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "Sichuan peppercorns, toasted and ground (or black pepper)",
+        "normalizedName": "black-pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "Sichuan peppercorns give the signature mala numbing heat; black pepper is a milder substitute"
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cornflour mixed with 3 tbsp cold water",
+        "normalizedName": "cornflour",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "stock (chicken or vegetable) or water",
+        "normalizedName": "stock",
+        "quantity": 250,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "neutral cooking oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "spring onions, finely chopped",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Bring a pot of lightly salted water to a boil. Gently slide in the tofu cubes and blanch for 2 minutes — this firms them up so they hold their shape in the sauce. Drain carefully and set aside.",
+        "timerMinutes": 2,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a wok or kadai over medium-high heat. Add the minced meat and stir-fry, breaking it up, until it loses its pink colour and begins to brown at the edges, about 3 minutes.",
+        "timerMinutes": 3,
+        "method": "stir-frying"
+      },
+      {
+        "order": 3,
+        "text": "Push the meat to one side and add the chilli-bean paste to the exposed oil. Fry the paste for 1 minute, stirring constantly, until it darkens slightly and the oil turns deep red. Mix together with the meat."
+      },
+      {
+        "order": 4,
+        "text": "Add garlic and ginger; stir-fry for 1 minute. Add soy sauce, red chilli powder and ground Sichuan pepper. Stir to combine."
+      },
+      {
+        "order": 5,
+        "text": "Pour in the stock and bring to a simmer. Gently lower the blanched tofu cubes into the sauce — do not stir aggressively or they will break. Simmer on medium heat for 5 minutes, spooning sauce over the tofu occasionally.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Stir the cornflour slurry and pour it in gradually, gently rocking the wok to incorporate. The sauce should thicken to coat the back of a spoon within 1 minute. Add salt to taste.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 7,
+        "text": "Scatter the spring onions over the top and serve immediately with steamed rice. The sauce is meant to be thin enough to mix into the rice."
+      }
+    ],
+    "cookware": [
+      "wok",
+      "kadai",
+      "saucepan"
+    ],
+    "methods": [
+      "stir-frying",
+      "simmering",
+      "boiling"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "budget",
+      "bowl"
+    ],
+    "allergens": [
+      "soy",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 220,
+      "protein": 16,
+      "carbs": 10,
+      "fat": 13,
+      "fiber": 2,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "tofu",
+        "substitute": "200 g paneer, cubed, for an Indian-friendly version",
+        "notes": "paneer does not need blanching"
+      },
+      {
+        "ingredient": "keema",
+        "substitute": "omit entirely and add 2 extra tbsp chilli-bean paste for a vegetarian version",
+        "notes": "reduce oil by 1 tbsp if skipping meat"
+      },
+      {
+        "ingredient": "green-chilli-sauce",
+        "substitute": "2 tbsp red chilli paste or extra red chilli powder + 1 tsp vinegar",
+        "notes": "the fermented, savoury note will be missing but the heat will be there"
+      },
+      {
+        "ingredient": "stock",
+        "substitute": "water with a stock cube",
+        "notes": "add a little soy sauce to compensate"
+      }
+    ],
+    "culturalNote": "Mapo tofu originated in Chengdu, Sichuan, in the late nineteenth century, named after the pockmarked-faced (mápó) old woman who reportedly invented it. It remains one of the most beloved dishes in China and is cooked daily in Sichuan homes.",
+    "regionalVariation": "Traditional Sichuan versions use lard for frying and a heavier hand with Sichuan peppercorns. Japanese mābō dōfu, introduced in the 1970s, is a gentler, less oily adaptation that became popular in its own right.",
+    "indianKitchenAdaptation": "Firm tofu (sold as 'bean curd' in Indian supermarkets and Chinese grocery shops) works beautifully here; paneer is a reliable backup if tofu is unavailable. Use a chilli-garlic sauce (Chings brand is widely stocked) in place of doubanjiang. Cook in a kadai on medium-high flame. Sichuan peppercorns can sometimes be found in specialty spice shops in metros; otherwise use ½ tsp black pepper and ½ tsp garam masala for a faint numbing warmth.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-chinese-kung-pao-chicken",
+    "slug": "chinese-kung-pao-chicken",
+    "title": "Kung Pao Chicken",
+    "nativeTitle": "宮保雞丁",
+    "description": "Tender diced chicken tossed with crunchy peanuts, dried red chillies and spring onions in a sweet-sour-spicy sauce that hits every note. This Sichuan classic balances heat, sweetness and the addictive crunch of roasted groundnuts in each mouthful.",
+    "cuisine": "chinese",
+    "country": "china",
+    "region": "sichuan",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 12,
+    "totalTimeMinutes": 32,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "boneless chicken (breast or thigh), cut into 2 cm cubes",
+        "normalizedName": "chicken",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "roasted peanuts (groundnuts)",
+        "normalizedName": "peanut",
+        "quantity": 60,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies, halved and deseeded",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 8,
+        "unit": "piece",
+        "optional": false,
+        "notes": "adjust to heat tolerance; deseeding reduces fire while keeping flavour"
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, minced",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "spring onions, cut into 2 cm pieces",
+        "normalizedName": "spring-onion",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "light soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "rice vinegar or white vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cornflour",
+        "normalizedName": "cornflour",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "1 tsp for marinade, 1 tsp for sauce slurry"
+      },
+      {
+        "name": "Sichuan peppercorns or black pepper, ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.75,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "neutral cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Marinate the diced chicken with 1 teaspoon soy sauce, 1 teaspoon cornflour, a pinch of salt and ¼ teaspoon ground pepper. Mix well and leave for 15 minutes.",
+        "timerMinutes": 15,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Mix the sauce in a small bowl: remaining soy sauce, vinegar, sugar, the second teaspoon of cornflour and 2 tablespoons of water. Stir until the sugar and cornflour dissolve and set aside."
+      },
+      {
+        "order": 3,
+        "text": "Heat 2 tablespoons of oil in a wok or kadai over high heat until shimmering. Add the dried chillies and stir for 20 seconds until they darken and become fragrant — watch carefully as they burn quickly.",
+        "method": "stir-frying"
+      },
+      {
+        "order": 4,
+        "text": "Add garlic, ginger and the remaining ground pepper. Stir for 30 seconds until fragrant, then add the marinated chicken in a single layer. Leave undisturbed for 1 minute to sear, then toss and cook for 2–3 more minutes until cooked through.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 5,
+        "text": "Push the chicken to the sides of the wok. Add the remaining oil in the centre, then add the spring onions. Stir-fry for 30 seconds."
+      },
+      {
+        "order": 6,
+        "text": "Give the sauce a quick stir and pour it over everything. Toss vigorously for 1 minute until the sauce thickens and glazes the chicken.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 7,
+        "text": "Remove from heat and fold in the roasted peanuts — adding them at the end keeps them crunchy. Taste and adjust salt. Serve with steamed rice."
+      }
+    ],
+    "cookware": [
+      "wok",
+      "kadai"
+    ],
+    "methods": [
+      "stir-frying",
+      "marinating"
+    ],
+    "tags": [
+      "comfort-food",
+      "party",
+      "budget",
+      "dry-curry"
+    ],
+    "allergens": [
+      "peanuts",
+      "soy",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "protein": 32,
+      "carbs": 12,
+      "fat": 20,
+      "fiber": 2,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "peanut",
+        "substitute": "cashews, dry-roasted",
+        "notes": "add at the same stage; cashews are softer than peanuts"
+      },
+      {
+        "ingredient": "chicken",
+        "substitute": "500 g paneer or firm tofu, cut into 2 cm cubes",
+        "notes": "fry the paneer/tofu first until golden before returning to the sauce"
+      },
+      {
+        "ingredient": "vinegar",
+        "substitute": "1 tbsp lemon juice",
+        "notes": "adds brightness but less complexity"
+      },
+      {
+        "ingredient": "dried-red-chilli",
+        "substitute": "4 whole dried Kashmiri chillies or guntur chillies",
+        "notes": "widely available in Indian groceries; the Kashmiri variety gives colour without excessive heat"
+      }
+    ],
+    "culturalNote": "Kung Pao Chicken was named after Ding Baozhen (宫保, meaning 'guardian of the palace'), a Sichuan governor in the Qing dynasty who loved this dish. Despite its illustrious origin, it remains a weekday staple in Chinese homes across the country.",
+    "regionalVariation": "The Sichuan original uses Sichuan peppercorns for mala (numbing heat) and a dark soy glaze. Americanised versions are sweeter with more sauce; Hunanese adaptations add more vinegar and fewer peanuts.",
+    "indianKitchenAdaptation": "Verkadalai (roasted groundnuts) are your peanuts — remove the skin. Kashmiri or guntur dried red chillies are perfect substitutes for Chinese dried chillies. Cook in a kadai on the highest gas setting you have; the sear on the chicken makes a big difference. Soy sauce and vinegar are available at any Indian supermarket. Sichuan peppercorns can occasionally be found in metro spice markets; black pepper plus a pinch of ajwain (omam) gives a vaguely similar warmth.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-chinese-sweet-sour-chicken",
+    "slug": "chinese-sweet-sour-chicken",
+    "title": "Sweet and Sour Chicken",
+    "nativeTitle": "糖醋雞",
+    "description": "Crispy battered chicken pieces coated in a glossy, tangy-sweet sauce of ketchup, vinegar and sugar, dotted with capsicum and pineapple. A crowd-pleasing Chinese-restaurant classic that is just as good made at home with pantry staples.",
+    "cuisine": "chinese",
+    "country": "china",
+    "region": "guangdong",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "boneless chicken (breast or thigh), cut into bite-size pieces",
+        "normalizedName": "chicken",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "egg, beaten",
+        "normalizedName": "egg",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cornflour",
+        "normalizedName": "cornflour",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "3 tbsp for batter, 1 tbsp for sauce slurry"
+      },
+      {
+        "name": "tomato ketchup",
+        "normalizedName": "tomato-ketchup",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "white or rice vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "light soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "capsicum (any colour), cut into 3 cm squares",
+        "normalizedName": "capsicum",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "pineapple chunks (canned or fresh)",
+        "normalizedName": "pineapple",
+        "quantity": 120,
+        "unit": "g",
+        "optional": true
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "neutral cooking oil, for deep frying and stir-frying",
+        "normalizedName": "oil",
+        "quantity": 500,
+        "unit": "ml",
+        "optional": false,
+        "notes": "500 ml for frying; you will only consume a fraction of this"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 100,
+        "unit": "ml",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Season the chicken pieces with salt. Mix the beaten egg and 3 tablespoons of cornflour with just enough water (about 2–3 tablespoons) to make a thick batter. Coat the chicken evenly in the batter.",
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Mix the sweet-sour sauce in a bowl: ketchup, vinegar, sugar, soy sauce, the remaining 1 tablespoon of cornflour and 100 ml water. Stir until the sugar dissolves and set aside."
+      },
+      {
+        "order": 3,
+        "text": "Heat the oil in a kadai or wok to 170°C (a cube of bread should sizzle and turn golden in about 40 seconds). Working in two batches, slide the battered chicken in and fry for 4–5 minutes until golden and cooked through. Remove with a slotted spoon and drain on paper.",
+        "timerMinutes": 5,
+        "method": "deep-frying"
+      },
+      {
+        "order": 4,
+        "text": "While the chicken rests, pour off most of the frying oil, leaving about 1 tablespoon in the wok. Fry the garlic for 30 seconds on medium-high heat until golden."
+      },
+      {
+        "order": 5,
+        "text": "Add the capsicum and stir-fry for 2 minutes until just softened but still vibrant. Add the pineapple if using and toss for 30 seconds.",
+        "timerMinutes": 2,
+        "method": "stir-frying"
+      },
+      {
+        "order": 6,
+        "text": "Give the sauce a quick stir and pour it into the wok. Bring to a bubble over medium heat, stirring, until the sauce thickens into a glossy glaze, about 1–2 minutes.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 7,
+        "text": "Slide the fried chicken back in and toss quickly to coat — work fast so the batter stays crispy. Serve at once over steamed rice."
+      }
+    ],
+    "cookware": [
+      "wok",
+      "kadai"
+    ],
+    "methods": [
+      "deep-frying",
+      "stir-frying"
+    ],
+    "tags": [
+      "party",
+      "kids-friendly",
+      "comfort-food"
+    ],
+    "allergens": [
+      "egg",
+      "soy",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 410,
+      "protein": 26,
+      "carbs": 38,
+      "fat": 16,
+      "fiber": 2,
+      "sugar": 18,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "paneer cubes or firm tofu",
+        "notes": "batter and fry the same way; tofu may need more careful handling"
+      },
+      {
+        "ingredient": "pineapple",
+        "substitute": "1 diced mango or skip entirely",
+        "notes": "raw mango works beautifully for tartness"
+      },
+      {
+        "ingredient": "vinegar",
+        "substitute": "2 tbsp lemon juice",
+        "notes": "reduces frying temperature to avoid splatter"
+      },
+      {
+        "ingredient": "tomato-ketchup",
+        "substitute": "2 tbsp tomato paste + 1 tbsp extra sugar",
+        "notes": "ketchup is preferred as it brings sweetness and flavour in one"
+      }
+    ],
+    "culturalNote": "Sweet and sour is one of the fundamental flavour combinations (糖醋, tángcù) in Chinese cooking, most famously expressed with pork in Cantonese cuisine. The chicken version became popular globally as Chinese restaurants adapted the dish to local preferences.",
+    "regionalVariation": "Cantonese-style sweet and sour uses whole fish or pork ribs with a lighter, more balanced sauce. The takeaway version familiar across Europe and South Asia tends to be sweeter and saucier to suit local palates.",
+    "indianKitchenAdaptation": "All ingredients are easily found in India — use Kissan or Maggi ketchup, Chings soy sauce and plain white vinegar. Shimla mirch (capsicum) and canned pineapple are available at most supermarkets. Deep-fry the chicken in your kadai over medium-high heat; maintain the oil temperature by frying in small batches. Ananas (pineapple) is an excellent substitute if canned fruit is unavailable.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-chinese-tomato-egg-stirfry",
+    "slug": "chinese-tomato-egg-stirfry",
+    "title": "Chinese Tomato and Egg Stir-Fry",
+    "nativeTitle": "西紅柿炒雞蛋",
+    "description": "Perhaps the most beloved home-cooked dish in China — ripe tomatoes and softly scrambled eggs brought together in a sweet-savoury sauce that clings to every grain of rice. Quick, wholesome and endlessly comforting, it is the dish millions of Chinese students learn first when they leave home.",
+    "cuisine": "chinese",
+    "country": "china",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 8,
+    "cookTimeMinutes": 10,
+    "totalTimeMinutes": 18,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "ripe tomatoes, cut into wedges",
+        "normalizedName": "tomato",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "eggs",
+        "normalizedName": "egg",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "spring onions, sliced (white and green separated)",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "balances the tomato acidity; adjust to taste"
+      },
+      {
+        "name": "light soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "toasted sesame oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "neutral cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Beat the eggs with a large pinch of salt until the yolks and whites are fully combined. The eggs should flow freely off the fork.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Heat 2 tablespoons of oil in a wok or kadai over medium-high heat until shimmering. Pour in the eggs. Leave for 10 seconds until the edges puff up, then scramble gently with a spatula, moving the curds around until just set but still glossy. Remove the eggs to a plate — they should be underdone at this stage.",
+        "timerMinutes": 2,
+        "method": "stir-frying"
+      },
+      {
+        "order": 3,
+        "text": "Add the remaining oil to the wok. Add the white parts of the spring onion and garlic. Stir on medium heat for 30 seconds."
+      },
+      {
+        "order": 4,
+        "text": "Add the tomato wedges, soy sauce and sugar. Toss and cook on medium-high heat for 3–4 minutes until the tomatoes soften and release their juices, forming a loose sauce. Taste and add salt if needed.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 5,
+        "text": "Return the eggs to the wok. Fold everything together gently for 1 minute — the eggs will finish cooking in the tomato juices. Remove from heat.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 6,
+        "text": "Drizzle with sesame oil if using, scatter over the green parts of the spring onion and serve immediately over steamed rice."
+      }
+    ],
+    "cookware": [
+      "wok",
+      "kadai"
+    ],
+    "methods": [
+      "stir-frying"
+    ],
+    "tags": [
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "bachelor-friendly",
+      "comfort-food",
+      "kids-friendly"
+    ],
+    "allergens": [
+      "egg",
+      "soy",
+      "gluten",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 240,
+      "protein": 13,
+      "carbs": 10,
+      "fat": 16,
+      "fiber": 2,
+      "sugar": 6,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "tomato",
+        "substitute": "canned whole tomatoes, drained",
+        "notes": "use in the same way; reduce sugar slightly as canned tomatoes can be sweeter"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "a pinch of salt and a dash of vinegar",
+        "notes": "soy sauce adds depth — worth seeking out"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "skip entirely or add a tiny amount of mustard oil off heat"
+      }
+    ],
+    "culturalNote": "This dish (xī hóng shì chǎo jī dàn) is described by Chinese food writers as the national dish of Chinese home cooking — not in the celebratory sense, but in the universal sense. Nearly every Chinese person knows it as the first thing their parent or grandparent ever taught them to cook.",
+    "regionalVariation": "Some northern Chinese cooks add a splash of sesame paste or a pinch of MSG for extra depth. Shanghainese versions are slightly sweeter, while Sichuan households add dried chillies for a spicy edge.",
+    "indianKitchenAdaptation": "This is one of the easiest Chinese dishes to make in an Indian kitchen. All ingredients are everyday items — thakkali (tomatoes), muttai (eggs), poondu (garlic) and oil. Use a kadai on medium-high heat. Gingelly oil (nallennai) doubles as sesame oil. Soy sauce is optional but widely available; a dash of it deepens the sauce significantly.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-chinese-garlic-green-beans",
+    "slug": "chinese-garlic-green-beans",
+    "title": "Chinese Garlic Green Beans",
+    "nativeTitle": "蒜炒四季豆",
+    "description": "Green beans blistered in a screaming-hot wok with fragrant garlic and dried red chillies until the skins are wrinkled and the insides remain tender. A simple, satisfying side dish that turns the humble green bean into something irresistible.",
+    "cuisine": "chinese",
+    "country": "china",
+    "region": "sichuan",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 8,
+    "cookTimeMinutes": 10,
+    "totalTimeMinutes": 18,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "green beans (French beans), trimmed and snapped in half",
+        "normalizedName": "beans",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "garlic, thinly sliced",
+        "normalizedName": "garlic",
+        "quantity": 6,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, julienned",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies, halved",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "light soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "rice vinegar or white vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "neutral cooking oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "sesame seeds, for garnish",
+        "normalizedName": "sesame-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pat the trimmed green beans completely dry with a kitchen cloth — moisture in the wok will cause dangerous splattering and prevents blistering.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a wok or kadai over the highest flame until it begins to smoke. Add the green beans in a single layer. Do not toss immediately — let them sear for 1 minute, then toss and cook for another 3–4 minutes, tossing every 30 seconds, until the skins are wrinkled and lightly charred in spots.",
+        "timerMinutes": 5,
+        "method": "stir-frying"
+      },
+      {
+        "order": 3,
+        "text": "Push the beans to the sides. In the centre of the wok, add the dried chillies, garlic and ginger. Stir for 30 seconds until fragrant, then toss everything together."
+      },
+      {
+        "order": 4,
+        "text": "Add soy sauce and vinegar if using. Toss vigorously for 1 minute until the beans are evenly coated and the sauce has been absorbed. Taste and adjust salt.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 5,
+        "text": "Transfer to a serving plate. Scatter sesame seeds over the top if using. Serve as a side with steamed rice and other dishes."
+      }
+    ],
+    "cookware": [
+      "wok",
+      "kadai"
+    ],
+    "methods": [
+      "stir-frying"
+    ],
+    "tags": [
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "healthy",
+      "low-oil",
+      "dry-curry"
+    ],
+    "allergens": [
+      "soy",
+      "gluten",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 130,
+      "protein": 5,
+      "carbs": 12,
+      "fat": 7,
+      "fiber": 5,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "beans",
+        "substitute": "asparagus spears or long yard-long beans",
+        "notes": "yard-long beans (common in South India) work particularly well and are more authentic"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "1 tbsp salt dissolved in a dash of water",
+        "notes": "soy sauce adds umami that plain salt cannot fully replicate"
+      },
+      {
+        "ingredient": "dried-red-chilli",
+        "substitute": "3–4 Kashmiri dried chillies",
+        "notes": "milder but give a deep red colour"
+      }
+    ],
+    "culturalNote": "Dry-fried green beans (gān biān sì jì dòu) is a Sichuan staple where the wok heat does all the work, creating a naturally intense flavour without a sauce. In Chinese cooking, this technique of charring vegetables dry over fierce heat is considered a fundamental wok skill.",
+    "regionalVariation": "Sichuan versions typically include minced pork and preserved vegetables (yacai) for a more complex dry stir-fry. Cantonese home cooks make a simpler version with just garlic and oyster sauce.",
+    "indianKitchenAdaptation": "French beans (sold as 'beans' in Indian markets) are perfect for this dish. A wide kadai on the highest gas flame replicates wok heat admirably — just ensure the beans are bone-dry before they hit the oil. Kashmiri or guntur dried red chillies work beautifully. The dish is naturally suited to an Indian kitchen and takes under 15 minutes start to finish.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-chinese-congee",
+    "slug": "chinese-congee",
+    "title": "Chinese Congee (Plain Rice Porridge with Toppings)",
+    "nativeTitle": "粥",
+    "description": "A soothing, silky rice porridge — the ultimate Chinese comfort food — slow-cooked until the grains dissolve into a thick, creamy white broth. Served with ginger, spring onions, soy sauce and your choice of toppings, it is eaten for breakfast, after a long night out, or whenever the body needs warmth.",
+    "cuisine": "chinese",
+    "country": "china",
+    "region": "guangdong",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 45,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "jasmine or ponni rice, rinsed",
+        "normalizedName": "rice",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false,
+        "notes": "1 cup raw rice makes a thick congee for 4; use 1.5 cups for thinner porridge"
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 8,
+        "unit": "cup",
+        "optional": false,
+        "notes": "or 6 cups water + 2 cups vegetable stock for extra flavour"
+      },
+      {
+        "name": "ginger, sliced into matchsticks",
+        "normalizedName": "ginger",
+        "quantity": 4,
+        "unit": "cm",
+        "optional": false
+      },
+      {
+        "name": "spring onions, thinly sliced",
+        "normalizedName": "spring-onion",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "light soy sauce, for serving",
+        "normalizedName": "soy-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "toasted sesame oil, for serving",
+        "normalizedName": "gingelly-oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "neutral cooking oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "add to rice before cooking to prevent sticking"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "eggs (for optional topping)",
+        "normalizedName": "egg",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": true,
+        "notes": "soft-boil or poach and place on top"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Combine the rinsed rice, water and 1 teaspoon of oil in a heavy-bottomed pot or pressure cooker. The oil keeps the rice from foaming over.",
+        "method": "one-pot"
+      },
+      {
+        "order": 2,
+        "text": "For a stovetop method: bring to a boil over high heat, then reduce to the lowest possible simmer. Cover with the lid slightly ajar and cook for 45–60 minutes, stirring every 15 minutes to prevent the bottom from catching, until the rice has dissolved into a thick, creamy porridge.",
+        "timerMinutes": 50,
+        "method": "simmering"
+      },
+      {
+        "order": 3,
+        "text": "For a pressure cooker method (faster): close the lid and cook on high pressure for 20 minutes (6 whistles on a standard Indian cooker). Turn off the heat and allow the pressure to release naturally — about 15 minutes.",
+        "timerMinutes": 35,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Open the cooker and stir vigorously with a ladle — the rice will be very thick at first; it loosens as you stir. If it is too thick, add a little hot water and stir to your preferred consistency. Season with salt."
+      },
+      {
+        "order": 5,
+        "text": "If adding soft-boiled eggs: while the congee cooks, place eggs in a small saucepan of boiling water and cook for exactly 6 minutes. Transfer to cold water, peel and halve.",
+        "timerMinutes": 6
+      },
+      {
+        "order": 6,
+        "text": "Ladle the congee into deep bowls. Drizzle each bowl with soy sauce and sesame oil. Top with julienned ginger and spring onions. Add a halved soft-boiled egg if using and serve immediately."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "pressure-cooker",
+      "saucepan"
+    ],
+    "methods": [
+      "simmering",
+      "pressure-cooking",
+      "one-pot"
+    ],
+    "tags": [
+      "comfort-food",
+      "budget",
+      "healthy",
+      "kids-friendly",
+      "one-pot-meal"
+    ],
+    "allergens": [
+      "soy",
+      "gluten",
+      "sesame",
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 220,
+      "protein": 5,
+      "carbs": 44,
+      "fat": 4,
+      "fiber": 1,
+      "sugar": 1,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "rice",
+        "substitute": "1 cup broken rice or leftover cooked rice",
+        "notes": "broken rice dissolves faster; cooked rice takes only 20–25 minutes on the stovetop"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "fish sauce or a pinch of salt",
+        "notes": "soy adds colour and umami; fish sauce gives a Cantonese flavour"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "a few drops of mustard oil off heat",
+        "notes": "sesame oil is worth seeking out for congee — the flavour is distinctive"
+      }
+    ],
+    "culturalNote": "Congee (粥, zhōu) has been eaten in China for thousands of years as both everyday sustenance and medicinal food. Cantonese jook is the most internationally well-known style, typically served with century egg and salted pork, but the plain version is the comforting blank canvas that every Chinese cook returns to.",
+    "regionalVariation": "Cantonese congee (jook) is very smooth and often cooked with pork bone broth. Teochew congee is thinner, almost clear, and served with a large spread of side dishes. Fujian congee uses sweet potato or yam to add natural sweetness.",
+    "indianKitchenAdaptation": "A pressure cooker is the ideal tool here — 6 whistles on high pressure and 15 minutes natural release gives you perfectly dissolved congee with almost no effort. Use ponni or sona masoori rice. Gingelly oil (nallennai) is your sesame oil. Soy sauce is optional but recommended; find it at Indian grocery stores under the Chings or Maggi label. The result is a warming, easily digestible meal ideal for sick days or cool mornings.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-chinese-wonton-soup",
+    "slug": "chinese-wonton-soup",
+    "title": "Wonton-Style Dumpling Soup",
+    "nativeTitle": "馄饨汤",
+    "description": "Delicate minced-chicken parcels in silky wrappers floating in a clear, ginger-scented broth — a soul-warming bowl of Chinese dumpling soup made accessible without specialist equipment. The wrappers use just flour and water, and the filling is spiced simply with ginger, spring onion and sesame oil.",
+    "cuisine": "chinese",
+    "country": "china",
+    "region": "guangdong",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 40,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "all-purpose flour (maida), for wrappers",
+        "normalizedName": "maida",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false,
+        "notes": "makes about 24 thin wrappers; ready-made wonton sheets from Chinese groceries save time"
+      },
+      {
+        "name": "minced chicken (keema)",
+        "normalizedName": "keema",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "ginger, finely grated",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "spring onions, very finely chopped",
+        "normalizedName": "spring-onion",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "light soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "toasted sesame oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "white or black pepper",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "chicken or vegetable stock",
+        "normalizedName": "stock",
+        "quantity": 1,
+        "unit": "l",
+        "optional": false,
+        "notes": "a good stock is the heart of this soup"
+      },
+      {
+        "name": "ginger, 3 slices for the broth",
+        "normalizedName": "ginger",
+        "quantity": 3,
+        "unit": "slice",
+        "optional": false
+      },
+      {
+        "name": "cornflour, for dusting",
+        "normalizedName": "cornflour",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "prevents wrappers from sticking"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "spring onions, for garnish",
+        "normalizedName": "spring-onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Make the wrapper dough: combine the flour with a generous pinch of salt. Add about 90 ml of just-boiled water gradually, mixing with a spoon, then knead for 5 minutes until you have a smooth, firm dough. It should not stick to your hands. Cover with a damp cloth and rest for 20 minutes.",
+        "timerMinutes": 25,
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Meanwhile, prepare the filling: combine minced chicken with 1 tablespoon soy sauce, the sesame oil, ginger, garlic, spring onions and pepper. Mix thoroughly in one direction until the mixture becomes slightly sticky. Taste by cooking a tiny amount in a dry pan and adjust seasoning."
+      },
+      {
+        "order": 3,
+        "text": "Divide the dough into 4 portions. Roll each portion on a lightly floured surface as thin as you can — aim for 1–2 mm thick. Cut into 8 cm squares. Dust the squares lightly with cornflour to prevent sticking."
+      },
+      {
+        "order": 4,
+        "text": "To fold each wonton: place 1 heaped teaspoon of filling in the centre of a wrapper. Wet the edges with a fingertip dipped in water. Fold over into a triangle, pressing out any air and sealing firmly. Bring the two bottom corners together and pinch to seal. Dust the finished wontons with cornflour.",
+        "method": "no-cook"
+      },
+      {
+        "order": 5,
+        "text": "Make the broth: heat the stock in a large pot with 3 slices of ginger and the remaining soy sauce. Bring to a gentle simmer and season with salt. Keep warm on low heat.",
+        "timerMinutes": 8,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Cook the wontons in a separate large pot of boiling water. Drop them in batches of 8. They are done when they float and the skin looks slightly translucent, about 4–5 minutes. Remove with a slotted spoon.",
+        "timerMinutes": 5,
+        "method": "boiling"
+      },
+      {
+        "order": 7,
+        "text": "Divide the cooked wontons among bowls (about 6 per person). Ladle the hot broth generously over them. Drizzle with a little extra sesame oil, top with sliced spring onions and serve immediately."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "saucepan"
+    ],
+    "methods": [
+      "boiling",
+      "simmering",
+      "no-cook"
+    ],
+    "tags": [
+      "comfort-food",
+      "soup",
+      "budget",
+      "party"
+    ],
+    "allergens": [
+      "gluten",
+      "soy",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein": 24,
+      "carbs": 42,
+      "fat": 11,
+      "fiber": 2,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "keema",
+        "substitute": "minced mushroom (200 g) + minced cabbage (100 g) for a vegetarian version",
+        "notes": "squeeze out all moisture from mushroom and cabbage before mixing"
+      },
+      {
+        "ingredient": "maida",
+        "substitute": "ready-made wonton sheets or spring roll wrappers cut into smaller squares",
+        "notes": "frozen dumpling wrappers from Chinese grocery shops are a great time-saver"
+      },
+      {
+        "ingredient": "stock",
+        "substitute": "water with 2 stock cubes + 1 tsp soy sauce",
+        "notes": "a rich broth makes a significant difference here"
+      },
+      {
+        "ingredient": "chicken",
+        "substitute": "prawn (jhinga) for a more traditional Cantonese filling",
+        "notes": "chop prawns roughly; do not mince them completely for a better texture"
+      }
+    ],
+    "culturalNote": "Wontons (馄饨, húntun) are among the oldest Chinese dumplings, with written references going back over a thousand years. In Guangdong, they are typically served in a delicate broth for breakfast or as a light meal, while in Shanghai they are eaten with spicy chilli oil.",
+    "regionalVariation": "Cantonese wontons are wrapped tightly in thin flour skins and served in clear bone broth with egg noodles. Shanghainese wonton soup (hundun) uses larger, irregularly folded wontons. Sichuan 'red oil wontons' are served at room temperature in a pool of chilli oil.",
+    "indianKitchenAdaptation": "Maida (all-purpose flour) is your wrapper dough — the same flour used for making poori and paratha. Minced chicken (keema) is available from most butchers. Wonton skins can also be bought frozen from Chinese grocery stores in metro cities. For the broth, use a good store-bought stock cube dissolved in hot water with fresh ginger. Gingelly oil (nallennai) is your sesame oil. The folding requires only practice — the seal is more important than the shape.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-chinese-char-siu-chicken",
+    "slug": "chinese-char-siu-chicken",
+    "title": "Char Siu-Style Glazed Chicken",
+    "nativeTitle": "叉燒雞",
+    "description": "Chicken thighs marinated in a sticky-sweet-savoury glaze of honey, soy sauce and warm spices, then roasted or pan-seared until the skin is lacquered and caramelised. A simplified home version of the iconic Cantonese BBQ pork technique, adapted here for chicken and a standard kitchen.",
+    "cuisine": "chinese",
+    "country": "china",
+    "region": "guangdong",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken thighs, bone-in skin-on",
+        "normalizedName": "chicken",
+        "quantity": 800,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "honey",
+        "normalizedName": "honey",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "light soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "oyster sauce",
+        "normalizedName": "oyster-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "star anise",
+        "normalizedName": "star-anise",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false,
+        "notes": "gives the characteristic char siu spice note"
+      },
+      {
+        "name": "cinnamon stick",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "white or rice vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "neutral cooking oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sesame seeds, for garnish",
+        "normalizedName": "sesame-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Make the marinade: combine honey, soy sauce, oyster sauce, garlic, ginger, sugar and vinegar in a small saucepan. Add the star anise and cinnamon. Heat over medium flame for 2 minutes, stirring until the sugar dissolves. Remove from heat and cool completely.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 2,
+        "text": "Score the chicken thighs 2–3 times across the thickest part with a knife. Place them in a bowl and pour the cooled marinade over them. Turn to coat well. Cover and marinate in the fridge for at least 30 minutes, ideally 4 hours or overnight.",
+        "timerMinutes": 30,
+        "method": "marinating"
+      },
+      {
+        "order": 3,
+        "text": "Remove the chicken from the marinade, reserving the marinade. Fish out and discard the star anise and cinnamon before using the marinade as a glaze."
+      },
+      {
+        "order": 4,
+        "text": "Oven method: preheat the oven to 210°C. Place chicken on a foil-lined baking tray, skin-side up. Roast for 20 minutes. Brush with reserved marinade and roast for another 10 minutes until the skin is dark, sticky and caramelised. Rest for 5 minutes.",
+        "timerMinutes": 30,
+        "method": "roasting"
+      },
+      {
+        "order": 5,
+        "text": "Tawa/pan method (no oven): heat 1 tablespoon of oil in a heavy skillet or tawa over medium flame. Place chicken skin-side down. Cook for 8 minutes until the skin is golden. Flip, cover with a lid and cook for 10 more minutes. Uncover, pour in 2 tablespoons of the reserved marinade and cook for 3–4 minutes, turning once, until the glaze is sticky and dark.",
+        "timerMinutes": 22,
+        "method": "pan-frying"
+      },
+      {
+        "order": 6,
+        "text": "Slice the rested chicken and arrange on a plate. Scatter sesame seeds over the top. Serve with steamed rice and a little drizzle of the pan juices."
+      }
+    ],
+    "cookware": [
+      "oven",
+      "tawa",
+      "skillet",
+      "saucepan"
+    ],
+    "methods": [
+      "marinating",
+      "roasting",
+      "pan-frying",
+      "simmering"
+    ],
+    "tags": [
+      "comfort-food",
+      "party",
+      "grill-bbq"
+    ],
+    "allergens": [
+      "soy",
+      "gluten",
+      "shellfish",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein": 34,
+      "carbs": 18,
+      "fat": 22,
+      "fiber": 0,
+      "sugar": 14,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "honey",
+        "substitute": "3 tbsp jaggery syrup (jaggery dissolved in 1 tbsp hot water) or sugar syrup",
+        "notes": "honey gives a distinct floral note; jaggery adds a deeper caramel quality"
+      },
+      {
+        "ingredient": "oyster-sauce",
+        "substitute": "extra 1 tbsp soy sauce + 1 tsp sugar",
+        "notes": "omit oyster sauce to make it shellfish-free"
+      },
+      {
+        "ingredient": "chicken",
+        "substitute": "pork belly strips if available, or paneer steaks for a vegetarian glaze",
+        "notes": "this is the original char siu base for pork; paneer takes on the glaze beautifully"
+      },
+      {
+        "ingredient": "star-anise",
+        "substitute": "1 tsp five-spice powder (found in Chinese grocery stores) or ½ tsp garam masala",
+        "notes": "five-spice is most authentic; garam masala adds warmth in a different direction"
+      }
+    ],
+    "culturalNote": "Char siu (叉燒) translates as 'fork-roasted' and refers to the traditional method of threading meat on long forks and rotating it in an open wood-fire oven. It is one of the defining tastes of Cantonese roast meat culture (siu mei), sold from specialist shops where ducks, pork and ribs hang gleaming in the window.",
+    "regionalVariation": "Cantonese char siu uses pork belly or shoulder marinated with red fermented tofu (nanlao) for its characteristic red colour. This chicken adaptation is common in Southeast Asia and gives similar flavours with an easier cooking method.",
+    "indianKitchenAdaptation": "No oven? The tawa method works remarkably well — cover the chicken for the first part of cooking to ensure it cooks through, then uncover to caramelise the glaze. Honey (shahad) is available everywhere; oyster sauce and soy sauce are stocked in most Indian supermarkets. Star anise (annachi mokku) is a staple in Indian kitchens. The marinade can be prepared a day ahead and the chicken left to marinate overnight for deep flavour.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-chinese-dan-dan-noodles",
+    "slug": "chinese-dan-dan-noodles",
+    "title": "Dan Dan-Style Peanut Noodles",
+    "nativeTitle": "擔擔麵",
+    "description": "Sichuan street-food noodles in a rich, nutty sauce of peanut paste, sesame oil, chilli and vinegar — bold, aromatic and almost irresistibly addictive. This home-kitchen version keeps the signature flavours while using ingredients found in any Indian supermarket.",
+    "cuisine": "chinese",
+    "country": "china",
+    "region": "sichuan",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 30,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "dried wheat noodles (hakka or thin egg noodles)",
+        "normalizedName": "noodles",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "minced chicken or pork",
+        "normalizedName": "keema",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false,
+        "notes": "forms the savoury topping; can be omitted for a vegetarian version"
+      },
+      {
+        "name": "roasted peanuts or peanut butter",
+        "normalizedName": "peanut",
+        "quantity": 60,
+        "unit": "g",
+        "optional": false,
+        "notes": "blend peanuts with 2 tbsp water to make a coarse paste, or use 3 tbsp peanut butter"
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, minced",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "light soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "rice or white vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "chilli oil or chilli-garlic sauce",
+        "normalizedName": "green-chilli-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "use more or less to control heat"
+      },
+      {
+        "name": "toasted sesame oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "Sichuan peppercorns or black pepper, ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "neutral cooking oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "spring onions, thinly sliced, for garnish",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Cook noodles in boiling salted water according to packet instructions until just tender. Drain, rinse briefly with cold water and toss with 1 teaspoon of sesame oil to prevent sticking.",
+        "timerMinutes": 5,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Make the sauce: in a bowl, whisk together the peanut paste (or peanut butter), soy sauce, vinegar, sugar, chilli sauce, remaining sesame oil and ground pepper. Thin with 3–4 tablespoons of the noodle cooking water until the sauce is pourable but still thick. Taste and adjust heat and salt."
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a wok or kadai over high heat. Add garlic and ginger; stir for 30 seconds. Add the minced meat and break it up, stir-frying on high heat for 4–5 minutes until the meat is browned and crispy at the edges — this textural contrast is important.",
+        "timerMinutes": 5,
+        "method": "stir-frying"
+      },
+      {
+        "order": 4,
+        "text": "Season the cooked meat with a splash of soy sauce and remove from heat."
+      },
+      {
+        "order": 5,
+        "text": "Divide the noodles between bowls. Pour the peanut sauce generously over each portion and spoon the crispy meat on top. Finish with sliced spring onions.",
+        "method": "no-cook"
+      },
+      {
+        "order": 6,
+        "text": "Serve immediately and toss everything together at the table before eating — the contrast of cold noodles, warm sauce and crispy meat should all be experienced together."
+      }
+    ],
+    "cookware": [
+      "wok",
+      "kadai",
+      "saucepan"
+    ],
+    "methods": [
+      "boiling",
+      "stir-frying"
+    ],
+    "tags": [
+      "street-food",
+      "comfort-food",
+      "budget",
+      "bowl",
+      "quick"
+    ],
+    "allergens": [
+      "gluten",
+      "peanuts",
+      "soy",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 520,
+      "protein": 28,
+      "carbs": 55,
+      "fat": 22,
+      "fiber": 4,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "peanut",
+        "substitute": "3 tbsp tahini (sesame paste)",
+        "notes": "gives a different but equally rich nutty base"
+      },
+      {
+        "ingredient": "keema",
+        "substitute": "finely diced mushroom + fried until crispy, for a vegetarian version",
+        "notes": "shiitake or button mushrooms work well; ensure they are browned properly"
+      },
+      {
+        "ingredient": "green-chilli-sauce",
+        "substitute": "1 tsp red chilli powder + 1 tsp oil heated together",
+        "notes": "homemade chilli oil: heat oil to smoking, pour over chilli powder in a heatproof bowl"
+      },
+      {
+        "ingredient": "noodles",
+        "substitute": "any flat wheat noodles or even spaghetti",
+        "notes": "spaghetti is a surprisingly good substitute for Chinese wheat noodles"
+      }
+    ],
+    "culturalNote": "Dan dan noodles (担担面) take their name from the bamboo shoulder pole (担担) that street vendors once carried through Chengdu, balancing a pot of sauce on one side and noodles on the other. They are the definitive fast food of Sichuan street culture.",
+    "regionalVariation": "Sichuan versions use ya cai (preserved Yibin vegetables) in the meat topping for a distinctive sour crunch. In China's north and abroad, the sauce is often richer and creamier. Chengdu dan dan noodles are typically served in individual portions as a small-plate snack rather than a main meal.",
+    "indianKitchenAdaptation": "Verkadalai (groundnuts) are your peanuts — dry-roast them on a tawa and blend coarsely. Hakka noodles (Chings brand) are perfect and widely available. Gingelly oil (nallennai) is your sesame oil. Chilli-garlic sauce from Chings or Mother's Recipe works as chilli oil. The whole dish can be made in a kadai and a saucepan in under 30 minutes.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-chinese-hot-sour-soup",
+    "slug": "chinese-hot-sour-soup",
+    "title": "Chinese Hot and Sour Soup",
+    "nativeTitle": "酸辣湯",
+    "description": "A warming, tangy broth packed with silken tofu, mushrooms and egg ribbons, seasoned with a bold hit of vinegar and white pepper. This Chinese restaurant staple is far quicker and easier to make at home than most people realise, and incomparably better than the takeaway version.",
+    "cuisine": "chinese",
+    "country": "china",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "firm tofu, cut into thin matchsticks",
+        "normalizedName": "tofu",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "button or shiitake mushrooms, sliced thin",
+        "normalizedName": "mushroom",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "eggs, beaten",
+        "normalizedName": "egg",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "rice or white vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "start with 3 tbsp and add more to taste — the soup should be noticeably sour"
+      },
+      {
+        "name": "light soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "white pepper (or black pepper)",
+        "normalizedName": "black-pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "white pepper is the traditional choice and gives a different heat from black; add generously"
+      },
+      {
+        "name": "cornflour, mixed with 4 tbsp cold water",
+        "normalizedName": "cornflour",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "vegetable or chicken stock",
+        "normalizedName": "stock",
+        "quantity": 1,
+        "unit": "l",
+        "optional": false
+      },
+      {
+        "name": "ginger, sliced",
+        "normalizedName": "ginger",
+        "quantity": 3,
+        "unit": "slice",
+        "optional": false
+      },
+      {
+        "name": "toasted sesame oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "spring onions, sliced, for garnish",
+        "normalizedName": "spring-onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Bring the stock to a simmer in a large pot with the ginger slices. Add soy sauce, vinegar and pepper. Taste and adjust — the broth should be distinctly sour and peppery before you add the other ingredients.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 2,
+        "text": "Add the mushrooms and simmer for 3 minutes until softened.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 3,
+        "text": "Gently add the tofu matchsticks. Simmer for 2 minutes — tofu will warm through without losing its shape.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 4,
+        "text": "Give the cornflour slurry a quick stir and pour it slowly into the simmering soup while stirring in a circular motion. The soup will thicken noticeably within 1 minute. Stop adding slurry once it reaches a light, silky consistency.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 5,
+        "text": "Reduce the heat to low. Beat the eggs well, then pour them in a thin, steady stream while stirring the soup gently in one direction — this creates the characteristic egg ribbons. Stop stirring after 30 seconds and let the egg set."
+      },
+      {
+        "order": 6,
+        "text": "Remove the ginger slices. Taste and add more vinegar, pepper or salt as needed. Drizzle with sesame oil, garnish with spring onions and serve piping hot."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "saucepan"
+    ],
+    "methods": [
+      "simmering",
+      "boiling"
+    ],
+    "tags": [
+      "soup",
+      "comfort-food",
+      "budget",
+      "quick",
+      "under-30-minutes",
+      "healthy"
+    ],
+    "allergens": [
+      "soy",
+      "egg",
+      "gluten",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 160,
+      "protein": 10,
+      "carbs": 12,
+      "fat": 7,
+      "fiber": 2,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "tofu",
+        "substitute": "paneer, cut into thin strips",
+        "notes": "paneer holds its shape well in the soup; cut it as thin as the tofu would be"
+      },
+      {
+        "ingredient": "mushroom",
+        "substitute": "thinly sliced carrot ribbons or bamboo shoot strips",
+        "notes": "any crunchy vegetable works as a textural element"
+      },
+      {
+        "ingredient": "stock",
+        "substitute": "water with 2 stock cubes + 1 tsp soy sauce",
+        "notes": "a good stock makes the soup dramatically better"
+      },
+      {
+        "ingredient": "vinegar",
+        "substitute": "lemon juice at the end",
+        "notes": "add lemon juice off heat to preserve brightness; vinegar cooks differently"
+      }
+    ],
+    "culturalNote": "Hot and sour soup (酸辣汤, suān là tāng) is one of the most widespread soups in Chinese cooking, with versions appearing from Sichuan to Jiangsu. The interplay of vinegar's sharpness against white pepper's heat is the defining characteristic — each element should be clearly perceptible.",
+    "regionalVariation": "Sichuan versions are hotter and more pungent with more pepper and chilli. Northern Chinese versions often contain black fungus (wood ear mushroom) and lily buds. The restaurant version common across South Asia tends to be thicker and sweeter.",
+    "indianKitchenAdaptation": "Bean curd (tofu) is available in Indian supermarkets and Chinese grocery shops; paneer is a local alternative. Button mushrooms are widely available. White vinegar (sirka) is your souring agent — start conservatively and add more. Cornflour is available in all Indian supermarkets. Use a good stock cube for depth. The whole soup can be made in a kadai or heavy pot in 20 minutes.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-chinese-sichuan-chilli-oil-noodles",
+    "slug": "chinese-sichuan-chilli-oil-noodles",
+    "title": "Sichuan Chilli Oil Noodles",
+    "nativeTitle": null,
+    "description": "Cold or room-temperature noodles dressed in fragrant, tingling homemade chilli oil with garlic, vinegar and soy sauce — a no-cook assembly job once the noodles are boiled. The chilli oil takes five minutes to make and transforms any noodle into something extraordinary.",
+    "cuisine": "chinese",
+    "country": "china",
+    "region": "sichuan",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "very_hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 10,
+    "totalTimeMinutes": 20,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "dried wheat noodles (hakka or any thin wheat noodles)",
+        "normalizedName": "noodles",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "neutral cooking oil",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "for making the chilli oil"
+      },
+      {
+        "name": "dried red chillies, roughly crushed",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "use Kashmiri for colour with less heat, or guntur for serious fire"
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, minced",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "light soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "rice or white vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "toasted sesame oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sesame seeds",
+        "normalizedName": "sesame-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "Sichuan peppercorns or black pepper, ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "spring onions, for garnish",
+        "normalizedName": "spring-onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "peanuts, roasted and roughly crushed, for topping",
+        "normalizedName": "peanut",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Place the crushed dried chillies and ground pepper in a heatproof bowl with the garlic and ginger. Heat the oil in a small saucepan until it just begins to smoke (around 180°C — it should shimmer and move quickly when you tilt the pan). Pour the hot oil slowly and carefully over the chilli mixture. It will sizzle aggressively. Stir and leave to infuse for 5 minutes.",
+        "timerMinutes": 5,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Cook the noodles in a large pot of boiling water until just tender. Drain and rinse briefly with cold water to stop cooking. Toss with 1 teaspoon sesame oil and divide between bowls.",
+        "timerMinutes": 5,
+        "method": "boiling"
+      },
+      {
+        "order": 3,
+        "text": "Make the dressing by combining the chilli oil (with all its infused bits), soy sauce, vinegar and sugar in a small bowl. Stir until the sugar dissolves."
+      },
+      {
+        "order": 4,
+        "text": "Pour the dressing generously over the noodles in each bowl. Toss well so every strand is coated."
+      },
+      {
+        "order": 5,
+        "text": "Top with sliced spring onions, sesame seeds and crushed peanuts if using. Serve immediately, or leave at room temperature for up to 30 minutes — the noodles absorb the sauce and become even more flavourful."
+      }
+    ],
+    "cookware": [
+      "saucepan",
+      "wok"
+    ],
+    "methods": [
+      "boiling",
+      "sauteing"
+    ],
+    "tags": [
+      "street-food",
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "bowl",
+      "bachelor-friendly"
+    ],
+    "allergens": [
+      "gluten",
+      "sesame",
+      "peanuts",
+      "soy"
+    ],
+    "nutrition": {
+      "calories": 490,
+      "protein": 12,
+      "carbs": 62,
+      "fat": 22,
+      "fiber": 4,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "noodles",
+        "substitute": "any cooked pasta (spaghetti or vermicelli)",
+        "notes": "this sauce works on any noodle; use whatever is available"
+      },
+      {
+        "ingredient": "dried-red-chilli",
+        "substitute": "Korean gochugaru or Indian red chilli flakes",
+        "notes": "gochugaru gives a sweeter, more paprika-like heat; guntur chilli gives the most fire"
+      },
+      {
+        "ingredient": "peanut",
+        "substitute": "crushed fried peanuts or skip entirely",
+        "notes": "adds crunch and richness but the dish stands without them"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "any neutral oil with a few drops of mustard oil",
+        "notes": "sesame oil is irreplaceable here for the authentic flavour — worth sourcing"
+      }
+    ],
+    "culturalNote": "Chilli oil noodles emerged from the street food culture of Sichuan and Chongqing, where vendors assemble them to order in seconds. The dish's recent viral popularity outside China introduced millions of people to the combination of ma (numbing) and là (spicy) that defines Sichuan cooking.",
+    "regionalVariation": "Chongqing-style versions are served in a shallow pool of oil with more toppings. Shenzhen cold noodles are similar but often include cucumber strips and peanut sauce. The Yunnan variant adds pickled vegetables and fresh herbs.",
+    "indianKitchenAdaptation": "This is one of the most India-friendly Chinese recipes because most ingredients are pantry staples. Kashmiri red chillies give a beautiful deep-red chilli oil with moderate heat; guntur chillies make it very hot. Gingelly oil (nallennai) is your sesame oil. Hakka noodles are the go-to choice. Making the chilli oil from scratch takes 5 minutes and is infinitely better than any bottled alternative.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-chinese-steamed-fish-ginger",
+    "slug": "chinese-steamed-fish-ginger",
+    "title": "Steamed Fish with Ginger and Spring Onion",
+    "nativeTitle": "清蒸魚",
+    "description": "A whole fish or thick fillet steamed over boiling water until just set, then dramatically finished with a pour of boiling soy-fragrant oil and a crown of fresh ginger and spring onion. This Cantonese classic showcases the purest possible flavour of fresh fish in under 20 minutes.",
+    "cuisine": "chinese",
+    "country": "china",
+    "region": "guangdong",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "pescatarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 25,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "whole fish or thick fillets (pomfret, seabass, snapper or tilapia)",
+        "normalizedName": "fish",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false,
+        "notes": "a whole fish gives the best flavour; scored on both sides for even cooking"
+      },
+      {
+        "name": "ginger, half sliced and half julienned",
+        "normalizedName": "ginger",
+        "quantity": 5,
+        "unit": "cm",
+        "optional": false
+      },
+      {
+        "name": "spring onions, half in 5 cm stalks and half julienned",
+        "normalizedName": "spring-onion",
+        "quantity": 5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "light soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "toasted sesame oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "neutral cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "heated until smoking and poured over the fish at the end"
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "green chilli, julienned (optional garnish)",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Clean and pat the fish dry. If using a whole fish, score 3 diagonal slashes on each side down to the bone. Rub the fish lightly with salt and place the stalks of spring onion and sliced ginger underneath the fish on a heat-proof plate that fits inside your steamer or pot.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Set up a steamer or wok-steamer rig: place a round rack or heatproof bowl in the bottom of a wide pot. Add 5 cm of boiling water and bring to a rolling boil. Place the plate of fish on the rack, cover tightly with a lid and steam on high heat for 8–10 minutes for a whole fish (6–7 minutes for fillets). The flesh should be just opaque and flake easily at the thickest point.",
+        "timerMinutes": 10,
+        "method": "steaming"
+      },
+      {
+        "order": 3,
+        "text": "Mix the soy sauce, sesame oil, sugar and 2 tablespoons of water in a small bowl. The sauce should taste pleasantly savoury and slightly sweet."
+      },
+      {
+        "order": 4,
+        "text": "When the fish is done, carefully pour off any water that has collected on the plate. Discard the cooked spring onion and ginger from underneath."
+      },
+      {
+        "order": 5,
+        "text": "Arrange the julienned fresh ginger, spring onion and green chilli in a pile on top of the fish. Pour the soy-sesame sauce over the fish."
+      },
+      {
+        "order": 6,
+        "text": "Heat the neutral oil in a small saucepan until it just begins to smoke — wisps of smoke are your signal. Immediately and carefully pour the smoking-hot oil over the ginger and spring onion mound on the fish. The oil will sizzle loudly, releasing the fragrance of the fresh aromatics. Serve at once.",
+        "timerMinutes": 2
+      }
+    ],
+    "cookware": [
+      "steamer",
+      "wok",
+      "saucepan",
+      "pressure-cooker"
+    ],
+    "methods": [
+      "steaming"
+    ],
+    "tags": [
+      "healthy",
+      "low-oil",
+      "comfort-food",
+      "party"
+    ],
+    "allergens": [
+      "fish",
+      "soy",
+      "gluten",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 240,
+      "protein": 30,
+      "carbs": 4,
+      "fat": 12,
+      "fiber": 0,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "fish",
+        "substitute": "firm tofu or thick slices of paneer",
+        "notes": "steam tofu for 6 minutes; the soy-ginger sauce works beautifully"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "a light salt brine + a tiny splash of vinegar",
+        "notes": "soy sauce is central to this dish — seek it out"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "skip the sesame oil drop and add a little extra soy sauce"
+      }
+    ],
+    "culturalNote": "Cantonese steamed fish (清蒸鱼, qīng zhēng yú) represents one of the highest expressions of Cantonese cooking philosophy: use superior ingredients and the gentlest technique to let their natural flavour speak. The dramatic pouring of hot oil at the table is as much theatre as it is technique.",
+    "regionalVariation": "Teochew-style steamed fish uses fermented black bean sauce for a pungent, earthy contrast. Shanghainese versions add a splash of Shaoxing wine to the steaming liquid. Fujianese preparations include chopped preserved vegetables under the fish.",
+    "indianKitchenAdaptation": "Pomfret (paplet), tilapia and seer fish (vanjaram) all steam beautifully. If you do not have a proper steamer, place a metal rack or upturned steel bowl inside a large pot with a well-fitting lid — it works perfectly. The pressure cooker works too: put 1 cup of water in the cooker, place the plate of fish on a raised stand inside, and steam on low heat (without the weight) for 8 minutes. Gingelly oil (nallennai) is your sesame oil. Soy sauce is essential here and widely available.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-chinese-cabbage-stirfry",
+    "slug": "chinese-cabbage-stirfry",
+    "title": "Chinese Cabbage Stir-Fry",
+    "nativeTitle": "炒白菜",
+    "description": "A quick, clean stir-fry of shredded cabbage with garlic, ginger and a flash of dried chilli — nothing fancy, just cabbage coaxed to its crisp-tender best over a fierce flame. One of the most frequently eaten vegetable dishes in Chinese homes and a perfect weeknight side.",
+    "cuisine": "chinese",
+    "country": "china",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 8,
+    "cookTimeMinutes": 7,
+    "totalTimeMinutes": 15,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "cabbage (napa or regular white cabbage), roughly shredded",
+        "normalizedName": "cabbage",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "garlic, sliced",
+        "normalizedName": "garlic",
+        "quantity": 5,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, julienned",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "light soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "rice or white vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "adds brightness; skip if you prefer a purer flavour"
+      },
+      {
+        "name": "neutral cooking oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "toasted sesame oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Shred the cabbage into roughly 3 cm wide strips. Wash and spin or shake dry — excess water will cause the cabbage to steam rather than stir-fry.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a wok or wide kadai over the highest flame you have until it just begins to smoke. Add the dried chillies and stir for 10 seconds until darkened and fragrant.",
+        "method": "stir-frying"
+      },
+      {
+        "order": 3,
+        "text": "Add garlic and ginger. Stir for 20 seconds — the garlic should be golden and fragrant but not burnt."
+      },
+      {
+        "order": 4,
+        "text": "Tip in all the cabbage at once. Toss vigorously with the spatula, letting it sit on the heat for 30 seconds before tossing again. Continue this rhythm for 3–4 minutes until the cabbage is wilted with some crisp edges — it should retain texture, not turn mushy.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 5,
+        "text": "Add soy sauce and vinegar if using. Toss for 30 seconds until the seasoning is distributed evenly. Taste and adjust salt."
+      },
+      {
+        "order": 6,
+        "text": "Remove from heat. Drizzle with sesame oil if using. Serve immediately as a side with rice and other dishes."
+      }
+    ],
+    "cookware": [
+      "wok",
+      "kadai"
+    ],
+    "methods": [
+      "stir-frying"
+    ],
+    "tags": [
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "healthy",
+      "low-oil",
+      "dry-curry",
+      "kids-friendly"
+    ],
+    "allergens": [
+      "soy",
+      "gluten",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 110,
+      "protein": 3,
+      "carbs": 10,
+      "fat": 7,
+      "fiber": 4,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "cabbage",
+        "substitute": "bok choy, baby spinach or sliced pointed cabbage (bandha gobi)",
+        "notes": "bok choy needs only 2 minutes; spinach needs only 1 minute"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "1 tsp salt + a squeeze of lemon",
+        "notes": "soy adds depth and colour that salt cannot replicate"
+      },
+      {
+        "ingredient": "dried-red-chilli",
+        "substitute": "2–3 Kashmiri dried chillies for milder heat",
+        "notes": "Kashmiri chillies give a beautiful red-orange colour"
+      }
+    ],
+    "culturalNote": "Stir-fried cabbage appears on almost every Chinese home table as a simple, affordable vegetable side. In northern China it is winter staple food; in the south, napa cabbage is preferred for its sweeter, more tender leaves. The principle of high heat and brief cooking preserves both the natural sweetness and the nutritional value.",
+    "regionalVariation": "Northern Chinese homes add a pinch of Sichuan peppercorn for a mala note. Cantonese versions use oyster sauce instead of soy for a richer umami. Some Shanghainese cooks add a dash of Shaoxing wine for fragrance.",
+    "indianKitchenAdaptation": "Bandha gobi (white cabbage) is the perfect substitute for napa cabbage — it is available year-round at every vegetable market in India. A kadai on high flame works as well as a wok. Kashmiri or guntur dried red chillies are ideal. This dish cooks in 7 minutes and goes with rice, roti or as a side alongside any dal. Gingelly oil (nallennai) finishes it beautifully.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-chinese-star-anise-braised-chicken",
+    "slug": "chinese-star-anise-braised-chicken",
+    "title": "Star Anise and Cinnamon Braised Chicken",
+    "nativeTitle": "紅燒雞",
+    "description": "Chicken pieces slow-braised in a deeply fragrant sauce of soy, sugar, star anise and cinnamon until the meat is fall-off-the-bone tender and the sauce is a glossy, lacquer-dark gravy. A Chinese home-kitchen classic that fills the entire house with the intoxicating scent of warm spices and caramel.",
+    "cuisine": "chinese",
+    "country": "china",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 40,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken pieces, bone-in (thighs or drumsticks)",
+        "normalizedName": "chicken",
+        "quantity": 800,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "star anise",
+        "normalizedName": "star-anise",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cinnamon stick",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "bay leaves",
+        "normalizedName": "bay-leaf",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "light soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "used to caramelise first, creating the sauce's rich dark colour"
+      },
+      {
+        "name": "garlic, crushed",
+        "normalizedName": "garlic",
+        "quantity": 5,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, sliced",
+        "normalizedName": "ginger",
+        "quantity": 4,
+        "unit": "slice",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 300,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "neutral cooking oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "rice or white vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "a dash at the end brightens the braising sauce"
+      },
+      {
+        "name": "spring onions, for garnish",
+        "normalizedName": "spring-onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pat the chicken pieces dry with a cloth. Heat oil in a heavy-bottomed pot or kadai over medium-high heat. Brown the chicken in two batches, skin-side first, for 3 minutes per side until deep golden. Do not crowd the pot. Remove the browned chicken and set aside.",
+        "timerMinutes": 8,
+        "method": "pan-frying"
+      },
+      {
+        "order": 2,
+        "text": "In the same pot over medium heat, add the sugar in a single layer. Watch it carefully — within 1–2 minutes it will melt and turn amber. This is the caramel that gives the dish its colour. If it starts to smell bitter, immediately add a splash of water to halt the process.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 3,
+        "text": "Add the garlic, ginger, star anise, cinnamon and bay leaves to the caramel. Stir for 30 seconds until fragrant."
+      },
+      {
+        "order": 4,
+        "text": "Return the chicken to the pot. Add soy sauce and water. The liquid should come roughly halfway up the chicken. Bring to a boil, then cover and reduce to a low simmer.",
+        "method": "braising"
+      },
+      {
+        "order": 5,
+        "text": "Braise the chicken on low heat for 30 minutes, turning the pieces halfway through, until the meat is very tender and pulls slightly from the bone. The sauce should have reduced and thickened noticeably.",
+        "timerMinutes": 30,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Pressure cooker shortcut: after adding liquid, close the lid and cook on high pressure for 3 whistles. Allow natural pressure release for 10 minutes, then open and reduce the sauce uncovered for 5 minutes on high heat.",
+        "timerMinutes": 18,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 7,
+        "text": "Remove the star anise, cinnamon and bay leaves. Add a dash of vinegar if using. Taste and add salt if needed — soy sauce is salty, so be cautious. Serve the chicken with rice, spooning the glossy dark sauce generously over both."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "kadai",
+      "pressure-cooker"
+    ],
+    "methods": [
+      "braising",
+      "simmering",
+      "pressure-cooking",
+      "pan-frying"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "budget",
+      "one-pot-meal"
+    ],
+    "allergens": [
+      "soy",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein": 30,
+      "carbs": 12,
+      "fat": 22,
+      "fiber": 0,
+      "sugar": 8,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "500 g firm tofu or soya chunks, for a vegetarian version",
+        "notes": "soak soya chunks in hot water for 15 minutes; reduce braising time to 12 minutes"
+      },
+      {
+        "ingredient": "star-anise",
+        "substitute": "1 tsp Chinese five-spice powder added with the soy sauce",
+        "notes": "five-spice powder is available at Chinese grocery stores; contains star anise, fennel, cinnamon, cloves and pepper"
+      },
+      {
+        "ingredient": "sugar",
+        "substitute": "2 tbsp jaggery (vellam/gur) for caramelising",
+        "notes": "jaggery caramelises well and adds a deeper, more complex sweetness"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "salt is not a direct substitute; use soy sauce for authenticity",
+        "notes": "soy sauce provides both colour and umami — it is essential here"
+      }
+    ],
+    "culturalNote": "Red-braised dishes (红烧, hóng shāo) are a cornerstone of Chinese home cooking, representing the technique of slow-cooking proteins in a soy-sugar-spice liquid until the sauce reduces to a lacquered glaze. The same method is applied to pork belly, tofu and eggs across different regions.",
+    "regionalVariation": "Shanghai-style red braised pork belly (hong shao rou) is the most famous application of this technique, enriched with Shaoxing wine. Hunan versions use more chilli and ginger. This chicken adaptation is a lighter, more everyday interpretation found across China.",
+    "indianKitchenAdaptation": "Star anise (annachi mokku) and cinnamon (pattai) are everyday spices in Indian kitchens, making this dish remarkably easy to source. Soy sauce is the only ingredient that may need a special trip, but it is available at most Indian supermarkets. The pressure cooker method (3 whistles + natural release) cuts cooking time dramatically. A kadai works well for the initial browning; use a heavy pot for the braise or transfer to a pressure cooker. Serve with rice for a deeply satisfying meal.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  }
+]

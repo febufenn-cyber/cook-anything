@@ -1,0 +1,3593 @@
+[
+  {
+    "id": "ca-tamil-sambar",
+    "slug": "tamil-sambar",
+    "title": "Tamil Sambar",
+    "nativeTitle": "சாம்பார்",
+    "description": "The everyday pulse-and-vegetable soup of Tamil Nadu — toor dal simmered with tamarind, drumstick, and sambar powder, then crowned with a crackling mustard tempering. Rich enough for rice, light enough to drink from a small bowl alongside idli.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "toor dal (thuvaram paruppu)",
+        "normalizedName": "toor-dal",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "drumstick pods, cut in 4 cm lengths",
+        "normalizedName": "drumstick",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false,
+        "notes": "or 200 g ash gourd or potato"
+      },
+      {
+        "name": "shallots (small onions), halved",
+        "normalizedName": "shallot",
+        "quantity": 10,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, roughly chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tamarind",
+        "normalizedName": "tamarind",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "notes": "soak in 150 ml warm water, squeeze out pulp"
+      },
+      {
+        "name": "sambar powder",
+        "normalizedName": "sambar-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "urad dal",
+        "normalizedName": "urad-dal",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Rinse the toor dal twice and pressure cook with 2 cups of water and the turmeric for 4 whistles on medium flame. Let pressure release naturally, then mash the dal to a smooth porridge with the back of a ladle.",
+        "timerMinutes": 20,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "Soak the tamarind in 150 ml warm water for 10 minutes. Squeeze out all the pulp through your fingers and discard the fibres. Set the extract aside.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Heat 1 tablespoon of oil in a kadai over medium flame. Add the shallots and cook until they soften and turn golden at the edges, about 4 minutes. Add the tomatoes with a pinch of salt and cook until they collapse.",
+        "timerMinutes": 7,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Pour in the tamarind extract and 300 ml water. Add the sambar powder, salt, and drumstick pieces. Bring to a boil, then simmer on medium for 12 minutes until the drumstick is fully tender and the raw tamarind smell has cooked off.",
+        "timerMinutes": 12,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Add the mashed dal and stir well. If the sambar is too thick, add up to 100 ml hot water. Simmer 5 more minutes so the dal absorbs the tamarind-spice base.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 6,
+        "text": "In a small pan, heat the remaining tablespoon of oil. Splutter mustard seeds, add urad dal and fry until golden, then add dried red chillies, curry leaves, and asafoetida. Fry 30 seconds until the leaves crisp.",
+        "method": "tempering"
+      },
+      {
+        "order": 7,
+        "text": "Pour the tempering over the sambar and stir in the coriander leaves. Check salt and remove from heat. Rest 5 minutes before serving — the sambar thickens slightly as it sits and the flavours deepen."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "kadai",
+      "frying-pan"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "sauteing",
+      "simmering",
+      "tempering"
+    ],
+    "tags": [
+      "comfort-food",
+      "one-pot-meal",
+      "gravy",
+      "budget",
+      "healthy"
+    ],
+    "allergens": [
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 190,
+      "protein": 9,
+      "carbs": 28,
+      "fat": 6,
+      "fiber": 5,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "drumstick",
+        "substitute": "200 g ash gourd or 2 medium potatoes, cubed",
+        "notes": "add potato 8 minutes before it would be done"
+      },
+      {
+        "ingredient": "toor-dal",
+        "substitute": "moong dal for a lighter, faster sambar — reduce pressure to 3 whistles"
+      },
+      {
+        "ingredient": "sambar-powder",
+        "substitute": "2 tsp coriander powder + 1 tsp red chilli powder + ½ tsp cumin"
+      },
+      {
+        "ingredient": "shallot",
+        "substitute": "1 medium red onion, sliced"
+      }
+    ],
+    "culturalNote": "Sambar is the centrepiece of every South Indian thali — so foundational that it transcends state lines while every household guards its own spice-powder recipe.",
+    "regionalVariation": "Kongunadu sambar uses freshly ground coconut masala instead of store-bought powder; Brahmin households skip shallots and rely only on tomatoes with a coconut-coriander paste.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-vatha-kuzhambu",
+    "slug": "tamil-vatha-kuzhambu",
+    "title": "Tamil Vatha Kuzhambu",
+    "nativeTitle": "வத்த குழம்பு",
+    "description": "A bold, intensely sour Tamil gravy built on a generous tamarind base cooked down with shallots, dried spices, and gingelly oil until it turns thick and glossy. Traditionally made with sun-dried vathal berries, this version uses fresh shallots and optional brinjal for everyday cooking.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "shallots (small onions), halved",
+        "normalizedName": "shallot",
+        "quantity": 15,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tamarind",
+        "normalizedName": "tamarind",
+        "quantity": 40,
+        "unit": "g",
+        "optional": false,
+        "notes": "soak in 250 ml warm water and extract pulp — this gravy needs generous sourness"
+      },
+      {
+        "name": "gingelly oil (nallennai)",
+        "normalizedName": "gingelly-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "do not substitute — gingelly oil defines the flavour"
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fenugreek seeds (vendhayam)",
+        "normalizedName": "fenugreek-seeds",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "sambar powder",
+        "normalizedName": "sambar-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "small brinjals, quartered",
+        "normalizedName": "brinjal",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": true,
+        "notes": "traditional vathal (sun-dried berry) substitute"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soak the tamarind in 250 ml warm water for 15 minutes. Squeeze out all the pulp thoroughly, strain, and set the extract aside. This dish depends on a strong tamarind base, so don't rush this step.",
+        "timerMinutes": 15
+      },
+      {
+        "order": 2,
+        "text": "Heat gingelly oil in a heavy-bottomed kadai over medium flame. Splutter mustard seeds, then add fenugreek seeds and fry for 20 seconds — they should turn golden, not dark brown, or they will taste bitter. Add dried red chillies, curry leaves, and asafoetida.",
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add the shallots and cook on medium flame until they soften and develop a light golden colour, about 5 minutes. If using brinjal, add it now and fry for 3 minutes until the edges begin to colour.",
+        "timerMinutes": 6,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Lower the flame and add the red chilli powder, coriander powder, sambar powder, and turmeric. Stir continuously for 30 seconds so the powders toast in the oil without burning.",
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Pour in the tamarind extract and add salt. Bring to a boil on high flame, then reduce to a lively simmer. Cook uncovered for 15–18 minutes, stirring occasionally, until the gravy reduces to a thick, glossy consistency and the oil rises to the surface.",
+        "timerMinutes": 18,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Taste for salt and sourness. The finished kuzhambu should be quite thick — almost like a sauce — dark reddish-brown, and intensely flavoured. Serve with rice and a plain dal; a spoonful goes a long way."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "tempering",
+      "sauteing",
+      "simmering"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "budget",
+      "lunchbox",
+      "leftover-friendly"
+    ],
+    "allergens": [
+      "mustard",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 140,
+      "protein": 2,
+      "carbs": 16,
+      "fat": 8,
+      "fiber": 3,
+      "sugar": 6,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "brinjal",
+        "substitute": "2 drumstick pieces or 100 g raw banana, cubed",
+        "notes": "drumstick adds a nice bitterness that echoes vathal"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "coconut oil as second choice — the flavour will differ significantly"
+      },
+      {
+        "ingredient": "sambar-powder",
+        "substitute": "equal quantity of homemade blend: 2 parts coriander + 1 part cumin + 1 part red chilli"
+      }
+    ],
+    "culturalNote": "Vatha kuzhambu is the gravy that lasts all week — cooked down to a concentrate, it keeps in the fridge for 5 days and is a staple of Tamil home lunch boxes.",
+    "regionalVariation": "In Kongunadu, black pepper is added for extra heat and the kuzhambu is made thicker; coastal Tamil homes sometimes add small dried fish (vathal meen) instead of vegetable vathal.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-kara-kuzhambu",
+    "slug": "tamil-kara-kuzhambu",
+    "title": "Tamil Kara Kuzhambu",
+    "nativeTitle": "காரக் குழம்பு",
+    "description": "A fierce, deep-red tamarind gravy studded with shallots and brinjal — the Tamil answer to those days when only something searingly spicy will do. Gingelly oil and a freshly made coconut-spice paste give it a rounded heat that builds on the palate.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "very_hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 35,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "shallots (small onions), halved",
+        "normalizedName": "shallot",
+        "quantity": 12,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "small brinjals, quartered",
+        "normalizedName": "brinjal",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false,
+        "notes": "drumstick or potato can replace"
+      },
+      {
+        "name": "tomato, chopped",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tamarind",
+        "normalizedName": "tamarind",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false,
+        "notes": "soak in 200 ml warm water, extract pulp"
+      },
+      {
+        "name": "grated coconut",
+        "normalizedName": "coconut",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fenugreek seeds",
+        "normalizedName": "fenugreek-seeds",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "gingelly oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soak tamarind in 200 ml warm water for 10 minutes and extract the pulp. Grind the grated coconut with the red chilli powder and coriander powder and just enough water to make a smooth, thick paste in a mixie.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Heat gingelly oil in a kadai over medium-high flame. Splutter mustard seeds, add fenugreek seeds and fry 15 seconds. Add curry leaves, then the shallots and cook until they begin to caramelise, about 6 minutes.",
+        "timerMinutes": 7,
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add the tomato and cook until it softens completely. Add the brinjal pieces and fry for 4 minutes, turning them so all sides get some colour and the brinjal begins to soften.",
+        "timerMinutes": 6,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Add turmeric and stir for 20 seconds. Pour in the tamarind extract, add salt, and bring to a boil. Simmer on medium for 12 minutes until the raw tamarind smell cooks away and the gravy reduces slightly.",
+        "timerMinutes": 12,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Stir in the coconut-spice paste and simmer for another 8 minutes until the oil rises to the surface and the gravy turns deep red and glossy. Taste — the kuzhambu should be bold and spicy with a pronounced sourness.",
+        "timerMinutes": 8
+      },
+      {
+        "order": 6,
+        "text": "Remove from flame and rest 5 minutes before serving. Serve with steamed rice and a cooling side of curd or raita; the kuzhambu improves in flavour by the next day."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "mixie"
+    ],
+    "methods": [
+      "tempering",
+      "sauteing",
+      "simmering"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "budget"
+    ],
+    "allergens": [
+      "mustard",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 160,
+      "protein": 2,
+      "carbs": 14,
+      "fat": 11,
+      "fiber": 4,
+      "sugar": 6,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "brinjal",
+        "substitute": "2 drumstick pods, cut in 5 cm pieces"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "3 tbsp coconut milk powder blended with water to a thick paste"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "coconut oil for a milder flavour"
+      },
+      {
+        "ingredient": "shallot",
+        "substitute": "1 medium onion, roughly chopped"
+      }
+    ],
+    "culturalNote": "Kara kuzhambu translates simply as 'spicy gravy' and functions as the fiery counterpart to the gentler sambar at the Tamil lunch table.",
+    "regionalVariation": "Chettinad versions include kalpasi (stone flower) and marathi mokku (dried kalpasi berries) for a darker, more aromatic heat profile.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-mor-kuzhambu",
+    "slug": "tamil-mor-kuzhambu",
+    "title": "Tamil Mor Kuzhambu",
+    "nativeTitle": "மோர் குழம்பு",
+    "description": "A cooling, yogurt-based curry thickened with a fresh coconut-cumin paste and gently simmered until just fragrant. Ash gourd or drumstick floats in the silky white gravy, making this the gentle counterpoint to sambar on a Tamil lunch plate.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "curd (slightly sour), whisked smooth",
+        "normalizedName": "curd",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "ash gourd, peeled and cubed",
+        "normalizedName": "ash-gourd",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false,
+        "notes": "drumstick or raw banana can replace"
+      },
+      {
+        "name": "grated fresh coconut",
+        "normalizedName": "coconut",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "green chillies",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Grind the coconut, cumin seeds, and green chillies with 3 tablespoons of water in a mixie to a smooth paste. Set aside. This coconut paste is the thickener and main flavour base.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Cook the ash gourd in 200 ml of salted water with turmeric over medium flame until just tender but not mushy, about 8 minutes. Do not discard the cooking water.",
+        "timerMinutes": 8,
+        "method": "boiling"
+      },
+      {
+        "order": 3,
+        "text": "Add the coconut paste to the cooked ash gourd and its water. Stir and simmer on low flame for 3 minutes until the raw coconut smell cooks away. Remove from heat before the next step — the curd must not be added to boiling liquid.",
+        "timerMinutes": 3,
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "Whisk the curd until completely smooth and lump-free. Once the vegetable-paste mixture is off the heat and has cooled for one minute, pour in the curd while stirring constantly. Return to a very low flame and heat just until wisps of steam rise — do not let it boil or the curd will split.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 5,
+        "text": "Heat oil in a small pan. Splutter mustard seeds, add dried red chillies and curry leaves and fry 30 seconds. Pour the tempering into the kuzhambu, stir gently, and add salt. Serve warm with steamed rice.",
+        "method": "tempering"
+      }
+    ],
+    "cookware": [
+      "saucepan",
+      "kadai",
+      "mixie",
+      "frying-pan"
+    ],
+    "methods": [
+      "boiling",
+      "simmering",
+      "tempering"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "summer",
+      "budget",
+      "healthy"
+    ],
+    "allergens": [
+      "dairy",
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 130,
+      "protein": 4,
+      "carbs": 10,
+      "fat": 8,
+      "fiber": 2,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "ash-gourd",
+        "substitute": "2 drumstick pods or 150 g raw banana, cubed",
+        "notes": "raw banana gives a slightly starchier texture"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "plant-based coconut yogurt — use unflavoured and skip extra coconut"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "2 tbsp coconut milk powder blended with a little water"
+      }
+    ],
+    "culturalNote": "Mor kuzhambu is the third gravy of a traditional Tamil thali — it arrives after sambar and rasam and its cooling dairy base is meant to settle the stomach after fiery curries.",
+    "regionalVariation": "Kerala-style moru kachiyathu uses only tempered buttermilk without coconut; Iyengar households add a small piece of raw mango for tartness in place of extra curd.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-milagu-rasam",
+    "slug": "tamil-milagu-rasam",
+    "title": "Tamil Milagu Rasam",
+    "nativeTitle": "மிளகு ரசம்",
+    "description": "A thin, aromatic pepper broth that opens the airways and warms the belly — the Tamil home remedy for colds and the best way to end a heavy meal. Freshly cracked black pepper and cumin carry the heat while tamarind and tomato provide a clean sour backbone.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "toor dal (for the stock water)",
+        "normalizedName": "toor-dal",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "cooked and the strained stock water used; mashed dal folded in at end is optional"
+      },
+      {
+        "name": "tomato, halved",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tamarind",
+        "normalizedName": "tamarind",
+        "quantity": 15,
+        "unit": "g",
+        "optional": false,
+        "notes": "soak in 100 ml warm water, extract pulp"
+      },
+      {
+        "name": "black pepper, coarsely crushed",
+        "normalizedName": "black-pepper",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, lightly crushed",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "rasam powder",
+        "normalizedName": "rasam-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pressure cook the toor dal with 1.5 cups water for 3 whistles. Drain off the thin, cloudy dal water and reserve it — this is your rasam stock. Mash the dal and keep it aside if you plan to add a body to the rasam.",
+        "timerMinutes": 15,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "Soak the tamarind in 100 ml warm water and extract the pulp. In a saucepan, combine the tamarind extract, dal water (about 400 ml), tomato, turmeric, and salt. Bring to a boil and simmer on medium for 5 minutes until the tomato softens.",
+        "timerMinutes": 7,
+        "method": "simmering"
+      },
+      {
+        "order": 3,
+        "text": "Coarsely crush the black pepper and cumin together — a mortar or the base of a cup works fine; you want a rough powder with some texture, not a fine dust. Add it to the saucepan along with the rasam powder.",
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Simmer for another 5 minutes until the rasam turns aromatic and fragrant. Stir in the mashed dal if using and simmer 1 more minute. The consistency should be very thin — almost like a spiced broth.",
+        "timerMinutes": 6,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Heat oil in a small pan. Splutter mustard seeds, then add garlic and fry until golden. Add dried red chilli, curry leaves, and asafoetida and fry 20 seconds. Pour the tempering over the rasam.",
+        "method": "tempering"
+      },
+      {
+        "order": 6,
+        "text": "Finish with coriander leaves and check salt. Serve hot with rice, or pour into small cups and drink as a digestive at the end of a meal. The pepper fragrance should hit you as soon as you lift the cup."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "saucepan",
+      "frying-pan"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "simmering",
+      "tempering"
+    ],
+    "tags": [
+      "soup",
+      "comfort-food",
+      "budget",
+      "healthy",
+      "under-30-minutes"
+    ],
+    "allergens": [
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 70,
+      "protein": 3,
+      "carbs": 10,
+      "fat": 3,
+      "fiber": 2,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "toor-dal",
+        "substitute": "skip the dal entirely and use 500 ml plain water — the rasam will be lighter but still delicious"
+      },
+      {
+        "ingredient": "rasam-powder",
+        "substitute": "pinch of extra black pepper and cumin — rasam powder is a convenience blend of the same flavours"
+      },
+      {
+        "ingredient": "tamarind",
+        "substitute": "juice of 1 lemon added off the heat — lighter and brighter but not as deep"
+      }
+    ],
+    "culturalNote": "Milagu rasam is prescribed in Tamil homes as a cold remedy and the first solid food after illness — the pepper and garlic are believed to have medicinal warmth.",
+    "regionalVariation": "Kongunadu milagu rasam skips tamarind and uses extra tomato for sourness, with a heavier hand of pepper and no rasam powder at all.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-thakkali-rasam",
+    "slug": "tamil-thakkali-rasam",
+    "title": "Tamil Thakkali Rasam",
+    "nativeTitle": "தக்காளி ரசம்",
+    "description": "Ripe tomatoes cooked down until they melt into a vibrant, tangy broth spiked with rasam powder and a lemon-bright tempering of mustard and curry leaves. This is the quicker, lighter sibling of the pepper rasam — perfectly suited for lunchboxes and weekday cooking.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "ripe tomatoes, roughly chopped",
+        "normalizedName": "tomato",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tamarind",
+        "normalizedName": "tamarind",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false,
+        "notes": "just a small piece to add depth; the tomatoes provide most of the sourness"
+      },
+      {
+        "name": "garlic cloves, lightly crushed",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "rasam powder",
+        "normalizedName": "rasam-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, coarsely cracked",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soak the tamarind in 50 ml warm water, extract the pulp, and set aside. In a saucepan, combine the chopped tomatoes, tamarind extract, turmeric, and 600 ml water. Bring to a boil over medium-high flame.",
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Simmer on medium for 10 minutes until the tomatoes completely break down. Use the back of a ladle to press them against the pot and release all their juice into the broth. The liquid should turn deep orange-red.",
+        "timerMinutes": 10,
+        "method": "simmering"
+      },
+      {
+        "order": 3,
+        "text": "Add the rasam powder, cracked black pepper, and salt. Stir and simmer for another 5 minutes. The rasam should be very thin and slightly foamy on top — that froth is a sign of a well-made rasam.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 4,
+        "text": "Heat oil in a small tempering pan. Splutter mustard seeds, then add garlic cloves and fry until golden. Add dried red chillies, curry leaves, and asafoetida and fry for 20 seconds.",
+        "method": "tempering"
+      },
+      {
+        "order": 5,
+        "text": "Pour the tempering into the rasam and stir in coriander leaves. Taste for salt and tartness — a good thakkali rasam should be both sour and savoury. Serve hot over rice or in cups as a digestive soup."
+      }
+    ],
+    "cookware": [
+      "saucepan",
+      "frying-pan"
+    ],
+    "methods": [
+      "boiling",
+      "simmering",
+      "tempering"
+    ],
+    "tags": [
+      "soup",
+      "comfort-food",
+      "budget",
+      "under-30-minutes",
+      "healthy"
+    ],
+    "allergens": [
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 60,
+      "protein": 1,
+      "carbs": 8,
+      "fat": 3,
+      "fiber": 2,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "tamarind",
+        "substitute": "extra half tomato and a squeeze of lemon added off the heat"
+      },
+      {
+        "ingredient": "rasam-powder",
+        "substitute": "½ tsp black pepper powder + ½ tsp coriander powder + ¼ tsp cumin"
+      },
+      {
+        "ingredient": "tomato",
+        "substitute": "200 ml canned crushed tomatoes — add directly without extra water"
+      }
+    ],
+    "culturalNote": "Thakkali rasam is the everyday rasam of Tamil homes — faster than the pepper version and brighter in colour, it can be made in under 20 minutes from pantry staples.",
+    "regionalVariation": "Some homes pass the cooked tomatoes through a sieve for a cleaner broth; others leave the pulp in for a fuller-bodied rasam. Kongunadu adds a pinch of jaggery to balance the acidity.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-keerai-masiyal",
+    "slug": "tamil-keerai-masiyal",
+    "title": "Tamil Keerai Masiyal",
+    "nativeTitle": "கீரை மசியல்",
+    "description": "Fresh spinach cooked with moong dal until both are tender, then mashed to a coarse, emerald-green purée and finished with a sizzling shallot-garlic tempering. Simple and honest, this is the green side dish that makes a Tamil meal feel complete.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "spinach (pasalai keerai), roughly chopped",
+        "normalizedName": "spinach",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "moong dal (paasi paruppu)",
+        "normalizedName": "moong-dal",
+        "quantity": 0.25,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "shallots, thinly sliced",
+        "normalizedName": "shallot",
+        "quantity": 6,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, sliced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "green chilli, halved",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Rinse the moong dal and pressure cook with 1 cup water and turmeric for 3 whistles until soft and mushy. Let the pressure release naturally.",
+        "timerMinutes": 15,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "In a kadai, heat 1 teaspoon oil over medium flame. Add the green chilli, garlic, and half the shallots and sauté until the shallots soften. Add the chopped spinach and a pinch of salt, toss to combine, and cook until wilted, about 3 minutes.",
+        "timerMinutes": 5,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add the cooked dal to the spinach in the kadai. Using the back of a ladle or a traditional wooden masher, mash everything together into a coarse, thick paste. Do not use a blender — the masiyal should be rough-textured, not smooth.",
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Simmer the mashed mixture on low heat for 2 minutes, stirring constantly to prevent sticking. Add salt to taste. The consistency should be like a thick, spreadable dip.",
+        "timerMinutes": 2,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "In a small pan, heat the remaining oil. Splutter mustard seeds, add remaining shallots and fry until they crisp at the edges, then add dried red chillies and curry leaves and fry 20 seconds.",
+        "method": "tempering"
+      },
+      {
+        "order": 6,
+        "text": "Pour the tempering over the keerai masiyal and mix through. Serve with rice — it is traditional to eat it as is or with a drizzle of ghee stirred in at the table."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "kadai",
+      "frying-pan"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "sauteing",
+      "simmering",
+      "tempering"
+    ],
+    "tags": [
+      "healthy",
+      "comfort-food",
+      "budget",
+      "lunchbox"
+    ],
+    "allergens": [
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 110,
+      "protein": 5,
+      "carbs": 14,
+      "fat": 4,
+      "fiber": 4,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "spinach",
+        "substitute": "fenugreek leaves (methi/vendhaya keerai) for a more bitter, traditional flavour"
+      },
+      {
+        "ingredient": "moong-dal",
+        "substitute": "toor dal — it gives a denser texture and slightly earthier taste"
+      },
+      {
+        "ingredient": "shallot",
+        "substitute": "1 small red onion, thinly sliced"
+      }
+    ],
+    "culturalNote": "Keerai masiyal is considered highly nutritious in Tamil culture and is one of the first foods introduced to young children — the moong dal makes it easy to digest.",
+    "regionalVariation": "In Kongunadu, keerai masiyal is cooked drier and often includes a small amount of coconut grated in at the end for richness.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-cabbage-poriyal",
+    "slug": "tamil-cabbage-poriyal",
+    "title": "Tamil Cabbage Poriyal",
+    "nativeTitle": "முட்டைகோஸ் பொரியல்",
+    "description": "Finely shredded cabbage stir-fried with a mustard-urad dal tempering until just tender but still with a slight crunch, then finished with freshly grated coconut. This everyday dry side dish is the workhorse of Tamil cooking — quick, inexpensive, and deeply satisfying.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "cabbage, finely shredded",
+        "normalizedName": "cabbage",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "shallots, finely chopped",
+        "normalizedName": "shallot",
+        "quantity": 5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chillies, sliced",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "urad dal",
+        "normalizedName": "urad-dal",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "grated fresh coconut",
+        "normalizedName": "coconut",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat oil in a kadai over medium-high flame. Splutter mustard seeds, then add urad dal and fry until it turns light golden. Add curry leaves, shallots, and green chillies and sauté for 2 minutes until the shallots soften.",
+        "method": "tempering"
+      },
+      {
+        "order": 2,
+        "text": "Add the shredded cabbage and turmeric. Toss well to coat in the tempering. Sprinkle a pinch of salt — this draws out just enough moisture to help the cabbage cook without added water.",
+        "method": "stir-frying"
+      },
+      {
+        "order": 3,
+        "text": "Stir-fry on medium-high heat for 8–10 minutes, tossing the cabbage frequently, until it is cooked through but still holds a slight bite. It should look glossy and shrunk to about half its original volume.",
+        "timerMinutes": 10,
+        "method": "stir-frying"
+      },
+      {
+        "order": 4,
+        "text": "Check salt and remove from heat. Scatter the grated coconut over the cabbage and toss once more. Serve as a side dish with rice, sambar, and rasam — the poriyal is meant to be the dry contrast to the gravies."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "tempering",
+      "stir-frying"
+    ],
+    "tags": [
+      "dry-curry",
+      "budget",
+      "lunchbox",
+      "healthy",
+      "under-30-minutes",
+      "quick"
+    ],
+    "allergens": [
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 100,
+      "protein": 2,
+      "carbs": 9,
+      "fat": 6,
+      "fiber": 3,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "cabbage",
+        "substitute": "carrot, finely grated — reduce cooking time to 5 minutes"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "2 tbsp desiccated coconut soaked for 5 minutes in warm water"
+      },
+      {
+        "ingredient": "shallot",
+        "substitute": "1 small red onion, finely chopped"
+      }
+    ],
+    "culturalNote": "Poriyal is the Tamil term for a lightly stir-fried dry vegetable side dish — almost any single vegetable can be made into a poriyal using this same method.",
+    "regionalVariation": "In Kongunadu, chana dal is added to the tempering along with urad dal for extra texture; coastal families sometimes add a grating of fresh turmeric root instead of powder.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-beans-usili",
+    "slug": "tamil-beans-usili",
+    "title": "Tamil Beans Usili",
+    "nativeTitle": "பீன்ஸ் உசிலி",
+    "description": "A uniquely Tamil dish where blanched green beans are tossed with crumbled steamed chana dal and dried chilli — a protein-rich, nutty, dry stir-fry that tastes like nothing else in South Indian cooking. The steamed dal crumble is the hero, lending a savoury depth to the crunchy beans.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 35,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "green beans, cut in 1 cm pieces",
+        "normalizedName": "beans",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "chana dal (kadalai paruppu)",
+        "normalizedName": "chana-dal",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "soak in water for 30 minutes before grinding"
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false,
+        "notes": "soak with the dal"
+      },
+      {
+        "name": "fennel seeds",
+        "normalizedName": "fennel",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "urad dal",
+        "normalizedName": "urad-dal",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soak the chana dal and dried red chillies together in cold water for 30 minutes. Drain and grind in a mixie to a coarse, slightly grainy paste — do not add water; the paste should be thick and able to hold its shape. Add salt, turmeric, and fennel seeds to the paste and mix.",
+        "timerMinutes": 30,
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Shape the dal paste into a loose flat disc on a greased plate or banana leaf. Steam in a pressure cooker (without weight, lid on) or idli steamer for 10 minutes until set and cooked through. Remove and cool for 5 minutes, then crumble into pea-sized lumps by hand.",
+        "timerMinutes": 15,
+        "method": "steaming"
+      },
+      {
+        "order": 3,
+        "text": "Blanch the beans in boiling salted water for 3 minutes until just tender but still bright green. Drain and set aside — do not overcook or the texture contrast is lost.",
+        "timerMinutes": 3,
+        "method": "boiling"
+      },
+      {
+        "order": 4,
+        "text": "Heat oil in a kadai over medium flame. Splutter mustard seeds, add urad dal and fry until golden. Add curry leaves and asafoetida and fry for 20 seconds.",
+        "method": "tempering"
+      },
+      {
+        "order": 5,
+        "text": "Add the crumbled dal to the kadai and stir-fry on medium heat for 4 minutes, breaking up any larger clumps, until the crumble turns golden and a little crispy in places.",
+        "timerMinutes": 4,
+        "method": "stir-frying"
+      },
+      {
+        "order": 6,
+        "text": "Add the blanched beans to the kadai and toss to combine with the dal crumble. Cook on medium-high for 2 minutes, mixing constantly. Check salt and serve hot — the dish should be completely dry with no liquid.",
+        "timerMinutes": 2
+      }
+    ],
+    "cookware": [
+      "mixie",
+      "pressure-cooker",
+      "kadai"
+    ],
+    "methods": [
+      "steaming",
+      "boiling",
+      "tempering",
+      "stir-frying"
+    ],
+    "tags": [
+      "dry-curry",
+      "budget",
+      "lunchbox",
+      "healthy"
+    ],
+    "allergens": [
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 165,
+      "protein": 8,
+      "carbs": 20,
+      "fat": 6,
+      "fiber": 6,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "beans",
+        "substitute": "raw banana (vazhakkai), cubed and boiled — gives the dish a starchier, heartier character"
+      },
+      {
+        "ingredient": "chana-dal",
+        "substitute": "toor dal, soaked and ground the same way — slightly softer in texture"
+      },
+      {
+        "ingredient": "fennel",
+        "substitute": "cumin seeds — the flavour shifts slightly but works well"
+      }
+    ],
+    "culturalNote": "Usili is a uniquely Tamil technique — the steamed-and-crumbled dal is found nowhere else in Indian cuisine and transforms a humble dal into a protein-rich dry side dish.",
+    "regionalVariation": "Banana flower (vazhaipoo) usili is considered the grandest version and appears at Tamil weddings; raw banana usili is a popular everyday variation in Kongunadu.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-kathirikai-gothsu",
+    "slug": "tamil-kathirikai-gothsu",
+    "title": "Tamil Kathirikai Gothsu",
+    "nativeTitle": "கத்திரிக்காய் கொத்சு",
+    "description": "Brinjal roasted over an open flame until smoky and charred, then mashed and simmered with shallots, tomato, tamarind, and spices into a chunky, boldly flavoured side. This versatile relish-curry pairs equally well with rice, idli, dosa, or pongal.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "large brinjal (baingan)",
+        "normalizedName": "brinjal",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false,
+        "notes": "each about 200 g; roast whole over direct flame"
+      },
+      {
+        "name": "shallots, finely chopped",
+        "normalizedName": "shallot",
+        "quantity": 8,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chillies, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tamarind",
+        "normalizedName": "tamarind",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false,
+        "notes": "small piece, soaked and extracted"
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Place the whole brinjals directly over a gas flame on medium-high. Rotate every minute using tongs until the entire skin is charred and the brinjal collapses and feels soft when pressed, about 10 minutes. The smoky aroma is what makes this dish. Alternatively, roast under a grill or in a 220°C oven for 20 minutes.",
+        "timerMinutes": 10,
+        "method": "roasting"
+      },
+      {
+        "order": 2,
+        "text": "Once cool enough to handle, peel off and discard all the charred skin. Mash the cooked flesh coarsely with a fork — leave some texture, do not purée. Set aside. Soak the tamarind in 50 ml warm water, extract the pulp.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a kadai over medium flame. Splutter mustard seeds, then add curry leaves, shallots, and green chillies. Cook until the shallots turn golden, about 4 minutes.",
+        "timerMinutes": 4,
+        "method": "tempering"
+      },
+      {
+        "order": 4,
+        "text": "Add the tomatoes with a pinch of salt and cook until they collapse and the oil separates, about 4 minutes. Add chilli powder, coriander powder, and turmeric. Stir for 30 seconds on low heat.",
+        "timerMinutes": 4,
+        "method": "sauteing"
+      },
+      {
+        "order": 5,
+        "text": "Add the mashed brinjal and tamarind extract. Stir everything together and simmer on medium for 8 minutes until the gothsu thickens to a chunky, spreadable consistency. Check salt and stir in coriander leaves.",
+        "timerMinutes": 8,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Serve hot or at room temperature alongside ven pongal, idli, or as a side to rice. The gothsu keeps well for a day and the smoky flavour deepens as it rests."
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "kadai"
+    ],
+    "methods": [
+      "roasting",
+      "tempering",
+      "sauteing",
+      "simmering"
+    ],
+    "tags": [
+      "comfort-food",
+      "budget",
+      "tiffin"
+    ],
+    "allergens": [
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 110,
+      "protein": 2,
+      "carbs": 13,
+      "fat": 6,
+      "fiber": 4,
+      "sugar": 6,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "brinjal",
+        "substitute": "raw banana (vazhakkai), boiled and mashed — no flame-roasting needed, different flavour"
+      },
+      {
+        "ingredient": "tamarind",
+        "substitute": "juice of half a lemon added off the heat for a brighter, less complex acidity"
+      },
+      {
+        "ingredient": "shallot",
+        "substitute": "1 medium red onion, finely chopped"
+      }
+    ],
+    "culturalNote": "Kathirikai gothsu is the classic accompaniment to ven pongal at Tamil breakfast tables and in temple meal spreads — the two dishes were made for each other.",
+    "regionalVariation": "In Chettinad, the gothsu includes a small piece of cinnamon and star anise in the tempering; some Brahmin households skip the shallots and double the tomatoes.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-mixed-veg-kootu",
+    "slug": "tamil-mixed-veg-kootu",
+    "title": "Tamil Mixed Vegetable Kootu",
+    "nativeTitle": "காய்கறி கூட்டு",
+    "description": "A thick, comforting semi-dry curry of vegetables and cooked lentils bound together with a freshly ground coconut-pepper paste — richer than a poriyal, heartier than a kuzhambu. Kootu is the dish that makes a simple rice meal feel substantial.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "ash gourd, peeled and cubed",
+        "normalizedName": "ash-gourd",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false,
+        "notes": "or yam, raw banana, or a mix of vegetables"
+      },
+      {
+        "name": "drumstick, cut in 5 cm pieces",
+        "normalizedName": "drumstick",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "chana dal (kadalai paruppu)",
+        "normalizedName": "chana-dal",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "grated fresh coconut",
+        "normalizedName": "coconut",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, whole",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "green chilli",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "urad dal",
+        "normalizedName": "urad-dal",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pressure cook the chana dal with 1 cup water and turmeric for 3 whistles until soft but still holding shape — it should not be mushy. Let pressure release, drain excess water, and set aside.",
+        "timerMinutes": 15,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "Grind the coconut, cumin, black pepper, and green chilli with 4 tablespoons of water into a smooth, thick paste in a mixie. This paste provides both flavour and body to the kootu.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Cook the ash gourd and drumstick in 200 ml salted water with turmeric over medium heat until just tender, about 10 minutes. Do not discard the cooking liquid.",
+        "timerMinutes": 10,
+        "method": "boiling"
+      },
+      {
+        "order": 4,
+        "text": "Add the cooked dal and the coconut paste to the vegetables and their cooking water. Stir well and simmer on medium for 6 minutes until the coconut paste is cooked, the raw smell is gone, and the mixture has thickened to a semi-dry consistency.",
+        "timerMinutes": 6,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Heat oil in a small pan. Splutter mustard seeds, add urad dal and fry until golden, then add dried red chillies and curry leaves and fry 30 seconds. Pour the tempering over the kootu.",
+        "method": "tempering"
+      },
+      {
+        "order": 6,
+        "text": "Check salt and toss gently to combine. The kootu should be thick and coat the vegetables — thicker than a kuzhambu but not as dry as a poriyal. Serve with rice as one of the main side dishes."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "heavy-bottomed-pot",
+      "kadai",
+      "mixie"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "boiling",
+      "simmering",
+      "tempering"
+    ],
+    "tags": [
+      "comfort-food",
+      "budget",
+      "healthy",
+      "one-pot-meal"
+    ],
+    "allergens": [
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 200,
+      "protein": 8,
+      "carbs": 26,
+      "fat": 7,
+      "fiber": 6,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "ash-gourd",
+        "substitute": "bottle gourd or raw banana, cubed"
+      },
+      {
+        "ingredient": "chana-dal",
+        "substitute": "toor dal or moong dal — moong gives a softer texture"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "3 tbsp coconut milk powder blended to a thick paste with a little water"
+      }
+    ],
+    "culturalNote": "Kootu appears at every Tamil festival meal and is the dish most closely associated with the idea of a complete, nourishing plate — it combines vegetable, protein, and fat in a single preparation.",
+    "regionalVariation": "Brahmin-style kootu uses a finer coconut paste with more pepper and no onion; Kongunadu versions add a small amount of jaggery to balance the bitterness of drumstick.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-urulai-roast",
+    "slug": "tamil-urulai-roast",
+    "title": "Tamil Urulai Roast",
+    "nativeTitle": "உருளை வறுவல்",
+    "description": "Small potatoes parboiled and then slow-roasted in gingelly oil with fennel seeds and shallots until every surface is golden and lightly crusted with spice. This is the Tamil potato roast — no paste, no gravy, just potatoes coaxed into crispy, aromatic perfection.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "kongunadu",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "baby potatoes or small potatoes, halved",
+        "normalizedName": "potato",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "shallots, finely sliced",
+        "normalizedName": "shallot",
+        "quantity": 8,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "fennel seeds (sombu)",
+        "normalizedName": "fennel",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "gingelly oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 2.5,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "or regular oil — gingelly adds a characteristic nuttiness"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Parboil the potatoes in salted water for 8 minutes until a knife slides in with a little resistance — they should be about 70% cooked, not fully done. Drain well and pat dry with a cloth or paper; any surface moisture prevents crisping.",
+        "timerMinutes": 8,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Heat gingelly oil in a kadai on medium flame. Add fennel seeds and let them sizzle for 20 seconds. Add the shallots and curry leaves and fry until the shallots are golden, about 4 minutes.",
+        "timerMinutes": 4,
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Reduce to low-medium flame. Add the parboiled potatoes and toss in the oil. Add red chilli powder, coriander powder, turmeric, and salt. Toss well so every piece is coated.",
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Cook on medium-low heat for 15 minutes, turning the potatoes every 3–4 minutes, until each piece is deeply golden and slightly crusted. Do not rush this step with high heat — slow roasting builds the best colour and flavour.",
+        "timerMinutes": 15,
+        "method": "pan-frying"
+      },
+      {
+        "order": 5,
+        "text": "Check salt, taste for spice, and serve hot. The potatoes should be crispy on the outside with a fluffy interior. Serve as a side with sambar, rasam, and rice."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "saucepan"
+    ],
+    "methods": [
+      "boiling",
+      "kadai-cooking",
+      "pan-frying",
+      "tempering"
+    ],
+    "tags": [
+      "dry-curry",
+      "comfort-food",
+      "budget",
+      "lunchbox"
+    ],
+    "allergens": [
+      "mustard",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 185,
+      "protein": 3,
+      "carbs": 26,
+      "fat": 8,
+      "fiber": 3,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "potato",
+        "substitute": "raw banana (vazhakkai), peeled and cubed — more traditional and slightly firmer"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "coconut oil as second choice"
+      },
+      {
+        "ingredient": "fennel",
+        "substitute": "cumin seeds — the flavour note shifts but the texture is the same"
+      }
+    ],
+    "culturalNote": "Urulai roast is the beloved Tamil potato dish — unassuming but addictive, it is the first thing to disappear from the plate at any Tamil lunch.",
+    "regionalVariation": "Kongunadu urulai roast is often spicier with a larger quantity of pepper added; in Chettinad, kalpasi (stone flower) is added to the oil for a distinctive earthy note.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-vendakkai-fry",
+    "slug": "tamil-vendakkai-fry",
+    "title": "Tamil Vendakkai Fry",
+    "nativeTitle": "வேண்டைக்காய் பொரியல்",
+    "description": "Sliced okra stir-fried in a hot kadai without any water until the sliminess completely disappears and each piece is tender with some lightly charred edges. A bright tomato-spice finish brings tartness to balance the earthiness of the okra.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "okra (vendakkai), sliced in rounds",
+        "normalizedName": "okra",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false,
+        "notes": "wash and dry completely before cutting to reduce sliminess"
+      },
+      {
+        "name": "shallots, finely sliced",
+        "normalizedName": "shallot",
+        "quantity": 6,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, chopped small",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "urad dal",
+        "normalizedName": "urad-dal",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Wash the okra and dry very thoroughly — any moisture will cause steaming instead of frying and the sliminess will multiply. Slice into 1 cm rounds and spread on a dry cloth for a few minutes if needed.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a wide kadai over medium-high flame. Splutter mustard seeds, add urad dal and fry until golden. Add curry leaves and shallots and sauté for 2 minutes.",
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add the sliced okra in a single layer if possible. Stir-fry on medium-high heat without covering the pan — this is crucial. Stir every 90 seconds for 10 minutes total until the sliminess cooks away and the okra begins to look dry and slightly charred at the edges.",
+        "timerMinutes": 10,
+        "method": "stir-frying"
+      },
+      {
+        "order": 4,
+        "text": "Add the chopped tomato, red chilli powder, coriander powder, turmeric, and salt. Stir-fry for another 5 minutes until the tomato is cooked and the spices are well incorporated. The dish should be completely dry with no liquid.",
+        "timerMinutes": 5,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Check salt and serve hot. Vendakkai fry is best eaten immediately while the okra has its slight crisp — it softens as it sits but is still excellent in a lunchbox."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "tempering",
+      "stir-frying",
+      "kadai-cooking"
+    ],
+    "tags": [
+      "dry-curry",
+      "budget",
+      "lunchbox",
+      "under-30-minutes",
+      "quick"
+    ],
+    "allergens": [
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 105,
+      "protein": 2,
+      "carbs": 11,
+      "fat": 6,
+      "fiber": 4,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "okra",
+        "substitute": "ridge gourd (peerkangai), sliced — cooks faster, no sliminess issue"
+      },
+      {
+        "ingredient": "shallot",
+        "substitute": "1 small red onion, thinly sliced"
+      }
+    ],
+    "culturalNote": "Vendakkai poriyal is one of the most frequently made Tamil home dishes — its preparation teaches the essential Tamil cooking principle that high heat and no water unlock the best flavour.",
+    "regionalVariation": "In some Tamil homes, a spoon of besan is sprinkled over the okra while frying to absorb moisture and create a crisp coating; Chettinad versions add crushed pepper and fennel.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-tomato-thokku",
+    "slug": "tamil-tomato-thokku",
+    "title": "Tamil Tomato Thokku",
+    "nativeTitle": "தக்காளி தொக்கு",
+    "description": "Ripe tomatoes cooked low and slow in gingelly oil with shallots, ginger, garlic, and a generous measure of chilli until they reduce to a thick, fiery, glossy relish-curry. This is the all-purpose Tamil condiment that elevates a plain meal and keeps in the fridge for a week.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 35,
+    "totalTimeMinutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "ripe tomatoes, finely chopped",
+        "normalizedName": "tomato",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false,
+        "notes": "about 5 medium tomatoes"
+      },
+      {
+        "name": "shallots, finely sliced",
+        "normalizedName": "shallot",
+        "quantity": 10,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, minced",
+        "normalizedName": "garlic",
+        "quantity": 5,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, finely grated",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "gingelly oil (nallennai)",
+        "normalizedName": "gingelly-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "gingelly oil is integral to the thokku's flavour"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat gingelly oil in a heavy-bottomed kadai over medium flame. Splutter mustard seeds, then add dried red chillies and curry leaves and fry for 20 seconds. Add the shallots and cook until they turn deeply golden, about 6 minutes — don't rush this step.",
+        "timerMinutes": 7,
+        "method": "tempering"
+      },
+      {
+        "order": 2,
+        "text": "Add the garlic and ginger and fry until the raw smell disappears, about 2 minutes. Keep the flame medium — garlic burns fast and will turn bitter.",
+        "timerMinutes": 2,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add the chopped tomatoes and stir to combine. Add red chilli powder, coriander powder, turmeric, and salt. Stir well and raise the flame to medium-high to get the tomatoes cooking quickly.",
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Cook on medium to medium-high heat, stirring every few minutes, for 20–25 minutes until the tomatoes completely break down, the water evaporates, and the mixture turns thick and glossy. The oil will start to separate around the edges — this is the sign the thokku is ready.",
+        "timerMinutes": 25,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Check salt and remove from heat. The thokku should be a deep brick-red, intensely flavoured, and thick enough to mound on a spoon. Cool completely before transferring to a glass jar. Keeps refrigerated for up to a week."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "tempering",
+      "sauteing",
+      "simmering"
+    ],
+    "tags": [
+      "comfort-food",
+      "budget",
+      "lunchbox",
+      "leftover-friendly"
+    ],
+    "allergens": [
+      "mustard",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 95,
+      "protein": 1,
+      "carbs": 8,
+      "fat": 7,
+      "fiber": 2,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "shallot",
+        "substitute": "1 large red onion, finely sliced"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "coconut oil — the flavour is different but works well"
+      },
+      {
+        "ingredient": "tomato",
+        "substitute": "400 g canned crushed tomatoes — reduce cook time to 15 minutes"
+      }
+    ],
+    "culturalNote": "Thokku literally means a thick reduction in Tamil and refers to any tangy, oil-rich concentrate cooked down from fruits or vegetables — tomato thokku is the most universal version.",
+    "regionalVariation": "Raw mango thokku (mangai thokku) follows the same method and is made in summer; in Chettinad, a small piece of jaggery is added to balance the chilli heat.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-paruppu-ghee",
+    "slug": "tamil-paruppu-ghee",
+    "title": "Tamil Paruppu with Ghee",
+    "nativeTitle": "பருப்பு நெய்",
+    "description": "The purest expression of a Tamil rice meal — soft toor dal mashed to a creamy consistency and finished with a restrained tempering of ghee, cumin, and dried chilli. The ritual of spooning warm paruppu over hot rice and adding a drizzle of ghee is the first course of every traditional Tamil lunch.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "toor dal (thuvaram paruppu)",
+        "normalizedName": "toor-dal",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "ghee (nei)",
+        "normalizedName": "ghee",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "must be ghee — no substitution for this dish's character"
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Rinse the toor dal twice until the water runs clear. Pressure cook with 2 cups of water and turmeric for 4 whistles on medium flame. Let the pressure release naturally before opening.",
+        "timerMinutes": 20,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "Mash the cooked dal with a ladle until smooth and creamy. Add salt and adjust the consistency with hot water if needed — it should flow slowly off a spoon, not be as thick as paste.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Heat the ghee in a small tempering pan over medium flame. Add cumin seeds and let them sizzle and turn golden, about 20 seconds. Add dried red chillies and asafoetida and fry for 10 seconds more.",
+        "method": "tempering"
+      },
+      {
+        "order": 4,
+        "text": "Pour the sizzling ghee tempering over the hot mashed dal. Stir gently, scatter the coriander leaves, and serve immediately over steamed rice. The aroma of ghee and cumin rising from a bowl of hot paruppu is among the most comforting in Tamil cooking."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "frying-pan"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "tempering"
+    ],
+    "tags": [
+      "comfort-food",
+      "budget",
+      "under-30-minutes",
+      "no-onion-no-garlic",
+      "healthy"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 200,
+      "protein": 10,
+      "carbs": 28,
+      "fat": 7,
+      "fiber": 6,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "toor-dal",
+        "substitute": "moong dal (paasi paruppu) for a lighter, more digestible version — reduce pressure to 3 whistles"
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "coconut oil for a dairy-free option, though the character changes completely"
+      }
+    ],
+    "culturalNote": "Paruppu is the first course of the traditional Tamil sadya — spooned over plain rice and mixed with ghee before the gravies arrive, it is said to coat the stomach and prepare the palate.",
+    "regionalVariation": "Some families cook paruppu with a small piece of tomato inside the pressure cooker for a slight tartness; Brahmin households sometimes add a pinch of pepper to the tempering.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-beetroot-poriyal",
+    "slug": "tamil-beetroot-poriyal",
+    "title": "Tamil Beetroot Poriyal",
+    "nativeTitle": "பீட்ரூட் பொரியல்",
+    "description": "Grated beetroot stir-fried with a crackling mustard-urad dal tempering until just cooked and vibrant, then crowned with fresh coconut. The natural sweetness of the beetroot balances the pungent tempering in a dish that brings stunning colour to the Tamil lunch plate.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beetroot, peeled and grated",
+        "normalizedName": "beetroot",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false,
+        "notes": "about 2 medium beetroots; wear gloves while grating"
+      },
+      {
+        "name": "shallots, finely sliced",
+        "normalizedName": "shallot",
+        "quantity": 5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, sliced",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "urad dal",
+        "normalizedName": "urad-dal",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "chana dal",
+        "normalizedName": "chana-dal",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "adds a pleasant crunch"
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "grated fresh coconut",
+        "normalizedName": "coconut",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat oil in a kadai over medium flame. Splutter mustard seeds, add urad dal and chana dal (if using) and fry until golden. Add curry leaves, shallots, and green chilli and sauté for 2 minutes.",
+        "method": "tempering"
+      },
+      {
+        "order": 2,
+        "text": "Add the grated beetroot and turmeric. Toss to coat in the tempering oil. Sprinkle a pinch of salt and stir-fry on medium heat for 8–10 minutes until the beetroot is cooked through and the raw earthy smell gives way to a sweeter, cooked aroma.",
+        "timerMinutes": 10,
+        "method": "stir-frying"
+      },
+      {
+        "order": 3,
+        "text": "Check salt. Remove from heat and scatter the grated coconut over the top. Toss once and serve — the coconut should be fresh and uncooked against the warm beetroot. Serve as a side dish with rice and sambar.",
+        "method": "kadai-cooking"
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "tempering",
+      "stir-frying"
+    ],
+    "tags": [
+      "dry-curry",
+      "budget",
+      "healthy",
+      "lunchbox",
+      "under-30-minutes"
+    ],
+    "allergens": [
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 95,
+      "protein": 2,
+      "carbs": 11,
+      "fat": 5,
+      "fiber": 3,
+      "sugar": 7,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "beetroot",
+        "substitute": "carrot, grated — cook for only 5 minutes as it softens faster"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "2 tbsp desiccated coconut rehydrated in 1 tbsp warm water for 5 minutes"
+      },
+      {
+        "ingredient": "shallot",
+        "substitute": "1 small red onion, finely chopped"
+      }
+    ],
+    "culturalNote": "Beetroot poriyal brings a brilliant jewel-toned red to the Tamil lunch plate and is particularly popular at wedding and festival meals for its vibrant colour.",
+    "regionalVariation": "Some cooks squeeze a few drops of lemon juice at the end to heighten the colour and add a fresh tartness; others add a pinch of jaggery to accentuate the beetroot's natural sweetness.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-lemon-peanut-sundal",
+    "slug": "tamil-lemon-peanut-sundal",
+    "title": "Tamil Lemon Peanut Sundal",
+    "nativeTitle": "வேர்க்கடலை சுண்டல்",
+    "description": "Plump boiled peanuts tossed in a brisk mustard-curry leaf tempering and brightened with fresh lemon juice and grated coconut — the classic Navaratri snack that is just as satisfying as an everyday protein-rich side dish.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "snack",
+      "side"
+    ],
+    "dietType": [
+      "vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "raw peanuts, soaked overnight or 4 hours",
+        "normalizedName": "peanut",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "green chillies, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "grated fresh coconut",
+        "normalizedName": "coconut",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "urad dal",
+        "normalizedName": "urad-dal",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Drain the soaked peanuts and pressure cook with 1.5 cups fresh water and a little salt for 4 whistles. Let the pressure release naturally. The peanuts should be fully cooked and tender but not mushy — they must hold their shape. Drain and set aside.",
+        "timerMinutes": 20,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a kadai over medium flame. Splutter mustard seeds, add urad dal and fry until golden. Add dried red chillies, curry leaves, and asafoetida and fry for 20 seconds until the leaves crisp.",
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add the green chillies and fry for 30 seconds. Add the boiled peanuts and toss well to coat in the tempering. Season with salt and stir-fry on medium for 2 minutes so the flavours meld.",
+        "timerMinutes": 2,
+        "method": "stir-frying"
+      },
+      {
+        "order": 4,
+        "text": "Remove from heat. Add the lemon juice and grated coconut and toss to combine. Scatter the coriander leaves over the top. Serve warm or at room temperature — the sundal is equally good fresh or after resting 30 minutes."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "kadai"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "tempering",
+      "stir-frying"
+    ],
+    "tags": [
+      "festival",
+      "navratri",
+      "pongal",
+      "budget",
+      "healthy",
+      "fried-snack"
+    ],
+    "allergens": [
+      "mustard",
+      "peanuts"
+    ],
+    "nutrition": {
+      "calories": 220,
+      "protein": 10,
+      "carbs": 14,
+      "fat": 14,
+      "fiber": 5,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "peanut",
+        "substitute": "chickpeas (konda kadalai), soaked overnight and pressure cooked 5 whistles"
+      },
+      {
+        "ingredient": "lemon",
+        "substitute": "raw mango, finely grated (1 tbsp) — traditional in summer for a sharper sourness"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "2 tbsp desiccated coconut soaked briefly in warm water"
+      }
+    ],
+    "culturalNote": "Sundal is the quintessential Navaratri offering — a different legume is boiled and tempered for each of the nine festival days and distributed to neighbours as prasadam.",
+    "regionalVariation": "Kongunadu peanut sundal sometimes adds a small piece of jaggery to the tempering for a sweet-savoury balance; coastal variations include grated raw mango for brightness.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-pavakkai-pitlai",
+    "slug": "tamil-pavakkai-pitlai",
+    "title": "Tamil Pavakkai Pitlai",
+    "nativeTitle": "பாவக்காய் பிட்லை",
+    "description": "Bitter gourd and chana dal simmered together in a tamarind gravy thickened with a freshly ground coconut-pepper paste — a sophisticated, intensely flavoured curry that converts even bitter gourd sceptics. The tamarind tames the bitterness while the coconut paste adds a rounded richness.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 35,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "bitter gourd (pavakkai), sliced in rounds",
+        "normalizedName": "bitter-gourd",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false,
+        "notes": "rub with 1 tsp salt, rest 10 min, squeeze and rinse to reduce bitterness"
+      },
+      {
+        "name": "chana dal (kadalai paruppu)",
+        "normalizedName": "chana-dal",
+        "quantity": 0.33,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "tamarind",
+        "normalizedName": "tamarind",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false,
+        "notes": "soak in 200 ml warm water, extract pulp"
+      },
+      {
+        "name": "grated fresh coconut",
+        "normalizedName": "coconut",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "coriander seeds",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "dry-roast and grind with coconut"
+      },
+      {
+        "name": "black pepper, whole",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false,
+        "notes": "2 for grinding, 1 for tempering"
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "shallots, halved",
+        "normalizedName": "shallot",
+        "quantity": 8,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "urad dal",
+        "normalizedName": "urad-dal",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Rub the bitter gourd slices with 1 teaspoon of salt, rest for 10 minutes, then squeeze firmly and rinse under cold water. This removes some of the bitterness. Pressure cook the chana dal with 1 cup water and turmeric for 3 whistles until cooked through but not mushy.",
+        "timerMinutes": 20,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "Soak the tamarind in 200 ml warm water and extract the pulp. Dry-roast the coriander seeds in a dry pan for 1 minute until fragrant. Grind together the roasted coriander, coconut, black pepper, and 2 dried red chillies with a little water into a smooth thick paste.",
+        "timerMinutes": 5,
+        "method": "roasting"
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a kadai over medium flame. Splutter mustard seeds, add urad dal and fry until golden. Add the remaining dried red chilli, curry leaves, asafoetida, and shallots. Cook the shallots until they begin to soften, about 3 minutes.",
+        "timerMinutes": 4,
+        "method": "tempering"
+      },
+      {
+        "order": 4,
+        "text": "Add the bitter gourd pieces and stir-fry on medium heat for 5 minutes until they soften slightly. Pour in the tamarind extract, add salt, and bring to a boil. Simmer for 10 minutes uncovered until the bitter gourd is tender and the raw tamarind smell cooks off.",
+        "timerMinutes": 15,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Add the cooked chana dal and the coconut-spice paste. Stir well and simmer for another 8 minutes until the pitlai thickens and the coconut paste is fully cooked — a raw coconut smell means it needs more time.",
+        "timerMinutes": 8,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Check salt and sourness. The pitlai should be moderately thick with a complex flavour — sour, slightly bitter, and richly spiced. Serve with steamed rice; a spoonful of ghee stirred in at the table is traditional and excellent."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "kadai",
+      "mixie"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "roasting",
+      "tempering",
+      "simmering"
+    ],
+    "tags": [
+      "comfort-food",
+      "budget",
+      "healthy",
+      "gravy"
+    ],
+    "allergens": [
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 175,
+      "protein": 7,
+      "carbs": 20,
+      "fat": 8,
+      "fiber": 6,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "bitter-gourd",
+        "substitute": "brinjal, cubed — the dish becomes a standard pitlai without the bitterness"
+      },
+      {
+        "ingredient": "chana-dal",
+        "substitute": "toor dal — gives a softer, creamier texture"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "3 tbsp coconut milk powder blended to a thick paste"
+      }
+    ],
+    "culturalNote": "Pitlai is a rarer, more formal Tamil curry that combines a tamarind base with the creaminess of a kootu — it appears at festival meals and is considered a mark of skilled cooking.",
+    "regionalVariation": "Brahmin-style pitlai (without shallots) relies on asafoetida alone for depth; some Chettinad versions add a small piece of raw mango alongside the tamarind for extra tartness.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  }
+]

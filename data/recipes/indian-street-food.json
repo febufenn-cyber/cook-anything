@@ -1,0 +1,4188 @@
+[
+  {
+    "id": "ca-mumbai-bhel-puri",
+    "slug": "mumbai-bhel-puri",
+    "title": "Mumbai Bhel Puri",
+    "nativeTitle": null,
+    "description": "Crispy murmura tossed with diced boiled potato, finely chopped onion and tomato, then dressed with tangy tamarind chutney and a bright mint-coriander chutney. This iconic Mumbai street snack comes together in minutes once your chutneys are ready.",
+    "cuisine": "maharashtrian",
+    "country": "india",
+    "region": "maharashtra",
+    "language": "en",
+    "mealType": [
+      "snack"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "puffed rice (murmura)",
+        "normalizedName": "puffed-rice",
+        "quantity": 3,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "potato (boiled, peeled, cut into 1 cm dice)",
+        "normalizedName": "potato",
+        "quantity": 2,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "onion (finely chopped)",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "tomato (deseeded, finely chopped)",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "green chilli (finely chopped)",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tamarind (seedless block, soaked and pulp extracted)",
+        "normalizedName": "tamarind",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "jaggery (for tamarind chutney)",
+        "normalizedName": "jaggery",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mint leaves",
+        "normalizedName": "mint",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "lemon (juice only)",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "chaat masala",
+        "normalizedName": "curry-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "amchur (dry mango powder)",
+        "normalizedName": "amchur",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "roasted peanuts",
+        "normalizedName": "peanut",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "sev (thin crispy besan noodles, store-bought)",
+        "normalizedName": "besan",
+        "quantity": 50,
+        "unit": "g",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Place potatoes in a saucepan, cover with cold water and bring to a boil over high heat. Reduce heat and cook until a skewer slides through easily, about 12–15 minutes. Drain, cool slightly, peel and cut into 1 cm cubes. Keep aside.",
+        "timerMinutes": 15,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Make the tamarind chutney: dissolve the soaked tamarind pulp in 4 tablespoons of warm water and strain through a sieve to remove fibres. Pour the strained liquid into a small saucepan, add jaggery, cumin seeds, and a pinch of salt. Simmer over low heat for 4–5 minutes, stirring until the jaggery melts and the chutney thickens to a loose syrup. Remove from heat and cool to room temperature.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 3,
+        "text": "Make the green chutney: blend the mint leaves, coriander leaves, one chopped green chilli, lemon juice, and a pinch of salt with 2–3 tablespoons of water until smooth. Taste and adjust salt or lemon. Transfer to a small bowl.",
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Place the puffed rice in a large wide bowl. Add the diced potato, chopped onion, chopped tomato, and the remaining chopped green chilli. Sprinkle over the chaat masala, amchur, and a little salt. Toss together gently with your hands or a spoon so the puffed rice stays light and airy.",
+        "method": "no-cook"
+      },
+      {
+        "order": 5,
+        "text": "Drizzle 2 tablespoons each of tamarind chutney and green chutney over the bhel mixture and toss to combine. Taste and add more chutney if you want it sweeter or more tangy. Scatter roasted peanuts and sev on top if using. Serve immediately on small plates or newspaper cones — bhel softens within 3–4 minutes of being dressed, so assemble just before eating."
+      }
+    ],
+    "cookware": [
+      "saucepan",
+      "blender"
+    ],
+    "methods": [
+      "boiling",
+      "simmering",
+      "no-cook"
+    ],
+    "tags": [
+      "street-food",
+      "budget",
+      "quick",
+      "under-30-minutes",
+      "kids-friendly"
+    ],
+    "allergens": [
+      "peanuts"
+    ],
+    "nutrition": {
+      "calories": 185,
+      "protein": 5,
+      "carbs": 36,
+      "fat": 4,
+      "fiber": 3,
+      "sugar": 9,
+      "sodium": 310,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "tamarind",
+        "substitute": "2 tablespoons ready-made tamarind paste from a jar; skip soaking, dissolve directly in 2 tablespoons water"
+      },
+      {
+        "ingredient": "jaggery",
+        "substitute": "an equal weight of brown sugar or a tablespoon of date syrup"
+      },
+      {
+        "ingredient": "puffed-rice",
+        "substitute": "lightly crushed murmura can be replaced with unsweetened puffed wheat in a pinch, though texture differs"
+      }
+    ],
+    "culturalNote": "Bhel puri has been sold on the sands of Chowpatty Beach in Mumbai for well over a century, where skilled bhelpuriwalas mix each portion to order on a flat metal plate, reading each customer's preferred chutney ratio. The interplay of sweet, sour, spicy, and crunchy in every mouthful is considered a signature expression of Maharashtrian street food creativity.",
+    "regionalVariation": "In Kolkata the same base dish is called jhal muri and uses a drizzle of mustard oil and raw shallots instead of chutneys. In Chennai a dry version called kara pori replaces liquid chutneys with a powdered spice blend.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-mumbai-sev-puri",
+    "slug": "mumbai-sev-puri",
+    "title": "Mumbai Sev Puri",
+    "nativeTitle": null,
+    "description": "Miniature crispy puris loaded with spiced mashed potato, fresh onion, and tomato, then topped with a blanket of thin sev and two contrasting chutneys. A classic Mumbai chaat that delivers a perfect crunch in every bite.",
+    "cuisine": "maharashtrian",
+    "country": "india",
+    "region": "maharashtra",
+    "language": "en",
+    "mealType": [
+      "snack"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "mini crispy puri shells (store-bought, or homemade from rava)",
+        "normalizedName": "rava",
+        "quantity": 24,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "potato (boiled, peeled and mashed coarsely)",
+        "normalizedName": "potato",
+        "quantity": 2,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "onion (finely chopped)",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "tomato (finely chopped, deseeded)",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "green chilli (finely chopped)",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tamarind (seedless, soaked and pulped)",
+        "normalizedName": "tamarind",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "jaggery",
+        "normalizedName": "jaggery",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "mint leaves",
+        "normalizedName": "mint",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "lemon (juice only)",
+        "normalizedName": "lemon",
+        "quantity": 0.5,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "chaat masala",
+        "normalizedName": "curry-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curd (whisked smooth)",
+        "normalizedName": "curd",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "sev (fine besan noodles, store-bought)",
+        "normalizedName": "besan",
+        "quantity": 80,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Boil the potatoes in a saucepan of salted water over medium-high heat until completely tender, about 15 minutes. Drain, peel while still warm, and mash coarsely with a fork. Season with a pinch of salt, half the chaat masala, and the red chilli powder. Set aside.",
+        "timerMinutes": 15,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Make the tamarind chutney: strain the tamarind pulp through a sieve into a small saucepan, pressing firmly to extract all the liquid. Add jaggery and a pinch of salt. Cook over low heat, stirring, for 4–5 minutes until the chutney thickens and coats the back of a spoon. Cool completely.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 3,
+        "text": "Make the green chutney by blending mint leaves, coriander leaves, green chilli, lemon juice, and a pinch of salt with just enough water (about 3 tablespoons) to get a smooth, pourable consistency. Taste and adjust salt.",
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Arrange the puri shells on a large flat plate or tray. Place a small teaspoon of spiced mashed potato into each puri. Top with a pinch of chopped onion and chopped tomato, pressing lightly so everything stays in place.",
+        "method": "no-cook"
+      },
+      {
+        "order": 5,
+        "text": "Drizzle tamarind chutney and green chutney generously over all the topped puris. Add a small spoonful of whisked curd if using. Finish with a heavy shower of fine sev so each puri is well covered. Sprinkle the remaining chaat masala on top and serve immediately — sev puri must be eaten within two minutes of assembly or the puris go soft."
+      }
+    ],
+    "cookware": [
+      "saucepan",
+      "blender"
+    ],
+    "methods": [
+      "boiling",
+      "simmering",
+      "no-cook"
+    ],
+    "tags": [
+      "street-food",
+      "budget",
+      "quick",
+      "under-30-minutes",
+      "kids-friendly",
+      "party"
+    ],
+    "allergens": [
+      "gluten",
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 220,
+      "protein": 5,
+      "carbs": 42,
+      "fat": 5,
+      "fiber": 3,
+      "sugar": 10,
+      "sodium": 350,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "rava",
+        "substitute": "store-bought rice-flour puri shells make the dish gluten-free; they hold up slightly longer before softening"
+      },
+      {
+        "ingredient": "tamarind",
+        "substitute": "2 tablespoons of ready tamarind concentrate thinned with 1 tablespoon water and sweetened with a pinch of sugar"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "thick coconut yogurt for a dairy-free version; the tangy note carries well"
+      }
+    ],
+    "culturalNote": "Sev puri is a beloved fixture of Mumbai's chaat stalls, where vendors arrange dozens of topped puris in moments and drizzle both chutneys in a single practiced sweep. The dish is considered a more refined sibling of bhel puri — more structured in presentation and softer in bite.",
+    "regionalVariation": "In Gujarat the same assembly is sometimes made with gathiya (a thicker besan strand) instead of sev, and the chutney ratios skew sweeter. Delhi vendors occasionally add boiled chickpeas to the potato layer.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-mumbai-dahi-puri",
+    "slug": "mumbai-dahi-puri",
+    "title": "Mumbai Dahi Puri",
+    "nativeTitle": null,
+    "description": "Hollow crispy puris filled with spiced chickpeas and potato, flooded with cold whisked curd, and finished with twin chutneys and a dusting of spices. Each one is a chilled, creamy, tangy explosion — the softer, more indulgent cousin of pani puri.",
+    "cuisine": "maharashtrian",
+    "country": "india",
+    "region": "maharashtra",
+    "language": "en",
+    "mealType": [
+      "snack"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "hollow puri shells (store-bought golgappa puris)",
+        "normalizedName": "rava",
+        "quantity": 20,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "potato (boiled, peeled, finely diced)",
+        "normalizedName": "potato",
+        "quantity": 2,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "chickpeas (boiled or canned, drained)",
+        "normalizedName": "chickpea",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "curd (thick, chilled, whisked until smooth)",
+        "normalizedName": "curd",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "tamarind (seedless, soaked and pulped)",
+        "normalizedName": "tamarind",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "jaggery",
+        "normalizedName": "jaggery",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "mint leaves",
+        "normalizedName": "mint",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "green chilli",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "lemon",
+        "normalizedName": "lemon",
+        "quantity": 0.5,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "chaat masala",
+        "normalizedName": "curry-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin (roasted, ground)",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "sev (thin, for garnish)",
+        "normalizedName": "besan",
+        "quantity": 40,
+        "unit": "g",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Boil potatoes in plenty of salted water until completely soft, about 15 minutes. Drain, cool, peel, and dice into small cubes. In a bowl combine the diced potato with the boiled chickpeas, a pinch of chaat masala, and salt. Set aside.",
+        "timerMinutes": 15,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Make the tamarind chutney: strain the tamarind pulp into a small saucepan, add jaggery and a pinch of salt. Simmer over low heat for 5 minutes, stirring until glossy and slightly thick. Cool completely, then refrigerate until ready to use.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 3,
+        "text": "Blend mint leaves, coriander leaves, green chilli, lemon juice, and salt with 3 tablespoons of water into a smooth green chutney. Taste and correct seasoning. Chill both chutneys in the refrigerator — cold chutneys keep the dahi puri refreshing.",
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Whisk the curd with roasted cumin, red chilli powder, chaat masala, and salt until it is perfectly smooth and well seasoned. Taste — the curd should be pleasantly savoury with a gentle spice. Keep refrigerated until assembly.",
+        "method": "no-cook"
+      },
+      {
+        "order": 5,
+        "text": "Just before serving, use a spoon or your thumb to gently crack a small hole in the top of each puri. Fill each one with a teaspoon of the potato-chickpea mixture, then spoon 1–2 tablespoons of the seasoned curd over the filling. Drizzle tamarind chutney and green chutney on top. Finish with a pinch of chaat masala and sev if using. Serve on a plate immediately — eat each puri whole in one or two bites so the casing stays crisp."
+      }
+    ],
+    "cookware": [
+      "saucepan",
+      "blender"
+    ],
+    "methods": [
+      "boiling",
+      "simmering",
+      "no-cook"
+    ],
+    "tags": [
+      "street-food",
+      "budget",
+      "quick",
+      "under-30-minutes",
+      "kids-friendly"
+    ],
+    "allergens": [
+      "gluten",
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 230,
+      "protein": 8,
+      "carbs": 40,
+      "fat": 5,
+      "fiber": 4,
+      "sugar": 11,
+      "sodium": 330,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chickpea",
+        "substitute": "cooked whole moong or boiled green peas work equally well as the filling pulse"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "thick coconut curd (dairy-free); choose an unsweetened variety and season the same way"
+      },
+      {
+        "ingredient": "rava",
+        "substitute": "ready-made pani puri shells from any Indian grocery; they are identical in function"
+      }
+    ],
+    "culturalNote": "Dahi puri is considered a more approachable, family-friendly alternative to the fiery pani puri since the curd tames the heat. Mumbai chaat stalls often make it to order in seconds by pre-filling trays of puris, making it a social and festive snack.",
+    "regionalVariation": "In the Pune style, the curd is slightly sour and the tamarind chutney is much darker and more concentrated. Some Delhi chaat stalls add a drizzle of honey to the curd for sweetness.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-delhi-aloo-tikki-chaat",
+    "slug": "delhi-aloo-tikki-chaat",
+    "title": "Delhi Aloo Tikki Chaat",
+    "nativeTitle": "आलू टिक्की चाट",
+    "description": "Golden pan-fried potato patties piled high with spiced chickpeas, chilled curd, and a double drizzle of tamarind and green chutneys. Delhi's most satisfying chaat strikes the full spectrum of flavours — crisp, creamy, tangy, and warmly spiced — all on one plate.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": "delhi",
+    "language": "en",
+    "mealType": [
+      "snack"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "potato (boiled, peeled, mashed until smooth)",
+        "normalizedName": "potato",
+        "quantity": 4,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "chickpeas (canned or boiled, drained)",
+        "normalizedName": "chickpea",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion (finely chopped)",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "ginger (grated)",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "green chilli (finely chopped)",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves (chopped)",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "amchur (dry mango powder)",
+        "normalizedName": "amchur",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil (for shallow frying)",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "curd (thick, whisked smooth, chilled)",
+        "normalizedName": "curd",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "chaat masala",
+        "normalizedName": "curry-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "tamarind (soaked, pulped, made into chutney with jaggery)",
+        "normalizedName": "tamarind",
+        "quantity": 40,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "mint leaves",
+        "normalizedName": "mint",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "lemon",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Boil the potatoes until completely tender, about 15–18 minutes. Drain, peel immediately, and mash thoroughly while hot — lumpy tikki will crack during frying. Cool the mash to room temperature, then mix in grated ginger, half the chopped green chilli, coriander leaves, half a teaspoon of amchur, half the red chilli powder, a pinch of garam masala, and salt. Divide into 8 equal portions and press each into a flat 1.5 cm thick patty.",
+        "timerMinutes": 18,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Prepare the chutneys. For tamarind chutney, strain the pulped tamarind into a saucepan, add 15 g jaggery (or a teaspoon of sugar) and salt. Simmer 4–5 minutes until slightly thick. For green chutney, blend mint leaves, the remaining green chilli, half the lemon juice, and a pinch of salt with 3 tablespoons of water until smooth. Chill both.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a tawa or frying pan over medium heat. When the oil shimmers, place the patties in a single layer without crowding. Let them cook undisturbed for 3–4 minutes until the underside is deep golden and releases cleanly. Flip carefully and cook the other side for 3–4 minutes until equally crisp. Transfer to a plate lined with kitchen paper.",
+        "timerMinutes": 8,
+        "method": "shallow-frying"
+      },
+      {
+        "order": 4,
+        "text": "Warm the chickpeas briefly in a small pan with the remaining red chilli powder, half a teaspoon of chaat masala, cumin seeds, remaining amchur, and salt. Toss until well coated and fragrant, about 2 minutes. Remove from heat.",
+        "timerMinutes": 2,
+        "method": "pan-frying"
+      },
+      {
+        "order": 5,
+        "text": "To serve, place 2 hot tikki on each plate. Spoon a generous mound of spiced chickpeas over and around them. Ladle 3–4 tablespoons of chilled whisked curd over the chickpeas, letting it pool around the tikki. Drizzle tamarind chutney and green chutney in generous zigzags. Squeeze the remaining lemon juice over everything, dust with the remaining chaat masala, and scatter the chopped onion on top. Eat while the tikki are still hot and the curd is cold."
+      }
+    ],
+    "cookware": [
+      "saucepan",
+      "tawa",
+      "frying-pan",
+      "blender"
+    ],
+    "methods": [
+      "boiling",
+      "shallow-frying",
+      "simmering",
+      "pan-frying",
+      "no-cook"
+    ],
+    "tags": [
+      "street-food",
+      "budget",
+      "comfort-food",
+      "party",
+      "kids-friendly"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 295,
+      "protein": 9,
+      "carbs": 48,
+      "fat": 8,
+      "fiber": 7,
+      "sugar": 10,
+      "sodium": 430,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chickpea",
+        "substitute": "boiled kidney beans (rajma) or whole moong give a different but equally satisfying texture"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "thick coconut curd seasoned with a pinch of salt and cumin for a dairy-free version"
+      },
+      {
+        "ingredient": "tamarind",
+        "substitute": "2 tablespoons of ready tamarind chutney from a jar, thinned slightly with water if too thick"
+      }
+    ],
+    "culturalNote": "Aloo tikki chaat originated in the street stalls of Old Delhi and Chandni Chowk, where vendors have been making the dish on large iron tawas for generations. The combination of hot tikki with cold curd is intentional and considered a signature contrast unique to North Indian chaat culture.",
+    "regionalVariation": "In Lucknow the tikki is made thicker and often includes a filling of boiled chana dal. Street stalls in Amritsar serve it with pindi chana — a darker, more intensely spiced chickpea preparation.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-north-indian-samosa",
+    "slug": "north-indian-samosa",
+    "title": "North Indian Samosa",
+    "nativeTitle": "समोसा",
+    "description": "Crispy golden pastry cones filled with a warmly spiced potato and pea mixture, then deep-fried until the shell shatters at the first bite. A universally loved North Indian snack that is equally at home at a roadside stall or a family tea table.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": "delhi",
+    "language": "en",
+    "mealType": [
+      "snack",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "maida (all-purpose flour)",
+        "normalizedName": "maida",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "ajwain (carom seeds)",
+        "normalizedName": "ajwain",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil (for pastry + deep frying)",
+        "normalizedName": "oil",
+        "quantity": 500,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "water (cold, for dough)",
+        "normalizedName": "water",
+        "quantity": 6,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "potato (boiled, peeled, roughly mashed)",
+        "normalizedName": "potato",
+        "quantity": 4,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "green peas (fresh or frozen)",
+        "normalizedName": "peas",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "ginger (finely grated)",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "green chilli (finely chopped)",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander seeds (ground)",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "amchur (dry mango powder)",
+        "normalizedName": "amchur",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves (chopped)",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Make the pastry dough: combine maida, ajwain, a generous pinch of salt, and 2 tablespoons of oil in a bowl. Rub the oil into the flour with your fingertips until the mixture resembles coarse breadcrumbs — this fat coating is what gives samosa its characteristic flaky bite. Add cold water a tablespoon at a time, mixing until a firm but pliable dough forms. It should be stiffer than roti dough. Cover with a damp cloth and rest for 20 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "order": 2,
+        "text": "While the dough rests, prepare the filling. Heat 1 tablespoon of oil in a kadai or frying pan over medium heat. Add cumin seeds and wait for them to splutter. Add green chilli and grated ginger and stir for 30 seconds until fragrant. Add the peas and cook for 2 minutes. Tip in the boiled potato and mix well, breaking any large lumps. Add ground coriander, amchur, red chilli powder, garam masala, and salt. Stir and cook for 2–3 minutes until everything is well combined and the mixture is dry, not wet. Add coriander leaves if using. Cool the filling before stuffing.",
+        "timerMinutes": 6,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Divide the rested dough into 8 equal balls. Roll each ball into an oval about 16 cm long and 8 cm wide, slightly thicker in the centre. Cut each oval in half to get two semicircles. Fold one semicircle into a cone shape, sealing the straight edge with a dab of water and pressing firmly. Hold the cone in your palm, fill two-thirds with cooled potato filling, then fold the open top over to form a triangular flap and press all seams shut tightly — any gaps will cause the samosa to open in the oil.",
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Pour oil into a deep kadai to a depth of at least 8 cm and heat over medium flame to around 160°C. Test by dropping a small piece of dough — it should rise slowly without browning instantly. Slide in 4–5 samosas at a time without crowding. Fry slowly, turning occasionally, for 12–15 minutes until the shells are an even golden-amber colour and feel firm and hollow when tapped. Drain on paper towels. Do not fry over high heat or the pastry will colour too fast while the inside stays raw and doughy.",
+        "timerMinutes": 15,
+        "method": "deep-frying"
+      },
+      {
+        "order": 5,
+        "text": "Serve hot with tamarind chutney and mint chutney on the side. Samosas are best eaten within 30 minutes of frying while the shell is at its crispest. Leftover samosas can be re-crisped in an air fryer at 180°C for 5 minutes."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "tawa"
+    ],
+    "methods": [
+      "deep-frying",
+      "kadai-cooking",
+      "no-cook"
+    ],
+    "tags": [
+      "street-food",
+      "budget",
+      "kids-friendly",
+      "fried-snack",
+      "lunchbox",
+      "comfort-food"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 310,
+      "protein": 6,
+      "carbs": 40,
+      "fat": 15,
+      "fiber": 4,
+      "sugar": 3,
+      "sodium": 380,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "maida",
+        "substitute": "whole wheat flour (atta) gives a nuttier, denser pastry; knead with a slightly higher oil ratio to compensate"
+      },
+      {
+        "ingredient": "peas",
+        "substitute": "finely diced boiled carrots and beans make a colourful mixed-vegetable filling"
+      },
+      {
+        "ingredient": "amchur",
+        "substitute": "a squeeze of half a lemon added to the filling just before it comes off the heat"
+      }
+    ],
+    "culturalNote": "Samosa traces its journey to India via traders from Central Asia, where a similar filled pastry called sambosa has been known for centuries. The North Indian version with potato filling became entrenched during the British era when the potato was widely grown and cheap, and today it is one of the most universally recognisable Indian snacks.",
+    "regionalVariation": "In Bengal, the samosa is called singuara and often uses a cabbage-based filling. Gujarat's version tends to be smaller and slightly sweeter. The Punjabi samosa is the largest, thickest, and most generously spiced.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-north-indian-onion-pakora",
+    "slug": "north-indian-onion-pakora",
+    "title": "North Indian Onion Pakora",
+    "nativeTitle": "प्याज पकोड़ा",
+    "description": "Rings and shards of onion coated in a spiced besan batter and deep-fried until crackling crisp on the outside and softly caramelised inside. The quintessential monsoon-time snack of North India, ready in under half an hour and best eaten the moment it comes out of the oil.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": "delhi",
+    "language": "en",
+    "mealType": [
+      "snack",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "onion (large, sliced into thin rings or half-moons)",
+        "normalizedName": "onion",
+        "quantity": 3,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "besan (gram flour)",
+        "normalizedName": "besan",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "rice flour (for extra crispiness)",
+        "normalizedName": "rice-flour",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "green chilli (finely chopped)",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves (chopped)",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "ajwain (carom seeds)",
+        "normalizedName": "ajwain",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "baking soda (a tiny pinch)",
+        "normalizedName": "baking-soda",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "oil (for deep frying)",
+        "normalizedName": "oil",
+        "quantity": 500,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "water (for batter)",
+        "normalizedName": "water",
+        "quantity": 120,
+        "unit": "ml",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Separate the onion slices into rings and half-moons in a large bowl. Sprinkle a generous pinch of salt over them and toss well. Let them sit for 5 minutes — the salt draws out moisture, which helps the batter cling and makes the onion soften slightly inside the finished pakora."
+      },
+      {
+        "order": 2,
+        "text": "Add besan, rice flour, red chilli powder, turmeric, ajwain, cumin seeds, green chilli, and coriander leaves to the salted onions. Mix with your hands, squeezing the onion into the dry flour so the natural juices from the onion help bind the mixture. Add water gradually — start with 80 ml and add more only if needed — until the onions are coated in a thick, sticky batter that holds together when you press a handful. Add the baking soda if using and mix once more."
+      },
+      {
+        "order": 3,
+        "text": "Pour oil into a deep kadai or heavy pan to a depth of 8–10 cm. Heat over medium-high flame until a small drop of batter dropped in sizzles immediately and rises to the surface. The oil should be around 175°C. Keeping the heat at medium is critical — too hot and the batter darkens before the onion cooks through.",
+        "method": "deep-frying"
+      },
+      {
+        "order": 4,
+        "text": "Using your fingers or a tablespoon, drop rough clumps of the batter-coated onion into the oil, each about the size of a golf ball. Do not overcrowd — fry in two or three batches. Fry for 4–5 minutes, turning once halfway through, until each pakora is deep golden-brown and crisp all over. Lift out with a slotted spoon and drain on paper towels.",
+        "timerMinutes": 5,
+        "method": "deep-frying"
+      },
+      {
+        "order": 5,
+        "text": "Serve immediately in a newspaper-lined bowl or on a plate. Accompany with mint-coriander chutney and tomato ketchup. Pakoras are best eaten within 10 minutes of frying. If making a second batch, keep the first batch loosely tented with foil rather than covering tightly, which traps steam and softens the crust."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "deep-frying"
+    ],
+    "tags": [
+      "street-food",
+      "budget",
+      "quick",
+      "under-30-minutes",
+      "fried-snack",
+      "monsoon",
+      "comfort-food"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 255,
+      "protein": 7,
+      "carbs": 28,
+      "fat": 13,
+      "fiber": 3,
+      "sugar": 4,
+      "sodium": 290,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "onion",
+        "substitute": "thinly sliced cabbage, spinach leaves, or sliced raw banana make excellent pakoras with the same batter"
+      },
+      {
+        "ingredient": "besan",
+        "substitute": "a 50:50 mix of besan and rice flour produces an even crispier shell; rice flour alone makes gluten-free pakoras"
+      },
+      {
+        "ingredient": "ajwain",
+        "substitute": "a pinch of dried thyme as a mild flavour substitute, or omit entirely if unavailable"
+      }
+    ],
+    "culturalNote": "Onion pakora — called pyaaz pakora in Hindi — holds a revered place in Indian domestic cooking as the go-to monsoon treat. The smell of besan hitting hot oil on a rainy afternoon is considered deeply nostalgic by generations of North Indians, and the snack appears at roadside dhabas and home kitchens with equal enthusiasm.",
+    "regionalVariation": "In Bengal a similar fritter using onion and a coarser batter is called piaji, often eaten with mustard kasundi. Andhra and Tamil Nadu make onion pakoras with curry leaves and a hint of fennel in the batter.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-andhra-mirchi-bajji",
+    "slug": "andhra-mirchi-bajji",
+    "title": "Andhra Mirchi Bajji",
+    "nativeTitle": "మిర్చి బజ్జి",
+    "description": "Whole long green chillies stuffed with a tangy tamarind and spice paste, dipped in a thin seasoned besan batter, and deep-fried until blistered and golden. A bold Andhra street food that balances fiery chilli heat with the sweet-sour surprise of the hidden filling.",
+    "cuisine": "andhra",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "long green chillies (bajji mirchi / banana peppers, large and mild)",
+        "normalizedName": "green-chilli",
+        "quantity": 8,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tamarind (seedless, soaked and pulped)",
+        "normalizedName": "tamarind",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "amchur (dry mango powder, for filling)",
+        "normalizedName": "amchur",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "besan (gram flour, for batter)",
+        "normalizedName": "besan",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "rice flour (for crispy batter)",
+        "normalizedName": "rice-flour",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "ajwain (carom seeds)",
+        "normalizedName": "ajwain",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "asafoetida (hing)",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "oil (for deep frying)",
+        "normalizedName": "oil",
+        "quantity": 500,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "water (for batter)",
+        "normalizedName": "water",
+        "quantity": 150,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves (for serving)",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Rinse the long green chillies and make a deep lengthwise slit along one side of each chilli from just below the stem to the tip, being careful not to cut all the way through. Use a small spoon or your finger to scrape out the seeds and white pith inside — this reduces the raw heat significantly. Rinse the seeded chillies and pat completely dry."
+      },
+      {
+        "order": 2,
+        "text": "Make the filling: mix the strained tamarind pulp with amchur, a big pinch of salt, and a pinch of red chilli powder until it forms a sticky, well-seasoned paste. Taste — it should be intensely tangy and slightly salty. Use a small spoon to push a generous teaspoon of the tamarind paste inside each slit chilli, pressing the sides closed firmly so the filling stays inside during frying."
+      },
+      {
+        "order": 3,
+        "text": "Make the batter: whisk together besan, rice flour, red chilli powder, turmeric, ajwain, asafoetida, and salt in a bowl. Gradually add water, whisking constantly to avoid lumps, until you have a smooth, moderately thick batter that coats the back of a spoon without dripping off rapidly. It should be thicker than crepe batter but thinner than bread batter.",
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Pour oil into a deep kadai to a depth of 8 cm and heat over medium flame until a drop of batter sinks, then rises bubbling to the surface within 2 seconds — around 170°C. Dip each stuffed chilli into the batter, turning to coat fully and letting excess drip off. Gently lower 3–4 chillies into the oil at a time. Fry for 4–5 minutes, turning once, until the batter is golden-amber and set. The oil should bubble steadily but not violently.",
+        "timerMinutes": 5,
+        "method": "deep-frying"
+      },
+      {
+        "order": 5,
+        "text": "Drain the bajjis on kitchen paper and serve hot immediately. They need no accompaniment beyond a wedge of lemon and perhaps a small bowl of onion rings. If the chillies are very spicy after frying, a small cup of cold curd alongside helps balance the heat. Best eaten within 5 minutes while the batter is at its crispest."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "deep-frying",
+      "no-cook"
+    ],
+    "tags": [
+      "street-food",
+      "budget",
+      "fried-snack",
+      "quick"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 230,
+      "protein": 6,
+      "carbs": 25,
+      "fat": 12,
+      "fiber": 2,
+      "sugar": 3,
+      "sodium": 260,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "green-chilli",
+        "substitute": "bell peppers cut into thick strips make a mild, family-friendly bajji; increase batter coating slightly"
+      },
+      {
+        "ingredient": "tamarind",
+        "substitute": "a mixture of ready tamarind paste and a pinch of amchur works well as the stuffing base"
+      },
+      {
+        "ingredient": "besan",
+        "substitute": "a combination of besan and cornflour (50:50) makes a slightly lighter, crispier shell"
+      }
+    ],
+    "culturalNote": "Mirchi bajji is a street food icon in Andhra Pradesh and Telangana, sold from cart stalls particularly during the evening rush at bus stands and markets. The contrast between the neutral besan shell and the surprise of tangy tamarind paste inside is considered a quintessential expression of Andhra's love for bold flavour contrasts.",
+    "regionalVariation": "In the Hyderabad style, the stuffing sometimes includes grated coconut and dry spices alongside the tamarind paste. The coastal Andhra version is simpler — just tamarind, salt, and a pinch of red chilli — letting the quality of the chilli speak for itself.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-street-dahi-vada",
+    "slug": "street-dahi-vada",
+    "title": "Street-Style Dahi Vada",
+    "nativeTitle": "दही वड़ा",
+    "description": "Soft, spongy urad dal fritters soaked until they melt at the touch, then blanketed in cold sweetened curd and dressed with tamarind chutney, green chutney, and a medley of spices. A North Indian chaat that is simultaneously cooling and deeply flavourful.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "urad dal (husked, soaked for 4–6 hours or overnight)",
+        "normalizedName": "urad-dal",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "ginger (finely grated)",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "green chilli (finely chopped)",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "asafoetida (hing)",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "oil (for deep frying)",
+        "normalizedName": "oil",
+        "quantity": 500,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "water (for soaking and grinding)",
+        "normalizedName": "water",
+        "quantity": 4,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "curd (thick, whisked smooth)",
+        "normalizedName": "curd",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cumin (dry-roasted and ground)",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "chaat masala",
+        "normalizedName": "curry-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "tamarind chutney (store-bought or homemade)",
+        "normalizedName": "tamarind",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "mint leaves",
+        "normalizedName": "mint",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "lemon",
+        "normalizedName": "lemon",
+        "quantity": 0.5,
+        "unit": "whole",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soak the urad dal in plenty of cold water for at least 4 hours or overnight before you begin. Drain and rinse thoroughly. Grind the soaked dal in a wet grinder or blender with as little water as possible — add water by the tablespoon only as needed — until you have a thick, airy, perfectly smooth batter with no grainy texture. Beat the batter vigorously with a spoon for 2 minutes to incorporate air; it should look slightly fluffy. Season with salt, ginger, green chilli, and hing.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Pour oil into a deep kadai to 8 cm depth and heat to 170°C over medium flame. Wet your hand with water, scoop about 2 tablespoons of batter, and gently slip it into the oil as a rough round shape. Fry 4–5 vadas at a time for 5–6 minutes, turning twice, until they are pale golden and cooked through — they should feel firm on the outside. Do not colour them too deeply. Drain on paper towels.",
+        "timerMinutes": 6,
+        "method": "deep-frying"
+      },
+      {
+        "order": 3,
+        "text": "Transfer the fried vadas immediately into a large bowl of hot water (not boiling — just off the heat). Let them soak for 8–10 minutes until they have absorbed water and become noticeably softer and expanded. Gently press each vada between your palms to squeeze out excess water — they should be soft but not waterlogged. Place on a serving dish.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 4,
+        "text": "Whisk the curd with sugar, a pinch of salt, and half the roasted cumin until completely smooth and well seasoned. Make the green chutney by blending mint leaves, coriander leaves, lemon juice, and a pinch of salt with 3 tablespoons of water. Taste both preparations and adjust salt and tang.",
+        "method": "no-cook"
+      },
+      {
+        "order": 5,
+        "text": "To serve, spoon the sweetened curd generously over the vadas so they are fully covered. Drizzle tamarind chutney and green chutney in stripes over the curd. Sprinkle the remaining cumin, red chilli powder, and chaat masala over the top. Chill for at least 15 minutes before serving — dahi vada is at its best when the vadas are cold, the curd is icy, and the chutneys have soaked in slightly.",
+        "timerMinutes": 15
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "blender"
+    ],
+    "methods": [
+      "deep-frying",
+      "no-cook"
+    ],
+    "tags": [
+      "street-food",
+      "budget",
+      "comfort-food",
+      "party",
+      "summer"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 310,
+      "protein": 14,
+      "carbs": 38,
+      "fat": 12,
+      "fiber": 5,
+      "sugar": 12,
+      "sodium": 420,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "urad-dal",
+        "substitute": "moong dal (split, husked) soaked for only 2 hours makes lighter, quicker vadas with a slightly milder flavour"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "thick coconut curd seasoned the same way for a dairy-free version"
+      },
+      {
+        "ingredient": "tamarind",
+        "substitute": "2 tablespoons of ready-made tamarind concentrate thinned with a teaspoon of water"
+      }
+    ],
+    "culturalNote": "Dahi vada has been a celebration food across North India for centuries, appearing at weddings, festive spreads, and the Holi feast. The contrast of the warm dal vada against cold spiced curd is a deliberate textural and temperature play that distinguishes it from other Indian snacks.",
+    "regionalVariation": "In South India a similar dish called thayir vada is made with urad dal vadas soaked in curd but without the chutney layer — the seasoning goes directly into the curd with mustard and curry leaves tempering on top. Odisha's version is milder in spice and uses a slightly coarser dal batter.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-kolkata-kathi-roll",
+    "slug": "kolkata-kathi-roll",
+    "title": "Kolkata Kathi Roll",
+    "nativeTitle": "কাঠি রোল",
+    "description": "A flaky egg-coated paratha wrapped around a filling of spiced paneer and crisp vegetables, finished with a drizzle of chutney and a squeeze of lemon. The Kolkata kathi roll is street food at its most satisfying — portable, filling, and full of bold flavour.",
+    "cuisine": "bengali",
+    "country": "india",
+    "region": "bengal",
+    "language": "en",
+    "mealType": [
+      "snack",
+      "lunch"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "wheat flour (atta)",
+        "normalizedName": "wheat-flour",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "oil (for dough + cooking)",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "water (for dough)",
+        "normalizedName": "water",
+        "quantity": 100,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "egg (beaten)",
+        "normalizedName": "egg",
+        "quantity": 4,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "paneer (cut into thin strips)",
+        "normalizedName": "paneer",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion (thinly sliced)",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "capsicum (thinly sliced)",
+        "normalizedName": "capsicum",
+        "quantity": 1,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "green chilli (sliced thin)",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "chaat masala",
+        "normalizedName": "curry-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "green chilli sauce",
+        "normalizedName": "green-chilli-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "lemon",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Make the dough: mix wheat flour, a pinch of salt, and 1 tablespoon of oil in a bowl. Add water gradually, kneading to form a soft, smooth dough — slightly softer than chapati dough. Cover and rest for 15 minutes. Divide into 4 equal balls and roll each ball on a floured surface into a thin round about 22 cm in diameter.",
+        "timerMinutes": 15
+      },
+      {
+        "order": 2,
+        "text": "Cook the paneer: heat a tablespoon of oil in a tawa or frying pan over medium-high heat. Add ginger-garlic paste and stir for 30 seconds. Add the paneer strips with red chilli powder, garam masala, half the chaat masala, and salt. Toss and cook for 3–4 minutes until the paneer is lightly browned on the edges. Add sliced capsicum and half the sliced onion and stir-fry for another 2 minutes so the vegetables are cooked but retain a little crunch. Remove from heat and squeeze half the lemon over the filling.",
+        "timerMinutes": 6,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Cook the egg-coated paratha: heat a tawa over medium-high flame and drizzle with a little oil. Place one rolled paratha on the hot tawa and cook for 90 seconds until small bubbles appear and the underside is partially cooked. Flip the paratha. Beat one egg with a pinch of salt, pour it around the edges of the paratha on the tawa, and immediately flip the paratha so the egg side is now on the base. Let the egg set and cook for 60–90 seconds until golden. Flip once more so the plain side finishes. The finished roti should have a golden egg layer on one side.",
+        "timerMinutes": 3,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Place the cooked paratha on a flat surface, egg side facing up. Spread a drizzle of green chilli sauce across the centre. Spoon a quarter of the paneer filling in a line down the middle. Top with raw sliced onion, a few slivers of green chilli, and fresh coriander leaves if using. Sprinkle with the remaining chaat masala and a squeeze of lemon.",
+        "method": "no-cook"
+      },
+      {
+        "order": 5,
+        "text": "Fold one side of the paratha over the filling, then roll tightly from the bottom up to form a compact cylinder. Wrap the bottom half in foil or parchment paper to hold the roll together and make it easier to eat on the go. Repeat with the remaining parathas. Serve immediately while the roti is still warm and the egg layer is pliable."
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "frying-pan"
+    ],
+    "methods": [
+      "tawa-cooking",
+      "pan-frying",
+      "no-cook"
+    ],
+    "tags": [
+      "street-food",
+      "budget",
+      "comfort-food",
+      "lunchbox",
+      "wrap"
+    ],
+    "allergens": [
+      "gluten",
+      "egg",
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein": 18,
+      "carbs": 42,
+      "fat": 16,
+      "fiber": 4,
+      "sugar": 5,
+      "sodium": 480,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "paneer",
+        "substitute": "firm tofu pressed dry and seasoned the same way works well for a dairy-free filling"
+      },
+      {
+        "ingredient": "wheat-flour",
+        "substitute": "store-bought parathas or chapatis save time; cook the egg on top of the ready bread"
+      },
+      {
+        "ingredient": "green-chilli-sauce",
+        "substitute": "sriracha or any chilli hot sauce blended with a teaspoon of vinegar gives a similar kick"
+      }
+    ],
+    "culturalNote": "The kathi roll was invented in the Nizam's restaurant in Park Street, Kolkata, in the early twentieth century, originally made with kabab skewers wrapped in paratha — hence 'kathi', meaning stick. Over decades the filling diversified from kebab to egg, paneer, and chicken, and the dish spread from Kolkata stalls across India.",
+    "regionalVariation": "Authentic Kolkata kathi rolls use a maida paratha layered with ghee rather than atta, giving a flakier, richer shell. The Delhi version tends to have a more heavily spiced filling and adds pickled onions in mustard oil.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-kolkata-egg-roll",
+    "slug": "kolkata-egg-roll",
+    "title": "Kolkata Egg Roll",
+    "nativeTitle": "কোলকাতা ডিমের রোল",
+    "description": "A thin maida paratha coated with a fried egg on one side, rolled around a filling of sliced raw onion, green chilli, and a sweet-spicy sauce. Simple, fast, and gloriously satisfying — this Kolkata classic is one of India's most beloved handheld street meals.",
+    "cuisine": "bengali",
+    "country": "india",
+    "region": "bengal",
+    "language": "en",
+    "mealType": [
+      "snack",
+      "lunch"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "maida (all-purpose flour, for paratha)",
+        "normalizedName": "maida",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "oil (for dough and frying)",
+        "normalizedName": "oil",
+        "quantity": 5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 100,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "egg",
+        "normalizedName": "egg",
+        "quantity": 4,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "onion (thinly sliced into rings)",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "green chilli (sliced into thin rounds)",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato ketchup",
+        "normalizedName": "tomato-ketchup",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "green chilli sauce",
+        "normalizedName": "green-chilli-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "lemon (juice)",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "black pepper (freshly ground)",
+        "normalizedName": "black-pepper",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Make the paratha dough: combine maida, a pinch of salt, and 1 tablespoon of oil in a bowl. Add water gradually and knead into a smooth, supple dough — a bit softer than samosa dough. Rest covered for 10 minutes. Divide into 4 balls and roll each thinly on a floured surface to about 22–24 cm rounds.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Heat a tawa over medium-high flame. Drizzle or brush lightly with oil. Place one paratha on the tawa and cook for 60–90 seconds until the surface starts to look dry and small bubbles appear. Flip and cook for another minute. The paratha should be only partially cooked at this point — it will finish cooking once the egg is added.",
+        "timerMinutes": 3,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Beat one egg with a pinch of salt and freshly ground black pepper. Push the paratha to one side of the tawa or flip it to the edge. Pour the beaten egg directly onto the oiled tawa surface and immediately place the paratha on top of the egg, pressing down gently so the egg adheres to the paratha. Cook for 60–90 seconds until the egg sets completely and turns golden underneath. The egg is now bonded to the paratha. Flip once so the plain side faces down and finish for 30 seconds. Slide the egg-coated paratha off the tawa onto a flat work surface.",
+        "timerMinutes": 3,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Place the paratha egg-side up on the surface. Spread 1 tablespoon of tomato ketchup and half a tablespoon of green chilli sauce across the centre. Arrange a generous handful of sliced raw onion rings down the middle along with sliced green chilli rounds and coriander leaves if using. Squeeze lemon juice over the filling.",
+        "method": "no-cook"
+      },
+      {
+        "order": 5,
+        "text": "Roll the paratha tightly from one side into a compact cylinder, keeping the filling centred. Wrap the lower half tightly in foil or grease paper so it does not unravel when held. Serve immediately. The Kolkata roll should be eaten fresh while the paratha is still warm and the onion is crisp. Repeat with the remaining parathas and eggs."
+      }
+    ],
+    "cookware": [
+      "tawa"
+    ],
+    "methods": [
+      "tawa-cooking",
+      "no-cook"
+    ],
+    "tags": [
+      "street-food",
+      "budget",
+      "quick",
+      "under-30-minutes",
+      "comfort-food",
+      "wrap",
+      "bachelor-friendly"
+    ],
+    "allergens": [
+      "gluten",
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 340,
+      "protein": 13,
+      "carbs": 44,
+      "fat": 13,
+      "fiber": 2,
+      "sugar": 6,
+      "sodium": 430,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "maida",
+        "substitute": "whole wheat atta parathas are slightly denser but work perfectly and add nutritional value"
+      },
+      {
+        "ingredient": "tomato-ketchup",
+        "substitute": "a mix of tomato paste and a pinch of sugar if ketchup is unavailable"
+      },
+      {
+        "ingredient": "green-chilli-sauce",
+        "substitute": "any sriracha-style sauce or pickled green chilli condiment gives the same sharp heat"
+      }
+    ],
+    "culturalNote": "The Kolkata egg roll was born in the city's iconic roll shops — Nizam's being the most cited — where the fried egg adhered to the paratha was a way to make the filling stay inside and stretch the protein. It became a staple for office workers and students throughout the city, eaten standing at shop windows.",
+    "regionalVariation": "Double-egg rolls with two eggs are popular at Kolkata stalls. Some shops add a thin spread of mustard paste under the ketchup layer for a distinctly Bengali note. Outside Kolkata, street vendors in Delhi and Mumbai offer similar rolls but typically use thicker fillings and heavier saucing.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-mumbai-veg-frankie",
+    "slug": "mumbai-veg-frankie",
+    "title": "Mumbai Veg Frankie",
+    "nativeTitle": null,
+    "description": "A soft wheat flour roti tightly rolled around a boldly spiced potato and vegetable filling, drizzled with tangy sauces and a spritz of lemon. Mumbai's beloved street-food wrap is filling, fast, and customisable — a goto grab-and-go meal from the city's roll counters.",
+    "cuisine": "maharashtrian",
+    "country": "india",
+    "region": "maharashtra",
+    "language": "en",
+    "mealType": [
+      "snack",
+      "lunch"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "wheat flour (atta)",
+        "normalizedName": "wheat-flour",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "oil (for dough + frying)",
+        "normalizedName": "oil",
+        "quantity": 5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 100,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "potato (boiled, mashed)",
+        "normalizedName": "potato",
+        "quantity": 3,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "onion (finely chopped)",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "capsicum (diced small)",
+        "normalizedName": "capsicum",
+        "quantity": 1,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "green chilli (finely chopped)",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic (minced)",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger (grated)",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "amchur (dry mango powder)",
+        "normalizedName": "amchur",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "green chilli sauce",
+        "normalizedName": "green-chilli-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "tomato ketchup",
+        "normalizedName": "tomato-ketchup",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "lemon",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "whole",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Make the roti dough: mix wheat flour, a pinch of salt, and 1 tablespoon of oil in a bowl. Add water gradually and knead to a smooth, soft dough — a little softer than regular chapati dough. Cover with a damp cloth and rest for 10 minutes. Divide into 4 equal portions and roll each thinly into a round about 22 cm in diameter.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Prepare the filling: heat 2 tablespoons of oil in a kadai or frying pan over medium-high heat. Add garlic and ginger and stir for 30 seconds until the raw smell disappears. Add the green chilli and onion and cook, stirring, for 3 minutes until the onion softens and turns translucent. Add diced capsicum and cook for another 2 minutes so it stays slightly crunchy.",
+        "timerMinutes": 5,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Add the boiled mashed potato to the kadai and mix everything together thoroughly. Season with red chilli powder, garam masala, amchur, and salt. Stir and cook for 2–3 minutes until all the flavours are integrated and the filling is dry enough to hold together when pressed. Remove from heat, mix in coriander leaves, and squeeze half the lemon juice over the filling. Taste and correct seasoning — it should be well spiced and pleasantly tangy.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 4,
+        "text": "Cook the rotis: heat a tawa over medium-high flame and brush with a little oil. Cook each rolled roti for 90 seconds per side until lightly charred in spots and cooked through. Keep covered with a clean cloth to stay soft while you cook the remaining rotis.",
+        "timerMinutes": 3,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Assemble the frankie: spread 1 teaspoon of tomato ketchup and half a teaspoon of green chilli sauce across the centre of each roti. Spoon a generous quarter of the filling in a line down the middle. Squeeze a little lemon juice over the filling and add a few extra sliced raw onion rings if you like crunch. Roll the roti tightly from one end, pressing as you go to keep the filling compact. Wrap the bottom in foil or paper. Serve hot immediately."
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "kadai"
+    ],
+    "methods": [
+      "tawa-cooking",
+      "kadai-cooking"
+    ],
+    "tags": [
+      "street-food",
+      "budget",
+      "wrap",
+      "comfort-food",
+      "lunchbox",
+      "bachelor-friendly"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 330,
+      "protein": 8,
+      "carbs": 52,
+      "fat": 10,
+      "fiber": 5,
+      "sugar": 5,
+      "sodium": 390,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "wheat-flour",
+        "substitute": "store-bought chapatis or thin parathas; simply warm them on the tawa and proceed to the filling step"
+      },
+      {
+        "ingredient": "capsicum",
+        "substitute": "grated carrot or finely shredded cabbage sautéed briefly adds colour and crunch to the filling"
+      },
+      {
+        "ingredient": "amchur",
+        "substitute": "a squeeze of extra lemon juice stirred into the filling gives the same tartness"
+      }
+    ],
+    "culturalNote": "The Frankie — named after its creator Amarjit Singh Tibb who opened Tibbs Frankie in Mumbai in 1969 — was inspired by the Middle-Eastern wrap concept but reimagined with local spiced fillings. It has since become a staple of Mumbai street food culture, with chicken, egg, and paneer variations alongside the veg original.",
+    "regionalVariation": "The Kolkata version of the wrap (the kathi roll) uses a maida paratha with an egg layer and a kebab or paneer filling. Delhi street vendors make their rolls with thicker parathas and heavier use of pickled onion in mustard oil.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-nepali-momos-red-chutney",
+    "slug": "nepali-momos-red-chutney",
+    "title": "Nepali Momos with Red Chutney",
+    "nativeTitle": "मःमः",
+    "description": "Thin-skinned steamed dumplings filled with a gingery spiced cabbage and onion mixture, served with a punchy roasted tomato and red chilli chutney. A Himalayan classic that has taken India's street food scene by storm, beloved for its delicate wrapper and bold accompaniment.",
+    "cuisine": "nepali",
+    "country": "nepal",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack",
+      "lunch"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "maida (all-purpose flour, for wrappers)",
+        "normalizedName": "maida",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "water (for dough)",
+        "normalizedName": "water",
+        "quantity": 80,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "cabbage (finely shredded)",
+        "normalizedName": "cabbage",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion (finely chopped)",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "spring onion (white and green parts, sliced)",
+        "normalizedName": "spring-onion",
+        "quantity": 2,
+        "unit": "bunch",
+        "optional": false
+      },
+      {
+        "name": "ginger (finely grated)",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "garlic (minced)",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper (freshly ground)",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves (finely chopped)",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "tomato (for red chutney)",
+        "normalizedName": "tomato",
+        "quantity": 3,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies (for red chutney)",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "lemon",
+        "normalizedName": "lemon",
+        "quantity": 0.5,
+        "unit": "whole",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Make the dough: combine maida, a generous pinch of salt, and 1 teaspoon of oil in a bowl. Add water gradually and knead firmly for 5 minutes until the dough is smooth and stiff — momo dough should be slightly tighter than pasta dough. Cover with a damp cloth and rest for 20 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "order": 2,
+        "text": "Make the filling: toss the shredded cabbage with a pinch of salt in a bowl and let it sit for 5 minutes to release moisture. Squeeze the cabbage firmly between your hands to extract as much liquid as possible — watery filling will prevent the momos from sealing and make them burst during steaming. Combine the squeezed cabbage with chopped onion, spring onion, garlic, ginger, cumin, black pepper, oil, coriander leaves, and salt. Taste and adjust seasoning — the filling should be well seasoned since the wrapper is plain.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Make the red chutney: roast the tomatoes and dried red chillies directly over a gas flame or in a dry pan until the tomato skin blisters and blackens in spots and the chillies are slightly charred, about 5 minutes. Cool slightly, then blend with garlic, salt, lemon juice, and 2 tablespoons of water into a rough, smoky chutney. Taste — it should be fiery, tangy, and deeply flavoured. Set aside.",
+        "timerMinutes": 5,
+        "method": "roasting"
+      },
+      {
+        "order": 4,
+        "text": "Shape the momos: divide the dough into small balls of about 12 g each. Roll each ball on a lightly floured surface into a thin disc 8–9 cm in diameter, slightly thinner at the edges than the centre. Place 1 heaped teaspoon of filling in the centre of each disc. To seal, fold the edge up around the filling and pleat in small folds, pinching each pleat firmly to the next to create a sealed crescent or pouch shape. Press the sealed edge firmly so no gaps remain.",
+        "method": "no-cook"
+      },
+      {
+        "order": 5,
+        "text": "Steam the momos: lightly oil the steamer basket or line with parchment to prevent sticking. Arrange momos with at least 1 cm gap between them. Steam over vigorously boiling water for 10–12 minutes until the wrapper is translucent and firm, and the filling is cooked through. If you press a momo gently, the skin should feel set and not doughy at the fold. Serve immediately with the red chutney alongside.",
+        "timerMinutes": 12,
+        "method": "steaming"
+      }
+    ],
+    "cookware": [
+      "steamer",
+      "blender",
+      "kadai"
+    ],
+    "methods": [
+      "steaming",
+      "roasting",
+      "no-cook"
+    ],
+    "tags": [
+      "street-food",
+      "budget",
+      "comfort-food",
+      "party",
+      "kids-friendly"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 265,
+      "protein": 7,
+      "carbs": 44,
+      "fat": 6,
+      "fiber": 4,
+      "sugar": 5,
+      "sodium": 350,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "cabbage",
+        "substitute": "finely diced mushrooms with spinach make a richer, umami-forward filling"
+      },
+      {
+        "ingredient": "maida",
+        "substitute": "rice flour wrappers (rolled thinner) are used in some East Asian variants and are gluten-free, though harder to pleat"
+      },
+      {
+        "ingredient": "dried-red-chilli",
+        "substitute": "2 teaspoons of red chilli paste or sambal oelek stirred into the blended chutney if dried chillies are unavailable"
+      }
+    ],
+    "culturalNote": "Momos originated as a traditional Tibetan and Nepali food, brought to India by Tibetan refugees and Nepali immigrants and popularised in the hill stations, then spreading rapidly through Delhi, Mumbai, and other cities from the 1990s onwards. The dish is now a mainstream Indian street food with countless regional adaptations.",
+    "regionalVariation": "Darjeeling-style momos use a slightly thicker wrapper and are sometimes pan-fried after steaming for a crispy bottom. Delhi vendors offer both steamed and deep-fried (kothe-style) momos, and the red chutney in Delhi is spicier and smoother than the rougher Nepali original.",
+    "indianKitchenAdaptation": "If you do not have a steamer, arrange the momos on a greased plate set above a pot of boiling water using metal rings or an overturned bowl as a stand, then cover with a dome of foil. The steamer basket from an idli maker also works perfectly.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-delhi-bread-pakora",
+    "slug": "delhi-bread-pakora",
+    "title": "Delhi Bread Pakora",
+    "nativeTitle": "ब्रेड पकोड़ा",
+    "description": "Slices of bread sandwiched with a spiced potato filling, dipped in a thick besan batter, and deep-fried to a shattering golden crust. A Delhi breakfast and street snack that is unapologetically hearty — crispy outside, soft and warmly spiced inside.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": "delhi",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "snack",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "bread (white or whole wheat, 8 thick slices)",
+        "normalizedName": "bread",
+        "quantity": 8,
+        "unit": "slice",
+        "optional": false
+      },
+      {
+        "name": "potato (boiled, peeled, mashed smoothly)",
+        "normalizedName": "potato",
+        "quantity": 3,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "green chilli (finely chopped)",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves (chopped)",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "amchur (dry mango powder)",
+        "normalizedName": "amchur",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "besan (gram flour)",
+        "normalizedName": "besan",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "rice flour",
+        "normalizedName": "rice-flour",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "ajwain (carom seeds)",
+        "normalizedName": "ajwain",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil (for deep frying)",
+        "normalizedName": "oil",
+        "quantity": 500,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 150,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "Indian pickle (achar, for serving)",
+        "normalizedName": "pickle",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Make the filling: combine the boiled mashed potato with green chilli, coriander leaves, amchur, cumin seeds, red chilli powder, garam masala, and salt. Mix until well combined and taste — the filling should be boldly seasoned with a strong tangy note from the amchur. Divide into 4 equal portions."
+      },
+      {
+        "order": 2,
+        "text": "Assemble the sandwiches: press a portion of the spiced potato filling onto one bread slice, spreading to the edges. Place a second bread slice on top and press firmly so the sandwich holds together. Trim the crusts if you prefer a neater finish. Repeat with the remaining bread and filling to make 4 filled sandwiches."
+      },
+      {
+        "order": 3,
+        "text": "Make the besan batter: whisk together besan, rice flour, turmeric, ajwain, a pinch of red chilli powder, and salt in a bowl. Add water gradually, whisking to avoid lumps, until you have a smooth batter thick enough to coat the bread without dripping off immediately — similar in consistency to a pancake batter. Let the batter rest for 2 minutes."
+      },
+      {
+        "order": 4,
+        "text": "Pour oil into a deep kadai to a depth of 8–10 cm and heat over medium flame to about 170°C — a drop of batter should sizzle and rise to the surface within 2 seconds. Dip each bread sandwich into the batter, coating all four sides and both faces completely. Gently slide into the oil, supporting it as you lower it in. Fry for 3–4 minutes per side until the coating is a deep golden colour and completely set. The oil should bubble steadily throughout.",
+        "timerMinutes": 8,
+        "method": "deep-frying"
+      },
+      {
+        "order": 5,
+        "text": "Drain the bread pakoras on kitchen paper for a minute. Cut each diagonally into two triangles and serve immediately with mint chutney and a generous dollop of Indian pickle on the side. Bread pakoras are best eaten within 10 minutes while the batter coat is crisp and the potato filling inside is still steaming."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "deep-frying",
+      "no-cook"
+    ],
+    "tags": [
+      "street-food",
+      "budget",
+      "quick",
+      "under-30-minutes",
+      "fried-snack",
+      "comfort-food",
+      "bachelor-friendly"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 350,
+      "protein": 9,
+      "carbs": 48,
+      "fat": 14,
+      "fiber": 4,
+      "sugar": 3,
+      "sodium": 420,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "bread",
+        "substitute": "thick-cut sourdough or baguette slices make a sturdier pakora that holds shape better during frying"
+      },
+      {
+        "ingredient": "besan",
+        "substitute": "a 3:1 ratio of besan to cornflour gives an exceptionally thin, crisp crust"
+      },
+      {
+        "ingredient": "amchur",
+        "substitute": "a squeeze of lemon juice mixed directly into the potato filling"
+      }
+    ],
+    "culturalNote": "Bread pakora is a staple at Delhi street-side dhabas and breakfast carts, where the combination of readily available white bread and the ever-popular besan batter made it an economical and filling fast food option long before the term existed. It remains a popular morning snack sold near schools, railway stations, and offices.",
+    "regionalVariation": "In Punjab, bread pakora is sometimes stuffed with paneer instead of potato, making it richer and more protein-dense. In Mumbai, a thinner batter is used for a more delicate, lacy coating rather than the thick Delhi-style crust.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-south-indian-masala-vada",
+    "slug": "south-indian-masala-vada",
+    "title": "South Indian Masala Vada",
+    "nativeTitle": "ಮಸಾಲ ವಡೆ",
+    "description": "Crispy deep-fried lentil patties made from coarsely ground chana dal mixed with onion, curry leaves, and green chilli — crunchy on the outside with a dense, flavourful interior. A beloved South Indian street snack and tiffin item served with coconut chutney.",
+    "cuisine": "karnataka",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "snack",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chana dal (soaked for 2 hours, drained)",
+        "normalizedName": "chana-dal",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion (finely chopped)",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "green chilli (finely chopped)",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger (finely grated)",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "curry leaves (roughly torn)",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves (chopped)",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "fennel seeds",
+        "normalizedName": "fennel",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chilli (whole)",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "asafoetida (hing)",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "oil (for deep frying)",
+        "normalizedName": "oil",
+        "quantity": 500,
+        "unit": "ml",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Drain the soaked chana dal and reserve a small handful of whole soaked dal aside — this will be folded in at the end to create a textured vada. Place the remaining dal in a blender or wet grinder and grind coarsely using as little water as possible (add just a teaspoon at a time if the blades stall). The batter should be rough and thick, not smooth — you want visible dal fragments. Do not over-grind.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Transfer the ground dal to a large bowl. Add the reserved whole dal, chopped onion, green chilli, grated ginger, curry leaves, coriander leaves, fennel seeds, dried red chilli (crumbled), asafoetida, and salt. Mix thoroughly with your hands, pressing everything together. The mixture should hold its shape when squeezed into a ball — if it seems too wet, add a spoonful of rice flour to tighten it. Taste the raw mixture and adjust seasoning.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Shape the vadas: wet your hands and take a portion of the mixture (roughly 2 tablespoons). Press it firmly between your palms to form a flat round patty about 6 cm in diameter and 1.5 cm thick. Make a small hole in the centre with your thumb if you prefer the traditional ring shape, though flat discs work equally well. Repeat to form all the vadas.",
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Pour oil into a deep kadai to a depth of 8 cm and heat to 170°C over medium flame. Test by dropping a small piece of batter — it should rise slowly within 3 seconds. Slide in 4–5 vadas at a time. Fry over medium heat for 4–5 minutes per side, turning once, until the vadas are a deep amber colour all over and feel firm when pressed. Do not rush the frying over high heat — a slow fry at moderate temperature is what gives masala vada its characteristic crunchy crust and cooked-through interior.",
+        "timerMinutes": 10,
+        "method": "deep-frying"
+      },
+      {
+        "order": 5,
+        "text": "Drain on kitchen paper and serve hot immediately. Masala vada pairs perfectly with fresh coconut chutney and a cup of strong filter coffee. They lose their crunch within 20–30 minutes, so fry only as many as will be eaten fresh."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "blender"
+    ],
+    "methods": [
+      "deep-frying",
+      "no-cook"
+    ],
+    "tags": [
+      "street-food",
+      "budget",
+      "fried-snack",
+      "comfort-food",
+      "kids-friendly"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 290,
+      "protein": 11,
+      "carbs": 32,
+      "fat": 14,
+      "fiber": 6,
+      "sugar": 3,
+      "sodium": 270,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chana-dal",
+        "substitute": "an equal quantity of masoor dal (red lentil) soaked for 1 hour makes a slightly softer, lighter vada"
+      },
+      {
+        "ingredient": "fennel",
+        "substitute": "half a teaspoon of cumin seeds as a straightforward swap; the vada's character shifts slightly but remains delicious"
+      },
+      {
+        "ingredient": "curry-leaves",
+        "substitute": "a pinch of kalonji (nigella seeds) adds a different aromatic note; dried curry leaf powder also works at half the quantity"
+      }
+    ],
+    "culturalNote": "Masala vada is a cornerstone of South Indian tiffin culture, sold from early morning at railway station stalls, tea shops, and temple precincts across Karnataka and Tamil Nadu. It occupies the same cultural space as a pakora in the North — the definitive rainy-day, teatime snack — but relies entirely on lentils for structure rather than a batter coating.",
+    "regionalVariation": "In Tamil Nadu the dish is called paruppu vadai and uses less onion and more asafoetida. The Udupi-Mangalore version is occasionally made with a touch of coconut in the batter. Kerala's version, called kadala vada, substitutes whole black chickpeas for chana dal.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-street-veg-cutlet",
+    "slug": "street-veg-cutlet",
+    "title": "Street Veg Cutlet",
+    "nativeTitle": null,
+    "description": "A shallow-fried cake of mashed potato and mixed vegetables, coated in fine rava for an extra-crispy golden crust. Served with tomato ketchup and mint chutney, this no-fuss veg cutlet is a popular street snack and school tiffin item across Maharashtra and North India.",
+    "cuisine": "maharashtrian",
+    "country": "india",
+    "region": "maharashtra",
+    "language": "en",
+    "mealType": [
+      "snack",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "potato (large, boiled and mashed)",
+        "normalizedName": "potato",
+        "quantity": 4,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "carrot (boiled and grated)",
+        "normalizedName": "carrot",
+        "quantity": 1,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "green peas (boiled)",
+        "normalizedName": "peas",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion (finely chopped)",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "green chilli (finely chopped)",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger (grated)",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves (chopped)",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "amchur (dry mango powder)",
+        "normalizedName": "amchur",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cornflour (for binding)",
+        "normalizedName": "cornflour",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "rava (fine semolina, for coating)",
+        "normalizedName": "rava",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "oil (for shallow frying)",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Combine the mashed potato, grated boiled carrot, and boiled peas in a large bowl. Add chopped onion, green chilli, grated ginger, coriander leaves, red chilli powder, garam masala, amchur, and salt. Mix everything together thoroughly with your hands. Add cornflour as a binder and knead until the mixture holds together firmly when you press a handful — it should not be sticky. Taste and adjust salt and spice."
+      },
+      {
+        "order": 2,
+        "text": "Divide the mixture into 8 equal portions. Shape each portion into a flat oval or round patty about 1.5 cm thick and 7 cm across, pressing firmly so the edges are smooth and crack-free. If the mixture feels too soft to hold shape, refrigerate the shaped patties for 15 minutes before coating."
+      },
+      {
+        "order": 3,
+        "text": "Spread the fine rava on a flat plate. Press each shaped patty firmly into the rava on both sides and around the edges, coating evenly. Shake off any loose excess. The rava coating is what creates the crisp golden crust during frying.",
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Heat a tawa or heavy frying pan over medium flame. Drizzle 2 tablespoons of oil and spread it across the surface. When the oil is hot and shimmering, arrange the cutlets in a single layer without touching. Fry for 4–5 minutes, pressing down gently with a spatula, until the underside is a deep amber colour and the rava coating is crunchy. Flip carefully and add a drizzle more oil around each cutlet. Fry the second side for 3–4 minutes until equally golden. Avoid high heat — the cutlet needs time to heat through without the crust burning.",
+        "timerMinutes": 9,
+        "method": "shallow-frying"
+      },
+      {
+        "order": 5,
+        "text": "Transfer to a serving plate and serve hot with tomato ketchup, mint-coriander chutney, or any favourite dipping sauce. Veg cutlets are at their best straight from the pan when the rava shell is crackling. Leftovers can be re-crisped on a dry tawa for 2–3 minutes per side."
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "frying-pan"
+    ],
+    "methods": [
+      "shallow-frying",
+      "no-cook"
+    ],
+    "tags": [
+      "street-food",
+      "budget",
+      "kids-friendly",
+      "fried-snack",
+      "lunchbox",
+      "comfort-food"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 260,
+      "protein": 6,
+      "carbs": 40,
+      "fat": 9,
+      "fiber": 5,
+      "sugar": 3,
+      "sodium": 300,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "rava",
+        "substitute": "finely crushed cornflakes or rice flakes give an even crispier crust and make the cutlet gluten-free"
+      },
+      {
+        "ingredient": "carrot",
+        "substitute": "finely diced boiled beetroot adds colour and a mild sweetness to the mix"
+      },
+      {
+        "ingredient": "cornflour",
+        "substitute": "rice flour as a binder keeps the mixture gluten-free; add an extra tablespoon if the mixture feels loose"
+      }
+    ],
+    "culturalNote": "The veg cutlet entered Indian cooking via British colonial influence — a vegetarian adaptation of the European breaded cutlet — and was quickly embraced as a street snack and home recipe that stretched simple vegetables into something satisfying. Today it is standard at railway station canteens, school tiffins, and street-side carts across Maharashtra.",
+    "regionalVariation": "In South India, cutlets are sometimes made with a bind of poha (flattened rice) rather than cornflour. The Karnataka version often adds grated coconut to the mix. Delhi cutlets tend to be smaller, thicker, and more heavily spiced with garam masala.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-mumbai-tawa-pulao",
+    "slug": "mumbai-tawa-pulao",
+    "title": "Mumbai Tawa Pulao",
+    "nativeTitle": null,
+    "description": "Cooked rice tossed on a hot iron tawa with pav bhaji masala, buttery sautéed vegetables, and a burst of lemon — a beloved Mumbai street food created by the city's iconic pav bhaji vendors to use their signature spice blend in a rice format. Fast, bold, and intensely satisfying.",
+    "cuisine": "maharashtrian",
+    "country": "india",
+    "region": "maharashtra",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "cooked rice (cooled, ideally day-old)",
+        "normalizedName": "rice",
+        "quantity": 4,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "butter",
+        "normalizedName": "butter",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "onion (finely chopped)",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "tomato (finely chopped)",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "capsicum (finely diced)",
+        "normalizedName": "capsicum",
+        "quantity": 1,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "green peas (fresh or frozen)",
+        "normalizedName": "peas",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "green chilli (finely chopped)",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic (minced)",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger (grated)",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "pav bhaji masala (or curry powder blend)",
+        "normalizedName": "curry-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves (chopped, for garnish)",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "lemon",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Make sure the cooked rice is at room temperature or cold — hot freshly cooked rice will clump on the tawa. Break up any clumped grains gently with your hands before adding to the tawa. Day-old rice from the refrigerator is ideal because it fries rather than steams, giving each grain a slightly chewy, separate texture.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Heat a large tawa or wide flat frying pan over high flame. Add butter and let it melt and begin to foam. Add garlic and ginger and stir briskly for 30 seconds until fragrant. Add the green chilli and onion and cook, stirring frequently with a flat spatula, for 4–5 minutes until the onion softens and turns light golden at the edges.",
+        "timerMinutes": 5,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Add the chopped tomato to the tawa and press it down with the spatula to help it break down. Cook for 4–5 minutes, stirring and smashing, until the tomatoes have cooked to a thick paste and the mixture looks oily at the edges — this is the base masala. Add pav bhaji masala, red chilli powder, and turmeric and stir for one minute until the spices bloom in the fat.",
+        "timerMinutes": 5,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Add the diced capsicum and peas to the tawa and stir for 2 minutes so they heat through. Now add the cooked rice in a single addition and mix thoroughly with the spatula, pressing and folding until every grain is coated in the spiced tomato masala. Season with salt. Keep tossing on high heat for 3–4 minutes, letting the bottom of the rice get a slight sear before mixing again. This caramelisation is what gives tawa pulao its characteristic smoky-sweet flavour.",
+        "timerMinutes": 4,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Squeeze the lemon juice over the tawa pulao and toss once more. Taste and adjust salt and spice. Pile into bowls, garnish with coriander leaves, and add an extra curl of butter on top if you like. Serve hot immediately — tawa pulao is best the moment it comes off the heat, with a side of papad and cucumber raita."
+      }
+    ],
+    "cookware": [
+      "tawa"
+    ],
+    "methods": [
+      "tawa-cooking",
+      "no-cook"
+    ],
+    "tags": [
+      "street-food",
+      "budget",
+      "quick",
+      "under-30-minutes",
+      "comfort-food",
+      "one-pot-meal",
+      "leftover-friendly"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 340,
+      "protein": 7,
+      "carbs": 58,
+      "fat": 10,
+      "fiber": 4,
+      "sugar": 5,
+      "sodium": 380,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "butter",
+        "substitute": "oil (or coconut oil) for a dairy-free version; the flavour is less rich but still good"
+      },
+      {
+        "ingredient": "curry-powder",
+        "substitute": "a teaspoon each of cumin, coriander, and garam masala if pav bhaji masala is unavailable"
+      },
+      {
+        "ingredient": "peas",
+        "substitute": "diced boiled potato or chopped mushrooms add body and absorb the masala beautifully"
+      }
+    ],
+    "culturalNote": "Tawa pulao was born at the pav bhaji stalls of Mumbai's Shivaji Park and Juhu Beach, where vendors discovered that their leftover masala base from the day's pav bhaji combined perfectly with rice. What started as an improvisation became a beloved dish in its own right, now sold across the city as a standalone menu item.",
+    "regionalVariation": "In Pune, tawa pulao is often made spicer with extra chilli and without butter — closer to a masala fried rice. Some South Mumbai stalls add a small quantity of grated cheese on top as a finishing touch, reflecting the city's cosmopolitan influences.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-mumbai-egg-bhurji-pav",
+    "slug": "mumbai-egg-bhurji-pav",
+    "title": "Mumbai Egg Bhurji Pav",
+    "nativeTitle": null,
+    "description": "Soft scrambled eggs cooked with butter, diced onion, tomato, and a sharp hit of green chilli, served alongside pillowy pav rolls that are toasted on the buttered tawa. Mumbai's ultimate street-side egg dish — fast, punchy, and impossibly comforting.",
+    "cuisine": "maharashtrian",
+    "country": "india",
+    "region": "maharashtra",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "snack",
+      "dinner"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "egg",
+        "normalizedName": "egg",
+        "quantity": 8,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "pav rolls (soft white bread rolls)",
+        "normalizedName": "bread",
+        "quantity": 8,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "butter",
+        "normalizedName": "butter",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "onion (finely chopped)",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "tomato (finely chopped)",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "green chilli (finely chopped)",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic (minced)",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": true
+      },
+      {
+        "name": "ginger (finely grated)",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves (chopped)",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Crack all 8 eggs into a bowl, add a pinch of salt and turmeric, and whisk briefly until the yolks and whites are just combined — bhurji is made with lightly beaten eggs, not a uniformly smooth mixture. A few streaks of white are fine.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Heat 2 tablespoons of butter on a tawa or wide frying pan over medium-high heat. Add cumin seeds and let them splutter for 10 seconds. Add garlic (if using) and ginger and stir for 20 seconds. Add green chilli and onion and cook, stirring, for 3–4 minutes until the onion turns soft and golden at the edges.",
+        "timerMinutes": 4,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Add the chopped tomato and cook, pressing with the spatula, for 3 minutes until the tomato breaks down and the mixture thickens. Add red chilli powder, garam masala, and salt. Stir for 30 seconds until the spices are absorbed and the masala looks slightly glossy.",
+        "timerMinutes": 3,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Pour the beaten eggs over the masala in one go. Reduce heat to medium. Using a flat spatula or wooden spoon, fold and stir the eggs continuously in large, slow sweeps — the goal is large, soft, pillowy curds, not fine scrambled egg. The eggs are done when they are just set but still look slightly glossy and moist, about 2–3 minutes. Do not cook until dry. Remove from heat immediately — residual heat will continue to cook them. Fold in coriander leaves.",
+        "timerMinutes": 3,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 5,
+        "text": "While the bhurji rests for a minute, halve the pav rolls, spread a little butter on the cut sides, and toast them cut-side down on the same tawa over medium heat for 60–90 seconds until lightly golden and crisp. Serve the egg bhurji in a deep plate with the toasted pav alongside for scooping. Street vendors traditionally also crack a raw egg on the tawa as a finish topper — add a fried egg on top of the bhurji for the full experience."
+      }
+    ],
+    "cookware": [
+      "tawa"
+    ],
+    "methods": [
+      "tawa-cooking",
+      "no-cook"
+    ],
+    "tags": [
+      "street-food",
+      "budget",
+      "quick",
+      "under-30-minutes",
+      "comfort-food",
+      "bachelor-friendly"
+    ],
+    "allergens": [
+      "egg",
+      "gluten",
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 390,
+      "protein": 18,
+      "carbs": 38,
+      "fat": 18,
+      "fiber": 2,
+      "sugar": 5,
+      "sodium": 480,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "butter",
+        "substitute": "ghee gives a slightly richer, nuttier flavour in the same quantity; or use oil for a lighter bhurji"
+      },
+      {
+        "ingredient": "bread",
+        "substitute": "toasted whole wheat bread slices or a folded roti work if pav rolls are unavailable"
+      },
+      {
+        "ingredient": "garam-masala",
+        "substitute": "a pinch of curry powder or pav bhaji masala gives the bhurji a Mumbai street-stall character"
+      }
+    ],
+    "culturalNote": "Egg bhurji pav is the Mumbai street stall's answer to the British scrambled egg and toast, reimagined through the lens of the city's vibrant street cooking tradition. Sold from dhabas and food carts from early morning onwards, it remains one of the most affordable protein-rich street meals in the city.",
+    "regionalVariation": "In Delhi, a similar dish called anda bhurji is made with more onion, less tomato, and without pav — often served with roti or paratha. Kolkata vendors add a little vinegar and chilli sauce for a different flavour profile.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-delhi-chana-chaat",
+    "slug": "delhi-chana-chaat",
+    "title": "Delhi Chana Chaat",
+    "nativeTitle": "चना चाट",
+    "description": "Tender boiled chickpeas tossed with finely chopped onion, tomato, green chilli, and a double hit of tamarind chutney and chaat masala. A light, protein-rich Delhi street snack that is vegan, oil-free, and packed with bold flavour — ideal as a quick snack or a light meal.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": "delhi",
+    "language": "en",
+    "mealType": [
+      "snack"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 5,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chickpeas (cooked or canned, drained and rinsed)",
+        "normalizedName": "chickpea",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion (finely chopped)",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "tomato (deseeded, finely chopped)",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "green chilli (finely chopped)",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves (chopped)",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "mint leaves",
+        "normalizedName": "mint",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": true
+      },
+      {
+        "name": "tamarind (soaked, pulped; or use ready tamarind chutney)",
+        "normalizedName": "tamarind",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "jaggery (for tamarind chutney)",
+        "normalizedName": "jaggery",
+        "quantity": 15,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "chaat masala",
+        "normalizedName": "curry-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin (dry-roasted and ground)",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "amchur (dry mango powder)",
+        "normalizedName": "amchur",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "lemon",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "If making tamarind chutney from scratch, strain the soaked tamarind pulp through a sieve, combine with jaggery and a pinch of salt in a small saucepan, and simmer over low heat for 5 minutes until slightly thickened. Cool completely. Alternatively, use 3–4 tablespoons of ready-made tamarind-date chutney from a jar, which saves time and tastes excellent.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 2,
+        "text": "Combine the drained chickpeas in a large bowl with chopped onion, tomato, and green chilli. Add chaat masala, roasted cumin, amchur, red chilli powder, and salt. Toss everything together so the spices coat the chickpeas evenly. Taste at this stage — the chickpeas should be well seasoned and pleasantly tangy on their own before adding the chutneys.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Pour 3–4 tablespoons of tamarind chutney over the chickpea mixture and toss to combine. Squeeze the lemon juice over everything. Add the mint leaves if using and the coriander leaves. Toss once more. Taste and balance: add more chaat masala for spice, more lemon for tang, or a pinch of sugar if it seems sharp.",
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Serve at room temperature or lightly chilled in small bowls or paper cups. Delhi-style chana chaat is eaten immediately — the onion and tomato should still be fresh and crunchy against the soft chickpeas. If preparing ahead, mix everything except the onion and tomato up to 2 hours in advance and add those just before serving."
+      }
+    ],
+    "cookware": [
+      "saucepan"
+    ],
+    "methods": [
+      "simmering",
+      "no-cook"
+    ],
+    "tags": [
+      "street-food",
+      "budget",
+      "quick",
+      "under-30-minutes",
+      "healthy",
+      "salad"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 200,
+      "protein": 10,
+      "carbs": 32,
+      "fat": 3,
+      "fiber": 8,
+      "sugar": 8,
+      "sodium": 290,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chickpea",
+        "substitute": "boiled black chickpeas (kala chana) give a nuttier, earthier chaat with more bite"
+      },
+      {
+        "ingredient": "tamarind",
+        "substitute": "2 tablespoons of pomegranate molasses thinned with a little water provides a similar sweet-sour base"
+      },
+      {
+        "ingredient": "jaggery",
+        "substitute": "a teaspoon of dates paste (blend 3 pitted dates with 2 tablespoons water) adds natural sweetness with extra depth"
+      }
+    ],
+    "culturalNote": "Chana chaat is one of North India's oldest street foods, sold from stalls near temples and markets for generations. The chickpea's status as an affordable, filling protein source made it a staple snack for workers and pilgrims alike, and the dish has remained largely unchanged in character despite the passage of time.",
+    "regionalVariation": "In Varanasi the chaat gets a drizzle of ghee and a sprinkle of grated radish. Lucknow's version uses a thicker tamarind-jaggery chutney with more sweetness. Delhi street carts often add a small green chutney made from fried green chilli paste that is far spicier than the mint chutney used elsewhere.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-delhi-aloo-chaat",
+    "slug": "delhi-aloo-chaat",
+    "title": "Delhi Aloo Chaat",
+    "nativeTitle": "आलू चाट",
+    "description": "Cubes of potato fried until crispy-edged and golden, then tossed in a mix of tamarind chutney, chaat masala, and fresh herbs for a punchy, addictive snack. Delhi's aloo chaat is sharper and more intensely spiced than most other chaat varieties — fiery, sour, and deeply satisfying.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": "delhi",
+    "language": "en",
+    "mealType": [
+      "snack"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "potato (large, boiled until just tender, peeled and cubed 2 cm)",
+        "normalizedName": "potato",
+        "quantity": 4,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "oil (for shallow frying)",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "onion (finely chopped)",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "green chilli (finely chopped)",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tamarind (soaked and pulped)",
+        "normalizedName": "tamarind",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "jaggery",
+        "normalizedName": "jaggery",
+        "quantity": 15,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "mint leaves",
+        "normalizedName": "mint",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": true
+      },
+      {
+        "name": "chaat masala",
+        "normalizedName": "curry-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin (dry-roasted, ground)",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "amchur (dry mango powder)",
+        "normalizedName": "amchur",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "lemon",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Boil the potatoes in salted water until they are just tender — a skewer should meet slight resistance at the centre; they should not be falling apart. Drain and cool completely, then peel and cut into 2 cm cubes. Spreading them on a tray to dry for 5 minutes helps the surface fry crisper.",
+        "timerMinutes": 15,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Make the tamarind chutney: strain the pulped tamarind into a small pan, add jaggery and a pinch of salt. Simmer over low heat for 5 minutes, stirring until the jaggery melts and the chutney thickens to a glossy syrup. Cool completely.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a wide frying pan or tawa over high heat. When the oil is very hot and shimmering, add the potato cubes in a single layer without crowding — work in two batches if the pan is not large enough. Fry over high heat for 4–5 minutes, turning the cubes occasionally, until they develop crisp golden-brown edges on multiple sides. The cubes should hold their shape but have a satisfying crunch on the exterior. Transfer to a large mixing bowl.",
+        "timerMinutes": 5,
+        "method": "pan-frying"
+      },
+      {
+        "order": 4,
+        "text": "While the potato is still hot, immediately add chaat masala, amchur, red chilli powder, roasted cumin, and salt. Toss to coat the cubes evenly in the spice mix — the heat of the potato helps the spices adhere. Then add the tamarind chutney, chopped onion, green chilli, coriander leaves, and mint if using. Squeeze the lemon juice over everything and toss once more.",
+        "method": "no-cook"
+      },
+      {
+        "order": 5,
+        "text": "Serve immediately in small bowls or paper plates — Delhi aloo chaat is best when the potato is still warm and the crunchy edges contrast with the tangy chutney. If the potato is allowed to sit too long in the chutney, the crust softens. Adjust heat with extra red chilli powder or a fresh green chilli on the side."
+      }
+    ],
+    "cookware": [
+      "saucepan",
+      "frying-pan",
+      "tawa"
+    ],
+    "methods": [
+      "boiling",
+      "pan-frying",
+      "simmering",
+      "no-cook"
+    ],
+    "tags": [
+      "street-food",
+      "budget",
+      "quick",
+      "under-30-minutes",
+      "comfort-food"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 220,
+      "protein": 4,
+      "carbs": 38,
+      "fat": 7,
+      "fiber": 4,
+      "sugar": 8,
+      "sodium": 340,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "tamarind",
+        "substitute": "2 tablespoons of store-bought tamarind chutney thinned with a teaspoon of water"
+      },
+      {
+        "ingredient": "amchur",
+        "substitute": "extra lemon juice stirred in right before serving; add a touch more to compensate for the missing sourness"
+      },
+      {
+        "ingredient": "oil",
+        "substitute": "air fry the potato cubes at 200°C for 15 minutes for a low-oil version; toss with spices and chutney the same way"
+      }
+    ],
+    "culturalNote": "Aloo chaat is perhaps the most emblematic of Delhi's chaat culture, sold from stone mortar stalls (patthis) in the lanes of Chandni Chowk where vendor families have prepared the same recipe for several generations. The Delhi version is distinctly tangier and fiercer than the milder chaat of Mumbai or Lucknow.",
+    "regionalVariation": "In Mathura and Vrindavan, aloo chaat is made with a particular regional red chilli paste and served during temple festivals. Lucknow's aloo chaat uses a softer, less crispy potato that is mashed slightly at the edges to absorb the chutney better.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-street-masala-corn",
+    "slug": "street-masala-corn",
+    "title": "Street Masala Corn",
+    "nativeTitle": null,
+    "description": "Freshly boiled sweet corn kernels tossed in butter, doused with chaat masala, red chilli powder, and a generous squeeze of lemon — the simplest and most universally beloved Indian street snack. Sold in paper cups across hill stations, malls, and city pavements.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "corn (fresh cobs or frozen kernels)",
+        "normalizedName": "corn",
+        "quantity": 4,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "butter",
+        "normalizedName": "butter",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "chaat masala",
+        "normalizedName": "curry-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper (freshly ground)",
+        "normalizedName": "black-pepper",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "lemon",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "whole",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves (finely chopped, optional garnish)",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "green chilli (finely chopped, for extra heat)",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "If using fresh corn cobs, shuck them and place in a large saucepan of cold salted water. Bring to a boil and cook for 10–12 minutes until the kernels are tender and sweet but still have a slight snap when bitten. Drain and cool slightly. If using frozen corn kernels, boil in salted water for 3–4 minutes until heated through and tender. Drain well.",
+        "timerMinutes": 12,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "If using whole cobs, slice the kernels off the cob with a sharp knife by standing the cob upright and cutting downward close to the cob, rotating as you go. Collect the kernels in a wide bowl. Frozen kernels can go straight into the bowl.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Add the butter to the warm corn kernels and toss until the butter melts and coats every kernel. The heat from the corn should melt the butter without needing to go back on the flame. If using cold corn, warm it in a pan for one minute with the butter over medium heat before proceeding.",
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Sprinkle chaat masala, red chilli powder, black pepper, and salt over the buttered corn. Toss well to distribute the spices evenly. Squeeze the lemon juice generously over the corn — this is not a garnish but a key ingredient; the acidity brightens all the flavours. Toss one final time.",
+        "method": "no-cook"
+      },
+      {
+        "order": 5,
+        "text": "Serve in paper cups or bowls immediately while the corn is still warm. Scatter finely chopped coriander leaves on top for colour and freshness. Add a pinch of extra chaat masala and a final squeeze of lemon on top. Optional: add finely chopped green chilli for those who want extra heat. Masala corn is best eaten the moment it is assembled — it can sit for up to 10 minutes but the spices and butter settle as it cools."
+      }
+    ],
+    "cookware": [
+      "saucepan"
+    ],
+    "methods": [
+      "boiling",
+      "no-cook"
+    ],
+    "tags": [
+      "street-food",
+      "budget",
+      "quick",
+      "under-30-minutes",
+      "kids-friendly",
+      "summer"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 165,
+      "protein": 4,
+      "carbs": 28,
+      "fat": 6,
+      "fiber": 3,
+      "sugar": 7,
+      "sodium": 280,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "butter",
+        "substitute": "coconut oil for a dairy-free version; it adds a subtle sweetness that pairs surprisingly well with the spices"
+      },
+      {
+        "ingredient": "curry-powder",
+        "substitute": "a pinch each of cumin powder, coriander powder, and amchur if chaat masala is unavailable"
+      },
+      {
+        "ingredient": "corn",
+        "substitute": "canned corn drained well and warmed in a pan with butter for 2 minutes delivers nearly the same result with minimal effort"
+      }
+    ],
+    "culturalNote": "Masala corn became a phenomenon in Indian malls and multiplexes in the 1990s and 2000s, sold in little striped paper cups at food courts from Shimla to Chennai. Despite its simple construction, the combination of sweet corn, tangy lemon, butter, and the sharp punch of chaat masala proved irresistible across all regions and age groups.",
+    "regionalVariation": "In Shimla and other hill stations, the corn is often roasted directly over charcoal and rubbed with a halved lemon dipped in red chilli-salt, without any butter. South Indian versions use coconut oil and curry leaves instead of butter and chaat masala.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  }
+]

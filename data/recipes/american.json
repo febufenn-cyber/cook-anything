@@ -1,0 +1,2579 @@
+[
+  {
+    "id": "ca-american-fluffy-pancakes",
+    "slug": "american-fluffy-pancakes",
+    "title": "American Fluffy Pancakes",
+    "nativeTitle": null,
+    "description": "Thick, cloud-soft pancakes with a golden crust and pillowy interior, made from a simple batter of flour, egg and milk. Stack them high and serve with honey or fruit for a weekend breakfast that needs no special equipment.",
+    "cuisine": "american",
+    "country": "united-states",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "maida (all-purpose flour)",
+        "normalizedName": "maida",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "baking powder",
+        "normalizedName": "baking-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "baking soda",
+        "normalizedName": "baking-soda",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "eggs",
+        "normalizedName": "egg",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "whole milk",
+        "normalizedName": "milk",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "melted butter, plus extra for cooking",
+        "normalizedName": "butter",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "vanilla extract",
+        "normalizedName": "vanilla",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Whisk together the maida, baking powder, baking soda, sugar and salt in a large bowl. Make a well in the centre.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Beat the eggs in a separate bowl, then stir in the milk, 2 tbsp melted butter and vanilla. Pour this mixture into the well and stir gently until just combined — a few lumps are fine and overmixing will make the pancakes tough."
+      },
+      {
+        "order": 3,
+        "text": "Rest the batter for 5 minutes. Meanwhile heat a non-stick frying pan or flat tawa on medium-low flame. Brush the surface lightly with the remaining butter.",
+        "timerMinutes": 5,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Pour approximately a quarter-cup of batter onto the pan. Cook undisturbed until the edges look set and bubbles form and pop across the surface, about 2–3 minutes.",
+        "timerMinutes": 3,
+        "method": "pan-frying"
+      },
+      {
+        "order": 5,
+        "text": "Flip once with a flat spatula and cook for a further 1–2 minutes until the underside is golden and the pancake feels slightly springy when pressed at the centre — that is the doneness cue.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 6,
+        "text": "Transfer to a warm plate, re-butter the pan, and repeat with the remaining batter. Serve the stack immediately with honey, jam or fresh banana slices."
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "frying-pan"
+    ],
+    "methods": [
+      "pan-frying",
+      "tawa-cooking"
+    ],
+    "tags": [
+      "kids-friendly",
+      "sweet",
+      "comfort-food",
+      "bachelor-friendly",
+      "quick"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten",
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 290,
+      "protein": 9,
+      "carbs": 43,
+      "fat": 9,
+      "fiber": 1,
+      "sugar": 9,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "milk",
+        "substitute": "buttermilk (chaas/mor) for tangier, fluffier pancakes; add an extra pinch of baking soda",
+        "notes": "buttermilk reacts with soda for more lift"
+      },
+      {
+        "ingredient": "butter",
+        "substitute": "any neutral cooking oil such as sunflower or groundnut oil"
+      },
+      {
+        "ingredient": "egg",
+        "substitute": "2 tbsp thick curd (dahi) per egg for an eggless version; texture will be slightly denser"
+      }
+    ],
+    "culturalNote": "Weekend pancake stacks are a cornerstone of American diner culture, often eaten slowly with coffee on lazy Sunday mornings.",
+    "regionalVariation": "Southern US versions almost always use tangy buttermilk; New York-style pancakes are thinner and crêpe-adjacent.",
+    "indianKitchenAdaptation": "Cook on a thick iron dosa tawa over medium-low flame — the heavy base gives even heat without hot spots. Amul butter works perfectly. Maple syrup can be swapped for honey (available at any kirana) or even condensed milk (Milkmaid) for a desi finish.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-american-stovetop-mac-and-cheese",
+    "slug": "american-stovetop-mac-and-cheese",
+    "title": "American Stovetop Mac and Cheese",
+    "nativeTitle": null,
+    "description": "Creamy, pull-apart macaroni cloaked in a quick cheddar-style sauce made from a butter-flour roux and milk — ready faster than any boxed version and deeply satisfying. The sauce clinches around every tube of pasta.",
+    "cuisine": "american",
+    "country": "united-states",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "macaroni (or any short pasta)",
+        "normalizedName": "pasta",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "butter",
+        "normalizedName": "butter",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "maida (all-purpose flour)",
+        "normalizedName": "maida",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "whole milk",
+        "normalizedName": "milk",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "processed cheese, grated or chopped",
+        "normalizedName": "cheese",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false,
+        "notes": "cheddar or any good-melting cheese"
+      },
+      {
+        "name": "black pepper, freshly ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds, dry-toasted and ground (optional, for depth)",
+        "normalizedName": "mustard-seeds",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Bring a large pot of well-salted water to a rolling boil. Cook the pasta according to packet instructions until al dente — it should have a slight bite since it will cook further in the sauce.",
+        "timerMinutes": 10,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Drain the pasta, reserving half a cup of pasta water. Set aside. Do not rinse the pasta."
+      },
+      {
+        "order": 3,
+        "text": "Melt the butter in the same pot on medium flame. Add the maida and stir constantly for 1–2 minutes until the raw flour smell disappears and the roux turns a pale straw colour.",
+        "timerMinutes": 2,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Pour in the milk in a slow stream, whisking to prevent lumps. Bring to a gentle simmer and cook, stirring, until the sauce coats the back of a spoon, about 3–4 minutes.",
+        "timerMinutes": 4,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Remove from the flame and stir in the grated cheese until completely melted. Add the black pepper, ground mustard (if using) and salt. The sauce should be thick, glossy and smooth."
+      },
+      {
+        "order": 6,
+        "text": "Return the drained pasta to the pot and fold through the cheese sauce. If it feels too thick, add a splash of the reserved pasta water. Heat on low for 1 minute until everything is piping hot, then serve immediately."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "saucepan"
+    ],
+    "methods": [
+      "boiling",
+      "sauteing",
+      "simmering"
+    ],
+    "tags": [
+      "comfort-food",
+      "kids-friendly",
+      "bachelor-friendly",
+      "budget",
+      "quick"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 18,
+      "carbs": 60,
+      "fat": 18,
+      "fiber": 2,
+      "sugar": 6,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "cheese",
+        "substitute": "Amul processed cheese cubes (widely available in India), or a mix of mozzarella and cream cheese",
+        "notes": "any good-melting cheese works"
+      },
+      {
+        "ingredient": "milk",
+        "substitute": "evaporated milk for a richer, creamier sauce"
+      },
+      {
+        "ingredient": "pasta",
+        "substitute": "any short pasta shape — penne, fusilli or farfalle are all fine"
+      },
+      {
+        "ingredient": "butter",
+        "substitute": "any neutral cooking oil, though butter gives the roux its characteristic flavour"
+      }
+    ],
+    "culturalNote": "Mac and cheese has been an American comfort staple since the 18th century and is now the go-to weeknight dish for families across the country.",
+    "regionalVariation": "Southern US versions add a crunchy breadcrumb topping and go into the oven; some households stir in jalapeños or hot sauce for heat.",
+    "indianKitchenAdaptation": "Use a kadai instead of a saucepan — the wide base makes whisking the roux easier. Amul cheese cubes (full box, chopped fine) melt well and give a mild, pleasantly salty flavour. If you want a sharper bite, mix in a tbsp of thick curd (dahi) at the end.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-american-chicken-burger",
+    "slug": "american-chicken-burger",
+    "title": "American Chicken Burger",
+    "nativeTitle": null,
+    "description": "Juicy pan-seared chicken patty seasoned with garlic and spices, nestled in a toasted bun with shredded cabbage and ketchup. No deep-frying required — a hot kadai does the job beautifully.",
+    "cuisine": "american",
+    "country": "united-states",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "boneless chicken, minced or finely chopped",
+        "normalizedName": "chicken",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "burger buns",
+        "normalizedName": "bread",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, grated",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "onion, finely grated",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "black pepper, ground",
+        "normalizedName": "black-pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "maida (for dusting)",
+        "normalizedName": "maida",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "egg, beaten (for binding and coating)",
+        "normalizedName": "egg",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cabbage, finely shredded",
+        "normalizedName": "cabbage",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "tomato, sliced into rounds",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato ketchup",
+        "normalizedName": "tomato-ketchup",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "oil for pan-frying",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Combine the minced chicken, grated garlic, grated onion, black pepper, chilli powder and salt in a bowl. Mix well for 2 minutes — the mince should start to feel slightly sticky and cohesive.",
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Divide the mixture into four equal portions and shape each into a flat patty roughly the diameter of your bun. Press a slight dimple in the centre of each patty — this stops them from puffing up during cooking."
+      },
+      {
+        "order": 3,
+        "text": "Dust each patty lightly with maida on both sides, then dip in the beaten egg and let the excess drip off."
+      },
+      {
+        "order": 4,
+        "text": "Heat oil in a frying pan or kadai on medium-high flame. Place the patties in a single layer and cook without moving for 4–5 minutes until a golden crust forms on the bottom.",
+        "timerMinutes": 5,
+        "method": "pan-frying"
+      },
+      {
+        "order": 5,
+        "text": "Flip and cook the second side for 4–5 minutes. The patty is done when the juices run clear and the centre feels firm when pressed. Lift onto a plate lined with paper.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 6,
+        "text": "Toast the cut sides of the buns in the same pan with a little residual oil until golden, about 1 minute. Assemble with a smear of ketchup on the bottom bun, then cabbage, a tomato slice and the hot patty. Cap and serve immediately.",
+        "timerMinutes": 1,
+        "method": "tawa-cooking"
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "frying-pan"
+    ],
+    "methods": [
+      "pan-frying",
+      "marinating",
+      "tawa-cooking"
+    ],
+    "tags": [
+      "comfort-food",
+      "party",
+      "kids-friendly",
+      "street-food"
+    ],
+    "allergens": [
+      "gluten",
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein": 34,
+      "carbs": 32,
+      "fat": 16,
+      "fiber": 2,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "minced mutton (keema) for a richer patty; increase cook time by 2 minutes"
+      },
+      {
+        "ingredient": "bread",
+        "substitute": "any locally available burger bun or even thick slices of square bread, pressed lightly"
+      },
+      {
+        "ingredient": "egg",
+        "substitute": "1 tbsp cornflour mixed with 2 tbsp water as a binder and coating"
+      },
+      {
+        "ingredient": "tomato-ketchup",
+        "substitute": "green chutney (coriander-mint) for a desi version; works brilliantly"
+      }
+    ],
+    "culturalNote": "The American hamburger evolved from German immigrant food in the 19th century and became the defining fast-food item of the 20th century.",
+    "regionalVariation": "West Coast versions often add avocado; the American South sometimes uses pimento cheese as a spread.",
+    "indianKitchenAdaptation": "A kadai or thick-based frying pan works perfectly — maintain medium-high heat so the outside crisps without steaming. Toast buns directly on the tawa for 30 seconds per side. Amul cheese slice can be laid on the patty in the final minute and covered to melt. Sell-by ketchup (Kissan or Maggi) is the ideal condiment.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-american-veggie-burger-aloo-tikki",
+    "slug": "american-veggie-burger-aloo-tikki",
+    "title": "American-Style Veggie Burger (Aloo Tikki Patty)",
+    "nativeTitle": null,
+    "description": "A plant-based burger built around an aloo tikki-inspired spiced potato patty — crisp on the outside and tender within. Pile it on a toasted bun with shredded cabbage and ketchup for a fully vegan crowd-pleaser that Indian kitchens can make with pantry staples.",
+    "cuisine": "american",
+    "country": "united-states",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "potatoes, boiled and mashed",
+        "normalizedName": "potato",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "besan (gram flour)",
+        "normalizedName": "besan",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "acts as binder"
+      },
+      {
+        "name": "green chilli, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "oil for shallow-frying",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "burger buns or pav",
+        "normalizedName": "bread",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cabbage, finely shredded",
+        "normalizedName": "cabbage",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "tomato ketchup",
+        "normalizedName": "tomato-ketchup",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Boil the potatoes until completely tender. Drain, peel and mash thoroughly while still warm — lumps will crack the patty during frying.",
+        "timerMinutes": 15,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Mix the mashed potato with the besan, green chilli, cumin seeds, coriander leaves, chopped onion and salt. Knead together for 1–2 minutes until the mixture is uniform and holds its shape when pressed."
+      },
+      {
+        "order": 3,
+        "text": "Divide into four equal portions. Shape each into a round patty about 1.5 cm thick. Refrigerate for 10 minutes if the mixture feels too soft.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 4,
+        "text": "Heat 2 tbsp oil in a flat tawa or frying pan on medium flame. Place two patties and press them gently. Cook without moving for 4–5 minutes until the bottom crust is deep golden and releases cleanly from the pan.",
+        "timerMinutes": 5,
+        "method": "shallow-frying"
+      },
+      {
+        "order": 5,
+        "text": "Flip carefully and drizzle another 1 tbsp oil around the edges. Cook for another 4 minutes until the second side is equally golden. The patty should feel firm and not squash when pressed. Repeat with remaining patties.",
+        "timerMinutes": 4,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 6,
+        "text": "Toast the cut side of each bun in the residual oil for 30 seconds until golden. Layer: bottom bun, ketchup, a small pile of shredded cabbage, the hot tikki patty and the top bun. Serve immediately."
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "frying-pan"
+    ],
+    "methods": [
+      "boiling",
+      "shallow-frying",
+      "tawa-cooking"
+    ],
+    "tags": [
+      "street-food",
+      "comfort-food",
+      "kids-friendly",
+      "budget",
+      "party"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 340,
+      "protein": 8,
+      "carbs": 55,
+      "fat": 10,
+      "fiber": 4,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "besan",
+        "substitute": "2 tbsp rice flour or 1 tbsp cornflour for a lighter, crispier coat",
+        "notes": "rice flour is gluten-free"
+      },
+      {
+        "ingredient": "potato",
+        "substitute": "equal parts boiled sweet potato and potato for a sweeter, more colourful patty"
+      },
+      {
+        "ingredient": "bread",
+        "substitute": "local pav (dinner roll) or wrap it in a phulka for a street-food presentation"
+      },
+      {
+        "ingredient": "tomato-ketchup",
+        "substitute": "green mint-coriander chutney for a fully desi flavour profile"
+      }
+    ],
+    "culturalNote": "Veggie burgers became popular in the United States from the 1980s onward as plant-based eating grew; this version draws deliberately on the Indian aloo tikki tradition.",
+    "regionalVariation": "American diners increasingly top veggie patties with avocado or chipotle mayo; this recipe keeps it pantry-accessible.",
+    "indianKitchenAdaptation": "This recipe is already Indian at heart — the aloo tikki patty is a staple of street stalls from Delhi to Chennai. Use a flat iron tawa and press down lightly to ensure even contact. Serve in pav instead of a burger bun to lean into the Indian format. Add a smear of green chutney for an irresistible Mumbai-style touch.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-american-buttermilk-fried-chicken",
+    "slug": "american-buttermilk-fried-chicken",
+    "title": "American Buttermilk-Style Fried Chicken (Kadai Method)",
+    "nativeTitle": null,
+    "description": "Crispy, juicy fried chicken marinated in tangy buttermilk (chaas) and coated in a seasoned flour crust. Deep-frying in a kadai delivers the same crackling crunch as a Southern cast-iron skillet — no special equipment needed.",
+    "cuisine": "american",
+    "country": "united-states",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken pieces (drumsticks and thighs with bone)",
+        "normalizedName": "chicken",
+        "quantity": 800,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "buttermilk (chaas / thick mor)",
+        "normalizedName": "buttermilk",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false,
+        "notes": "marinate 1–2 hours or overnight for best results; even 15 min works"
+      },
+      {
+        "name": "maida (all-purpose flour)",
+        "normalizedName": "maida",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, ground",
+        "normalizedName": "black-pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garlic, grated or paste",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "oil for deep-frying",
+        "normalizedName": "oil",
+        "quantity": 500,
+        "unit": "ml",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Score the chicken pieces two or three times down to the bone so the marinade penetrates. Add the garlic, half the chilli powder, half the pepper, salt and buttermilk. Mix well to coat every surface. Marinate for at least 15 minutes at room temperature, or up to overnight in the refrigerator.",
+        "timerMinutes": 15,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Combine the maida with the remaining chilli powder, pepper and a generous pinch of salt in a wide flat dish. Mix thoroughly."
+      },
+      {
+        "order": 3,
+        "text": "Lift each chicken piece from the buttermilk marinade, letting the excess drip off but keeping the coating wet. Dredge it firmly in the seasoned maida, pressing the flour into every crevice. Set on a plate and rest 5 minutes so the coating adheres.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 4,
+        "text": "Heat oil in a kadai to 170°C — a pinch of flour should sizzle steadily without burning immediately. Slide in 2–3 pieces at a time, keeping the oil temperature steady by not crowding the pan.",
+        "method": "deep-frying"
+      },
+      {
+        "order": 5,
+        "text": "Fry bone-in thighs and drumsticks for 12–14 minutes, turning once halfway, until the crust is deep golden and the juices run clear when a skewer is pushed to the bone. The internal temperature should reach 75°C.",
+        "timerMinutes": 14,
+        "method": "deep-frying"
+      },
+      {
+        "order": 6,
+        "text": "Drain on a wire rack or paper-lined plate — do not cover or the crust will steam and soften. Rest for 5 minutes before serving. Serve hot with coleslaw and ketchup.",
+        "timerMinutes": 5
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "marinating",
+      "deep-frying"
+    ],
+    "tags": [
+      "comfort-food",
+      "party",
+      "fried-snack",
+      "grill-bbq"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 36,
+      "carbs": 28,
+      "fat": 24,
+      "fiber": 1,
+      "sugar": 1,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "buttermilk",
+        "substitute": "1 cup plain curd (dahi) thinned with 2 tbsp water — works identically as a tenderising marinade"
+      },
+      {
+        "ingredient": "maida",
+        "substitute": "50:50 maida and cornflour for an even crispier crust; cornflour reduces gluten for a more shattering texture"
+      },
+      {
+        "ingredient": "chicken",
+        "substitute": "cauliflower florets for a vegetarian version; reduce frying time to 6–8 minutes"
+      }
+    ],
+    "culturalNote": "Buttermilk fried chicken is a centrepiece of Southern American cooking, with roots in African and Scottish culinary traditions that merged in the antebellum South.",
+    "regionalVariation": "Nashville hot chicken adds a cayenne-laced oil baste post-fry for fiery heat; Korean-American versions are double-fried for extra crunch.",
+    "indianKitchenAdaptation": "Chaas or plain thin mor (buttermilk) is the perfect substitute for American buttermilk — same acidity, same tenderising effect. Use a deep kadai with enough oil to submerge the pieces by at least half. Maintain medium-high heat throughout. Garam masala (half a tsp) can be added to the flour coating for a desi twist.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-american-creamy-coleslaw",
+    "slug": "american-creamy-coleslaw",
+    "title": "American Creamy Coleslaw",
+    "nativeTitle": null,
+    "description": "A crisp, lightly tangy coleslaw made with shredded cabbage and carrot bound in a simple vinegar-oil dressing. It chills into something refreshing and bright — the perfect counterpoint to fried chicken or a burger.",
+    "cuisine": "american",
+    "country": "united-states",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "side"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 5,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "green cabbage, finely shredded",
+        "normalizedName": "cabbage",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "carrot, grated",
+        "normalizedName": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, very finely sliced",
+        "normalizedName": "onion",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "vinegar (white or apple cider)",
+        "normalizedName": "vinegar",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "oil (neutral, such as sunflower)",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Shred the cabbage as finely as possible using a sharp knife or a mandoline. Grate the carrot on the large holes of a box grater. If using onion, slice paper-thin.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Toss the shredded vegetables with half a teaspoon of salt in a large bowl. Leave for 10 minutes — the salt draws out excess moisture so the dressing clings rather than pools at the bottom.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Squeeze the vegetables firmly with your hands to press out as much water as possible, then drain. This step is what keeps the coleslaw from turning watery."
+      },
+      {
+        "order": 4,
+        "text": "Whisk together the vinegar, sugar, oil and black pepper in a small bowl until the sugar dissolves. Taste and adjust — it should be sharp, lightly sweet and well-seasoned.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 5,
+        "text": "Pour the dressing over the squeezed vegetables and toss thoroughly to coat. Taste and correct for salt and vinegar. Chill for at least 30 minutes before serving — the texture improves significantly as it sits."
+      }
+    ],
+    "cookware": [
+      "frying-pan"
+    ],
+    "methods": [
+      "no-cook"
+    ],
+    "tags": [
+      "salad",
+      "healthy",
+      "low-oil",
+      "budget",
+      "quick",
+      "summer"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 80,
+      "protein": 1,
+      "carbs": 10,
+      "fat": 5,
+      "fiber": 3,
+      "sugar": 6,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "vinegar",
+        "substitute": "lemon juice (nimbu) in equal quantity — gives a fresher, more citrus-forward dressing"
+      },
+      {
+        "ingredient": "cabbage",
+        "substitute": "half green cabbage and half red (purple) cabbage for a more colourful version"
+      },
+      {
+        "ingredient": "sugar",
+        "substitute": "honey or jaggery (gur) dissolved in the vinegar for a slightly earthier sweetness"
+      }
+    ],
+    "culturalNote": "Coleslaw is a staple side dish at American summer barbecues and diners, typically served alongside fried chicken, burgers and pulled pork.",
+    "regionalVariation": "American Southern versions use a heavier mayo-based dressing; vinegar-based coleslaws are more common in the Carolinas and the Midwest.",
+    "indianKitchenAdaptation": "No special equipment needed — a sharp knife or grater and a bowl are all you need. White vinegar (sirka) or apple cider vinegar is available at any supermarket. For a desi twist, add a pinch of chaat masala and a squeeze of nimbu. This works beautifully alongside any fried snack, not just American dishes.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-american-bbq-glazed-chicken",
+    "slug": "american-bbq-glazed-chicken",
+    "title": "American BBQ-Style Glazed Chicken (Tawa Method)",
+    "nativeTitle": null,
+    "description": "Chicken pieces lacquered in a smoky-sweet BBQ glaze of ketchup, honey, vinegar and spices, cooked on a tawa or in an oven until the glaze caramelises and clings. A crowd-pleasing party dish that needs no grill.",
+    "cuisine": "american",
+    "country": "united-states",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken pieces (legs and thighs with bone)",
+        "normalizedName": "chicken",
+        "quantity": 800,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "tomato ketchup",
+        "normalizedName": "tomato-ketchup",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "honey",
+        "normalizedName": "honey",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "vinegar (white or apple cider)",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "garlic, grated",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Score the chicken pieces with a sharp knife, cutting 2–3 deep gashes down to the bone. This allows the marinade to penetrate and speeds up cooking.",
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Combine the ketchup, honey, soy sauce, vinegar, garlic, ginger, chilli powder, black pepper and salt in a bowl. Stir until smooth. Reserve two tablespoons of this glaze for basting; use the rest to coat the chicken thoroughly. Marinate for at least 15 minutes.",
+        "timerMinutes": 15,
+        "method": "marinating"
+      },
+      {
+        "order": 3,
+        "text": "For the tawa method: heat oil in a heavy tawa on medium flame. Place the chicken pieces in a single layer, cover with a lid (or upturned plate) and cook for 10 minutes until the bottom side colours.",
+        "timerMinutes": 10,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Flip the chicken, brush generously with the reserved glaze and cover again. Cook for another 10 minutes on medium-low until the second side is coloured and the juices run clear.",
+        "timerMinutes": 10,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Uncover, brush with any remaining glaze and raise the heat to medium-high for 3–4 minutes, turning once, until the sauce caramelises and the surface looks sticky and lacquered. Watch closely — honey burns quickly.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 6,
+        "text": "Rest the chicken for 5 minutes before serving. The juices will redistribute and the glaze will set into a glossy coat. Serve with coleslaw or rice.",
+        "timerMinutes": 5
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "oven"
+    ],
+    "methods": [
+      "marinating",
+      "tawa-cooking",
+      "grilling"
+    ],
+    "tags": [
+      "grill-bbq",
+      "party",
+      "comfort-food"
+    ],
+    "allergens": [
+      "soy"
+    ],
+    "nutrition": {
+      "calories": 390,
+      "protein": 34,
+      "carbs": 18,
+      "fat": 19,
+      "fiber": 0,
+      "sugar": 14,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "honey",
+        "substitute": "jaggery (gur) dissolved in a little warm water, or brown sugar"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "1 tsp of a dark colour substitute such as Maggi Masala-e-Magic, or simply skip and add a bit more ketchup"
+      },
+      {
+        "ingredient": "chicken",
+        "substitute": "paneer cubes or cauliflower for a vegetarian BBQ option; reduce cook time to 15 minutes"
+      }
+    ],
+    "culturalNote": "BBQ sauce glazed chicken is a summer cookout staple across the United States, with every region having its own take on the sauce ratio.",
+    "regionalVariation": "Carolina-style favours vinegar-heavy sauce; Kansas City versions are thick and sweet; Texas often keeps it simple with just dry spice rubs.",
+    "indianKitchenAdaptation": "A thick iron tawa or the bottom of a pressure cooker (without the lid locked) works perfectly as a substitute for a grill. The covered cooking step is key — it steams the chicken through before the final caramelise. For an oven option: 200°C for 30 minutes, brushing glaze on in the final 10 minutes. Soy sauce (Ching's brand) is widely available at Indian supermarkets.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-american-chocolate-chip-cookies",
+    "slug": "american-chocolate-chip-cookies",
+    "title": "American Chocolate Chip Cookies",
+    "nativeTitle": null,
+    "description": "Golden-edged, chewy-centred cookies studded with pools of melted chocolate — the definitive American bake. Brown the butter first for a nutty caramel depth that lifts a simple recipe into something memorable.",
+    "cuisine": "american",
+    "country": "united-states",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack",
+      "dessert"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "maida (all-purpose flour)",
+        "normalizedName": "maida",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "butter",
+        "normalizedName": "butter",
+        "quantity": 115,
+        "unit": "g",
+        "optional": false,
+        "notes": "about half a standard 200g block"
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "use brown sugar if available for chewier cookies; white works fine"
+      },
+      {
+        "name": "egg",
+        "normalizedName": "egg",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "vanilla extract",
+        "normalizedName": "vanilla",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "baking soda",
+        "normalizedName": "baking-soda",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dark chocolate chips or chopped dark chocolate",
+        "normalizedName": "cocoa",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Preheat the oven to 175°C. Line a baking tray with parchment paper or grease it lightly with butter.",
+        "method": "baking"
+      },
+      {
+        "order": 2,
+        "text": "Melt the butter in a saucepan on medium flame. Keep cooking, swirling occasionally, until it turns a golden-amber colour and smells nutty — about 4 minutes. Pour into a mixing bowl and allow to cool for 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Whisk the sugar into the browned butter until combined. Beat in the egg and vanilla and whisk for about 1 minute until the mixture thickens slightly and turns pale."
+      },
+      {
+        "order": 4,
+        "text": "Stir in the maida, baking soda and salt until a dough forms — do not overmix. Fold in the chocolate chips or chopped chocolate."
+      },
+      {
+        "order": 5,
+        "text": "Scoop tablespoon-sized balls of dough onto the prepared baking tray, spacing them at least 5 cm apart as they spread. Gently press each ball to flatten slightly.",
+        "method": "baking"
+      },
+      {
+        "order": 6,
+        "text": "Bake at 175°C for 10–12 minutes until the edges are golden and set but the centre looks underdone and shiny — this is correct. The cookies will firm up as they cool.",
+        "timerMinutes": 12,
+        "method": "baking"
+      },
+      {
+        "order": 7,
+        "text": "Cool on the tray for 5 minutes before lifting — they are fragile when hot. Transfer to a wire rack. Eat warm for the gooey chocolate experience or store in an airtight tin.",
+        "timerMinutes": 5
+      }
+    ],
+    "cookware": [
+      "baking-tray",
+      "oven",
+      "saucepan"
+    ],
+    "methods": [
+      "baking",
+      "sauteing"
+    ],
+    "tags": [
+      "sweet",
+      "kids-friendly",
+      "comfort-food",
+      "party",
+      "christmas"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten",
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 320,
+      "protein": 4,
+      "carbs": 38,
+      "fat": 17,
+      "fiber": 2,
+      "sugar": 20,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "butter",
+        "substitute": "same weight in coconut oil for a dairy-free version; skip the browning step"
+      },
+      {
+        "ingredient": "cocoa",
+        "substitute": "Morde dark compound chocolate (widely available in India), chopped — works perfectly"
+      },
+      {
+        "ingredient": "egg",
+        "substitute": "3 tbsp thick curd (dahi) for an eggless version; cookies will be softer and may spread less"
+      },
+      {
+        "ingredient": "maida",
+        "substitute": "whole wheat flour (atta) for a nuttier biscuit; add 1 extra tbsp of butter"
+      }
+    ],
+    "culturalNote": "The chocolate chip cookie was invented in the 1930s in Massachusetts and quickly became the most beloved home-baked treat in America.",
+    "regionalVariation": "New York bakeries are famous for enormous, gooey cookies; thin-and-crispy versions are popular in the American South.",
+    "indianKitchenAdaptation": "Any standard OTG oven works well at 175°C. For households without an oven, use a thick kadai: place a layer of salt in the base, put a stand inside, rest the baking tray on the stand, cover and bake on medium-low flame for 15–18 minutes. Morde dark chocolate is the go-to chip substitute available at any baking supply store in India.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-american-fudgy-brownies",
+    "slug": "american-fudgy-brownies",
+    "title": "American Fudgy Brownies",
+    "nativeTitle": null,
+    "description": "Dense, intensely chocolatey brownies with a papery crinkled top and a fudgy pull-apart interior. The secret is melted butter and enough chocolate to coat every bite — no mixer, no fuss, just one bowl.",
+    "cuisine": "american",
+    "country": "united-states",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "dessert",
+      "snack"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 40,
+    "servings": 9,
+    "ingredients": [
+      {
+        "name": "dark chocolate or cocoa powder",
+        "normalizedName": "cocoa",
+        "quantity": 80,
+        "unit": "g",
+        "optional": false,
+        "notes": "if using cocoa powder, use 50 g and add 2 extra tbsp butter"
+      },
+      {
+        "name": "butter, melted",
+        "normalizedName": "butter",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "eggs",
+        "normalizedName": "egg",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "vanilla extract",
+        "normalizedName": "vanilla",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "maida (all-purpose flour)",
+        "normalizedName": "maida",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "baking powder",
+        "normalizedName": "baking-powder",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Preheat the oven to 170°C. Grease a 20×20 cm square baking tin and line it with parchment paper, letting the paper overhang the sides — this makes lifting out the brownie slab easy.",
+        "method": "baking"
+      },
+      {
+        "order": 2,
+        "text": "Melt the chocolate and butter together in a heavy-bottomed saucepan on the lowest flame, stirring constantly. Remove from heat as soon as the mixture is smooth — do not overheat. Allow to cool for 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Whisk the sugar into the chocolate-butter mixture. Add the eggs one at a time, whisking vigorously between each addition. Add the vanilla. Keep whisking for about 2 minutes until the batter looks glossy and slightly thickened — this beating builds the shiny crinkled top."
+      },
+      {
+        "order": 4,
+        "text": "Sift in the maida, salt and baking powder. Fold gently with a spatula until just combined — do not overmix. The batter should be thick and fall in ribbons."
+      },
+      {
+        "order": 5,
+        "text": "Pour the batter into the prepared tin and spread evenly. Bake at 170°C for 22–25 minutes. The top should have a papery, crinkled crust and a skewer inserted 3 cm from the edge should come out with moist crumbs — not raw batter and not clean.",
+        "timerMinutes": 25,
+        "method": "baking"
+      },
+      {
+        "order": 6,
+        "text": "Cool completely in the tin before lifting out and cutting — at least 30 minutes. A warm brownie will be too soft to slice cleanly. Cut into 9 squares using a sharp knife, wiping the blade between cuts.",
+        "timerMinutes": 30
+      }
+    ],
+    "cookware": [
+      "baking-tray",
+      "oven",
+      "saucepan"
+    ],
+    "methods": [
+      "baking"
+    ],
+    "tags": [
+      "sweet",
+      "kids-friendly",
+      "comfort-food",
+      "party"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten",
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 260,
+      "protein": 3,
+      "carbs": 33,
+      "fat": 13,
+      "fiber": 1,
+      "sugar": 25,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "cocoa",
+        "substitute": "50 g cocoa powder (Cadbury Bournvita or Hershey's cocoa powder) plus 2 extra tbsp butter for an equally fudgy result"
+      },
+      {
+        "ingredient": "butter",
+        "substitute": "same weight of refined coconut oil for dairy-free brownies; the flavour is slightly different but still excellent"
+      },
+      {
+        "ingredient": "egg",
+        "substitute": "3 tbsp thick curd (dahi) per egg; the crinkled top will be less pronounced but flavour is good"
+      }
+    ],
+    "culturalNote": "Brownies were invented in the United States in the late 19th century and remain one of the most universally loved baked goods in American homes.",
+    "regionalVariation": "Some American bakers add walnuts (akhrot) or pecans to the batter; others swirl in peanut butter for a contrasting flavour.",
+    "indianKitchenAdaptation": "For kitchens without an oven, use the kadai-baking method: pour 2 cups of salt into a large kadai, place a steel stand inside, rest the greased tin on it, cover tightly and bake on medium-low flame for 30–35 minutes. Use Morde dark compound chocolate or Cadbury Bournvita cocoa powder available at any baking shop. The tin size can be approximated with a standard 8-inch round cake pan.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-american-grilled-cheese-sandwich",
+    "slug": "american-grilled-cheese-sandwich",
+    "title": "American Grilled Cheese Sandwich",
+    "nativeTitle": null,
+    "description": "Golden, crisp-edged bread sealed around melted cheese that stretches on every pull — the simplest and most comforting sandwich in the American repertoire. Two slices of bread, a generous knob of butter and good cheese are all you need.",
+    "cuisine": "american",
+    "country": "united-states",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "snack",
+      "lunch"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 10,
+    "totalTimeMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "sandwich bread, thick slices",
+        "normalizedName": "bread",
+        "quantity": 4,
+        "unit": "slice",
+        "optional": false
+      },
+      {
+        "name": "butter, softened",
+        "normalizedName": "butter",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cheese (processed or mozzarella), sliced or grated",
+        "normalizedName": "cheese",
+        "quantity": 80,
+        "unit": "g",
+        "optional": false,
+        "notes": "2 generous slices per sandwich"
+      },
+      {
+        "name": "black pepper, freshly ground",
+        "normalizedName": "black-pepper",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Spread a thin, even layer of softened butter on one side of each bread slice. Be sure to reach all the way to the edges — this is what creates an evenly golden crust.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Heat a frying pan or tawa on medium-low flame. Place two slices butter-side down in the pan. You should hear a gentle sizzle — if the butter browns immediately, the heat is too high."
+      },
+      {
+        "order": 3,
+        "text": "Lay the cheese evenly over the bread in the pan. Add a grind of black pepper if you like. Top with the remaining two slices, butter-side up.",
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Cook on medium-low for 3–4 minutes until the bottom is deep golden and releases cleanly from the pan. Press down gently once or twice with a spatula to encourage the cheese to start melting.",
+        "timerMinutes": 4,
+        "method": "pan-frying"
+      },
+      {
+        "order": 5,
+        "text": "Flip carefully and cook the second side for 2–3 minutes until equally golden and the cheese is completely melted — you should see it beginning to flow out at the edges. A gooey pull when you lift a corner is the sign it is ready.",
+        "timerMinutes": 3,
+        "method": "pan-frying"
+      },
+      {
+        "order": 6,
+        "text": "Cut diagonally and serve immediately — grilled cheese waits for no one and loses its magic within a few minutes of leaving the pan."
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "frying-pan"
+    ],
+    "methods": [
+      "pan-frying",
+      "tawa-cooking"
+    ],
+    "tags": [
+      "comfort-food",
+      "kids-friendly",
+      "bachelor-friendly",
+      "quick",
+      "under-30-minutes",
+      "budget"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein": 12,
+      "carbs": 30,
+      "fat": 22,
+      "fiber": 1,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "cheese",
+        "substitute": "Amul processed cheese slices are ideal — they melt fast and evenly; mozzarella is a good fresh alternative"
+      },
+      {
+        "ingredient": "butter",
+        "substitute": "mayonnaise spread on the outside of the bread gives an even crisper, browner crust"
+      },
+      {
+        "ingredient": "bread",
+        "substitute": "any thick-sliced bread including brown bread, multigrain or even toasted paratha for a fusion version"
+      }
+    ],
+    "culturalNote": "The grilled cheese sandwich became an American comfort staple during the Depression era when processed cheese and sliced bread were among the most affordable foods available.",
+    "regionalVariation": "Many American families add tomato, jalapeños or even pickles inside; the Pacific Northwest favours sourdough with sharp cheddar.",
+    "indianKitchenAdaptation": "A flat tawa or any non-stick frying pan works perfectly. Amul butter is ideal for flavour. Amul or Britannia processed cheese slices are the closest match to American cheese and melt beautifully. Add a thin slice of green chilli or a dash of chilli sauce inside for a desi kick without changing the technique.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-american-scrambled-egg-breakfast-burrito",
+    "slug": "american-scrambled-egg-breakfast-burrito",
+    "title": "American Scrambled Egg Breakfast Burrito",
+    "nativeTitle": null,
+    "description": "Soft scrambled eggs, sautéed onion and capsicum and a handful of cheese rolled into a warm tortilla for a portable, filling breakfast. Everything cooks in one pan in under 25 minutes.",
+    "cuisine": "american",
+    "country": "united-states",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "lunch"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "eggs",
+        "normalizedName": "egg",
+        "quantity": 6,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "flour tortillas (large)",
+        "normalizedName": "tortilla",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, finely diced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "capsicum (bell pepper), diced",
+        "normalizedName": "capsicum",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, deseeded and diced",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, finely sliced",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "cheese, grated or sliced (optional)",
+        "normalizedName": "cheese",
+        "quantity": 60,
+        "unit": "g",
+        "optional": true
+      },
+      {
+        "name": "butter",
+        "normalizedName": "butter",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "tomato ketchup or hot sauce, for serving",
+        "normalizedName": "tomato-ketchup",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Crack the eggs into a bowl, add black pepper and a pinch of salt, and beat well. Set aside.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Heat the oil in a frying pan on medium flame. Add the diced onion and cook for 2–3 minutes until softened. Add the capsicum and green chilli and stir-fry for 2 minutes until slightly softened but still with some crunch.",
+        "timerMinutes": 5,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add the diced tomato, stir and cook for 1 minute. Push the vegetable mixture to one side of the pan."
+      },
+      {
+        "order": 4,
+        "text": "Add the butter to the empty side of the pan. Once melted, pour in the beaten eggs. Cook on medium-low, gently folding the eggs from the edges toward the centre every few seconds. Remove from heat while they are still slightly glossy and just set — about 2–3 minutes. Residual heat will finish them.",
+        "timerMinutes": 3,
+        "method": "pan-frying"
+      },
+      {
+        "order": 5,
+        "text": "Fold the scrambled egg into the vegetables gently. Scatter cheese over the top if using and allow it to melt from the residual heat."
+      },
+      {
+        "order": 6,
+        "text": "Warm each tortilla directly on the tawa for 20–30 seconds per side until pliable and lightly toasted. Spoon a quarter of the egg filling into the centre of each tortilla, add a drizzle of ketchup, fold up the bottom, tuck in the sides and roll firmly. Serve immediately.",
+        "timerMinutes": 2,
+        "method": "tawa-cooking"
+      }
+    ],
+    "cookware": [
+      "frying-pan",
+      "tawa"
+    ],
+    "methods": [
+      "sauteing",
+      "pan-frying",
+      "tawa-cooking"
+    ],
+    "tags": [
+      "quick",
+      "under-30-minutes",
+      "wrap",
+      "comfort-food",
+      "bachelor-friendly",
+      "lunchbox"
+    ],
+    "allergens": [
+      "egg",
+      "gluten",
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 350,
+      "protein": 16,
+      "carbs": 32,
+      "fat": 16,
+      "fiber": 2,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "tortilla",
+        "substitute": "large wheat chapati or phulka — fold and eat the same way for a fully Indian-pantry version"
+      },
+      {
+        "ingredient": "cheese",
+        "substitute": "skip the cheese to keep it dairy-free; the scrambled egg filling is satisfying on its own"
+      },
+      {
+        "ingredient": "capsicum",
+        "substitute": "any coloured shimla mirch (bell pepper) available; green is cheapest and works perfectly"
+      },
+      {
+        "ingredient": "butter",
+        "substitute": "any cooking oil for dairy-free scrambled eggs; ghee adds a desi flavour"
+      }
+    ],
+    "culturalNote": "Breakfast burritos originated in New Mexico and became a drive-through staple across the American West, prized for being handheld, filling and fast.",
+    "regionalVariation": "Tex-Mex versions add beans (rajma) and spicy salsa; Californian styles often include avocado and pico de gallo.",
+    "indianKitchenAdaptation": "Flour tortillas are now sold in most Indian supermarkets and Reliance Fresh outlets. If unavailable, use a large soft wheat chapati — it behaves identically. The egg-vegetable filling is essentially a masala scrambled egg, familiar to any Indian cook. Capsicum (shimla mirch) and tomato are pantry staples. A swipe of green chutney inside the wrap instead of ketchup makes it distinctly desi.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-american-caesar-style-salad",
+    "slug": "american-caesar-style-salad",
+    "title": "American Caesar-Style Salad (Eggless)",
+    "nativeTitle": null,
+    "description": "A vibrant, eggless spin on the classic Caesar — crisp spinach leaves tossed in a creamy tahini-lemon dressing with garlic and topped with golden homemade croutons and a snow of grated cheese. Satisfying as a light lunch on its own.",
+    "cuisine": "american",
+    "country": "united-states",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "side"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 10,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "baby spinach or shredded cabbage",
+        "normalizedName": "spinach",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "bread, cubed (for croutons)",
+        "normalizedName": "bread",
+        "quantity": 3,
+        "unit": "slice",
+        "optional": false
+      },
+      {
+        "name": "olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "garlic, grated",
+        "normalizedName": "garlic",
+        "quantity": 2,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "tahini (sesame paste)",
+        "normalizedName": "tahini",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "forms the creamy base of the eggless dressing"
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "parmesan or any hard cheese, finely grated",
+        "normalizedName": "cheese",
+        "quantity": 40,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "black pepper, ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "water (to thin the dressing)",
+        "normalizedName": "water",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Cut the bread into 1.5 cm cubes. Heat 1 tbsp olive oil in a frying pan on medium flame, add the bread cubes and toss to coat. Toast, turning occasionally, for 5–6 minutes until all sides are golden and crisp. Transfer to a plate and season lightly with salt.",
+        "timerMinutes": 6,
+        "method": "pan-frying"
+      },
+      {
+        "order": 2,
+        "text": "While the croutons cool, make the dressing: whisk together the tahini, lemon juice, grated garlic, remaining 2 tbsp olive oil and black pepper. Add water a little at a time until the dressing is pourable — it should coat a spoon thickly.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Taste the dressing and adjust: more lemon for sharpness, more water for lightness, a pinch of salt if needed. The garlic-tahini balance should be forward but not raw-tasting."
+      },
+      {
+        "order": 4,
+        "text": "Wash and thoroughly dry the spinach leaves — wet leaves dilute the dressing. Place in a large bowl."
+      },
+      {
+        "order": 5,
+        "text": "Pour two-thirds of the dressing over the spinach and toss gently to coat every leaf without bruising them. Add more dressing to taste."
+      },
+      {
+        "order": 6,
+        "text": "Pile the dressed leaves onto plates or a large serving platter. Scatter the warm croutons over the top and finish with a generous snowfall of grated cheese and a final grind of black pepper. Serve immediately before the croutons lose their crunch."
+      }
+    ],
+    "cookware": [
+      "frying-pan"
+    ],
+    "methods": [
+      "pan-frying",
+      "no-cook"
+    ],
+    "tags": [
+      "salad",
+      "healthy",
+      "quick",
+      "low-oil"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 210,
+      "protein": 7,
+      "carbs": 16,
+      "fat": 14,
+      "fiber": 3,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "tahini",
+        "substitute": "2 tbsp thick curd (dahi) plus 1 tsp gingelly oil for a creamier, dairy-based dressing"
+      },
+      {
+        "ingredient": "spinach",
+        "substitute": "finely shredded cabbage (patta gobhi) or a mix of spinach and cabbage for crunch"
+      },
+      {
+        "ingredient": "olive-oil",
+        "substitute": "any neutral cooking oil; olive oil can be expensive in India — groundnut oil with a drop of gingelly oil gives a pleasant nuttiness"
+      },
+      {
+        "ingredient": "cheese",
+        "substitute": "a handful of roasted peanuts (verkadalai) adds a similar salty, crunchy finish if cheese is unavailable"
+      }
+    ],
+    "culturalNote": "The Caesar salad was invented in Tijuana, Mexico by an Italian-American restaurateur in the 1920s, but it quickly became an American restaurant staple.",
+    "regionalVariation": "Restaurant versions often add anchovies to the dressing for umami depth; this eggless, fish-free version keeps the essence while remaining fully vegetarian.",
+    "indianKitchenAdaptation": "Tahini (til paste) is available at well-stocked supermarkets or can be blended from roasted white sesame seeds (ellu/til) and a little gingelly oil. Baby spinach (palak) is now widely sold in Indian cities. If unavailable, finely shredded muttaikose (cabbage) with a tighter chop makes a sturdy and equally delicious base. Bread croutons can be replaced with leftover tawa-toasted bread cut into cubes.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-american-buffalo-cauliflower-wings",
+    "slug": "american-buffalo-cauliflower-wings",
+    "title": "American Buffalo Cauliflower Wings (Vegan)",
+    "nativeTitle": null,
+    "description": "Cauliflower florets coated in a spiced batter, baked or air-fried until crisp, then tossed in a fiery buffalo sauce of hot sauce, garlic and vinegar. Bold, saucy and entirely plant-based — the crowd-pleasing snack that converts cauliflower sceptics.",
+    "cuisine": "american",
+    "country": "united-states",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack",
+      "side"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "cauliflower, cut into large florets",
+        "normalizedName": "cauliflower",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "maida (all-purpose flour)",
+        "normalizedName": "maida",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "water (to make batter)",
+        "normalizedName": "water",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garlic, grated",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "chilli sauce or hot sauce (like sriracha)",
+        "normalizedName": "green-chilli-sauce",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "vinegar (white or apple cider)",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Preheat the oven to 220°C (or air-fryer to 200°C). Line a baking tray with parchment or brush with oil.",
+        "method": "baking"
+      },
+      {
+        "order": 2,
+        "text": "Whisk together the maida, water, half the red chilli powder, half the grated garlic, black pepper and salt until a smooth, lump-free batter forms — it should coat the back of a spoon without dripping off immediately.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Working one at a time, dip each cauliflower floret into the batter, letting the excess drip off, and place on the prepared tray. Spread them out so no florets touch — crowding causes steaming rather than crisping."
+      },
+      {
+        "order": 4,
+        "text": "Bake at 220°C for 20–22 minutes, turning once halfway through, until the batter is crisp, golden and set. For air-fryer: cook at 200°C for 15 minutes, shaking the basket halfway through.",
+        "timerMinutes": 22,
+        "method": "baking"
+      },
+      {
+        "order": 5,
+        "text": "While the cauliflower bakes, make the buffalo sauce: warm the oil in a small saucepan on low flame. Add the remaining garlic and cook for 30 seconds until fragrant. Stir in the chilli sauce, vinegar and a pinch of salt. Remove from heat immediately.",
+        "timerMinutes": 2,
+        "method": "sauteing"
+      },
+      {
+        "order": 6,
+        "text": "Transfer the baked florets to a large bowl. Pour the buffalo sauce over them and toss quickly to coat every piece. Return to the tray and bake for a further 3 minutes to set the glaze, or serve immediately. They are best eaten within 10 minutes while the coating is still crisp.",
+        "timerMinutes": 3,
+        "method": "baking"
+      }
+    ],
+    "cookware": [
+      "baking-tray",
+      "oven",
+      "air-fryer",
+      "saucepan"
+    ],
+    "methods": [
+      "baking",
+      "air-frying",
+      "sauteing"
+    ],
+    "tags": [
+      "street-food",
+      "party",
+      "fried-snack",
+      "comfort-food",
+      "healthy",
+      "budget"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 170,
+      "protein": 5,
+      "carbs": 28,
+      "fat": 6,
+      "fiber": 4,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "green-chilli-sauce",
+        "substitute": "any Indian red chilli sauce such as Maggi Hot & Sweet or a mix of Kissan ketchup and extra red chilli powder"
+      },
+      {
+        "ingredient": "maida",
+        "substitute": "besan (gram flour) for a gluten-free batter that is slightly denser and nuttier — a great variation"
+      },
+      {
+        "ingredient": "cauliflower",
+        "substitute": "broccoli florets, mushrooms or paneer cubes for a different texture; adjust baking time accordingly"
+      }
+    ],
+    "culturalNote": "Buffalo sauce originated in Buffalo, New York in the 1960s, traditionally served with fried chicken wings. The cauliflower version became popular in the 2010s as plant-based eating grew.",
+    "regionalVariation": "Some versions double-bake the cauliflower for maximum crunch; others use a cornflour batter for a lighter, crispier result.",
+    "indianKitchenAdaptation": "If you have an OTG oven, it works perfectly at 220°C. For households without an oven, deep-fry the battered florets in a kadai at 175°C for 4–5 minutes until golden, then toss in the buffalo sauce. Ching's Red Chilli Sauce or Maggi Hot & Sweet makes a convenient substitute for American hot sauce and is available everywhere. The batter concept is identical to pakoda batter.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-american-sloppy-joe-keema-pav",
+    "slug": "american-sloppy-joe-keema-pav",
+    "title": "American Sloppy Joe-Style Keema Pav",
+    "nativeTitle": null,
+    "description": "Spiced minced meat simmered in a sweet-tangy tomato-ketchup sauce and piled onto soft pav buns — the American sloppy joe reimagined with keema and Indian pantry spices. Gloriously messy and deeply satisfying.",
+    "cuisine": "american",
+    "country": "united-states",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "minced meat (keema) — mutton or chicken",
+        "normalizedName": "keema",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "pav or burger buns",
+        "normalizedName": "bread",
+        "quantity": 8,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, finely diced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "capsicum (bell pepper), finely diced",
+        "normalizedName": "capsicum",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "tomato, finely chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato ketchup",
+        "normalizedName": "tomato-ketchup",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat oil in a kadai on medium flame. Add the cumin seeds and let them sizzle for 15 seconds. Add the diced onion and cook, stirring, for 4–5 minutes until soft and lightly coloured.",
+        "timerMinutes": 5,
+        "method": "tempering"
+      },
+      {
+        "order": 2,
+        "text": "Add the garlic and fry for 1 minute until fragrant. Add the capsicum and stir for 2 minutes until slightly softened.",
+        "timerMinutes": 3,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add the keema and break it up immediately with a spoon so there are no large clumps. Cook on medium-high, stirring and pressing, for 5–6 minutes until the raw colour disappears completely and the meat starts to brown.",
+        "timerMinutes": 6,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Add the chopped tomatoes, red chilli powder and salt. Stir well, lower the flame to medium and cook for 5 minutes until the tomatoes collapse and the oil begins to separate at the edges.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Stir in the ketchup and vinegar. Add a quarter cup of water and simmer for 5 minutes, stirring, until the sauce is thick, glossy and clings to the meat rather than pooling at the bottom. Taste and adjust salt and vinegar.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Toast the pav halves in the same kadai with a smear of oil or butter until golden on the cut side. Spoon the keema filling generously onto the bottom halves — it should overflow slightly. Scatter coriander leaves over the top and cap with the upper half. Serve with extra ketchup."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "tempering",
+      "sauteing",
+      "simmering",
+      "one-pot"
+    ],
+    "tags": [
+      "comfort-food",
+      "street-food",
+      "budget",
+      "bachelor-friendly",
+      "party"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 440,
+      "protein": 30,
+      "carbs": 38,
+      "fat": 18,
+      "fiber": 3,
+      "sugar": 8,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "keema",
+        "substitute": "finely mashed rajma (kidney beans) or soya granules (soaked) for a vegan version; same technique, same cook time"
+      },
+      {
+        "ingredient": "bread",
+        "substitute": "local pav (the Indian dinner roll) is ideal — use two per serving for the authentic Indian-American fusion experience"
+      },
+      {
+        "ingredient": "tomato-ketchup",
+        "substitute": "equal parts tomato paste and a teaspoon of jaggery for a less sweet, more robust sauce"
+      },
+      {
+        "ingredient": "vinegar",
+        "substitute": "a squeeze of lemon (nimbu) — adds the same tartness at the end"
+      }
+    ],
+    "culturalNote": "The sloppy joe became a Depression-era American staple — affordable, filling and forgiving. This version merges it with the Indian tradition of keema and pav, two foods that belong together in any format.",
+    "regionalVariation": "American diner versions sometimes include Worcestershire sauce and brown sugar for a deeper, darker flavour; Tex-Mex variations add beans.",
+    "indianKitchenAdaptation": "This recipe is designed for a kadai from the first step — the wide base helps the keema brown rather than steam. Local pav (available at any bakery) is superior to burger buns for absorbing the saucy filling. Kissan or Maggi ketchup is perfect. Minced chicken (murgh keema) is available at most meat shops and cooks faster than mutton; ask the butcher to mince it fine.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  }
+]

@@ -1,0 +1,1462 @@
+[
+  {
+    "id": "ca-hyderabadi-chicken-dum-biryani",
+    "slug": "hyderabadi-chicken-dum-biryani",
+    "title": "Hyderabadi Chicken Dum Biryani",
+    "nativeTitle": null,
+    "description": "The iconic kachchi-style biryani of Hyderabad — raw marinated chicken layered beneath par-cooked basmati and sealed for a slow dum. The steam does all the work, fusing saffron fragrance into every grain.",
+    "cuisine": "hyderabadi",
+    "country": "india",
+    "region": "telangana-region",
+    "language": "en",
+    "mealType": ["lunch", "dinner"],
+    "dietType": ["non_vegetarian", "high_protein"],
+    "difficulty": "hard",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 50,
+    "totalTimeMinutes": 80,
+    "servings": 6,
+    "ingredients": [
+      { "name": "chicken, curry cut with bone", "normalizedName": "chicken", "quantity": 750, "unit": "g", "optional": false },
+      { "name": "basmati rice, soaked 30 minutes", "normalizedName": "basmati-rice", "quantity": 2, "unit": "cup", "optional": false },
+      { "name": "onion, thinly sliced", "normalizedName": "onion", "quantity": 3, "unit": "piece", "optional": false },
+      { "name": "thick curd, whisked", "normalizedName": "curd", "quantity": 0.5, "unit": "cup", "optional": false },
+      { "name": "ginger-garlic paste", "normalizedName": "ginger-garlic-paste", "quantity": 2, "unit": "tbsp", "optional": false },
+      { "name": "mint leaves", "normalizedName": "mint", "quantity": 1, "unit": "handful", "optional": false },
+      { "name": "coriander leaves", "normalizedName": "coriander-leaves", "quantity": 1, "unit": "handful", "optional": false },
+      { "name": "red chilli powder (half Kashmiri, half hot)", "normalizedName": "red-chilli-powder", "quantity": 2, "unit": "tsp", "optional": false },
+      { "name": "turmeric powder", "normalizedName": "turmeric", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "garam masala", "normalizedName": "garam-masala", "quantity": 1.5, "unit": "tsp", "optional": false },
+      { "name": "saffron strands", "normalizedName": "saffron", "quantity": 1, "unit": "pinch", "optional": false },
+      { "name": "warm milk (for saffron)", "normalizedName": "milk", "quantity": 3, "unit": "tbsp", "optional": false },
+      { "name": "ghee", "normalizedName": "ghee", "quantity": 3, "unit": "tbsp", "optional": false },
+      { "name": "oil", "normalizedName": "oil", "quantity": 4, "unit": "tbsp", "optional": false },
+      { "name": "lemon juice", "normalizedName": "lemon", "quantity": 1, "unit": "tbsp", "optional": false },
+      { "name": "bay leaves", "normalizedName": "bay-leaf", "quantity": 2, "unit": "leaf", "optional": false },
+      { "name": "salt", "normalizedName": "salt", "quantity": null, "unit": "to_taste", "optional": false }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Steep the saffron in warm milk and set aside. In a large bowl, combine chicken with curd, ginger-garlic paste, red chilli powder, turmeric, half the garam masala, lemon juice, and salt. Mix well so every piece is coated. Marinate at room temperature while you prepare the rest.",
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Heat the oil in a kadai until shimmering. Fry the sliced onions in two batches on medium-high, stirring often, until they turn deep caramel-brown and crisp, about 12–14 minutes total. Drain on paper. Crumble half into the chicken marinade and stir; reserve the rest for garnish.",
+        "timerMinutes": 14,
+        "method": "deep-frying"
+      },
+      {
+        "order": 3,
+        "text": "Bring a large pot of heavily salted water to a rolling boil. Add the bay leaves. Drain the soaked basmati and cook for exactly 5–6 minutes until the grains are 70% done — each should still have a chalky white core when you bite. Drain immediately through a colander and spread loosely.",
+        "timerMinutes": 6,
+        "method": "boiling"
+      },
+      {
+        "order": 4,
+        "text": "Spread the marinated chicken in an even layer in the base of a wide, heavy-bottomed pot. Scatter half the mint and coriander over the chicken. Layer half the parboiled rice on top, sprinkle the remaining garam masala and some fried onions. Add the rest of the rice and herbs.",
+        "method": "dum"
+      },
+      {
+        "order": 5,
+        "text": "Drizzle the saffron milk and ghee evenly over the top rice layer. Seal the pot with aluminium foil pressed tightly around the rim, then press the lid on firmly. Place the pot over a tawa on the lowest flame possible and cook on dum for 25 minutes until fragrant steam builds inside.",
+        "timerMinutes": 25
+      },
+      {
+        "order": 6,
+        "text": "Remove from heat and rest sealed for 10 minutes — do not lift the lid early. Open from one side and use a flat spoon to plate in deep scoops that carry both the saffron rice from the top and the juicy chicken layer from the base. Finish with reserved fried onions.",
+        "timerMinutes": 10
+      }
+    ],
+    "cookware": ["heavy-bottomed-pot", "tawa", "kadai"],
+    "methods": ["marinating", "deep-frying", "boiling", "dum"],
+    "tags": ["festival", "eid", "party", "comfort-food"],
+    "allergens": ["dairy"],
+    "nutrition": { "calories": 520, "protein": 34, "carbs": 52, "fat": 18, "fiber": 2, "sugar": 3, "sodium": null, "isEstimate": true },
+    "substitutions": [
+      { "ingredient": "basmati-rice", "substitute": "any long-grain aged rice; soak longer if the grains are short" },
+      { "ingredient": "saffron", "substitute": "a few drops of yellow food colour dissolved in milk — colour without flavour", "notes": "saffron is worth it here for the aroma" },
+      { "ingredient": "ghee", "substitute": "melted butter; adds richness without the nutty dairy depth of ghee" },
+      { "ingredient": "curd", "substitute": "2 tbsp lemon juice plus 2 tbsp oil whisked together for a dairy-free marinade" }
+    ],
+    "culturalNote": "Hyderabadi dum biryani is cooked kachchi style — raw marinated meat and par-cooked rice seal together in one pot, a technique the Nizams' royal kitchens refined over centuries.",
+    "regionalVariation": "The Hyderabadi Muslim-household version uses kachchi (raw chicken) dum; the pakki variation, more common at dhabas, pre-cooks the chicken in gravy before layering.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-hyderabadi-bagara-baingan",
+    "slug": "hyderabadi-bagara-baingan",
+    "title": "Hyderabadi Bagara Baingan",
+    "nativeTitle": null,
+    "description": "Whole small brinjals stuffed with a roasted peanut-sesame-coconut paste, then simmered in a tamarind-spiked gravy. This classic Hyderabadi side is the essential accompaniment to dum biryani.",
+    "cuisine": "hyderabadi",
+    "country": "india",
+    "region": "telangana-region",
+    "language": "en",
+    "mealType": ["lunch", "dinner", "side"],
+    "dietType": ["vegan"],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      { "name": "small round brinjals (baingan)", "normalizedName": "brinjal", "quantity": 500, "unit": "g", "optional": false },
+      { "name": "raw peanuts", "normalizedName": "peanut", "quantity": 3, "unit": "tbsp", "optional": false },
+      { "name": "sesame seeds (white til)", "normalizedName": "sesame-seeds", "quantity": 2, "unit": "tbsp", "optional": false },
+      { "name": "grated fresh coconut", "normalizedName": "coconut", "quantity": 2, "unit": "tbsp", "optional": false },
+      { "name": "tamarind pulp (soaked and strained)", "normalizedName": "tamarind", "quantity": 2, "unit": "tbsp", "optional": false },
+      { "name": "onion, roughly chopped", "normalizedName": "onion", "quantity": 1, "unit": "piece", "optional": false },
+      { "name": "ginger-garlic paste", "normalizedName": "ginger-garlic-paste", "quantity": 1, "unit": "tbsp", "optional": false },
+      { "name": "red chilli powder", "normalizedName": "red-chilli-powder", "quantity": 1.5, "unit": "tsp", "optional": false },
+      { "name": "coriander powder", "normalizedName": "coriander-seeds", "quantity": 1, "unit": "tsp", "optional": false },
+      { "name": "turmeric powder", "normalizedName": "turmeric", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "cumin seeds", "normalizedName": "cumin", "quantity": 1, "unit": "tsp", "optional": false },
+      { "name": "curry leaves", "normalizedName": "curry-leaves", "quantity": 1, "unit": "sprig", "optional": false },
+      { "name": "oil", "normalizedName": "oil", "quantity": 3, "unit": "tbsp", "optional": false },
+      { "name": "salt", "normalizedName": "salt", "quantity": null, "unit": "to_taste", "optional": false }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Dry-roast peanuts in a pan on medium flame for 3–4 minutes until the skins blister. Add sesame seeds and coconut and toast together for another 2 minutes until fragrant and lightly golden. Cool completely, then grind with a splash of water to a coarse paste.",
+        "timerMinutes": 6,
+        "method": "roasting"
+      },
+      {
+        "order": 2,
+        "text": "Slit each brinjal into quarters from the base without cutting through the stem — they should stay connected at the top. Stuff a little of the nut-sesame paste into each slit. Keep the remaining paste for the gravy.",
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a kadai on medium. Add cumin seeds and curry leaves; let them splutter for 20 seconds. Add the chopped onion and fry until golden, about 5 minutes. Stir in ginger-garlic paste and cook until the raw smell leaves.",
+        "timerMinutes": 6,
+        "method": "tempering"
+      },
+      {
+        "order": 4,
+        "text": "Lower the flame and add red chilli powder, coriander powder, and turmeric. Stir for 30 seconds, then add the remaining nut paste and cook it in the oil for 2 minutes until it deepens in colour.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 5,
+        "text": "Gently nestle the stuffed brinjals into the masala. Pour in 200 ml water and the tamarind pulp. Season with salt, cover, and simmer on low for 18–20 minutes, turning the brinjals once, until they are completely tender when pierced and the oil floats on the gravy.",
+        "timerMinutes": 20,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Taste for salt and tamarind balance — the gravy should be distinctly tangy. Serve alongside biryani or with plain rice; the dish improves after resting for 30 minutes as the brinjals absorb the gravy."
+      }
+    ],
+    "cookware": ["kadai", "mixie"],
+    "methods": ["roasting", "tempering", "simmering"],
+    "tags": ["gravy", "comfort-food", "eid", "festival"],
+    "allergens": ["peanuts", "sesame"],
+    "nutrition": { "calories": 185, "protein": 5, "carbs": 14, "fat": 13, "fiber": 5, "sugar": 6, "sodium": null, "isEstimate": true },
+    "substitutions": [
+      { "ingredient": "peanut", "substitute": "cashews — milder flavour, use the same quantity" },
+      { "ingredient": "coconut", "substitute": "2 tbsp coconut milk powder blended into the paste" },
+      { "ingredient": "tamarind", "substitute": "2 tsp amchur powder dissolved in 3 tbsp water", "notes": "add at the end, not during cooking" },
+      { "ingredient": "brinjal", "substitute": "baby potatoes (halved, pre-boiled) for a no-baingan version" }
+    ],
+    "culturalNote": "Bagara baingan is so integral to Hyderabadi table culture that it is considered essential alongside biryani at every major celebration and wedding feast.",
+    "regionalVariation": "Some households add a small piece of jaggery to balance the tamarind; others use dried kokum instead of tamarind for a subtler sourness.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-hyderabadi-mirchi-ka-salan",
+    "slug": "hyderabadi-mirchi-ka-salan",
+    "title": "Hyderabadi Mirchi Ka Salan",
+    "nativeTitle": null,
+    "description": "Long green chillies simmered in a rich, tangy peanut-sesame gravy — the iconic Hyderabadi curry that always shares a plate with biryani. The chillies mellow in the heat, leaving behind warmth but not fire.",
+    "cuisine": "hyderabadi",
+    "country": "india",
+    "region": "telangana-region",
+    "language": "en",
+    "mealType": ["lunch", "dinner", "side"],
+    "dietType": ["vegan"],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      { "name": "long green chillies (Bhavnagri or banana chillies)", "normalizedName": "green-chilli", "quantity": 8, "unit": "piece", "optional": false },
+      { "name": "raw peanuts", "normalizedName": "peanut", "quantity": 3, "unit": "tbsp", "optional": false },
+      { "name": "sesame seeds", "normalizedName": "sesame-seeds", "quantity": 2, "unit": "tbsp", "optional": false },
+      { "name": "grated coconut", "normalizedName": "coconut", "quantity": 2, "unit": "tbsp", "optional": false },
+      { "name": "tamarind pulp", "normalizedName": "tamarind", "quantity": 2, "unit": "tbsp", "optional": false },
+      { "name": "onion, sliced", "normalizedName": "onion", "quantity": 1, "unit": "piece", "optional": false },
+      { "name": "ginger-garlic paste", "normalizedName": "ginger-garlic-paste", "quantity": 1, "unit": "tbsp", "optional": false },
+      { "name": "red chilli powder", "normalizedName": "red-chilli-powder", "quantity": 1, "unit": "tsp", "optional": false },
+      { "name": "coriander powder", "normalizedName": "coriander-seeds", "quantity": 1, "unit": "tsp", "optional": false },
+      { "name": "turmeric powder", "normalizedName": "turmeric", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "cumin seeds", "normalizedName": "cumin", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "mustard seeds", "normalizedName": "mustard-seeds", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "curry leaves", "normalizedName": "curry-leaves", "quantity": 1, "unit": "sprig", "optional": false },
+      { "name": "oil", "normalizedName": "oil", "quantity": 3, "unit": "tbsp", "optional": false },
+      { "name": "salt", "normalizedName": "salt", "quantity": null, "unit": "to_taste", "optional": false }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Dry-roast peanuts until the skins blister, about 3 minutes. Add sesame seeds and coconut and roast for another 2 minutes. Cool, then grind to a smooth paste with 4 tbsp water. Fry the onion slices in 1 tsp oil until golden; add to the blender and grind again with the nut paste.",
+        "timerMinutes": 6,
+        "method": "roasting"
+      },
+      {
+        "order": 2,
+        "text": "Slit the green chillies lengthways on one side, leaving them whole. In a dry tawa, blister the chillies on medium flame for 2–3 minutes until the skin colours slightly. This step mellows their raw heat.",
+        "timerMinutes": 3,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a kadai. Splutter mustard seeds and cumin, then add curry leaves. Add ginger-garlic paste and cook for 1 minute. Stir in red chilli powder, coriander powder, and turmeric and fry for 30 seconds.",
+        "method": "tempering"
+      },
+      {
+        "order": 4,
+        "text": "Add the ground peanut-onion paste to the kadai. Fry on medium, stirring constantly, for 4–5 minutes until the oil seeps out from the paste and it turns a shade darker.",
+        "timerMinutes": 5,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Pour in 250 ml water and the tamarind pulp. Stir in salt. Add the blistered chillies, pressing them gently into the gravy. Simmer uncovered on low for 12–15 minutes until the gravy is thick, glossy, and coats a spoon.",
+        "timerMinutes": 15,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Check the balance — the salan should be sour from tamarind, nutty from the paste, and mildly spiced. Adjust salt and tamarind. Serve in a small bowl alongside biryani so the gravy can be mixed in."
+      }
+    ],
+    "cookware": ["kadai", "tawa", "mixie"],
+    "methods": ["roasting", "tawa-cooking", "tempering", "simmering"],
+    "tags": ["gravy", "festival", "eid", "comfort-food"],
+    "allergens": ["peanuts", "sesame"],
+    "nutrition": { "calories": 155, "protein": 4, "carbs": 9, "fat": 12, "fiber": 3, "sugar": 4, "sodium": null, "isEstimate": true },
+    "substitutions": [
+      { "ingredient": "green-chilli", "substitute": "capsicum cut into large strips — far milder, good for kids", "notes": "blister on tawa the same way" },
+      { "ingredient": "peanut", "substitute": "sunflower seeds — similar texture, nut-free" },
+      { "ingredient": "tamarind", "substitute": "2 tsp lemon juice added at the very end; the tang is lighter" },
+      { "ingredient": "coconut", "substitute": "omit entirely — the gravy will be thinner but still delicious" }
+    ],
+    "culturalNote": "Mirchi ka salan is the indispensable companion to Hyderabadi biryani — it is rarely eaten alone but always served alongside as a tangy counterpoint to the rich rice.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-hyderabadi-haleem-home-style",
+    "slug": "hyderabadi-haleem-home-style",
+    "title": "Hyderabadi Haleem (Home-Style)",
+    "nativeTitle": null,
+    "description": "A simplified pressure-cooker version of Hyderabad's beloved slow-cooked meat-and-wheat porridge. Mutton and semolina cook down into a thick, deeply spiced paste that is garnished with fried onions, lemon, and mint.",
+    "cuisine": "hyderabadi",
+    "country": "india",
+    "region": "telangana-region",
+    "language": "en",
+    "mealType": ["lunch", "dinner"],
+    "dietType": ["non_vegetarian", "high_protein"],
+    "difficulty": "hard",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 90,
+    "totalTimeMinutes": 110,
+    "servings": 6,
+    "ingredients": [
+      { "name": "mutton (bone-in pieces)", "normalizedName": "mutton", "quantity": 600, "unit": "g", "optional": false },
+      { "name": "broken wheat / daliya (fine semolina works as a shortcut)", "normalizedName": "rava", "quantity": 0.5, "unit": "cup", "optional": false, "notes": "soak 30 minutes if using daliya; skip soak for rava" },
+      { "name": "chana dal, soaked 30 minutes", "normalizedName": "chana-dal", "quantity": 3, "unit": "tbsp", "optional": false },
+      { "name": "moong dal, soaked 30 minutes", "normalizedName": "moong-dal", "quantity": 2, "unit": "tbsp", "optional": false },
+      { "name": "onion, sliced", "normalizedName": "onion", "quantity": 2, "unit": "piece", "optional": false },
+      { "name": "ginger-garlic paste", "normalizedName": "ginger-garlic-paste", "quantity": 2, "unit": "tbsp", "optional": false },
+      { "name": "red chilli powder", "normalizedName": "red-chilli-powder", "quantity": 2, "unit": "tsp", "optional": false },
+      { "name": "turmeric powder", "normalizedName": "turmeric", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "garam masala", "normalizedName": "garam-masala", "quantity": 1.5, "unit": "tsp", "optional": false },
+      { "name": "coriander powder", "normalizedName": "coriander-seeds", "quantity": 1, "unit": "tbsp", "optional": false },
+      { "name": "mint leaves", "normalizedName": "mint", "quantity": 1, "unit": "handful", "optional": false },
+      { "name": "coriander leaves", "normalizedName": "coriander-leaves", "quantity": 1, "unit": "handful", "optional": false },
+      { "name": "ghee (for finishing)", "normalizedName": "ghee", "quantity": 2, "unit": "tbsp", "optional": false },
+      { "name": "oil", "normalizedName": "oil", "quantity": 3, "unit": "tbsp", "optional": false },
+      { "name": "lemon, cut in wedges", "normalizedName": "lemon", "quantity": 1, "unit": "piece", "optional": false },
+      { "name": "salt", "normalizedName": "salt", "quantity": null, "unit": "to_taste", "optional": false }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Deep-fry half the sliced onions in oil until golden-brown and crispy; set aside for garnish. In the remaining oil in the pressure cooker, sauté the rest of the onions until soft.",
+        "timerMinutes": 10,
+        "method": "deep-frying"
+      },
+      {
+        "order": 2,
+        "text": "Add ginger-garlic paste to the softened onions and fry for 2 minutes until the raw smell leaves. Add mutton pieces and sear on high heat for 5 minutes, turning until well coloured on all sides.",
+        "timerMinutes": 7,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add red chilli powder, turmeric, coriander powder, garam masala, and salt. Stir for 1 minute. Add the soaked chana dal, moong dal, and the rava (or soaked broken wheat). Pour in 1 litre water and stir everything together.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 4,
+        "text": "Close the pressure cooker and cook on high until the first whistle, then lower to medium and cook for 8 more whistles. Switch off and allow the pressure to release naturally, about 15 minutes.",
+        "timerMinutes": 30,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Open the cooker. The mutton should be fall-off-the-bone tender. Use two forks to shred the meat directly in the pot, discarding any large bones. The mixture should be very thick and porridge-like — if too thin, simmer uncovered for 10 minutes, stirring often to prevent sticking.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 6,
+        "text": "Taste and adjust salt. Stir in half the mint and coriander leaves. Ladle into bowls. Top each serving with a spoonful of ghee, a squeeze of lemon, the crispy fried onions, and fresh mint and coriander. Serve immediately."
+      }
+    ],
+    "cookware": ["pressure-cooker", "kadai"],
+    "methods": ["deep-frying", "sauteing", "pressure-cooking", "simmering"],
+    "tags": ["festival", "eid", "comfort-food", "winter"],
+    "allergens": ["dairy", "gluten"],
+    "nutrition": { "calories": 380, "protein": 28, "carbs": 20, "fat": 20, "fiber": 3, "sugar": 2, "sodium": null, "isEstimate": true },
+    "substitutions": [
+      { "ingredient": "mutton", "substitute": "bone-in chicken (reduce pressure to 4 whistles) for a quicker version" },
+      { "ingredient": "rava", "substitute": "fine broken wheat (daliya) soaked overnight — more traditional texture" },
+      { "ingredient": "ghee", "substitute": "good cooking oil for a lighter finish" },
+      { "ingredient": "chana-dal", "substitute": "masoor dal (red lentil) — cooks faster and blends in completely" }
+    ],
+    "culturalNote": "Hyderabadi haleem has a GI tag and is particularly beloved during Ramadan evenings, when it is sold from huge vats at street stalls throughout the old city.",
+    "regionalVariation": "Traditional Hyderabadi haleem uses a combination of seven or more pulses and is stirred for hours with a wooden lathi — this simplified home version uses a pressure cooker to achieve a similar depth in a fraction of the time.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-mughlai-shahi-paneer",
+    "slug": "mughlai-shahi-paneer",
+    "title": "Mughlai Shahi Paneer",
+    "nativeTitle": null,
+    "description": "Paneer cubes in a royal Mughlai gravy made from cashew-onion paste, cream, and fragrant whole spices. Mild, lush, and saffron-tinted — a dish that earns its name.",
+    "cuisine": "mughlai",
+    "country": "india",
+    "region": "awadh",
+    "language": "en",
+    "mealType": ["lunch", "dinner"],
+    "dietType": ["vegetarian"],
+    "difficulty": "medium",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      { "name": "paneer, cubed", "normalizedName": "paneer", "quantity": 250, "unit": "g", "optional": false },
+      { "name": "onion, roughly chopped", "normalizedName": "onion", "quantity": 2, "unit": "piece", "optional": false },
+      { "name": "cashews", "normalizedName": "cashew", "quantity": 15, "unit": "piece", "optional": false },
+      { "name": "cream", "normalizedName": "cream", "quantity": 4, "unit": "tbsp", "optional": false },
+      { "name": "ginger-garlic paste", "normalizedName": "ginger-garlic-paste", "quantity": 1, "unit": "tbsp", "optional": false },
+      { "name": "red chilli powder (preferably Kashmiri)", "normalizedName": "red-chilli-powder", "quantity": 0.75, "unit": "tsp", "optional": false },
+      { "name": "garam masala", "normalizedName": "garam-masala", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "cardamom pods", "normalizedName": "cardamom", "quantity": 3, "unit": "piece", "optional": false },
+      { "name": "cinnamon stick", "normalizedName": "cinnamon", "quantity": 1, "unit": "inch", "optional": false },
+      { "name": "bay leaf", "normalizedName": "bay-leaf", "quantity": 1, "unit": "leaf", "optional": false },
+      { "name": "saffron", "normalizedName": "saffron", "quantity": 1, "unit": "pinch", "optional": true },
+      { "name": "milk, warm", "normalizedName": "milk", "quantity": 3, "unit": "tbsp", "optional": true, "notes": "for blooming saffron" },
+      { "name": "ghee", "normalizedName": "ghee", "quantity": 2, "unit": "tbsp", "optional": false },
+      { "name": "salt", "normalizedName": "salt", "quantity": null, "unit": "to_taste", "optional": false },
+      { "name": "coriander leaves for garnish", "normalizedName": "coriander-leaves", "quantity": 1, "unit": "tbsp", "optional": true }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Steep saffron in warm milk. Boil the chopped onions with cashews in 200 ml water for 8 minutes until soft. Drain, cool, and blend to a smooth white paste.",
+        "timerMinutes": 8,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Heat ghee in a kadai on medium. Add the bay leaf, cardamom, and cinnamon; let them sizzle for 20 seconds until fragrant. Add ginger-garlic paste and fry for 1 minute.",
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add the cashew-onion paste. Stir continuously on medium-low for 6–8 minutes until the paste cooks through and the ghee starts to separate at the edges. This step is essential — undercooked onion paste will taste raw.",
+        "timerMinutes": 8,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Add Kashmiri chilli powder, garam masala, and salt. Stir for 30 seconds. Pour in 100 ml water to loosen the gravy and simmer for 3 minutes.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 5,
+        "text": "Lower the flame and stir in the cream and saffron milk. Add the paneer cubes and simmer gently for 4–5 minutes — do not boil hard or the cream may split and the paneer will toughen.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Taste for salt. The gravy should be silky and coat a spoon. Remove the cinnamon and cardamom pods before serving. Garnish with coriander leaves and a thin swirl of cream. Serve with naan or paratha."
+      }
+    ],
+    "cookware": ["kadai", "mixie", "saucepan"],
+    "methods": ["boiling", "tempering", "kadai-cooking", "simmering"],
+    "tags": ["gravy", "party", "festival", "comfort-food"],
+    "allergens": ["dairy", "nuts"],
+    "nutrition": { "calories": 310, "protein": 12, "carbs": 10, "fat": 25, "fiber": 1, "sugar": 5, "sodium": null, "isEstimate": true },
+    "substitutions": [
+      { "ingredient": "paneer", "substitute": "firm tofu (pressed and cubed) for a dairy-free version; reduce simmer time to 2 minutes" },
+      { "ingredient": "cashew", "substitute": "10 soaked blanched almonds — gives a similar creamy paste" },
+      { "ingredient": "cream", "substitute": "thick coconut milk — changes the flavour profile but still rich", "notes": "not traditional but works well" },
+      { "ingredient": "ghee", "substitute": "butter for an even richer finish" }
+    ],
+    "culturalNote": "Shahi paneer means 'royal paneer' — a dish created in the tradition of Mughal court cooking where every ingredient, from saffron to cream, signalled abundance.",
+    "regionalVariation": "Delhi dhabas often add tomato to cut the richness and use butter instead of ghee; the Lucknow version stays paler, creamier, and more fragrant.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-mughlai-chicken-korma",
+    "slug": "mughlai-chicken-korma",
+    "title": "Mughlai Chicken Korma",
+    "nativeTitle": null,
+    "description": "Chicken slow-cooked in a fragrant almond-cashew gravy enriched with whisked curd and a hint of cream. This pale, aromatic korma is the essence of Mughlai restraint — heat is minimal, but the flavour is complex.",
+    "cuisine": "mughlai",
+    "country": "india",
+    "region": "awadh",
+    "language": "en",
+    "mealType": ["lunch", "dinner"],
+    "dietType": ["non_vegetarian", "high_protein"],
+    "difficulty": "medium",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 45,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "ingredients": [
+      { "name": "chicken, curry cut with bone", "normalizedName": "chicken", "quantity": 700, "unit": "g", "optional": false },
+      { "name": "onion, finely sliced", "normalizedName": "onion", "quantity": 2, "unit": "piece", "optional": false },
+      { "name": "thick curd, whisked smooth", "normalizedName": "curd", "quantity": 0.5, "unit": "cup", "optional": false },
+      { "name": "fresh cream", "normalizedName": "cream", "quantity": 3, "unit": "tbsp", "optional": false },
+      { "name": "cashews, soaked 15 minutes", "normalizedName": "cashew", "quantity": 12, "unit": "piece", "optional": false },
+      { "name": "almonds, blanched and peeled", "normalizedName": "almond", "quantity": 10, "unit": "piece", "optional": false },
+      { "name": "ginger-garlic paste", "normalizedName": "ginger-garlic-paste", "quantity": 1.5, "unit": "tbsp", "optional": false },
+      { "name": "cardamom pods, lightly bruised", "normalizedName": "cardamom", "quantity": 4, "unit": "piece", "optional": false },
+      { "name": "cinnamon stick", "normalizedName": "cinnamon", "quantity": 1, "unit": "inch", "optional": false },
+      { "name": "cloves", "normalizedName": "clove", "quantity": 4, "unit": "piece", "optional": false },
+      { "name": "bay leaves", "normalizedName": "bay-leaf", "quantity": 2, "unit": "leaf", "optional": false },
+      { "name": "garam masala", "normalizedName": "garam-masala", "quantity": 0.75, "unit": "tsp", "optional": false },
+      { "name": "saffron", "normalizedName": "saffron", "quantity": 1, "unit": "pinch", "optional": true },
+      { "name": "ghee", "normalizedName": "ghee", "quantity": 3, "unit": "tbsp", "optional": false },
+      { "name": "salt", "normalizedName": "salt", "quantity": null, "unit": "to_taste", "optional": false },
+      { "name": "rose water (for finishing)", "normalizedName": "rose-water", "quantity": 1, "unit": "tsp", "optional": true }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Grind soaked cashews and almonds with 4 tbsp water to a smooth, thick paste. Heat ghee in a heavy-bottomed pot on medium. Add bay leaves, cardamom, cinnamon, and cloves. Let sizzle for 30 seconds.",
+        "method": "tempering"
+      },
+      {
+        "order": 2,
+        "text": "Add the sliced onions and fry on medium-low for 15–18 minutes, stirring frequently, until they are soft, golden, and completely collapsed — not brown, just deeply sweet. Do not rush this step.",
+        "timerMinutes": 18,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add ginger-garlic paste and fry for 2 minutes. Add the nut paste and cook for 4 minutes until it thickens and the ghee separates at the edges.",
+        "timerMinutes": 6
+      },
+      {
+        "order": 4,
+        "text": "Reduce heat to low. Add the whisked curd one spoonful at a time, stirring constantly between each addition so it does not curdle. Once all the curd is incorporated, add the chicken and turn to coat.",
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Season with salt and garam masala. Cover tightly and cook on low flame for 20–22 minutes, stirring twice, until the chicken is completely cooked through and the oil surfaces around the edges of the gravy.",
+        "timerMinutes": 22,
+        "method": "braising"
+      },
+      {
+        "order": 6,
+        "text": "Stir in cream and saffron (if using). Simmer uncovered for 3 minutes to bring the gravy together. Finish with a few drops of rose water. Serve with naan, sheermal, or steamed basmati.",
+        "timerMinutes": 3
+      }
+    ],
+    "cookware": ["heavy-bottomed-pot", "mixie"],
+    "methods": ["tempering", "sauteing", "kadai-cooking", "braising"],
+    "tags": ["gravy", "festival", "party", "comfort-food"],
+    "allergens": ["dairy", "nuts"],
+    "nutrition": { "calories": 420, "protein": 36, "carbs": 8, "fat": 27, "fiber": 1, "sugar": 4, "sodium": null, "isEstimate": true },
+    "substitutions": [
+      { "ingredient": "almond", "substitute": "replace with extra cashews — the paste will be slightly richer" },
+      { "ingredient": "chicken", "substitute": "750 g lamb shoulder, cut in pieces — increase braising time to 35 minutes" },
+      { "ingredient": "cream", "substitute": "2 tbsp thick coconut cream for a dairy-lighter version" },
+      { "ingredient": "rose-water", "substitute": "a drop of kewra (pandanus) essence — different floral note, equally Mughlai" }
+    ],
+    "culturalNote": "Korma was a centrepiece of Mughal banquets — its name likely derives from the Turkic word for braising. The Awadhi version, prized for its subtlety, uses no tomato and relies entirely on the nut paste and curd.",
+    "regionalVariation": "Delhi and North Indian restaurant versions often add tomato and are deeper red; Lucknawi korma is pale, almost white, made famous by the Nawabs of Awadh.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-mughlai-egg-curry",
+    "slug": "mughlai-egg-curry",
+    "title": "Mughlai Egg Curry",
+    "nativeTitle": null,
+    "description": "Hard-boiled eggs fried golden, then nestled in a creamy, mildly spiced Mughlai onion-cashew gravy. Rich enough for a dinner party but quick enough for a weeknight.",
+    "cuisine": "mughlai",
+    "country": "india",
+    "region": "awadh",
+    "language": "en",
+    "mealType": ["lunch", "dinner"],
+    "dietType": ["eggetarian"],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      { "name": "eggs, hard-boiled and peeled", "normalizedName": "egg", "quantity": 6, "unit": "piece", "optional": false },
+      { "name": "onion, roughly chopped", "normalizedName": "onion", "quantity": 2, "unit": "piece", "optional": false },
+      { "name": "tomato, chopped", "normalizedName": "tomato", "quantity": 1, "unit": "piece", "optional": false },
+      { "name": "cashews, soaked", "normalizedName": "cashew", "quantity": 10, "unit": "piece", "optional": false },
+      { "name": "fresh cream", "normalizedName": "cream", "quantity": 3, "unit": "tbsp", "optional": false },
+      { "name": "ginger-garlic paste", "normalizedName": "ginger-garlic-paste", "quantity": 1, "unit": "tbsp", "optional": false },
+      { "name": "red chilli powder", "normalizedName": "red-chilli-powder", "quantity": 1, "unit": "tsp", "optional": false },
+      { "name": "coriander powder", "normalizedName": "coriander-seeds", "quantity": 1, "unit": "tsp", "optional": false },
+      { "name": "turmeric powder", "normalizedName": "turmeric", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "garam masala", "normalizedName": "garam-masala", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "cardamom pods", "normalizedName": "cardamom", "quantity": 2, "unit": "piece", "optional": false },
+      { "name": "ghee", "normalizedName": "ghee", "quantity": 2, "unit": "tbsp", "optional": false },
+      { "name": "salt", "normalizedName": "salt", "quantity": null, "unit": "to_taste", "optional": false },
+      { "name": "coriander leaves", "normalizedName": "coriander-leaves", "quantity": 1, "unit": "tbsp", "optional": true }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Boil onions, tomato, cashews, and cardamom in 150 ml water for 8 minutes until completely soft. Cool slightly and blend to a smooth, thick paste.",
+        "timerMinutes": 8,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Score each peeled egg with 4–5 shallow cuts around its length. Heat 1 tbsp ghee in a kadai and fry the eggs on medium, rolling them, for 3 minutes until they are lightly golden all over. Remove and set aside.",
+        "timerMinutes": 3,
+        "method": "shallow-frying"
+      },
+      {
+        "order": 3,
+        "text": "In the same kadai, add the remaining ghee. Add ginger-garlic paste and fry for 1 minute. Pour in the cashew-onion paste and cook on medium, stirring, for 5–6 minutes until the paste thickens and the ghee begins to surface.",
+        "timerMinutes": 6,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Add red chilli powder, coriander powder, turmeric, and salt. Stir for 30 seconds, then pour in 150 ml water to make a medium-thick gravy. Simmer for 4 minutes.",
+        "timerMinutes": 4,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Lower the flame and stir in the cream. Add the fried eggs and spoon gravy over them. Simmer gently for 3 minutes so the eggs absorb the flavour. Finish with garam masala and coriander leaves.",
+        "timerMinutes": 3
+      }
+    ],
+    "cookware": ["kadai", "mixie", "saucepan"],
+    "methods": ["boiling", "shallow-frying", "kadai-cooking", "simmering"],
+    "tags": ["gravy", "comfort-food", "bachelor-friendly", "quick"],
+    "allergens": ["dairy", "egg", "nuts"],
+    "nutrition": { "calories": 290, "protein": 14, "carbs": 7, "fat": 22, "fiber": 1, "sugar": 3, "sodium": null, "isEstimate": true },
+    "substitutions": [
+      { "ingredient": "egg", "substitute": "paneer cubes — makes it a rich vegetarian curry; skip the scoring and frying step" },
+      { "ingredient": "cashew", "substitute": "2 tbsp melon seeds (magaz) for a traditional Mughlai thickener" },
+      { "ingredient": "cream", "substitute": "2 tbsp milk mixed with 1 tsp cornflour — lighter and budget-friendly" },
+      { "ingredient": "ghee", "substitute": "butter or neutral oil" }
+    ],
+    "culturalNote": "Egg curries became widespread in Mughlai-influenced cooking as a more affordable way to enjoy the same creamy, fragrant gravies traditionally made with meat.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-hyderabadi-dum-aloo",
+    "slug": "hyderabadi-dum-aloo",
+    "title": "Hyderabadi Dum Aloo",
+    "nativeTitle": null,
+    "description": "Baby potatoes fried crisp, then slow-cooked sealed in a curd-based masala alive with whole spices and Kashmiri chilli. The Hyderabadi version skips tomato for a cleaner, more aromatic gravy.",
+    "cuisine": "hyderabadi",
+    "country": "india",
+    "region": "telangana-region",
+    "language": "en",
+    "mealType": ["lunch", "dinner"],
+    "dietType": ["vegetarian"],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 35,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      { "name": "baby potatoes (or small regular potatoes, halved)", "normalizedName": "potato", "quantity": 500, "unit": "g", "optional": false },
+      { "name": "thick curd, whisked", "normalizedName": "curd", "quantity": 0.5, "unit": "cup", "optional": false },
+      { "name": "onion, finely sliced", "normalizedName": "onion", "quantity": 2, "unit": "piece", "optional": false },
+      { "name": "ginger-garlic paste", "normalizedName": "ginger-garlic-paste", "quantity": 1, "unit": "tbsp", "optional": false },
+      { "name": "red chilli powder (Kashmiri preferred)", "normalizedName": "red-chilli-powder", "quantity": 1.5, "unit": "tsp", "optional": false },
+      { "name": "coriander powder", "normalizedName": "coriander-seeds", "quantity": 1, "unit": "tsp", "optional": false },
+      { "name": "turmeric powder", "normalizedName": "turmeric", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "garam masala", "normalizedName": "garam-masala", "quantity": 0.75, "unit": "tsp", "optional": false },
+      { "name": "cardamom pods", "normalizedName": "cardamom", "quantity": 3, "unit": "piece", "optional": false },
+      { "name": "cinnamon stick", "normalizedName": "cinnamon", "quantity": 1, "unit": "inch", "optional": false },
+      { "name": "cloves", "normalizedName": "clove", "quantity": 3, "unit": "piece", "optional": false },
+      { "name": "mint leaves", "normalizedName": "mint", "quantity": 1, "unit": "tbsp", "optional": true },
+      { "name": "ghee", "normalizedName": "ghee", "quantity": 1, "unit": "tbsp", "optional": false },
+      { "name": "oil", "normalizedName": "oil", "quantity": 3, "unit": "tbsp", "optional": false },
+      { "name": "salt", "normalizedName": "salt", "quantity": null, "unit": "to_taste", "optional": false }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Prick each baby potato all over with a fork so the masala can penetrate. Heat oil in a kadai on medium-high and fry the potatoes in batches, turning, until golden and crisp all over, about 8–10 minutes. Remove and set aside.",
+        "timerMinutes": 10,
+        "method": "deep-frying"
+      },
+      {
+        "order": 2,
+        "text": "In the same oil, add cardamom, cinnamon, and cloves. Let sizzle for 20 seconds. Add the sliced onions and fry on medium for 10 minutes until deeply golden.",
+        "timerMinutes": 10,
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add ginger-garlic paste and fry for 2 minutes. Lower the flame and add red chilli powder, coriander powder, and turmeric. Stir for 30 seconds, then add the whisked curd one spoonful at a time, stirring between each addition so it does not split.",
+        "timerMinutes": 4,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Cook the curd masala on medium, stirring, for 4–5 minutes until the oil separates. Season with salt. Add the fried potatoes and fold gently to coat every piece in the masala.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 5,
+        "text": "Cover the kadai tightly (seal with a piece of foil under the lid) and reduce the flame to the lowest setting. Cook on dum for 15 minutes until the potatoes absorb the masala and become completely tender inside when tested with a knife tip.",
+        "timerMinutes": 15,
+        "method": "dum"
+      },
+      {
+        "order": 6,
+        "text": "Stir in ghee and garam masala, scatter mint leaves if using, and rest covered for 5 minutes. Serve with rice, naan, or paratha."
+      }
+    ],
+    "cookware": ["kadai"],
+    "methods": ["deep-frying", "tempering", "kadai-cooking", "dum"],
+    "tags": ["comfort-food", "gravy", "festival"],
+    "allergens": ["dairy"],
+    "nutrition": { "calories": 240, "protein": 5, "carbs": 28, "fat": 12, "fiber": 4, "sugar": 4, "sodium": null, "isEstimate": true },
+    "substitutions": [
+      { "ingredient": "potato", "substitute": "whole mushrooms (button or oyster) — no pre-frying needed; add directly to masala" },
+      { "ingredient": "curd", "substitute": "2 tbsp thick coconut milk for a dairy-free version; add at the end rather than cooking it down" },
+      { "ingredient": "ghee", "substitute": "any cooking oil" }
+    ],
+    "culturalNote": "Dum aloo in the Hyderabadi style reflects the city's dual Telugu and Urdu culinary inheritance — the dum technique is Mughlai, but the spice profile leans towards the Deccan.",
+    "regionalVariation": "Kashmiri dum aloo uses a tomato-free, fennel-heavy gravy with yogurt; Punjabi versions add lots of tomato and cream for a restaurant-style finish.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-hyderabadi-sheer-khurma",
+    "slug": "hyderabadi-sheer-khurma",
+    "title": "Hyderabadi Sheer Khurma",
+    "nativeTitle": null,
+    "description": "Thin wheat vermicelli toasted in ghee and simmered in full-fat milk with dates, dry fruits, and cardamom until thickened into a fragrant pudding. The traditional Eid morning dessert of Hyderabad — eaten before any meal is served.",
+    "cuisine": "hyderabadi",
+    "country": "india",
+    "region": "telangana-region",
+    "language": "en",
+    "mealType": ["dessert", "breakfast"],
+    "dietType": ["vegetarian"],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 40,
+    "servings": 6,
+    "ingredients": [
+      { "name": "thin wheat vermicelli (seviyan)", "normalizedName": "vermicelli", "quantity": 100, "unit": "g", "optional": false },
+      { "name": "full-fat milk", "normalizedName": "milk", "quantity": 1, "unit": "l", "optional": false },
+      { "name": "sugar", "normalizedName": "sugar", "quantity": 4, "unit": "tbsp", "optional": false },
+      { "name": "ghee", "normalizedName": "ghee", "quantity": 2, "unit": "tbsp", "optional": false },
+      { "name": "pitted dates, sliced", "normalizedName": "dates", "quantity": 10, "unit": "piece", "optional": false },
+      { "name": "raisins", "normalizedName": "raisin", "quantity": 2, "unit": "tbsp", "optional": false },
+      { "name": "cashews, halved", "normalizedName": "cashew", "quantity": 2, "unit": "tbsp", "optional": false },
+      { "name": "almonds, blanched and slivered", "normalizedName": "almond", "quantity": 2, "unit": "tbsp", "optional": false },
+      { "name": "pistachios, slivered", "normalizedName": "pistachio", "quantity": 1, "unit": "tbsp", "optional": true },
+      { "name": "green cardamom, crushed", "normalizedName": "cardamom", "quantity": 4, "unit": "piece", "optional": false },
+      { "name": "saffron strands", "normalizedName": "saffron", "quantity": 1, "unit": "pinch", "optional": true },
+      { "name": "rose water or kewra water", "normalizedName": "rose-water", "quantity": 1, "unit": "tsp", "optional": false }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Melt ghee in a heavy-bottomed pot on medium. Add the cashews and almonds and fry for 2 minutes until lightly golden. Add the dates and raisins and stir for 1 minute. Remove the nuts and fruits with a slotted spoon and reserve for garnish.",
+        "timerMinutes": 3,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "In the same ghee, break the vermicelli into rough 3-inch lengths (if not already short) and toast on medium, stirring constantly, until it turns a light golden colour and smells nutty, about 4 minutes. Do not let it brown too deeply.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 3,
+        "text": "Pour the milk into the pot with the toasted vermicelli. Bring to a gentle boil on medium, stirring to prevent the vermicelli from clumping or sticking to the base.",
+        "timerMinutes": 5,
+        "method": "boiling"
+      },
+      {
+        "order": 4,
+        "text": "Add the crushed cardamom and saffron. Reduce the flame and simmer for 12–15 minutes, stirring every couple of minutes, until the milk thickens and the vermicelli is completely soft but not mushy. The pudding should coat a spoon.",
+        "timerMinutes": 15,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Add sugar and stir until dissolved — the sweetness should be moderate, not cloying. Stir in rose water, then add most of the reserved nuts, dates, and raisins back into the pot. Simmer 2 more minutes.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 6,
+        "text": "Serve warm in small bowls, garnished with the remaining slivered pistachios and a strand or two of saffron. It also sets beautifully when chilled and is equally delicious cold the next morning."
+      }
+    ],
+    "cookware": ["heavy-bottomed-pot"],
+    "methods": ["sauteing", "boiling", "simmering"],
+    "tags": ["festival", "eid", "sweet", "comfort-food", "kids-friendly"],
+    "allergens": ["dairy", "gluten", "nuts"],
+    "nutrition": { "calories": 310, "protein": 8, "carbs": 38, "fat": 14, "fiber": 2, "sugar": 22, "sodium": null, "isEstimate": true },
+    "substitutions": [
+      { "ingredient": "vermicelli", "substitute": "rice vermicelli (thin rice noodles) for a gluten-free version — toast lightly in ghee" },
+      { "ingredient": "milk", "substitute": "full-fat coconut milk plus 500 ml water — dairy-free; reduce simmer to 8 minutes" },
+      { "ingredient": "sugar", "substitute": "3 tbsp condensed milk stirred in at the end — sweeter and richer" },
+      { "ingredient": "dates", "substitute": "dried apricots, roughly chopped — a Persian-influenced variation" }
+    ],
+    "culturalNote": "Sheer khurma means 'milk with dates' in Persian, and Hyderabadi families prepare large pots of it before Eid prayers to share with visitors throughout the morning.",
+    "regionalVariation": "Some Hyderabadi homes use khoya (reduced milk solids) to create an even richer, more indulgent version; others keep it thinner for drinking rather than spooning.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-hyderabadi-double-ka-meetha",
+    "slug": "hyderabadi-double-ka-meetha",
+    "title": "Hyderabadi Double Ka Meetha",
+    "nativeTitle": null,
+    "description": "Thick bread slices fried golden in ghee, soaked in saffron-spiced sugar syrup, and baked in a rich milk-and-cream custard with fried nuts. Hyderabad's beloved bread pudding is decadent, celebratory, and completely irresistible.",
+    "cuisine": "hyderabadi",
+    "country": "india",
+    "region": "telangana-region",
+    "language": "en",
+    "mealType": ["dessert"],
+    "dietType": ["vegetarian"],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 35,
+    "totalTimeMinutes": 50,
+    "servings": 8,
+    "ingredients": [
+      { "name": "thick bread slices (day-old white or milk bread)", "normalizedName": "bread", "quantity": 8, "unit": "slice", "optional": false },
+      { "name": "full-fat milk", "normalizedName": "milk", "quantity": 2, "unit": "cup", "optional": false },
+      { "name": "sugar", "normalizedName": "sugar", "quantity": 0.5, "unit": "cup", "optional": false },
+      { "name": "ghee (for frying bread)", "normalizedName": "ghee", "quantity": 4, "unit": "tbsp", "optional": false },
+      { "name": "fresh cream", "normalizedName": "cream", "quantity": 0.25, "unit": "cup", "optional": false },
+      { "name": "cashews", "normalizedName": "cashew", "quantity": 2, "unit": "tbsp", "optional": false },
+      { "name": "almonds, slivered", "normalizedName": "almond", "quantity": 2, "unit": "tbsp", "optional": false },
+      { "name": "raisins", "normalizedName": "raisin", "quantity": 2, "unit": "tbsp", "optional": false },
+      { "name": "green cardamom, crushed", "normalizedName": "cardamom", "quantity": 4, "unit": "piece", "optional": false },
+      { "name": "saffron strands", "normalizedName": "saffron", "quantity": 1, "unit": "pinch", "optional": false },
+      { "name": "rose water", "normalizedName": "rose-water", "quantity": 1, "unit": "tsp", "optional": false }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "In a saucepan, combine sugar with 200 ml water and bring to a boil, stirring. Add crushed cardamom and saffron; simmer for 3 minutes into a light syrup. Remove from heat and stir in rose water.",
+        "timerMinutes": 5,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Heat ghee in a kadai. Fry cashews until golden, then raisins until they puff. Remove and set aside. In the same ghee, fry the bread slices in batches on medium heat for 2–3 minutes per side until deep golden and crisp on both surfaces.",
+        "timerMinutes": 12,
+        "method": "shallow-frying"
+      },
+      {
+        "order": 3,
+        "text": "While the bread is still hot, dip each slice briefly into the warm saffron syrup so it absorbs evenly but does not fall apart. Arrange the soaked slices in a single layer in a greased baking dish.",
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Warm the milk and cream together without boiling. Pour gently over the bread slices so the liquid seeps in around and between each slice. Scatter the fried nuts, raisins, and slivered almonds over the top.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 5,
+        "text": "Bake in an oven preheated to 180°C for 18–20 minutes until the top is lightly set and the edges are beginning to colour. The milk should be mostly absorbed but the pudding should still have a slight wobble in the centre.",
+        "timerMinutes": 20,
+        "method": "baking"
+      },
+      {
+        "order": 6,
+        "text": "Serve warm straight from the baking dish. Double ka meetha can also be cooled, covered, and refrigerated for up to 2 days — it firms up nicely and slices cleanly when cold."
+      }
+    ],
+    "cookware": ["kadai", "oven", "baking-tray", "saucepan"],
+    "methods": ["boiling", "shallow-frying", "baking"],
+    "tags": ["festival", "eid", "sweet", "party", "comfort-food"],
+    "allergens": ["dairy", "gluten", "nuts"],
+    "nutrition": { "calories": 290, "protein": 6, "carbs": 32, "fat": 16, "fiber": 1, "sugar": 20, "sodium": null, "isEstimate": true },
+    "substitutions": [
+      { "ingredient": "bread", "substitute": "shahi tukda uses double roti fried in ghee without the baked custard step — essentially the same dish by another name" },
+      { "ingredient": "cream", "substitute": "condensed milk (3 tbsp) thinned with extra milk — sweeter and no separate sugar needed" },
+      { "ingredient": "ghee", "substitute": "butter — nearly identical result; the bread absorbs it the same way" }
+    ],
+    "culturalNote": "The name 'double ka meetha' comes from the Hyderabadi slang for bread — 'double roti' — and the dessert is a fixture at Eid dinners across the city.",
+    "regionalVariation": "Stovetop version: skip the oven, cover the baking dish tightly and cook on the lowest flame over a tawa for 20 minutes — works well in kitchens without an oven.",
+    "indianKitchenAdaptation": "No oven? Grease a heavy kadai or thick vessel, arrange the soaked bread, pour the milk mixture over, cover tightly with a lid (seal with foil), and cook on the lowest flame on a tawa for 20 minutes — the result is identical.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-mughlai-keema-mutter",
+    "slug": "mughlai-keema-mutter",
+    "title": "Mughlai Keema Mutter",
+    "nativeTitle": null,
+    "description": "Finely minced meat cooked with green peas in a lightly spiced Mughlai masala. Quick to make, deeply comforting, and works with both mutton and chicken mince — a versatile everyday curry from the Mughal-influenced kitchen.",
+    "cuisine": "mughlai",
+    "country": "india",
+    "region": "delhi",
+    "language": "en",
+    "mealType": ["lunch", "dinner"],
+    "dietType": ["non_vegetarian", "high_protein"],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      { "name": "minced mutton (or chicken keema)", "normalizedName": "keema", "quantity": 500, "unit": "g", "optional": false },
+      { "name": "frozen or fresh green peas", "normalizedName": "peas", "quantity": 1, "unit": "cup", "optional": false },
+      { "name": "onion, finely chopped", "normalizedName": "onion", "quantity": 2, "unit": "piece", "optional": false },
+      { "name": "tomato, finely chopped", "normalizedName": "tomato", "quantity": 2, "unit": "piece", "optional": false },
+      { "name": "ginger-garlic paste", "normalizedName": "ginger-garlic-paste", "quantity": 1.5, "unit": "tbsp", "optional": false },
+      { "name": "red chilli powder", "normalizedName": "red-chilli-powder", "quantity": 1.5, "unit": "tsp", "optional": false },
+      { "name": "coriander powder", "normalizedName": "coriander-seeds", "quantity": 1, "unit": "tbsp", "optional": false },
+      { "name": "turmeric powder", "normalizedName": "turmeric", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "garam masala", "normalizedName": "garam-masala", "quantity": 1, "unit": "tsp", "optional": false },
+      { "name": "cumin seeds", "normalizedName": "cumin", "quantity": 1, "unit": "tsp", "optional": false },
+      { "name": "oil", "normalizedName": "oil", "quantity": 3, "unit": "tbsp", "optional": false },
+      { "name": "salt", "normalizedName": "salt", "quantity": null, "unit": "to_taste", "optional": false },
+      { "name": "coriander leaves, chopped", "normalizedName": "coriander-leaves", "quantity": 2, "unit": "tbsp", "optional": true },
+      { "name": "lemon juice", "normalizedName": "lemon", "quantity": 1, "unit": "tsp", "optional": true }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat oil in a kadai on medium. Splutter cumin seeds. Add the finely chopped onions and fry for 8–10 minutes until golden-brown, stirring frequently.",
+        "timerMinutes": 10,
+        "method": "tempering"
+      },
+      {
+        "order": 2,
+        "text": "Add ginger-garlic paste and fry for 2 minutes until the raw smell goes. Add red chilli powder, coriander powder, and turmeric; stir for 30 seconds.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 3,
+        "text": "Add the chopped tomatoes with a pinch of salt and cook on medium, mashing as you go, for 5–6 minutes until the tomatoes break down completely and the oil separates at the edges.",
+        "timerMinutes": 6,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Add the keema and break it up with the back of the spoon so no large clumps remain. Cook on high for 5 minutes, stirring often, until all the pink is gone and the mince is sealed and lightly browned.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 5,
+        "text": "Reduce to medium, add the peas, season with salt, and pour in 100 ml water if the mixture looks dry. Cover and cook for 10 minutes until the peas are tender and the gravy has tightened around the mince.",
+        "timerMinutes": 10,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Sprinkle garam masala and a squeeze of lemon juice. Fold through coriander leaves. Serve with naan, paratha, or over plain rice."
+      }
+    ],
+    "cookware": ["kadai"],
+    "methods": ["tempering", "kadai-cooking", "simmering"],
+    "tags": ["comfort-food", "quick", "bachelor-friendly", "gravy"],
+    "allergens": [],
+    "nutrition": { "calories": 320, "protein": 30, "carbs": 12, "fat": 18, "fiber": 3, "sugar": 4, "sodium": null, "isEstimate": true },
+    "substitutions": [
+      { "ingredient": "keema", "substitute": "soya granules (meal maker), soaked and squeezed dry — makes an excellent vegetarian keema mutter" },
+      { "ingredient": "peas", "substitute": "diced potato (1 cm cubes) — add with the water and cook until tender" },
+      { "ingredient": "tomato", "substitute": "3 tbsp tomato puree — thicker gravy, less water released" }
+    ],
+    "culturalNote": "Keema mutter is a staple of Mughlai-influenced home cooking across northern India — simple enough for a weeknight but flavourful enough to anchor a wedding feast spread.",
+    "regionalVariation": "Parsi dhansak keema adds lentils and tamarind for a sweet-sour dimension; Lucknawi versions use less tomato and more whole spices for a cleaner masala.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-hyderabadi-apollo-fish-fry",
+    "slug": "hyderabadi-apollo-fish-fry",
+    "title": "Hyderabadi Apollo Fish Fry",
+    "nativeTitle": null,
+    "description": "Boneless fish strips coated in a spiced cornflour batter, deep-fried until shatteringly crisp, then tossed in the wok with curry leaves, green chillies, and a final hit of garam masala. Hyderabad's most beloved restaurant fish dish.",
+    "cuisine": "hyderabadi",
+    "country": "india",
+    "region": "telangana-region",
+    "language": "en",
+    "mealType": ["dinner", "snack"],
+    "dietType": ["non_vegetarian", "high_protein"],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      { "name": "boneless fish fillets (rohu, seer, or tilapia), cut into 5 cm strips", "normalizedName": "fish", "quantity": 500, "unit": "g", "optional": false },
+      { "name": "cornflour", "normalizedName": "cornflour", "quantity": 3, "unit": "tbsp", "optional": false },
+      { "name": "maida (plain flour)", "normalizedName": "maida", "quantity": 2, "unit": "tbsp", "optional": false },
+      { "name": "ginger-garlic paste", "normalizedName": "ginger-garlic-paste", "quantity": 1.5, "unit": "tbsp", "optional": false },
+      { "name": "red chilli powder", "normalizedName": "red-chilli-powder", "quantity": 1.5, "unit": "tsp", "optional": false },
+      { "name": "turmeric powder", "normalizedName": "turmeric", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "black pepper, coarsely ground", "normalizedName": "black-pepper", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "garam masala", "normalizedName": "garam-masala", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "lemon juice", "normalizedName": "lemon", "quantity": 1, "unit": "tbsp", "optional": false },
+      { "name": "green chillies, slit", "normalizedName": "green-chilli", "quantity": 4, "unit": "piece", "optional": false },
+      { "name": "curry leaves", "normalizedName": "curry-leaves", "quantity": 2, "unit": "sprig", "optional": false },
+      { "name": "onion, sliced into rings", "normalizedName": "onion", "quantity": 1, "unit": "piece", "optional": false },
+      { "name": "oil for deep frying", "normalizedName": "oil", "quantity": 500, "unit": "ml", "optional": false },
+      { "name": "salt", "normalizedName": "salt", "quantity": null, "unit": "to_taste", "optional": false },
+      { "name": "coriander leaves for garnish", "normalizedName": "coriander-leaves", "quantity": 1, "unit": "tbsp", "optional": true }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pat the fish strips completely dry with paper towels — any surface moisture will make the batter slide off. In a bowl, mix cornflour, maida, red chilli powder, turmeric, black pepper, ginger-garlic paste, lemon juice, and salt into a thick paste. Add the fish and coat each strip well. Rest 10 minutes.",
+        "timerMinutes": 10,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a deep kadai to 180°C (a pinch of batter dropped in should sizzle and rise immediately). Fry the fish strips in batches of 4–5, without crowding, for 4–5 minutes until the coating is golden and fully crisp. Drain on paper.",
+        "timerMinutes": 10,
+        "method": "deep-frying"
+      },
+      {
+        "order": 3,
+        "text": "Pour out most of the oil, leaving about 2 tbsp in the kadai on high heat. Add curry leaves — stand back, they will spit. Add slit green chillies and onion rings and stir-fry for 2 minutes until the onions just soften and char at the edges.",
+        "timerMinutes": 2,
+        "method": "stir-frying"
+      },
+      {
+        "order": 4,
+        "text": "Slide the fried fish back into the kadai. Sprinkle garam masala and toss vigorously for 1 minute so the fish picks up the aromatics. The coating should stay crisp. Plate immediately and top with fresh coriander.",
+        "timerMinutes": 1
+      }
+    ],
+    "cookware": ["kadai"],
+    "methods": ["marinating", "deep-frying", "stir-frying"],
+    "tags": ["street-food", "party", "fried-snack", "comfort-food"],
+    "allergens": ["fish", "gluten"],
+    "nutrition": { "calories": 285, "protein": 26, "carbs": 12, "fat": 15, "fiber": 1, "sugar": 1, "sodium": null, "isEstimate": true },
+    "substitutions": [
+      { "ingredient": "fish", "substitute": "boneless chicken strips — fry 2 minutes longer; same toss-and-serve finish" },
+      { "ingredient": "cornflour", "substitute": "rice flour — lighter, crispier coating and naturally gluten-free" },
+      { "ingredient": "maida", "substitute": "omit entirely and double the cornflour for a lighter, gluten-free version" }
+    ],
+    "culturalNote": "Apollo fish was popularised by Hyderabadi restaurants in the 1980s and is now so iconic that it transcends its restaurant origins — sold at roadside stalls throughout the city.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-hyderabadi-khatti-dal",
+    "slug": "hyderabadi-khatti-dal",
+    "title": "Hyderabadi Khatti Dal",
+    "nativeTitle": null,
+    "description": "A boldly tangy toor dal cooked with tamarind and finished with a fierce mustard-chilli-garlic tempering. This is the everyday dal of Hyderabad — deceptively simple, intensely flavoured, and unmistakably Deccan.",
+    "cuisine": "hyderabadi",
+    "country": "india",
+    "region": "telangana-region",
+    "language": "en",
+    "mealType": ["lunch", "dinner"],
+    "dietType": ["vegan"],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      { "name": "toor dal (split pigeon peas)", "normalizedName": "toor-dal", "quantity": 0.75, "unit": "cup", "optional": false },
+      { "name": "tamarind pulp, strained", "normalizedName": "tamarind", "quantity": 3, "unit": "tbsp", "optional": false },
+      { "name": "tomato, chopped", "normalizedName": "tomato", "quantity": 1, "unit": "piece", "optional": false },
+      { "name": "green chilli, slit", "normalizedName": "green-chilli", "quantity": 2, "unit": "piece", "optional": false },
+      { "name": "dried red chillies, whole", "normalizedName": "dried-red-chilli", "quantity": 3, "unit": "piece", "optional": false },
+      { "name": "garlic cloves, minced", "normalizedName": "garlic", "quantity": 4, "unit": "clove", "optional": false },
+      { "name": "red chilli powder", "normalizedName": "red-chilli-powder", "quantity": 1, "unit": "tsp", "optional": false },
+      { "name": "turmeric powder", "normalizedName": "turmeric", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "mustard seeds", "normalizedName": "mustard-seeds", "quantity": 1, "unit": "tsp", "optional": false },
+      { "name": "cumin seeds", "normalizedName": "cumin", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "curry leaves", "normalizedName": "curry-leaves", "quantity": 2, "unit": "sprig", "optional": false },
+      { "name": "oil", "normalizedName": "oil", "quantity": 2, "unit": "tbsp", "optional": false },
+      { "name": "salt", "normalizedName": "salt", "quantity": null, "unit": "to_taste", "optional": false },
+      { "name": "coriander leaves", "normalizedName": "coriander-leaves", "quantity": 1, "unit": "tbsp", "optional": true }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pressure cook toor dal with tomato, green chilli, turmeric, and 2.5 cups water for 4 whistles. Allow pressure to release naturally. Open and mash the dal lightly — it should be smooth with a few whole pieces remaining.",
+        "timerMinutes": 20,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "Add tamarind pulp and salt to the cooked dal. Stir well and bring to a simmer on medium. Taste — the dal should be noticeably sour; add more tamarind if needed. If the dal is too thick, add hot water to reach a pourable consistency.",
+        "timerMinutes": 3,
+        "method": "simmering"
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a small tempering pan on high. Add mustard seeds and cumin seeds; let them splutter. Add the dried red chillies and curry leaves — they will crackle loudly. Immediately add the minced garlic and stir for 30 seconds until it turns golden.",
+        "method": "tempering"
+      },
+      {
+        "order": 4,
+        "text": "Add red chilli powder to the tempering and stir for 5 seconds, then tip the entire sizzling tempering over the dal. It will hiss and bubble. Stir to combine, scatter coriander leaves, and serve hot with rice or roti."
+      }
+    ],
+    "cookware": ["pressure-cooker", "frying-pan"],
+    "methods": ["pressure-cooking", "simmering", "tempering"],
+    "tags": ["comfort-food", "budget", "quick", "gravy"],
+    "allergens": [],
+    "nutrition": { "calories": 175, "protein": 9, "carbs": 26, "fat": 5, "fiber": 6, "sugar": 3, "sodium": null, "isEstimate": true },
+    "substitutions": [
+      { "ingredient": "toor-dal", "substitute": "masoor dal (red lentil) — cooks faster (3 whistles); similar flavour" },
+      { "ingredient": "tamarind", "substitute": "3 tbsp kokum water or 2 tsp amchur powder — different but equally sour" },
+      { "ingredient": "garlic", "substitute": "asafoetida (a large pinch) in the tempering for a garlic-free version" }
+    ],
+    "culturalNote": "Khatti dal (sour dal) is the everyday table dish of Hyderabadi Hindu and Muslim families alike — the tamarind sourness is the Deccan's answer to the amchur-based tartness of North Indian dals.",
+    "regionalVariation": "The Telugu version of this dal, called chintapandu pappu, uses more tamarind and sometimes adds raw mango in season.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-mughlai-murgh-malai-kebab-tawa",
+    "slug": "mughlai-murgh-malai-kebab-tawa",
+    "title": "Mughlai Murgh Malai Kebab (Tawa)",
+    "nativeTitle": null,
+    "description": "Boneless chicken marinated in cream, cheese, and cardamom, cooked on a hot tawa until charred at the edges and silky inside. The tawa version delivers the soft, cream-scented Mughlai kebab without a tandoor.",
+    "cuisine": "mughlai",
+    "country": "india",
+    "region": "awadh",
+    "language": "en",
+    "mealType": ["dinner", "snack"],
+    "dietType": ["non_vegetarian", "high_protein"],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      { "name": "boneless chicken breast or thigh, cut into large pieces", "normalizedName": "chicken", "quantity": 500, "unit": "g", "optional": false },
+      { "name": "fresh cream", "normalizedName": "cream", "quantity": 4, "unit": "tbsp", "optional": false },
+      { "name": "thick curd, hung 15 minutes", "normalizedName": "curd", "quantity": 3, "unit": "tbsp", "optional": false },
+      { "name": "processed cheese, grated", "normalizedName": "cheese", "quantity": 2, "unit": "tbsp", "optional": false },
+      { "name": "ginger-garlic paste", "normalizedName": "ginger-garlic-paste", "quantity": 1, "unit": "tbsp", "optional": false },
+      { "name": "green chilli, finely minced", "normalizedName": "green-chilli", "quantity": 2, "unit": "piece", "optional": false },
+      { "name": "cardamom powder", "normalizedName": "cardamom", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "black pepper, freshly ground", "normalizedName": "black-pepper", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "garam masala", "normalizedName": "garam-masala", "quantity": 0.25, "unit": "tsp", "optional": false },
+      { "name": "lemon juice", "normalizedName": "lemon", "quantity": 1, "unit": "tbsp", "optional": false },
+      { "name": "oil or butter (for tawa)", "normalizedName": "oil", "quantity": 2, "unit": "tbsp", "optional": false },
+      { "name": "salt", "normalizedName": "salt", "quantity": null, "unit": "to_taste", "optional": false },
+      { "name": "coriander leaves for garnish", "normalizedName": "coriander-leaves", "quantity": 1, "unit": "tbsp", "optional": true }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Whisk together cream, hung curd, grated cheese, ginger-garlic paste, green chilli, cardamom powder, black pepper, garam masala, lemon juice, and salt into a smooth white marinade. Coat the chicken pieces thoroughly, cover, and refrigerate for at least 30 minutes — up to 4 hours for deeper flavour.",
+        "timerMinutes": 30,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Bring the chicken to room temperature 15 minutes before cooking. Heat the tawa on high until very hot, then reduce to medium-high. Brush with oil. Lay the chicken pieces in a single layer without crowding.",
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Cook without moving for 4–5 minutes until the underside shows golden-brown char spots and the marinade has set. Flip carefully and cook for another 4–5 minutes. The chicken should register 75°C inside or cut through cleanly with no pink juice.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 4,
+        "text": "Baste with a little butter in the last minute for extra richness. Rest the kebabs on a warm plate for 2 minutes before serving with mint chutney, sliced onion rings, and lemon wedges."
+      }
+    ],
+    "cookware": ["tawa"],
+    "methods": ["marinating", "tawa-cooking"],
+    "tags": ["party", "grill-bbq", "comfort-food", "gym"],
+    "allergens": ["dairy"],
+    "nutrition": { "calories": 280, "protein": 32, "carbs": 3, "fat": 16, "fiber": 0, "sugar": 2, "sodium": null, "isEstimate": true },
+    "substitutions": [
+      { "ingredient": "cheese", "substitute": "2 tbsp thick cream cheese or malai — same richness" },
+      { "ingredient": "chicken", "substitute": "large paneer cubes — cook 2–3 minutes per side; fragile so handle gently" },
+      { "ingredient": "curd", "substitute": "extra cream — omitting curd makes the marinade richer and slightly less tangy" }
+    ],
+    "culturalNote": "Malai kebab takes its name from malai (cream) — the Mughlai technique of enriching marinades with dairy to produce tender, pale-golden kebabs was refined in the Lucknawi court kitchens.",
+    "regionalVariation": "Air-fryer version: arrange kebabs in a single layer and air-fry at 200°C for 12 minutes, flipping once halfway — excellent crisp edges with less oil.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-hyderabadi-veg-dum-biryani",
+    "slug": "hyderabadi-veg-dum-biryani",
+    "title": "Hyderabadi Veg Dum Biryani",
+    "nativeTitle": null,
+    "description": "Seasonal vegetables marinated in curd and spices, layered with fragrant saffron-infused basmati and sealed for a slow dum. Every bit as aromatic as the meat version and a celebration in its own right.",
+    "cuisine": "hyderabadi",
+    "country": "india",
+    "region": "telangana-region",
+    "language": "en",
+    "mealType": ["lunch", "dinner"],
+    "dietType": ["vegetarian"],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 45,
+    "totalTimeMinutes": 70,
+    "servings": 6,
+    "ingredients": [
+      { "name": "basmati rice, soaked 30 minutes", "normalizedName": "basmati-rice", "quantity": 2, "unit": "cup", "optional": false },
+      { "name": "potato, peeled and cut into large cubes", "normalizedName": "potato", "quantity": 2, "unit": "piece", "optional": false },
+      { "name": "carrot, cut into batons", "normalizedName": "carrot", "quantity": 2, "unit": "piece", "optional": false },
+      { "name": "cauliflower, broken into large florets", "normalizedName": "cauliflower", "quantity": 200, "unit": "g", "optional": false },
+      { "name": "green peas", "normalizedName": "peas", "quantity": 0.5, "unit": "cup", "optional": false },
+      { "name": "onion, thinly sliced", "normalizedName": "onion", "quantity": 3, "unit": "piece", "optional": false },
+      { "name": "thick curd, whisked", "normalizedName": "curd", "quantity": 0.5, "unit": "cup", "optional": false },
+      { "name": "ginger-garlic paste", "normalizedName": "ginger-garlic-paste", "quantity": 1.5, "unit": "tbsp", "optional": false },
+      { "name": "mint leaves", "normalizedName": "mint", "quantity": 1, "unit": "handful", "optional": false },
+      { "name": "coriander leaves", "normalizedName": "coriander-leaves", "quantity": 1, "unit": "handful", "optional": false },
+      { "name": "red chilli powder", "normalizedName": "red-chilli-powder", "quantity": 1.5, "unit": "tsp", "optional": false },
+      { "name": "garam masala", "normalizedName": "garam-masala", "quantity": 1.5, "unit": "tsp", "optional": false },
+      { "name": "turmeric powder", "normalizedName": "turmeric", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "saffron strands", "normalizedName": "saffron", "quantity": 1, "unit": "pinch", "optional": false },
+      { "name": "warm milk", "normalizedName": "milk", "quantity": 3, "unit": "tbsp", "optional": false },
+      { "name": "ghee", "normalizedName": "ghee", "quantity": 3, "unit": "tbsp", "optional": false },
+      { "name": "oil", "normalizedName": "oil", "quantity": 4, "unit": "tbsp", "optional": false },
+      { "name": "salt", "normalizedName": "salt", "quantity": null, "unit": "to_taste", "optional": false }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Steep saffron in warm milk. Deep-fry the sliced onions in oil until golden-brown and crisp. Remove half for garnish; leave the rest in the oil. In a large bowl, combine all vegetables with curd, ginger-garlic paste, red chilli powder, turmeric, half the garam masala, and salt. Mix in the crispy onions. Marinate for 20 minutes.",
+        "timerMinutes": 25,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Boil heavily salted water in a large pot. Add the soaked basmati and cook for 6 minutes until 70% done — a white chalky core should remain when you bite a grain. Drain through a colander at once.",
+        "timerMinutes": 6,
+        "method": "boiling"
+      },
+      {
+        "order": 3,
+        "text": "Transfer the marinated vegetables into the base of a heavy-bottomed pot and spread evenly. The raw vegetable marinade will cook through during dum.",
+        "method": "dum"
+      },
+      {
+        "order": 4,
+        "text": "Layer the drained rice on top of the vegetables. Scatter the mint and coriander leaves and reserved fried onions over the rice. Sprinkle the remaining garam masala. Drizzle ghee and saffron milk over the top.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 5,
+        "text": "Cover the pot with foil pressed tightly, then the lid. Place over a tawa on the lowest flame and cook on dum for 25 minutes. The steam circulating inside will cook the vegetables from below and the rice from above simultaneously.",
+        "timerMinutes": 25
+      },
+      {
+        "order": 6,
+        "text": "Rest sealed for 10 minutes. Open carefully from one side. Gently mix from the bottom up — the vegetables should be fully cooked and the rice fragrant and fluffy. Serve with raita or khatti dal.",
+        "timerMinutes": 10
+      }
+    ],
+    "cookware": ["heavy-bottomed-pot", "tawa", "kadai"],
+    "methods": ["deep-frying", "boiling", "marinating", "dum"],
+    "tags": ["festival", "party", "comfort-food", "gravy"],
+    "allergens": ["dairy"],
+    "nutrition": { "calories": 390, "protein": 8, "carbs": 58, "fat": 14, "fiber": 5, "sugar": 5, "sodium": null, "isEstimate": true },
+    "substitutions": [
+      { "ingredient": "basmati-rice", "substitute": "sona masoori or any aged long-grain rice — soak an extra 15 minutes" },
+      { "ingredient": "cauliflower", "substitute": "mushrooms or broccoli florets — add directly without changing timings" },
+      { "ingredient": "ghee", "substitute": "extra oil for a fully plant-based version; the flavour will be lighter" },
+      { "ingredient": "curd", "substitute": "unsweetened coconut yogurt for a dairy-free, vegan version" }
+    ],
+    "culturalNote": "The vegetable dum biryani of Hyderabad shares the same layering philosophy and sealing technique as its meat counterpart, making it a full celebration dish rather than a compromise.",
+    "regionalVariation": "Restaurants sometimes add saffron-soaked paneer cubes between the layers for extra richness; home cooks often use whatever seasonal vegetable is at its peak.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-hyderabadi-qabooli-chana-biryani",
+    "slug": "hyderabadi-qabooli-chana-biryani",
+    "title": "Hyderabadi Qabooli Chana Biryani",
+    "nativeTitle": null,
+    "description": "Spiced chickpeas layered with herbed basmati and cooked on dum — a centuries-old Hyderabadi festive biryani that is entirely plant-based. The tamarind-kissed chickpea masala gives this dish a tangy depth that sets it apart from other vegetable biryanis.",
+    "cuisine": "hyderabadi",
+    "country": "india",
+    "region": "telangana-region",
+    "language": "en",
+    "mealType": ["lunch", "dinner"],
+    "dietType": ["vegan"],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 40,
+    "totalTimeMinutes": 60,
+    "servings": 6,
+    "ingredients": [
+      { "name": "basmati rice, soaked 30 minutes", "normalizedName": "basmati-rice", "quantity": 2, "unit": "cup", "optional": false },
+      { "name": "cooked chickpeas (canned or pressure-cooked)", "normalizedName": "chickpea", "quantity": 400, "unit": "g", "optional": false },
+      { "name": "onion, thinly sliced", "normalizedName": "onion", "quantity": 3, "unit": "piece", "optional": false },
+      { "name": "tomato, finely chopped", "normalizedName": "tomato", "quantity": 2, "unit": "piece", "optional": false },
+      { "name": "ginger-garlic paste", "normalizedName": "ginger-garlic-paste", "quantity": 1.5, "unit": "tbsp", "optional": false },
+      { "name": "tamarind pulp", "normalizedName": "tamarind", "quantity": 1, "unit": "tbsp", "optional": false },
+      { "name": "mint leaves", "normalizedName": "mint", "quantity": 1, "unit": "handful", "optional": false },
+      { "name": "coriander leaves", "normalizedName": "coriander-leaves", "quantity": 1, "unit": "handful", "optional": false },
+      { "name": "red chilli powder", "normalizedName": "red-chilli-powder", "quantity": 1.5, "unit": "tsp", "optional": false },
+      { "name": "coriander powder", "normalizedName": "coriander-seeds", "quantity": 1, "unit": "tsp", "optional": false },
+      { "name": "turmeric powder", "normalizedName": "turmeric", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "garam masala", "normalizedName": "garam-masala", "quantity": 1.5, "unit": "tsp", "optional": false },
+      { "name": "bay leaves", "normalizedName": "bay-leaf", "quantity": 2, "unit": "leaf", "optional": false },
+      { "name": "oil", "normalizedName": "oil", "quantity": 4, "unit": "tbsp", "optional": false },
+      { "name": "salt", "normalizedName": "salt", "quantity": null, "unit": "to_taste", "optional": false }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Deep-fry the sliced onions in oil in batches until deeply golden and crisp. Reserve half for garnish; the rest will go into the chickpea masala.",
+        "timerMinutes": 14,
+        "method": "deep-frying"
+      },
+      {
+        "order": 2,
+        "text": "In the remaining oil in the kadai, add ginger-garlic paste and fry for 2 minutes. Add tomatoes with a pinch of salt and cook on medium for 6 minutes, mashing, until the tomatoes completely break down and the oil separates.",
+        "timerMinutes": 8,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Add red chilli powder, coriander powder, turmeric, and half the garam masala. Stir for 30 seconds. Add the cooked chickpeas and tamarind pulp. Toss to coat and simmer for 5 minutes until the masala clings to the chickpeas. Taste for salt and tanginess. Take off heat.",
+        "timerMinutes": 6,
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "Boil a large pot of heavily salted water with bay leaves. Cook the drained basmati for 6 minutes until 70% done — a white core should show when you bite a grain. Drain at once.",
+        "timerMinutes": 6,
+        "method": "boiling"
+      },
+      {
+        "order": 5,
+        "text": "Spread the chickpea masala in the base of a heavy-bottomed pot. Scatter half the mint, coriander leaves, and fried onions. Layer all the par-cooked rice on top. Spread the remaining herbs and onions. Sprinkle the remaining garam masala and drizzle 2 tbsp oil. Cover with foil then lid and place over a tawa on the lowest flame.",
+        "method": "dum"
+      },
+      {
+        "order": 6,
+        "text": "Cook on dum for 22–25 minutes. Rest sealed for 10 minutes, then open carefully. Plate in scoops so each serving carries the tangy chickpea layer from the bottom and the fragrant saffron-herb rice from the top.",
+        "timerMinutes": 35
+      }
+    ],
+    "cookware": ["heavy-bottomed-pot", "tawa", "kadai"],
+    "methods": ["deep-frying", "kadai-cooking", "simmering", "boiling", "dum"],
+    "tags": ["festival", "eid", "party", "budget", "comfort-food"],
+    "allergens": [],
+    "nutrition": { "calories": 370, "protein": 11, "carbs": 62, "fat": 10, "fiber": 8, "sugar": 4, "sodium": null, "isEstimate": true },
+    "substitutions": [
+      { "ingredient": "chickpea", "substitute": "chana dal, cooked until just tender — a more traditional, finer-textured qabooli" },
+      { "ingredient": "tamarind", "substitute": "1 tsp amchur powder stirred into the masala — same tang without the paste" },
+      { "ingredient": "basmati-rice", "substitute": "any long-grain rice soaked for 45 minutes; skip basmati for a budget version" }
+    ],
+    "culturalNote": "Qabooli biryani is one of the oldest Hyderabadi biryanis, predating the meat versions — records from the Nizam's kitchens suggest it was a prestige dish served at royal vegetarian banquets.",
+    "regionalVariation": "Some families add fried potato cubes alongside the chickpeas for a heartier texture; others stir in a spoonful of ghee at the end for richness.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  }
+]

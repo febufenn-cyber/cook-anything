@@ -1,0 +1,4116 @@
+[
+  {
+    "id": "ca-chettinad-chicken-curry",
+    "slug": "chettinad-chicken-curry",
+    "title": "Chettinad Chicken Curry",
+    "nativeTitle": "செட்டிநாடு கோழி குழம்பு",
+    "description": "The flagship curry of the Chettinad region — a bold, dark gravy built on freshly roasted pepper and fennel, fragrant with star anise and whole spices, finished with a ground coconut paste. Bold heat, deep layers of flavour, best served with idiyappam or parotta.",
+    "cuisine": "chettinad",
+    "country": "india",
+    "region": "chettinad-region",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "very_hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 40,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken (curry cut, with bone)",
+        "normalizedName": "chicken",
+        "quantity": 700,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "shallots (chinna vengayam), thinly sliced",
+        "normalizedName": "shallot",
+        "quantity": 15,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, roughly chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "gingelly oil (nallennai)",
+        "normalizedName": "gingelly-oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "any neutral oil works but changes character"
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "star anise (annachi mokku)",
+        "normalizedName": "star-anise",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cinnamon (pattai), 1-inch piece",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "cloves (kirambu)",
+        "normalizedName": "clove",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "fennel seeds (sombu)",
+        "normalizedName": "fennel",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black peppercorns, for roasting",
+        "normalizedName": "black-pepper",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "grated fresh coconut",
+        "normalizedName": "coconut",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, for garnish",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Dry roast the fennel seeds and black peppercorns in the kadai on low flame, stirring constantly, for 2 minutes until fragrant and lightly darkened. Transfer to a mixie, add grated coconut and 3 tablespoons of water, and grind to a smooth paste. Set aside.",
+        "timerMinutes": 2,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Wipe the kadai, pour in the gingelly oil and heat on medium. Add mustard seeds and let them splutter, then drop in the star anise, cinnamon and cloves. Stir for 30 seconds until the whole spices release their fragrance.",
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add the curry leaves and sliced shallots. Fry on medium heat, stirring often, until the shallots turn deep golden and caramelised at the edges, about 7 minutes.",
+        "timerMinutes": 7
+      },
+      {
+        "order": 4,
+        "text": "Add ginger-garlic paste and fry for 2 minutes until the raw smell disappears. Add the tomatoes with a pinch of salt and cook, pressing occasionally, until they completely break down and oil begins to separate, about 5 minutes.",
+        "timerMinutes": 7
+      },
+      {
+        "order": 5,
+        "text": "Reduce to low flame. Add red chilli powder, coriander powder and turmeric. Stir continuously for 30 seconds to bloom the spices — do not let the powders scorch.",
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 6,
+        "text": "Add the chicken pieces and raise the flame to high. Toss to coat all pieces in masala and sear for 5 minutes, turning regularly, until the chicken loses its pink colour and is coated in the dark masala.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 7,
+        "text": "Pour in 400 ml hot water and season with salt. Bring to a boil, then reduce to medium, cover and simmer for 20 minutes until the chicken is cooked through and the oil begins to rise.",
+        "timerMinutes": 20,
+        "method": "simmering"
+      },
+      {
+        "order": 8,
+        "text": "Stir in the coconut-pepper paste and mix well. Simmer uncovered for 8 minutes, stirring occasionally, until the gravy deepens in colour and a thin slick of oil floats on the surface.",
+        "timerMinutes": 8
+      },
+      {
+        "order": 9,
+        "text": "Taste and correct the salt. Switch off the flame, scatter coriander leaves over the top and rest for 10 minutes before serving — the flavour improves as it sits. Serve with idiyappam, parotta or steamed rice."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "mixie"
+    ],
+    "methods": [
+      "tempering",
+      "kadai-cooking",
+      "simmering"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "party"
+    ],
+    "allergens": [
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 395,
+      "protein": 33,
+      "carbs": 10,
+      "fat": 25,
+      "fiber": 3,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "shallot",
+        "substitute": "1 large onion, finely sliced",
+        "notes": "shallots give deeper sweetness"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "coconut oil or neutral cooking oil",
+        "notes": "gingelly oil is the Chettinad signature"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "80 ml thick coconut milk added with the water at step 7"
+      },
+      {
+        "ingredient": "chicken",
+        "substitute": "750 g mutton curry cut — pressure-cook 5 whistles before adding to masala"
+      }
+    ],
+    "culturalNote": "Chettinad cuisine is shaped by spice-trading merchants and a vast pantry of whole spices; the combination of pepper, fennel and star anise in a single dish is the house signature that makes this curry unmistakable across Tamil Nadu.",
+    "regionalVariation": "Karaikudi households add a piece of dried stone flower (kalpasi / marathi mokku) to the whole-spice tempering for a distinctive mossy, forest aroma; coastal Chettinad versions stir in a small ball of tamarind alongside the coconut paste.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-chettinad-pepper-chicken-fry",
+    "slug": "chettinad-pepper-chicken-fry",
+    "title": "Chettinad Pepper Chicken Fry",
+    "nativeTitle": "செட்டிநாடு மிளகு கோழி வறுவல்",
+    "description": "A dry-fried Chettinad chicken dish where freshly crushed black pepper and fennel dominate every bite. Bone-in pieces are seared dark in gingelly oil until the edges char slightly, giving the dish a fiery, addictive finish that pairs perfectly with rice or parotta.",
+    "cuisine": "chettinad",
+    "country": "india",
+    "region": "chettinad-region",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "very_hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken (curry cut, with bone)",
+        "normalizedName": "chicken",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "black peppercorns, coarsely crushed",
+        "normalizedName": "black-pepper",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fennel seeds (sombu)",
+        "normalizedName": "fennel",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "gingelly oil (nallennai)",
+        "normalizedName": "gingelly-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "shallots, thinly sliced",
+        "normalizedName": "shallot",
+        "quantity": 8,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "lemon",
+        "normalizedName": "lemon",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, for garnish",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Coarsely crush the black peppercorns and fennel seeds together in a mixie or mortar — 4–5 pulses only; you want a rough powder with some texture, not a fine powder. Set aside half for the marinade and half for finishing.",
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Combine the chicken with ginger-garlic paste, turmeric, red chilli powder, coriander powder, half the pepper-fennel mix and salt. Toss well to coat every piece evenly and marinate for 15 minutes at room temperature.",
+        "timerMinutes": 15,
+        "method": "marinating"
+      },
+      {
+        "order": 3,
+        "text": "Heat gingelly oil in a kadai over medium-high heat until shimmering. Add the sliced shallots and fry, stirring, until they turn golden, about 4 minutes.",
+        "timerMinutes": 4,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Add the curry leaves — they will crackle loudly. Add the marinated chicken and spread the pieces out in a single layer. Fry on medium-high for 8 minutes without disturbing, then flip and fry the other side for another 7 minutes until the chicken is cooked through and the edges are charred dark.",
+        "timerMinutes": 15,
+        "method": "pan-frying"
+      },
+      {
+        "order": 5,
+        "text": "Sprinkle the remaining pepper-fennel powder over the chicken and toss on high heat for 2 minutes so the fresh spice coats the pieces and toasts slightly.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 6,
+        "text": "Squeeze lemon juice over the dish, scatter coriander leaves, and serve immediately as a dry side dish or appetiser with sliced onion rings and parotta."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "mixie"
+    ],
+    "methods": [
+      "marinating",
+      "kadai-cooking",
+      "pan-frying"
+    ],
+    "tags": [
+      "dry-curry",
+      "party",
+      "comfort-food"
+    ],
+    "allergens": [
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 310,
+      "protein": 28,
+      "carbs": 5,
+      "fat": 19,
+      "fiber": 1,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "coconut oil",
+        "notes": "changes the flavour subtly but works well"
+      },
+      {
+        "ingredient": "shallot",
+        "substitute": "1 medium onion, sliced thinly"
+      },
+      {
+        "ingredient": "black-pepper",
+        "substitute": "increase to 3 tsp for extreme heat or reduce to 1 tsp for mild",
+        "notes": "pepper is the hero spice — do not skip it"
+      },
+      {
+        "ingredient": "chicken",
+        "substitute": "600 g boneless chicken for faster cooking — reduce fry time by 5 minutes"
+      }
+    ],
+    "culturalNote": "Milagu kozhi varuval is the quintessential Chettinad starter — the black pepper is never measured by pinch here, but by teaspoon, giving the dish its characteristic searing aftertaste.",
+    "regionalVariation": "Some Karaikudi restaurants finish the dish with a drizzle of freshly extracted coconut oil and whole dried red chillies tempered separately; this softens the pepper hit while adding a different warmth.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-meen-kuzhambu",
+    "slug": "tamil-meen-kuzhambu",
+    "title": "Tamil Meen Kuzhambu (Fish Curry)",
+    "nativeTitle": "மீன் குழம்பு",
+    "description": "A tangy, rust-red Tamil fish curry built on a tamarind base thickened with a shallot-tomato masala and tempered in gingelly oil. The fish simmers gently in the gravy just long enough to absorb the sour-spiced broth without breaking apart — serve it the next day and it only gets better.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "pescatarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "seer fish (vanjaram) or any firm fish, cut into steaks",
+        "normalizedName": "fish",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "tamarind (puli), lemon-sized ball",
+        "normalizedName": "tamarind",
+        "quantity": 40,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "shallots (chinna vengayam), sliced",
+        "normalizedName": "shallot",
+        "quantity": 12,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "gingelly oil (nallennai)",
+        "normalizedName": "gingelly-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fenugreek seeds (vendhayam)",
+        "normalizedName": "fenugreek-seeds",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, for garnish",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soak the tamarind in 300 ml warm water for 10 minutes. Squeeze and strain to extract the juice; discard the pulp and seeds. Set the tamarind water aside.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Heat gingelly oil in a heavy kadai over medium heat. Splutter the mustard seeds, then add fenugreek seeds and fry for 15 seconds — do not let the fenugreek brown or it will turn bitter.",
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add the curry leaves and sliced shallots. Fry until the shallots turn golden and translucent, about 5 minutes, then add ginger-garlic paste and cook for 2 more minutes until the raw smell is gone.",
+        "timerMinutes": 7
+      },
+      {
+        "order": 4,
+        "text": "Add the tomatoes with a pinch of salt and cook until they fully collapse, releasing their juices and beginning to dry out, about 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 5,
+        "text": "Lower the flame and add red chilli powder, coriander powder and turmeric. Stir for 30 seconds, then pour in the tamarind water. Bring to a boil on high heat.",
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Reduce to a gentle simmer. Slide in the fish steaks carefully and cook uncovered for 10 minutes, gently shaking the pan — do not stir or the fish will break apart. The gravy should thicken slightly and the fish will turn opaque throughout.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 7,
+        "text": "Taste the gravy: it should be balanced between sour, spicy and salty. Adjust seasoning, scatter coriander leaves and serve. The kuzhambu tastes even better the next day after the fish has soaked up the masala."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "tempering",
+      "simmering",
+      "kadai-cooking"
+    ],
+    "tags": [
+      "gravy",
+      "comfort-food",
+      "lunchbox"
+    ],
+    "allergens": [
+      "fish",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 250,
+      "protein": 27,
+      "carbs": 12,
+      "fat": 11,
+      "fiber": 3,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "fish",
+        "substitute": "tiger prawns — add at the same stage but reduce cook time to 5 minutes",
+        "notes": "changes to shellfish allergen"
+      },
+      {
+        "ingredient": "tamarind",
+        "substitute": "2 tbsp tamarind paste diluted in 250 ml water"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "any neutral cooking oil",
+        "notes": "gingelly oil gives the Tamil-coastal character"
+      },
+      {
+        "ingredient": "shallot",
+        "substitute": "1 large onion, sliced"
+      }
+    ],
+    "culturalNote": "Meen kuzhambu is the backbone of coastal Tamil home cooking — every coastal community has its version; the fenugreek seed tempering is the hallmark that distinguishes it from inland Tamil gravies.",
+    "regionalVariation": "In Chettinad, the base is thicker with added coconut paste and more peppercorn; in the Kongunadu belt, raw mango replaces tamarind when in season, giving the gravy a different fruity sourness.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-tawa-fish-fry",
+    "slug": "tamil-tawa-fish-fry",
+    "title": "Tamil Tawa Fish Fry",
+    "nativeTitle": "மீன் வறுவல்",
+    "description": "Seer fish steaks marinated in a sharp chilli-turmeric rub and seared on a hot tawa until the exterior crisps and caramelises while the inside stays moist. A classic Tamil coastal preparation — no batter, no fuss, just fish and spice.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "dietType": [
+      "pescatarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 40,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "seer fish (vanjaram) or king fish, steaks 2 cm thick",
+        "normalizedName": "fish",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, freshly ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false,
+        "notes": "for finishing in the pan"
+      },
+      {
+        "name": "oil, for shallow frying",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Rinse the fish steaks and pat them completely dry with kitchen towel — moisture prevents a good crust. Score each piece twice on both sides with a sharp knife so the marinade penetrates deep."
+      },
+      {
+        "order": 2,
+        "text": "Mix red chilli powder, turmeric, coriander powder, black pepper, ginger-garlic paste, lemon juice and salt into a thick paste. Rub this marinade generously all over the fish, working it into the scores. Leave at room temperature for 30 minutes — refrigerate if marinating longer.",
+        "timerMinutes": 30,
+        "method": "marinating"
+      },
+      {
+        "order": 3,
+        "text": "Heat a flat tawa or cast-iron skillet over high heat until very hot. Add oil and swirl to coat. Lay the fish steaks flat — they should sizzle loudly. Do not crowd the pan; work in batches if needed.",
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Fry on high heat for 3–4 minutes on the first side without touching, until a deep red-brown crust forms and the fish releases naturally from the pan. Flip carefully and fry the second side for 3 minutes.",
+        "timerMinutes": 7,
+        "method": "pan-frying"
+      },
+      {
+        "order": 5,
+        "text": "Drop the curry leaves directly onto the hot oil around the fish in the last minute of cooking — they will crackle and infuse the oil. Reduce heat slightly and baste the fish with the spiced oil.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 6,
+        "text": "Transfer the fish to a plate lined with kitchen paper. Serve immediately with sliced onion, lemon wedges and meen kuzhambu as a side. The crust softens quickly, so serve at once."
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "frying-pan"
+    ],
+    "methods": [
+      "marinating",
+      "tawa-cooking",
+      "pan-frying"
+    ],
+    "tags": [
+      "dry-curry",
+      "party",
+      "comfort-food"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "nutrition": {
+      "calories": 230,
+      "protein": 28,
+      "carbs": 3,
+      "fat": 12,
+      "fiber": 1,
+      "sugar": 1,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "fish",
+        "substitute": "pomfret (vaaval) whole fish, scored deeply — adjust fry time to 5 min per side"
+      },
+      {
+        "ingredient": "lemon",
+        "substitute": "2 tsp tamarind paste thinned with 1 tsp water"
+      },
+      {
+        "ingredient": "black-pepper",
+        "substitute": "omit for a more standard chilli-forward fry"
+      },
+      {
+        "ingredient": "oil",
+        "substitute": "ghee for finishing adds richness; use along with oil for frying"
+      }
+    ],
+    "culturalNote": "Tawa meen varuval is a coastal Tamil staple sold at roadside stalls outside every fish market from Chennai to Kanyakumari — the technique is deliberately minimalist so the freshness of the fish stands out.",
+    "regionalVariation": "In Kanyakumari district, the marinade often includes a small amount of rice flour for a crispier shell; in Ramnad, dried chillies are ground fresh with shallots for a coarser, more rustic crust.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-era-thokku",
+    "slug": "tamil-era-thokku",
+    "title": "Tamil Era Thokku (Prawn Stir-Fry)",
+    "nativeTitle": "ஏரல் தொக்கு",
+    "description": "A fierce, dry-ish prawn preparation where shallots and tomatoes are reduced to a thick paste that clings to every prawn. Cooked fast on high heat in gingelly oil so the prawns stay plump and the masala caramelises at the edges — a standout dish that disappears in minutes.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "pescatarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 35,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "prawns (eral), peeled and deveined",
+        "normalizedName": "prawn",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "shallots (chinna vengayam), finely chopped",
+        "normalizedName": "shallot",
+        "quantity": 10,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, finely chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "gingelly oil (nallennai)",
+        "normalizedName": "gingelly-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fennel seeds (sombu)",
+        "normalizedName": "fennel",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Toss the cleaned prawns with a pinch of turmeric, chilli powder and salt. Set aside while you prepare the masala base."
+      },
+      {
+        "order": 2,
+        "text": "Heat gingelly oil in a kadai on medium-high. Splutter the mustard seeds, add fennel seeds and curry leaves — they will pop and crackle. Add the chopped shallots and fry until they are lightly golden, about 4 minutes.",
+        "timerMinutes": 4,
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add ginger-garlic paste and fry for 1 minute. Add the tomatoes and cook on medium-high heat, pressing and stirring, until the tomatoes completely dissolve into the masala and the oil separates — about 5 minutes. The base should be thick and pasty.",
+        "timerMinutes": 6,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Add the remaining red chilli powder and coriander powder. Stir for 30 seconds on low flame, then raise the heat to high and add the prawns. Toss to coat thoroughly in the masala.",
+        "method": "stir-frying"
+      },
+      {
+        "order": 5,
+        "text": "Stir-fry on high heat for 4–5 minutes until the prawns are pink and curled and the masala clings tightly to each piece. The edges of the mixture should begin to caramelise. Do not overcook — overcooked prawns turn rubbery.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 6,
+        "text": "Squeeze in lemon juice, scatter coriander leaves and toss once more. Serve hot as a dry side with sambar rice or as an appetiser with sliced onion and lemon."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "tempering",
+      "kadai-cooking",
+      "stir-frying"
+    ],
+    "tags": [
+      "dry-curry",
+      "quick",
+      "party",
+      "comfort-food"
+    ],
+    "allergens": [
+      "shellfish",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 220,
+      "protein": 24,
+      "carbs": 8,
+      "fat": 10,
+      "fiber": 2,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "prawn",
+        "substitute": "500 g squid (kanava), cut into rings — add 3 extra minutes of cooking"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "coconut oil or neutral oil",
+        "notes": "gingelly oil gives the coastal Tamil flavour"
+      },
+      {
+        "ingredient": "shallot",
+        "substitute": "1 medium onion, finely chopped"
+      },
+      {
+        "ingredient": "lemon",
+        "substitute": "a small piece of tamarind dissolved in 1 tbsp warm water"
+      }
+    ],
+    "culturalNote": "Eral thokku is a Tamil coastal staple — the term 'thokku' describes a dry-thick preparation where the masala is reduced to a paste coating rather than a pourable gravy, keeping the seafood the centrepiece.",
+    "regionalVariation": "In Rameswaram and Pamban coastal areas, coconut milk is added in small amounts at the end to soften the heat; Chettinad restaurants serve a version with ground pepper paste and no tomato for an earthier, darker thokku.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-chettinad-mutton-chukka",
+    "slug": "chettinad-mutton-chukka",
+    "title": "Chettinad Mutton Chukka",
+    "nativeTitle": "செட்டிநாடு மட்டன் சுக்கா",
+    "description": "Pressure-cooked mutton finished in a kadai with freshly ground pepper-fennel paste and a thick shallot masala until every piece is dry-roasted and coated in dark, fragrant spice. The quintessential Chettinad dry mutton dish — intensely aromatic, rich in pepper heat.",
+    "cuisine": "chettinad",
+    "country": "india",
+    "region": "chettinad-region",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "very_hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 50,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "mutton (goat), curry cut with bone",
+        "normalizedName": "mutton",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "shallots, finely chopped",
+        "normalizedName": "shallot",
+        "quantity": 12,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "gingelly oil (nallennai)",
+        "normalizedName": "gingelly-oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "black peppercorns",
+        "normalizedName": "black-pepper",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fennel seeds (sombu)",
+        "normalizedName": "fennel",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "star anise",
+        "normalizedName": "star-anise",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cinnamon (pattai), 1-inch piece",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 3,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, for garnish",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Dry roast the black peppercorns and fennel seeds in the kadai for 2 minutes on low heat until fragrant. Transfer to a mixie, add 2 tablespoons of water and grind to a coarse paste. Set aside.",
+        "timerMinutes": 2,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "In a pressure cooker, heat 2 tablespoons of gingelly oil. Add the whole spices — star anise, cinnamon, cloves — and stir for 30 seconds. Add half the shallots and fry until golden. Add ginger-garlic paste and cook 1 minute.",
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Add the mutton pieces, turmeric, a pinch of red chilli powder and salt. Stir to coat, then add 200 ml water. Seal the pressure cooker and cook on high heat until 5 whistles, then reduce to low for 10 minutes. Allow pressure to release naturally.",
+        "timerMinutes": 25,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 4,
+        "text": "While the mutton cooks, heat the remaining 2 tablespoons of gingelly oil in the kadai. Add the remaining shallots and fry until deeply golden, about 6 minutes. Add the tomatoes and cook until they break down and oil separates.",
+        "timerMinutes": 10,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Add the remaining red chilli powder and coriander powder. Stir for 30 seconds, then add the pressure-cooked mutton along with any residual stock. Stir everything together."
+      },
+      {
+        "order": 6,
+        "text": "Add the curry leaves and stir in the pepper-fennel paste. Raise the flame to high and stir-fry, tossing the mutton, for 8 minutes until the liquid evaporates completely and the masala clings dry to each piece.",
+        "timerMinutes": 8,
+        "method": "stir-frying"
+      },
+      {
+        "order": 7,
+        "text": "Taste and adjust salt. The mutton should be nearly dry, each piece coated in dark masala. Scatter coriander leaves and serve with rice, parotta or as a standalone appetiser."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "kadai",
+      "mixie"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "kadai-cooking",
+      "stir-frying"
+    ],
+    "tags": [
+      "dry-curry",
+      "party",
+      "comfort-food"
+    ],
+    "allergens": [
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein": 30,
+      "carbs": 8,
+      "fat": 24,
+      "fiber": 2,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "mutton",
+        "substitute": "600 g chicken with bone — reduce to 3 whistles"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "coconut oil"
+      },
+      {
+        "ingredient": "black-pepper",
+        "substitute": "reduce to 1 tsp for medium heat"
+      },
+      {
+        "ingredient": "shallot",
+        "substitute": "2 medium onions, finely chopped"
+      }
+    ],
+    "culturalNote": "Mutton chukka is served at virtually every Chettinad feast; the name 'chukka' (sukku in Tamil) may reference dry ginger, though contemporary versions focus on pepper as the defining heat source.",
+    "regionalVariation": "Some Chettinad family kitchens finish the dish with a handful of fresh coconut shreds tossed in for the last minute of frying, softening the intensity; others add a piece of dried raw mango (mangai vathal) for a sour undernote.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-chettinad-nandu-masala",
+    "slug": "chettinad-nandu-masala",
+    "title": "Chettinad Nandu Masala (Crab Curry)",
+    "nativeTitle": "செட்டிநாடு நண்டு மசாலா",
+    "description": "Chettinad-style crab curry where whole cleaned crabs are cooked in a thick shallot-tomato gravy charged with freshly ground pepper and fennel. The shells absorb the fiery masala completely and the gravy clinging to the crab legs is the real prize.",
+    "cuisine": "chettinad",
+    "country": "india",
+    "region": "chettinad-region",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "pescatarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "very_hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 50,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "mud crab (nandu), cleaned and cut into pieces",
+        "normalizedName": "crab",
+        "quantity": 700,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "shallots (chinna vengayam), sliced",
+        "normalizedName": "shallot",
+        "quantity": 12,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "gingelly oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fennel seeds (sombu)",
+        "normalizedName": "fennel",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, coarsely crushed",
+        "normalizedName": "black-pepper",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "star anise",
+        "normalizedName": "star-anise",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "grated coconut",
+        "normalizedName": "coconut",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, for garnish",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Dry roast the fennel seeds and black pepper in the kadai for 1 minute until fragrant. Transfer to a mixie with the grated coconut and 3 tablespoons of water, and grind to a smooth paste. Set aside.",
+        "timerMinutes": 1,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Heat gingelly oil in the kadai on medium. Splutter mustard seeds, then add star anise and curry leaves. Add shallots and fry until golden, about 5 minutes.",
+        "timerMinutes": 5,
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add ginger-garlic paste and fry 2 minutes. Add tomatoes with a pinch of salt and cook, pressing, until they collapse completely and oil separates — about 5 minutes.",
+        "timerMinutes": 7,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Lower the heat. Add red chilli powder, coriander powder and turmeric. Stir for 30 seconds to bloom the spices without burning them."
+      },
+      {
+        "order": 5,
+        "text": "Add the crab pieces and toss to coat in the masala. Raise the flame to high and fry for 3 minutes, stirring. Pour in 200 ml hot water, season with salt, cover and cook on medium for 12 minutes until the crab shells turn deep orange-red.",
+        "timerMinutes": 15,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Stir in the coconut-pepper paste. Cook uncovered on medium-high for 5 minutes, stirring frequently, until the gravy thickens and coats the crab. Taste and adjust salt.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 7,
+        "text": "Scatter coriander leaves over the curry and serve immediately with rice or parotta. Provide finger bowls — eating nandu masala with fingers is half the joy."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "mixie"
+    ],
+    "methods": [
+      "tempering",
+      "kadai-cooking",
+      "simmering"
+    ],
+    "tags": [
+      "gravy",
+      "party",
+      "comfort-food"
+    ],
+    "allergens": [
+      "shellfish",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 310,
+      "protein": 26,
+      "carbs": 10,
+      "fat": 18,
+      "fiber": 3,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "crab",
+        "substitute": "600 g tiger prawns, peeled — reduce simmer to 6 minutes"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "coconut oil"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "60 ml thick coconut milk stirred in at the final step"
+      },
+      {
+        "ingredient": "shallot",
+        "substitute": "1 large onion, sliced"
+      }
+    ],
+    "culturalNote": "Nandu masala is a festive Chettinad preparation — crab is considered auspicious and appears at weddings and harvest celebrations; buying fresh local crabs from coastal markets is half the tradition.",
+    "regionalVariation": "Coastal Chettinad towns like Devakottai add a piece of dried fish (karuvaadu) to the oil before the shallots, layering a savoury umami depth into the base that you never quite identify but always miss if absent.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-kozhi-rasam",
+    "slug": "tamil-kozhi-rasam",
+    "title": "Tamil Kozhi Rasam (Chicken Rasam)",
+    "nativeTitle": "கோழி ரசம்",
+    "description": "A clear, warming chicken broth seasoned with rasam powder, tamarind and whole black pepper — thin enough to sip from a cup, soothing enough to serve when someone is unwell. Chicken bones give the broth body while the rasam masala gives it fire.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken with bone (neck, back or small pieces)",
+        "normalizedName": "chicken",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "tamarind, lemon-sized ball",
+        "normalizedName": "tamarind",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "tomato, quartered",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, crushed",
+        "normalizedName": "garlic",
+        "quantity": 6,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "black peppercorns, crushed",
+        "normalizedName": "black-pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "rasam powder (rasam podi)",
+        "normalizedName": "rasam-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "asafoetida (perungayam)",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds (seeragam)",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soak tamarind in 100 ml warm water for 10 minutes; squeeze and strain to extract the juice. In a small saucepan, combine chicken pieces, 700 ml water, turmeric and a pinch of salt. Bring to a boil and skim any foam.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Reduce to a steady simmer and cook the chicken for 15 minutes until the meat is cooked through and the broth is lightly flavoured. Lift out the chicken pieces and shred any meat from the bones; discard the bones. Reserve the stock.",
+        "timerMinutes": 15,
+        "method": "simmering"
+      },
+      {
+        "order": 3,
+        "text": "In a kadai or heavy pot, heat oil on medium. Splutter mustard seeds and cumin, then add dried red chillies, curry leaves, garlic and asafoetida. Fry for 30 seconds.",
+        "method": "tempering"
+      },
+      {
+        "order": 4,
+        "text": "Add the tomatoes and crush them against the pan. Add rasam powder, crushed pepper and the tamarind extract. Pour in the reserved chicken stock and bring to a rolling boil. Cook for 5 minutes until the raw tamarind smell mellows.",
+        "timerMinutes": 5,
+        "method": "boiling"
+      },
+      {
+        "order": 5,
+        "text": "Add the shredded chicken meat and any remaining broth. Simmer 2 minutes, taste and correct salt. The rasam should be thin and peppery. Turn off the heat."
+      },
+      {
+        "order": 6,
+        "text": "Finish with fresh coriander leaves. Serve as a first course poured over rice, or sip it from a tumbler — it is a well-known remedy for sore throats and head colds across Tamil households."
+      }
+    ],
+    "cookware": [
+      "saucepan",
+      "kadai"
+    ],
+    "methods": [
+      "tempering",
+      "simmering",
+      "boiling"
+    ],
+    "tags": [
+      "soup",
+      "comfort-food",
+      "healthy"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 120,
+      "protein": 14,
+      "carbs": 7,
+      "fat": 4,
+      "fiber": 1,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "rasam-powder",
+        "substitute": "1 tsp coriander powder + 0.5 tsp cumin + 0.5 tsp pepper — mix and use"
+      },
+      {
+        "ingredient": "tamarind",
+        "substitute": "1.5 tbsp tamarind paste diluted in 80 ml water"
+      },
+      {
+        "ingredient": "chicken",
+        "substitute": "skip chicken for a vegetarian pepper rasam; the rest stays the same"
+      },
+      {
+        "ingredient": "dried-red-chilli",
+        "substitute": "0.5 tsp extra rasam powder"
+      }
+    ],
+    "culturalNote": "Kozhi rasam is the South Indian home remedy for fevers and monsoon colds — the pepper, garlic and tamarind combination is considered medicinal in Siddha tradition and the thin broth is prescribed to restore appetite.",
+    "regionalVariation": "Certain Tirunelveli households skip the chicken entirely and use only the broth of boiled chicken bones; Chettinad versions add a small piece of raw turmeric root and a couple of peppercorns ground raw into the tamarind extract.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-chicken-65",
+    "slug": "tamil-chicken-65",
+    "title": "Tamil Chicken 65",
+    "nativeTitle": "சிக்கன் 65",
+    "description": "Deep-fried chicken bites in a tart, crimson curd-and-cornflour batter — crispy outside, juicy within, with a sharp ginger-garlic tang and the distinctive heat of Kashmiri chilli that gives the dish its vivid red colour. A Tamil restaurant staple that has conquered every city in India.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "snack",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "boneless chicken thighs, cut into 3 cm pieces",
+        "normalizedName": "chicken",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "curd (thick, not sour)",
+        "normalizedName": "curd",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cornflour",
+        "normalizedName": "cornflour",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "egg (1 egg white)",
+        "normalizedName": "egg",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder (Kashmiri for colour, or regular)",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil, for deep frying",
+        "normalizedName": "oil",
+        "quantity": 500,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "green chillies, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "lemon juice, for finishing",
+        "normalizedName": "lemon",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "In a large bowl, mix curd, cornflour, egg white, ginger-garlic paste, red chilli powder, turmeric, black pepper and salt into a smooth, thick batter. Add the chicken pieces and coat thoroughly — the batter should cling to each piece. Marinate for 20 minutes.",
+        "timerMinutes": 20,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a kadai to 175°C — test by dropping a small piece of batter; it should rise to the surface within 3 seconds. If it sinks and stays down, the oil is too cool; if it immediately darkens, it is too hot.",
+        "method": "deep-frying"
+      },
+      {
+        "order": 3,
+        "text": "Lower the chicken pieces in batches of 8–10 — do not crowd. Fry on medium-high heat for 5–6 minutes until deep red and crispy. Drain on kitchen paper. Repeat with remaining batches.",
+        "timerMinutes": 6,
+        "method": "deep-frying"
+      },
+      {
+        "order": 4,
+        "text": "Carefully drop the curry leaves and slit green chillies into the hot oil for 30 seconds until crisp, then scoop them out."
+      },
+      {
+        "order": 5,
+        "text": "Toss the fried chicken with the crispy curry leaves and green chillies. Squeeze lemon juice over immediately and serve on a plate with sliced onion rings and a wedge of lemon. Chicken 65 waits for no one — serve within minutes of frying."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "marinating",
+      "deep-frying"
+    ],
+    "tags": [
+      "street-food",
+      "party",
+      "fried-snack"
+    ],
+    "allergens": [
+      "dairy",
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "protein": 30,
+      "carbs": 12,
+      "fat": 21,
+      "fiber": 0,
+      "sugar": 1,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "curd",
+        "substitute": "2 tbsp lemon juice for a dairy-free version",
+        "notes": "batter will be thinner"
+      },
+      {
+        "ingredient": "egg",
+        "substitute": "omit — add 1 extra tbsp cornflour to bind the batter"
+      },
+      {
+        "ingredient": "cornflour",
+        "substitute": "rice flour for a crispier, gluten-friendly crust"
+      },
+      {
+        "ingredient": "chicken",
+        "substitute": "cauliflower florets (200 g) for gobi 65 — fry for only 4 minutes"
+      }
+    ],
+    "culturalNote": "Chicken 65 was invented at a hotel in Chennai in 1965 — the '65' refers to the year of origin, though the recipe has spread and evolved across South India into dozens of city-specific variants.",
+    "regionalVariation": "Hyderabad's version is tossed in a chilli-curd sauce after frying giving it a wet coating; Chennai roadside stalls serve it bone-in and much spicier; Coimbatore adds a final tempering of mustard-curry leaves tossed with the fried pieces.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-ambur-chicken-biryani",
+    "slug": "tamil-ambur-chicken-biryani",
+    "title": "Ambur-Style Chicken Biryani",
+    "nativeTitle": "அம்பூர் கோழி பிரியாணி",
+    "description": "A spare, deeply flavoured biryani from Ambur in northern Tamil Nadu — chicken marinated in curd and green chillies cooked with seeraga samba rice in a light dum, yielding individual grains stained with spice and the unmistakable aroma of ghee. Less showy than Hyderabadi, more aromatic than Lucknowi.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "hard",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 60,
+    "totalTimeMinutes": 90,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken (curry cut, with bone)",
+        "normalizedName": "chicken",
+        "quantity": 700,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "seeraga samba rice or sona masoori (short-grain aromatic)",
+        "normalizedName": "rice",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false,
+        "notes": "seeraga samba is traditional; sona masoori works well"
+      },
+      {
+        "name": "curd, whisked",
+        "normalizedName": "curd",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "onion, thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chillies, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 6,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cinnamon (pattai), 1-inch piece",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cardamom",
+        "normalizedName": "cardamom",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "star anise",
+        "normalizedName": "star-anise",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "mint leaves (pudina)",
+        "normalizedName": "mint",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves",
+        "normalizedName": "coriander-leaves",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Mix chicken with curd, ginger-garlic paste, red chilli powder, coriander powder, turmeric and salt. Add half the mint and coriander leaves and all the slit green chillies. Mix well and marinate for at least 20 minutes.",
+        "timerMinutes": 20,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Wash the rice in 3 changes of water, then soak in cold water for 20 minutes. Drain. Meanwhile, par-cook the rice in salted boiling water with one clove and a piece of cinnamon for exactly 7 minutes — the grains should be 70% cooked (firm in the centre). Drain and spread on a tray to cool.",
+        "timerMinutes": 27
+      },
+      {
+        "order": 3,
+        "text": "Heat oil and 2 tablespoons of ghee in a heavy-bottomed pot. Add cinnamon, cloves, cardamom and star anise. Fry 30 seconds. Add the sliced onions and fry on medium heat, stirring, until deeply golden and beginning to crisp — about 12 minutes.",
+        "timerMinutes": 12,
+        "method": "tempering"
+      },
+      {
+        "order": 4,
+        "text": "Add tomatoes and cook until they break down. Add the marinated chicken with all the marinade. Stir well, cover and cook on medium for 20 minutes until the chicken is nearly cooked and the masala is rich and thick.",
+        "timerMinutes": 20,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Check that the chicken masala is not too wet — there should be a very thick saucy base, not a watery gravy. Taste and adjust salt.",
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 6,
+        "text": "Layer the par-cooked rice over the chicken masala evenly. Scatter the remaining mint and coriander leaves on top and drizzle the remaining 1 tablespoon of ghee. Place a piece of foil over the pot and seal tightly with the lid. Cook on high heat for 2 minutes, then reduce to the lowest possible flame and cook for 15 minutes — this is the dum stage.",
+        "timerMinutes": 17,
+        "method": "dum"
+      },
+      {
+        "order": 7,
+        "text": "Remove from heat and rest undisturbed for 10 minutes. Open and gently mix the biryani from bottom to top using a flat spatula, folding rather than stirring. Serve hot with raita, brinjal gothsu or salna."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "saucepan"
+    ],
+    "methods": [
+      "marinating",
+      "tempering",
+      "simmering",
+      "dum"
+    ],
+    "tags": [
+      "party",
+      "comfort-food",
+      "festival"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 580,
+      "protein": 38,
+      "carbs": 65,
+      "fat": 18,
+      "fiber": 3,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "rice",
+        "substitute": "basmati rice — reduce par-cook time to 5 minutes"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "2 tbsp lemon juice for a dairy-free marinade"
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "butter or extra oil",
+        "notes": "ghee is important for authentic aroma"
+      },
+      {
+        "ingredient": "chicken",
+        "substitute": "600 g mutton — pressure-cook separately for 4 whistles before adding to masala"
+      }
+    ],
+    "culturalNote": "Ambur biryani uses seeraga samba rice — a small, fragrant variety grown locally — rather than basmati, which is why the texture is denser and the aroma more earthy; the city of Ambur is considered the biryani capital of Tamil Nadu.",
+    "regionalVariation": "Vaniyambadi, a town adjacent to Ambur, makes a nearly identical biryani but uses slightly more tomatoes and less curd in the marinade; the rivalry between Ambur and Vaniyambadi biryani is discussed with great local seriousness.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-kothu-parotta-egg",
+    "slug": "tamil-kothu-parotta-egg",
+    "title": "Tamil Kothu Parotta with Egg",
+    "nativeTitle": "கொத்து பரோட்டா",
+    "description": "Shredded layered parotta chopped and stir-fried with beaten egg, onion, tomato and a sharp masala on a blazing tawa — a street-food institution outside every Tamil Nadu hotel after dark. The rhythmic scraping of iron blades against the tawa is the sound of kothu parotta.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "dinner",
+      "tiffin"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 35,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "ready-made layered parotta (or maida parathas), torn into small pieces",
+        "normalizedName": "maida",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false,
+        "notes": "store-bought parotta works perfectly; use whole-wheat paratha as a substitute"
+      },
+      {
+        "name": "eggs",
+        "normalizedName": "egg",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, finely chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chillies, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tear or cut the parotta into irregular 2 cm pieces. Beat the eggs with a pinch of salt and set aside. Prepare all vegetables before starting as this dish cooks fast on high heat and there is no time to chop mid-way.",
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a wide tawa or kadai over high flame. Add curry leaves and green chillies. Add the onion and fry, pressing and tossing, until the onion is softened and lightly browned at the edges, about 4 minutes.",
+        "timerMinutes": 4,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Add ginger-garlic paste and fry 1 minute. Add tomatoes and cook, pressing hard, for 3 minutes until they break down. Add red chilli powder, coriander powder and turmeric. Stir well on high heat for 30 seconds.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 4,
+        "text": "Push the masala to one side. Pour the beaten eggs onto the empty side of the tawa and let them cook for 20 seconds, then immediately begin chopping and folding the semi-cooked egg into the masala using a flat spatula or two.",
+        "method": "stir-frying"
+      },
+      {
+        "order": 5,
+        "text": "Add the torn parotta pieces to the tawa and fold everything together. Using the edge of your spatula, chop the parotta into the masala — the pieces should break into smaller shreds and absorb the egg and spices. Stir-fry on high heat for 5 minutes until the mixture is fully integrated and slightly crispy at the edges.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 6,
+        "text": "Taste and adjust salt. Finish with coriander leaves. Serve immediately — kothu parotta firms up as it cools, so eat it hot off the tawa with a side of onion raita or salna gravy."
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "kadai"
+    ],
+    "methods": [
+      "tawa-cooking",
+      "stir-frying"
+    ],
+    "tags": [
+      "street-food",
+      "tiffin",
+      "comfort-food",
+      "bachelor-friendly"
+    ],
+    "allergens": [
+      "egg",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 18,
+      "carbs": 55,
+      "fat": 22,
+      "fiber": 3,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "egg",
+        "substitute": "150 g cooked shredded chicken or mutton for a non-vegetarian version",
+        "notes": "add at step 4"
+      },
+      {
+        "ingredient": "maida",
+        "substitute": "whole-wheat layered paratha — slightly denser but works well"
+      },
+      {
+        "ingredient": "onion",
+        "substitute": "shallots (8–10 pieces) for a sweeter base"
+      },
+      {
+        "ingredient": "green-chilli",
+        "substitute": "red chilli flakes — use 1 tsp"
+      }
+    ],
+    "culturalNote": "Kothu parotta originated in Madurai and spread throughout Tamil Nadu as a late-night street-food staple; the word 'kothu' means 'to mince' or 'chop', describing the technique as much as the dish.",
+    "regionalVariation": "Coimbatore-style kothu parotta often uses a slightly different masala powder specific to the region; in Chennai's restaurants a thin salna gravy is always served alongside for dipping.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-muttai-kuzhambu",
+    "slug": "tamil-muttai-kuzhambu",
+    "title": "Tamil Muttai Kuzhambu (Egg Curry)",
+    "nativeTitle": "முட்டை குழம்பு",
+    "description": "Hard-boiled eggs simmered in a tangy shallot-tomato-tamarind gravy spiced with sambar powder and black pepper. The eggs soak up the gravy beautifully if left to rest — a weekday Tamil classic that pairs with both rice and chapathi.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "eggs, hard-boiled and peeled",
+        "normalizedName": "egg",
+        "quantity": 5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "shallots (chinna vengayam), sliced",
+        "normalizedName": "shallot",
+        "quantity": 12,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tamarind",
+        "normalizedName": "tamarind",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "gingelly oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fenugreek seeds (vendhayam)",
+        "normalizedName": "fenugreek-seeds",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "sambar powder",
+        "normalizedName": "sambar-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, for garnish",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soak tamarind in 250 ml warm water for 10 minutes; squeeze and strain to get thick tamarind water. Score the boiled eggs with 4 shallow cuts on the surface so the gravy can penetrate.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Heat gingelly oil in a kadai over medium heat. Splutter mustard seeds, then add fenugreek seeds and fry 10 seconds — they should just turn golden, not brown. Add curry leaves and shallots and fry until golden, about 5 minutes.",
+        "timerMinutes": 5,
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add ginger-garlic paste and fry 1 minute. Add tomatoes with a pinch of salt and cook until fully broken down and the oil separates, about 5 minutes.",
+        "timerMinutes": 6,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Lower the flame. Add red chilli powder, coriander powder, sambar powder, turmeric and black pepper. Stir for 30 seconds to bloom the spices, then pour in the tamarind water. Bring to a boil.",
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Gently lower the scored eggs into the gravy. Simmer on medium heat for 8 minutes, spooning the gravy over the eggs and turning them once, until the gravy thickens and the eggs are fully coated.",
+        "timerMinutes": 8
+      },
+      {
+        "order": 6,
+        "text": "Taste and adjust salt. The gravy should be sour, spicy and slightly thick. Scatter coriander leaves and serve with rice, idli or chapathi. The flavour deepens if rested 15 minutes before serving."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "tempering",
+      "kadai-cooking",
+      "simmering"
+    ],
+    "tags": [
+      "gravy",
+      "comfort-food",
+      "budget",
+      "lunchbox"
+    ],
+    "allergens": [
+      "egg",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 220,
+      "protein": 12,
+      "carbs": 12,
+      "fat": 14,
+      "fiber": 2,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "egg",
+        "substitute": "200 g firm paneer cubes for a vegetarian version — reduce simmer to 4 minutes"
+      },
+      {
+        "ingredient": "tamarind",
+        "substitute": "1.5 tbsp tamarind paste dissolved in 200 ml water"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "any cooking oil"
+      },
+      {
+        "ingredient": "sambar-powder",
+        "substitute": "0.5 tsp rasam powder + 0.5 tsp extra coriander powder"
+      }
+    ],
+    "culturalNote": "Muttai kuzhambu is the great equaliser of Tamil weekday cooking — affordable, quick and deeply satisfying, it appears in lunchboxes from Madurai to Chennai and is a reliable partner for both rice and idli the next morning.",
+    "regionalVariation": "Chettinad muttai kuzhambu is darker and hotter, ground with coconut and fennel paste added near the end; Kongunadu versions often add a spoonful of coconut milk and skip the tamarind for a mellow, slightly sweet gravy.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-chettinad-mutton-kuzhambu",
+    "slug": "chettinad-mutton-kuzhambu",
+    "title": "Chettinad Mutton Kuzhambu",
+    "nativeTitle": "செட்டிநாடு மட்டன் குழம்பு",
+    "description": "A slow-cooked Chettinad mutton curry where bone-in goat meat is pressure-cooked tender and finished in a deep masala of roasted spices, tamarind and coconut. Rich and aromatic, with a gravy that demands to be soaked up by rice or parotta.",
+    "cuisine": "chettinad",
+    "country": "india",
+    "region": "chettinad-region",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "very_hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 50,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "mutton (goat), curry cut with bone",
+        "normalizedName": "mutton",
+        "quantity": 700,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "shallots, finely sliced",
+        "normalizedName": "shallot",
+        "quantity": 15,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, chopped",
+        "normalizedName": "tomato",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "tamarind",
+        "normalizedName": "tamarind",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "grated coconut",
+        "normalizedName": "coconut",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "gingelly oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fennel seeds (sombu)",
+        "normalizedName": "fennel",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black peppercorns",
+        "normalizedName": "black-pepper",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "star anise",
+        "normalizedName": "star-anise",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cinnamon (pattai)",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 3,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soak tamarind in 200 ml warm water; squeeze and strain. Dry roast fennel seeds and black peppercorns in the kadai for 2 minutes on low. Transfer to a mixie with the grated coconut and 4 tablespoons of water; grind to a smooth paste.",
+        "timerMinutes": 2,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Heat 2 tablespoons of gingelly oil in a pressure cooker over medium heat. Add star anise, cinnamon, cloves and mustard seeds. When they splutter, add half the shallots and fry until golden. Add the mutton, turmeric, a pinch of chilli powder, salt and 150 ml water. Seal and pressure-cook on high until 5 whistles, then lower to medium and cook 10 minutes more. Allow pressure to release naturally.",
+        "timerMinutes": 30,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Heat remaining 2 tablespoons of gingelly oil in the kadai. Add the remaining shallots and curry leaves. Fry until the shallots are deep golden and slightly crispy — about 7 minutes.",
+        "timerMinutes": 7,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Add ginger-garlic paste and fry 2 minutes. Add tomatoes with a pinch of salt and cook until they collapse and the oil separates."
+      },
+      {
+        "order": 5,
+        "text": "Lower the flame. Add red chilli powder and coriander powder. Stir for 30 seconds, then add the tamarind water. Bring to a boil.",
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Add the pressure-cooked mutton with all its stock. Stir well, cover and simmer on medium for 12 minutes until the gravy deepens.",
+        "timerMinutes": 12
+      },
+      {
+        "order": 7,
+        "text": "Stir in the coconut-pepper paste. Simmer uncovered for 8 minutes, stirring occasionally, until the gravy is thick and glossy with oil floating on top. Taste and adjust salt. Rest 10 minutes before serving.",
+        "timerMinutes": 8
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "kadai",
+      "mixie"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "kadai-cooking",
+      "simmering"
+    ],
+    "tags": [
+      "gravy",
+      "comfort-food",
+      "party"
+    ],
+    "allergens": [
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein": 32,
+      "carbs": 12,
+      "fat": 26,
+      "fiber": 3,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "mutton",
+        "substitute": "700 g chicken — reduce pressure-cook to 3 whistles"
+      },
+      {
+        "ingredient": "tamarind",
+        "substitute": "1.5 tbsp tamarind paste in 150 ml water"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "80 ml coconut milk added with the stock at step 6"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "coconut oil for a different but authentic flavour"
+      }
+    ],
+    "culturalNote": "Chettinad mutton kuzhambu is the centrepiece of the Chettinad feast (virundhu saapadu) — the dark gravy is the result of long-simmered spices and tamarind, a combination developed to preserve food in the pre-refrigeration trading household.",
+    "regionalVariation": "Karaikudi families often add a piece of dried raw banana (vazhakkai vathal) to the oil before the shallots for a starchy, slightly astringent complexity; other homes add a small piece of palm jaggery (karupatti) to balance the tamarind.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-chettinad-karaikudi-egg-roast",
+    "slug": "chettinad-karaikudi-egg-roast",
+    "title": "Chettinad Karaikudi Egg Roast",
+    "nativeTitle": "செட்டிநாடு முட்டை வறுவல்",
+    "description": "Hard-boiled eggs pan-fried in gingelly oil until the surface blisters and browns, then coated in a bold Chettinad masala of pepper, fennel and shallots. The contrast of a crispy, spice-crusted egg exterior against a tender white inside makes this unlike any other egg preparation.",
+    "cuisine": "chettinad",
+    "country": "india",
+    "region": "chettinad-region",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "breakfast"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 35,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "eggs, hard-boiled and peeled",
+        "normalizedName": "egg",
+        "quantity": 5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "shallots (chinna vengayam), finely chopped",
+        "normalizedName": "shallot",
+        "quantity": 10,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, finely chopped",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "gingelly oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "fennel seeds (sombu)",
+        "normalizedName": "fennel",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, freshly ground",
+        "normalizedName": "black-pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, for garnish",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Score each peeled egg with 4 shallow cuts running from end to end — this lets the oil and spice penetrate the surface. Pat the eggs dry with kitchen paper."
+      },
+      {
+        "order": 2,
+        "text": "Heat 2 tablespoons of gingelly oil in a kadai over medium-high heat. Add the eggs and fry, rolling them constantly, until the outside is golden and blistered all over, about 4 minutes. Remove the eggs and set aside.",
+        "timerMinutes": 4,
+        "method": "pan-frying"
+      },
+      {
+        "order": 3,
+        "text": "In the same kadai, add the remaining tablespoon of oil. Add fennel seeds and curry leaves. Add shallots and fry on medium heat until deeply golden and fragrant, about 5 minutes.",
+        "timerMinutes": 5,
+        "method": "tempering"
+      },
+      {
+        "order": 4,
+        "text": "Add ginger-garlic paste and fry 1 minute. Add the tomato and cook for 3 minutes until it breaks down. Lower the flame and add red chilli powder, coriander powder, turmeric, black pepper and salt. Stir for 30 seconds.",
+        "timerMinutes": 4,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Return the fried eggs to the kadai. Gently fold them into the masala, coating every surface. Add 2 tablespoons of water if the masala is sticking. Cook on medium for 3 minutes until the masala clings tightly to the eggs.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 6,
+        "text": "Scatter coriander leaves and serve immediately with idli, dosa, parotta or rice. The fried-egg surface hardens quickly, so do not leave this dish standing."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "pan-frying",
+      "tempering",
+      "kadai-cooking"
+    ],
+    "tags": [
+      "dry-curry",
+      "comfort-food",
+      "budget",
+      "quick"
+    ],
+    "allergens": [
+      "egg",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 250,
+      "protein": 13,
+      "carbs": 8,
+      "fat": 18,
+      "fiber": 1,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "egg",
+        "substitute": "4 pieces of firm paneer (50 g each), pan-fried until golden"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "coconut oil or neutral oil"
+      },
+      {
+        "ingredient": "shallot",
+        "substitute": "1 large onion, finely chopped"
+      },
+      {
+        "ingredient": "black-pepper",
+        "substitute": "reduce to 0.5 tsp for medium heat"
+      }
+    ],
+    "culturalNote": "Egg roast in Chettinad style is a beloved budget comfort dish — it appears at every hotel as the affordable side with parotta, and the Karaikudi version is known for using more pepper and less tomato than the Tamil Nadu mainstream.",
+    "regionalVariation": "Devakottai households add a tablespoon of grated coconut to the masala at the end, stirring it in for 1 minute; Tirunelveli-style egg roast uses more tamarind and no fennel, giving it a sharper, tangier character.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-chettinad-mutton-sukka-varuval",
+    "slug": "chettinad-mutton-sukka-varuval",
+    "title": "Chettinad Mutton Sukka Varuval",
+    "nativeTitle": "செட்டிநாடு மட்டன் சுக்கா வறுவல்",
+    "description": "Mutton pressure-cooked until the meat falls tender, then finished in a kadai with roasted coconut masala and cascades of curry leaves until every piece is nearly dry and dark with spice. The name sukka means 'dry' and this dish earns it fully.",
+    "cuisine": "chettinad",
+    "country": "india",
+    "region": "chettinad-region",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "very_hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 55,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "mutton (goat), curry cut with bone",
+        "normalizedName": "mutton",
+        "quantity": 650,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "shallots, finely chopped",
+        "normalizedName": "shallot",
+        "quantity": 15,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "gingelly oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "fennel seeds (sombu)",
+        "normalizedName": "fennel",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black peppercorns",
+        "normalizedName": "black-pepper",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies (Guntur or Byadgi)",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "grated coconut",
+        "normalizedName": "coconut",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "star anise",
+        "normalizedName": "star-anise",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cinnamon (pattai)",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 4,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, for garnish",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pressure cook mutton with ginger-garlic paste, turmeric, a pinch of chilli powder, salt and 150 ml water. Cook on high until 5 whistles, then reduce to medium for 10 minutes. Release pressure naturally. The mutton should be just tender — not falling apart.",
+        "timerMinutes": 30,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "In a dry kadai, toast fennel seeds, black peppercorns, dried red chillies, star anise, cinnamon and cloves on low heat for 2–3 minutes until fragrant and slightly darkened. Add grated coconut and toast a further 1 minute, stirring, until the coconut turns light golden.",
+        "timerMinutes": 3,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Transfer the toasted spice-coconut mixture to a mixie and grind with 4 tablespoons of water to a rough, coarse paste. Do not grind too fine — some texture is desirable.",
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Heat gingelly oil in a wide kadai over medium-high. Add shallots and fry, pressing and stirring, until deeply caramelised and beginning to stick to the pan — about 8 minutes.",
+        "timerMinutes": 8,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Add the cooked mutton along with any residual stock (no more than 3 tablespoons). Toss to mix. Add the ground masala paste and stir to coat every piece of mutton.",
+        "method": "stir-frying"
+      },
+      {
+        "order": 6,
+        "text": "Add coriander powder and remaining chilli powder. Raise the flame to high. Stir-fry continuously, scraping the bottom of the kadai, for 10 minutes until all the moisture evaporates and the meat is dry and coated in dark masala.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 7,
+        "text": "Add the curry leaves in the last 2 minutes of cooking — they will crackle and become crispy, adding texture. Taste and adjust salt. Garnish with coriander leaves and serve as a dry side dish with rice, rasam and sambar.",
+        "timerMinutes": 2
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "kadai",
+      "mixie"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "kadai-cooking",
+      "stir-frying"
+    ],
+    "tags": [
+      "dry-curry",
+      "party",
+      "comfort-food"
+    ],
+    "allergens": [
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 410,
+      "protein": 31,
+      "carbs": 9,
+      "fat": 27,
+      "fiber": 2,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "mutton",
+        "substitute": "600 g bone-in chicken — reduce pressure-cook to 3 whistles"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "coconut oil"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "2 tbsp desiccated coconut, dry toasted 2 minutes before grinding"
+      },
+      {
+        "ingredient": "dried-red-chilli",
+        "substitute": "1.5 tsp extra red chilli powder"
+      }
+    ],
+    "culturalNote": "Sukka varuval is the showpiece dry dish at a traditional Chettinad virundhu (feast) — the dark colour from the roasted coconut and the layers of whole spices ground fresh make this a labour of love that cannot be rushed.",
+    "regionalVariation": "Certain households in Sivaganga district grind the final masala paste with a small amount of palm jaggery to balance the heat; Ambur-adjacent areas add a tablespoon of mint leaves to the toasted-spice grind for a fresh herbaceous note.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-chicken-salna",
+    "slug": "tamil-chicken-salna",
+    "title": "Tamil Chicken Salna",
+    "nativeTitle": "கோழி சால்னா",
+    "description": "A thin, aromatic chicken gravy — more sauce than curry — built on a coconut-poppy seed paste and a fennel-forward spice base. Salna is the essential companion to parotta and biryani across Tamil Nadu, its runny consistency perfect for tearing and dipping.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 35,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken (curry cut, with bone)",
+        "normalizedName": "chicken",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion, finely sliced",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "grated coconut",
+        "normalizedName": "coconut",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cashews (for paste)",
+        "normalizedName": "cashew",
+        "quantity": 8,
+        "unit": "piece",
+        "optional": true,
+        "notes": "adds body and richness to the paste"
+      },
+      {
+        "name": "fennel seeds (sombu)",
+        "normalizedName": "fennel",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cinnamon (pattai)",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cardamom",
+        "normalizedName": "cardamom",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "mint leaves (pudina)",
+        "normalizedName": "mint",
+        "quantity": 10,
+        "unit": "leaf",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, for garnish",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Grind the coconut with cashews (if using) and fennel seeds with 4 tablespoons of water to a very smooth paste. Set aside. This paste is the body of the salna.",
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a kadai over medium heat. Add cinnamon, cloves and cardamom. When fragrant, add curry leaves and the sliced onions. Fry, stirring, until the onions are golden and soft, about 7 minutes.",
+        "timerMinutes": 7,
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add ginger-garlic paste and fry for 2 minutes. Add the tomatoes and cook until they break down completely and oil starts to separate, about 5 minutes.",
+        "timerMinutes": 7,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Lower the flame. Add red chilli powder, coriander powder and turmeric. Stir for 30 seconds, then add the chicken pieces. Toss well to coat in the masala and sear on medium-high for 4 minutes.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 5,
+        "text": "Pour in 500 ml hot water and salt. The gravy should be quite thin at this stage. Bring to a boil, then cover and simmer on medium for 15 minutes until the chicken is cooked through.",
+        "timerMinutes": 15,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Stir in the coconut-cashew-fennel paste and mint leaves if using. Simmer uncovered for 5 minutes until the gravy is lightly thickened but still pourable — salna should flow, not stand.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 7,
+        "text": "Taste and correct the salt. Scatter coriander leaves and serve immediately alongside parotta, biryani or idiyappam — ladling the thin gravy liberally over or alongside the main dish."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "mixie"
+    ],
+    "methods": [
+      "tempering",
+      "kadai-cooking",
+      "simmering"
+    ],
+    "tags": [
+      "gravy",
+      "comfort-food",
+      "party"
+    ],
+    "allergens": [
+      "nuts"
+    ],
+    "nutrition": {
+      "calories": 300,
+      "protein": 26,
+      "carbs": 9,
+      "fat": 17,
+      "fiber": 2,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "cashew",
+        "substitute": "omit entirely or use 2 tbsp coconut milk for body"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "60 ml coconut milk added with the water at step 5"
+      },
+      {
+        "ingredient": "chicken",
+        "substitute": "500 g mixed vegetables (potato, carrot, peas) for a vegetarian salna"
+      },
+      {
+        "ingredient": "mint",
+        "substitute": "a small handful of coriander leaves added at the same stage"
+      }
+    ],
+    "culturalNote": "Salna is inseparable from Tamil street-food culture — no plate of Ambur biryani or roadside parotta is complete without a generous pour of this thin, fragrant gravy on the side.",
+    "regionalVariation": "Madurai-style salna uses more pepper and less coconut, leaning drier and sharper; in the Muslim household tradition of northern Tamil Nadu, the paste sometimes includes poppy seeds (kasa kasa) for extra richness and a slightly nutty flavour.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tamil-kanava-milagu-fry",
+    "slug": "tamil-kanava-milagu-fry",
+    "title": "Tamil Kanava Milagu Fry (Squid Pepper Fry)",
+    "nativeTitle": "கணவா மிளகு வறுவல்",
+    "description": "Squid rings and tentacles stir-fried at ferocious heat in a kadai with freshly crushed pepper, fennel and shallots until they are just cooked through — tender inside with crisped, spice-crusted edges. A Tamil coastal classic that rewards fast cooking and fresh squid.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "dietType": [
+      "pescatarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "very_hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 30,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "squid (kanava), cleaned, cut into 1 cm rings",
+        "normalizedName": "squid",
+        "quantity": 450,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "shallots (chinna vengayam), finely sliced",
+        "normalizedName": "shallot",
+        "quantity": 10,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chillies, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "black peppercorns, coarsely crushed",
+        "normalizedName": "black-pepper",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fennel seeds (sombu)",
+        "normalizedName": "fennel",
+        "quantity": 0.75,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.75,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "gingelly oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, for garnish",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Toss the cleaned squid rings with turmeric, a pinch of salt and half the red chilli powder. Set aside. Coarsely crush the peppercorns and fennel seeds together in a mortar — you want a rough mix, not a fine powder.",
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Heat gingelly oil in a kadai over high flame until the oil just begins to smoke. Add the curry leaves and green chillies — they will crackle loudly. Add shallots and stir-fry on high for 3 minutes until lightly golden.",
+        "timerMinutes": 3,
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add ginger-garlic paste and stir for 30 seconds. Add the remaining red chilli powder and half the pepper-fennel mix. Stir for 15 seconds on high heat.",
+        "method": "stir-frying"
+      },
+      {
+        "order": 4,
+        "text": "Add the squid in one layer. Do not stir for 90 seconds — let the squid sear and release its liquid. Then toss everything together on high heat. Stir-fry briskly for 3–4 minutes total. Squid is done when it turns opaque white and the rings curl slightly; do not overcook or it will become rubbery.",
+        "timerMinutes": 5,
+        "method": "stir-frying"
+      },
+      {
+        "order": 5,
+        "text": "Sprinkle the remaining pepper-fennel mix over the squid and toss well for 30 seconds. Squeeze lemon juice over the top, scatter coriander leaves and serve immediately. Squid waits for no one."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "marinating",
+      "tempering",
+      "stir-frying"
+    ],
+    "tags": [
+      "dry-curry",
+      "quick",
+      "party",
+      "street-food"
+    ],
+    "allergens": [
+      "shellfish",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 210,
+      "protein": 22,
+      "carbs": 7,
+      "fat": 10,
+      "fiber": 1,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "squid",
+        "substitute": "400 g tiger prawns — cook for only 3 minutes total at step 4"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "coconut oil"
+      },
+      {
+        "ingredient": "black-pepper",
+        "substitute": "reduce to 1 tsp for medium heat"
+      },
+      {
+        "ingredient": "shallot",
+        "substitute": "1 medium onion, finely sliced"
+      }
+    ],
+    "culturalNote": "Kanava milagu fry is the defining preparation of the Tamil coastal fisherman's kitchen — squid is abundant and inexpensive along the Coromandel coast, and the pepper-fennel combination cuts through the squid's natural sweetness without masking it.",
+    "regionalVariation": "In Rameshwaram and Pamban, the squid is sometimes slit open, rubbed with the masala and grilled flat on a tawa before being chopped into the pepper fry at the end; Kanyakumari versions add a small pinch of turmeric-heavy fish masala powder made locally.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-chettinad-varutharacha-mutton-curry",
+    "slug": "chettinad-varutharacha-mutton-curry",
+    "title": "Chettinad Varutharacha Mutton Curry",
+    "nativeTitle": "செட்டிநாடு வருத்தரைச்ச மட்டன் குழம்பு",
+    "description": "A Chettinad mutton curry built on a freshly dry-roasted and ground coconut-spice paste — 'varutharacha' means roasted and ground. The toasted masala gives the gravy a nutty, smoky depth that no raw-ground or store-bought blend can replicate. Slow, satisfying and unmistakably Chettinad.",
+    "cuisine": "chettinad",
+    "country": "india",
+    "region": "chettinad-region",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "hard",
+    "spiceLevel": "very_hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 55,
+    "totalTimeMinutes": 80,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "mutton (goat), curry cut with bone",
+        "normalizedName": "mutton",
+        "quantity": 700,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "shallots, sliced",
+        "normalizedName": "shallot",
+        "quantity": 15,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "grated coconut (for roasting)",
+        "normalizedName": "coconut",
+        "quantity": 5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies (Guntur or Byadgi)",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 6,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "coriander seeds",
+        "normalizedName": "coriander-seeds",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "black peppercorns",
+        "normalizedName": "black-pepper",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fennel seeds (sombu)",
+        "normalizedName": "fennel",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds (seeragam)",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "star anise",
+        "normalizedName": "star-anise",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cinnamon (pattai)",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cardamom",
+        "normalizedName": "cardamom",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "gingelly oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 3,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "In a dry kadai over low heat, combine dried red chillies, coriander seeds, black peppercorns, fennel, cumin, star anise, cinnamon, cloves and cardamom. Toast, stirring continuously, for 3 minutes until the spices darken by one shade and release a deep, complex aroma.",
+        "timerMinutes": 3,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Add the grated coconut to the kadai and continue to toast on low, stirring, for a further 2 minutes until the coconut turns golden-brown — not dark. Transfer the entire mixture to a mixie and grind to a smooth, thick paste with 6 tablespoons of water. Set aside.",
+        "timerMinutes": 2,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Heat gingelly oil in a pressure cooker over medium heat. Add curry leaves, then shallots, and fry until golden, about 5 minutes. Add ginger-garlic paste and cook 2 minutes.",
+        "timerMinutes": 7,
+        "method": "tempering"
+      },
+      {
+        "order": 4,
+        "text": "Add tomatoes and cook until they soften and the oil separates. Add turmeric and the mutton pieces. Stir well to coat the meat, then add 200 ml water and salt. Seal the cooker and pressure-cook on high until 5 whistles, then lower to medium and cook 10 minutes. Release pressure naturally.",
+        "timerMinutes": 30,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Open the pressure cooker and check that the mutton is tender. Transfer to a kadai if your pressure cooker base is narrow. Stir in the roasted coconut-spice paste and mix until fully incorporated.",
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 6,
+        "text": "Simmer the curry uncovered on medium heat for 12 minutes, stirring every few minutes, until the gravy thickens, darkens and oil floats to the surface. The paste will cook into the gravy and the raw masala smell will give way to a roasted, nutty fragrance.",
+        "timerMinutes": 12,
+        "method": "simmering"
+      },
+      {
+        "order": 7,
+        "text": "Taste and correct salt. Rest the curry for 10 minutes off the heat before serving — the flavour deepens considerably as it rests. Serve with steamed rice, idiyappam or parotta."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "kadai",
+      "mixie"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "kadai-cooking",
+      "simmering"
+    ],
+    "tags": [
+      "gravy",
+      "comfort-food",
+      "party",
+      "festival"
+    ],
+    "allergens": [
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 430,
+      "protein": 33,
+      "carbs": 11,
+      "fat": 27,
+      "fiber": 3,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "mutton",
+        "substitute": "700 g chicken with bone — pressure-cook 3 whistles only"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "4 tbsp desiccated coconut, dry-roasted in the same step"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "coconut oil, which complements the roasted coconut paste"
+      },
+      {
+        "ingredient": "dried-red-chilli",
+        "substitute": "reduce to 3 pieces and add 1 tsp Kashmiri chilli powder for colour without extra heat"
+      }
+    ],
+    "culturalNote": "Varutharacha kuzhambu — curry built on a roasted-and-ground paste — is the cooking technique that defines the Chettinad kitchen at its most traditional; the act of dry roasting and grinding masala fresh for each meal is an art passed between generations.",
+    "regionalVariation": "Some Nattukotai Chettiars add a piece of tamarind to the toasted-spice grind, incorporating the sourness into the paste itself rather than adding it separately to the gravy; others include a dried raw mango chip for a different tartness.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  }
+]

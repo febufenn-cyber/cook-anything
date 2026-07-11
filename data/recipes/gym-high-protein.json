@@ -1,0 +1,3354 @@
+[
+  {
+    "id": "ca-gym-grilled-chicken-rice-bowl",
+    "slug": "gym-grilled-chicken-rice-bowl",
+    "title": "Grilled Chicken Rice Bowl",
+    "nativeTitle": null,
+    "description": "Spiced boneless chicken grilled on a tawa until charred at the edges, served over fluffy steamed rice with spring onion and a squeeze of lemon. A simple, filling, gym-staple bowl that comes together in 35 minutes.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "boneless chicken breast or thigh",
+        "normalizedName": "chicken",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "rice (sona masoori or any short-grain)",
+        "normalizedName": "rice",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, crushed",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "spring onion, thinly sliced",
+        "normalizedName": "spring-onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "coriander leaves, roughly chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Combine garlic, ginger, lemon juice, red chilli powder, turmeric, coriander powder, garam masala, black pepper, half the oil and salt in a bowl. Score the chicken with diagonal cuts 1 cm deep, then rub the marinade all over. Let it rest 10 minutes at room temperature.",
+        "timerMinutes": 10,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Wash the rice until the water runs clear. Cook with 1.75 cups water and a pinch of salt — 2 whistles in a pressure cooker, or simmer covered in a saucepan for 12-14 minutes. Fluff with a fork and keep warm.",
+        "timerMinutes": 15,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Heat remaining oil in a tawa or frying pan on high flame. Place the chicken in a single layer and grill without moving for 4-5 minutes until firm charred marks appear on the underside.",
+        "timerMinutes": 5,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Flip and cook the other side 4-5 minutes until the juices run clear when the thickest part is pierced. Remove from heat and rest 3 minutes before slicing into strips.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 5,
+        "text": "Divide rice between two bowls, top with sliced chicken, scatter spring onion and coriander leaves over the top, and finish with a fresh squeeze of lemon. Serve immediately."
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "pressure-cooker"
+    ],
+    "methods": [
+      "marinating",
+      "tawa-cooking",
+      "pressure-cooking"
+    ],
+    "tags": [
+      "gym",
+      "healthy",
+      "bowl",
+      "lunchbox"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 420,
+      "protein": 38,
+      "carbs": 40,
+      "fat": 10,
+      "fiber": 2,
+      "sugar": 1,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "500 g fish fillets — cook 3-4 min per side on the tawa",
+        "notes": "pescatarian swap"
+      },
+      {
+        "ingredient": "rice",
+        "substitute": "1 cup quinoa — cook with 1.75 cups water for extra protein"
+      },
+      {
+        "ingredient": "oil",
+        "substitute": "gingelly oil for a nuttier south-Indian aroma"
+      }
+    ],
+    "culturalNote": "High-protein tawa-grilled chicken bowls have become the default gym meal across Indian fitness communities, built on familiar north-Indian spices and served over the same rice that anchors every home meal.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-gym-chicken-broccoli-mealprep-bowl",
+    "slug": "gym-chicken-broccoli-mealprep-bowl",
+    "title": "Chicken and Broccoli Meal-Prep Bowl",
+    "nativeTitle": null,
+    "description": "Pan-seared chicken breast and stir-fried broccoli over steamed rice, seasoned with soy sauce and black pepper. Batch-friendly and nutritionally balanced, this bowl is a weekly gym-kitchen staple that stays good in the fridge for three days.",
+    "cuisine": "american",
+    "country": "united-states",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "boneless chicken breast",
+        "normalizedName": "chicken",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "broccoli, cut into florets",
+        "normalizedName": "broccoli",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "rice",
+        "normalizedName": "rice",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 2,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, crushed",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Cook the rice with 1.75 cups water and a pinch of salt — bring to a boil, reduce to low, cover and simmer 12-14 minutes until all water is absorbed. Fluff and set aside.",
+        "timerMinutes": 15,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Flatten the chicken breast to an even thickness by placing it between plastic wrap and pressing gently with a rolling pin. In a bowl, toss chicken with garlic, soy sauce, lemon juice, black pepper and red chilli powder; leave for 5 minutes."
+      },
+      {
+        "order": 3,
+        "text": "Heat 1 tbsp oil in a frying pan on medium-high. Add the chicken and cook undisturbed 6-7 minutes until golden on the underside. Flip and cook 5-6 minutes more until juices run clear. Transfer to a board and slice after 3 minutes of resting.",
+        "timerMinutes": 13,
+        "method": "pan-frying"
+      },
+      {
+        "order": 4,
+        "text": "Add remaining 0.5 tbsp oil to the same pan on high heat. Toss in broccoli florets, season with salt and pepper, and stir-fry for 3-4 minutes until bright green with lightly charred tips. Do not overcook — the florets should still have a firm bite.",
+        "timerMinutes": 4,
+        "method": "stir-frying"
+      },
+      {
+        "order": 5,
+        "text": "Divide rice into two bowls or meal-prep containers. Arrange chicken slices and broccoli alongside and drizzle any pan juices over the top. Seal and refrigerate for up to 3 days; reheat in the microwave or a steamer for 2 minutes before eating."
+      }
+    ],
+    "cookware": [
+      "frying-pan",
+      "saucepan"
+    ],
+    "methods": [
+      "pan-frying",
+      "boiling",
+      "stir-frying"
+    ],
+    "tags": [
+      "gym",
+      "healthy",
+      "bowl",
+      "lunchbox"
+    ],
+    "allergens": [
+      "soy",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein": 35,
+      "carbs": 38,
+      "fat": 9,
+      "fiber": 4,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "salt + a splash of vinegar — gluten-free and soy-free",
+        "notes": "add an extra 0.5 tsp salt"
+      },
+      {
+        "ingredient": "broccoli",
+        "substitute": "cauliflower, capsicum or green beans",
+        "notes": "cook time stays the same"
+      },
+      {
+        "ingredient": "rice",
+        "substitute": "1 cup quinoa for additional protein and a complete amino-acid profile"
+      }
+    ],
+    "culturalNote": "Chicken-broccoli meal-prep bowls became the benchmark of weekly fitness cooking in North America — simple enough to batch-cook on Sunday and nutritionally balanced enough to carry through the week.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": "Use a tawa instead of a frying pan for better caramelisation on the chicken. Replace soy sauce with 1 tsp ginger-garlic paste plus a dash of vinegar for an Indian-spiced version with no soy. Broccoli (called 'broccoli' in Indian markets) is now widely stocked in city sabzi mandis; substitute with cauliflower or beans if unavailable.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-gym-airfryer-tandoori-chicken-breast",
+    "slug": "gym-airfryer-tandoori-chicken-breast",
+    "title": "Air-Fryer Tandoori Chicken Breast",
+    "nativeTitle": null,
+    "description": "Boneless chicken breast marinated in curd and aromatic spices, then air-fried at high heat until the surface blisters and chars while the inside stays juicy. Delivers the satisfaction of tandoor cooking with a fraction of the oil.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 45,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 60,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "boneless chicken breast",
+        "normalizedName": "chicken",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "thick curd (hung 10 minutes if watery)",
+        "normalizedName": "curd",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder (Kashmiri for colour)",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "cooking oil, for brushing",
+        "normalizedName": "oil",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Make diagonal cuts 1 cm deep across each chicken breast on both sides — this helps the marinade penetrate to the centre and gives the char more surface area. Pat the chicken dry with a kitchen cloth.",
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Whisk together curd, ginger-garlic paste, red chilli powder, turmeric, coriander powder, garam masala, lemon juice and salt into a smooth marinade. Rub it all over the chicken, pressing well into the cuts. Cover and rest at room temperature for 30 minutes, or refrigerate for up to 8 hours.",
+        "timerMinutes": 30,
+        "method": "marinating"
+      },
+      {
+        "order": 3,
+        "text": "Preheat the air fryer to 200°C for 3 minutes. Lightly brush the basket with oil to prevent sticking. Shake off any excess marinade that might drip and arrange the chicken in a single layer — do not stack.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 4,
+        "text": "Air fry at 200°C for 12-15 minutes, flipping once at the halfway mark, until the surface is visibly charred at the edges and the juices run clear when the thickest part is pierced with a skewer. Very thick pieces (over 2 cm) may need 2-3 extra minutes.",
+        "timerMinutes": 15,
+        "method": "air-frying"
+      },
+      {
+        "order": 5,
+        "text": "Rest the chicken on a board for 5 minutes — this keeps it juicy. Serve with lemon wedges, thinly sliced onion rings and fresh mint or coriander chutney."
+      }
+    ],
+    "cookware": [
+      "air-fryer"
+    ],
+    "methods": [
+      "marinating",
+      "air-frying"
+    ],
+    "tags": [
+      "gym",
+      "healthy",
+      "grill-bbq",
+      "low-oil"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 230,
+      "protein": 40,
+      "carbs": 4,
+      "fat": 5,
+      "fiber": 0,
+      "sugar": 1,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "curd",
+        "substitute": "3 tbsp coconut milk + 1 tsp vinegar — same tenderising effect, dairy-free",
+        "notes": "works well for lactose-intolerant cooks"
+      },
+      {
+        "ingredient": "chicken",
+        "substitute": "400 g paneer slabs or firm tofu — reduce cook time to 8 minutes, flip once"
+      }
+    ],
+    "culturalNote": "The air fryer has become a fixture in Indian gym kitchens because it closely mimics the dry, fierce heat of a tandoor without requiring charcoal or a clay oven — making restaurant-style charred chicken possible on a weeknight.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-gym-egg-white-veggie-omelette",
+    "slug": "gym-egg-white-veggie-omelette",
+    "title": "Egg White Veggie Omelette",
+    "nativeTitle": null,
+    "description": "Four egg whites beaten airy and folded around sautéed capsicum, spinach and onion — a clean, protein-forward breakfast that cooks in under ten minutes. Light on fat but satisfying enough to fuel a morning workout.",
+    "cuisine": "american",
+    "country": "united-states",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "snack"
+    ],
+    "dietType": [
+      "eggetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 10,
+    "totalTimeMinutes": 20,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "eggs (whites only)",
+        "normalizedName": "egg",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "capsicum (any colour), finely diced",
+        "normalizedName": "capsicum",
+        "quantity": 0.25,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "baby spinach or palak, roughly chopped",
+        "normalizedName": "spinach",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "onion, finely diced",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "green chilli, minced",
+        "normalizedName": "green-chilli",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "black pepper, freshly cracked",
+        "normalizedName": "black-pepper",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "cooking oil or cooking spray",
+        "normalizedName": "oil",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Crack the eggs and carefully separate the whites from the yolks — any yolk in the whites will prevent them from whipping properly. Whisk the whites with salt and black pepper until slightly frothy and loosened, about 30 seconds."
+      },
+      {
+        "order": 2,
+        "text": "Dice the capsicum and onion finely; roughly chop the spinach. Mince the green chilli if using. Having everything cut before the pan gets hot keeps the cook fast and controlled."
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a non-stick frying pan on medium. Add onion and capsicum and sauté for 2 minutes until softened. Toss in the spinach and green chilli, stir for 30 seconds until wilted, then push the vegetables to the edges of the pan.",
+        "timerMinutes": 3,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Pour the egg whites into the centre of the pan and tilt so they spread evenly underneath the vegetables. Cook undisturbed on medium heat for 2-3 minutes until the edges are fully set and the centre is no longer liquid.",
+        "timerMinutes": 3,
+        "method": "pan-frying"
+      },
+      {
+        "order": 5,
+        "text": "Fold the omelette in half with a spatula and cook 30 seconds more for a firmer set, or slide it open-faced onto a plate. Eat immediately while puffed — egg white omelettes deflate quickly."
+      }
+    ],
+    "cookware": [
+      "frying-pan"
+    ],
+    "methods": [
+      "pan-frying",
+      "sauteing"
+    ],
+    "tags": [
+      "gym",
+      "healthy",
+      "quick",
+      "under-30-minutes"
+    ],
+    "allergens": [
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 120,
+      "protein": 15,
+      "carbs": 4,
+      "fat": 3,
+      "fiber": 1,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "egg",
+        "substitute": "2 whole eggs instead of 4 whites — richer, with healthy fats, around 160 kcal",
+        "notes": "higher fat but still high-protein"
+      },
+      {
+        "ingredient": "capsicum",
+        "substitute": "mushroom, tomato or corn — same cook time"
+      },
+      {
+        "ingredient": "spinach",
+        "substitute": "fenugreek leaves (methi) for a more Indian flavour"
+      }
+    ],
+    "culturalNote": "Egg-white omelettes became a gym staple in 1990s American fitness culture and have since spread globally as the no-fat, high-protein breakfast of choice for calorie-conscious eaters.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": "Cook on a tawa (flat griddle) for a slightly smoky edge that a non-stick pan cannot match. Add a pinch of haldi (turmeric) and a few curry leaves to the tempering before adding the vegetables for a fully desi makeover. The technique mirrors making a thin besan chilla — same pan, same motion.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-gym-paneer-bhurji",
+    "slug": "gym-paneer-bhurji",
+    "title": "Paneer Bhurji (Scrambled Paneer)",
+    "nativeTitle": "पनीर भुर्जी",
+    "description": "Fresh paneer crumbled into a lightly spiced onion-tomato-capsicum masala and tossed until golden at the edges. Ready in 25 minutes, each serving delivers around 22 g of protein and works as breakfast, a quick lunch or a high-protein side at dinner.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 25,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "paneer, crumbled",
+        "normalizedName": "paneer",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, finely chopped",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "capsicum, diced",
+        "normalizedName": "capsicum",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, minced",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat oil in a kadai on medium flame. Add onion and green chilli and sauté, stirring occasionally, until the onion turns soft and translucent, about 3 minutes. Do not let it brown or the masala will taste bitter.",
+        "timerMinutes": 3,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Add ginger-garlic paste and fry for 1 minute until the raw smell is gone. Tip in the tomatoes and capsicum with a pinch of salt, then cook on medium-high for 4-5 minutes, pressing the tomatoes down with the back of the spoon, until they collapse and the oil begins to separate from the masala.",
+        "timerMinutes": 5,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Reduce the flame to low. Add turmeric, red chilli powder and coriander powder, stir for 30 seconds to bloom the spices in the residual oil without letting them scorch."
+      },
+      {
+        "order": 4,
+        "text": "Add the crumbled paneer and toss well to coat every piece in the masala. Increase flame to medium and cook for 3-4 minutes, stirring frequently, until the paneer picks up a light golden colour at the edges and is heated all the way through.",
+        "timerMinutes": 4,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Sprinkle garam masala and finish with coriander leaves. Taste for salt and serve hot with whole-wheat rotis, toasted multigrain bread or directly alongside steamed rice for a high-protein meal."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "kadai-cooking",
+      "sauteing"
+    ],
+    "tags": [
+      "gym",
+      "healthy",
+      "quick",
+      "lunchbox"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 280,
+      "protein": 22,
+      "carbs": 8,
+      "fat": 18,
+      "fiber": 2,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "paneer",
+        "substitute": "250 g firm tofu, crumbled — press out moisture first — dairy-free and equally high-protein"
+      },
+      {
+        "ingredient": "oil",
+        "substitute": "ghee for a richer flavour; adds a small amount of dairy fat"
+      },
+      {
+        "ingredient": "capsicum",
+        "substitute": "peas or corn kernels — add at the same stage"
+      }
+    ],
+    "culturalNote": "Paneer bhurji is the vegetarian gym-goer's counterpart to scrambled eggs — protein-dense, quick to cook and endlessly variable depending on which vegetables are in the fridge.",
+    "regionalVariation": "Punjabi dhabas finish bhurji with a generous knob of butter and a swirl of cream; Maharashtra's version swaps garam masala for a pinch of goda masala.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-gym-chana-salad",
+    "slug": "gym-chana-salad",
+    "title": "Chana Salad (Chickpea Protein Salad)",
+    "nativeTitle": "चना सलाद",
+    "description": "Pressure-cooked chickpeas tossed with cucumber, tomato, onion, lemon juice and chaat masala into a cool, fibre-rich salad. No oil, no cooking after the boil — this is one of the fastest high-protein meals in an Indian kitchen.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "snack"
+    ],
+    "dietType": [
+      "vegan",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "dried chickpeas, soaked overnight OR 1 can drained chickpeas",
+        "normalizedName": "chickpea",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "cucumber, diced",
+        "normalizedName": "cucumber",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, diced",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, minced",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "chaat masala",
+        "normalizedName": "curry-powder",
+        "quantity": 0.75,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "mint leaves, torn",
+        "normalizedName": "mint",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "If using dried chickpeas soaked overnight, drain and pressure cook with fresh water and a pinch of salt for 4-5 whistles on medium heat until fully tender but not mushy. Drain and let them cool to room temperature. If using canned chickpeas, simply drain and rinse well.",
+        "timerMinutes": 20,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "While the chickpeas cool, dice the cucumber and tomato into 1 cm cubes, finely chop the onion and mince the green chilli. Keeping the pieces uniform means every mouthful gets a balanced mix of textures."
+      },
+      {
+        "order": 3,
+        "text": "Combine the cooled chickpeas, cucumber, tomato and onion in a large bowl. Add green chilli if using.",
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Squeeze lemon juice over the salad, sprinkle chaat masala, red chilli powder and salt. Toss everything together firmly so the chickpeas absorb the seasoning — taste and adjust lemon or salt."
+      },
+      {
+        "order": 5,
+        "text": "Finish with coriander and mint leaves. Serve immediately for maximum freshness, or refrigerate up to 6 hours — the chickpeas continue to absorb the dressing and taste even better after 30 minutes of resting."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "no-cook"
+    ],
+    "tags": [
+      "gym",
+      "healthy",
+      "salad",
+      "quick",
+      "budget"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 220,
+      "protein": 14,
+      "carbs": 35,
+      "fat": 3,
+      "fiber": 9,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chickpea",
+        "substitute": "boiled rajma (kidney beans) or lobia — same dressing works equally well"
+      },
+      {
+        "ingredient": "curry-powder",
+        "substitute": "1/2 tsp cumin powder + pinch of amchur if chaat masala is unavailable"
+      },
+      {
+        "ingredient": "lemon",
+        "substitute": "raw mango (kachchi kairi), grated — gives the same tartness with a fruity edge"
+      }
+    ],
+    "culturalNote": "Chana salad is a mainstay of Indian street-food stalls and home kitchens alike — the same chickpeas that go into chole become a cooling, oil-free protein bowl when dressed simply with lemon and chaat masala.",
+    "regionalVariation": "In Gujarat, a spoonful of date-tamarind chutney is stirred through for sweetness; Punjabi versions add a handful of pomegranate seeds and thin sev on top.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-gym-sprouts-salad",
+    "slug": "gym-sprouts-salad",
+    "title": "Sprouts Salad",
+    "nativeTitle": "अंकुरित सलाद",
+    "description": "Mixed moong sprouts blanched briefly to remove any raw edge, then tossed with tomato, cucumber, lemon and spices into a light, crunchy salad. One of the most nutrient-dense and affordable high-protein breakfasts in the Indian diet.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "lunch",
+      "snack"
+    ],
+    "dietType": [
+      "vegan",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 5,
+    "totalTimeMinutes": 10,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "moong sprouts (fresh or home-grown)",
+        "normalizedName": "sprouts",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "tomato, finely diced",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cucumber, finely diced",
+        "normalizedName": "cucumber",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "green chilli, minced",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "chaat masala or cumin powder",
+        "normalizedName": "curry-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Bring a small saucepan of water to the boil. Add the sprouts and blanch for exactly 2 minutes — they should soften slightly but still retain their crunch. Immediately drain and run under cold water to stop the cooking. This step removes the raw legume smell without cooking away the nutrients.",
+        "timerMinutes": 3,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Drain the sprouts well and pat dry with a clean kitchen cloth. Excess water dilutes the dressing and makes the salad go soggy quickly."
+      },
+      {
+        "order": 3,
+        "text": "Combine the blanched sprouts, diced tomato, cucumber, onion and green chilli in a mixing bowl.",
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Add lemon juice, chaat masala and salt. Toss thoroughly so every sprout is coated. Taste and add more lemon or salt if needed — sprouts can absorb seasoning so be a touch more generous than you think necessary."
+      },
+      {
+        "order": 5,
+        "text": "Top with coriander leaves and serve immediately. For the best texture, eat within 30 minutes of dressing; if meal-prepping, keep the dressing separate and toss just before eating."
+      }
+    ],
+    "cookware": [
+      "saucepan"
+    ],
+    "methods": [
+      "boiling",
+      "no-cook"
+    ],
+    "tags": [
+      "gym",
+      "healthy",
+      "salad",
+      "quick",
+      "budget",
+      "under-30-minutes"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 100,
+      "protein": 8,
+      "carbs": 16,
+      "fat": 1,
+      "fiber": 5,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "sprouts",
+        "substitute": "chickpea sprouts or mixed bean sprouts for a higher-protein version"
+      },
+      {
+        "ingredient": "lemon",
+        "substitute": "amchur (dry mango powder) — 0.5 tsp gives the same tartness"
+      },
+      {
+        "ingredient": "curry-powder",
+        "substitute": "roasted cumin powder (jeera powder) if chaat masala is unavailable"
+      }
+    ],
+    "culturalNote": "Sprouting moong at home is a centuries-old Indian kitchen practice — soaking overnight and draining for a day activates enzymes that increase the protein's bioavailability and generate vitamin C from scratch.",
+    "regionalVariation": "Gujarati households add a spoonful of date-tamarind chutney and a handful of sev for sweetness and crunch; Maharashtra's version tempers the salad with a brief mustard-curry-leaves tadka.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-gym-soya-chunk-masala",
+    "slug": "gym-soya-chunk-masala",
+    "title": "Soya Chunk Masala",
+    "nativeTitle": "सोया चंक मसाला",
+    "description": "Meal-maker soya chunks simmered in a robust onion-tomato gravy with whole spices and coriander — an affordable, plant-based protein dish that eats like a meaty curry. Each serving packs nearly 25 g of protein at a fraction of the cost of chicken.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 45,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "soya chunks (meal maker), medium size",
+        "normalizedName": "soya-chunks",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, pureed or finely chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "green chilli, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "bay leaf",
+        "normalizedName": "bay-leaf",
+        "quantity": 1,
+        "unit": "leaf",
+        "optional": true
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Bring a pot of water to the boil, add a pinch of salt and the soya chunks. Cook for 5 minutes until they puff up and soften. Drain, then squeeze out all the absorbed water by pressing each chunk between your palms — this step is essential, otherwise the chunks water down the masala and stay spongy rather than absorbing the curry.",
+        "timerMinutes": 5,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a kadai on medium-high. Add the bay leaf and let it sizzle for 10 seconds. Add onion and sauté, stirring often, for 8-10 minutes until deep golden — this long sauté is the flavour backbone of the dish.",
+        "timerMinutes": 10,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Add ginger-garlic paste and green chilli; fry for 1-2 minutes until the raw smell goes. Add the pureed tomatoes with a pinch of salt and cook on medium for 5 minutes, stirring frequently, until the masala is thick and the oil surfaces around the edges.",
+        "timerMinutes": 7
+      },
+      {
+        "order": 4,
+        "text": "Lower the flame. Add turmeric, red chilli powder and coriander powder, stir for 30 seconds. Tip in the squeezed soya chunks and toss to coat completely in the masala.",
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Pour in 150 ml water, bring to a gentle simmer, cover and cook on medium-low for 8-10 minutes until the chunks have absorbed the gravy and the oil separates on top. Stir in garam masala, check salt, garnish with coriander leaves and serve hot with chapati or steamed rice.",
+        "timerMinutes": 10,
+        "method": "simmering"
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "boiling",
+      "kadai-cooking",
+      "simmering"
+    ],
+    "tags": [
+      "gym",
+      "healthy",
+      "gravy",
+      "budget"
+    ],
+    "allergens": [
+      "soy"
+    ],
+    "nutrition": {
+      "calories": 210,
+      "protein": 24,
+      "carbs": 14,
+      "fat": 7,
+      "fiber": 4,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "soya-chunks",
+        "substitute": "tofu (diced firm tofu, dry-fried before adding to masala) — same protein, slightly milder flavour"
+      },
+      {
+        "ingredient": "tomato",
+        "substitute": "2 tbsp tomato paste mixed in 50 ml water — richer colour and saves time"
+      },
+      {
+        "ingredient": "oil",
+        "substitute": "ghee — adds richness but is not vegan"
+      }
+    ],
+    "culturalNote": "Soya chunks, sold across India as 'meal maker', were introduced in the 1970s as an affordable protein supplement and quickly found a permanent place in North Indian home cooking, particularly in regions where meat is expensive.",
+    "regionalVariation": "South Indian cooks add curry leaves and mustard in the tadka before the onion; Tamil Nadu versions use sambar powder in place of the individual spice powders.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-gym-soya-keema",
+    "slug": "gym-soya-keema",
+    "title": "Soya Keema",
+    "nativeTitle": "सोया कीमा",
+    "description": "Minced soya granules cooked with onion, tomato, green peas and warm spices until dry and crumbly — a plant-based keema that convincingly mirrors the texture and protein content of meat mince. Pairs with rotis, stuffed into parathas or eaten over rice.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 35,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "soya granules (fine soya mince)",
+        "normalizedName": "soya-chunks",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, finely chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "peas (fresh or frozen)",
+        "normalizedName": "peas",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": true
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "green chilli, chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "lemon juice, to finish",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soak the soya granules in 300 ml hot water with a pinch of salt for 10 minutes until they swell and become tender. Drain through a fine strainer and squeeze firmly with your hands to remove all moisture — the drier they are, the better they will absorb the masala without making it watery.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a kadai on medium. Add cumin seeds and let them sputter for 10 seconds. Add onion and sauté for 5-6 minutes until golden brown — this forms the flavour base, so do not rush it.",
+        "timerMinutes": 6,
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Stir in ginger-garlic paste and green chilli, fry for 1 minute until fragrant. Add tomatoes, season with a pinch of salt and cook on medium-high for 5 minutes, pressing the tomatoes until they break down and the oil separates around the edges.",
+        "timerMinutes": 5,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Lower the flame and add turmeric, red chilli powder and coriander powder; stir for 30 seconds. Add the squeezed soya granules and peas, increase flame to medium and stir-fry everything together for 5-6 minutes until the mixture looks dry and each granule is coated in spiced masala.",
+        "timerMinutes": 6,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Sprinkle garam masala and a squeeze of lemon, taste for salt and finish with coriander leaves. Serve hot as a stuffing for parathas, alongside warm rotis, or packed as a lunchbox protein with steamed rice."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "kadai-cooking",
+      "sauteing",
+      "tempering"
+    ],
+    "tags": [
+      "gym",
+      "healthy",
+      "dry-curry",
+      "lunchbox",
+      "budget"
+    ],
+    "allergens": [
+      "soy"
+    ],
+    "nutrition": {
+      "calories": 195,
+      "protein": 22,
+      "carbs": 16,
+      "fat": 6,
+      "fiber": 5,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "soya-chunks",
+        "substitute": "minced mushrooms (250 g) — not as high in protein but same dry-mince texture"
+      },
+      {
+        "ingredient": "peas",
+        "substitute": "diced carrot or corn — adds crunch and colour"
+      },
+      {
+        "ingredient": "oil",
+        "substitute": "reduce to 1 tsp and use a non-stick pan — lower calorie version"
+      }
+    ],
+    "culturalNote": "Soya keema emerged as a cost-effective meat substitute in middle-class Indian households during the 1980s protein push and has since become a beloved dish in its own right, especially in the fitness community.",
+    "regionalVariation": "Hyderabadi cooks add a cinnamon stick and clove to the tempering for a more aromatic keema; Tamil-style versions use sambar powder and curry leaves.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-gym-tawa-lemon-fish",
+    "slug": "gym-tawa-lemon-fish",
+    "title": "Tawa Grilled Fish with Lemon",
+    "nativeTitle": null,
+    "description": "Firm fish fillets marinated in lemon, turmeric and spice paste, then seared on a hot tawa until the crust is crisp and the flesh flakes cleanly. A high-protein, low-oil preparation that works equally well as a weeknight dinner or a pre-gym meal.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "pescatarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "firm white fish fillets (tilapia, basa or seer)",
+        "normalizedName": "fish",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 0.75,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, freshly cracked",
+        "normalizedName": "black-pepper",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, for serving",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pat the fish fillets completely dry with a kitchen cloth — surface moisture is the enemy of a good crust. Score each fillet with 2-3 shallow diagonal cuts to help the marinade penetrate and prevent curling during cooking.",
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Mix lemon juice, ginger-garlic paste, red chilli powder, turmeric, coriander powder, cumin, black pepper and salt into a thick paste. Coat the fillets on both sides, pressing the marinade into the cuts. Rest for 10 minutes — do not marinate longer or the lemon acid will start to cook the fish.",
+        "timerMinutes": 10,
+        "method": "marinating"
+      },
+      {
+        "order": 3,
+        "text": "Heat a tawa or heavy frying pan on high until smoking — this is critical for a seared crust rather than a steamed finish. Add the oil and swirl to coat the surface evenly.",
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Place the fillets in a single layer and press gently with a flat spatula for the first 30 seconds to ensure full contact with the surface. Sear without moving for 4-5 minutes until the underside is deeply coloured and releases cleanly from the pan.",
+        "timerMinutes": 5,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Flip carefully using a wide spatula and cook the other side 3-4 minutes until the fish flakes when pressed at the thickest point. Serve immediately on a warm plate with lemon wedges, coriander leaves and a side salad or steamed rice.",
+        "timerMinutes": 4
+      }
+    ],
+    "cookware": [
+      "tawa"
+    ],
+    "methods": [
+      "marinating",
+      "tawa-cooking",
+      "pan-frying"
+    ],
+    "tags": [
+      "gym",
+      "healthy",
+      "low-oil",
+      "grill-bbq"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "nutrition": {
+      "calories": 260,
+      "protein": 38,
+      "carbs": 3,
+      "fat": 10,
+      "fiber": 0,
+      "sugar": 1,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "fish",
+        "substitute": "large prawns — cook 2 min per side only"
+      },
+      {
+        "ingredient": "oil",
+        "substitute": "gingelly oil for a south Indian coastal flavour"
+      },
+      {
+        "ingredient": "coriander-seeds",
+        "substitute": "sambar powder (1 tsp) for a Tamil-style spice profile"
+      }
+    ],
+    "culturalNote": "Tawa fish is a North Indian street-food staple found on pavements across Punjab and Delhi — the flat iron griddle gives the crust that a non-stick pan cannot replicate, and a squeeze of lemon right at the table brightens every bite.",
+    "regionalVariation": "Kerala coastal cooks marinate in coconut vinegar and kudampuli (Malabar tamarind); Tamil-style tawa fish uses fennel and curry leaves in the paste.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-gym-oats-chilla",
+    "slug": "gym-oats-chilla",
+    "title": "Oats Chilla (Savoury Oat Pancakes)",
+    "nativeTitle": null,
+    "description": "Quick-oats batter spiced with cumin, green chilli and grated vegetables, poured onto a hot tawa into thin, lacy pancakes. A filling breakfast that combines the slow-burning energy of oats with enough protein to hold you through a morning workout.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "snack",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 25,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "rolled oats (blended to coarse flour)",
+        "normalizedName": "oats",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "besan (gram flour)",
+        "normalizedName": "besan",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "onion, finely grated or chopped",
+        "normalizedName": "onion",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "carrot, finely grated",
+        "normalizedName": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "green chilli, minced",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "water (to make batter)",
+        "normalizedName": "water",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "If you have a mixie or blender, pulse the rolled oats to a coarse powder — about 8-10 pulses, not a fine flour. This gives the chilla body without making it gummy. Alternatively use quick-cooking oats as-is, which soften faster in the batter."
+      },
+      {
+        "order": 2,
+        "text": "Combine oat powder, besan, grated onion, grated carrot, green chilli, cumin seeds, turmeric, coriander leaves and salt in a mixing bowl. Gradually whisk in water until you get a smooth, pourable batter slightly thicker than dosa batter. Rest for 5 minutes so the oats can absorb the moisture.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Heat a tawa on medium-high until a few drops of water skitter and evaporate on contact. Smear very lightly with a few drops of oil using a kitchen paper or the back of a ladle.",
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Pour a ladleful of batter onto the centre of the tawa and spread quickly in concentric circles to a thin 15-17 cm round. Drizzle a few drops of oil around the edges. Cook for 2-3 minutes until the surface turns matte and the edges look set and slightly crisp.",
+        "timerMinutes": 3,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Flip carefully with a wide spatula and cook the other side 1-2 minutes until light golden spots appear. Transfer to a plate and repeat with remaining batter. Serve hot with green chutney or low-fat curd on the side.",
+        "timerMinutes": 7
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "mixie"
+    ],
+    "methods": [
+      "tawa-cooking"
+    ],
+    "tags": [
+      "gym",
+      "healthy",
+      "quick",
+      "tiffin",
+      "lunchbox"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 210,
+      "protein": 10,
+      "carbs": 32,
+      "fat": 4,
+      "fiber": 5,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "oats",
+        "substitute": "ragi flour (finger millet) for a calcium-rich variation"
+      },
+      {
+        "ingredient": "besan",
+        "substitute": "moong dal flour or extra oat flour — keeps it gluten-free"
+      },
+      {
+        "ingredient": "carrot",
+        "substitute": "grated zucchini, beetroot or spinach for colour and micronutrients"
+      }
+    ],
+    "culturalNote": "The oats chilla is a modern addition to the Indian fitness kitchen, blending the ancient besan chilla tradition with the nutritional profile of oats to create a breakfast that fits equally well into a calorie tracker and a tiffin box.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-gym-moong-dal-chilla",
+    "slug": "gym-moong-dal-chilla",
+    "title": "Moong Dal Chilla (Lentil Savoury Pancakes)",
+    "nativeTitle": "मूंग दाल चीला",
+    "description": "Whole green moong dal soaked and ground into a light, spiced batter that cooks into crisp, protein-packed pancakes on a tawa. One of the most nutrient-complete breakfasts in the Indian tradition — gluten-free, dairy-free and naturally high in protein.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "snack",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegan",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 65,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 80,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "whole green moong (soaked 1 hour)",
+        "normalizedName": "moong-dal",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "ginger, roughly chopped",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "green chilli",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": true
+      },
+      {
+        "name": "onion, finely chopped (to top)",
+        "normalizedName": "onion",
+        "quantity": 0.25,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "coriander leaves, chopped (to top)",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Wash the moong dal in two changes of water, then cover with fresh water and soak for at least 1 hour (overnight is fine). The dal will swell to nearly double its size — this is what makes the batter grind smoothly and the chilla light rather than dense.",
+        "timerMinutes": 60
+      },
+      {
+        "order": 2,
+        "text": "Drain the soaked moong and transfer to a blender or mixie. Add ginger, green chilli, cumin seeds, turmeric, asafoetida and just enough water (3-4 tbsp) to grind into a smooth, thick batter. Season with salt. The batter should be slightly thicker than pancake batter — add water one tablespoon at a time if needed.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Heat a tawa on medium-high flame. Rub a few drops of oil across the surface with a folded kitchen cloth. Once the tawa is hot enough that water drops skitter and vanish, it is ready.",
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Pour a ladleful of batter onto the centre and spread quickly into a thin, even round of about 15 cm in diameter. Scatter a pinch of chopped onion and coriander on top if using. Drizzle a few drops of oil around the edges and cook for 2-3 minutes until the edges lift slightly and the surface turns from shiny to matte.",
+        "timerMinutes": 3,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Flip with a wide flat spatula and cook the second side for 1-2 minutes until light golden spots appear. Remove and serve hot immediately with green chutney or a bowl of low-fat curd. Repeat for the remaining batter — makes 4-5 chillas.",
+        "timerMinutes": 12
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "blender"
+    ],
+    "methods": [
+      "tawa-cooking",
+      "no-cook"
+    ],
+    "tags": [
+      "gym",
+      "healthy",
+      "quick",
+      "tiffin",
+      "lunchbox",
+      "budget"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 190,
+      "protein": 13,
+      "carbs": 28,
+      "fat": 3,
+      "fiber": 6,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "moong-dal",
+        "substitute": "chana dal (soaked 4 hours) — richer and slightly denser, equally protein-rich"
+      },
+      {
+        "ingredient": "ginger",
+        "substitute": "0.5 tsp ginger powder — works fine in the batter"
+      },
+      {
+        "ingredient": "oil",
+        "substitute": "zero oil on a well-seasoned cast-iron tawa — lowers calories further"
+      }
+    ],
+    "culturalNote": "Moong dal chilla is a centuries-old breakfast preparation across North India, prized by both grandmothers and gym-goers for the same reason: it fills you up, digests cleanly, and costs almost nothing.",
+    "regionalVariation": "Rajasthani cooks add a tablespoon of curd to the batter for slight tang and extra tenderness; Gujarat's variant (called 'handvo' in a different form) adds bottle gourd to the batter.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-gym-quinoa-vegetable-khichdi",
+    "slug": "gym-quinoa-vegetable-khichdi",
+    "title": "Quinoa Vegetable Khichdi",
+    "nativeTitle": null,
+    "description": "Quinoa and moong dal cooked together with seasonal vegetables and a light tempering of cumin, turmeric and ginger — a modern take on the classic one-pot khichdi that swaps rice for quinoa to deliver all nine essential amino acids in a single bowl.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "quinoa, rinsed well",
+        "normalizedName": "quinoa",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "moong dal (split yellow)",
+        "normalizedName": "moong-dal",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "carrot, diced small",
+        "normalizedName": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "peas (fresh or frozen)",
+        "normalizedName": "peas",
+        "quantity": 0.25,
+        "unit": "cup",
+        "optional": true
+      },
+      {
+        "name": "spinach, roughly torn",
+        "normalizedName": "spinach",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": true
+      },
+      {
+        "name": "ginger, finely grated",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": true
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil (or ghee for a richer taste)",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, for garnish",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Rinse the quinoa through a fine mesh strainer under running water for 1 minute — this removes the bitter saponin coating. Rinse the moong dal once. Soak both together in water for 10 minutes while you prep the vegetables.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Heat ghee or oil in a heavy-bottomed pot on medium. Add cumin seeds and asafoetida; let the seeds sputter for 20 seconds. Add ginger and fry for 30 seconds until fragrant.",
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add the diced carrot and peas, stir for 1 minute. Add turmeric and toss briefly. Drain the quinoa and dal and add them to the pot, stirring to coat in the tempered oil.",
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Pour in 2.5 cups of water and salt. Bring to a full boil on high, then reduce the flame to low, cover tightly and cook for 15-17 minutes until the quinoa grains have unfurled their white tails and the dal is fully soft. Stir once halfway through — add a splash of water if it looks too dry.",
+        "timerMinutes": 17,
+        "method": "one-pot"
+      },
+      {
+        "order": 5,
+        "text": "Add the torn spinach, stir in and cook covered for 1 more minute until wilted. Remove from heat, squeeze lemon juice over the top and garnish with coriander. Serve hot — khichdi thickens as it sits, so eat promptly or add a little hot water when reheating."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "tempering",
+      "sauteing",
+      "one-pot"
+    ],
+    "tags": [
+      "gym",
+      "healthy",
+      "bowl",
+      "one-pot-meal",
+      "quick"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 290,
+      "protein": 14,
+      "carbs": 42,
+      "fat": 5,
+      "fiber": 7,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "quinoa",
+        "substitute": "broken wheat (dalia) — cheaper and widely available; same cooking method"
+      },
+      {
+        "ingredient": "oil",
+        "substitute": "ghee — adds richness but contains dairy (not vegan)"
+      },
+      {
+        "ingredient": "moong-dal",
+        "substitute": "masoor dal (red lentils) — no soaking needed, cooks in the same time"
+      }
+    ],
+    "culturalNote": "Khichdi is one of India's oldest one-pot comfort foods; the quinoa version is a contemporary adaptation popular in urban fitness circles for its complete amino-acid profile and easy digestibility.",
+    "regionalVariation": "Gujarati khichdi uses more ghee and a touch of jaggery; the Ayurvedic 'satvik' version omits onion, garlic and asafoetida.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-gym-tofu-stirfry-bowl",
+    "slug": "gym-tofu-stirfry-bowl",
+    "title": "Tofu Stir-Fry Bowl",
+    "nativeTitle": null,
+    "description": "Firm tofu cubes pan-fried until golden, then tossed with broccoli, capsicum and spring onion in a savory soy-ginger sauce and served over steamed rice. A quick, plant-based, gym-friendly bowl with around 22 g of protein per serving.",
+    "cuisine": "chinese",
+    "country": "china",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "firm tofu, pressed and cubed",
+        "normalizedName": "tofu",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "broccoli, cut into small florets",
+        "normalizedName": "broccoli",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "capsicum (red or yellow), sliced",
+        "normalizedName": "capsicum",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "spring onion, sliced, whites and greens separated",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "rice (for serving)",
+        "normalizedName": "rice",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper",
+        "normalizedName": "black-pepper",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cornflour (to coat tofu)",
+        "normalizedName": "cornflour",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Press the tofu firmly between two plates lined with kitchen cloth for 10 minutes to expel moisture — the drier the tofu, the crispier it will fry. Cut into 2 cm cubes and dust lightly with cornflour if using, which adds crunch.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Cook the rice in 1.75 cups water until tender and fluffy. Keep warm.",
+        "timerMinutes": 15,
+        "method": "boiling"
+      },
+      {
+        "order": 3,
+        "text": "Heat 1.5 tbsp oil in a wok on high flame until shimmering. Add tofu cubes in a single layer and fry without stirring for 3-4 minutes until the base is deep golden, then turn and fry remaining sides 2-3 minutes. Remove to a plate.",
+        "timerMinutes": 6,
+        "method": "pan-frying"
+      },
+      {
+        "order": 4,
+        "text": "Add remaining oil to the wok and stir-fry the spring onion whites, garlic and ginger for 30 seconds. Add broccoli and capsicum and stir-fry on high for 3-4 minutes until the broccoli is bright green with charred edges but still has a crisp bite.",
+        "timerMinutes": 4,
+        "method": "stir-frying"
+      },
+      {
+        "order": 5,
+        "text": "Return the tofu to the wok, pour in soy sauce and black pepper, and toss everything together on high for 1 minute until the sauce coats the tofu and vegetables evenly. Serve immediately over rice, topped with spring onion greens.",
+        "timerMinutes": 1,
+        "method": "stir-frying"
+      }
+    ],
+    "cookware": [
+      "wok",
+      "saucepan"
+    ],
+    "methods": [
+      "pan-frying",
+      "stir-frying",
+      "boiling"
+    ],
+    "tags": [
+      "gym",
+      "healthy",
+      "bowl",
+      "quick"
+    ],
+    "allergens": [
+      "soy",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "protein": 22,
+      "carbs": 42,
+      "fat": 11,
+      "fiber": 4,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "tofu",
+        "substitute": "paneer (cubed) for a dairy-based high-protein alternative — not vegan"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "tamari (gluten-free soy sauce) for a gluten-free version"
+      },
+      {
+        "ingredient": "broccoli",
+        "substitute": "cauliflower, mushrooms or green beans — same stir-fry time"
+      }
+    ],
+    "culturalNote": "Stir-fried tofu is a cornerstone of Chinese Buddhist temple cuisine, prized for centuries as a complete plant protein. The gym-bowl format is a modern adaptation that combines the original technique with a Western meal-prep structure.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": "A kadai works perfectly in place of a wok — use it on the highest possible flame. Tofu (called 'soya paneer' in some Indian stores) is now available in most supermarkets and Amazon. Replace soy sauce with 1 tbsp of ginger-garlic paste plus a dash of vinegar if soy is unavailable — it is not authentic but keeps the protein content identical.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-gym-greek-hung-curd-bowl",
+    "slug": "gym-greek-hung-curd-bowl",
+    "title": "Greek-Style Hung Curd Bowl with Fruit and Nuts",
+    "nativeTitle": null,
+    "description": "Thick hung curd (drained overnight to mimic Greek yogurt) layered with fresh fruit, toasted nuts, a drizzle of honey and a pinch of cinnamon — a protein-rich, no-cook breakfast bowl ready in 15 minutes. Light, creamy and genuinely satisfying as a post-workout recovery meal.",
+    "cuisine": "greek",
+    "country": "greece",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "snack"
+    ],
+    "dietType": [
+      "vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 5,
+    "totalTimeMinutes": 15,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "hung curd (curd drained in muslin for 2-3 hours or overnight)",
+        "normalizedName": "curd",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "banana, sliced",
+        "normalizedName": "banana",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "apple, diced",
+        "normalizedName": "apple",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "mixed nuts (almonds, cashews, walnuts)",
+        "normalizedName": "almond",
+        "quantity": 15,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "honey, to drizzle",
+        "normalizedName": "honey",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cinnamon powder",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": true
+      },
+      {
+        "name": "flax seeds or sesame seeds",
+        "normalizedName": "flax-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "To make hung curd: line a bowl with a muslin cloth or a fine strainer, pour in full-fat or double-toned curd and leave in the fridge for at least 2-3 hours (overnight gives a thicker, more yogurt-like consistency). The whey will drain away, leaving a dense, creamy curd with concentrated protein."
+      },
+      {
+        "order": 2,
+        "text": "Toast the mixed nuts in a dry frying pan on low heat, stirring constantly, for 3-4 minutes until they turn lightly golden and fragrant. Watch carefully — nuts go from golden to burnt in seconds. Remove and let cool briefly before roughly chopping.",
+        "timerMinutes": 4,
+        "method": "pan-frying"
+      },
+      {
+        "order": 3,
+        "text": "Dice the apple into small chunks and slice the banana, if using. Working quickly prevents the apple from browning — a light squeeze of lemon helps if you are prepping ahead.",
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Spoon the thick hung curd into a wide bowl and smooth the surface with the back of the spoon. Arrange the fruit on top in sections."
+      },
+      {
+        "order": 5,
+        "text": "Scatter the toasted nuts over the fruit, drizzle honey in a thin stream, dust with cinnamon and sprinkle flax seeds. Eat immediately for the best contrast of textures between the cool creamy curd and the warm crunchy nuts."
+      }
+    ],
+    "cookware": [
+      "frying-pan"
+    ],
+    "methods": [
+      "no-cook",
+      "pan-frying"
+    ],
+    "tags": [
+      "gym",
+      "healthy",
+      "bowl",
+      "quick"
+    ],
+    "allergens": [
+      "dairy",
+      "nuts"
+    ],
+    "nutrition": {
+      "calories": 280,
+      "protein": 18,
+      "carbs": 24,
+      "fat": 12,
+      "fiber": 3,
+      "sugar": 15,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "curd",
+        "substitute": "store-bought thick Greek yogurt — identical result with zero prep time"
+      },
+      {
+        "ingredient": "almond",
+        "substitute": "pumpkin seeds (pepitas) for a nut-free version with similar crunch"
+      },
+      {
+        "ingredient": "honey",
+        "substitute": "date syrup or jaggery dissolved in a splash of warm water — vegan-friendly sweetness"
+      }
+    ],
+    "culturalNote": "In Greece, thick strained yogurt (straggisto) served with fruit and honey is a staple breakfast and a cornerstone of the Mediterranean diet — a tradition that Indian kitchens can replicate exactly using hung curd made overnight.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": "Hung curd is the perfect stand-in for Greek yogurt — simply pour standard dahi into a muslin cloth or fine strainer and refrigerate for 2-3 hours. Full-fat Amul curd or homemade curd works best. Almonds (badam), cashews (kaju) and walnuts (akhrot) are all available at any Indian kirana store; banana and apple are the easiest fruit choices year-round.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-gym-ragi-porridge",
+    "slug": "gym-ragi-porridge",
+    "title": "Ragi Porridge",
+    "nativeTitle": "ರಾಗಿ ಗಂಜಿ",
+    "description": "Finger millet flour stirred into simmering water until it thickens into a smooth, warming porridge — a traditional South Indian breakfast that is naturally gluten-free, high in calcium and sustained-release energy. Lightly sweetened with jaggery or taken savoury with a pinch of salt.",
+    "cuisine": "karnataka",
+    "country": "india",
+    "region": "old-mysuru",
+    "language": "en",
+    "mealType": [
+      "breakfast"
+    ],
+    "dietType": [
+      "vegan",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 10,
+    "totalTimeMinutes": 15,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "ragi flour (finger millet flour)",
+        "normalizedName": "ragi",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 300,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "jaggery, grated",
+        "normalizedName": "jaggery",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "cardamom powder",
+        "normalizedName": "cardamom",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "coconut milk (optional for richness)",
+        "normalizedName": "coconut-milk",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Whisk the ragi flour into 100 ml of cold water until completely smooth with no lumps — starting with cold water is essential because adding flour directly to hot water creates instant lumps that are nearly impossible to break up."
+      },
+      {
+        "order": 2,
+        "text": "Bring the remaining 200 ml water to the boil in a small saucepan over medium heat. Add a pinch of salt.",
+        "timerMinutes": 3,
+        "method": "boiling"
+      },
+      {
+        "order": 3,
+        "text": "Reduce the flame to low and slowly pour in the ragi slurry while stirring continuously with a whisk or ladle in the same direction. Constant stirring prevents lumping and keeps the porridge smooth.",
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "Continue to cook on low, stirring without stopping, for 5-7 minutes until the porridge thickens to a consistency that coats the back of the spoon and pulls away slightly from the sides of the pan. It will thicken further as it cools.",
+        "timerMinutes": 7,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Remove from heat and stir in jaggery and cardamom for the sweet version, or serve as-is with a drizzle of coconut milk for a savoury ragi kanji. Eat while warm — the porridge firms up quickly in the bowl."
+      }
+    ],
+    "cookware": [
+      "saucepan"
+    ],
+    "methods": [
+      "boiling",
+      "simmering"
+    ],
+    "tags": [
+      "gym",
+      "healthy",
+      "quick",
+      "budget",
+      "under-30-minutes"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 130,
+      "protein": 4,
+      "carbs": 26,
+      "fat": 1,
+      "fiber": 2,
+      "sugar": 8,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "ragi",
+        "substitute": "bajra (pearl millet) flour — same technique, earthier flavour"
+      },
+      {
+        "ingredient": "jaggery",
+        "substitute": "honey or dates syrup — same sweetness; skip jaggery for a fully savoury version"
+      },
+      {
+        "ingredient": "coconut-milk",
+        "substitute": "any plant-based milk (oat, almond) to enrich the porridge while keeping it vegan"
+      }
+    ],
+    "culturalNote": "Ragi porridge — called ragi ganji or ragi ambli — has been a staple morning meal and weaning food across Karnataka and Tamil Nadu for generations, prized for its calcium content and ability to sustain energy through a long working morning.",
+    "regionalVariation": "Tamil-style ragi koozh is thicker, fermented overnight with a little cooked rice, and eaten with raw onion and buttermilk on the side; Karnataka ragi kanji is thinner and always served warm with a jaggery cube on the rim.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-gym-peanut-chicken-salad",
+    "slug": "gym-peanut-chicken-salad",
+    "title": "Peanut Chicken Salad",
+    "nativeTitle": null,
+    "description": "Poached chicken shredded and tossed with cucumber, cabbage, spring onion and a punchy peanut-lime-ginger dressing. A no-heat assembly after the poach, big on protein and crunch, and an ideal meal-prep option that holds well in the fridge for two days.",
+    "cuisine": "american",
+    "country": "united-states",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "boneless chicken breast",
+        "normalizedName": "chicken",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "cabbage, thinly shredded",
+        "normalizedName": "cabbage",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "cucumber, julienned",
+        "normalizedName": "cucumber",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "spring onion, sliced",
+        "normalizedName": "spring-onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "roasted peanuts, roughly crushed",
+        "normalizedName": "peanut",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "peanut butter (or more crushed peanuts)",
+        "normalizedName": "peanut",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 1,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "green chilli, minced",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "honey",
+        "normalizedName": "honey",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, for garnish",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Place the chicken breast in a saucepan and cover with cold water. Add a pinch of salt and bring to a gentle boil. Reduce to a very low simmer and poach for 15-17 minutes until the chicken is cooked through — it should be firm but not rubbery when pressed. Do not boil rapidly or the breast will tighten and turn dry.",
+        "timerMinutes": 17,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Transfer the chicken to a board and let it rest for 5 minutes. Use two forks or your fingers to shred it into long, thin pieces along the grain."
+      },
+      {
+        "order": 3,
+        "text": "While the chicken poaches, whisk together peanut butter, lemon juice, grated ginger, minced garlic, green chilli and honey into a smooth dressing. Thin with 1-2 tbsp of the hot poaching liquid until it pours easily. Taste for salt.",
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Toss the shredded cabbage, julienned cucumber and spring onion together in a large bowl. Add the shredded chicken and pour the peanut dressing over everything. Toss thoroughly so the dressing coats every strand of chicken and vegetable.",
+        "method": "no-cook"
+      },
+      {
+        "order": 5,
+        "text": "Scatter the crushed roasted peanuts on top and finish with coriander leaves. Serve immediately for the crunchiest texture, or refrigerate for up to 2 days — add the peanuts just before eating so they stay crisp."
+      }
+    ],
+    "cookware": [
+      "saucepan"
+    ],
+    "methods": [
+      "boiling",
+      "no-cook"
+    ],
+    "tags": [
+      "gym",
+      "healthy",
+      "salad",
+      "lunchbox"
+    ],
+    "allergens": [
+      "peanuts"
+    ],
+    "nutrition": {
+      "calories": 350,
+      "protein": 38,
+      "carbs": 12,
+      "fat": 16,
+      "fiber": 3,
+      "sugar": 6,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "canned tuna (2 cans, drained) — no poaching needed, equally high in protein"
+      },
+      {
+        "ingredient": "peanut",
+        "substitute": "tahini or almond butter — use the same quantity in the dressing; changes allergen profile"
+      },
+      {
+        "ingredient": "cabbage",
+        "substitute": "spinach or finely sliced capsicum for a softer salad base"
+      }
+    ],
+    "culturalNote": "Peanut-dressed chicken salads trace their flavour profile to the Thai and Chinese kitchen but became a fixture of American meal-prep culture in the 2010s — the combination of lean protein and healthy fats hits almost every macronutrient target in a single bowl.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": "Roasted groundnuts (moongphali) are sold at every Indian kirana for a fraction of the price of imported peanut butter — use 3 tbsp crushed groundnuts blended with a splash of oil to make a quick peanut paste that works identically in the dressing. Poach the chicken on any stovetop in a simple saucepan; the technique needs no special equipment.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-gym-masoor-dal-soup",
+    "slug": "gym-masoor-dal-soup",
+    "title": "Masoor Dal Soup",
+    "nativeTitle": "मसूर दाल सूप",
+    "description": "Red lentils simmered with tomato, ginger and warming spices into a thick, iron-rich soup — ready in 35 minutes with no soaking required. A low-calorie, high-protein bowl that counts as both a complete lunch and a recovery drink after training.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 35,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "masoor dal (red lentils)",
+        "normalizedName": "masoor-dal",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "spinach, roughly torn (optional)",
+        "normalizedName": "spinach",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": true
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, to garnish",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Rinse the masoor dal in two changes of water until the water runs mostly clear. Red lentils require no soaking — they cook fast on their own."
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a heavy-bottomed pot on medium. Add cumin seeds and let them sputter for 15 seconds. Add onion, garlic and ginger and sauté for 4-5 minutes until the onion turns soft and lightly golden.",
+        "timerMinutes": 5,
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add tomatoes, turmeric, red chilli powder and coriander powder. Stir well and cook for 3-4 minutes until the tomatoes break down and the masala smells fragrant.",
+        "timerMinutes": 4,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Add the rinsed lentils and 750 ml water. Stir, bring to a boil, then reduce to a gentle simmer, half-cover the pot and cook for 15-18 minutes until the lentils are completely soft and have melted into the soup base. Stir occasionally and add water if the soup thickens too much — the final consistency should pour from a ladle in a thick stream.",
+        "timerMinutes": 18,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Stir in the spinach (if using) and cook 1 minute until wilted. Remove from heat, squeeze in lemon juice, check salt and garnish with coriander. Serve hot in deep bowls with a slice of whole-grain bread or simply as a standalone protein soup."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "tempering",
+      "sauteing",
+      "simmering"
+    ],
+    "tags": [
+      "gym",
+      "healthy",
+      "soup",
+      "budget",
+      "one-pot-meal"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 195,
+      "protein": 12,
+      "carbs": 30,
+      "fat": 2,
+      "fiber": 8,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "masoor-dal",
+        "substitute": "moong dal (yellow split) — slightly milder in flavour, same cook time"
+      },
+      {
+        "ingredient": "spinach",
+        "substitute": "kale or fenugreek leaves (methi) — add at the same stage"
+      },
+      {
+        "ingredient": "oil",
+        "substitute": "omit entirely and dry-temper on a non-stick pot for an oil-free version"
+      }
+    ],
+    "culturalNote": "Masoor dal soup is a staple of diet clinics and gym canteens across India — its fast cook time, minimal fat, high fibre and decent protein make it one of the most efficient high-volume meals in Indian cooking.",
+    "regionalVariation": "South Indian cooks add a mustard-curry-leaf tadka poured on top at the end; Bengali homes temper with panch phoron (five-spice blend) and a whole dried chilli.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  }
+]

@@ -1,0 +1,3436 @@
+[
+  {
+    "id": "ca-festival-gulab-jamun",
+    "slug": "festival-gulab-jamun",
+    "title": "Gulab Jamun",
+    "nativeTitle": "गुलाब जामुन",
+    "description": "Pillowy khoya dumplings fried to a deep reddish-brown and soaked overnight in rose-cardamom sugar syrup — the definitive Diwali and Eid sweet that collapses into warm, perfumed softness at the first bite.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "dessert"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 55,
+    "totalTimeMinutes": 75,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "khoya (mawa), grated or crumbled",
+        "normalizedName": "khoya",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "maida (all-purpose flour)",
+        "normalizedName": "maida",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "baking soda",
+        "normalizedName": "baking-soda",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "milk, at room temperature",
+        "normalizedName": "milk",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "add only if dough is too stiff"
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 3,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "cardamom pods, lightly crushed",
+        "normalizedName": "cardamom",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "rose water",
+        "normalizedName": "rose-water",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil, for deep frying",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Combine sugar, water and cardamom pods in a saucepan over medium heat, stirring until the sugar dissolves. Bring to a boil, then reduce heat and simmer uncovered for 6 minutes to form a thin, lightly sticky syrup — it should not reach one-thread consistency. Remove from heat, stir in rose water and keep warm on the lowest flame.",
+        "timerMinutes": 8,
+        "method": "simmering"
+      },
+      {
+        "order": 2,
+        "text": "Grate or crumble the khoya into a wide bowl and knead it for 2 minutes until smooth and slightly warm from your hands. Add the maida, baking soda and ghee, then knead again for 1 minute to form a uniform, soft dough. It should hold a ball shape without cracking; add milk only by the drop if the dough feels too stiff."
+      },
+      {
+        "order": 3,
+        "text": "Divide the dough into 18–20 equal portions (about 12 g each) and roll each between your palms into a smooth ball with no surface cracks — cracks let oil in and cause the jamuns to split. Work quickly so the dough doesn't dry out; cover the shaped balls with a damp cloth."
+      },
+      {
+        "order": 4,
+        "text": "Pour oil into a wide kadai to a depth of at least 7 cm and heat over medium-low to about 140°C. Test with a small piece of dough — it should rise to the surface slowly after 3 seconds. Slide 5–6 balls into the oil and fry, swirling the pan or gently stirring, so they colour evenly on all sides. Fry for 10–12 minutes per batch until they are a deep mahogany-brown all over. Patience is essential; rushing the heat will burn the outside while the centre stays raw.",
+        "timerMinutes": 12,
+        "method": "deep-frying"
+      },
+      {
+        "order": 5,
+        "text": "Remove the jamuns with a slotted spoon, shake off excess oil briefly and lower them straight into the warm sugar syrup. Repeat with remaining batches. Once all the jamuns are in the syrup, cover the pan and let them soak undisturbed for at least 1 hour at room temperature — they will swell and absorb syrup visibly. Serve warm, or refrigerate and gently rewarm before serving."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "saucepan"
+    ],
+    "methods": [
+      "simmering",
+      "deep-frying"
+    ],
+    "tags": [
+      "festival",
+      "diwali",
+      "eid",
+      "sweet",
+      "party"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein": 8,
+      "carbs": 65,
+      "fat": 10,
+      "fiber": 0,
+      "sugar": 55,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "khoya",
+        "substitute": "3 tbsp full-fat milk powder worked into 1 tbsp ghee plus 1 tbsp cream — knead into a firm paste and use in place of khoya",
+        "notes": "fresh khoya gives the best texture"
+      },
+      {
+        "ingredient": "maida",
+        "substitute": "1 tbsp fine semolina (rava/sooji) for slightly chewier jamuns"
+      },
+      {
+        "ingredient": "rose-water",
+        "substitute": "2 drops kewra (pandanus) essence or simply omit for an unflavoured syrup"
+      }
+    ],
+    "culturalNote": "Gulab jamun takes its name from the Persian and Arabic words for rose ('gulab') and water ('ab'), a nod to the rose-water-scented syrup. It is the centrepiece sweet at Diwali and Eid gatherings across North India.",
+    "regionalVariation": "The Rajasthani variant, kala jamun, is fried darker and stuffed with a small khoya-kesar ball inside; the South Indian paneer jamun uses fresh paneer in place of khoya for a lighter texture.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-festival-kaju-katli",
+    "slug": "festival-kaju-katli",
+    "title": "Kaju Katli",
+    "nativeTitle": "काजू कतली",
+    "description": "Silky cashew fudge diamonds — just ground cashews, sugar syrup and the lightest touch of cardamom — set to a smooth, melt-on-the-tongue slab that is the most gifted sweet across India during Diwali.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "dessert"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "premium",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 40,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "raw cashews (kaju)",
+        "normalizedName": "cashew",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "for greasing the rolling surface"
+      },
+      {
+        "name": "cardamom powder",
+        "normalizedName": "cardamom",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "pistachios, finely chopped",
+        "normalizedName": "pistachio",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "for garnish"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Make sure the cashews are completely dry — even slight moisture will make them turn into paste instead of powder. Pulse them in a dry mixie jar in 5-second bursts until you get a fine, dry powder. Sieve out any coarser pieces and re-pulse them. The powder should flow freely and not clump.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Combine sugar and water in a heavy-bottomed kadai over medium heat, stirring until the sugar fully dissolves. Stop stirring and cook without touching for 5–6 minutes until you reach a single-thread consistency: dip a clean spoon, let it cool 10 seconds, then press a drop between wet thumb and forefinger — when pulled apart, a single thread should form and hold without breaking.",
+        "timerMinutes": 6,
+        "method": "simmering"
+      },
+      {
+        "order": 3,
+        "text": "Remove the kadai from heat and quickly tip in all the cashew powder and cardamom at once. Stir vigorously to combine — the mixture will look crumbly at first. Return to the lowest flame and stir continuously for 3–4 minutes, pressing any lumps against the pan, until the mixture pulls together into a smooth, soft, non-sticky mass that leaves the sides cleanly.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 4,
+        "text": "Grease a sheet of parchment paper or thick aluminium foil with a thin layer of ghee. Turn the warm cashew mixture onto it — it will be very hot — and place a second greased sheet on top. Use a rolling pin or the flat bottom of a steel tumbler to press and roll to an even 4–5 mm thickness while the mixture is still warm and pliable. Work swiftly as it stiffens as it cools."
+      },
+      {
+        "order": 5,
+        "text": "Scatter chopped pistachios over the surface and press lightly. Leave to cool and firm at room temperature for 20–25 minutes. Use a sharp knife or pizza cutter to cut into diamond (rhombus) shapes — make parallel cuts in one direction, then diagonal cuts. Lift each piece carefully with a flat spatula. Store layered between parchment in an airtight box at room temperature for up to a week.",
+        "timerMinutes": 25
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "mixie"
+    ],
+    "methods": [
+      "simmering",
+      "no-cook"
+    ],
+    "tags": [
+      "festival",
+      "diwali",
+      "sweet",
+      "party",
+      "no-onion-no-garlic",
+      "kids-friendly"
+    ],
+    "allergens": [
+      "dairy",
+      "nuts"
+    ],
+    "nutrition": {
+      "calories": 220,
+      "protein": 5,
+      "carbs": 28,
+      "fat": 12,
+      "fiber": 1,
+      "sugar": 24,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "cashew",
+        "substitute": "pistachio or almond, or a 50:50 mix of both, for a different flavour profile and colour"
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "coconut oil for greasing — the katli will still set cleanly"
+      },
+      {
+        "ingredient": "sugar",
+        "substitute": "caster sugar, which dissolves faster and reduces the risk of crystallisation"
+      }
+    ],
+    "culturalNote": "Kaju katli is India's most beloved mithai gift box staple — its silver sheen (traditionally edible silver leaf, or varq) signals celebration, making it the first sweet selected during Diwali shopping.",
+    "regionalVariation": "In Karnataka and Tamil Nadu, a version called kaju burfi is sometimes made softer and cut into squares rather than diamonds; some Rajasthani halwais add a thread of saffron to the syrup for a golden tint.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-festival-besan-ladoo",
+    "slug": "festival-besan-ladoo",
+    "title": "Besan Ladoo",
+    "nativeTitle": "बेसन लड्डू",
+    "description": "Slow-roasted gram flour round balls bound together with ghee and fragrant with cardamom — a 15-minute Diwali prep that smells like toasted hazelnuts and dissolves on the tongue. No syrup, no special equipment; just patience at the stove.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "dessert"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 35,
+    "totalTimeMinutes": 45,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "besan (gram flour, fine grind)",
+        "normalizedName": "besan",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false,
+        "notes": "do not reduce — the fat binds the ladoos"
+      },
+      {
+        "name": "powdered sugar (run in mixie if not available)",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "cardamom powder",
+        "normalizedName": "cardamom",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cashews, halved",
+        "normalizedName": "cashew",
+        "quantity": 15,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "raisins",
+        "normalizedName": "raisin",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat the ghee in a wide, heavy-bottomed kadai over medium-low flame. Add the besan all at once and stir with a long-handled spoon to form a smooth paste. The mixture will be quite loose — that is expected.",
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Lower the flame to the absolute minimum and roast the besan, stirring without stopping, for 20–25 minutes. It will slowly darken from pale yellow to a warm golden-sand colour, and the raw, slightly bitter smell will give way to a deep, nutty aroma like toasted chickpeas. The besan is done when it pulls away slightly from the sides of the pan and no longer smells raw. Do not rush this — under-roasted besan tastes bitter.",
+        "timerMinutes": 25
+      },
+      {
+        "order": 3,
+        "text": "Add the cashew halves and raisins in the last 3 minutes of roasting and stir through so they colour gently in the hot ghee. Remove the pan from heat and immediately spread the mixture onto a wide plate or tray so it cools faster. Leave undisturbed for 10 minutes.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 4,
+        "text": "When the mixture is warm to the touch but not hot (you should be able to hold your palm in it for 3 seconds), sift in the powdered sugar and cardamom. Mix thoroughly with a spoon or your hands. If you add the sugar while the besan is too hot, the sugar will partially melt and make the ladoos sticky and uneven. Taste and adjust sweetness."
+      },
+      {
+        "order": 5,
+        "text": "Scoop about 2 tablespoons of mixture (roughly 30 g) into your palm, press the mixture firmly into a tight clump, then roll between both palms into a smooth, round ladoo. The warmth of your hands helps bind the ghee. If the mixture crumbles and won't hold, warm 1 tsp of ghee and work it in a little at a time. Arrange on a tray and let set at room temperature for 30 minutes before transferring to an airtight container. They keep well for 2–3 weeks."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "sauteing"
+    ],
+    "tags": [
+      "festival",
+      "diwali",
+      "navratri",
+      "sweet",
+      "no-onion-no-garlic",
+      "party"
+    ],
+    "allergens": [
+      "dairy",
+      "nuts"
+    ],
+    "nutrition": {
+      "calories": 310,
+      "protein": 6,
+      "carbs": 38,
+      "fat": 16,
+      "fiber": 2,
+      "sugar": 25,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "ghee",
+        "substitute": "refined coconut oil for a dairy-free version — the flavour will be slightly tropical"
+      },
+      {
+        "ingredient": "sugar",
+        "substitute": "jaggery powder (same quantity) for an earthier, less sweet version; the colour will turn darker"
+      },
+      {
+        "ingredient": "cashew",
+        "substitute": "almond halves or pumpkin seeds for different texture; pumpkin seeds are nut-free"
+      }
+    ],
+    "culturalNote": "Besan ladoo is one of the oldest festival mithai in North India — it requires no syrup stage and stores for weeks, making it the ideal sweet to prepare days ahead and distribute to neighbours at Diwali.",
+    "regionalVariation": "The Marathi version, rava ladoo (different recipe), uses semolina. In Rajasthan, coarser gram flour (dalia besan) is preferred for a grittier bite; some Gujarati households add a pinch of dried ginger (soonth) for warmth.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-festival-rava-ladoo",
+    "slug": "festival-rava-ladoo",
+    "title": "Rava Ladoo",
+    "nativeTitle": "रवा लड्डू",
+    "description": "Golden semolina rounds speckled with coconut, fried nuts and raisins — one of the quickest festival sweets to make and one of the most satisfying to eat. A staple of Ganesh Chaturthi and Diwali home kitchens across Maharashtra and South India.",
+    "cuisine": "maharashtrian",
+    "country": "india",
+    "region": "maharashtra",
+    "language": "en",
+    "mealType": [
+      "dessert"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 35,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "rava (semolina / sooji, fine)",
+        "normalizedName": "rava",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "powdered sugar",
+        "normalizedName": "sugar",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "freshly grated or desiccated coconut",
+        "normalizedName": "coconut",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "cardamom powder",
+        "normalizedName": "cardamom",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cashews, roughly broken",
+        "normalizedName": "cashew",
+        "quantity": 20,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "raisins",
+        "normalizedName": "raisin",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "warm milk (to bind if needed)",
+        "normalizedName": "milk",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "add a teaspoon at a time only if mix won't hold"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat 1 tbsp of the ghee in a kadai over medium flame. Add the broken cashews and stir until they turn pale gold, about 1 minute. Add the raisins and toss for 30 seconds until they puff. Remove with a slotted spoon and set aside.",
+        "timerMinutes": 2,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Add the remaining ghee to the kadai and tip in the rava. Roast over medium-low heat, stirring continuously, for 7–9 minutes until the rava turns a warm golden colour, smells like warm toast and feels slightly lighter in texture. The grains should flow freely and not clump.",
+        "timerMinutes": 9
+      },
+      {
+        "order": 3,
+        "text": "Add the grated coconut and stir for 2–3 more minutes until it dries out slightly and releases a sweet coconut fragrance. Remove the kadai from heat and spread the mixture onto a wide plate to cool for 8–10 minutes until it is just warm, not hot.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 4,
+        "text": "Tip in the powdered sugar, cardamom, fried cashews and raisins. Mix thoroughly — the residual warmth helps the sugar bind slightly. Taste and adjust sweetness. The mixture should hold a shape when pressed but crumble apart easily if you do not press it."
+      },
+      {
+        "order": 5,
+        "text": "Take about 2 heaped tablespoons of mixture and press firmly in your palm, then roll between both palms into a tight, round ladoo. If the mix doesn't hold together, add warm milk one teaspoon at a time and mix again. Shape all the ladoos and arrange on a tray. Leave to firm up for 15–20 minutes before storing in an airtight container.",
+        "timerMinutes": 20
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "sauteing"
+    ],
+    "tags": [
+      "festival",
+      "diwali",
+      "sweet",
+      "kids-friendly",
+      "no-onion-no-garlic",
+      "party",
+      "quick"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten",
+      "nuts"
+    ],
+    "nutrition": {
+      "calories": 260,
+      "protein": 4,
+      "carbs": 36,
+      "fat": 12,
+      "fiber": 2,
+      "sugar": 20,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "rava",
+        "substitute": "roasted rice flour (same quantity) for a gluten-free version — the texture will be finer"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "desiccated coconut — use 0.33 cup since it is more concentrated; no pre-frying needed"
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "refined coconut oil for a dairy-free version with a subtle tropical note"
+      }
+    ],
+    "culturalNote": "Rava ladoo is a fixture of Ganesh Chaturthi, the ten-day Maharashtrian festival honouring the elephant-headed deity — trays of them are offered as prasad and distributed to devotees at pandals.",
+    "regionalVariation": "Tamil Nadu makes an identical sweet called rava urundai with grated fresh coconut and without raisins; in Andhra, a pinch of poppy seeds may be added to the dry roast for extra crunch.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-festival-coconut-ladoo",
+    "slug": "festival-coconut-ladoo",
+    "title": "Coconut Ladoo",
+    "nativeTitle": "नारियल लड्डू",
+    "description": "Four-ingredient coconut balls made in under 30 minutes — fresh or desiccated coconut cooked down with condensed milk until thick, rolled while warm and set into soft, fragrant rounds. A crowd-pleasing festive sweet that keeps for days.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "dessert"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "freshly grated coconut (or desiccated)",
+        "normalizedName": "coconut",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "sweetened condensed milk",
+        "normalizedName": "condensed-milk",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false,
+        "notes": "about half a standard 400 g tin"
+      },
+      {
+        "name": "cardamom powder",
+        "normalizedName": "cardamom",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "for greasing the pan and palms"
+      },
+      {
+        "name": "cashew halves, for decoration",
+        "normalizedName": "cashew",
+        "quantity": 12,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "pistachios, finely chopped, for coating",
+        "normalizedName": "pistachio",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Grease a heavy-bottomed kadai lightly with the ghee and set over medium heat. Add the freshly grated coconut and stir for 2 minutes to drive off surface moisture — you will hear a faint sizzle. If using desiccated coconut, skip this step.",
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Pour the condensed milk over the coconut and stir well to combine. The mixture will look very wet initially. Cook over medium-low heat, stirring continuously so the bottom does not catch and scorch, for 10–12 minutes until the mixture thickens noticeably, pulls away from the sides of the pan in a mass, and a line drawn through it with a spoon holds briefly.",
+        "timerMinutes": 12
+      },
+      {
+        "order": 3,
+        "text": "Add cardamom powder and stir through. Remove from heat. The mixture will be very sticky at this stage — that is correct. Spread it onto a plate lightly greased with ghee and let it cool for 8–10 minutes until it is comfortable to handle but still warm.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 4,
+        "text": "Grease your palms with a little ghee. Scoop about 1.5 tablespoons of the mixture, press firmly into a ball and roll between both palms until smooth. Press a cashew half on top, or roll the ball in chopped pistachios for a green-studded finish. Set on a plate."
+      },
+      {
+        "order": 5,
+        "text": "Refrigerate the ladoos for 30 minutes to firm them up. They set to a satisfying, slightly chewy texture. Serve at room temperature — straight from the fridge they can be a little firm. They keep for 3–4 days refrigerated (2 days at room temperature if made with fresh coconut, up to a week with desiccated)."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "sauteing"
+    ],
+    "tags": [
+      "festival",
+      "sweet",
+      "kids-friendly",
+      "no-onion-no-garlic",
+      "quick",
+      "diwali",
+      "party"
+    ],
+    "allergens": [
+      "dairy",
+      "nuts"
+    ],
+    "nutrition": {
+      "calories": 230,
+      "protein": 3,
+      "carbs": 30,
+      "fat": 12,
+      "fiber": 3,
+      "sugar": 25,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "condensed-milk",
+        "substitute": "0.75 cup sugar dissolved in 0.5 cup milk, cooked down to a thick paste — takes an extra 10 minutes",
+        "notes": "add a knob of butter at the end"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "desiccated coconut — use 1.5 cups and skip the initial moisture-removal step"
+      },
+      {
+        "ingredient": "cardamom",
+        "substitute": "1 tsp rose water stirred in off heat for a different, floral fragrance"
+      }
+    ],
+    "culturalNote": "Coconut ladoo is a pan-Indian festival sweet — in Kerala it appears on the Onam sadya table as thengai urundai; in Maharashtra it is shaped into small white balls studded with cashews for Ganesh Chaturthi offerings.",
+    "regionalVariation": "In Tamil Nadu, nariyal ke ladoo are sometimes rolled in fine copra (dried coconut) powder for an extra-white coating; a jaggery version using palm jaggery instead of condensed milk is darker, chewier and popular in Goa.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-festival-mysore-pak",
+    "slug": "festival-mysore-pak",
+    "title": "Mysore Pak",
+    "nativeTitle": "ಮೈಸೂರು ಪಾಕ್",
+    "description": "The legendary Karnataka sweet from the royal kitchens of Mysore — gram flour cooked in a river of hot ghee and sugar syrup until it puffs into a golden, crumbly-fudgy slab with a characteristic porous interior. Demanding to make perfectly, deeply rewarding when right.",
+    "cuisine": "karnataka",
+    "country": "india",
+    "region": "old-mysuru",
+    "language": "en",
+    "mealType": [
+      "dessert"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "hard",
+    "spiceLevel": "none",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 35,
+    "totalTimeMinutes": 45,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "besan (gram flour, finely sieved)",
+        "normalizedName": "besan",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "use the full quantity — this is what creates the porous texture"
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "cardamom powder",
+        "normalizedName": "cardamom",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Sieve the besan twice and keep it nearby. Grease a medium baking tray (about 20 x 15 cm) generously with ghee and set aside. Melt the remaining ghee in a small saucepan and keep it warm on the lowest flame — hot ghee throughout the process is non-negotiable for the porous texture."
+      },
+      {
+        "order": 2,
+        "text": "Combine sugar and water in a wide, thick-bottomed kadai (at least 3 litres capacity) and heat over medium flame, stirring until the sugar fully dissolves. Continue cooking without stirring until the syrup reaches exactly one-thread consistency: press a drop between wet fingers — a single, firm thread should form. The syrup will look glossy and slightly sticky.",
+        "timerMinutes": 8,
+        "method": "simmering"
+      },
+      {
+        "order": 3,
+        "text": "Reduce heat to medium-low. Add the sieved besan all at once and whisk vigorously to break any lumps — the mixture will foam up dramatically. Keep stirring for 2 minutes until the besan is fully incorporated and the raw smell softens slightly.",
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Begin adding the hot ghee in a steady stream, one small ladle (about 2 tbsp) at a time, stirring continuously between each addition so each pour is completely absorbed before the next. This may take 10–12 minutes in total. The mixture will progress from thick and sticky, to foamy and bubbling, to a golden mass that starts to look honeycombed and porous on the surface.",
+        "timerMinutes": 12
+      },
+      {
+        "order": 5,
+        "text": "Watch closely: the Mysore pak is ready when it stops absorbing ghee (you will see it pooling at the sides), smells intensely of roasted chickpea and toasted sugar, and the mixture has a crumbly, grainy look with visible small pores. Stir in cardamom if using. Immediately pour the entire contents into the greased tray — it sets very fast. Spread quickly with the back of a greased spoon to an even 2 cm thickness."
+      },
+      {
+        "order": 6,
+        "text": "Wait 8–10 minutes until slightly firm but still warm, then cut into square or rectangular pieces using a sharp, greased knife — do not wait until it is completely cold or it will crumble when cut. Let cool completely in the tray, then lift each piece with a spatula. The texture should be fudgy on the outside with a slightly porous, crumbly interior.",
+        "timerMinutes": 10
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "saucepan",
+      "baking-tray"
+    ],
+    "methods": [
+      "simmering",
+      "sauteing"
+    ],
+    "tags": [
+      "festival",
+      "diwali",
+      "sweet",
+      "party",
+      "no-onion-no-garlic"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein": 5,
+      "carbs": 45,
+      "fat": 26,
+      "fiber": 2,
+      "sugar": 38,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "ghee",
+        "substitute": "the recipe cannot be made without ghee — the hot fat is what creates the porous texture; do not substitute"
+      },
+      {
+        "ingredient": "sugar",
+        "substitute": "same quantity of caster sugar dissolves faster and reduces the risk of crystallising"
+      },
+      {
+        "ingredient": "besan",
+        "substitute": "roasted chickpea flour (sattu) — the flavour is more pronounced and the texture slightly denser"
+      }
+    ],
+    "culturalNote": "Mysore Pak was created in the royal kitchens of the Wadiyar Maharajas of Mysore in the early 20th century and the sweetshop near the palace gates, Sri Krishna Sweets, still serves the original thick, fudgy version that melts away like warm caramel.",
+    "regionalVariation": "Bangalore-style Mysore Pak is harder and drier, almost brittle, while the original Mysore version is softer, oilier and nearly melts at room temperature — two very different textures from the same recipe, adjusted by cooking the ghee longer.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-festival-jalebi",
+    "slug": "festival-jalebi",
+    "title": "Jalebi (Quick Batter)",
+    "nativeTitle": "जलेबी",
+    "description": "Crisp golden spirals drenched in warm cardamom syrup — this quick-batter version using curd and baking soda instead of overnight fermentation delivers the classic crunch and tang in just over an hour. A Diwali morning and Eid favourite across India.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "dessert",
+      "breakfast"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 35,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 65,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "maida (all-purpose flour)",
+        "normalizedName": "maida",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "besan (gram flour)",
+        "normalizedName": "besan",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "adds the characteristic slight tang"
+      },
+      {
+        "name": "curd (thick, not sour)",
+        "normalizedName": "curd",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "baking soda",
+        "normalizedName": "baking-soda",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": true,
+        "notes": "for natural yellow colour"
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false,
+        "notes": "for batter; adjust to pouring consistency"
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "water for syrup",
+        "normalizedName": "water",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "cardamom pods, bruised",
+        "normalizedName": "cardamom",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "prevents the syrup from crystallising"
+      },
+      {
+        "name": "oil for deep frying",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "mixed into the frying oil for flavour"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Whisk maida, besan, curd, baking soda and turmeric together in a bowl. Add water gradually, whisking to form a smooth, lump-free batter — the consistency should be slightly thicker than dosa batter and flow slowly off the spoon. Cover and rest for 30 minutes at room temperature; small bubbles will form on the surface.",
+        "timerMinutes": 30
+      },
+      {
+        "order": 2,
+        "text": "While the batter rests, prepare the syrup. Combine sugar, 1 cup water and cardamom in a saucepan and heat on medium, stirring until dissolved. Boil for 6–7 minutes until sticky and at a one-thread consistency. Add lemon juice, reduce heat to the lowest setting and keep the syrup warm.",
+        "timerMinutes": 8,
+        "method": "simmering"
+      },
+      {
+        "order": 3,
+        "text": "Pour oil (and ghee if using) into a wide, flat-bottomed kadai to about 5 cm depth and heat to 170–175°C over medium flame. Transfer the batter into a squeeze bottle with a small nozzle (about 3 mm hole), or into a piping bag, or a zip-lock bag with a tiny corner snipped off.",
+        "method": "deep-frying"
+      },
+      {
+        "order": 4,
+        "text": "Working over the hot oil, squeeze the batter in a continuous spiral — start from the centre and loop outward 2–3 times — to form coils about 7–8 cm across. Fry 2–3 jalebis at a time for 2–3 minutes per side until crisp and a deep amber-orange colour, turning once with tongs. The batter will stiffen as gluten sets, so the spirals hold their shape.",
+        "timerMinutes": 6
+      },
+      {
+        "order": 5,
+        "text": "Lift each jalebi with tongs, hold briefly over the oil to drain, then lower into the warm syrup. Soak for 1 minute per side — just enough to absorb syrup without going soggy. Transfer to a serving plate. Jalebis are best eaten within 30 minutes of frying while still crisp on the outside and syrupy within."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "saucepan"
+    ],
+    "methods": [
+      "deep-frying",
+      "simmering"
+    ],
+    "tags": [
+      "festival",
+      "diwali",
+      "eid",
+      "sweet",
+      "street-food",
+      "party"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 290,
+      "protein": 3,
+      "carbs": 52,
+      "fat": 8,
+      "fiber": 1,
+      "sugar": 38,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "maida",
+        "substitute": "rice flour (0.75 cup) plus cornflour (0.25 cup) for a gluten-free version — the spirals will be more brittle but still crisp"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "lemon juice (1 tsp) mixed into the batter if curd is unavailable — the tanginess is similar"
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "any neutral oil — ghee adds fragrance to the frying but is optional"
+      }
+    ],
+    "culturalNote": "Jalebi's origins trace back to the Arabic zalabiya, brought to India through Persian influence in the medieval period — today it is as synonymous with Diwali morning as poori and aloo bhaji, often the first sweet of the day.",
+    "regionalVariation": "In Rajasthan, thick jalebis called imarti are made from urad dal batter and fried in specific floral shapes; West Bengal's jalebi uses fermented chickpea batter and is much softer; Hyderabadi jalebis are soaked in a heavier syrup.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-festival-gajar-halwa",
+    "slug": "festival-gajar-halwa",
+    "title": "Gajar Ka Halwa",
+    "nativeTitle": "गाजर का हलवा",
+    "description": "Sweet carrots slow-cooked in full-fat milk until every drop is absorbed, finished with ghee, sugar and aromatic saffron — the classic winter halwa of North India that perfumes the whole house during Diwali prep and warms the soul at every spoonful.",
+    "cuisine": "punjabi",
+    "country": "india",
+    "region": "punjab",
+    "language": "en",
+    "mealType": [
+      "dessert"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 60,
+    "totalTimeMinutes": 75,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "red carrots, peeled and coarsely grated",
+        "normalizedName": "carrot",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false,
+        "notes": "red Delhi carrots give the best colour and sweetness; orange carrots work fine"
+      },
+      {
+        "name": "full-fat milk",
+        "normalizedName": "milk",
+        "quantity": 4,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "adjust to taste; red carrots need less"
+      },
+      {
+        "name": "cardamom powder",
+        "normalizedName": "cardamom",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "saffron",
+        "normalizedName": "saffron",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": true,
+        "notes": "dissolved in 1 tbsp warm milk"
+      },
+      {
+        "name": "khoya (mawa), grated",
+        "normalizedName": "khoya",
+        "quantity": 75,
+        "unit": "g",
+        "optional": true,
+        "notes": "adds richness; skip for a lighter halwa"
+      },
+      {
+        "name": "cashews, broken",
+        "normalizedName": "cashew",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "raisins",
+        "normalizedName": "raisin",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Grate the peeled carrots on the coarse side of a box grater. Squeeze a small handful — if it releases a lot of water, blot the grated carrot with a kitchen cloth, though this is optional. You should have about 4 tightly packed cups of grated carrot."
+      },
+      {
+        "order": 2,
+        "text": "Heat 1 tbsp of ghee in a wide, heavy-bottomed kadai or pot over medium heat. Add the grated carrot and stir-fry for 5–7 minutes until it softens, turns slightly translucent and the raw, grassy smell gives way to a sweeter, cooked aroma.",
+        "timerMinutes": 7,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Pour in the milk and bring to a brisk simmer. Cook uncovered on medium heat for 30–35 minutes, stirring every 3–4 minutes, until almost all the milk has been absorbed. The mixture will visibly reduce and thicken — the carrot will deepen in colour and begin to hold together more. Stir more frequently in the last 10 minutes to prevent it catching at the bottom.",
+        "timerMinutes": 35,
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "If using khoya, crumble it into the thick carrot mixture now and stir well for 3–4 minutes until it melts in completely. The halwa will turn shinier and richer."
+      },
+      {
+        "order": 5,
+        "text": "Add the remaining ghee and stir to coat everything. Add sugar and mix — the halwa will loosen again as the sugar melts. Continue cooking over medium flame for 10–12 minutes, stirring frequently, until the halwa tightens back up, the ghee separates at the edges and the whole mixture is glossy and fragrant. Stir in cardamom and saffron milk.",
+        "timerMinutes": 12
+      },
+      {
+        "order": 6,
+        "text": "In a small pan, fry broken cashews in 1 tsp ghee until golden-brown. Add raisins and toss for 30 seconds until they puff. Scatter over the halwa. Serve warm in bowls or press into a greased tray, cool and cut into squares for serving at parties.",
+        "timerMinutes": 3
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "heavy-bottomed-pot",
+      "frying-pan"
+    ],
+    "methods": [
+      "sauteing",
+      "simmering"
+    ],
+    "tags": [
+      "festival",
+      "diwali",
+      "sweet",
+      "winter",
+      "comfort-food",
+      "party"
+    ],
+    "allergens": [
+      "dairy",
+      "nuts"
+    ],
+    "nutrition": {
+      "calories": 310,
+      "protein": 7,
+      "carbs": 40,
+      "fat": 14,
+      "fiber": 3,
+      "sugar": 32,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "milk",
+        "substitute": "full-fat coconut milk (2 cups) for a dairy-free version with a tropical note — use less sugar"
+      },
+      {
+        "ingredient": "khoya",
+        "substitute": "2 tbsp milk powder stirred in at the same stage for a similar richness boost"
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "unsalted butter — the flavour is slightly different but the texture is just as good"
+      },
+      {
+        "ingredient": "carrot",
+        "substitute": "pumpkin (lauki) or beetroot can be used in the same method for a different colour and flavour"
+      }
+    ],
+    "culturalNote": "Gajar halwa is the quintessential winter festival sweet in North India, made from December red carrots that are sweeter than their orange counterparts and cook down to a rich, jam-like consistency — trays of it are common at Diwali celebrations and wedding feasts.",
+    "regionalVariation": "The Punjabi version is cooked slow and long without khoya; the Delhi-style adds generous khoya and condensed milk for extreme richness. In Uttar Pradesh, it is sometimes set in a tray, cut into squares and served as a mithai.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-festival-moong-dal-halwa",
+    "slug": "festival-moong-dal-halwa",
+    "title": "Moong Dal Halwa",
+    "nativeTitle": "मूंग दाल का हलवा",
+    "description": "The most labour-intensive and richly rewarding Rajasthani winter sweet — soaked yellow lentils ground and stirred in bubbling ghee for 30 uninterrupted minutes until they transform into a fragrant, amber, granular halwa. A wedding-feast staple that demands attention but repays it magnificently.",
+    "cuisine": "rajasthani",
+    "country": "india",
+    "region": "rajasthan",
+    "language": "en",
+    "mealType": [
+      "dessert"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 55,
+    "totalTimeMinutes": 75,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "split yellow moong dal, washed",
+        "normalizedName": "moong-dal",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false,
+        "notes": "soak in cold water for at least 4 hours or overnight before using"
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false,
+        "notes": "do not skimp — it is what cooks the lentils"
+      },
+      {
+        "name": "full-fat milk, warmed",
+        "normalizedName": "milk",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false,
+        "notes": "for the sugar syrup"
+      },
+      {
+        "name": "cardamom powder",
+        "normalizedName": "cardamom",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "saffron strands",
+        "normalizedName": "saffron",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": true,
+        "notes": "steep in 2 tbsp warm milk"
+      },
+      {
+        "name": "cashews, broken",
+        "normalizedName": "cashew",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "raisins",
+        "normalizedName": "raisin",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Drain the soaked moong dal and grind it in a mixie with just 1–2 tbsp of water to a coarse paste that resembles wet sand — not a smooth slurry, and not chunky. The coarse texture is what gives the halwa its grainy character. Keep nearby.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Combine sugar and water in a saucepan, stir to dissolve, and bring to a gentle boil. Cook for 3–4 minutes to form a thin syrup. Steep the saffron in warm milk and set aside.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 3,
+        "text": "Melt the ghee in a wide, thick-bottomed kadai or iron pan over medium flame. Add the moong dal paste — it will splatter and hiss dramatically, so stand back briefly. Lower to medium-low and stir immediately and continuously with a long-handled spoon. The paste will stick together at first; keep pressing and folding.",
+        "timerMinutes": 5,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Stir without stopping for 25–30 minutes. The paste will gradually lose moisture, begin to separate into granules, turn from pale yellow to golden-amber and smell intensely nutty and fragrant — like roasted chickpea crossed with caramel. This is the most critical stage: under-cooking at this point gives a gummy, raw-tasting halwa. The mixture is ready when the granules are uniform, golden and flow freely in the pan without sticking.",
+        "timerMinutes": 30
+      },
+      {
+        "order": 5,
+        "text": "Pour the warm milk in a thin stream over the dal while stirring constantly — it will hiss and steam. Stir vigorously for 3–4 minutes until the milk is fully absorbed.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 6,
+        "text": "Pour the sugar syrup over the halwa and stir over medium-low heat for 8–10 minutes until the syrup is absorbed, the halwa is glossy, and ghee pools at the edges. Stir in saffron milk, cardamom, and the fried cashews and raisins (fry briefly in 1 tsp ghee). Serve hot — moong dal halwa sets firm when cold; reheat with a splash of milk.",
+        "timerMinutes": 10
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "saucepan",
+      "mixie"
+    ],
+    "methods": [
+      "sauteing",
+      "simmering"
+    ],
+    "tags": [
+      "festival",
+      "diwali",
+      "sweet",
+      "winter",
+      "party",
+      "no-onion-no-garlic"
+    ],
+    "allergens": [
+      "dairy",
+      "nuts"
+    ],
+    "nutrition": {
+      "calories": 390,
+      "protein": 8,
+      "carbs": 50,
+      "fat": 18,
+      "fiber": 3,
+      "sugar": 35,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "moong-dal",
+        "substitute": "chana dal (Bengal gram), soaked identically — the halwa will be slightly denser with a more pronounced chickpea flavour"
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "the recipe fundamentally requires ghee for both cooking and flavour; butter can work in a pinch"
+      },
+      {
+        "ingredient": "saffron",
+        "substitute": "a pinch of turmeric for colour only, or simply omit"
+      }
+    ],
+    "culturalNote": "Moong dal halwa is the prestige sweet of Rajasthan — served at weddings, Makar Sankranti and Holi — the long continuous stirring required is traditionally shared among family members or professional halwais in relay.",
+    "regionalVariation": "In parts of Uttar Pradesh and Delhi, the halwa is made slightly thinner and poured over hot pooris; in Rajasthan, it is thick, set and spooned out in generous portions at dawn on cold winter mornings.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-festival-sooji-halwa",
+    "slug": "festival-sooji-halwa",
+    "title": "Sooji Halwa",
+    "nativeTitle": "सूजी का हलवा",
+    "description": "The simplest and most universal Indian festival sweet — semolina roasted golden in ghee, then drenched with boiling sugar water until it puffs into a soft, aromatic, saffron-tinted dessert. Ready in 30 minutes and beloved from Navratri prasad to Sunday morning poori plates.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "dessert",
+      "breakfast"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rava (semolina / sooji, coarse preferred)",
+        "normalizedName": "rava",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 3,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "cardamom powder",
+        "normalizedName": "cardamom",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "saffron strands",
+        "normalizedName": "saffron",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": true,
+        "notes": "dissolved in 2 tbsp warm water"
+      },
+      {
+        "name": "cashews, broken",
+        "normalizedName": "cashew",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "raisins",
+        "normalizedName": "raisin",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat the ghee in a heavy-bottomed kadai or thick-based saucepan over medium flame. Add the broken cashews and stir for 1 minute until they turn pale gold. Add the raisins and toss for 30 seconds until they puff and plump. Remove with a slotted spoon and keep aside, leaving the ghee in the pan.",
+        "timerMinutes": 2,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Tip the rava into the ghee and roast over medium-low flame, stirring continuously, for 7–9 minutes until it turns a warm golden colour and smells nutty — like warm toast or cooked wheat. The grains should look slightly translucent and feel lighter as moisture leaves. Do not rush or walk away; uneven roasting gives lumpy halwa.",
+        "timerMinutes": 9
+      },
+      {
+        "order": 3,
+        "text": "While the rava roasts, combine water and sugar in a separate saucepan and bring to a full rolling boil, stirring until sugar dissolves. Keep at a boil.",
+        "timerMinutes": 5,
+        "method": "boiling"
+      },
+      {
+        "order": 4,
+        "text": "Standing back slightly, pour all the boiling sugar water over the roasted rava at once — it will bubble vigorously and steam. Stir rapidly and continuously with a long spoon to prevent lumps forming. Reduce heat to low, cover with a lid and cook for 3–4 minutes until all the liquid is absorbed and the halwa puffs into a fluffy, cohesive mass.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 5,
+        "text": "Uncover and stir in the cardamom, saffron water, and the fried cashews and raisins. Mix well and taste for sweetness. Serve immediately in bowls — sooji halwa is best eaten fresh and piping hot. It firms up considerably on cooling; if reheating, add a small splash of water and warm on low heat, stirring."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "saucepan",
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "sauteing",
+      "boiling"
+    ],
+    "tags": [
+      "festival",
+      "navratri",
+      "sweet",
+      "no-onion-no-garlic",
+      "kids-friendly",
+      "quick",
+      "comfort-food"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten",
+      "nuts"
+    ],
+    "nutrition": {
+      "calories": 280,
+      "protein": 4,
+      "carbs": 42,
+      "fat": 12,
+      "fiber": 1,
+      "sugar": 28,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "rava",
+        "substitute": "vermicelli (semiya) broken into small pieces — the texture is different but the method is nearly identical"
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "coconut oil for a dairy-free version; reduce quantity slightly as coconut oil is more flavourful"
+      },
+      {
+        "ingredient": "sugar",
+        "substitute": "jaggery powder (same quantity) for an earthier, less sweet version — add to the water before boiling so it dissolves fully"
+      }
+    ],
+    "culturalNote": "Sooji halwa is the most common prasad (sacred offering) in North Indian temples and homes during Navratri, Satyanarayan puja and any auspicious occasion — its simplicity and speed make it the default devotional sweet.",
+    "regionalVariation": "The South Indian equivalent, rava kesari, is made with orange food colour and more oil; Punjabi halwa uses more ghee and less water for a denser, almost solid result that can be pressed into moulds.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-festival-rice-kheer",
+    "slug": "festival-rice-kheer",
+    "title": "Rice Kheer",
+    "nativeTitle": "चावल की खीर",
+    "description": "Whole milk reduced slowly with a handful of rice until thick and custardy, fragrant with saffron and cardamom, crowned with slivered almonds and pistachios — the oldest and most universal Indian festival dessert, served at every celebration from Diwali to Eid to Janmashtami.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "dessert"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 55,
+    "totalTimeMinutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "raw rice (short-grain or sona masoori)",
+        "normalizedName": "rice",
+        "quantity": 0.25,
+        "unit": "cup",
+        "optional": false,
+        "notes": "soak in water for 20 minutes, then drain"
+      },
+      {
+        "name": "full-fat whole milk",
+        "normalizedName": "milk",
+        "quantity": 6,
+        "unit": "cup",
+        "optional": false,
+        "notes": "do not use low-fat — the fat is what makes it creamy"
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "adjust to taste; add after the rice is cooked"
+      },
+      {
+        "name": "cardamom powder",
+        "normalizedName": "cardamom",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "saffron strands",
+        "normalizedName": "saffron",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": true,
+        "notes": "steep in 2 tbsp warm milk for 10 minutes"
+      },
+      {
+        "name": "rose water",
+        "normalizedName": "rose-water",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "almonds, blanched and slivered",
+        "normalizedName": "almond",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cashews, roughly broken",
+        "normalizedName": "cashew",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "pistachios, slivered",
+        "normalizedName": "pistachio",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "for garnish"
+      },
+      {
+        "name": "raisins",
+        "normalizedName": "raisin",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soak the rice in cold water for 20 minutes, then drain. For a creamier texture, hold the drained rice in your cupped hands and press lightly so some grains crack — the released starch thickens the milk faster. Leave the rice in this coarsely broken state; do not grind it."
+      },
+      {
+        "order": 2,
+        "text": "Pour the milk into a wide, heavy-bottomed pot (use the widest pan you have — more surface area speeds evaporation). Heat over medium flame, stirring frequently to prevent a skin forming. As soon as it comes to a full boil, reduce heat to medium-low.",
+        "timerMinutes": 8,
+        "method": "boiling"
+      },
+      {
+        "order": 3,
+        "text": "Add the soaked, drained rice to the simmering milk and stir. Simmer uncovered over medium-low heat for 35–40 minutes, stirring every 3–4 minutes so the rice does not settle and scorch at the bottom. The milk will reduce steadily; the rice will swell, soften and begin to break down into the milk. Stir more frequently in the last 10 minutes.",
+        "timerMinutes": 40,
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "When the kheer has reduced to roughly half its original volume, the milk looks creamy and thick, and the rice grains are fully soft and beginning to meld into the liquid, add the sugar. Stir for 5–6 minutes until dissolved and the kheer thickens again to a consistency that coats the back of a spoon. Bear in mind it thickens further as it cools.",
+        "timerMinutes": 6
+      },
+      {
+        "order": 5,
+        "text": "Remove from heat. Stir in the saffron milk, cardamom and rose water. Add most of the nuts and raisins and fold through gently."
+      },
+      {
+        "order": 6,
+        "text": "Pour into individual serving bowls or a large serving dish. Garnish with the remaining pistachios, almonds and a few raisins. Serve warm for a comforting winter version, or cool to room temperature and refrigerate for 2 hours for the traditional chilled festival serving. The kheer will thicken to a soft pudding consistency when cold."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "boiling",
+      "simmering"
+    ],
+    "tags": [
+      "festival",
+      "diwali",
+      "eid",
+      "sweet",
+      "no-onion-no-garlic",
+      "party",
+      "comfort-food"
+    ],
+    "allergens": [
+      "dairy",
+      "nuts"
+    ],
+    "nutrition": {
+      "calories": 280,
+      "protein": 8,
+      "carbs": 38,
+      "fat": 11,
+      "fiber": 1,
+      "sugar": 28,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "milk",
+        "substitute": "tinned full-fat coconut milk (2 cans, topped up with water to 6 cups) for a dairy-free kheer with a Thai-influenced flavour"
+      },
+      {
+        "ingredient": "sugar",
+        "substitute": "condensed milk (0.5 cup, added off the heat) — reduce the quantity of regular milk by 1 cup to compensate"
+      },
+      {
+        "ingredient": "rice",
+        "substitute": "vermicelli (semiya) broken into small pieces for a kheer-style seviyan; reduce cooking time to 15 minutes"
+      }
+    ],
+    "culturalNote": "Rice kheer is mentioned in ancient Sanskrit texts as payasam and is the ritual sweet of Pongal in the South, Diwali in the North, and Eid across Muslim communities — its simplicity and symbolism of abundance have kept it at the centre of Indian celebration for millennia.",
+    "regionalVariation": "South India's payasam is thinner and often uses coconut milk, jaggery and cardamom; Bengal's mishti doi is a thickened, set version with caramelised sugar; Kashmir's sheer chai is a salted, pink tea version unrelated but sharing the 'sheer' (milk) root.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-festival-moong-dal-payasam",
+    "slug": "festival-moong-dal-payasam",
+    "title": "Moong Dal Payasam",
+    "nativeTitle": "பாசிப் பருப்பு பாயசம்",
+    "description": "Toasted yellow lentils pressure-cooked until silky, sweetened with melted jaggery and finished with rich coconut milk — the centrepiece payasam of the Onam sadya, a golden, fragrant dessert that bridges the earthy and the tropical in every bowl.",
+    "cuisine": "kerala",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "dessert"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 35,
+    "totalTimeMinutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "split yellow moong dal",
+        "normalizedName": "moong-dal",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "thick coconut milk (first extract)",
+        "normalizedName": "coconut-milk",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "jaggery, grated or powdered",
+        "normalizedName": "jaggery",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false,
+        "notes": "adjust to taste"
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "cardamom powder",
+        "normalizedName": "cardamom",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cashews, broken",
+        "normalizedName": "cashew",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "raisins",
+        "normalizedName": "raisin",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "freshly grated coconut, dry-roasted",
+        "normalizedName": "coconut",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "for garnish; adds texture"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Dry-roast the moong dal in a kadai over medium-low heat, stirring continuously for 5–6 minutes until it turns pale golden and smells toasty — this step is not optional, as it removes the raw flavour and gives the payasam its characteristic depth. The dal should not brown, just colour slightly.",
+        "timerMinutes": 6,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Transfer the roasted dal to a pressure cooker. Add 2 cups of water, close the lid and cook over medium heat for 3 whistles. Allow the pressure to release naturally (about 10 minutes). Open the cooker — the dal should be completely soft and mashable. Mash it lightly with a ladle or the back of a spoon into a semi-smooth paste; small lumps are fine.",
+        "timerMinutes": 20,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Combine the grated jaggery and 3 tbsp of water in a small saucepan over medium-low heat, stirring until it fully dissolves into a thick, dark liquid. Pour through a fine sieve to remove any grit or impurities — this ensures a clean, glossy payasam.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 4,
+        "text": "Add the strained jaggery liquid to the cooked dal and stir over medium heat for 4–5 minutes until the mixture is well combined, slightly reduced and fragrant. The consistency should be that of a pourable sauce, not a thick porridge — add a splash of water if it seems too thick.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 5,
+        "text": "Lower the flame to the minimum setting. Pour the thick coconut milk in a slow, steady stream and stir gently — do not let the payasam boil after adding coconut milk or it will split and curdle. Warm through for 2–3 minutes only, stirring. Stir in cardamom powder. Taste for sweetness and add more jaggery syrup if needed.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 6,
+        "text": "Heat ghee in a small pan and fry broken cashews until golden. Add raisins and toss until puffed. Add dry-roasted coconut shreds and toss for 30 seconds. Pour this tempering over the payasam. Serve warm in bowls, or at room temperature — the Kerala tradition is to serve it in banana-leaf cups at the Onam sadya.",
+        "method": "tempering"
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "kadai",
+      "saucepan"
+    ],
+    "methods": [
+      "sauteing",
+      "pressure-cooking",
+      "simmering",
+      "tempering"
+    ],
+    "tags": [
+      "festival",
+      "onam",
+      "sweet",
+      "no-onion-no-garlic",
+      "comfort-food"
+    ],
+    "allergens": [
+      "dairy",
+      "nuts"
+    ],
+    "nutrition": {
+      "calories": 260,
+      "protein": 6,
+      "carbs": 38,
+      "fat": 11,
+      "fiber": 3,
+      "sugar": 28,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "moong-dal",
+        "substitute": "chana dal (Bengal gram) for a more textured, denser payasam; increase pressure cooking to 5 whistles"
+      },
+      {
+        "ingredient": "jaggery",
+        "substitute": "palm jaggery (karupatti) for a smokier, more complex sweetness — the colour will be darker"
+      },
+      {
+        "ingredient": "coconut-milk",
+        "substitute": "1 cup full-fat milk — the payasam will be lighter but still delicious; it does not need the no-boil precaution"
+      }
+    ],
+    "culturalNote": "Moong dal payasam (parippu payasam in Malayalam) is the most auspicious of the six or more payasam varieties served on a traditional Onam sadya — it is always placed on the banana leaf at a specific position and eaten first among the sweets.",
+    "regionalVariation": "The Tamil version (paasi paruppu payasam) is virtually identical but often made with more jaggery and uses thick coconut milk added right at the end; in Karnataka, a similar dessert called hesaru bele payasa uses less jaggery and more milk.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-festival-steamed-modak",
+    "slug": "festival-steamed-modak",
+    "title": "Steamed Modak (Ukdiche Modak)",
+    "nativeTitle": "उकडीचे मोदक",
+    "description": "Translucent rice flour dumplings pleated into peaked shapes and filled with sweetened fresh coconut and jaggery — Lord Ganesha's favourite offering, steamed to a silky softness and served at Ganesh Chaturthi with a river of ghee.",
+    "cuisine": "maharashtrian",
+    "country": "india",
+    "region": "maharashtra",
+    "language": "en",
+    "mealType": [
+      "dessert"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice flour (fine, not roasted)",
+        "normalizedName": "rice-flour",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "boiling water",
+        "normalizedName": "water",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "1 tsp for dough, 1 tsp to brush finished modaks"
+      },
+      {
+        "name": "freshly grated coconut",
+        "normalizedName": "coconut",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "jaggery, grated",
+        "normalizedName": "jaggery",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "cardamom powder",
+        "normalizedName": "cardamom",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "sesame seeds",
+        "normalizedName": "sesame-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "for the filling; adds crunch"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Make the filling first: combine freshly grated coconut and grated jaggery in a heavy-bottomed pan over medium-low heat. Stir continuously for 5–7 minutes until the jaggery melts completely, the mixture tightens into a moist but cohesive mass, and any excess moisture evaporates. The filling should hold its shape when pressed into a ball. Stir in cardamom and sesame seeds. Cool completely before filling the dumplings.",
+        "timerMinutes": 7,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Bring 1.5 cups of water to a rolling boil in a wide saucepan. Add salt and 1 tsp ghee. Remove from heat and pour immediately over the rice flour in a mixing bowl. Stir quickly with a spoon to combine, then cover with a plate and rest for 2 minutes. When cool enough to handle, knead firmly for 3–4 minutes until a smooth, pliable, non-cracking dough forms. If it feels dry, dip your hand in warm water and knead again; if too soft, add a little dry rice flour.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Divide the dough into 12 equal balls. Wet your palms lightly. Flatten a ball between your palms into a round disc about 8–9 cm across, slightly thinner at the edges than at the centre — this prevents the modak from being too thick at the base."
+      },
+      {
+        "order": 4,
+        "text": "Place 1 heaped tablespoon of filling in the centre. Now gather the edge of the disc with your thumb and index finger, making neat, evenly spaced pleats — traditionally 10 to 12 pleats. Draw all the pleats up and together, pinching them firmly at the top to form a pointed peak with no gaps. Press the seal tightly so no filling can escape during steaming. Repeat for all portions.",
+        "method": "steaming"
+      },
+      {
+        "order": 5,
+        "text": "Line a steamer basket or idli stand with a damp muslin cloth, oiled banana leaf, or perforated parchment paper. Arrange the modaks upright, peak-side up, leaving a 1 cm gap between each. Steam over vigorously boiling water for 12–15 minutes until the outer rice shell turns slightly translucent and the modaks feel firm but not rubbery.",
+        "timerMinutes": 15
+      },
+      {
+        "order": 6,
+        "text": "Remove carefully and brush immediately with the remaining ghee — they are fragile while hot. Serve on a plate with an extra drizzle of ghee on the side. Modaks are best eaten within 3–4 hours of steaming; they harden as they cool and can be gently resteamed for 3 minutes to revive them."
+      }
+    ],
+    "cookware": [
+      "steamer",
+      "heavy-bottomed-pot",
+      "saucepan"
+    ],
+    "methods": [
+      "sauteing",
+      "steaming"
+    ],
+    "tags": [
+      "festival",
+      "sweet",
+      "no-onion-no-garlic",
+      "kids-friendly"
+    ],
+    "allergens": [
+      "dairy",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 240,
+      "protein": 3,
+      "carbs": 42,
+      "fat": 7,
+      "fiber": 3,
+      "sugar": 25,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "coconut",
+        "substitute": "desiccated coconut (1 cup) dry-toasted — moisten with 1 tbsp water when mixing with jaggery so the filling stays cohesive"
+      },
+      {
+        "ingredient": "jaggery",
+        "substitute": "same quantity of palm sugar or light brown sugar — the flavour will be milder"
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "coconut oil for a more tropical flavour and dairy-free option"
+      }
+    ],
+    "culturalNote": "Ukdiche modak (ukad means steamed in Marathi) is the most sacred food in Maharashtra — preparing 21 modaks for Ganesh Chaturthi puja is a cherished annual ritual, and the shape representing Lord Ganesha's favourite food is said to bring blessings to the household.",
+    "regionalVariation": "The Goan version uses a paler coconut-sugar filling perfumed with nutmeg; Tamil Nadu makes a similar rice-flour dumpling called kozhukattai, which is often shaped as a cylinder or crescent rather than a peaked top.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-festival-murukku",
+    "slug": "festival-murukku",
+    "title": "Murukku",
+    "nativeTitle": "முறுக்கு",
+    "description": "The crunchy, spiral rice-and-lentil snack that no South Indian Diwali or Krishnashtami tin is complete without — pressed through a star-disc mould, fried to a golden crackle and seasoned with sesame and cumin. Addictively good and keeps for weeks.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "snack"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 35,
+    "totalTimeMinutes": 60,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "rice flour (fine, store-bought or home-ground)",
+        "normalizedName": "rice-flour",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "urad dal, soaked 20 min and drained",
+        "normalizedName": "urad-dal",
+        "quantity": 0.25,
+        "unit": "cup",
+        "optional": false,
+        "notes": "grind to a very smooth paste with minimal water; or use 2 tbsp roasted urad flour"
+      },
+      {
+        "name": "butter, softened",
+        "normalizedName": "butter",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "makes the murukku crisp without being hard"
+      },
+      {
+        "name": "sesame seeds (white)",
+        "normalizedName": "sesame-seeds",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "asafoetida (hing)",
+        "normalizedName": "asafoetida",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "add gradually; quantity varies with rice flour brand"
+      },
+      {
+        "name": "oil for deep frying",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "cup",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soak urad dal in water for 20 minutes. Drain and grind in a mixie with 2–3 tbsp of water to a very smooth, flowing paste — no grit when you rub between fingers. Alternatively, dissolve 2 tbsp roasted urad flour in 3 tbsp water. Set aside.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "In a large mixing bowl, combine rice flour, the urad dal paste, softened butter, sesame seeds, cumin seeds, asafoetida and salt. Mix well with your fingers. Add water gradually, a tablespoon at a time, and knead into a firm but pliable dough that does not stick to the hands and does not crack when you roll a small ball. The dough should be stiffer than chapati dough."
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a deep kadai to 175°C. Test the temperature with a small ball of dough — it should rise to the surface steadily within 2 seconds without immediately browning. Keep the flame at medium to maintain steady heat.",
+        "method": "deep-frying"
+      },
+      {
+        "order": 4,
+        "text": "Load a portion of dough into the murukku press (chakli maker) fitted with the star-shaped plate. Press the dough directly into the hot oil in tight overlapping spirals about 8–10 cm across, or press the spirals onto the back of a greased flat ladle first and then slide them into the oil. Fry 3–4 murukku at a time."
+      },
+      {
+        "order": 5,
+        "text": "Fry over medium flame for 5–7 minutes, turning once or twice with tongs, until the murukku is golden-amber all over and the sizzling sound drops from a fierce crackle to a quiet fizz — this silence signals that the moisture has left and they are done. Underdone murukku will be chewy rather than crisp. Drain on kitchen paper.",
+        "timerMinutes": 7
+      },
+      {
+        "order": 6,
+        "text": "Cool completely before tasting — they crisp up further as they cool. Store in an airtight tin at room temperature; murukku stays fresh and crunchy for up to 3 weeks."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "mixie"
+    ],
+    "methods": [
+      "deep-frying"
+    ],
+    "tags": [
+      "festival",
+      "diwali",
+      "pongal",
+      "fried-snack",
+      "no-onion-no-garlic",
+      "party"
+    ],
+    "allergens": [
+      "dairy",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 210,
+      "protein": 4,
+      "carbs": 30,
+      "fat": 9,
+      "fiber": 1,
+      "sugar": 0,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "urad-dal",
+        "substitute": "2 tbsp roasted chana dal flour mixed with 2 tbsp water — same function, slightly nuttier flavour"
+      },
+      {
+        "ingredient": "butter",
+        "substitute": "same quantity of coconut oil or softened ghee — ghee adds more flavour"
+      },
+      {
+        "ingredient": "sesame-seeds",
+        "substitute": "omit if sesame allergy is a concern; the murukku will still be excellent"
+      }
+    ],
+    "culturalNote": "Murukku (Tamil for 'twisted') is the queen of South Indian festival snacks — tins of home-made murukku are exchanged between neighbours at Diwali and Krishnashtami (Gokulashtami) just as barfi boxes are in North India.",
+    "regionalVariation": "Andhra's chegodilu uses the same dough but the coils are hand-shaped into small rings; Karnataka's chakli is similar but often includes roasted chickpea flour. Mullu murukku uses the thorn-disc plate for a star-shaped cross-section.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-festival-ribbon-pakoda",
+    "slug": "festival-ribbon-pakoda",
+    "title": "Ribbon Pakoda",
+    "nativeTitle": null,
+    "description": "Flat, ridged rice-and-gram-flour strips deep-fried into a crunchy golden snack with a hint of chilli heat — South India's answer to potato chips and an indispensable addition to the Diwali and Krishnashtami snack tin alongside murukku and thattai.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "snack"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 45,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "rice flour (fine)",
+        "normalizedName": "rice-flour",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "besan (gram flour)",
+        "normalizedName": "besan",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "gives crunch and a subtle nuttiness"
+      },
+      {
+        "name": "butter, softened",
+        "normalizedName": "butter",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "adjust to spice preference"
+      },
+      {
+        "name": "sesame seeds",
+        "normalizedName": "sesame-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "asafoetida (hing)",
+        "normalizedName": "asafoetida",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "add gradually"
+      },
+      {
+        "name": "oil for deep frying",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "cup",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "In a wide bowl, combine rice flour, besan, red chilli powder, sesame seeds, asafoetida and salt. Whisk to combine. Work in the softened butter with your fingertips, rubbing it into the flour until the mixture resembles coarse, slightly clumping sand — the butter is what makes the ribbons flaky and prevents them from being tough."
+      },
+      {
+        "order": 2,
+        "text": "Add water gradually, a tablespoon at a time, and knead to form a smooth, firm dough — stiffer than chapati dough but pliable enough to press through the mould without cracking. Too soft a dough means the ribbons will absorb excess oil and turn chewy rather than crisp."
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a deep kadai to 170–175°C over medium flame. Test with a small piece of dough — it should rise to the surface within 2 seconds. Fit the murukku press (chakli maker) with the flat ribbon disc — the plate with 2 or 3 horizontal slits that produces wide, flat strips.",
+        "method": "deep-frying"
+      },
+      {
+        "order": 4,
+        "text": "Fill the press with dough and squeeze out straight ribbons, about 10–12 cm long, directly into the hot oil. Fry 4–5 strips at a time without overcrowding. Fry over medium flame for 4–5 minutes, turning once with tongs, until crisp and pale golden. The ribbons should not turn dark brown — remove them while still light in colour as they crisp further out of the oil.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 5,
+        "text": "Drain on kitchen paper and cool completely before tasting — they become significantly crunchier as they cool. Store in an airtight container at room temperature. Ribbon pakoda stays crisp for 2–3 weeks, making it ideal to prepare a week before the festival."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "deep-frying"
+    ],
+    "tags": [
+      "festival",
+      "diwali",
+      "fried-snack",
+      "no-onion-no-garlic",
+      "party",
+      "kids-friendly"
+    ],
+    "allergens": [
+      "dairy",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 195,
+      "protein": 4,
+      "carbs": 28,
+      "fat": 8,
+      "fiber": 1,
+      "sugar": 0,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "besan",
+        "substitute": "same quantity of maida (all-purpose flour) for a smoother, paler ribbon; the nuttiness from besan will be absent"
+      },
+      {
+        "ingredient": "butter",
+        "substitute": "same quantity of softened ghee or coconut oil — both keep the ribbons flaky"
+      },
+      {
+        "ingredient": "red-chilli-powder",
+        "substitute": "white pepper for a milder, less visible heat; or Kashmiri chilli powder for colour without much spice"
+      }
+    ],
+    "culturalNote": "Ribbon pakoda (also called ribbon murukku or ola pakoda) takes its name from the wide, flat shape extruded through the ribbon disc — it is a South Indian festival essential that is typically made in large batches several days before Diwali and distributed in tin boxes.",
+    "regionalVariation": "In Kerala, a similar snack called achappam uses a flower-shaped iron mould dipped in coconut-milk batter and deep-fried; in Andhra, a version called karapusa (puffed corn variety) is conceptually similar but made differently.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-festival-thattai",
+    "slug": "festival-thattai",
+    "title": "Thattai",
+    "nativeTitle": "தட்டை",
+    "description": "Thin, flat rice crisps studded with soaked chana dal, sesame seeds and dried red chilli — a savour festival snack from Tamil Nadu that shatters satisfyingly at every bite. Thattai are a must for Krishnashtami and Karthigai Deepam tin boxes.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "snack"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 40,
+    "cookTimeMinutes": 35,
+    "totalTimeMinutes": 75,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "rice flour (fine)",
+        "normalizedName": "rice-flour",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "chana dal, soaked 30 min and drained",
+        "normalizedName": "chana-dal",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "stays whole in the dough; do not grind"
+      },
+      {
+        "name": "urad dal, soaked 30 min and drained",
+        "normalizedName": "urad-dal",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "butter, softened",
+        "normalizedName": "butter",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sesame seeds",
+        "normalizedName": "sesame-seeds",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies, roughly broken",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "asafoetida (hing / perungayam)",
+        "normalizedName": "asafoetida",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves, finely chopped",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "freshly grated coconut",
+        "normalizedName": "coconut",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "Kongunadu style; adds richness"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "add gradually to bind"
+      },
+      {
+        "name": "oil for deep frying",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "cup",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soak chana dal and urad dal together in water for 30 minutes. Drain completely and pat dry — excess water in the dough will make the thattai absorb oil and turn heavy instead of crisp. The soaked dals should remain whole, not ground."
+      },
+      {
+        "order": 2,
+        "text": "In a mixing bowl, combine rice flour, the soaked whole dals, sesame seeds, broken dried chilli, asafoetida, finely chopped curry leaves, grated coconut if using, softened butter and salt. Mix with your fingers so the butter is distributed evenly. Add water a little at a time, kneading to form a firm, non-sticky dough that holds its shape without crumbling when pressed. The dough should feel stiffer than chapati."
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a kadai to 165–170°C. Meanwhile, pinch off a golf-ball-sized portion of dough (about 2 tbsp). Place it on a greased sheet of plastic wrap or a greased banana leaf section. Place a second greased sheet on top and press flat with a flat-bottomed plate or your palm to a thin, even round, about 8 cm across and 2–3 mm thick. The thinner you press, the crispier the thattai.",
+        "method": "deep-frying"
+      },
+      {
+        "order": 4,
+        "text": "Prick each flattened round 2–3 times with a fork to prevent large bubbles forming in the oil. Peel the thattai carefully from the plastic sheet and slide gently into the hot oil. Fry 3–4 at a time without overcrowding."
+      },
+      {
+        "order": 5,
+        "text": "Fry over medium flame for 5–6 minutes, turning once with a wide slotted spoon, until golden-amber on both sides and very crisp. The oil should be quiet before you remove them — a vigorous sizzle means they still have moisture inside. Drain on kitchen paper.",
+        "timerMinutes": 6
+      },
+      {
+        "order": 6,
+        "text": "Cool completely before eating — thattai crispen considerably as they cool. Store in an airtight container at room temperature; they stay fresh and crisp for 2–3 weeks."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "deep-frying"
+    ],
+    "tags": [
+      "festival",
+      "fried-snack",
+      "no-onion-no-garlic",
+      "party"
+    ],
+    "allergens": [
+      "dairy",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 185,
+      "protein": 4,
+      "carbs": 28,
+      "fat": 7,
+      "fiber": 2,
+      "sugar": 0,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chana-dal",
+        "substitute": "whole green moong dal soaked identically — lighter texture, slightly softer bite"
+      },
+      {
+        "ingredient": "butter",
+        "substitute": "coconut oil (1.5 tsp) for a dairy-free version; the thattai will be crisper"
+      },
+      {
+        "ingredient": "dried-red-chilli",
+        "substitute": "0.5 tsp red chilli powder mixed into the dough; the heat distribution will be more even"
+      }
+    ],
+    "culturalNote": "Thattai takes its name from the Tamil word for flat (thattu), describing its characteristic disc shape — it is the centrepiece of the Krishnashtami (Gokulashtami) snack platter in Tamil households, along with murukku and seedai.",
+    "regionalVariation": "The Kongunadu version adds grated coconut to the dough and is slightly softer; Chettinad thattai sometimes includes a little pepper; North Indian stores make a similar snack called tikki or goli chivda but shaped into balls.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-festival-ellu-urundai",
+    "slug": "festival-ellu-urundai",
+    "title": "Ellu Urundai (Sesame Ladoo)",
+    "nativeTitle": "எள்ளு உருண்டை",
+    "description": "Three-ingredient sesame balls — roasted sesame seeds bound with jaggery at the soft-ball stage — a crunchy-chewy festival sweet from Tamil Nadu prepared for Pongal and Karthigai Deepam that is as ancient as the harvest celebrations themselves.",
+    "cuisine": "tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "language": "en",
+    "mealType": [
+      "dessert",
+      "snack"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "white sesame seeds (or black, or a mix)",
+        "normalizedName": "sesame-seeds",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "jaggery, grated or powdered",
+        "normalizedName": "jaggery",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "for the jaggery syrup"
+      },
+      {
+        "name": "cardamom powder",
+        "normalizedName": "cardamom",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat a wide, dry kadai over medium flame. Add the sesame seeds and roast, stirring continuously, for 5–7 minutes until they pop and crackle, turn a shade darker (white sesame becomes pale gold; black sesame becomes fragrant and slightly glistening) and smell nutty. Do not walk away — sesame can go from perfectly toasted to burnt in seconds. Transfer immediately to a wide plate and cool.",
+        "timerMinutes": 7,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Combine the grated jaggery and water in a small heavy-bottomed saucepan or the same wiped-clean kadai over medium heat. Stir until the jaggery dissolves fully into a liquid. Switch to medium-high and cook without stirring for 4–5 minutes until it reaches soft-ball stage: drop a small spoonful into a cup of cold water — if it forms a soft, pliable ball that you can press between your fingers without it dissolving, it is ready. If it disappears in the water, cook a minute more; if it sets rock-hard, you have gone too far.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 3,
+        "text": "Remove the jaggery syrup from heat immediately. Add the roasted sesame seeds and cardamom all at once and stir vigorously to coat every seed in syrup. Work fast — the mixture cools quickly and becomes difficult to shape."
+      },
+      {
+        "order": 4,
+        "text": "Lightly grease your palms with a few drops of neutral oil. Take a heaped tablespoon of the hot sesame-jaggery mixture and press it firmly in your palm, then roll between both palms into a tight round ball. The mixture should still be warm and slightly sticky. Shape all the urundais within 5 minutes while the mixture is workable; if it hardens, return the pan to low heat for 30 seconds."
+      },
+      {
+        "order": 5,
+        "text": "Arrange the shaped urundais on a greased plate and leave to set and cool completely, about 20 minutes. They will firm up into a satisfying crunch-and-chew texture. Store in an airtight container at room temperature for up to 2 weeks.",
+        "timerMinutes": 20
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "saucepan"
+    ],
+    "methods": [
+      "sauteing",
+      "simmering"
+    ],
+    "tags": [
+      "festival",
+      "pongal",
+      "sweet",
+      "no-onion-no-garlic",
+      "healthy",
+      "budget",
+      "quick"
+    ],
+    "allergens": [
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 280,
+      "protein": 6,
+      "carbs": 32,
+      "fat": 15,
+      "fiber": 4,
+      "sugar": 22,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "jaggery",
+        "substitute": "palm jaggery (karupatti) for a more complex, smoky flavour — the urundais will be slightly softer"
+      },
+      {
+        "ingredient": "sesame-seeds",
+        "substitute": "a 1:1 mix of sesame and roasted peanuts for a nuttier, chunkier version — reduce sesame to 1 cup and add 1 cup peanuts"
+      },
+      {
+        "ingredient": "cardamom",
+        "substitute": "a pinch of dry ginger powder (soonth) for a warmer, more pungent flavour"
+      }
+    ],
+    "culturalNote": "Ellu urundai is one of the ancient Pongal offerings in Tamil Nadu, where sesame is revered as a crop of longevity and prosperity — the black sesame version is especially associated with Makar Sankranti rituals across South India.",
+    "regionalVariation": "In Karnataka, similar sesame balls are made for Sankranti and called yellu unde; the Andhra version (nuvvula undalu) often includes a handful of roasted peanuts for extra crunch and uses slightly more jaggery for a darker, stickier ball.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-festival-badam-halwa",
+    "slug": "festival-badam-halwa",
+    "title": "Badam Halwa",
+    "nativeTitle": "बादाम का हलवा",
+    "description": "Blanched almonds ground to a paste and slow-cooked in ghee with sugar and saffron until the mixture deepens to a glowing amber — a rich, smooth, opulent festival halwa served in small portions at Diwali and Andhra weddings, worth every minute of its careful preparation.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "dessert"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "premium",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 35,
+    "totalTimeMinutes": 55,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "almonds (blanched and peeled)",
+        "normalizedName": "almond",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false,
+        "notes": "soak in hot water for 2 hours or boiling water for 10 min, then peel"
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "milk, warm",
+        "normalizedName": "milk",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "for grinding the almonds and loosening the halwa"
+      },
+      {
+        "name": "saffron strands",
+        "normalizedName": "saffron",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": true,
+        "notes": "steep in 2 tbsp warm milk for 10 minutes"
+      },
+      {
+        "name": "cardamom powder",
+        "normalizedName": "cardamom",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "pistachios, slivered",
+        "normalizedName": "pistachio",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "for garnish"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pour boiling water over the almonds and leave for 10 minutes (or soak in cold water for 2 hours). Drain and peel — the skins slip off easily when you pinch each almond. Pat dry. Grind the peeled almonds in a mixie with 3–4 tbsp of the warm milk to a smooth, thick paste. It should be fine with no gritty texture when rubbed between fingers.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Heat the ghee in a wide, heavy-bottomed kadai over medium-low flame. Add the almond paste and stir immediately — it will hiss and spit slightly. Keep the flame at medium-low and stir continuously, pressing the paste against the bottom of the pan. The paste will go through stages: very sticky and clingy at first, then granular as moisture leaves, then pulling away from the sides cleanly.",
+        "timerMinutes": 12,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Once the paste looks sandy and smells of roasted almonds (after about 10–12 minutes), add the remaining warm milk in a thin stream while stirring. The mixture will loosen, hiss and then tighten again as the milk absorbs over 3–4 minutes. Stir in saffron milk at this stage.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 4,
+        "text": "Add the sugar and stir. The halwa will loosen considerably as the sugar melts. Continue cooking over medium-low heat, stirring without stopping, for 10–12 minutes until the sugar is absorbed, the halwa darkens to a deep amber-orange colour, thickens considerably and the ghee begins to separate and pool at the sides of the pan — this is the sign that it is done.",
+        "timerMinutes": 12
+      },
+      {
+        "order": 5,
+        "text": "Stir in cardamom powder. Transfer to a greased serving dish or individual bowls. Garnish with slivered pistachios. Badam halwa is best served warm — small portions, as it is very rich. Leftovers can be refrigerated and gently reheated with a splash of milk."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "mixie"
+    ],
+    "methods": [
+      "sauteing"
+    ],
+    "tags": [
+      "festival",
+      "diwali",
+      "sweet",
+      "no-onion-no-garlic",
+      "party"
+    ],
+    "allergens": [
+      "dairy",
+      "nuts"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "protein": 7,
+      "carbs": 28,
+      "fat": 26,
+      "fiber": 3,
+      "sugar": 24,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "almond",
+        "substitute": "cashews for a very similar method and an arguably more buttery flavour; no soaking needed"
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "unsalted butter — the flavour is slightly different but the technique is identical"
+      },
+      {
+        "ingredient": "saffron",
+        "substitute": "a pinch of turmeric for golden colour without the floral aroma; or simply omit"
+      }
+    ],
+    "culturalNote": "Badam halwa is considered the most prestigious of all the halwas in South India — particularly in Andhra and Tamil Nadu, where it appears in small cups at wedding feasts as the final sweet course, signalling the meal's end and the wealth of the hosts.",
+    "regionalVariation": "The Andhra version (badam ki kheer) is thinner, resembling a custard, and served chilled; the North Indian version is firm enough to be pressed into moulds and set into decorative shapes before serving.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-festival-phirni",
+    "slug": "festival-phirni",
+    "title": "Phirni",
+    "nativeTitle": "फिरनी",
+    "description": "Ground rice simmered in whole milk until thick and satiny, perfumed with saffron, cardamom and rose water and poured into clay cups to chill and set — the classic Eid and Diwali dessert of North India that is simultaneously delicate and deeply satisfying.",
+    "cuisine": "mughlai",
+    "country": "india",
+    "region": "delhi",
+    "language": "en",
+    "mealType": [
+      "dessert"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "raw rice, washed",
+        "normalizedName": "rice",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "soak in water for 30 minutes; the soaked grains grind to a better paste"
+      },
+      {
+        "name": "full-fat whole milk",
+        "normalizedName": "milk",
+        "quantity": 5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "cardamom powder",
+        "normalizedName": "cardamom",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "saffron strands",
+        "normalizedName": "saffron",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": true,
+        "notes": "steep in 2 tbsp warm milk"
+      },
+      {
+        "name": "rose water",
+        "normalizedName": "rose-water",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "pistachios, blanched and slivered",
+        "normalizedName": "pistachio",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "almonds, slivered",
+        "normalizedName": "almond",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "for garnish"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Drain the soaked rice and grind in a mixie with 3 tbsp of the milk to a coarse-gritty paste — aim for the texture of very fine wet sand, not a smooth slurry. This grainy texture is what defines phirni and distinguishes it from plain kheer, where the rice cooks whole.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Pour the remaining milk into a wide, heavy-bottomed saucepan and heat over medium flame, stirring frequently. Bring to a full boil, then reduce heat to medium-low.",
+        "timerMinutes": 8,
+        "method": "boiling"
+      },
+      {
+        "order": 3,
+        "text": "Pour the ground rice paste in a thin stream into the boiling milk, stirring constantly and vigorously to prevent lumps. Stir every minute for 20–25 minutes as the phirni slowly thickens — it will progress from milky liquid to a thin porridge to a creamy, gently thickened pudding that coats the back of a spoon and holds a trail from a spoon drawn through it.",
+        "timerMinutes": 25,
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "Add sugar and stir for 3–4 more minutes until dissolved and the phirni tightens back slightly. Remove from heat. Stir in saffron milk, cardamom and rose water. Taste and adjust sugar. The phirni will thicken further as it cools and sets — aim for a slightly runnier consistency than what you want to serve.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 5,
+        "text": "Pour into individual earthen kulhads (clay cups) or small bowls. Cool to room temperature for 30 minutes, then cover with cling film and refrigerate for at least 2 hours or overnight until the phirni is set to a thick, soft-pudding consistency. Garnish with slivered pistachios and almonds immediately before serving. Serve cold."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "saucepan",
+      "mixie"
+    ],
+    "methods": [
+      "boiling",
+      "simmering"
+    ],
+    "tags": [
+      "festival",
+      "eid",
+      "diwali",
+      "sweet",
+      "no-onion-no-garlic",
+      "party",
+      "comfort-food"
+    ],
+    "allergens": [
+      "dairy",
+      "nuts"
+    ],
+    "nutrition": {
+      "calories": 230,
+      "protein": 7,
+      "carbs": 32,
+      "fat": 8,
+      "fiber": 1,
+      "sugar": 26,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "rice",
+        "substitute": "1 tbsp cornflour (cornstarch) dissolved in 3 tbsp cold milk — the texture is smoother and sets faster, but lacks the grit of traditional phirni"
+      },
+      {
+        "ingredient": "milk",
+        "substitute": "full-fat canned coconut milk thinned with water (1:1) — dairy-free with a distinctly different but pleasing flavour"
+      },
+      {
+        "ingredient": "rose-water",
+        "substitute": "kewra (pandanus) essence, 2–3 drops — a different floral note equally traditional in North Indian sweets"
+      }
+    ],
+    "culturalNote": "Phirni is a Mughal-era dessert rooted in Persian sheer (milk) puddings — it has been served at royal Eid dawats and Diwali mehfils for centuries, and the custom of setting it in clay kulhads that subtly flavour the milk is still observed across old Delhi.",
+    "regionalVariation": "Kashmiri phirni (called sheer) is thinner and more fragrant, scented with crushed black cardamom and served warm in winter; Punjabi variants use more rice for a sturdier set, while the UP version adds kewra and saffron both for an intensely perfumed result.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-festival-gujiya",
+    "slug": "festival-gujiya",
+    "title": "Gujiya",
+    "nativeTitle": "गुजिया",
+    "description": "Half-moon pastry pockets sealed over a filling of roasted khoya, coconut, nuts and raisins, then deep-fried to a golden, flaky shell — the definitive Holi sweet of North India that goes by different names across the country but is universally beloved. Made in large batches and gifted between households.",
+    "cuisine": "north-indian",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "dessert"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 45,
+    "cookTimeMinutes": 40,
+    "totalTimeMinutes": 85,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "maida (all-purpose flour)",
+        "normalizedName": "maida",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "ghee, for the pastry",
+        "normalizedName": "ghee",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "rubbed into the flour for a flaky shell"
+      },
+      {
+        "name": "cold water, for the pastry",
+        "normalizedName": "water",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "add gradually"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "khoya (mawa), crumbled",
+        "normalizedName": "khoya",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "freshly grated or desiccated coconut, dry-roasted",
+        "normalizedName": "coconut",
+        "quantity": 0.25,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "powdered sugar",
+        "normalizedName": "sugar",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "cashews, roughly chopped",
+        "normalizedName": "cashew",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "almonds, roughly chopped",
+        "normalizedName": "almond",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "raisins",
+        "normalizedName": "raisin",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cardamom powder",
+        "normalizedName": "cardamom",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil, for deep frying",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "cup",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Make the pastry: combine maida and salt in a wide bowl. Add ghee and rub into the flour with your fingertips until the mixture resembles coarse crumbs with no large clumps of fat — this step creates the flaky layers. Add cold water a little at a time and bring together into a firm, non-sticky, smooth dough. Knead for 3–4 minutes, wrap in a damp cloth and rest for 30 minutes.",
+        "timerMinutes": 35
+      },
+      {
+        "order": 2,
+        "text": "Prepare the filling while the dough rests: heat a small pan over low flame and lightly roast the crumbled khoya for 3–4 minutes, stirring, until it dries out slightly and smells milky and slightly caramelised. Cool completely. Mix the cooled khoya with dry-roasted coconut, powdered sugar, chopped cashews, almonds, raisins and cardamom. Taste — it should be sweet, fragrant and dry enough to hold together without being wet.",
+        "timerMinutes": 8,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Divide the rested dough into 20 equal balls. Roll each ball on a lightly floured surface into a thin oval or round about 10–12 cm across. Place 1 heaped tablespoon of filling in the centre of one half, leaving a 1.5 cm border all around."
+      },
+      {
+        "order": 4,
+        "text": "Fold the other half of the circle over the filling to form a half-moon. Press the curved edge firmly together and seal by making small pleats and pinching them together — or press the tines of a fork along the edge for a ridged seal. A well-sealed gujiya will not leak filling into the hot oil. Trim any rough edges with a small round cutter or pastry wheel if needed."
+      },
+      {
+        "order": 5,
+        "text": "Heat oil in a wide kadai over medium-low flame to 150–160°C — gujiyas need a slow, gentle fry so the pastry cooks all the way through before the outside colours. Test with a scrap of dough: it should rise lazily to the surface after 3–4 seconds. Fry 4–5 gujiyas at a time, turning gently with a slotted spoon, for 10–12 minutes until deep golden all over.",
+        "timerMinutes": 12,
+        "method": "deep-frying"
+      },
+      {
+        "order": 6,
+        "text": "Drain on kitchen paper and cool completely. Gujiyas are best eaten at room temperature — the pastry is crispest in the first 24 hours, though they keep at room temperature for 4–5 days. For a glazed version, dip the warm gujiyas in a simple sugar syrup and let dry on a wire rack."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "frying-pan"
+    ],
+    "methods": [
+      "sauteing",
+      "deep-frying"
+    ],
+    "tags": [
+      "festival",
+      "diwali",
+      "sweet",
+      "no-onion-no-garlic",
+      "party"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten",
+      "nuts"
+    ],
+    "nutrition": {
+      "calories": 340,
+      "protein": 6,
+      "carbs": 38,
+      "fat": 18,
+      "fiber": 2,
+      "sugar": 20,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "khoya",
+        "substitute": "ricotta cheese drained overnight in a cloth — the texture and richness are very similar"
+      },
+      {
+        "ingredient": "maida",
+        "substitute": "half maida and half whole wheat flour (atta) for a slightly denser but more nutritious pastry"
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "cold butter rubbed into the flour in exactly the same way — the shell will be slightly more biscuit-like"
+      }
+    ],
+    "culturalNote": "Gujiya is the Holi sweet of Uttar Pradesh and Rajasthan — trays of freshly fried gujiyas are the first thing placed in front of guests arriving for Holi celebration, and the day's festivity does not truly begin until the first gujiya is eaten.",
+    "regionalVariation": "In Bihar, a virtually identical version called pedakiya is filled with chana dal and coconut; in Maharashtra, the same concept is called karanji and the filling uses desiccated coconut without khoya. Andhra's kajikaya is the closest southern equivalent, similarly shaped and fried.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  }
+]

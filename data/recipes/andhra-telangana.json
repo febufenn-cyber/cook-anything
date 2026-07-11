@@ -1,0 +1,3988 @@
+[
+  {
+    "id": "ca-andhra-kodi-kura",
+    "slug": "andhra-kodi-kura",
+    "title": "Andhra Chicken Curry (Kodi Kura)",
+    "nativeTitle": "కోడి కూర",
+    "description": "A fiery Andhra chicken curry built on a foundation of Guntur chillies, roasted coriander and a finishing paste of fried onions and coconut. The gravy is dark, deeply spiced and thick enough to cling to every grain of rice.",
+    "cuisine": "andhra",
+    "country": "india",
+    "region": "coastal-andhra",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "very_hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 40,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken, curry cut with bone",
+        "normalizedName": "chicken",
+        "quantity": 750,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion, finely sliced",
+        "normalizedName": "onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, roughly chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "Guntur red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 3,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "use 2 tsp for less heat"
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "grated coconut",
+        "normalizedName": "coconut",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 3,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Marinate the chicken with turmeric, half the chilli powder and a pinch of salt for 15 minutes while you prepare the rest.",
+        "timerMinutes": 15,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Dry-roast the grated coconut in a small pan over medium-low heat, stirring constantly, until it turns a nutty golden brown, about 3 minutes. Transfer to a plate and let it cool.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a kadai over medium-high flame. Fry two-thirds of the sliced onion, stirring often, until it turns deep brown and crisp, about 12 minutes. Remove and cool slightly, then grind with the toasted coconut and a splash of water to a smooth paste.",
+        "timerMinutes": 12,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "In the same oil, splutter mustard seeds and add curry leaves. Add the remaining onion and sauté until soft. Add ginger-garlic paste and fry until the raw smell disappears, about 2 minutes."
+      },
+      {
+        "order": 5,
+        "text": "Add tomatoes with a pinch of salt, cook until they soften and the oil starts to separate, about 5 minutes. Add the remaining chilli powder, coriander powder and garam masala; stir for 30 seconds on low heat so the spices don't burn.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 6,
+        "text": "Increase the flame, add the marinated chicken and sear, turning the pieces, until they are no longer pink on the outside, about 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 7,
+        "text": "Stir in the onion-coconut paste and 300 ml hot water. Mix well, cover, and cook on medium flame for 20 minutes until the chicken is cooked through and the gravy darkens.",
+        "timerMinutes": 20,
+        "method": "simmering"
+      },
+      {
+        "order": 8,
+        "text": "Remove the lid, cook on high for 3–4 minutes to reduce the gravy to a thick coating consistency. Check salt, scatter coriander leaves and rest 5 minutes before serving."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "mixie"
+    ],
+    "methods": [
+      "marinating",
+      "kadai-cooking",
+      "simmering",
+      "tempering"
+    ],
+    "tags": [
+      "gravy",
+      "comfort-food",
+      "party",
+      "budget"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 410,
+      "protein": 36,
+      "carbs": 12,
+      "fat": 24,
+      "fiber": 4,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "coconut",
+        "substitute": "3 tbsp cashew paste",
+        "notes": "adds richness without the coconut flavour"
+      },
+      {
+        "ingredient": "chicken",
+        "substitute": "750 g bone-in mutton; increase final simmer to 35 minutes"
+      },
+      {
+        "ingredient": "red-chilli-powder",
+        "substitute": "1 tsp Kashmiri chilli powder + 1 tsp cayenne",
+        "notes": "balances colour with moderate heat"
+      }
+    ],
+    "culturalNote": "Kodi kura is the Sunday centrepiece in Andhra households; the deep colour comes from generous Guntur chillies, which are prized for their heat and aroma.",
+    "regionalVariation": "Rayalaseema versions add extra dried red chillies and a squeeze of tamarind; coastal cooks lean on more coconut and sometimes add a ladleful of coconut milk to finish.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-andhra-gongura-mutton",
+    "slug": "andhra-gongura-mutton",
+    "title": "Andhra Gongura Mutton (Sour Greens Mutton)",
+    "nativeTitle": "గోంగూర మటన్",
+    "description": "Tender mutton slow-cooked in a punchy paste of sour spinach, tamarind and whole spices — the signature dish of Andhra Pradesh. The acidity of the greens balances the richness of the meat and the Guntur-chilli heat.",
+    "cuisine": "andhra",
+    "country": "india",
+    "region": "coastal-andhra",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "hard",
+    "spiceLevel": "very_hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 60,
+    "totalTimeMinutes": 85,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "bone-in mutton, curry cut",
+        "normalizedName": "mutton",
+        "quantity": 700,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "fresh spinach leaves (substitute for gongura/sorrel)",
+        "normalizedName": "spinach",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false,
+        "notes": "add tamarind for sourness; use sorrel leaves if available"
+      },
+      {
+        "name": "tamarind pulp",
+        "normalizedName": "tamarind",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "increases sourness to approximate gongura"
+      },
+      {
+        "name": "onion, sliced",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "Guntur red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 3,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Blanch the spinach in boiling water for 2 minutes, drain, and blend to a coarse paste. Mix in the tamarind pulp and set aside — this is your gongura substitute.",
+        "timerMinutes": 2,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a heavy-bottomed pot over high flame. Add dried red chillies and cumin seeds; let them sizzle for 20 seconds. Add onion and curry leaves, sauté until the onion is deep golden, about 10 minutes.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Add ginger-garlic paste and fry until the raw smell disappears, about 2 minutes. Add chilli powder, coriander powder and turmeric; stir for 30 seconds on low flame.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 4,
+        "text": "Add the mutton pieces and turn to high heat. Sear, turning often, until the meat is browned on all sides, about 8 minutes. Season with salt.",
+        "timerMinutes": 8
+      },
+      {
+        "order": 5,
+        "text": "Stir in the spinach-tamarind paste and 250 ml hot water. Cover and cook on medium flame for 30 minutes, stirring occasionally.",
+        "timerMinutes": 30,
+        "method": "braising"
+      },
+      {
+        "order": 6,
+        "text": "Uncover and cook on medium-high, stirring, for another 15 minutes until the mutton is completely tender and the masala clings to the meat with only a little gravy remaining. The oil should float on top when done.",
+        "timerMinutes": 15
+      },
+      {
+        "order": 7,
+        "text": "Check salt and sourness — add a little more tamarind pulp if you want extra tang. Rest 10 minutes and serve with steamed rice or ragi mudde."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "blender"
+    ],
+    "methods": [
+      "boiling",
+      "braising",
+      "simmering"
+    ],
+    "tags": [
+      "gravy",
+      "comfort-food",
+      "party"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 440,
+      "protein": 38,
+      "carbs": 8,
+      "fat": 28,
+      "fiber": 3,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "spinach",
+        "substitute": "sorrel leaves (chukkakura) if available at Indian stores — no tamarind needed"
+      },
+      {
+        "ingredient": "mutton",
+        "substitute": "700 g chicken curry cut; reduce braising to 20 minutes total"
+      },
+      {
+        "ingredient": "tamarind",
+        "substitute": "1 tbsp lemon juice added at the end; gives brightness but less depth"
+      }
+    ],
+    "culturalNote": "Gongura (sorrel) is the soul of Andhra cooking — its natural sourness is so beloved that the dish is sometimes called 'Andhra people's pickle'. No wedding feast is complete without gongura mutton.",
+    "regionalVariation": "Nellore cooks add coconut paste to mellow the sourness; Rayalaseema versions skip the extra water and cook the mutton almost dry in the sour masala.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-andhra-gutti-vankaya",
+    "slug": "andhra-gutti-vankaya",
+    "title": "Andhra Gutti Vankaya (Stuffed Brinjal)",
+    "nativeTitle": "గుత్తి వంకాయ",
+    "description": "Small, round brinjals stuffed with a fragrant masala of roasted peanuts, sesame and coconut, then pan-cooked in a tangy tamarind gravy. A beloved Andhra side dish that showcases the region's talent for making humble vegetables irresistible.",
+    "cuisine": "andhra",
+    "country": "india",
+    "region": "coastal-andhra",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "small round brinjals (purple/green)",
+        "normalizedName": "brinjal",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false,
+        "notes": "choose ones about 5 cm wide"
+      },
+      {
+        "name": "peanuts, roasted and skinned",
+        "normalizedName": "peanut",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sesame seeds",
+        "normalizedName": "sesame-seeds",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "grated coconut",
+        "normalizedName": "coconut",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "tamarind pulp",
+        "normalizedName": "tamarind",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "jaggery, grated",
+        "normalizedName": "jaggery",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Dry-roast sesame seeds and grated coconut in a small pan over medium heat until golden. Grind together with roasted peanuts, chilli powder, coriander powder, ginger-garlic paste, tamarind pulp, jaggery and salt to a coarse, spreadable paste. Add a splash of water if needed.",
+        "method": "roasting"
+      },
+      {
+        "order": 2,
+        "text": "Slit each brinjal from the base into four, keeping the stem end intact so the brinjal holds its shape. Fill each one generously with the peanut-sesame paste, pressing it in."
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a heavy kadai over medium flame. Add mustard seeds and cumin; when they splutter, add curry leaves and turmeric.",
+        "method": "tempering"
+      },
+      {
+        "order": 4,
+        "text": "Gently arrange the stuffed brinjals in the kadai in a single layer. Cover and cook on medium-low for 12 minutes, turning the brinjals every 4 minutes so all sides colour evenly.",
+        "timerMinutes": 12,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Mix any leftover stuffing paste with 150 ml water and pour around (not over) the brinjals. Stir gently, cover and cook for another 10 minutes until the brinjals are completely soft and the gravy thickens to a coating sauce.",
+        "timerMinutes": 10,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Check seasoning and adjust tamarind and jaggery balance — the dish should be spicy, tangy and very slightly sweet. Serve hot with steamed rice."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "mixie"
+    ],
+    "methods": [
+      "roasting",
+      "tempering",
+      "kadai-cooking",
+      "simmering"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "budget",
+      "no-onion-no-garlic"
+    ],
+    "allergens": [
+      "peanuts",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 290,
+      "protein": 8,
+      "carbs": 20,
+      "fat": 20,
+      "fiber": 7,
+      "sugar": 6,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "peanut",
+        "substitute": "cashews ground to paste",
+        "notes": "richer flavour, no peanut allergen"
+      },
+      {
+        "ingredient": "sesame-seeds",
+        "substitute": "poppy seeds (khus khus)",
+        "notes": "similar texture and nuttiness"
+      },
+      {
+        "ingredient": "brinjal",
+        "substitute": "stuffed capsicum halves; bake at 180 °C for 20 minutes instead of kadai cooking"
+      }
+    ],
+    "culturalNote": "Gutti vankaya is one of Andhra's most celebrated vegetarian dishes — the intricate stuffing paste transforms the humble brinjal into something that holds its own alongside elaborate meat curries.",
+    "regionalVariation": "Chettinad families make a similar stuffed brinjal with fennel and kalpasi; Rayalaseema versions use more dried chillies and less coconut, making the stuffing earthier and hotter.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-andhra-pesarattu",
+    "slug": "andhra-pesarattu",
+    "title": "Andhra Pesarattu (Green Moong Crepe)",
+    "nativeTitle": "పెసరట్టు",
+    "description": "Crisp, protein-packed crepes made from whole green moong batter, speckled with ginger, green chilli and cumin. A wholesome Andhra breakfast that needs no fermentation and comes together quickly from a simple overnight soak.",
+    "cuisine": "andhra",
+    "country": "india",
+    "region": "coastal-andhra",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegan",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "whole green moong dal (soaked 6–8 hours)",
+        "normalizedName": "moong-dal",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "ginger, roughly chopped",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "green chillies",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "rice flour",
+        "normalizedName": "rice-flour",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "for extra crispness"
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true,
+        "notes": "sprinkled on top during cooking"
+      },
+      {
+        "name": "ginger, finely chopped",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "for topping"
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "for cooking, divided"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Drain the soaked moong dal and grind with ginger, green chillies, cumin seeds, rice flour and salt to a smooth, slightly coarse batter. Add water gradually — the batter should spread like dosa batter, not be runny.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Heat a tawa over medium-high flame until very hot. Reduce to medium, wipe with a halved onion dipped in oil, then pour a ladleful of batter in the centre. Spread in a circular motion to a thin crepe about 22 cm wide.",
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Sprinkle chopped onion, ginger and coriander leaves on top. Drizzle a teaspoon of oil around the edges."
+      },
+      {
+        "order": 4,
+        "text": "Cook on medium heat until the edges start to lift and the underside is golden-brown and crisp, about 3 minutes. Do not flip — pesarattu is cooked only on one side, like a dosa.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 5,
+        "text": "Fold and serve immediately with ginger chutney or coconut chutney. Make the remaining crepes the same way, re-wiping the pan with the oiled onion between each."
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "mixie"
+    ],
+    "methods": [
+      "tawa-cooking",
+      "no-cook"
+    ],
+    "tags": [
+      "tiffin",
+      "budget",
+      "quick",
+      "healthy"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 220,
+      "protein": 12,
+      "carbs": 32,
+      "fat": 6,
+      "fiber": 6,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "moong-dal",
+        "substitute": "split yellow moong for a paler crepe; soak only 2 hours"
+      },
+      {
+        "ingredient": "rice-flour",
+        "substitute": "omit for a softer, slightly thicker crepe"
+      }
+    ],
+    "culturalNote": "Pesarattu is a uniquely Andhra creation and the state's most distinctive breakfast — unlike most South Indian crepes it uses whole green moong and requires no fermentation, making it both nutritious and convenient.",
+    "regionalVariation": "Vizag-style upma pesarattu is served with a small mound of rava upma placed on the crepe before folding — a popular street-breakfast combination in Andhra.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-andhra-fish-pulusu",
+    "slug": "andhra-fish-pulusu",
+    "title": "Andhra Fish Pulusu (Tangy Fish Curry)",
+    "nativeTitle": "చేప పులుసు",
+    "description": "A boldly sour and spiced fish curry from Andhra, simmered in a thin tamarind broth fragrant with curry leaves, mustard and Guntur chillies. The tartness of the pulusu cuts through the richness of the fish and begs to be ladled over hot rice.",
+    "cuisine": "andhra",
+    "country": "india",
+    "region": "coastal-andhra",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "fish steaks (rohu, catla or kingfish)",
+        "normalizedName": "fish",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion, thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tamarind pulp (thick)",
+        "normalizedName": "tamarind",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fenugreek seeds",
+        "normalizedName": "fenugreek-seeds",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 3,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Rub the fish steaks with turmeric, a pinch of chilli powder and salt. Set aside for 10 minutes while the rest cooks.",
+        "timerMinutes": 10,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a kadai over medium-high flame. Add mustard seeds and fenugreek seeds; when they splutter, add curry leaves, then the sliced onion. Sauté until the onion turns translucent and slightly golden, about 6 minutes.",
+        "timerMinutes": 6,
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add ginger-garlic paste and fry until the raw smell goes, about 1 minute. Add tomatoes, chilli powder, coriander powder and cook, stirring, until the tomatoes break down and the oil separates, about 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 4,
+        "text": "Pour in 400 ml water and the tamarind pulp. Bring to a boil, then reduce to a steady simmer. Taste and adjust salt and tamarind.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Slide the fish steaks into the simmering pulusu. Do not stir — gently swirl the pan instead to avoid breaking the fish. Cook for 8–10 minutes until the fish is opaque and flakes easily at the thickest part.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 6,
+        "text": "Scatter coriander leaves on top. Rest 5 minutes before serving so the fish absorbs the broth. Serve over steamed rice — the thin, sour gravy soaks in beautifully."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "marinating",
+      "tempering",
+      "simmering"
+    ],
+    "tags": [
+      "gravy",
+      "comfort-food",
+      "budget",
+      "healthy"
+    ],
+    "allergens": [
+      "fish",
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 310,
+      "protein": 30,
+      "carbs": 10,
+      "fat": 16,
+      "fiber": 3,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "fish",
+        "substitute": "large prawns; reduce cooking time to 5 minutes"
+      },
+      {
+        "ingredient": "tamarind",
+        "substitute": "3 tbsp tomato paste plus 1 tbsp lemon juice; less acidic but usable"
+      }
+    ],
+    "culturalNote": "Pulusu means 'sour broth' in Telugu — the genre of thin, tamarind-based curries is central to Andhra and Telangana cooking, used with vegetables, fish and meat alike.",
+    "regionalVariation": "Nellore fish pulusu is famous for using local Nellore catfish and extra tamarind; Godavari-belt cooks add a paste of raw rice and coconut to thicken the gravy.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-andhra-royyala-iguru",
+    "slug": "andhra-royyala-iguru",
+    "title": "Andhra Royyala Iguru (Prawn Dry Masala)",
+    "nativeTitle": "రొయ్యల ఇగురు",
+    "description": "Juicy prawns cooked dry in a thick, intensely spiced Andhra masala of fried onion, tomato and whole spices — iguru means a dry, stir-fry style preparation with minimal liquid. Every prawn is coated in a clinging, deep-red masala that is as addictive as it is aromatic.",
+    "cuisine": "andhra",
+    "country": "india",
+    "region": "coastal-andhra",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "medium prawns, cleaned and deveined",
+        "normalizedName": "prawn",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion, finely sliced",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, finely chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Toss prawns with turmeric, half the chilli powder and a pinch of salt. Marinate for 10 minutes.",
+        "timerMinutes": 10,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a kadai over high flame. Add dried red chillies and curry leaves; sizzle for 20 seconds. Add the onion and cook, stirring frequently, until it turns a deep golden brown, about 10 minutes.",
+        "timerMinutes": 10,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Add ginger-garlic paste and fry until fragrant, about 1 minute. Add tomatoes with a pinch of salt and cook until they collapse and the oil begins to separate, about 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 4,
+        "text": "Reduce heat to medium. Add the remaining chilli powder, coriander powder and garam masala; stir briskly for 30 seconds so the spices toast without burning."
+      },
+      {
+        "order": 5,
+        "text": "Add the marinated prawns and toss well to coat in the masala. Cook on high heat, stirring every minute, until the prawns are pink and curled and any released liquid has evaporated — about 6–7 minutes. The masala should cling to each prawn.",
+        "timerMinutes": 7,
+        "method": "stir-frying"
+      },
+      {
+        "order": 6,
+        "text": "Squeeze lemon juice over the top, scatter coriander leaves and serve hot as a dry side dish with rice and dal, or as a starter with lime wedges."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "marinating",
+      "kadai-cooking",
+      "stir-frying",
+      "tempering"
+    ],
+    "tags": [
+      "dry-curry",
+      "party",
+      "comfort-food"
+    ],
+    "allergens": [
+      "shellfish"
+    ],
+    "nutrition": {
+      "calories": 270,
+      "protein": 26,
+      "carbs": 8,
+      "fat": 15,
+      "fiber": 2,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "prawn",
+        "substitute": "500 g squid rings; add 3 minutes extra stir-frying"
+      },
+      {
+        "ingredient": "prawn",
+        "substitute": "500 g boneless chicken; stir-fry 12 minutes total until cooked through"
+      }
+    ],
+    "culturalNote": "Iguru is a distinctive Andhra technique — dry-cooking meat or seafood in a thick masala until almost no gravy remains, concentrating every flavour onto the pieces themselves.",
+    "regionalVariation": "Godavari-delta cooks add grated coconut to the masala for a subtler finish; Nellore versions use freshwater prawns and noticeably more tamarind for a sour edge.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-andhra-tomato-pappu",
+    "slug": "andhra-tomato-pappu",
+    "title": "Andhra Tomato Pappu (Tomato Lentil Dal)",
+    "nativeTitle": "టమాటా పప్పు",
+    "description": "A comforting Andhra dal made by pressure-cooking toor dal with ripe tomatoes, then tempering with mustard, dried red chillies and curry leaves. The tomatoes add natural acidity so no tamarind is needed, and the result is a bright, balanced dal that pairs perfectly with rice.",
+    "cuisine": "andhra",
+    "country": "india",
+    "region": "coastal-andhra",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "toor dal (pigeon pea lentils)",
+        "normalizedName": "toor-dal",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "ripe tomatoes, roughly chopped",
+        "normalizedName": "tomato",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, sliced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chillies, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "oil or ghee",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Wash the toor dal and pressure-cook it with the chopped tomatoes, onion, green chillies, garlic, turmeric and 2.5 cups water for 4 whistles on medium flame. Allow pressure to release naturally.",
+        "timerMinutes": 20,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "Open the cooker and mash the dal coarsely with the back of a ladle — you want some texture, not a completely smooth paste. Add chilli powder and salt; stir well."
+      },
+      {
+        "order": 3,
+        "text": "If the dal is too thick, add a splash of hot water to reach a pourable consistency. Bring to a gentle simmer on the stovetop.",
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "Heat oil in a small tempering pan. Add mustard seeds and let them pop. Add dried red chillies, curry leaves and asafoetida; fry for 20 seconds until fragrant.",
+        "method": "tempering"
+      },
+      {
+        "order": 5,
+        "text": "Pour the tempering over the dal and stir to combine. Garnish with coriander leaves and serve hot with steamed rice and a papad on the side."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "frying-pan"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "tempering",
+      "simmering"
+    ],
+    "tags": [
+      "comfort-food",
+      "budget",
+      "one-pot-meal",
+      "healthy",
+      "lunchbox"
+    ],
+    "allergens": [
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 250,
+      "protein": 14,
+      "carbs": 38,
+      "fat": 6,
+      "fiber": 9,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "toor-dal",
+        "substitute": "masoor dal (red lentils); pressure cook for only 3 whistles"
+      },
+      {
+        "ingredient": "oil",
+        "substitute": "1 tbsp ghee for a richer, more traditional finish"
+      }
+    ],
+    "culturalNote": "Pappu (dal) is eaten at every Andhra meal; each family has its own pappu recipe and the tomato version is the weekday staple, made quickly and eaten with a first serving of rice before the main curry arrives.",
+    "regionalVariation": "Some families add a spoon of tamarind paste alongside the tomatoes for extra tang; others finish with a drizzle of ghee and a pinch of fresh pepper.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-andhra-cucumber-pappu",
+    "slug": "andhra-cucumber-pappu",
+    "title": "Andhra Cucumber Pappu (Cucumber Lentil Dal)",
+    "nativeTitle": "దోసకాయ పప్పు",
+    "description": "A gently flavoured Andhra dal where pieces of raw cucumber are cooked directly with toor dal, adding a subtle sweetness and cooling character. Finished with a pungent mustard-garlic tempering, this summer dal is light, nourishing and effortlessly quick.",
+    "cuisine": "andhra",
+    "country": "india",
+    "region": "coastal-andhra",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "toor dal",
+        "normalizedName": "toor-dal",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "cucumber, peeled and chopped into 2 cm cubes",
+        "normalizedName": "cucumber",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "green chillies, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, lightly crushed",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": true
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Wash the toor dal, then pressure-cook it together with the chopped cucumber, green chillies, turmeric and 2 cups of water for 3 whistles on medium heat. The cucumber will soften completely into the dal.",
+        "timerMinutes": 18,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "Allow the pressure to fall naturally. Open and mash lightly — the dal should be smooth but the cucumber pieces can retain a little shape for texture. Add chilli powder and salt; mix well."
+      },
+      {
+        "order": 3,
+        "text": "If the dal is thicker than you like, stir in a little hot water. Bring to a low simmer on the stove while you make the tempering.",
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "Heat oil in a small pan. Add mustard seeds and let them pop. Add dried red chillies, garlic and curry leaves; fry until garlic is light golden and the leaves are crisp, about 1 minute.",
+        "timerMinutes": 1,
+        "method": "tempering"
+      },
+      {
+        "order": 5,
+        "text": "Pour the tempering over the dal. Stir once, taste for salt and serve hot with rice. A smear of ghee on the rice just before adding the dal is the classic finish."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "frying-pan"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "tempering",
+      "simmering"
+    ],
+    "tags": [
+      "comfort-food",
+      "budget",
+      "summer",
+      "healthy",
+      "under-30-minutes"
+    ],
+    "allergens": [
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 220,
+      "protein": 12,
+      "carbs": 33,
+      "fat": 5,
+      "fiber": 7,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "cucumber",
+        "substitute": "ridge gourd (peerkangai) cut into pieces; cook time stays the same"
+      },
+      {
+        "ingredient": "toor-dal",
+        "substitute": "moong dal; reduce pressure cooking to 2 whistles"
+      }
+    ],
+    "culturalNote": "Cucumber pappu is a beloved summer dal across Andhra and Telangana — the vegetable's high water content keeps the dish light and cooling even when the tempering adds heat.",
+    "regionalVariation": "Some households add a tablespoon of tamarind water to the dal after cooking for a subtle sourness; others stir in a small amount of grated coconut with the tempering.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-andhra-punugulu",
+    "slug": "andhra-punugulu",
+    "title": "Andhra Punugulu (Idli Batter Fritters)",
+    "nativeTitle": "పొంగనాలు",
+    "description": "Golden, puffed fritters made by deep-frying leftover idli or dosa batter with onion, green chilli and cumin. Crisp on the outside and soft inside, punugulu are a beloved Andhra street snack and the most satisfying way to use up extra batter.",
+    "cuisine": "andhra",
+    "country": "india",
+    "region": "coastal-andhra",
+    "language": "en",
+    "mealType": [
+      "snack",
+      "tiffin",
+      "breakfast"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "idli/dosa batter (leftover or fresh-fermented)",
+        "normalizedName": "idli-dosa-batter",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chillies, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "rice flour",
+        "normalizedName": "rice-flour",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "helps the fritters hold shape and adds crispness"
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "oil for deep frying",
+        "normalizedName": "oil",
+        "quantity": 500,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Combine the idli batter with chopped onion, green chillies, ginger, cumin seeds, rice flour and salt. Mix well — the batter should be thick enough to hold a ball shape when scooped with a spoon. If it spreads, add another tablespoon of rice flour."
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a kadai to 175 °C (a drop of batter should sink slightly, then rise and sizzle briskly). Use a medium-depth oil — at least 6 cm.",
+        "method": "deep-frying"
+      },
+      {
+        "order": 3,
+        "text": "Using a wet spoon or your fingers, gently drop tablespoon-sized balls of batter into the hot oil. Fry 6–8 at a time without crowding. Turn them after 2 minutes so they colour evenly.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 4,
+        "text": "Continue frying for another 2–3 minutes until the punugulu are deep golden and crisp all over. They should sound hollow when tapped with a spoon. Remove with a slotted spoon and drain on paper.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 5,
+        "text": "Serve hot with coconut chutney and red onion tomato chutney. Punugulu lose crispness within 20 minutes, so eat them straight from the oil."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "deep-frying"
+    ],
+    "tags": [
+      "street-food",
+      "fried-snack",
+      "tiffin",
+      "budget",
+      "kids-friendly"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 280,
+      "protein": 6,
+      "carbs": 38,
+      "fat": 12,
+      "fiber": 2,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "idli-dosa-batter",
+        "substitute": "2 cups rava (semolina) mixed with curd to a thick batter; ferment 30 minutes"
+      },
+      {
+        "ingredient": "oil",
+        "substitute": "air-fry at 200 °C for 12 minutes, turning once, for a lower-oil version"
+      }
+    ],
+    "culturalNote": "Punugulu are quintessential Andhra street food sold outside temples and on evening market streets — they are the snack that perfectly uses the small amount of batter left after a morning's idli batch.",
+    "regionalVariation": "Some vendors add grated carrot and curry leaves to the batter; others serve them with a thin, spiced gunpowder (karam podi) mixed with oil for dipping.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-andhra-chicken-fry",
+    "slug": "andhra-chicken-fry",
+    "title": "Andhra Chicken Fry",
+    "nativeTitle": "ఆంధ్ర కోడి వేపుడు",
+    "description": "Bone-in chicken pieces fried in a robust spice crust of Guntur chillies, coriander and black pepper until the exterior is gloriously crunchy and the meat inside stays juicy. A dry, restaurant-style Andhra preparation that outshines any takeaway.",
+    "cuisine": "andhra",
+    "country": "india",
+    "region": "coastal-andhra",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "very_hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken (curry cut, with bone)",
+        "normalizedName": "chicken",
+        "quantity": 750,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, coarsely ground",
+        "normalizedName": "black-pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "onion, finely sliced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 3,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Combine chilli powder, black pepper, coriander powder, turmeric, ginger-garlic paste, lemon juice and salt to make a thick marinade. Score the chicken pieces with a knife and rub the marinade all over, getting into the cuts. Rest for at least 20 minutes.",
+        "timerMinutes": 20,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a large kadai over high flame until it just begins to shimmer. Add the dried red chillies and curry leaves; they will crackle in 10 seconds.",
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Add the marinated chicken in a single layer without crowding. Sear, undisturbed, for 4 minutes until the underside forms a dark crust. Turn and sear the other side for another 4 minutes.",
+        "timerMinutes": 8
+      },
+      {
+        "order": 4,
+        "text": "Reduce heat to medium. Add the sliced onion around the chicken and toss. Cover and cook for 12 minutes until the chicken is cooked through — the juices should run clear when you cut to the bone.",
+        "timerMinutes": 12
+      },
+      {
+        "order": 5,
+        "text": "Remove the lid, increase to high heat and toss everything for 2–3 minutes until the onion caramelises and the chicken surface is dry and slightly crisp. There should be no visible moisture in the pan.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 6,
+        "text": "Check salt, add a squeeze of lemon and serve immediately. Works as a starter with onion rings and lime, or as a main with rice and pappu."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "marinating",
+      "kadai-cooking",
+      "shallow-frying"
+    ],
+    "tags": [
+      "dry-curry",
+      "party",
+      "comfort-food",
+      "budget"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 390,
+      "protein": 37,
+      "carbs": 5,
+      "fat": 24,
+      "fiber": 2,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "750 g bone-in mutton; increase covered cooking to 30 minutes"
+      },
+      {
+        "ingredient": "black-pepper",
+        "substitute": "0.5 tsp extra chilli powder; hotter but less aromatic"
+      }
+    ],
+    "culturalNote": "Andhra chicken fry is the dish that made Andhra cooking famous outside the state — its fearsome heat and dark, clinging crust are a hallmark of the region's bold approach to non-vegetarian cooking.",
+    "regionalVariation": "Rayalaseema cooks use more dried red chillies and often add a pinch of asafoetida to the marinade for extra pungency; coastal versions add a tablespoon of coconut paste for a mellower finish.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-rayalaseema-ragi-sangati",
+    "slug": "rayalaseema-ragi-sangati",
+    "title": "Rayalaseema Ragi Sangati with Natu Kodi Curry",
+    "nativeTitle": "రాగి సంగటి — నాటు కోడి కూర",
+    "description": "Thick ragi (finger millet) porridge balls, dense and earthy, served alongside a fiery country chicken curry from Rayalaseema. This is the working-person's meal of rural Andhra — sustaining, deeply nourishing and honest in every mouthful.",
+    "cuisine": "andhra",
+    "country": "india",
+    "region": "rayalaseema",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "very_hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 55,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "ragi flour (finger millet flour)",
+        "normalizedName": "ragi",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "country chicken (natu kodi), curry cut",
+        "normalizedName": "chicken",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false,
+        "notes": "country/desi chicken has more flavour; regular chicken works too"
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "Guntur red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 3,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "For the sangati: bring 3 cups of water with a little salt to a rolling boil in a heavy saucepan. Lower heat to medium and pour in the ragi flour in a steady stream, stirring vigorously with a wooden spoon to avoid lumps.",
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Continue stirring over medium heat for 8–10 minutes until the mixture pulls away from the sides and becomes very thick and stiff, like dense porridge. It will become hard to stir — that is the right consistency.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Wet your hands, pinch off portions and roll into smooth balls about the size of a tennis ball. Place on a plate and cover with a damp cloth. Make around 8 balls for 4 servings."
+      },
+      {
+        "order": 4,
+        "text": "For the curry: heat oil in a kadai over medium-high flame. Add curry leaves and onion; sauté until the onion is deep golden, about 10 minutes.",
+        "timerMinutes": 10,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Add ginger-garlic paste and cook until the raw smell disappears, about 2 minutes. Add tomatoes and cook until they break down and oil separates. Add all the spice powders and stir for 30 seconds.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 6,
+        "text": "Add the chicken pieces, increase heat to high and sear until browned on the outside, about 5 minutes. Season with salt.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 7,
+        "text": "Add 300 ml hot water, cover and cook on medium for 20 minutes until the chicken is fully cooked through. Country chicken takes longer than farm chicken — test by cutting to the bone.",
+        "timerMinutes": 20,
+        "method": "simmering"
+      },
+      {
+        "order": 8,
+        "text": "Uncover and reduce the curry on high heat for 5 minutes until the gravy is thick and coating. Scatter coriander leaves. Serve the ragi sangati balls alongside the curry — break a ball into the curry and eat together."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "kadai"
+    ],
+    "methods": [
+      "boiling",
+      "kadai-cooking",
+      "simmering"
+    ],
+    "tags": [
+      "comfort-food",
+      "budget",
+      "healthy"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 520,
+      "protein": 34,
+      "carbs": 52,
+      "fat": 18,
+      "fiber": 8,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "ragi",
+        "substitute": "jowar (sorghum) flour in the same ratio; slightly milder flavour"
+      },
+      {
+        "ingredient": "chicken",
+        "substitute": "750 g mutton; increase simmer time to 40 minutes"
+      }
+    ],
+    "culturalNote": "Sangati (also called mudde) is a thick millet ball eaten by hand across rural Andhra and Telangana — it is regarded as the food that gives strength for a day's work, packed with iron and complex carbohydrates.",
+    "regionalVariation": "In Kurnool district, the curry is made with very minimal water so the masala nearly dries onto the chicken; Anantapur versions add coconut paste for a creamier finish.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-telangana-sarva-pindi",
+    "slug": "telangana-sarva-pindi",
+    "title": "Telangana Sarva Pindi (Rice Flour Pancake)",
+    "nativeTitle": "సర్వ పిండి",
+    "description": "A thick, crisp-edged rice flour pancake made with chana dal, peanuts, ginger and green chilli — Telangana's own wholesome tiffin. Unlike dosa, sarva pindi is pressed thick and cooked slowly until firm and golden with holes poked in for even heat.",
+    "cuisine": "telangana",
+    "country": "india",
+    "region": "telangana-region",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "tiffin",
+      "snack"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice flour",
+        "normalizedName": "rice-flour",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "chana dal, soaked 1 hour",
+        "normalizedName": "chana-dal",
+        "quantity": 0.25,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "peanuts, roughly crushed",
+        "normalizedName": "peanut",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "green chillies, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves, chopped",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "sesame seeds",
+        "normalizedName": "sesame-seeds",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "divided for cooking"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Drain the soaked chana dal and mix it with the rice flour, crushed peanuts, green chillies, ginger, onion, curry leaves, cumin seeds and sesame seeds. Add salt and enough water to make a thick, firm dough — stiffer than idli batter."
+      },
+      {
+        "order": 2,
+        "text": "Heat a tawa over medium flame. Drizzle 1 tablespoon of oil on the tawa and spread it. Take a ball of dough and press it directly onto the tawa with wet hands into a circle about 20 cm wide and 1 cm thick.",
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Poke 8–10 holes through the pancake with your finger. Drizzle more oil over the surface and into the holes — this is key to even cooking and crispness.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 4,
+        "text": "Cover with a lid and cook on medium-low heat for 12 minutes until the underside is golden-brown and firm. Check by lifting a corner — it should release cleanly.",
+        "timerMinutes": 12
+      },
+      {
+        "order": 5,
+        "text": "Flip carefully using a wide spatula. Cook the second side uncovered for 8 minutes until it is equally golden and the pancake feels firm all through.",
+        "timerMinutes": 8
+      },
+      {
+        "order": 6,
+        "text": "Serve hot with coconut chutney, ginger chutney or just a spoonful of pickle. Make the remaining pancakes the same way."
+      }
+    ],
+    "cookware": [
+      "tawa"
+    ],
+    "methods": [
+      "tawa-cooking"
+    ],
+    "tags": [
+      "tiffin",
+      "budget",
+      "healthy",
+      "street-food"
+    ],
+    "allergens": [
+      "peanuts",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 340,
+      "protein": 9,
+      "carbs": 50,
+      "fat": 12,
+      "fiber": 5,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chana-dal",
+        "substitute": "urad dal, soaked; gives a slightly different texture but works well"
+      },
+      {
+        "ingredient": "peanut",
+        "substitute": "omit for peanut-free version; add an extra tablespoon of sesame seeds"
+      }
+    ],
+    "culturalNote": "Sarva pindi is a festival and everyday tiffin unique to Telangana — the name means 'rice flour preparation' in Telugu, and it is commonly prepared for Ugadi and Sankranti gatherings.",
+    "regionalVariation": "Some families add grated coconut to the dough; others skip peanuts entirely and use only sesame for a lighter, crispier result.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-telangana-bagara-rice",
+    "slug": "telangana-bagara-rice",
+    "title": "Telangana Bagara Rice",
+    "nativeTitle": "బాగారా అన్నం",
+    "description": "Aromatic basmati rice fried with whole spices, fried onion and curry leaves — Telangana's festive everyday rice, distinct from biryani in its simplicity but deeply fragrant. Bagara means 'tempered' in Telugu, and every grain of this rice tastes of the whole-spice tarka.",
+    "cuisine": "telangana",
+    "country": "india",
+    "region": "telangana-region",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "basmati rice, rinsed and soaked 20 minutes",
+        "normalizedName": "basmati-rice",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "onion, thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "bay leaves",
+        "normalizedName": "bay-leaf",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cinnamon stick",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cardamom pods",
+        "normalizedName": "cardamom",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "star anise",
+        "normalizedName": "star-anise",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "green chillies, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "mint leaves",
+        "normalizedName": "mint",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat ghee and oil together in a heavy-bottomed pot over medium-high flame. Add cumin seeds, bay leaves, cinnamon, cloves, cardamom and star anise; fry for 30 seconds until fragrant.",
+        "method": "tempering"
+      },
+      {
+        "order": 2,
+        "text": "Add the sliced onion and fry, stirring often, until it turns a deep golden-brown, about 10 minutes. This caramelised onion is what gives bagara rice its characteristic depth.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Add green chillies, curry leaves and mint; stir for 30 seconds. Add ginger-garlic paste and fry until the raw smell disappears, about 1 minute.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 4,
+        "text": "Drain the soaked rice and add it to the pot. Stir gently to coat every grain in the ghee and spices. Toast for 2 minutes — the rice will turn opaque.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 5,
+        "text": "Add 2.5 cups hot water and salt. Stir once, increase heat to high and bring to a boil. Cover tightly, reduce heat to the lowest setting and cook for 12 minutes.",
+        "timerMinutes": 12,
+        "method": "one-pot"
+      },
+      {
+        "order": 6,
+        "text": "Remove from heat and rest, undisturbed with the lid on, for 8 minutes. Fluff gently with a fork. Serve with a gravy curry, raita or pappu (dal).",
+        "timerMinutes": 8
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "tempering",
+      "one-pot"
+    ],
+    "tags": [
+      "comfort-food",
+      "budget",
+      "one-pot-meal",
+      "festival"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 350,
+      "protein": 7,
+      "carbs": 60,
+      "fat": 10,
+      "fiber": 2,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "ghee",
+        "substitute": "oil only; the flavour is less rich but still excellent"
+      },
+      {
+        "ingredient": "basmati-rice",
+        "substitute": "sona masoori rice; reduce water to 2 cups as it absorbs less"
+      }
+    ],
+    "culturalNote": "Bagara rice is the everyday festive rice of Telangana — less elaborate than biryani but cooked with the same reverence for whole spices, it appears at most family gatherings as the rice base alongside a meat or vegetable curry.",
+    "regionalVariation": "Hyderabadi bagara rice (called bagara khana) is enriched with fried cashews and raisins and served alongside baghara baingan; home versions in smaller Telangana towns are simpler.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-andhra-egg-curry",
+    "slug": "andhra-egg-curry",
+    "title": "Andhra Egg Curry",
+    "nativeTitle": "ఆంధ్ర గుడ్డు కూర",
+    "description": "Hard-boiled eggs simmered in a thick, fiery Andhra masala of fried onion, tomato and Guntur chilli — the go-to weeknight protein dish when the pantry is spare. The eggs absorb the bold gravy and need nothing more than hot rice to make a satisfying meal.",
+    "cuisine": "andhra",
+    "country": "india",
+    "region": "coastal-andhra",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "eggetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "eggs, hard-boiled and peeled",
+        "normalizedName": "egg",
+        "quantity": 6,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, finely chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Score the hard-boiled eggs 4–5 times with a knife so the masala can penetrate. Heat 1 tablespoon of oil in the kadai and shallow-fry the eggs, turning, until the surface is golden and blistered, about 3 minutes. Remove and set aside.",
+        "timerMinutes": 3,
+        "method": "shallow-frying"
+      },
+      {
+        "order": 2,
+        "text": "In the same kadai, heat the remaining oil over medium flame. Splutter mustard seeds, add curry leaves, then the chopped onion. Sauté until the onion is dark golden and beginning to stick to the pan, about 10 minutes.",
+        "timerMinutes": 10,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Add ginger-garlic paste and stir until fragrant. Add tomatoes and cook until completely softened and the oil separates from the masala, about 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 4,
+        "text": "Add chilli powder, coriander powder and turmeric; stir for 30 seconds on low flame. Add 200 ml hot water and salt. Stir, bring to a simmer."
+      },
+      {
+        "order": 5,
+        "text": "Add the fried eggs to the gravy. Simmer on medium-low for 8 minutes, turning the eggs once halfway, so they absorb the masala.",
+        "timerMinutes": 8,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Stir in garam masala, check salt and scatter coriander leaves. Serve hot with steamed rice or roti. The eggs should be coated in the thick, fiery Andhra gravy."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "shallow-frying",
+      "kadai-cooking",
+      "simmering",
+      "tempering"
+    ],
+    "tags": [
+      "gravy",
+      "budget",
+      "comfort-food",
+      "bachelor-friendly",
+      "quick"
+    ],
+    "allergens": [
+      "egg",
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 290,
+      "protein": 16,
+      "carbs": 9,
+      "fat": 20,
+      "fiber": 2,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "egg",
+        "substitute": "500 g firm tofu, cut into cubes, fried golden; omit the egg-scoring step"
+      },
+      {
+        "ingredient": "red-chilli-powder",
+        "substitute": "Kashmiri chilli powder for a milder but brightly coloured curry"
+      }
+    ],
+    "culturalNote": "Egg curry is the bachelor staple and quick-fix meal across Andhra — the eggs are always fried first to add a slightly chewy, flavoured skin that drinks up the Guntur-spiced gravy.",
+    "regionalVariation": "Coastal families add tamarind to the gravy for extra sourness; Telangana-style egg curry uses green chilli paste in the masala and is served slightly drier.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-andhra-upma-pesarattu",
+    "slug": "andhra-upma-pesarattu",
+    "title": "Andhra Upma Pesarattu",
+    "nativeTitle": "ఉప్మా పెసరట్టు",
+    "description": "The iconic Andhra breakfast combination of a crisp green moong crepe (pesarattu) with a small mound of soft, spiced rava upma nestled inside before folding. This pairing is unique to Andhra — the upma adds warmth and substance to the already protein-rich crepe.",
+    "cuisine": "andhra",
+    "country": "india",
+    "region": "coastal-andhra",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "whole green moong dal, soaked 6–8 hours",
+        "normalizedName": "moong-dal",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "rava (semolina)",
+        "normalizedName": "rava",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped (for upma)",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chillies (for pesarattu batter)",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger (for batter)",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "rice flour (for batter)",
+        "normalizedName": "rice-flour",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds (for upma)",
+        "normalizedName": "mustard-seeds",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "ginger, chopped (for upma)",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "divided between upma and crepes"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Drain the moong and grind with green chillies, ginger, rice flour, half the cumin seeds and salt to a smooth batter, adding water as needed to reach a pourable dosa-like consistency. Rest the batter while you make the upma."
+      },
+      {
+        "order": 2,
+        "text": "Dry-roast the rava in a saucepan over medium heat until it smells nutty and turns very lightly golden, about 3 minutes. Remove and set aside.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 3,
+        "text": "Heat 1.5 tablespoons oil in the same pan. Add mustard seeds; when they pop, add curry leaves, remaining cumin, chopped ginger and onion. Sauté until the onion is soft, about 3 minutes.",
+        "timerMinutes": 3,
+        "method": "tempering"
+      },
+      {
+        "order": 4,
+        "text": "Add 1.25 cups hot water and salt; bring to a boil. Stream in the roasted rava, stirring continuously to prevent lumps. Cook, stirring, until the upma is thick and pulls away from the sides, about 3 minutes. Cover and rest 2 minutes.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Heat a tawa on medium-high flame. Wipe with an oiled cloth, pour a ladleful of moong batter and spread to a thin 22 cm circle. Sprinkle a little chopped onion and ginger on top. Drizzle oil at the edges.",
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 6,
+        "text": "Cook without flipping until the edges lift and the surface is cooked through, about 3 minutes. Place 2 tablespoons of hot upma in the centre, fold the crepe over it and serve immediately. Repeat for remaining batter.",
+        "timerMinutes": 3
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "saucepan",
+      "mixie"
+    ],
+    "methods": [
+      "tempering",
+      "simmering",
+      "tawa-cooking"
+    ],
+    "tags": [
+      "tiffin",
+      "budget",
+      "street-food",
+      "healthy",
+      "bachelor-friendly"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 310,
+      "protein": 13,
+      "carbs": 48,
+      "fat": 8,
+      "fiber": 6,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "rava",
+        "substitute": "fine broken wheat (dalia) upma for a fibre-richer filling"
+      },
+      {
+        "ingredient": "moong-dal",
+        "substitute": "split yellow moong for a paler, more neutral-tasting crepe"
+      }
+    ],
+    "culturalNote": "Upma pesarattu is exclusively an Andhra invention — found at tiffin stalls and railway platform dabbas from Vizag to Tirupati, it is the region's most distinctive morning meal.",
+    "regionalVariation": "In Vizag, small coconut-ginger chutney balls are served on the side; inland Andhra cooks add diced tomato to the upma for a slightly tangy filling.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-andhra-pulihora",
+    "slug": "andhra-pulihora",
+    "title": "Andhra Pulihora (Tamarind Rice)",
+    "nativeTitle": "పులిహోర",
+    "description": "Tangy, turmeric-yellow tamarind rice tempered with mustard, chana dal, peanuts and dried red chillies — the classic Andhra festival and temple offering. Made from cooked rice mixed with a reduced tamarind paste called pulihora paste, it keeps well and tastes best at room temperature.",
+    "cuisine": "andhra",
+    "country": "india",
+    "region": "coastal-andhra",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "cooked rice, cooled (ponni or sona masoori)",
+        "normalizedName": "rice",
+        "quantity": 3,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "tamarind (lemon-sized ball)",
+        "normalizedName": "tamarind",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "peanuts, roasted",
+        "normalizedName": "peanut",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "chana dal",
+        "normalizedName": "chana-dal",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "urad dal",
+        "normalizedName": "urad-dal",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 3,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "green chillies, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "gingelly oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "sesame oil is traditional; adds characteristic flavour"
+      },
+      {
+        "name": "jaggery",
+        "normalizedName": "jaggery",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "balances the sourness"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soak the tamarind in 200 ml hot water for 10 minutes, then squeeze and strain to extract a thick pulp. Discard the fibres.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Heat gingelly oil in a kadai over medium flame. Add mustard seeds; when they pop, add chana dal and urad dal. Fry until the dals turn golden, about 1 minute.",
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add dried red chillies, green chillies and curry leaves; fry for 30 seconds. Add asafoetida and turmeric, then pour in the tamarind extract. Add jaggery and salt.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 4,
+        "text": "Boil the tamarind mixture over medium-high heat, stirring occasionally, until it thickens to a concentrate and the raw tamarind smell transforms into a mellow sour aroma — about 8–10 minutes. The paste should coat the back of a spoon.",
+        "timerMinutes": 10,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Remove from heat and stir in the roasted peanuts. Pour this tamarind tempering over the cooled rice."
+      },
+      {
+        "order": 6,
+        "text": "Mix gently but thoroughly with clean hands or a flat spoon so every grain is coated and the rice turns a uniform golden-yellow. Taste and adjust salt and tamarind. Serve at room temperature — pulihora improves as it sits for 30 minutes."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "tempering",
+      "simmering"
+    ],
+    "tags": [
+      "festival",
+      "pongal",
+      "lunchbox",
+      "budget",
+      "no-onion-no-garlic"
+    ],
+    "allergens": [
+      "peanuts",
+      "sesame",
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein": 8,
+      "carbs": 65,
+      "fat": 11,
+      "fiber": 4,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "regular cooking oil; less aromatic but acceptable"
+      },
+      {
+        "ingredient": "peanut",
+        "substitute": "cashews for a richer, nut-allergy-safe version"
+      }
+    ],
+    "culturalNote": "Pulihora is the quintessential Andhra temple prasadam and the dish made at every Ugadi and Sankranti celebration — the word puli means tamarind in Telugu, and the rice is always served slightly warm at weddings.",
+    "regionalVariation": "Telangana pulihora uses more sesame and sometimes adds grated coconut; Tirupati temple prasadam pulihora is famously tart with minimal jaggery.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-andhra-mango-dal",
+    "slug": "andhra-mango-dal",
+    "title": "Andhra Mango Dal (Mamidikaya Pappu)",
+    "nativeTitle": "మామిడికాయ పప్పు",
+    "description": "Raw green mango cooked with toor dal until the fruit melts into the lentils, giving a fresh tropical sourness that no tamarind can mimic. A seasonal summer treasure in Andhra kitchens, finished with a crackling mustard and dried chilli tempering.",
+    "cuisine": "andhra",
+    "country": "india",
+    "region": "coastal-andhra",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "toor dal",
+        "normalizedName": "toor-dal",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "raw green mango, peeled and cubed",
+        "normalizedName": "mango",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false,
+        "notes": "about 150 g; choose a very sour raw mango"
+      },
+      {
+        "name": "green chillies, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, lightly crushed",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Wash toor dal and pressure-cook it with the raw mango cubes, green chillies, turmeric and 2 cups water for 4 whistles on medium heat. Let the pressure release naturally.",
+        "timerMinutes": 20,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "Open and mash lightly — the mango will have broken down and blended into the dal. Add chilli powder and salt; stir well. Adjust consistency with hot water if too thick."
+      },
+      {
+        "order": 3,
+        "text": "Bring to a gentle simmer on the stovetop while preparing the tempering.",
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "Heat oil in a small pan. Add mustard seeds and let them pop. Add dried red chillies, garlic and curry leaves; fry until the garlic is lightly golden and fragrant, about 1 minute. Add asafoetida and remove from heat.",
+        "timerMinutes": 1,
+        "method": "tempering"
+      },
+      {
+        "order": 5,
+        "text": "Pour the tempering over the simmering dal. Check the balance of sour, spice and salt — the mango tang should be the star. Serve hot with rice and a smear of ghee."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "frying-pan"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "simmering",
+      "tempering"
+    ],
+    "tags": [
+      "summer",
+      "comfort-food",
+      "budget",
+      "healthy",
+      "under-30-minutes"
+    ],
+    "allergens": [
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 235,
+      "protein": 13,
+      "carbs": 36,
+      "fat": 5,
+      "fiber": 8,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "mango",
+        "substitute": "2 tbsp tamarind pulp added after pressure cooking; sourness is similar but lacks freshness"
+      },
+      {
+        "ingredient": "toor-dal",
+        "substitute": "chana dal; increase pressure cooking to 5 whistles"
+      }
+    ],
+    "culturalNote": "Mamidikaya pappu is cooked only when raw mangoes appear in the market — its season is eagerly anticipated across Andhra and Telangana, and the dal is considered one of the most refreshing summer dishes.",
+    "regionalVariation": "Telangana families sometimes add a pinch of jaggery to balance the sourness; some coastal cooks add a small piece of dried kokum alongside the mango for extra depth.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-andhra-spinach-tamarind-pachadi",
+    "slug": "andhra-spinach-tamarind-pachadi",
+    "title": "Andhra Spinach Tamarind Pachadi",
+    "nativeTitle": "పాలకూర పులుసు పచ్చడి",
+    "description": "A thick, tangy Andhra chutney made by cooking spinach with tamarind and spices until concentrated, then finishing with a sizzling mustard-chilli tempering. More substantial than a chutney but thinner than a curry, it pairs brilliantly with hot rice and works as a dipping sauce for dosa.",
+    "cuisine": "andhra",
+    "country": "india",
+    "region": "coastal-andhra",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "fresh spinach leaves",
+        "normalizedName": "spinach",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "tamarind pulp (thick)",
+        "normalizedName": "tamarind",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "green chillies",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "urad dal",
+        "normalizedName": "urad-dal",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "gingelly oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat 1 tablespoon oil in a kadai. Add green chillies and garlic; sauté for 1 minute. Add the spinach leaves and turmeric; toss over high heat until completely wilted, about 3 minutes.",
+        "timerMinutes": 3,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Transfer the cooked spinach to a blender and blend coarsely — the pachadi should have some texture, not be completely smooth."
+      },
+      {
+        "order": 3,
+        "text": "Return the blended spinach to the kadai. Add tamarind pulp, chilli powder and salt. Cook on medium heat, stirring, for 8–10 minutes until the mixture thickens to a chutney-like consistency and the raw tamarind smell mellows.",
+        "timerMinutes": 10,
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "In a small pan, heat the remaining oil. Add mustard seeds and let them pop. Add dried red chillies, cumin, urad dal and curry leaves; fry until the dal is golden and the leaves are crisp, about 1 minute.",
+        "timerMinutes": 1,
+        "method": "tempering"
+      },
+      {
+        "order": 5,
+        "text": "Pour the tempering over the pachadi and stir through. Check salt and sourness. Serve at room temperature alongside hot rice, or use as a thick dipping chutney for dosa or pesarattu."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "blender"
+    ],
+    "methods": [
+      "sauteing",
+      "simmering",
+      "tempering"
+    ],
+    "tags": [
+      "comfort-food",
+      "budget",
+      "healthy",
+      "lunchbox"
+    ],
+    "allergens": [
+      "sesame",
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 120,
+      "protein": 4,
+      "carbs": 10,
+      "fat": 8,
+      "fiber": 4,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "spinach",
+        "substitute": "sorrel (gongura) leaves if available; no tamarind needed"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "regular oil; less aromatic but acceptable"
+      }
+    ],
+    "culturalNote": "Pachadi is the Telugu word for a freshly prepared relish or chutney — unlike pickle, it is meant to be eaten the same day it is made and serves as a third flavour dimension alongside rice and dal.",
+    "regionalVariation": "Telangana versions of spinach pachadi are thicker and drier, ground with roasted sesame; coastal Andhra cooks add a tablespoon of grated coconut for a milder, sweeter version.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-telangana-chicken-curry",
+    "slug": "telangana-chicken-curry",
+    "title": "Telangana Chicken Curry",
+    "nativeTitle": "తెలంగాణ కోడి కూర",
+    "description": "A rustic Telangana chicken curry with a dark onion-tomato masala base, liberally spiced with roasted coriander and black pepper, and finished with a touch of garam masala. Unlike its Andhra counterpart, the Telangana version tends to be slightly drier and less coconut-forward.",
+    "cuisine": "telangana",
+    "country": "india",
+    "region": "telangana-region",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 40,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken, curry cut with bone",
+        "normalizedName": "chicken",
+        "quantity": 750,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion, finely sliced",
+        "normalizedName": "onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, finely chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, coarsely ground",
+        "normalizedName": "black-pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 3,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Mix the chicken with turmeric, half the chilli powder and a pinch of salt. Set aside while preparing the base masala."
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a heavy-bottomed pot or kadai over medium-high flame. Add dried red chillies and curry leaves; sizzle 20 seconds. Add the onion and fry, stirring every 2 minutes, until it turns a rich dark brown, about 15 minutes. This long caramelisation is the backbone of Telangana cooking.",
+        "timerMinutes": 15,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Add ginger-garlic paste and cook until the raw smell leaves, about 2 minutes. Add tomatoes and cook until they completely disintegrate and the oil separates from the masala, about 6 minutes.",
+        "timerMinutes": 6
+      },
+      {
+        "order": 4,
+        "text": "Lower the flame, add the remaining chilli powder, coriander powder and black pepper; stir for 30 seconds. The black pepper is a key Telangana flavour note — do not reduce it."
+      },
+      {
+        "order": 5,
+        "text": "Add the marinated chicken and stir to coat in the masala. Increase to high heat and sear, turning, until the chicken is no longer pink on the outside, about 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 6,
+        "text": "Add 250 ml hot water and salt. Cover and cook on medium heat for 20 minutes until the chicken is fully cooked and the gravy has thickened.",
+        "timerMinutes": 20,
+        "method": "simmering"
+      },
+      {
+        "order": 7,
+        "text": "Uncover, add garam masala and toss on high heat for 3–4 minutes to reduce the curry to a semi-dry, thick-coated consistency. Finish with coriander leaves and rest 5 minutes before serving."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "kadai-cooking",
+      "simmering",
+      "tempering"
+    ],
+    "tags": [
+      "gravy",
+      "comfort-food",
+      "budget",
+      "party"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 420,
+      "protein": 36,
+      "carbs": 10,
+      "fat": 26,
+      "fiber": 3,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "750 g mutton; increase simmer time to 35 minutes"
+      },
+      {
+        "ingredient": "black-pepper",
+        "substitute": "0.5 tsp extra red chilli powder; hotter but the peppery aroma is lost"
+      }
+    ],
+    "culturalNote": "Telangana cuisine developed independently from coastal Andhra and has a stronger Persian influence via Hyderabad — the region's chicken curry reflects that with heavier use of black pepper and whole spices rather than coconut.",
+    "regionalVariation": "Nizamabad and Karimnagar versions of this curry tend to be slightly soupier; Khammam-district cooks add a small amount of tamarind at the end for a sour edge.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-andhra-perugu-pachadi",
+    "slug": "andhra-perugu-pachadi",
+    "title": "Andhra Perugu Pachadi (Raita-Style Chutney)",
+    "nativeTitle": "పెరుగు పచ్చడి",
+    "description": "A cooling Andhra raita-chutney made with thick curd, green chilli, ginger and a sharp mustard tempering. Simpler than a North Indian raita yet more flavour-forward, perugu pachadi is the standard cooling counterpart to any fiery Andhra meal.",
+    "cuisine": "andhra",
+    "country": "india",
+    "region": "coastal-andhra",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 5,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "thick curd (not too sour)",
+        "normalizedName": "curd",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "green chillies, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "urad dal",
+        "normalizedName": "urad-dal",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Whisk the curd until smooth. Mix in the green chillies, grated ginger, coriander leaves and salt. Taste — it should be creamy, mildly tangy and fresh."
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a small tempering pan over medium heat. Add mustard seeds and let them pop. Add urad dal and fry until golden, about 30 seconds. Add dried red chillies, curry leaves and asafoetida; fry for 20 seconds until the leaves are crisp.",
+        "timerMinutes": 1,
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Pour the hot tempering over the curd mixture and fold through immediately — the sizzle will infuse the curd with the mustard and curry leaf aroma."
+      },
+      {
+        "order": 4,
+        "text": "Chill for 10 minutes before serving alongside Andhra rice meals, pesarattu or as a dip for punugulu. The pachadi thickens slightly as it rests."
+      }
+    ],
+    "cookware": [
+      "frying-pan"
+    ],
+    "methods": [
+      "tempering",
+      "no-cook"
+    ],
+    "tags": [
+      "quick",
+      "under-30-minutes",
+      "summer",
+      "kids-friendly",
+      "healthy",
+      "lunchbox"
+    ],
+    "allergens": [
+      "dairy",
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 110,
+      "protein": 6,
+      "carbs": 7,
+      "fat": 7,
+      "fiber": 0,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "curd",
+        "substitute": "coconut yogurt for a vegan version; tempering remains the same"
+      },
+      {
+        "ingredient": "green-chilli",
+        "substitute": "0.5 tsp black pepper powder mixed into the curd; less punchy but pleasant"
+      }
+    ],
+    "culturalNote": "Perugu (curd) is a fundamental part of the Telugu meal — the saying 'start with ghee and end with curd' describes the structure of a full Andhra meal, and perugu pachadi is the traditional final savoury course.",
+    "regionalVariation": "Telangana perugu pachadi often adds a grated raw cucumber or grated bottle gourd; some families stir in a tablespoon of freshly grated coconut for a sweeter note.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  }
+]

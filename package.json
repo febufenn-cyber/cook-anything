@@ -1,0 +1,38 @@
+{
+  "name": "cook-anything",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cook Anything — Tell us what you have. Discover what the world cooks with it.",
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "tsx scripts/validate-recipes.ts && tsx scripts/build-search-index.ts",
+    "build": "next build",
+    "start": "npx serve out",
+    "preview": "npm run build && npx wrangler dev",
+    "lint": "next lint",
+    "validate": "tsx scripts/validate-recipes.ts",
+    "normalize": "tsx scripts/normalize-ingredients.ts",
+    "dupes": "tsx scripts/detect-duplicates.ts",
+    "slugs": "tsx scripts/generate-slugs.ts",
+    "search-index": "tsx scripts/build-search-index.ts",
+    "licenses": "tsx scripts/check-licenses.ts",
+    "export-recipes": "tsx scripts/export-recipes.ts",
+    "import-recipes": "tsx scripts/import-recipes.ts",
+    "seed": "tsx scripts/seed-recipes.ts",
+    "deploy": "npm run build && npx wrangler deploy"
+  },
+  "dependencies": {
+    "next": "16.2.10",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.2",
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4.3.2",
+    "tsx": "^4.23.0",
+    "typescript": "^5.9.3"
+  }
+}

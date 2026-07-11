@@ -1,0 +1,4107 @@
+[
+  {
+    "id": "ca-kerala-appam",
+    "slug": "kerala-appam",
+    "title": "Kerala Appam",
+    "nativeTitle": "ആപ്പം",
+    "description": "Lacy, bowl-shaped rice pancakes with a soft spongy centre and crisp see-through edges. Fermented overnight from ground rice and coconut, appam is the breakfast centrepiece of Kerala and pairs beautifully with vegetable stew or kadala curry.",
+    "cuisine": "kerala",
+    "country": "india",
+    "region": "travancore",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "idli rice (raw parboiled), soaked 6 hours and drained",
+        "normalizedName": "idli-rice",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "poha (aval/flattened rice), soaked 15 minutes",
+        "normalizedName": "poha",
+        "quantity": 0.25,
+        "unit": "cup",
+        "optional": false,
+        "notes": "gives the centre its soft spongy texture"
+      },
+      {
+        "name": "fresh grated coconut",
+        "normalizedName": "coconut",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "instant yeast",
+        "normalizedName": "yeast",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "or ¼ tsp baking soda added just before cooking"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false,
+        "notes": "for grinding the batter"
+      },
+      {
+        "name": "coconut oil, for greasing the pan",
+        "normalizedName": "coconut-oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Drain the soaked rice. In a mixie or blender, grind the rice with the soaked poha, grated coconut and about 1 cup of water until the batter is completely smooth and silky — it should coat the back of a spoon. Do not rush this step; a gritty batter makes tough appam.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Transfer the batter to a large bowl. Stir in the sugar, salt and instant yeast. The batter should be thinner than dosa batter and flow easily off a ladle. Cover loosely with a plate and leave in a warm place for 6–8 hours or overnight until the batter is bubbly and has visibly risen.",
+        "method": "fermenting"
+      },
+      {
+        "order": 3,
+        "text": "The next morning, stir the batter gently to deflate. Adjust consistency with a few tablespoons of water if it has thickened — it must flow freely. Taste and add salt if needed."
+      },
+      {
+        "order": 4,
+        "text": "Heat an appachatti (curved appam pan) or a deep non-stick kadai on medium-high flame. Brush lightly with coconut oil using a folded cloth or brush. The pan is hot enough when a drop of batter sizzles immediately.",
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Pour one ladle (about 80 ml) of batter into the centre of the hot pan. Immediately lift the pan and swirl it in confident circular motions so the batter climbs the sides into a thin lacy border while the centre remains thick."
+      },
+      {
+        "order": 6,
+        "text": "Cover with a lid and cook for 90 seconds to 2 minutes until the centre puffs up, turns opaque and firms to the touch, and the edges are golden and crisp. Do not flip. Slide out with a thin spatula.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 7,
+        "text": "Repeat with the remaining batter, re-oiling the pan every two or three appams. Serve immediately — appam turns leathery as it cools. Pair with kadala curry, sweetened coconut milk or vegetable stew."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "mixie"
+    ],
+    "methods": [
+      "fermenting",
+      "tawa-cooking",
+      "no-cook"
+    ],
+    "tags": [
+      "festival",
+      "onam",
+      "comfort-food",
+      "tiffin"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 185,
+      "protein": 4,
+      "carbs": 36,
+      "fat": 3,
+      "fiber": 1,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "idli-rice",
+        "substitute": "regular raw rice (sona masoori)",
+        "notes": "soak for 8 hours; texture will be very similar"
+      },
+      {
+        "ingredient": "yeast",
+        "substitute": "¼ tsp baking soda stirred in just before cooking",
+        "notes": "skip the overnight fermentation; flavour is plainer but appam is still light"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "3 tbsp coconut milk added while grinding",
+        "notes": "fresh coconut gives better edge crispness"
+      }
+    ],
+    "culturalNote": "Appam is the Sunday morning ritual food of Kerala, enjoyed across Hindu, Christian and Muslim households alike — a rare dish that transcends community and carries the state's identity on a single lacy pancake.",
+    "regionalVariation": "Malabar palappam is thicker at the centre with more coconut and a sweeter edge; Travancore appam is thinner and lacier, made with less coconut and slightly more rice.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-kerala-puttu",
+    "slug": "kerala-puttu",
+    "title": "Kerala Puttu",
+    "nativeTitle": "പുട്ട്",
+    "description": "Steamed cylinders of moistened rice flour layered with fresh grated coconut, served as the definitive Kerala breakfast. Puttu is dense yet crumbly with the warm fragrance of coconut steamed into every bite, and calls for kadala curry or a ripe banana alongside.",
+    "cuisine": "kerala",
+    "country": "india",
+    "region": "travancore",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice flour (puttu podi / coarse rice flour)",
+        "normalizedName": "rice-flour",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false,
+        "notes": "store-bought puttu podi is ideal; regular rice flour also works"
+      },
+      {
+        "name": "fresh grated coconut",
+        "normalizedName": "coconut",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "sprinkled in gradually, not poured all at once"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Mix the rice flour with salt in a wide bowl. Sprinkle water over it one tablespoon at a time, rubbing the flour briskly between your palms after each addition. The flour is correctly moistened when a handful pressed firmly together holds its shape but crumbles the moment you loosen your grip. Do not add too much water or it will compact into a paste."
+      },
+      {
+        "order": 2,
+        "text": "Fill a puttu kudam (the bottom vessel) with water and bring to a boil. Alternatively, fill a pressure cooker with 2 cups water and bring to full steam, then remove the pressure weight so steam shoots upward freely. Attach the cylindrical puttu mould over the steam vent.",
+        "method": "steaming"
+      },
+      {
+        "order": 3,
+        "text": "Layer the mould: start with 2 tablespoons of grated coconut at the bottom, then add rice flour to fill one-third of the tube, then another layer of coconut, then more rice flour, finishing with a coconut layer on top. Pack each layer gently by tapping — do not press hard or the steam will not circulate."
+      },
+      {
+        "order": 4,
+        "text": "Steam for 8–10 minutes until a steady plume of fragrant steam puffs out from the top holes of the mould and the puttu feels firm when you insert a skewer. Remove from heat.",
+        "timerMinutes": 10,
+        "method": "steaming"
+      },
+      {
+        "order": 5,
+        "text": "Push the puttu cylinder out onto a plate using the back of a spoon through the bottom hole, or tap the mould firmly over the plate. Serve hot with kadala curry, ripe banana or jaggery-sweetened coconut milk."
+      }
+    ],
+    "cookware": [
+      "steamer",
+      "pressure-cooker"
+    ],
+    "methods": [
+      "steaming"
+    ],
+    "tags": [
+      "budget",
+      "comfort-food",
+      "tiffin",
+      "under-30-minutes",
+      "quick"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 225,
+      "protein": 4,
+      "carbs": 42,
+      "fat": 5,
+      "fiber": 2,
+      "sugar": 1,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "rice-flour",
+        "substitute": "whole wheat flour (atta) for a wheat puttu",
+        "notes": "same technique, earthier flavour — popular in health-conscious households"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "desiccated coconut moistened with 2 tbsp warm water",
+        "notes": "fresh coconut is significantly better; use desiccated only if unavailable"
+      }
+    ],
+    "culturalNote": "Puttu and kadala curry is the weekday breakfast of Kerala, eaten by families across all communities — simple enough to be street food, nourishing enough to fuel a day of work.",
+    "regionalVariation": "Malabar chiratta puttu is steamed inside a coconut shell half, giving a faint sweetness and gentle smokiness; Palakkad cooks sometimes add a pinch of cumin to the rice flour for fragrance.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-kerala-kadala-curry",
+    "slug": "kerala-kadala-curry",
+    "title": "Kerala Kadala Curry",
+    "nativeTitle": "കടല കറി",
+    "description": "Earthy black chickpeas simmered in a richly roasted coconut and shallot gravy — the classic breakfast partner to puttu and appam across Kerala. Dry-roasting the coconut until deep golden is the step that gives this curry its distinctive dark colour and smoky backbone.",
+    "cuisine": "kerala",
+    "country": "india",
+    "region": "travancore",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 40,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "kala chana (black chickpeas), soaked overnight and drained",
+        "normalizedName": "chickpea",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false,
+        "notes": "or 1 can (400 g) cooked chickpeas, drained"
+      },
+      {
+        "name": "fresh grated coconut",
+        "normalizedName": "coconut",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "dry-roasted until dark golden — do not skip this"
+      },
+      {
+        "name": "shallots (small onions), sliced",
+        "normalizedName": "shallot",
+        "quantity": 8,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger, roughly chopped",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "coconut oil",
+        "normalizedName": "coconut-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pressure cook the drained soaked chickpeas covered in fresh water with a pinch of salt for 5–6 whistles on medium flame. The chickpeas must be completely soft — press one between your fingers and it should mash without resistance. If using canned chickpeas, skip this step.",
+        "timerMinutes": 20,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "In a dry kadai on medium flame, add the grated coconut, dried red chillies, sliced shallots, ginger and garlic together. Roast everything, stirring almost constantly, for 7–8 minutes until the coconut is dark golden-brown and the shallots are caramelised. The room should smell of roasted coconut. Cool for 5 minutes, then grind to a smooth paste with a small splash of water.",
+        "timerMinutes": 8,
+        "method": "roasting"
+      },
+      {
+        "order": 3,
+        "text": "Heat coconut oil in the same kadai on medium flame. Splutter mustard seeds, then add curry leaves and let them crackle for 10 seconds.",
+        "method": "tempering"
+      },
+      {
+        "order": 4,
+        "text": "Add the ground roasted coconut paste and fry on medium-low, stirring constantly, for 4–5 minutes until the raw coconut smell is gone and a slick of oil appears at the edges of the paste.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 5,
+        "text": "Add coriander powder, chilli powder and turmeric. Stir for 1 minute. Pour in the cooked chickpeas along with 1 cup of the cooking water (or plain water if using canned). Stir everything together."
+      },
+      {
+        "order": 6,
+        "text": "Bring to a boil, then simmer uncovered on medium for 12–15 minutes until the gravy thickens to a coating consistency and turns a rich dark brown. Press a few chickpeas against the side of the pan to slightly thicken the sauce.",
+        "timerMinutes": 15,
+        "method": "simmering"
+      },
+      {
+        "order": 7,
+        "text": "Finish with garam masala, check salt, and rest 5 minutes before serving. Serve with puttu, appam or idli — the curry keeps well in the fridge for 2 days and tastes better the next morning."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "kadai",
+      "mixie"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "roasting",
+      "tempering",
+      "simmering"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "budget",
+      "onam",
+      "festival"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 285,
+      "protein": 10,
+      "carbs": 30,
+      "fat": 14,
+      "fiber": 8,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chickpea",
+        "substitute": "kabuli chana (white chickpeas)",
+        "notes": "the dark colour comes from roasted coconut, not the chickpea variety"
+      },
+      {
+        "ingredient": "coconut-oil",
+        "substitute": "any neutral cooking oil",
+        "notes": "coconut oil adds the authentic Kerala flavour"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "4 tbsp desiccated coconut dry-roasted until golden",
+        "notes": "add 2 tbsp water when grinding to help the paste form"
+      }
+    ],
+    "culturalNote": "Kadala curry is the everyday breakfast curry of Kerala — the earthy dark gravy of roasted coconut and black chickpeas is as much a part of morning ritual as the puttu it is served with.",
+    "regionalVariation": "Malabar kadala curry adds cinnamon, cloves and sliced onion to the masala paste for a spicier, more complex gravy; coastal families sometimes add a splash of tamarind water for tartness.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-kerala-avial",
+    "slug": "kerala-avial",
+    "title": "Kerala Avial",
+    "nativeTitle": "അവിയൽ",
+    "description": "A thickened mixed vegetable dish where seasonal vegetables are cooked just until tender, then folded into a ground coconut, green chilli and curd paste — finished with a generous drizzle of coconut oil and fresh curry leaves. Avial is the anchor side dish of every Kerala Sadya.",
+    "cuisine": "kerala",
+    "country": "india",
+    "region": "travancore",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "drumstick, cut into 4 cm pieces",
+        "normalizedName": "drumstick",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "raw banana (vazhakkai), peeled and cut into thick batons",
+        "normalizedName": "raw-banana",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "carrot, peeled and cut into thick batons",
+        "normalizedName": "carrot",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green beans, trimmed and cut into 4 cm lengths",
+        "normalizedName": "beans",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "ash gourd (poosanikai), peeled and cubed",
+        "normalizedName": "ash-gourd",
+        "quantity": 150,
+        "unit": "g",
+        "optional": true,
+        "notes": "or ridge gourd"
+      },
+      {
+        "name": "fresh grated coconut",
+        "normalizedName": "coconut",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "green chillies",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "thick sour curd, whisked smooth",
+        "normalizedName": "curd",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "coconut oil",
+        "normalizedName": "coconut-oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Grind the grated coconut with green chillies and cumin seeds to a coarse paste — add no water; the paste should be thick and moist, not wet. A few pulses in a mixie is enough. Set aside."
+      },
+      {
+        "order": 2,
+        "text": "Place the harder vegetables — drumstick, raw banana and carrot — in a wide heavy-bottomed pan with turmeric, salt and just enough water to barely cover (about ¾ cup). Bring to a boil, then cover and cook on medium flame for 8 minutes.",
+        "timerMinutes": 8,
+        "method": "boiling"
+      },
+      {
+        "order": 3,
+        "text": "Add the green beans and ash gourd. Cover and cook for another 5–6 minutes until all vegetables are just tender — they must retain some bite and not collapse. Drain off any excess water, leaving only a tablespoon or two of liquid in the pan.",
+        "timerMinutes": 6
+      },
+      {
+        "order": 4,
+        "text": "Lower the flame to the minimum. Add the coconut-chilli paste and fold it gently through the vegetables so every piece is coated. Cook for 2–3 minutes, stirring carefully, until the raw coconut smell leaves.",
+        "timerMinutes": 3,
+        "method": "sauteing"
+      },
+      {
+        "order": 5,
+        "text": "Remove the pan from the heat entirely. Wait 1 full minute for the temperature to drop, then stir in the whisked curd. Never add curd over a live flame — it will curdle. Fold until everything is evenly coated."
+      },
+      {
+        "order": 6,
+        "text": "Add the curry leaves and drizzle the coconut oil over the top. Stir once. Taste for salt. Serve immediately as part of a Kerala Sadya spread with rice, sambar and pappadam."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "mixie"
+    ],
+    "methods": [
+      "boiling",
+      "sauteing"
+    ],
+    "tags": [
+      "onam",
+      "festival",
+      "comfort-food",
+      "no-onion-no-garlic",
+      "healthy",
+      "low-oil"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 210,
+      "protein": 5,
+      "carbs": 22,
+      "fat": 12,
+      "fiber": 5,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "curd",
+        "substitute": "second-press coconut milk for a dairy-free avial",
+        "notes": "traditional in many Nair households; adds a different richness"
+      },
+      {
+        "ingredient": "raw-banana",
+        "substitute": "yam (chenai) or sweet potato, cut in 2 cm cubes",
+        "notes": "add alongside drumstick as cooking time is similar"
+      },
+      {
+        "ingredient": "ash-gourd",
+        "substitute": "ridge gourd or cucumber cut in thick rounds",
+        "notes": "add with the beans as these cook faster"
+      }
+    ],
+    "culturalNote": "Avial is said to have been invented by Bhima during the Pandavas' exile when he had to feed an army using whatever vegetables were at hand — it is now the undisputed centrepiece of the Onam Sadya banana leaf.",
+    "regionalVariation": "Nambudiri Brahmin avial skips onion and garlic and uses a piece of raw mango for tartness instead of curd; Nair households use sourer curd and more coconut for a richer coating.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-kerala-cabbage-thoran",
+    "slug": "kerala-cabbage-thoran",
+    "title": "Kerala Cabbage Thoran",
+    "nativeTitle": "കാബേജ് തോരൻ",
+    "description": "Finely shredded cabbage stir-fried with fresh coconut, green chillies and crackling curry leaves — a dry, lightly spiced side dish that belongs on every Kerala rice plate. Thoran is quick, clean and celebrates the uncluttered flavours that define Kerala home cooking.",
+    "cuisine": "kerala",
+    "country": "india",
+    "region": "travancore",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 12,
+    "totalTimeMinutes": 22,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "cabbage, finely shredded",
+        "normalizedName": "cabbage",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "fresh grated coconut",
+        "normalizedName": "coconut",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "green chillies, slit lengthwise",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "shallots, finely chopped",
+        "normalizedName": "shallot",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "coconut oil",
+        "normalizedName": "coconut-oil",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "In a small bowl, mix the grated coconut with the green chillies, shallots, turmeric and a pinch of salt. Rub everything together with your fingertips for 30 seconds to bruise the chillies and shallots — this releases their flavour into the coconut."
+      },
+      {
+        "order": 2,
+        "text": "Heat coconut oil in a kadai on medium-high flame. Add mustard seeds and wait for them to splutter and pop. Add dried red chillies and curry leaves immediately and let them crackle for 15 seconds.",
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add the shredded cabbage all at once. Season with salt and toss well. Cover with a lid and cook for 3 minutes — the steam trapped inside will start to soften the cabbage.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 4,
+        "text": "Remove the lid and add the coconut mixture. Toss everything together on high flame and stir-fry for 3–4 minutes until the cabbage is just tender with a little bite and the coconut is cooked through but not browned. The thoran must be dry — if any water has pooled at the bottom, cook uncovered until it evaporates completely.",
+        "timerMinutes": 4,
+        "method": "stir-frying"
+      },
+      {
+        "order": 5,
+        "text": "Taste for salt and remove from heat. Serve as part of a Kerala rice meal alongside sambar, rasam and fried pappadam. Thoran is also excellent with chapati."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "tempering",
+      "stir-frying"
+    ],
+    "tags": [
+      "onam",
+      "quick",
+      "under-30-minutes",
+      "healthy",
+      "low-oil",
+      "dry-curry",
+      "budget",
+      "lunchbox"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 130,
+      "protein": 2,
+      "carbs": 10,
+      "fat": 9,
+      "fiber": 3,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "cabbage",
+        "substitute": "green beans (cut fine), beetroot or raw papaya",
+        "notes": "the thoran technique works for almost any firm vegetable"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "desiccated coconut moistened with 1 tbsp warm water",
+        "notes": "fresh coconut gives a far superior texture; use desiccated only as a last resort"
+      },
+      {
+        "ingredient": "coconut-oil",
+        "substitute": "any neutral oil",
+        "notes": "coconut oil is critical for authentic flavour"
+      }
+    ],
+    "culturalNote": "Thoran is the broad name for Kerala's dry stir-fry category — any vegetable can become a thoran, and no Onam Sadya is complete without at least two or three varieties arranged on the banana leaf.",
+    "regionalVariation": "Beans thoran often adds a handful of cooked toor dal into the coconut mixture for extra protein and a slightly softer texture; Malabar versions occasionally stir in a pinch of fennel seeds with the tempering.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-kerala-fish-molee",
+    "slug": "kerala-fish-molee",
+    "title": "Kerala Fish Molee",
+    "nativeTitle": "മീൻ മോളി",
+    "description": "Firm white fish simmered in a delicate turmeric-yellow coconut milk gravy with whole spices, green chillies and ginger — one of Kerala's gentlest curries and a favourite of the Syrian Christian community. The flavour is light and fragrant, nothing like a heavy masala.",
+    "cuisine": "kerala",
+    "country": "india",
+    "region": "travancore",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "pescatarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "seer fish (vanjaram) or pomfret, cut in steaks",
+        "normalizedName": "fish",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "thick coconut milk (first extract)",
+        "normalizedName": "coconut-milk",
+        "quantity": 200,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "thin coconut milk (second extract or diluted first)",
+        "normalizedName": "coconut-milk",
+        "quantity": 150,
+        "unit": "ml",
+        "optional": false,
+        "notes": "dilute first extract 1:1 with water"
+      },
+      {
+        "name": "onion, thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger, finely julienned",
+        "normalizedName": "ginger",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garlic, thinly sliced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "green chillies, slit lengthwise",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cardamom pods, lightly bruised",
+        "normalizedName": "cardamom",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cinnamon stick, 3 cm",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "black pepper, coarsely cracked",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "tomato, sliced into rounds",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true,
+        "notes": "adds a gentle tartness"
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "coconut oil",
+        "normalizedName": "coconut-oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Rub the fish steaks with half the turmeric and a little salt. Set aside for 10 minutes while you prep the remaining ingredients.",
+        "timerMinutes": 10,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Heat coconut oil in a wide heavy-bottomed pan on medium flame. Add cardamom, cloves and cinnamon and let them sizzle for 20 seconds until fragrant.",
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add the sliced onion and cook for 4–5 minutes, stirring, until soft and pale gold but not browned. Add ginger, garlic and green chillies and saute for 2 minutes until the raw smell leaves.",
+        "timerMinutes": 5,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Add the remaining turmeric and cracked black pepper. Stir for 30 seconds, then pour in the thin coconut milk. Add the tomato slices if using. Bring to a gentle simmer — do not let it boil hard."
+      },
+      {
+        "order": 5,
+        "text": "Gently slide the marinated fish steaks into the simmering gravy. Cook uncovered on low-medium flame for 8–10 minutes, spooning the gravy over the fish occasionally, until the fish is cooked through — it should flake cleanly when pressed. Avoid turning the pieces more than once or they will break.",
+        "timerMinutes": 10,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Reduce the flame to the lowest setting. Pour in the thick coconut milk and add the curry leaves. Swirl the pan gently to combine — do not stir hard. Heat for 2 minutes without letting the gravy boil, or the coconut milk will split.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 7,
+        "text": "Add lemon juice, check salt, and remove from heat. Serve with Kerala appam, idiyappam or plain steamed rice. The gravy should be pale yellow and gently fragrant."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "marinating",
+      "tempering",
+      "sauteing",
+      "simmering"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "christmas",
+      "festival"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "nutrition": {
+      "calories": 310,
+      "protein": 30,
+      "carbs": 8,
+      "fat": 18,
+      "fiber": 1,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "fish",
+        "substitute": "prawn (shrimp) for prawn moilee",
+        "notes": "cook prawns only 4–5 minutes or they turn rubbery"
+      },
+      {
+        "ingredient": "coconut-milk",
+        "substitute": "thin coconut milk only throughout, with desiccated coconut added for body",
+        "notes": "avoid canned coconut cream which is too heavy"
+      },
+      {
+        "ingredient": "lemon",
+        "substitute": "a small piece of kokum soaked in 2 tbsp water",
+        "notes": "adds a different but authentic Kerala sourness"
+      }
+    ],
+    "culturalNote": "Fish molee is the definitive curry of Kerala's Syrian Christian community, developed over centuries in the coastal kitchens of Travancore — its pale coconut milk base is deliberately restrained compared to the red curries of the same region.",
+    "regionalVariation": "The Cochin Jewish community made a very similar curry called fish in coconut milk that predates the Syrian Christian version by centuries; Malabar fish curries are spicier and use tamarind rather than coconut milk.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-malabar-chicken-biryani",
+    "slug": "malabar-chicken-biryani",
+    "title": "Malabar Chicken Biryani",
+    "nativeTitle": "മലബാർ ചിക്കൻ ബിരിയാണി",
+    "description": "A fragrant dum-cooked chicken biryani from the Malabar coast, layered with caramelised onions, fresh mint, saffron milk and the short-grain kaima rice beloved in North Kerala. Every grain of rice stands separate and the chicken gravy pools at the bottom — the mark of a properly cooked biryani.",
+    "cuisine": "kerala",
+    "country": "india",
+    "region": "malabar",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "hard",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 40,
+    "cookTimeMinutes": 50,
+    "totalTimeMinutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken, curry cut with bone",
+        "normalizedName": "chicken",
+        "quantity": 1000,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "basmati rice (or kaima/jeerakasala rice), soaked 30 min",
+        "normalizedName": "basmati-rice",
+        "quantity": 3,
+        "unit": "cup",
+        "optional": false,
+        "notes": "kaima rice gives authentic Malabar flavour if available"
+      },
+      {
+        "name": "onion, thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false,
+        "notes": "3 for birista, 1 for masala"
+      },
+      {
+        "name": "tomato, chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "thick curd, whisked",
+        "normalizedName": "curd",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cardamom pods",
+        "normalizedName": "cardamom",
+        "quantity": 5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cinnamon sticks, 3 cm each",
+        "normalizedName": "cinnamon",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "star anise",
+        "normalizedName": "star-anise",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "bay leaves",
+        "normalizedName": "bay-leaf",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "mint leaves",
+        "normalizedName": "mint",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 0.25,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "oil, for frying onions",
+        "normalizedName": "oil",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "cashews, halved",
+        "normalizedName": "cashew",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "raisins",
+        "normalizedName": "raisin",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "rose water",
+        "normalizedName": "rose-water",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Marinate the chicken pieces with curd, ginger-garlic paste, chilli powder, coriander powder, turmeric, garam masala and salt. Mix well, coating every piece, and marinate for at least 30 minutes.",
+        "timerMinutes": 30,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Heat the oil in a heavy kadai on medium-high. Fry 3 of the sliced onions in batches, stirring often, for 12–15 minutes until they are deep golden-brown and crisp all over — these are the birista. Remove with a slotted spoon and drain on paper. Reserve 3 tbsp oil for later.",
+        "timerMinutes": 15,
+        "method": "deep-frying"
+      },
+      {
+        "order": 3,
+        "text": "In the same kadai with 2 tbsp reserved oil, add the whole spices (cardamom, clove, cinnamon, star anise, bay leaves) and sizzle for 30 seconds. Add the remaining 1 sliced onion and cook until soft. Add the marinated chicken and sear on high flame for 5 minutes until the chicken changes colour. Add tomatoes, cover and cook on medium for 20 minutes until the chicken is just cooked and the oil floats on top.",
+        "timerMinutes": 25,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Meanwhile, bring a large pot of salted water to a rolling boil. Drain the soaked rice and add it to the boiling water. Cook uncovered on high flame for 8–9 minutes until the rice is 70% cooked — each grain should have a firm white dot at the centre. Drain immediately.",
+        "timerMinutes": 9,
+        "method": "boiling"
+      },
+      {
+        "order": 5,
+        "text": "Fry the cashews and raisins in 1 tbsp ghee until golden. Spread the cooked chicken masala in a flat layer at the bottom of a heavy-bottomed pot. Layer the parboiled rice evenly on top.",
+        "method": "pan-frying"
+      },
+      {
+        "order": 6,
+        "text": "Scatter half the fried onions, all the mint and coriander leaves, the fried cashews and raisins over the rice. Drizzle the remaining ghee and rose water evenly on top. Seal the pot tightly with a lid — press foil around the rim if needed to trap all the steam.",
+        "method": "dum"
+      },
+      {
+        "order": 7,
+        "text": "Place the sealed pot on the lowest flame (or on a tawa/griddle to diffuse heat) and dum cook for 20–25 minutes. The rice will finish cooking in the steam from the chicken masala below. Remove from heat and rest, sealed, for 10 minutes.",
+        "timerMinutes": 25
+      },
+      {
+        "order": 8,
+        "text": "Open the pot and gently mix from the bottom using a flat spatula, bringing the chicken up through the rice. Garnish with the remaining fried onions. Serve with raita, pickle and papadam."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "heavy-bottomed-pot",
+      "tawa"
+    ],
+    "methods": [
+      "marinating",
+      "deep-frying",
+      "kadai-cooking",
+      "boiling",
+      "dum"
+    ],
+    "tags": [
+      "party",
+      "festival",
+      "eid",
+      "comfort-food",
+      "gravy"
+    ],
+    "allergens": [
+      "dairy",
+      "nuts"
+    ],
+    "nutrition": {
+      "calories": 580,
+      "protein": 38,
+      "carbs": 62,
+      "fat": 20,
+      "fiber": 3,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "basmati-rice",
+        "substitute": "kaima or jeerakasala rice for authentic Malabar flavour",
+        "notes": "reduce water slightly; kaima cooks faster than basmati"
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "coconut oil throughout for a more Kerala-specific flavour profile",
+        "notes": "reduce quantity by 25% as coconut oil is more pungent"
+      },
+      {
+        "ingredient": "cashew",
+        "substitute": "fried sultanas only, skip cashews",
+        "notes": "for a nut-free version"
+      }
+    ],
+    "culturalNote": "Malabar biryani is distinct from the Hyderabadi and Lucknawi styles — the Mappila Muslim community of North Kerala developed this variant over centuries of Arab spice trade, making it one of the oldest biryanis in South India.",
+    "regionalVariation": "Thalassery biryani uses the short-grain khyma rice and is famous for its lighter masala and generous use of fried onions; Kozhikode (Calicut) biryani is spicier with more chilli and a thicker gravy beneath the rice.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-kerala-olan",
+    "slug": "kerala-olan",
+    "title": "Kerala Olan",
+    "nativeTitle": "ഓലൻ",
+    "description": "A serene, almost soup-like dish of ash gourd and black-eyed peas cooked in thin coconut milk and finished with a thread of coconut oil and fresh curry leaves. Olan is the subtlest dish on the Onam Sadya — its restraint is its virtue.",
+    "cuisine": "kerala",
+    "country": "india",
+    "region": "travancore",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "ash gourd (poosanikai/white pumpkin), peeled, deseeded and cubed",
+        "normalizedName": "ash-gourd",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "black-eyed peas (karamani/lobia), soaked 3 hours",
+        "normalizedName": "lobia",
+        "quantity": 75,
+        "unit": "g",
+        "optional": false,
+        "notes": "or 200 g canned, drained"
+      },
+      {
+        "name": "thin coconut milk (second extract)",
+        "normalizedName": "coconut-milk",
+        "quantity": 250,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "thick coconut milk (first extract)",
+        "normalizedName": "coconut-milk",
+        "quantity": 100,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "green chillies, slit lengthwise",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "coconut oil",
+        "normalizedName": "coconut-oil",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pressure cook the soaked black-eyed peas in enough water to cover for 3 whistles on medium flame. They should be tender but holding their shape — not mushy. Drain and set aside. If using canned peas, skip this step.",
+        "timerMinutes": 12,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "Place the cubed ash gourd and slit green chillies in a saucepan. Add the thin coconut milk and a pinch of salt. Bring to a gentle boil on medium flame, then cook uncovered for 10–12 minutes until the ash gourd is completely tender and almost translucent.",
+        "timerMinutes": 12,
+        "method": "boiling"
+      },
+      {
+        "order": 3,
+        "text": "Add the cooked black-eyed peas to the pot. Stir gently and simmer for 3 minutes so the peas absorb the coconut-flavoured broth.",
+        "timerMinutes": 3,
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "Reduce the flame to low. Pour in the thick coconut milk and add the curry leaves. Stir gently and heat for 2 minutes — do not let the dish boil after adding the thick coconut milk or it may split.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 5,
+        "text": "Remove from heat. Drizzle the coconut oil over the surface without stirring — it floats as a fragrant film. Check salt and serve as part of a Sadya meal or alongside plain rice."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "saucepan"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "boiling",
+      "simmering"
+    ],
+    "tags": [
+      "onam",
+      "festival",
+      "comfort-food",
+      "no-onion-no-garlic",
+      "healthy",
+      "low-oil",
+      "gravy"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 175,
+      "protein": 6,
+      "carbs": 18,
+      "fat": 9,
+      "fiber": 4,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "ash-gourd",
+        "substitute": "yellow pumpkin (kaddu) for a slightly sweeter olan",
+        "notes": "reduce cooking time by 2 minutes as pumpkin softens faster"
+      },
+      {
+        "ingredient": "lobia",
+        "substitute": "red cowpeas (vanpayar) for the traditional Sadya version",
+        "notes": "soak overnight and pressure cook 4 whistles"
+      },
+      {
+        "ingredient": "coconut-milk",
+        "substitute": "fresh coconut ground with water and strained",
+        "notes": "use the first press as thick milk and second press as thin"
+      }
+    ],
+    "culturalNote": "Olan occupies a special place on the Onam Sadya as the mildest dish — its role is to cool the palate between the spiced pickles and the rich payasam, a deliberate culinary pause built into the feast.",
+    "regionalVariation": "Some families in Central Kerala add a small piece of colocasia (chembu) for earthiness; Northern Kerala versions occasionally add a pinch of black pepper to the green chillies.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-kerala-erissery",
+    "slug": "kerala-erissery",
+    "title": "Kerala Erissery",
+    "nativeTitle": "ഏരിശ്ശേരി",
+    "description": "Cubed pumpkin and cooked black-eyed peas simmered in a spiced coconut paste, then crowned with a topping of dry-roasted coconut, mustard and curry leaves. The contrast between the sweet pumpkin and the smoky roasted coconut is what makes this Sadya staple unforgettable.",
+    "cuisine": "kerala",
+    "country": "india",
+    "region": "travancore",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "pumpkin (red or yellow), peeled and cubed 2 cm",
+        "normalizedName": "pumpkin",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "black-eyed peas (lobia/karamani), soaked 3 hours",
+        "normalizedName": "lobia",
+        "quantity": 75,
+        "unit": "g",
+        "optional": false,
+        "notes": "or 200 g canned, drained"
+      },
+      {
+        "name": "fresh grated coconut",
+        "normalizedName": "coconut",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false,
+        "notes": "½ cup for paste, ¼ cup for dry-roasted topping"
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "coconut oil",
+        "normalizedName": "coconut-oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pressure cook the soaked black-eyed peas in enough water to cover for 3 whistles until tender. Drain and set aside. If using canned peas, skip this step.",
+        "timerMinutes": 12,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "Grind half the grated coconut (about 6 tablespoons) with cumin seeds and a splash of water to a smooth, thick paste. Set aside."
+      },
+      {
+        "order": 3,
+        "text": "Place the pumpkin cubes in a pan with turmeric, chilli powder, salt and just enough water to cover the base of the pan (about ½ cup). Cover and cook on medium flame for 8–10 minutes until the pumpkin is tender and most of the water has absorbed.",
+        "timerMinutes": 10,
+        "method": "boiling"
+      },
+      {
+        "order": 4,
+        "text": "Add the cooked black-eyed peas and the coconut-cumin paste. Stir gently and cook uncovered on medium-low for 5 minutes, mashing a few pieces of pumpkin against the side of the pan to naturally thicken the dish.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "In a separate small kadai, heat coconut oil on medium flame. Splutter the mustard seeds, add dried red chillies and 1 sprig of curry leaves. Then add the remaining ¼ cup grated coconut and roast, stirring constantly, for 3–4 minutes until the coconut is dark golden-brown and very fragrant. This is the critical topping — do not rush it.",
+        "timerMinutes": 4,
+        "method": "roasting"
+      },
+      {
+        "order": 6,
+        "text": "Pour the roasted coconut and tempering over the erissery and fold it in gently, leaving some on top for texture. Add the second sprig of curry leaves, check salt, and serve with rice as part of an Onam feast."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "heavy-bottomed-pot",
+      "kadai"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "boiling",
+      "simmering",
+      "roasting",
+      "tempering"
+    ],
+    "tags": [
+      "onam",
+      "festival",
+      "comfort-food",
+      "healthy",
+      "budget",
+      "no-onion-no-garlic"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 195,
+      "protein": 7,
+      "carbs": 22,
+      "fat": 10,
+      "fiber": 5,
+      "sugar": 6,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "pumpkin",
+        "substitute": "raw banana (vazhakkai) cubed, for a traditional vanpayar-kaya erissery",
+        "notes": "no change in method; raw banana gives a starchier, denser dish"
+      },
+      {
+        "ingredient": "lobia",
+        "substitute": "red cowpeas (vanpayar) or moong dal",
+        "notes": "moong dal cooks faster — no soaking needed, 2 pressure cooker whistles"
+      },
+      {
+        "ingredient": "coconut-oil",
+        "substitute": "any neutral oil, though the topping loses its characteristic flavour"
+      }
+    ],
+    "culturalNote": "Erissery is one of the most beloved Sadya dishes — the dry-roasted coconut topping is the dish's signature and distinguishes it from the wet coconut curries that surround it on the banana leaf.",
+    "regionalVariation": "Palakkad erissery uses raw banana (kaya) instead of pumpkin and is drier in texture; coastal Kerala families add a small piece of raw mango along with the pumpkin for a tart counterpoint.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-kerala-kalan",
+    "slug": "kerala-kalan",
+    "title": "Kerala Kalan",
+    "nativeTitle": "കാലൻ",
+    "description": "Raw banana cooked until tender, then folded into a thick, boldly black-peppered curd and coconut gravy that is tangy, rich and unlike any other Kerala curry. Kalan is a Sadya essential and one of the few sour-coconut-curd dishes that gets better the next day.",
+    "cuisine": "kerala",
+    "country": "india",
+    "region": "travancore",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "raw banana (vazhakkai), peeled and cut in 2 cm cubes",
+        "normalizedName": "raw-banana",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "fresh grated coconut",
+        "normalizedName": "coconut",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "green chillies",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, coarsely crushed",
+        "normalizedName": "black-pepper",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "kalan is traditionally very peppery — adjust to taste"
+      },
+      {
+        "name": "thick sour curd, whisked smooth",
+        "normalizedName": "curd",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false,
+        "notes": "day-old sour curd works best"
+      },
+      {
+        "name": "fenugreek seeds",
+        "normalizedName": "fenugreek-seeds",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "coconut oil",
+        "normalizedName": "coconut-oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Grind the grated coconut with green chillies, cumin seeds and black pepper to a smooth, thick paste, adding just a splash of water to help it move in the blender. Set aside."
+      },
+      {
+        "order": 2,
+        "text": "Place the raw banana cubes in a pan with turmeric, salt and enough water to barely cover (about ¾ cup). Bring to a boil, cover and cook on medium flame for 8–10 minutes until the banana is very soft — it should crush easily between two fingers.",
+        "timerMinutes": 10,
+        "method": "boiling"
+      },
+      {
+        "order": 3,
+        "text": "Do not drain. Add the coconut-pepper paste directly to the pan with the cooked banana and its cooking water. Stir well and cook on medium-low for 3–4 minutes, stirring, until the raw coconut smell is gone and the mixture thickens.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 4,
+        "text": "Remove the pan from heat and let it cool for 2 minutes. Pour in the whisked sour curd and fold it gently into the coconut-banana mixture. The curd must go in off the heat — adding it live will cause curdling."
+      },
+      {
+        "order": 5,
+        "text": "Return the pan to the lowest flame and stir for 1–2 minutes until the kalan is warmed through and thickened to a coating consistency. Do not let it boil.",
+        "timerMinutes": 2,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Heat coconut oil in a small pan. Splutter mustard seeds, add fenugreek seeds (they will turn slightly dark), then dried red chillies and curry leaves. Pour this tempering over the kalan immediately and stir in. Check salt and serve with rice.",
+        "method": "tempering"
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "frying-pan",
+      "mixie"
+    ],
+    "methods": [
+      "boiling",
+      "simmering",
+      "tempering"
+    ],
+    "tags": [
+      "onam",
+      "festival",
+      "comfort-food",
+      "no-onion-no-garlic",
+      "healthy",
+      "budget"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 235,
+      "protein": 5,
+      "carbs": 26,
+      "fat": 13,
+      "fiber": 3,
+      "sugar": 7,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "raw-banana",
+        "substitute": "yam (chenai) cut in 2 cm cubes for a more traditional version",
+        "notes": "yam takes 12 minutes to cook rather than 10"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "thick coconut milk for a vegan kalan, with extra lemon juice for sourness",
+        "notes": "the dish will be milder without curd's tang"
+      },
+      {
+        "ingredient": "fenugreek-seeds",
+        "substitute": "a pinch of asafoetida in the tempering",
+        "notes": "fenugreek is the authentic choice"
+      }
+    ],
+    "culturalNote": "Kalan's combination of sour curd and coconut is ancient Kerala cooking at its most confident — the fenugreek tempering adds a gentle bitterness that rounds out the sourness and makes the dish complex on a simple banana leaf.",
+    "regionalVariation": "Some families make kalan with both raw banana and yam together; Palakkad homes add a pinch of rice flour paste to thicken the sauce further when curd is not sour enough.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-kerala-beef-fry",
+    "slug": "kerala-beef-fry",
+    "title": "Kerala Beef Fry (Ularthiyathu)",
+    "nativeTitle": "ബീഫ് ഉലർത്തിയത്",
+    "description": "Tender chunks of beef dry-roasted in a kadai with shallots, fresh coconut slivers, black pepper and curry leaves until the masala clings darkly to every piece. Ularthiyathu — the roasted-dry fry — is the defining beef preparation of Kerala and the dish that rivals any biryani at a Kerala feast.",
+    "cuisine": "kerala",
+    "country": "india",
+    "region": "travancore",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 50,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef (chuck or brisket), cut in 3 cm cubes",
+        "normalizedName": "beef",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "shallots, thinly sliced",
+        "normalizedName": "shallot",
+        "quantity": 10,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger, finely chopped",
+        "normalizedName": "ginger",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garlic, finely chopped",
+        "normalizedName": "garlic",
+        "quantity": 5,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "green chillies, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, coarsely ground",
+        "normalizedName": "black-pepper",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "essential — do not reduce"
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fresh coconut slivers (thenga kothu)",
+        "normalizedName": "coconut",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "thin slivers, not grated — fried until golden"
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 3,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "coconut oil",
+        "normalizedName": "coconut-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Combine the beef cubes with chilli powder, coriander powder, turmeric, half the black pepper, salt and a splash of water in a pressure cooker. Mix well. Pressure cook on medium flame for 4–5 whistles until the beef is just tender — it should yield to pressure but not fall apart. Open and dry out any excess liquid on high flame, stirring, until the pot is almost dry.",
+        "timerMinutes": 20,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "Heat coconut oil in a large kadai on medium-high flame. Fry the coconut slivers, stirring constantly, for 2–3 minutes until golden and nutty. Remove and set aside.",
+        "timerMinutes": 3,
+        "method": "pan-frying"
+      },
+      {
+        "order": 3,
+        "text": "In the same oil, add the shallots and fry on medium-high for 6–8 minutes until they are deep golden and beginning to caramelise at the edges. Add ginger, garlic and green chillies and fry for 2 more minutes until fragrant.",
+        "timerMinutes": 8,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Add the pressure-cooked beef to the kadai. Turn the flame to high. Toss and fry the beef with the onion mixture for 10–12 minutes, turning occasionally, until the masala has dried onto the beef pieces and they are dark and starting to crust at the edges.",
+        "timerMinutes": 12,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Add the remaining black pepper, garam masala and the fried coconut slivers. Toss for 2 minutes — the coconut should be evenly distributed through the beef."
+      },
+      {
+        "order": 6,
+        "text": "Add the curry leaves and toss once more on high flame for 30 seconds until the leaves are crisp. Remove from heat. Taste for salt. Serve with Kerala parotta, appam or rice and any Kerala curry."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "kadai"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "pan-frying",
+      "sauteing",
+      "kadai-cooking"
+    ],
+    "tags": [
+      "comfort-food",
+      "dry-curry",
+      "party",
+      "christmas",
+      "eid"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 400,
+      "protein": 42,
+      "carbs": 8,
+      "fat": 22,
+      "fiber": 2,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "beef",
+        "substitute": "mutton (goat) cut in 3 cm pieces for a nadan mutton fry",
+        "notes": "add 1 extra whistle in the pressure cooker"
+      },
+      {
+        "ingredient": "coconut-oil",
+        "substitute": "any neutral oil, though coconut oil is non-negotiable for authenticity"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "skip the coconut slivers if unavailable",
+        "notes": "the dish is excellent without, but the slivers add texture and sweetness"
+      }
+    ],
+    "culturalNote": "Beef fry ularthiyathu is the celebratory meat dish of Kerala Christians, synonymous with Christmas, wedding feasts and Sunday lunches — the dark roasted finish is its signature and no shortcut can replace the final high-flame toss.",
+    "regionalVariation": "Kottayam-style beef fry uses more black pepper and less chilli powder, making it fiery in a different dimension; Kozhikode versions include grated coconut fried directly in the masala rather than as slivers.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-kerala-parotta",
+    "slug": "kerala-parotta",
+    "title": "Kerala Parotta",
+    "nativeTitle": "കേരള പൊറോട്ട",
+    "description": "Layered, flaky flatbread made by working maida dough until silky, resting it well and folding a coiled disc into flaky paper-thin layers before frying on a hot tawa. Parotta is Kerala's great street food bread, inseparable from beef fry and egg roast.",
+    "cuisine": "kerala",
+    "country": "india",
+    "region": "malabar",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "dinner",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "hard",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 90,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 120,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "maida (all-purpose flour)",
+        "normalizedName": "maida",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "baking soda",
+        "normalizedName": "baking-soda",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil, plus extra for layering and frying",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false,
+        "notes": "lukewarm; add gradually"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": 0.75,
+        "unit": "tsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Mix maida, salt, sugar and baking soda in a bowl. Make a well in the centre and add 2 tablespoons of oil. Rub the oil into the flour. Gradually pour in the lukewarm water, mixing as you go, until a soft dough comes together — it should be softer than chapati dough. Knead for 8 minutes until the dough is smooth and stretchy. Coat with a little oil, cover and rest for 1 hour.",
+        "timerMinutes": 60
+      },
+      {
+        "order": 2,
+        "text": "Divide the rested dough into 8 equal balls. Coat each ball generously with oil. Roll each ball into a very thin, almost translucent round disc on an oiled surface — as thin as you can get it without tearing, roughly 35–40 cm in diameter."
+      },
+      {
+        "order": 3,
+        "text": "Stretch the disc further by holding an edge and gently pulling with oiled hands. Then fold it into a long rope by pleating it accordion-style. Coil the rope into a tight spiral and tuck the end underneath. You should have a small coiled disc. Press it slightly flat and let it rest 15 minutes.",
+        "timerMinutes": 15
+      },
+      {
+        "order": 4,
+        "text": "Roll each coiled disc gently into a 15–18 cm round. The layers created by the coil will be visible inside.",
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Heat a tawa on medium-high until a drop of water skips across it. Drizzle half a teaspoon of oil on the tawa and place a parotta on it. Cook for 2 minutes until the underside is golden in patches. Drizzle a little more oil at the edges, flip, and cook the other side for 1.5–2 minutes.",
+        "timerMinutes": 4,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 6,
+        "text": "Remove the hot parotta and immediately clap it between your palms two or three times to shatter the layers into their characteristic flaky, layered texture. Repeat with remaining parottas. Serve at once with beef fry, egg roast or any chicken curry."
+      }
+    ],
+    "cookware": [
+      "tawa"
+    ],
+    "methods": [
+      "tawa-cooking"
+    ],
+    "tags": [
+      "street-food",
+      "comfort-food",
+      "tiffin",
+      "budget"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 340,
+      "protein": 7,
+      "carbs": 52,
+      "fat": 12,
+      "fiber": 1,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "maida",
+        "substitute": "half maida and half whole wheat flour (atta) for a slightly healthier parotta",
+        "notes": "texture will be chewier and less flaky"
+      },
+      {
+        "ingredient": "oil",
+        "substitute": "ghee for a richer layering flavour",
+        "notes": "use ghee for the folding step only, oil for frying"
+      }
+    ],
+    "culturalNote": "Parotta is the street food pride of Tamil Nadu and Kerala both — the clapping technique that shatters the layers after cooking is as much performance as technique, mastered over thousands of late-night dhaba repetitions.",
+    "regionalVariation": "Tamil parotta tends to be flakier and lighter; Kerala parotta is slightly thicker at the centre with a chewier bite — both are made from the same dough but the fold and roll technique differs by hand.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-kerala-egg-roast",
+    "slug": "kerala-egg-roast",
+    "title": "Kerala Egg Roast",
+    "nativeTitle": "മുട്ട റോസ്റ്റ്",
+    "description": "Hard-boiled eggs pan-fried until golden, then coated in a darkly spiced onion-tomato masala with generous black pepper and fennel. The result is a semi-dry, intensely flavoured egg curry that is Kerala's most beloved parotta companion.",
+    "cuisine": "kerala",
+    "country": "india",
+    "region": "malabar",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "eggetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "eggs, hard-boiled and peeled",
+        "normalizedName": "egg",
+        "quantity": 6,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, coarsely crushed",
+        "normalizedName": "black-pepper",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fennel seeds",
+        "normalizedName": "fennel",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "coconut oil",
+        "normalizedName": "coconut-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Score the peeled hard-boiled eggs with 4 shallow cuts lengthwise using a knife. This lets the masala cling to the surface. Heat 1 tablespoon coconut oil in a kadai and pan-fry the eggs on medium-high flame, turning, for 3–4 minutes until golden patches appear all over. Remove and set aside.",
+        "timerMinutes": 4,
+        "method": "pan-frying"
+      },
+      {
+        "order": 2,
+        "text": "In the same kadai, heat the remaining 2 tablespoons coconut oil on medium flame. Add fennel seeds and let them sizzle for 10 seconds. Add curry leaves, then add the sliced onions with a pinch of salt.",
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Fry the onions on medium-high, stirring often, for 12–15 minutes until they are deep mahogany-brown and caramelised — this long fry is the backbone of the egg roast. Add ginger-garlic paste and fry for 2 more minutes.",
+        "timerMinutes": 15,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Add chilli powder, coriander powder, turmeric and black pepper. Stir for 1 minute on low flame, then add the chopped tomatoes with a splash of water. Cover and cook for 6–8 minutes until the tomatoes collapse and the oil separates from the masala.",
+        "timerMinutes": 8
+      },
+      {
+        "order": 5,
+        "text": "Add the fried eggs to the masala. Spoon the masala over each egg and toss gently on medium flame for 3 minutes until the eggs are completely coated and the masala is almost dry, clinging to the eggs.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 6,
+        "text": "Sprinkle garam masala, toss once, and remove from heat. Serve hot with Kerala parotta, appam or any rice dish. The egg roast keeps well for a day and tastes even better reheated."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "pan-frying",
+      "tempering",
+      "sauteing"
+    ],
+    "tags": [
+      "street-food",
+      "comfort-food",
+      "budget",
+      "quick",
+      "bachelor-friendly"
+    ],
+    "allergens": [
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 260,
+      "protein": 14,
+      "carbs": 12,
+      "fat": 18,
+      "fiber": 2,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "egg",
+        "substitute": "firm tofu cut in thick slices and pan-fried until golden for a vegan version",
+        "notes": "reduce cooking time by 2 minutes"
+      },
+      {
+        "ingredient": "coconut-oil",
+        "substitute": "any neutral oil",
+        "notes": "coconut oil gives a distinctly Kerala flavour"
+      },
+      {
+        "ingredient": "fennel",
+        "substitute": "a pinch of cumin seeds",
+        "notes": "fennel is the more traditional Malabar choice"
+      }
+    ],
+    "culturalNote": "Egg roast with parotta is the quintessential Kerala street-food pairing — available at any roadside thattu kada (food stall) from 6 am to midnight, it is the dish that unifies Kerala's working class and office-going population at a single counter.",
+    "regionalVariation": "Thrissur-style egg roast has more coconut milk stirred in at the end for a saucier gravy; Kozhikode egg roast is spicier with extra chilli and the eggs are slashed deeper for more masala penetration.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-kerala-nadan-chicken-curry",
+    "slug": "kerala-nadan-chicken-curry",
+    "title": "Kerala Nadan Chicken Curry",
+    "nativeTitle": "നാടൻ ചിക്കൻ കറി",
+    "description": "A full-bodied chicken curry built on a ground coconut masala, shallots and aromatic whole spices — the everyday nadan (country-style) version found in every Kerala home. The gravy is medium-thick, deeply fragrant with fennel and black pepper, and improves markedly overnight.",
+    "cuisine": "kerala",
+    "country": "india",
+    "region": "travancore",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 40,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken, curry cut with bone",
+        "normalizedName": "chicken",
+        "quantity": 750,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "shallots (small onions), sliced",
+        "normalizedName": "shallot",
+        "quantity": 12,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "fresh grated coconut",
+        "normalizedName": "coconut",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fennel seeds",
+        "normalizedName": "fennel",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, coarsely cracked",
+        "normalizedName": "black-pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cardamom pods",
+        "normalizedName": "cardamom",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cinnamon stick, 3 cm",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 3,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "coconut oil",
+        "normalizedName": "coconut-oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, for garnish",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Grind the grated coconut with fennel seeds and a tiny splash of water to a smooth paste. This is the flavour base of the curry — it should be completely smooth, not coarse."
+      },
+      {
+        "order": 2,
+        "text": "Heat coconut oil in a heavy kadai on medium flame. Add the cardamom, cloves and cinnamon and sizzle for 20 seconds. Splutter mustard seeds, then add curry leaves.",
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add the sliced shallots with a pinch of salt. Fry on medium-high for 8–10 minutes, stirring often, until they are golden-brown and softened. Add ginger-garlic paste and fry for 2 minutes until the raw smell disappears.",
+        "timerMinutes": 10,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Lower the flame and add chilli powder, coriander powder, turmeric and black pepper. Stir for 1 minute. Add the chopped tomatoes and cook covered for 5 minutes until the tomatoes soften and the masala comes together.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 5,
+        "text": "Add the chicken pieces and turn the flame to high. Sear, turning the pieces, for 5 minutes until the chicken loses its pink colour all over and the masala coats each piece.",
+        "timerMinutes": 5,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 6,
+        "text": "Pour in 300 ml of hot water and add salt. Bring to a boil, then cover and simmer on medium flame for 20 minutes until the chicken is cooked through.",
+        "timerMinutes": 20,
+        "method": "simmering"
+      },
+      {
+        "order": 7,
+        "text": "Stir in the coconut-fennel paste. Simmer uncovered for 8–10 minutes until the gravy thickens and oil floats on top. Check salt, garnish with coriander leaves, and rest 10 minutes before serving. Serve with rice, appam or parotta.",
+        "timerMinutes": 10
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "mixie"
+    ],
+    "methods": [
+      "tempering",
+      "sauteing",
+      "kadai-cooking",
+      "simmering"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "budget",
+      "onam",
+      "festival"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 390,
+      "protein": 35,
+      "carbs": 12,
+      "fat": 23,
+      "fiber": 3,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "500 g jackfruit (raw, cut in pieces) for a vegan nadan curry",
+        "notes": "jackfruit absorbs the masala beautifully"
+      },
+      {
+        "ingredient": "coconut-oil",
+        "substitute": "any neutral oil",
+        "notes": "coconut oil is key to Kerala nadan flavour"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "4 tbsp coconut milk added with the water at step 6",
+        "notes": "the gravy will be lighter in colour but still fragrant"
+      }
+    ],
+    "culturalNote": "Nadan means country-style in Malayalam — this label marks dishes that are rooted in home kitchens rather than restaurants, using the simplest local pantry and no shortcuts. The long shallot fry and the coconut-fennel paste are what distinguish nadan chicken from a hotel curry.",
+    "regionalVariation": "Kottayam nadan chicken curry uses more black pepper and less chilli for a different kind of heat; coastal Alleppey families add a thin sliver of kokum for a mellow tartness.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-kerala-prawn-moilee",
+    "slug": "kerala-prawn-moilee",
+    "title": "Kerala Prawn Moilee",
+    "nativeTitle": "ചെമ്മീൻ മോളി",
+    "description": "Plump prawns simmered in a gentle, saffron-yellow coconut milk gravy fragrant with whole spices, fresh ginger and slit green chillies. Prawn moilee is the lighter, more refined sibling of a spiced prawn curry — a dish where the coconut milk is the hero and the prawns arrive like guests.",
+    "cuisine": "kerala",
+    "country": "india",
+    "region": "travancore",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "pescatarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "medium prawns, shelled and deveined",
+        "normalizedName": "prawn",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "thick coconut milk (first extract)",
+        "normalizedName": "coconut-milk",
+        "quantity": 200,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "thin coconut milk (second extract)",
+        "normalizedName": "coconut-milk",
+        "quantity": 150,
+        "unit": "ml",
+        "optional": false,
+        "notes": "dilute first extract 1:1 with water if needed"
+      },
+      {
+        "name": "onion, thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger, julienned",
+        "normalizedName": "ginger",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garlic, thinly sliced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "green chillies, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cardamom pods, bruised",
+        "normalizedName": "cardamom",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cinnamon stick, 3 cm",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "black pepper, cracked",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "tomato, sliced in rounds",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "coconut oil",
+        "normalizedName": "coconut-oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Toss the cleaned prawns with half the turmeric and a little salt. Set aside for 10 minutes.",
+        "timerMinutes": 10,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Heat coconut oil in a wide pan on medium flame. Add cardamom, cloves and cinnamon and let them sizzle for 20 seconds. Add the sliced onion and cook for 4–5 minutes until soft and pale gold.",
+        "timerMinutes": 5,
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add ginger, garlic and green chillies. Saute for 2 minutes until fragrant. Add remaining turmeric and cracked black pepper, stir for 30 seconds.",
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Pour in the thin coconut milk and add the tomato slices. Bring to a gentle simmer and cook for 3 minutes. The gravy will turn a warm yellow."
+      },
+      {
+        "order": 5,
+        "text": "Add the marinated prawns and curry leaves. Cook on medium flame for 4–5 minutes, turning the prawns once — they are done when they curl tightly and turn opaque pink. Do not overcook or they will toughen.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Reduce heat to the lowest setting. Pour in the thick coconut milk. Swirl the pan gently, heat for 2 minutes without boiling. Add lemon juice and check salt.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 7,
+        "text": "Remove from heat and serve immediately with Kerala appam, idiyappam or steamed rice. The gravy is delicate and should be eaten fresh."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "marinating",
+      "tempering",
+      "sauteing",
+      "simmering"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "christmas",
+      "festival",
+      "quick"
+    ],
+    "allergens": [
+      "shellfish"
+    ],
+    "nutrition": {
+      "calories": 290,
+      "protein": 28,
+      "carbs": 8,
+      "fat": 16,
+      "fiber": 1,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "prawn",
+        "substitute": "firm white fish steaks for prawn moilee → fish moilee",
+        "notes": "increase cooking time to 8–10 minutes in step 5"
+      },
+      {
+        "ingredient": "coconut-milk",
+        "substitute": "fresh coconut ground and squeezed through a cloth",
+        "notes": "homemade coconut milk gives a more intense flavour"
+      },
+      {
+        "ingredient": "lemon",
+        "substitute": "a small piece of kokum soaked in 2 tbsp water",
+        "notes": "kokum adds a fruity sourness that works beautifully with prawn"
+      }
+    ],
+    "culturalNote": "Prawn moilee reflects Kerala's centuries-long relationship with the Arabian Sea — the light coconut milk base and whole spices bear the influence of Arab and Portuguese traders who valued subtlety over fire.",
+    "regionalVariation": "Alleppey prawn curry (a close relative) uses tamarind and is spicier with more chilli; Cochin-style moilee is sparer, sometimes made with no whole spices at all, just green chilli and coconut milk.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-kerala-semiya-payasam",
+    "slug": "kerala-semiya-payasam",
+    "title": "Kerala Semiya Payasam",
+    "nativeTitle": "സേമ്യ പായസം",
+    "description": "Thin wheat vermicelli toasted in ghee until golden and simmered in creamy full-fat milk with sugar and cardamom — a quick, fragrant payasam that is the most common finale to a Kerala Sadya or festival meal. Fried cashews and raisins finish it off.",
+    "cuisine": "kerala",
+    "country": "india",
+    "region": "travancore",
+    "language": "en",
+    "mealType": [
+      "dessert"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "wheat vermicelli (semiya)",
+        "normalizedName": "vermicelli",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "full-fat milk",
+        "normalizedName": "milk",
+        "quantity": 750,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "adjust to taste"
+      },
+      {
+        "name": "cardamom pods, seeds powdered",
+        "normalizedName": "cardamom",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cashews, halved",
+        "normalizedName": "cashew",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "raisins",
+        "normalizedName": "raisin",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "rose water",
+        "normalizedName": "rose-water",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "adds a floral note"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat ghee in a heavy-bottomed saucepan on medium flame. Add cashews and fry for 1–2 minutes until golden. Add raisins and fry for 30 seconds until they plump up. Remove both with a slotted spoon and set aside.",
+        "timerMinutes": 2,
+        "method": "pan-frying"
+      },
+      {
+        "order": 2,
+        "text": "In the same ghee (add a little more if needed), add the vermicelli and roast on medium flame, stirring constantly, for 3–4 minutes until the strands turn golden and smell nutty. Do not let them burn — once golden they darken quickly.",
+        "timerMinutes": 4,
+        "method": "roasting"
+      },
+      {
+        "order": 3,
+        "text": "Pour in the milk all at once. Stir immediately to prevent any vermicelli from sticking to the bottom. Bring to a boil on medium-high flame, stirring often.",
+        "method": "boiling"
+      },
+      {
+        "order": 4,
+        "text": "Reduce the flame to medium-low and simmer for 12–15 minutes, stirring every 2 minutes to prevent the milk from catching at the bottom. The vermicelli will absorb the milk and the payasam will thicken — it should be the consistency of thin custard when hot (it thickens more as it cools).",
+        "timerMinutes": 15,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Add sugar, powdered cardamom and rose water if using. Stir well and simmer for 2 more minutes until the sugar dissolves completely. Taste — the payasam should be sweet enough to stand alone.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 6,
+        "text": "Add the fried cashews and raisins and stir through. Serve hot, warm or at room temperature. The payasam thickens considerably as it cools — thin with a splash of warm milk before serving if needed."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "pan-frying",
+      "roasting",
+      "boiling",
+      "simmering"
+    ],
+    "tags": [
+      "sweet",
+      "festival",
+      "onam",
+      "quick",
+      "kids-friendly",
+      "comfort-food",
+      "under-30-minutes"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten",
+      "nuts"
+    ],
+    "nutrition": {
+      "calories": 310,
+      "protein": 9,
+      "carbs": 48,
+      "fat": 10,
+      "fiber": 1,
+      "sugar": 32,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "vermicelli",
+        "substitute": "rice vermicelli for a gluten-free semiya payasam",
+        "notes": "reduce cooking time to 8 minutes"
+      },
+      {
+        "ingredient": "milk",
+        "substitute": "coconut milk for a vegan version",
+        "notes": "use 400 ml thick coconut milk + 350 ml water; simmer only 8 minutes"
+      },
+      {
+        "ingredient": "sugar",
+        "substitute": "condensed milk (half a tin) for extra creaminess",
+        "notes": "reduce sugar accordingly and add condensed milk off the heat"
+      }
+    ],
+    "culturalNote": "Payasam is the mandatory dessert of any Kerala celebration — at an Onam Sadya it is traditionally served in the last stages of the meal, poured directly onto the banana leaf. Semiya payasam is the most home-friendly version, made without the long stirring that rice payasam demands.",
+    "regionalVariation": "Some Malabar households stir in half a cup of thick coconut milk at the end for a more tropical version; Tamil Nadu's semiya payasam is similarly made but is often thinner and served warm from a steel tumbler.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-kerala-palada-payasam",
+    "slug": "kerala-palada-payasam",
+    "title": "Kerala Palada Payasam",
+    "nativeTitle": "പാലദ പായസം",
+    "description": "A luxuriously creamy payasam of rice ada (thin rice wafers) slow-cooked in rich full-fat milk sweetened with sugar and perfumed with cardamom. Palada payasam is the prestige payasam of Kerala — patience with the milk is what makes it unforgettably creamy.",
+    "cuisine": "kerala",
+    "country": "india",
+    "region": "travancore",
+    "language": "en",
+    "mealType": [
+      "dessert"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 50,
+    "totalTimeMinutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rice ada (thin rice flakes/wafers), rinsed",
+        "normalizedName": "poha",
+        "quantity": 75,
+        "unit": "g",
+        "optional": false,
+        "notes": "use store-bought Kerala rice ada/palada; rinsed and soaked 10 min"
+      },
+      {
+        "name": "full-fat milk",
+        "normalizedName": "milk",
+        "quantity": 1500,
+        "unit": "ml",
+        "optional": false,
+        "notes": "whole milk is essential — do not use low-fat"
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "cardamom pods, seeds powdered",
+        "normalizedName": "cardamom",
+        "quantity": 5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cashews, halved",
+        "normalizedName": "cashew",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "raisins",
+        "normalizedName": "raisin",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "rose water",
+        "normalizedName": "rose-water",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Rinse the rice ada under cold water and soak in plenty of water for 10 minutes. Drain well and set aside.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Pour the milk into a wide heavy-bottomed pot. Bring to a boil on medium-high flame, stirring to prevent a skin forming. Once boiling, reduce the flame to medium.",
+        "method": "boiling"
+      },
+      {
+        "order": 3,
+        "text": "Add the drained rice ada to the boiling milk. Stir well. Cook on medium flame for 25–30 minutes, stirring every 3–4 minutes and scraping the bottom of the pot, until the milk reduces by a third and the ada is completely soft and has absorbed the milk around it. The payasam will look pinkish-cream as the ada cooks.",
+        "timerMinutes": 30,
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "Add sugar and stir well. Continue simmering for 8–10 more minutes, stirring more frequently now as the sugar can make it stick. The payasam should be creamy and thick — it will thicken further as it cools.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 5,
+        "text": "Add powdered cardamom and rose water if using. Stir through and remove from heat."
+      },
+      {
+        "order": 6,
+        "text": "Heat ghee in a small pan and fry cashews until golden, then raisins until plumped. Add to the payasam and stir. Serve warm or at room temperature. Thin with a little warm milk before serving if it has set too thick.",
+        "method": "pan-frying"
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "frying-pan"
+    ],
+    "methods": [
+      "boiling",
+      "simmering",
+      "pan-frying"
+    ],
+    "tags": [
+      "sweet",
+      "festival",
+      "onam",
+      "comfort-food",
+      "kids-friendly"
+    ],
+    "allergens": [
+      "dairy",
+      "nuts"
+    ],
+    "nutrition": {
+      "calories": 290,
+      "protein": 8,
+      "carbs": 44,
+      "fat": 9,
+      "fiber": 0,
+      "sugar": 36,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "poha",
+        "substitute": "thin rice vermicelli broken into 2 cm pieces for a lighter payasam",
+        "notes": "soak 5 minutes, reduce cooking time to 15 minutes"
+      },
+      {
+        "ingredient": "milk",
+        "substitute": "evaporated milk (1 tin) + 500 ml whole milk for extra creaminess with less cooking time",
+        "notes": "add evaporated milk in last 10 minutes"
+      },
+      {
+        "ingredient": "sugar",
+        "substitute": "condensed milk (half tin) for caramel sweetness",
+        "notes": "add off the heat; do not reboil"
+      }
+    ],
+    "culturalNote": "Palada payasam is served at every important Kerala celebration from weddings to Vishu to temple festivals — its creamy pink colour from the reduced milk and the ada is the visual marker of a properly cooked version.",
+    "regionalVariation": "The Guruvayur temple palada payasam is famous for being made in enormous quantities in brass uruli pots, slow-cooked on wood fire for hours until it turns a deep rose colour from the caramelised milk sugars.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-kerala-raw-banana-puzhukku",
+    "slug": "kerala-raw-banana-puzhukku",
+    "title": "Kerala Raw Banana Puzhukku (Kappa-Style)",
+    "nativeTitle": "നേന്ത്രക്ക പുഴുക്ക്",
+    "description": "Raw banana cooked and mashed in the style of kappa (tapioca puzhukku) — worked with fresh coconut, green chilli, cumin and a crackling mustard tempering. This earthy, filling side dish turns the humble raw banana into one of Kerala's most satisfying comfort foods.",
+    "cuisine": "kerala",
+    "country": "india",
+    "region": "travancore",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "raw banana (vazhakkai/nenthrappazham unripe), peeled and cut in chunks",
+        "normalizedName": "raw-banana",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "fresh grated coconut",
+        "normalizedName": "coconut",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "green chillies, roughly chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "shallots, finely chopped",
+        "normalizedName": "shallot",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "coconut oil",
+        "normalizedName": "coconut-oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Place the raw banana chunks in a pot with turmeric, salt and enough water to cover. Boil on medium-high flame for 12–15 minutes until the banana is completely soft — a knife should slide through with zero resistance. Drain, reserving 2 tablespoons of the cooking water.",
+        "timerMinutes": 15,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Grind the grated coconut with green chillies and cumin seeds to a coarse paste in a mixie — add just a tablespoon of water to keep it moving. The paste should be chunky, not fully smooth."
+      },
+      {
+        "order": 3,
+        "text": "Mash the cooked banana coarsely with a fork or your fingers (traditional style) — leave some chunks for texture, do not make it smooth. Mix in the coconut-chilli paste along with the reserved cooking water. The mixture should hold together loosely."
+      },
+      {
+        "order": 4,
+        "text": "Heat coconut oil in a kadai on medium-high. Splutter mustard seeds, add dried red chillies and curry leaves and let them crackle for 15 seconds. Add the chopped shallots and fry for 2 minutes until softened and golden.",
+        "timerMinutes": 2,
+        "method": "tempering"
+      },
+      {
+        "order": 5,
+        "text": "Add the banana-coconut mixture to the kadai. Toss everything together on medium flame for 2 minutes until well combined and heated through. Check salt. Serve hot as a side dish with any Kerala curry and rice, or eat as a standalone breakfast with pickle.",
+        "timerMinutes": 2
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "kadai",
+      "mixie"
+    ],
+    "methods": [
+      "boiling",
+      "tempering"
+    ],
+    "tags": [
+      "comfort-food",
+      "budget",
+      "healthy",
+      "quick",
+      "under-30-minutes",
+      "no-onion-no-garlic",
+      "onam"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 210,
+      "protein": 3,
+      "carbs": 35,
+      "fat": 8,
+      "fiber": 4,
+      "sugar": 6,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "raw-banana",
+        "substitute": "tapioca (kappa/cassava) cut in 3 cm cubes for the original kappa puzhukku",
+        "notes": "tapioca takes 20 minutes to boil and requires thorough cooking for food safety"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "desiccated coconut moistened with 2 tbsp water",
+        "notes": "fresh coconut gives a far more vibrant result"
+      },
+      {
+        "ingredient": "shallot",
+        "substitute": "1 small regular onion, finely chopped",
+        "notes": "shallots give sweeter flavour"
+      }
+    ],
+    "culturalNote": "Kappa puzhukku (tapioca mash) is the soul food of Central Kerala — a reminder of leaner times when tapioca sustained entire communities. The raw banana version is now more widely accessible and made in the same spirit of simple, filling honesty.",
+    "regionalVariation": "Coastal families serve puzhukku with a side of fish curry for the traditional fish-and-kappa combination; hill district families of Idukki and Wayanad eat it with coconut chutney and pickled mango.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-kerala-pineapple-pachadi",
+    "slug": "kerala-pineapple-pachadi",
+    "title": "Kerala Pineapple Pachadi",
+    "nativeTitle": "അനന്നാസ് പച്ചടി",
+    "description": "Ripe pineapple cooked until jammy, then stirred into a ground coconut-curd paste and finished with a sizzling mustard-curry leaf tempering. The sweet-sour-tangy interplay of pineapple and curd with the crunch of the tempering makes this Sadya pachadi irresistible.",
+    "cuisine": "kerala",
+    "country": "india",
+    "region": "travancore",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "ripe pineapple, peeled and cut in 1 cm cubes",
+        "normalizedName": "pineapple",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false,
+        "notes": "about half a small pineapple"
+      },
+      {
+        "name": "fresh grated coconut",
+        "normalizedName": "coconut",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "green chillies",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "thick curd, whisked smooth",
+        "normalizedName": "curd",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "adjust based on pineapple sweetness"
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chilli",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "coconut oil",
+        "normalizedName": "coconut-oil",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Place the pineapple cubes in a small saucepan with turmeric, sugar, a pinch of salt and 2 tablespoons of water. Cook on medium flame for 8–10 minutes until the pineapple softens and the liquid reduces to a syrupy glaze. Remove from heat and cool slightly.",
+        "timerMinutes": 10,
+        "method": "simmering"
+      },
+      {
+        "order": 2,
+        "text": "Grind the grated coconut with green chillies and cumin seeds to a smooth paste, adding just a splash of water. The paste should be thick."
+      },
+      {
+        "order": 3,
+        "text": "Add the coconut paste to the cooked pineapple. Stir gently over very low flame for 2 minutes until the coconut is combined and loses its raw smell. Remove from heat entirely."
+      },
+      {
+        "order": 4,
+        "text": "Once the pineapple-coconut mixture has cooled to just warm (not hot), fold in the whisked curd gently. Taste for salt — the pachadi should be sweet, sour and lightly spiced all at once."
+      },
+      {
+        "order": 5,
+        "text": "Heat coconut oil in a small pan on medium-high. Splutter mustard seeds, add the dried red chilli and curry leaves and let them crackle for 10 seconds. Pour this tempering immediately over the pachadi and fold through.",
+        "method": "tempering"
+      },
+      {
+        "order": 6,
+        "text": "Serve at room temperature as part of a Sadya meal. Pachadi should not be refrigerated for more than a few hours as the curd turns sourer and the pineapple releases water."
+      }
+    ],
+    "cookware": [
+      "saucepan",
+      "frying-pan",
+      "mixie"
+    ],
+    "methods": [
+      "simmering",
+      "tempering"
+    ],
+    "tags": [
+      "onam",
+      "festival",
+      "sweet",
+      "no-onion-no-garlic",
+      "healthy",
+      "quick"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 155,
+      "protein": 4,
+      "carbs": 18,
+      "fat": 8,
+      "fiber": 2,
+      "sugar": 13,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "pineapple",
+        "substitute": "ripe mango cubed for a mango pachadi",
+        "notes": "skip the sugar; mango pachadi is even sweeter and equally traditional"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "thick coconut milk for a vegan version",
+        "notes": "reduce coconut milk to ½ cup; the dish will be milder and richer"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "desiccated coconut moistened with 2 tbsp water",
+        "notes": "fresh coconut gives better texture"
+      }
+    ],
+    "culturalNote": "Pachadi is the sweet-sour section of the Sadya banana leaf — its role is to provide relief between the pungent pickles and the spiced curries, and pineapple pachadi is one of the most popular because ripe pineapple needs very little help to shine.",
+    "regionalVariation": "Palakkad families make pachadi with roasted and ground coconut which adds a deeper flavour; some households use fresh coconut milk in place of curd to make the dish vegan and more coconut-forward.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-kerala-sambar",
+    "slug": "kerala-sambar",
+    "title": "Kerala-Style Sambar",
+    "nativeTitle": "കേരള സാമ്പാർ",
+    "description": "Kerala sambar is gentler and more coconut-forward than its Tamil counterpart — toor dal cooked with tamarind, drumstick and tomato, tempered with mustard and curry leaves, and finished with a fresh coconut paste that softens the edge of the tamarind. The result is rounder, lighter and distinctly Keralite.",
+    "cuisine": "kerala",
+    "country": "india",
+    "region": "travancore",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "breakfast",
+      "side"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "toor dal (split pigeon peas)",
+        "normalizedName": "toor-dal",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "drumstick, cut in 4 cm pieces",
+        "normalizedName": "drumstick",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "shallots (small onions), halved",
+        "normalizedName": "shallot",
+        "quantity": 6,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, quartered",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tamarind",
+        "normalizedName": "tamarind",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "soaked in ½ cup hot water and strained; or 1 tsp tamarind paste"
+      },
+      {
+        "name": "fresh grated coconut",
+        "normalizedName": "coconut",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "ground to smooth paste for a Kerala sambar"
+      },
+      {
+        "name": "sambar powder",
+        "normalizedName": "sambar-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "coconut oil",
+        "normalizedName": "coconut-oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pressure cook the toor dal with turmeric and 2 cups of water for 3–4 whistles until completely soft and mashable. Open, mash the dal smooth with the back of a ladle, and set aside.",
+        "timerMinutes": 15,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "Grind the grated coconut with a splash of water to a smooth paste. Set aside."
+      },
+      {
+        "order": 3,
+        "text": "In a kadai, heat 1 tablespoon coconut oil on medium flame. Add shallots and fry for 3 minutes until lightly golden. Add tomatoes, drumstick and sambar powder, chilli powder. Stir for 1 minute.",
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Add the mashed dal, tamarind water and enough additional water to reach a medium-thin consistency (about 400 ml total). Bring to a boil, then simmer covered on medium flame for 12–15 minutes until the drumstick is completely cooked and tender.",
+        "timerMinutes": 15,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Stir in the coconut paste. Simmer uncovered for 3 minutes until the coconut is incorporated and the sambar has a slight body. Check salt — the sambar should be well-balanced between sour, spiced and slightly sweet."
+      },
+      {
+        "order": 6,
+        "text": "In a separate small pan, heat the remaining 1 tablespoon coconut oil on high. Splutter mustard seeds, add dried red chillies, asafoetida and curry leaves. Pour the crackling tempering over the sambar immediately, cover for 30 seconds to trap the aroma, then uncover and stir.",
+        "method": "tempering"
+      },
+      {
+        "order": 7,
+        "text": "Garnish with coriander leaves. Serve hot with steamed rice, puttu, idli or dosa. Kerala sambar is also excellent poured over crispy pappadam."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "kadai",
+      "mixie"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "sauteing",
+      "simmering",
+      "tempering"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "onam",
+      "budget",
+      "soup",
+      "no-onion-no-garlic"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 195,
+      "protein": 9,
+      "carbs": 28,
+      "fat": 6,
+      "fiber": 7,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "toor-dal",
+        "substitute": "moong dal for a lighter, faster-cooking sambar",
+        "notes": "moong dal needs only 2 pressure cooker whistles"
+      },
+      {
+        "ingredient": "drumstick",
+        "substitute": "potato, brinjal or okra — any vegetables work in sambar",
+        "notes": "harder vegetables go in with the dal at step 4; softer ones 8 minutes before the end"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "omit the coconut paste for a Tamil-style sambar",
+        "notes": "add a little more sambar powder to compensate for the missing body"
+      }
+    ],
+    "culturalNote": "Kerala sambar evolved with coconut at its heart, distinguishing it clearly from the non-coconut sambar of Tamil Nadu — the two states debate the superiority of their versions with the same passion as a biryani argument.",
+    "regionalVariation": "Palakkad sambar uses both toor dal and chana dal together for a thicker, grainier texture; Malabar families season their sambar with more black pepper and use it as a dip for fresh banana chips rather than as a rice accompaniment.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  }
+]

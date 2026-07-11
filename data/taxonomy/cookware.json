@@ -1,0 +1,135 @@
+[
+  {
+    "slug": "kadai",
+    "name": "Kadai",
+    "ta": "Kadai",
+    "hi": "Kadai",
+    "westernEquivalent": "wok / deep saute pan"
+  },
+  {
+    "slug": "tawa",
+    "name": "Tawa",
+    "ta": "Dosai kallu",
+    "hi": "Tawa",
+    "westernEquivalent": "cast-iron griddle / flat crepe pan"
+  },
+  {
+    "slug": "pressure-cooker",
+    "name": "Pressure Cooker",
+    "ta": "Pressure kukkar",
+    "hi": "Pressure cooker",
+    "westernEquivalent": "instant pot / stovetop pressure cooker"
+  },
+  {
+    "slug": "heavy-bottomed-pot",
+    "name": "Heavy-Bottomed Pot",
+    "ta": "Annai paanai",
+    "hi": "Bhaari tali ki deg",
+    "westernEquivalent": "Dutch oven / heavy stockpot"
+  },
+  {
+    "slug": "saucepan",
+    "name": "Saucepan",
+    "ta": "Sauce pan",
+    "hi": "Saucepan",
+    "westernEquivalent": "saucepan"
+  },
+  {
+    "slug": "frying-pan",
+    "name": "Frying Pan",
+    "ta": "Vaanali",
+    "hi": "Frying pan",
+    "westernEquivalent": "skillet / frying pan"
+  },
+  {
+    "slug": "wok",
+    "name": "Wok",
+    "ta": "Wok",
+    "hi": "Wok",
+    "westernEquivalent": "wok / large saute pan"
+  },
+  {
+    "slug": "oven",
+    "name": "Oven",
+    "ta": "Aduppu",
+    "hi": "Bhatti / Oven",
+    "westernEquivalent": "conventional oven"
+  },
+  {
+    "slug": "air-fryer",
+    "name": "Air Fryer",
+    "ta": "Air fryer",
+    "hi": "Air fryer",
+    "westernEquivalent": "air fryer / countertop convection oven"
+  },
+  {
+    "slug": "grill",
+    "name": "Grill",
+    "ta": "Grill",
+    "hi": "Grill / Angeethi",
+    "westernEquivalent": "outdoor grill / broiler"
+  },
+  {
+    "slug": "idli-steamer",
+    "name": "Idli Steamer",
+    "ta": "Idli paanai",
+    "hi": "Idli cooker",
+    "westernEquivalent": "tiered steamer insert / bamboo steamer with moulds"
+  },
+  {
+    "slug": "steamer",
+    "name": "Steamer",
+    "ta": "Aaviyil vekka paanai",
+    "hi": "Bhap pakaane ka bartan",
+    "westernEquivalent": "steamer basket / bamboo steamer"
+  },
+  {
+    "slug": "mixie",
+    "name": "Mixie (Wet Grinder / Blender)",
+    "ta": "Mixie",
+    "hi": "Mixer grinder",
+    "westernEquivalent": "high-powered blender / food processor"
+  },
+  {
+    "slug": "blender",
+    "name": "Blender",
+    "ta": "Blender",
+    "hi": "Blender",
+    "westernEquivalent": "countertop blender / immersion blender"
+  },
+  {
+    "slug": "rice-cooker",
+    "name": "Rice Cooker",
+    "ta": "Rice cooker",
+    "hi": "Rice cooker",
+    "westernEquivalent": "electric rice cooker / instant pot rice mode"
+  },
+  {
+    "slug": "clay-pot",
+    "name": "Clay Pot",
+    "ta": "Mitti paanai",
+    "hi": "Mitti ka bartan / Handi",
+    "westernEquivalent": "terracotta casserole / tagine"
+  },
+  {
+    "slug": "baking-tray",
+    "name": "Baking Tray",
+    "ta": "Baking tray",
+    "hi": "Baking tray",
+    "westernEquivalent": "sheet pan / baking sheet"
+  },
+  {
+    "slug": "skillet",
+    "name": "Skillet",
+    "ta": "Iron vaanali",
+    "hi": "Tawa / Skillet",
+    "westernEquivalent": "cast-iron skillet / saute pan"
+  },
+  {
+    "slug": "tandoor",
+    "name": "Tandoor",
+    "ta": "Tandoor",
+    "hi": "Tandoor",
+    "westernEquivalent": "pizza oven / broiler at maximum heat (home approximation)"
+  }
+]

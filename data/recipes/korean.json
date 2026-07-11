@@ -1,0 +1,2713 @@
+[
+  {
+    "id": "ca-korean-kimchi-fried-rice",
+    "slug": "korean-kimchi-fried-rice",
+    "title": "Korean Kimchi Fried Rice",
+    "nativeTitle": "김치볶음밥",
+    "description": "Leftover rice stir-fried at high heat with tangy fermented kimchi, gochujang and a scrambled egg, producing a deeply savoury, crimson-hued bowl that is ready in minutes and tastes richer the older your kimchi.",
+    "cuisine": "korean",
+    "country": "south-korea",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 25,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "cooked leftover rice",
+        "normalizedName": "rice",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "kimchi, roughly chopped",
+        "normalizedName": "kimchi",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "egg",
+        "normalizedName": "egg",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "spring onion",
+        "normalizedName": "spring-onion",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "gochujang (Korean chilli paste)",
+        "normalizedName": "gochujang",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "gingelly (sesame) oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sesame seeds",
+        "normalizedName": "sesame-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Separate the spring onion whites from the greens. Finely mince the whites and slice the greens on a diagonal for garnish. Break the cold cooked rice apart with your hands so there are no large clumps — loose grains fry better."
+      },
+      {
+        "order": 2,
+        "text": "Heat the cooking oil and gingelly oil together in a kadai or wok over high flame until the oils shimmer. Add the spring onion whites and minced garlic and stir-fry for 30 seconds until fragrant.",
+        "method": "stir-frying"
+      },
+      {
+        "order": 3,
+        "text": "Add the chopped kimchi and stir-fry on high heat for 2 minutes until it darkens slightly and the sharp raw smell mellows. The kimchi should sizzle loudly when it hits the pan.",
+        "timerMinutes": 2,
+        "method": "stir-frying"
+      },
+      {
+        "order": 4,
+        "text": "Stir in the gochujang and soy sauce to coat the kimchi, then tip in the cold rice. Press and toss the rice briskly until every grain is coated in the brick-red sauce, about 3 minutes. Keep the heat high throughout so the rice fries rather than steams.",
+        "timerMinutes": 3,
+        "method": "stir-frying"
+      },
+      {
+        "order": 5,
+        "text": "Push the rice to the sides of the pan, crack the eggs into the centre and scramble them until just set, about 60 seconds. Fold the egg into the rice and stir everything together.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 6,
+        "text": "Taste for salt — the kimchi and soy sauce are already salty, so go carefully. Scatter sesame seeds and spring onion greens over the top and serve immediately from the pan."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "wok"
+    ],
+    "methods": [
+      "stir-frying",
+      "one-pot"
+    ],
+    "tags": [
+      "one-pot-meal",
+      "leftover-friendly",
+      "quick",
+      "comfort-food",
+      "bachelor-friendly"
+    ],
+    "allergens": [
+      "egg",
+      "soy",
+      "gluten",
+      "sesame"
+    ],
+    "substitutions": [
+      {
+        "ingredient": "kimchi",
+        "substitute": "150 g shredded cabbage sautéed with 1 tbsp red chilli sauce and 1 tsp vinegar for 5 minutes",
+        "notes": "quick stand-in when fermented kimchi is unavailable"
+      },
+      {
+        "ingredient": "gochujang",
+        "substitute": "sambal oelek or sriracha with a pinch of sugar — use the same quantity"
+      },
+      {
+        "ingredient": "egg",
+        "substitute": "crumbled firm tofu cooked with a pinch of turmeric for a vegan version"
+      }
+    ],
+    "nutrition": {
+      "calories": 390,
+      "protein": 15,
+      "carbs": 55,
+      "fat": 12,
+      "fiber": 3,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "culturalNote": "Kimchi bokkeumbap started as a way to use over-fermented, sour kimchi that had passed its prime as a side dish — the high heat of frying mellows the sharpness and concentrates the umami. It is now one of Korea's most beloved comfort foods, made in home kitchens and late-night eateries alike.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": "Kimchi fried rice is perfectly suited to an Indian kitchen — use a kadai on high flame in place of a wok, keeping the heat intense throughout so the rice fries rather than steams. Gochujang is now stocked in specialty sections of supermarkets in Indian cities; failing that, mix 1 tbsp red chilli paste with 1 tsp soy sauce as a rough substitute. Gingelly oil (nallennai in South Indian stores, til ka tel in North India) adds the characteristic nutty depth. Use leftover refrigerator-cold rice — freshly cooked rice turns mushy.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-korean-bibimbap-veg",
+    "slug": "korean-bibimbap-veg",
+    "title": "Korean Bibimbap (Vegetable Rice Bowl)",
+    "nativeTitle": "비빔밥",
+    "description": "A Korean rice bowl layered with individually sautéed seasonal vegetables, a fried egg in the centre and a fiery gochujang sauce, all mixed together at the table into a colourful, nutritious and deeply satisfying meal.",
+    "cuisine": "korean",
+    "country": "south-korea",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "cooked white rice (warm)",
+        "normalizedName": "rice",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "measure dry; yields about 3 cups cooked"
+      },
+      {
+        "name": "spinach, blanched",
+        "normalizedName": "spinach",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "carrot, julienned",
+        "normalizedName": "carrot",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "mushroom, sliced",
+        "normalizedName": "mushroom",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "capsicum (red or yellow), julienned",
+        "normalizedName": "capsicum",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cucumber, julienned",
+        "normalizedName": "cucumber",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "egg (one per bowl)",
+        "normalizedName": "egg",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "gochujang (Korean chilli paste)",
+        "normalizedName": "gochujang",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "gingelly (sesame) oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sesame seeds",
+        "normalizedName": "sesame-seeds",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "vinegar (rice or white)",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Cook the rice with 2.5 cups water in a covered pot or rice cooker until tender. Keep warm. Prepare the bibimbap sauce by whisking together 2 tbsp gochujang, 1 tbsp soy sauce, vinegar, sugar and 1 tsp gingelly oil until smooth. Set aside."
+      },
+      {
+        "order": 2,
+        "text": "Bring a pot of salted water to a boil. Blanch the spinach for 30 seconds, drain, and squeeze out all excess water. Toss with 1 tsp soy sauce, a little minced garlic and a few drops of gingelly oil. Keep separate.",
+        "timerMinutes": 1,
+        "method": "boiling"
+      },
+      {
+        "order": 3,
+        "text": "Toss the cucumber julienne with a pinch of salt and set aside raw — it will soften slightly on its own. Sauté the carrot in a teaspoon of oil over high heat with a pinch of salt for 2 minutes until just tender but still bright orange. Keep separate.",
+        "timerMinutes": 2,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "In the same pan, sauté mushrooms with half the minced garlic in a teaspoon of oil until golden and any moisture has evaporated, about 3 minutes. Sauté capsicum separately for 1 minute — it should remain crisp and vibrant. Keep all vegetables separate so each bowl shows the individual colours.",
+        "timerMinutes": 4,
+        "method": "sauteing"
+      },
+      {
+        "order": 5,
+        "text": "Fry the eggs sunny-side up in a little oil, one at a time or two at a time — the yolk should remain runny so it acts as a secondary sauce when broken. Season lightly with salt.",
+        "timerMinutes": 3,
+        "method": "pan-frying"
+      },
+      {
+        "order": 6,
+        "text": "Divide the warm rice into 4 wide bowls. Arrange the spinach, carrot, mushroom, capsicum and cucumber in separate sections around the bowl — the distinct colour sections are the visual hallmark of bibimbap."
+      },
+      {
+        "order": 7,
+        "text": "Place a fried egg in the centre of each bowl. Drizzle a little gingelly oil over the top, scatter sesame seeds, and spoon 1–2 tbsp gochujang sauce onto each bowl. Serve immediately, inviting everyone to mix all the components together before eating."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "frying-pan",
+      "saucepan"
+    ],
+    "methods": [
+      "stir-frying",
+      "sauteing",
+      "boiling",
+      "pan-frying"
+    ],
+    "tags": [
+      "bowl",
+      "healthy",
+      "party",
+      "comfort-food"
+    ],
+    "allergens": [
+      "egg",
+      "soy",
+      "gluten",
+      "sesame"
+    ],
+    "substitutions": [
+      {
+        "ingredient": "gochujang",
+        "substitute": "2 tbsp red chilli paste + 1 tsp soy sauce + 1 tsp vinegar + 1 tsp sugar, stirred into a sauce",
+        "notes": "reasonable stand-in when gochujang is unavailable"
+      },
+      {
+        "ingredient": "mushroom",
+        "substitute": "100 g tofu cubes pan-fried until golden — adds protein and a meaty texture"
+      },
+      {
+        "ingredient": "egg",
+        "substitute": "a slice of pan-fried tofu in the centre — omit egg for a vegan version"
+      }
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein": 16,
+      "carbs": 62,
+      "fat": 13,
+      "fiber": 5,
+      "sugar": 7,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "culturalNote": "Bibimbap — literally 'mixed rice' — is eaten throughout Korea and is traditionally served on the eve of the lunar new year to use up leftover vegetable side dishes before fresh cooking begins. The act of mixing at the table is as much part of the ritual as the eating.",
+    "regionalVariation": "Jeonju bibimbap from the city of Jeonju is considered the definitive version and uses bean sprouts, fernbrake fern and raw beef over warm stone-pot rice (dolsot bibimbap) that creates a crispy rice crust at the bottom.",
+    "indianKitchenAdaptation": "Each vegetable in bibimbap is cooked separately — a kadai works perfectly for this, one after another on high flame. Gingelly oil (nallennai in Tamil Nadu, til ka tel in North India) is the key flavour; it is widely available in South Indian provisions stores and large supermarkets. Gochujang can be found in the import section of Indian metro supermarkets; the substitute above works well for home cooks. Use any seasonal Indian vegetables — beans, beetroot and broccoli all work beautifully in place of or alongside the listed vegetables.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-korean-fried-chicken",
+    "slug": "korean-fried-chicken",
+    "title": "Korean Fried Chicken (Yangnyeom)",
+    "nativeTitle": "양념치킨",
+    "description": "Twice-fried chicken glazed in a sticky, spicy-sweet gochujang sauce — fried once to cook through and once more for a shatteringly crisp coating that stays crunchy even after saucing. One of Korea's most celebrated street foods.",
+    "cuisine": "korean",
+    "country": "south-korea",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken pieces (bone-in or wings)",
+        "normalizedName": "chicken",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "maida (all-purpose flour)",
+        "normalizedName": "maida",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cornflour (cornstarch)",
+        "normalizedName": "cornflour",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "baking powder",
+        "normalizedName": "baking-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced (divided)",
+        "normalizedName": "garlic",
+        "quantity": 5,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "gochujang (Korean chilli paste)",
+        "normalizedName": "gochujang",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "honey",
+        "normalizedName": "honey",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "vinegar (rice or white)",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "gingelly (sesame) oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "sesame seeds",
+        "normalizedName": "sesame-seeds",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil (for deep frying)",
+        "normalizedName": "oil",
+        "quantity": 500,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Toss the chicken pieces with 3 cloves of minced garlic, grated ginger, salt and black pepper. Rest for 15 minutes while you prepare the coating and sauce.",
+        "timerMinutes": 15,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Combine maida, cornflour and baking powder in a wide bowl. Toss the marinated chicken pieces in the flour mixture, pressing lightly so the coating adheres on all sides. Shake off any excess — a thin, even coat fries better than a thick clump."
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a deep kadai to about 170°C (drop a pinch of flour in — it should sizzle steadily and rise to the surface within 3 seconds). Fry the chicken in batches for 8–10 minutes until pale golden and just cooked through. Drain on a wire rack or paper towels.",
+        "timerMinutes": 10,
+        "method": "deep-frying"
+      },
+      {
+        "order": 4,
+        "text": "Raise the oil temperature to 190°C (a piece of chicken dropped in should sizzle vigorously and immediately). Fry the same pieces again for 2–3 minutes until deeply golden and very crisp. Drain well. This second fry drives out remaining moisture, creating the signature crunch.",
+        "timerMinutes": 3,
+        "method": "deep-frying"
+      },
+      {
+        "order": 5,
+        "text": "For the sauce, combine gochujang, soy sauce, honey, vinegar and gingelly oil in a small saucepan over low-medium flame. Add the remaining 2 cloves of minced garlic. Stir continuously for 2 minutes until the sauce is glossy, fragrant and just slightly thickened.",
+        "timerMinutes": 2,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Toss the hot crispy chicken pieces in the warm sauce until every piece is evenly glazed. Work quickly so the crust does not have time to soften. Scatter sesame seeds over the top and serve immediately."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "saucepan"
+    ],
+    "methods": [
+      "deep-frying",
+      "marinating",
+      "simmering"
+    ],
+    "tags": [
+      "party",
+      "fried-snack",
+      "comfort-food",
+      "street-food"
+    ],
+    "allergens": [
+      "gluten",
+      "soy",
+      "sesame"
+    ],
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "500 g cauliflower florets for a vegetarian version — double-fry at the same temperatures"
+      },
+      {
+        "ingredient": "honey",
+        "substitute": "jaggery syrup (1 tbsp jaggery dissolved in 1 tbsp warm water) or plain sugar"
+      },
+      {
+        "ingredient": "gochujang",
+        "substitute": "2 tbsp red chilli paste + 1 tsp soy sauce for a rough alternative with milder heat"
+      }
+    ],
+    "nutrition": {
+      "calories": 490,
+      "protein": 32,
+      "carbs": 36,
+      "fat": 22,
+      "fiber": 2,
+      "sugar": 12,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "culturalNote": "Korean fried chicken — called chimaek when paired with beer — has become one of Korea's most internationally exported food trends. The double-fry technique, developed to keep delivery chicken crisp by the time it arrives, is now a defining feature of the dish worldwide.",
+    "regionalVariation": "The ganjang (soy-garlic) version skips gochujang entirely and uses only soy sauce, garlic and sugar for a darker, sweeter amber glaze that is less spicy and equally addictive.",
+    "indianKitchenAdaptation": "A deep kadai with at least 8 cm of oil works perfectly for the double-fry — fill it generously so the pieces float freely. The coating uses maida and cornflour (both standard Indian pantry items) along with baking powder to create the airy crunch. Honey can be replaced with jaggery syrup for an earthier sweetness. Gochujang is now stocked at most metro specialty grocery stores; the chilli sauce substitution above works well as a backup.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-korean-bulgogi-chicken",
+    "slug": "korean-bulgogi-chicken",
+    "title": "Korean Bulgogi-Style Chicken",
+    "nativeTitle": "닭불고기",
+    "description": "Thinly sliced chicken marinated in a sweet soy and grated apple mixture, then seared on a hot tawa until the edges caramelise into a sticky, lightly charred glaze — a quick and flavour-packed weekday dinner that pairs perfectly with steamed rice.",
+    "cuisine": "korean",
+    "country": "south-korea",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "boneless chicken (thigh or breast), thinly sliced",
+        "normalizedName": "chicken",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "apple, grated (for tenderising)",
+        "normalizedName": "apple",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "gingelly (sesame) oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sesame seeds",
+        "normalizedName": "sesame-seeds",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "spring onion",
+        "normalizedName": "spring-onion",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "black pepper, ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Grate the apple half and squeeze out most of the juice. Combine with soy sauce, sugar, minced garlic, grated ginger, black pepper and gingelly oil to form the bulgogi marinade. The apple tenderises the chicken and adds mild sweetness."
+      },
+      {
+        "order": 2,
+        "text": "Slice the chicken thinly across the grain into pieces about 3–4 mm thick — thin slices cook in seconds and absorb the marinade deeply. Add to the marinade, toss to coat every piece and rest for 10 minutes at room temperature.",
+        "timerMinutes": 10,
+        "method": "marinating"
+      },
+      {
+        "order": 3,
+        "text": "Slice the spring onion whites on a slight diagonal; reserve the greens for garnish."
+      },
+      {
+        "order": 4,
+        "text": "Heat oil in a tawa or wide kadai on high flame until the pan is smoking hot. Lay the marinated chicken in a single layer — resist moving it for 90 seconds to develop a light char on the underside. Toss and cook 4–5 minutes more until the edges are caramelised and no pink remains inside.",
+        "timerMinutes": 6,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Add the spring onion whites in the last minute of cooking and toss once. Remove from heat, scatter sesame seeds and spring onion greens over the chicken. Serve immediately alongside steamed rice and a simple cucumber salad.",
+        "timerMinutes": 1
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "kadai"
+    ],
+    "methods": [
+      "marinating",
+      "tawa-cooking",
+      "pan-frying"
+    ],
+    "tags": [
+      "quick",
+      "under-30-minutes",
+      "comfort-food",
+      "bowl",
+      "lunchbox"
+    ],
+    "allergens": [
+      "soy",
+      "gluten",
+      "sesame"
+    ],
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "300 g mushrooms and 200 g tofu, sliced thin and marinated the same way — reduce cook time to 5 minutes"
+      },
+      {
+        "ingredient": "apple",
+        "substitute": "2 tbsp ripe pineapple juice or 1 tbsp grated raw papaya — both tenderise equally well"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "tamari for a slightly less salty flavour; use the same quantity"
+      }
+    ],
+    "nutrition": {
+      "calories": 290,
+      "protein": 34,
+      "carbs": 12,
+      "fat": 11,
+      "fiber": 1,
+      "sugar": 9,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "culturalNote": "Bulgogi — literally 'fire meat' — is traditionally grilled over charcoal in Korea, but the tawa pan-fry version is how most Korean families make it on busy weeknights. The sweet soy marinade is one of the earliest documented Korean meat preparations, dating back centuries.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": "A tawa is ideal for bulgogi chicken — the wide, flat surface encourages the sugary marinade to caramelise into a glaze rather than steam. Keep the flame high and cook in batches if the tawa is small; crowding the pan causes steaming rather than charring. Apples are widely available in Indian markets; the grated fruit is a traditional Korean tenderiser. Gingelly oil (nallennai/til ka tel) and soy sauce are stocked at Indian provision stores and supermarkets.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-korean-japchae",
+    "slug": "korean-japchae",
+    "title": "Korean Japchae (Glass Noodle Stir-fry)",
+    "nativeTitle": "잡채",
+    "description": "Silky glass noodles stir-fried with julienned vegetables in a sesame and soy dressing, producing a glossy, rainbow-hued dish that is as beautiful to look at as it is satisfying to eat, served warm or at room temperature.",
+    "cuisine": "korean",
+    "country": "south-korea",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "glass noodles (sweet potato starch noodles)",
+        "normalizedName": "noodles",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "spinach",
+        "normalizedName": "spinach",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "carrot, julienned",
+        "normalizedName": "carrot",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "mushroom (shiitake or button), sliced",
+        "normalizedName": "mushroom",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "capsicum, julienned",
+        "normalizedName": "capsicum",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "spring onion",
+        "normalizedName": "spring-onion",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "gingelly (sesame) oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sesame seeds",
+        "normalizedName": "sesame-seeds",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soak the glass noodles in a bowl of warm water for 15 minutes until flexible but not fully soft. Drain. Bring a pot of salted water to a boil — you will use it to cook both the noodles and the spinach.",
+        "timerMinutes": 15
+      },
+      {
+        "order": 2,
+        "text": "Boil the noodles in the salted water for 2–3 minutes until translucent and just tender. Remove with tongs, rinse immediately under cold water, drain well and toss with 1 tsp gingelly oil and 1 tsp soy sauce to prevent sticking. Use scissors to cut the noodles into 15 cm lengths.",
+        "timerMinutes": 3,
+        "method": "boiling"
+      },
+      {
+        "order": 3,
+        "text": "Blanch the spinach in the same boiling water for 30 seconds. Drain, squeeze firmly to remove all water and season with a pinch of salt and a few drops of soy sauce. Set aside.",
+        "timerMinutes": 1,
+        "method": "boiling"
+      },
+      {
+        "order": 4,
+        "text": "Cook each vegetable separately in a tsp of oil over high heat to preserve its colour and texture: carrot for 2 minutes with a pinch of salt; mushrooms with 1 clove of minced garlic for 3 minutes until golden; capsicum for 1 minute keeping its crunch. Set each aside separately.",
+        "timerMinutes": 6,
+        "method": "stir-frying"
+      },
+      {
+        "order": 5,
+        "text": "Heat the remaining oil and gingelly oil together in a kadai or wok over high heat. Add the remaining garlic and spring onion whites, stir-fry 30 seconds until fragrant. Add all the cooked vegetables and the noodles to the pan.",
+        "method": "stir-frying"
+      },
+      {
+        "order": 6,
+        "text": "Add the remaining soy sauce and the sugar. Toss everything together vigorously for 2 minutes until the noodles are glossy, evenly coated and the sauce has absorbed. Taste for seasoning. Scatter sesame seeds and spring onion greens over the top and serve warm or at room temperature.",
+        "timerMinutes": 2,
+        "method": "stir-frying"
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "saucepan"
+    ],
+    "methods": [
+      "stir-frying",
+      "boiling",
+      "sauteing"
+    ],
+    "tags": [
+      "party",
+      "healthy",
+      "bowl",
+      "comfort-food"
+    ],
+    "allergens": [
+      "soy",
+      "gluten",
+      "sesame"
+    ],
+    "substitutions": [
+      {
+        "ingredient": "noodles",
+        "substitute": "thin rice vermicelli (semiya) soaked in hot water for 5 minutes — gives a similar silky texture and is gluten-free"
+      },
+      {
+        "ingredient": "mushroom",
+        "substitute": "100 g tofu cubes pan-fried until golden, or torn jackfruit for added bulk"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "a few drops of roasted peanut oil — different but pleasant nuttiness"
+      }
+    ],
+    "nutrition": {
+      "calories": 340,
+      "protein": 8,
+      "carbs": 58,
+      "fat": 10,
+      "fiber": 4,
+      "sugar": 7,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "culturalNote": "Japchae was originally a banquet dish created for Korean royalty in the 17th century — made then without noodles, only vegetables. Today it is a beloved celebration food served at birthdays, weddings and ancestral rites, its rainbow of colours symbolising good fortune.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": "Glass noodles (sweet potato starch noodles) are sold as 'glass noodles' or 'cellophane noodles' in the Chinese or Korean section of Indian metro supermarkets; thin rice semiya (vermicelli) from any Indian provision store makes an equally good substitute. A kadai replaces a wok seamlessly on high flame. Gingelly oil (nallennai in South Indian stores, til ka tel in North India) is the key flavour; mushrooms, carrots and capsicum are available year-round in Indian vegetable markets.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-korean-kimchi-jjigae",
+    "slug": "korean-kimchi-jjigae",
+    "title": "Korean Kimchi Jjigae (Tofu Kimchi Stew)",
+    "nativeTitle": "김치찌개",
+    "description": "A fiery, comforting Korean stew of well-fermented kimchi and firm tofu simmered in a gochujang-laced broth until deeply flavoured and brick-red — one of the most home-cooked dishes in Korea and a perfect match for steamed rice.",
+    "cuisine": "korean",
+    "country": "south-korea",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 35,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "vegetarian kimchi, well-fermented",
+        "normalizedName": "kimchi",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "firm tofu, cubed",
+        "normalizedName": "tofu",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "mushroom, sliced",
+        "normalizedName": "mushroom",
+        "quantity": 100,
+        "unit": "g",
+        "optional": true
+      },
+      {
+        "name": "spring onion",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "gochujang (Korean chilli paste)",
+        "normalizedName": "gochujang",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "gingelly (sesame) oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "sesame seeds",
+        "normalizedName": "sesame-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 600,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Cut the tofu into 2 cm cubes and press gently between layers of kitchen paper for a few minutes to remove excess moisture so the cubes hold their shape during simmering."
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a heavy-bottomed pot over medium-high flame. Add minced garlic and grated ginger, sauté for 30 seconds until fragrant. Add the kimchi and stir-fry for 3 minutes until it darkens slightly and the sour smell mellows into a deeper, richer aroma.",
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Stir in gochujang and soy sauce, then pour in 600 ml water. Bring to a rolling boil, scraping any caramelised bits from the base of the pot.",
+        "timerMinutes": 3,
+        "method": "boiling"
+      },
+      {
+        "order": 4,
+        "text": "Add tofu cubes and sliced mushrooms. Reduce heat to a steady simmer, cover the pot and cook for 15 minutes until the broth is deeply flavoured, brick-red and slightly reduced.",
+        "timerMinutes": 15,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Taste for salt — kimchi is already salty so go carefully. Add the spring onion whites and simmer uncovered for 2 more minutes. Turn off the heat.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 6,
+        "text": "Drizzle gingelly oil over the top, scatter sesame seeds and spring onion greens. Carry the pot directly to the table and serve with steamed rice on the side — the stew stays hot in the pot."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "simmering",
+      "one-pot",
+      "sauteing",
+      "boiling"
+    ],
+    "tags": [
+      "soup",
+      "comfort-food",
+      "one-pot-meal",
+      "winter"
+    ],
+    "allergens": [
+      "soy",
+      "gluten",
+      "sesame"
+    ],
+    "substitutions": [
+      {
+        "ingredient": "tofu",
+        "substitute": "200 g paneer, cubed — holds its shape better; add in the last 5 minutes to prevent crumbling"
+      },
+      {
+        "ingredient": "kimchi",
+        "substitute": "200 g shredded cabbage sautéed with 1 tbsp gochujang and 1 tsp vinegar for 5 minutes as a quick stewing substitute"
+      },
+      {
+        "ingredient": "mushroom",
+        "substitute": "100 g spinach leaves, added in the last 2 minutes only — they wilt faster than mushroom",
+        "notes": "optional variation"
+      }
+    ],
+    "nutrition": {
+      "calories": 180,
+      "protein": 12,
+      "carbs": 14,
+      "fat": 8,
+      "fiber": 3,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "culturalNote": "Kimchi jjigae is made with over-fermented kimchi that is too sour to eat as a side dish — the long simmer mellows the acidity and creates a deeply umami broth. Every Korean family has its own version passed down through generations.",
+    "regionalVariation": "The classic pork-belly version is non-vegetarian; canned tuna is a popular shortcut in Korean bachelor kitchens. This recipe uses firm tofu for a fully vegetarian bowl.",
+    "indianKitchenAdaptation": "Kimchi jjigae cooks beautifully in a heavy-bottomed pot or deep kadai, much like a dal. Use vegetarian kimchi (labelled thus in Korean stores; it contains no fish sauce) to keep this suitable for a vegetarian kitchen. Firm tofu is sold as 'firm tofu' or 'bean curd' in most Indian supermarkets in cities; a block of paneer can substitute in a pinch — add it in the last 5 minutes since it softens faster.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-korean-gochujang-chicken-bowl",
+    "slug": "korean-gochujang-chicken-bowl",
+    "title": "Korean Gochujang Chicken Rice Bowl",
+    "nativeTitle": "고추장 닭덮밥",
+    "description": "Bite-size chicken pieces marinated in gochujang, soy and honey, seared until they develop a sticky, caramelised glaze, then spooned over steamed rice for a bold, deeply flavoured bowl that satisfies in minutes.",
+    "cuisine": "korean",
+    "country": "south-korea",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "boneless chicken (thigh or breast), bite-size pieces",
+        "normalizedName": "chicken",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "gochujang (Korean chilli paste)",
+        "normalizedName": "gochujang",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "honey",
+        "normalizedName": "honey",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "gingelly (sesame) oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sesame seeds",
+        "normalizedName": "sesame-seeds",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "spring onion",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "rice (uncooked)",
+        "normalizedName": "rice",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Mix gochujang, soy sauce, honey, minced garlic, grated ginger and gingelly oil into a thick marinade. Toss the chicken pieces in this and rest for 10 minutes at room temperature.",
+        "timerMinutes": 10,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Cook rice with 2.5 cups water: 2 whistles in a pressure cooker or 18 minutes covered on a saucepan over low-medium heat. Fluff with a fork and keep warm.",
+        "timerMinutes": 18,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a wide kadai over medium-high flame. Spread the chicken in a single layer and sear without stirring for 2–3 minutes until the underside is charred and the gochujang sauce has caramelised slightly.",
+        "timerMinutes": 3,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Toss the chicken and cook for 5–6 more minutes until fully cooked through and coated in a sticky, deeply coloured glaze. If the pan dries out, add a splash of water and scrape up the caramelised bits from the base.",
+        "timerMinutes": 6
+      },
+      {
+        "order": 5,
+        "text": "Divide the warm rice into bowls. Spoon the gochujang chicken on top with all its sticky glaze. Scatter spring onion greens and sesame seeds over everything, drizzle a few drops of gingelly oil, and serve immediately."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "pressure-cooker"
+    ],
+    "methods": [
+      "sauteing",
+      "marinating",
+      "pressure-cooking"
+    ],
+    "tags": [
+      "bowl",
+      "comfort-food",
+      "quick",
+      "party",
+      "lunchbox"
+    ],
+    "allergens": [
+      "soy",
+      "gluten",
+      "sesame"
+    ],
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "500 g paneer or soya chunks — marinate and cook the same way for a vegetarian version"
+      },
+      {
+        "ingredient": "honey",
+        "substitute": "jaggery dissolved in 1 tbsp warm water, or plain sugar — same sticky sweetness"
+      },
+      {
+        "ingredient": "gochujang",
+        "substitute": "2 tbsp red chilli paste + 1 tsp soy sauce + 1 tsp vinegar — a passable stand-in"
+      }
+    ],
+    "nutrition": {
+      "calories": 450,
+      "protein": 36,
+      "carbs": 52,
+      "fat": 12,
+      "fiber": 2,
+      "sugar": 10,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "culturalNote": "Gochujang — fermented Korean red chilli paste — is the backbone of dozens of Korean dishes. Its funky, deep heat is the product of months of fermentation with malted rice and soya, giving this bowl a complexity no simple chilli sauce can replicate.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": "This bowl is seamlessly made in an Indian kitchen. A kadai handles the sticky gochujang glaze better than a thin non-stick pan — the stainless steel or cast-iron base encourages caramelisation. Cook rice in a pressure cooker for 2 whistles as you would for pulao. Gochujang is stocked in specialty sections of metro supermarkets; if unavailable, combine 2 tbsp red chilli paste with 1 tsp soy sauce and 1 tsp sugar. Honey can be replaced with jaggery dissolved in a teaspoon of warm water.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-korean-gyeran-mari",
+    "slug": "korean-gyeran-mari",
+    "title": "Korean Gyeran Mari (Rolled Omelette)",
+    "nativeTitle": "계란말이",
+    "description": "A Korean-style omelette rolled into a tight log, cut into rounds and served as a delicate, layered side dish — simple to make, beautiful to look at and a staple of school lunchboxes and home banchan spreads.",
+    "cuisine": "korean",
+    "country": "south-korea",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "tiffin",
+      "side"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 10,
+    "totalTimeMinutes": 20,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "egg",
+        "normalizedName": "egg",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "spring onion, finely chopped",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "carrot, finely grated",
+        "normalizedName": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Crack the eggs into a bowl and beat well with salt until completely combined — no streaks of white should remain. Stir in the finely chopped spring onion, grated carrot and green chilli if using. The mixture should be a pale yellow flecked with colour."
+      },
+      {
+        "order": 2,
+        "text": "Heat a tawa or non-stick frying pan over medium-low flame — this low heat is important so each layer sets slowly without browning too fast. Brush a thin, even layer of oil across the entire surface.",
+        "method": "pan-frying"
+      },
+      {
+        "order": 3,
+        "text": "Pour about one-third of the egg mixture into the pan and tilt to spread into a thin, even layer. Let it set on the bottom until the surface is still just slightly wet on top but firm enough to hold a roll, about 90 seconds.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 4,
+        "text": "Starting from the far edge, use a spatula to gently roll the omelette towards you, forming a cylinder. Push the roll to the far end of the pan. Oil the empty space lightly."
+      },
+      {
+        "order": 5,
+        "text": "Pour another third of the egg mixture into the empty space, letting a little run under the existing roll to bond them. Once the new layer has just set at the bottom, roll the existing log over it and push it back to the far end. Repeat with the remaining egg."
+      },
+      {
+        "order": 6,
+        "text": "Once the full roll is firm, golden and evenly shaped, transfer to a cutting board. Rest for 1 minute, then cut crosswise into 2 cm rounds with a sharp knife. The cross-section should reveal golden and pale yellow rings. Serve warm or at room temperature."
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "frying-pan"
+    ],
+    "methods": [
+      "pan-frying"
+    ],
+    "tags": [
+      "lunchbox",
+      "kids-friendly",
+      "quick",
+      "under-30-minutes",
+      "tiffin"
+    ],
+    "allergens": [
+      "egg"
+    ],
+    "substitutions": [
+      {
+        "ingredient": "carrot",
+        "substitute": "finely diced capsicum or corn kernels — same sweetness and colour effect"
+      },
+      {
+        "ingredient": "spring-onion",
+        "substitute": "finely chopped coriander leaves for a more Indian-inflected flavour"
+      },
+      {
+        "ingredient": "egg",
+        "substitute": "a chickpea-flour (besan) omelette roll as a vegan alternative — whisk 4 tbsp besan with water to a thin batter and roll the same way"
+      }
+    ],
+    "nutrition": {
+      "calories": 180,
+      "protein": 14,
+      "carbs": 4,
+      "fat": 12,
+      "fiber": 1,
+      "sugar": 1,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "culturalNote": "Gyeran mari is a beloved Korean banchan (side dish) found in virtually every home lunchbox. The rolling technique, while requiring a little patience, is a fundamental Korean cooking skill passed from parents to children.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": "A regular round tawa works perfectly — the roll will be slightly irregular in shape but just as delicious. A non-stick frying pan makes rolling easier. The key is medium-low heat; high heat browns the exterior before the inside has set. Spring onion (hara pyaz), carrot and green chilli are all standard Indian pantry items. These rolled omelette rounds travel well in a lunchbox and can be prepared the night before.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-korean-tteokbokki",
+    "slug": "korean-tteokbokki",
+    "title": "Korean Tteokbokki (Spicy Rice Cake Stew)",
+    "nativeTitle": "떡볶이",
+    "description": "Chewy rice-flour cakes simmered in a vivid gochujang sauce until sticky and spicy — a home-made adaptation of Korea's most iconic street food, using rice flour shaped into cylinders and steamed before being added to the sauce.",
+    "cuisine": "korean",
+    "country": "south-korea",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 35,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "rice flour",
+        "normalizedName": "rice-flour",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "water (divided: 150 ml for dough, 300 ml for sauce)",
+        "normalizedName": "water",
+        "quantity": 450,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "gochujang (Korean chilli paste)",
+        "normalizedName": "gochujang",
+        "quantity": 2.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "cabbage, roughly torn",
+        "normalizedName": "cabbage",
+        "quantity": 100,
+        "unit": "g",
+        "optional": true
+      },
+      {
+        "name": "spring onion",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "sesame seeds",
+        "normalizedName": "sesame-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "gingelly (sesame) oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Mix rice flour with a generous pinch of salt and 150 ml of boiling water. Stir quickly into a smooth, pliable dough — it should hold together without sticking to your hands. Add 1 tsp more water if too dry. Cover and rest for 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Roll portions of dough between your palms into cylinders about 1 cm thick and 5 cm long. Arrange on an oiled plate in a steamer, ensuring they do not touch. Steam over boiling water for 8 minutes until firm, slightly translucent and cooked through. Remove and cool on an oiled surface.",
+        "timerMinutes": 8,
+        "method": "steaming"
+      },
+      {
+        "order": 3,
+        "text": "Combine gochujang, soy sauce, sugar, minced garlic and 300 ml water in a wide kadai. Bring to a simmer over medium heat, stirring to blend the sauce into a smooth, fragrant liquid.",
+        "timerMinutes": 3,
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "Add the steamed rice cakes and torn cabbage. Simmer, stirring every minute or so, for 5–7 minutes until the sauce reduces and clings thickly to each piece of rice cake. The cakes should be coated in a glossy, deep-red sauce.",
+        "timerMinutes": 7,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Add the spring onion pieces in the last minute and stir in. Turn off the heat."
+      },
+      {
+        "order": 6,
+        "text": "Drizzle gingelly oil over the top, scatter sesame seeds and serve piping hot directly from the kadai. Pickled cucumber or a cold oi muchim on the side cuts the richness beautifully."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "steamer"
+    ],
+    "methods": [
+      "steaming",
+      "simmering"
+    ],
+    "tags": [
+      "street-food",
+      "comfort-food",
+      "kids-friendly",
+      "quick"
+    ],
+    "allergens": [
+      "soy",
+      "gluten",
+      "sesame"
+    ],
+    "substitutions": [
+      {
+        "ingredient": "rice-flour",
+        "substitute": "ready-made frozen rice cakes (tteok) soaked in cold water for 10 minutes — skip steps 1 and 2 and add directly to the sauce"
+      },
+      {
+        "ingredient": "gochujang",
+        "substitute": "2 tbsp red chilli paste + 1 tsp soy sauce + 1 tsp sugar for a milder version"
+      },
+      {
+        "ingredient": "cabbage",
+        "substitute": "100 g spinach or bean sprouts — add in the last 2 minutes only as they cook faster"
+      }
+    ],
+    "nutrition": {
+      "calories": 310,
+      "protein": 7,
+      "carbs": 65,
+      "fat": 4,
+      "fiber": 3,
+      "sugar": 8,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "culturalNote": "Tteokbokki is South Korea's most iconic street food — a bubbling communal pot of chewy rice cakes in vivid crimson sauce sold from pojangmacha street stalls year-round, especially warming on cold winter nights.",
+    "regionalVariation": "Gungjung tteokbokki is the royal palace version — made with soy sauce, beef and vegetables instead of the spicy gochujang base, giving it a darker, savoury flavour.",
+    "indianKitchenAdaptation": "Authentic tteok is made from glutinous rice flour, but regular Indian rice flour from any grocery store yields a similar result — slightly denser but just as enjoyable. Steam the shaped rice cakes in an idli steamer or a plate placed inside a large pot. The gochujang sauce is made in a single kadai. This entire dish can be made from pantry staples available in any Indian market.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-korean-corn-cheese",
+    "slug": "korean-corn-cheese",
+    "title": "Korean Corn Cheese",
+    "nativeTitle": "콘치즈",
+    "description": "Sweet corn kernels tossed with butter, sugar and capsicum, topped with a generous blanket of melted mozzarella — a beloved Korean bar snack that takes under 20 minutes and delivers an irresistible combination of sweet, savoury and cheesy.",
+    "cuisine": "korean",
+    "country": "south-korea",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack",
+      "side"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 20,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "sweet corn kernels (canned or freshly boiled)",
+        "normalizedName": "corn",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "mozzarella cheese, shredded",
+        "normalizedName": "cheese",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "butter",
+        "normalizedName": "butter",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "capsicum (red or green), finely diced",
+        "normalizedName": "capsicum",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "spring onion, sliced (for garnish)",
+        "normalizedName": "spring-onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "black pepper",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "If using canned corn, drain it well and pat dry with kitchen paper — excess moisture makes the dish watery. If using fresh cobs, strip the kernels and boil with a pinch of salt for 3 minutes, then drain thoroughly."
+      },
+      {
+        "order": 2,
+        "text": "Melt butter in a frying pan or small kadai over medium flame. Add the corn and capsicum and toss together. Cook for 3–4 minutes, stirring occasionally, until the corn starts to colour at the edges and smells sweet and nutty.",
+        "timerMinutes": 4,
+        "method": "pan-frying"
+      },
+      {
+        "order": 3,
+        "text": "Season with sugar, salt and black pepper. Stir to coat all the kernels evenly. Flatten the corn mixture into an even layer across the pan."
+      },
+      {
+        "order": 4,
+        "text": "Scatter the shredded mozzarella generously over the top in a thick, even layer. Cover the pan with a lid and cook on the lowest possible flame for 4–5 minutes until the cheese has melted completely and formed golden, bubbly patches.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 5,
+        "text": "Scatter chopped spring onion greens over the top and serve immediately in the pan while the cheese is still stretchy. Leftovers reheat well under a grill or in an oven."
+      }
+    ],
+    "cookware": [
+      "frying-pan",
+      "kadai"
+    ],
+    "methods": [
+      "pan-frying",
+      "sauteing"
+    ],
+    "tags": [
+      "kids-friendly",
+      "party",
+      "quick",
+      "under-30-minutes",
+      "comfort-food"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "substitutions": [
+      {
+        "ingredient": "cheese",
+        "substitute": "50 g grated Amul processed cheese + 50 g mozzarella for better melt — processed cheese melts smoother in Indian kitchen conditions"
+      },
+      {
+        "ingredient": "capsicum",
+        "substitute": "finely diced onion or spring onion for gentle sweetness"
+      },
+      {
+        "ingredient": "corn",
+        "substitute": "frozen peas and corn mix for extra colour and texture"
+      }
+    ],
+    "nutrition": {
+      "calories": 240,
+      "protein": 9,
+      "carbs": 28,
+      "fat": 11,
+      "fiber": 2,
+      "sugar": 8,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "culturalNote": "Corn cheese is a staple of Korean pojangmacha (street food tents) and hof bars, typically served bubbling hot alongside soju or beer. Despite its simplicity, it has developed a devoted following as a comfort side dish at home and in restaurants worldwide.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": "Corn cheese is completely at home in an Indian kitchen. Sweet corn is sold year-round at Indian vegetable markets and as canned or frozen kernels in supermarkets. Pre-shredded mozzarella (sold as 'pizza cheese' in Indian supermarkets) melts well on a stovetop; a tawa or frying pan with a lid works in place of an oven. A pinch of Kashmiri chilli flakes over the melted cheese adds an Indian flourish.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-korean-spicy-gochujang-noodles",
+    "slug": "korean-spicy-gochujang-noodles",
+    "title": "Korean Spicy Gochujang Noodles",
+    "nativeTitle": "고추장 비빔국수",
+    "description": "Cold wheat noodles tossed in a fiery, tangy gochujang sauce with garlic and sesame oil, then finished with cucumber and spring onion — a quick, vibrant bowl that is at once spicy, cool and deeply satisfying.",
+    "cuisine": "korean",
+    "country": "south-korea",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 25,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "thin wheat or ramen noodles",
+        "normalizedName": "noodles",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "gochujang (Korean chilli paste)",
+        "normalizedName": "gochujang",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "vinegar (rice or white)",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "gingelly (sesame) oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sesame seeds",
+        "normalizedName": "sesame-seeds",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "spring onion, sliced diagonally",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cucumber, julienned",
+        "normalizedName": "cucumber",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Whisk together gochujang, soy sauce, vinegar, sugar, minced garlic, grated ginger and gingelly oil in a large bowl until smooth. Taste — the sauce should be simultaneously spicy, tangy and slightly sweet. Adjust vinegar or sugar to balance."
+      },
+      {
+        "order": 2,
+        "text": "Cook the noodles in a large pot of boiling salted water according to packet directions. Drain immediately, rinse vigorously under cold running water until completely cold, then shake off excess water. Cold noodles are essential — warm noodles absorb sauce too fast and turn gluey.",
+        "timerMinutes": 8,
+        "method": "boiling"
+      },
+      {
+        "order": 3,
+        "text": "Heat 1 tsp oil in a small pan over medium heat. Add the remaining garlic and fry for 30 seconds until just golden and fragrant. Pour this garlic oil directly into the sauce bowl.",
+        "timerMinutes": 1,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Add the cold noodles to the sauce. Toss vigorously with tongs for 1–2 minutes until every strand is evenly coated in the deep-red sauce. Add the spring onion and cucumber and toss once more."
+      },
+      {
+        "order": 5,
+        "text": "Divide into two bowls, scatter sesame seeds on top and serve immediately — these noodles are at their best right away, before the cucumber softens."
+      }
+    ],
+    "cookware": [
+      "saucepan",
+      "frying-pan"
+    ],
+    "methods": [
+      "boiling",
+      "sauteing",
+      "no-cook"
+    ],
+    "tags": [
+      "quick",
+      "under-30-minutes",
+      "bachelor-friendly",
+      "comfort-food",
+      "bowl"
+    ],
+    "allergens": [
+      "soy",
+      "gluten",
+      "sesame"
+    ],
+    "substitutions": [
+      {
+        "ingredient": "noodles",
+        "substitute": "thin rice noodles (soaked in hot water for 10 minutes) for a gluten-free adaptation"
+      },
+      {
+        "ingredient": "gochujang",
+        "substitute": "2 tbsp sriracha or sambal oelek mixed with 1 tsp soy sauce and 1 tsp sugar"
+      },
+      {
+        "ingredient": "cucumber",
+        "substitute": "julienned raw papaya or shredded carrot — equally refreshing and crunchy"
+      }
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein": 12,
+      "carbs": 62,
+      "fat": 10,
+      "fiber": 4,
+      "sugar": 7,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "culturalNote": "Bibim guksu (spicy mixed noodles) is a summer street food staple in Korea, where the combination of cold noodles and fiery sauce is considered especially refreshing on hot days. The dish can be assembled in under 15 minutes once the noodles are cooked.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": "Any thin wheat noodles widely available in Indian markets — hakka noodles, seviyan, or packaged ramen-style noodles — work well here. The cold-rinsed noodle technique is the same principle as for Indian cold pasta salads. Gochujang can be found in the import section of Indian metro supermarkets; sriracha (widely available in India) with a pinch of sugar is a ready substitute. Gingelly oil (nallennai in South Indian stores, til ka tel in the North) adds the signature Korean nuttiness.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-korean-oi-muchim",
+    "slug": "korean-oi-muchim",
+    "title": "Korean Oi Muchim (Spicy Cucumber Salad)",
+    "nativeTitle": "오이무침",
+    "description": "Fresh cucumber slices tossed in a bright, garlicky gochujang dressing with a hint of sesame and vinegar — a crisp, no-cook Korean side dish that is ready in 15 minutes and brings life to any plate.",
+    "cuisine": "korean",
+    "country": "south-korea",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "side"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 0,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "cucumber (3 medium)",
+        "normalizedName": "cucumber",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "gochujang (Korean chilli paste)",
+        "normalizedName": "gochujang",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 2,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "vinegar (rice or white)",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "gingelly (sesame) oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "sesame seeds",
+        "normalizedName": "sesame-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "spring onion, thinly sliced",
+        "normalizedName": "spring-onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "salt (for sweating cucumber)",
+        "normalizedName": "salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Slice the cucumbers into rounds about 4–5 mm thick or cut on a diagonal into ovals. Transfer to a colander, toss with 1 tsp salt and set aside for 10 minutes to sweat out excess water — this keeps the salad crisp rather than diluted.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Rinse the cucumber briefly under cold water to remove excess salt, then squeeze in small handfuls to press out remaining moisture. Pat dry on a clean kitchen cloth."
+      },
+      {
+        "order": 3,
+        "text": "Combine gochujang, minced garlic, vinegar, sugar and gingelly oil in a bowl and stir into a smooth dressing.",
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Add the cucumber and sliced spring onion to the dressing. Toss well until every piece is coated. Taste and adjust — add more vinegar for brightness or a pinch more sugar to temper the heat."
+      },
+      {
+        "order": 5,
+        "text": "Scatter sesame seeds on top and serve immediately as a side dish, or refrigerate for up to 4 hours. The salad is best while the cucumber is still pleasantly crisp."
+      }
+    ],
+    "cookware": [
+      "frying-pan"
+    ],
+    "methods": [
+      "no-cook"
+    ],
+    "tags": [
+      "salad",
+      "quick",
+      "under-30-minutes",
+      "healthy",
+      "low-oil",
+      "summer"
+    ],
+    "allergens": [
+      "soy",
+      "sesame"
+    ],
+    "substitutions": [
+      {
+        "ingredient": "cucumber",
+        "substitute": "thinly sliced radish (mooli) or blanched bean sprouts — both absorb the dressing equally well"
+      },
+      {
+        "ingredient": "gochujang",
+        "substitute": "1 tsp red chilli powder + 1 tsp soy sauce mixed into a paste for a quicker version"
+      },
+      {
+        "ingredient": "vinegar",
+        "substitute": "fresh lemon juice — slightly different brightness but equally refreshing"
+      }
+    ],
+    "nutrition": {
+      "calories": 50,
+      "protein": 1,
+      "carbs": 9,
+      "fat": 2,
+      "fiber": 1,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "culturalNote": "Oi muchim is a classic Korean banchan (side dish) that appears on almost every Korean home dining table as a quick, palate-cleansing accompaniment. It is especially popular in summer when cucumbers are at their sweetest and most abundant.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": "Oi muchim requires no cooking and suits an Indian kitchen perfectly — all ingredients are available in any Indian market. Regular Indian cucumbers (vellarikkai in Tamil, kheera in Hindi) work well; salt them for a full 15 minutes if the skin is thick. Gochujang can be substituted with red chilli paste or a mix of Kashmiri chilli powder and a drop of soy sauce. This salad pairs beautifully with any Indian rice meal as a tangy, crunchy side.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-korean-soy-garlic-tofu-bowl",
+    "slug": "korean-soy-garlic-tofu-bowl",
+    "title": "Korean Soy Garlic Tofu Rice Bowl",
+    "nativeTitle": "간장 두부 덮밥",
+    "description": "Cornflour-coated tofu cubes pan-fried until golden and crisp, then glazed in a two-minute soy-garlic sauce and spooned over rice — a satisfying plant-based bowl with big flavour and minimal effort.",
+    "cuisine": "korean",
+    "country": "south-korea",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "firm tofu",
+        "normalizedName": "tofu",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "rice (uncooked)",
+        "normalizedName": "rice",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cornflour (for coating)",
+        "normalizedName": "cornflour",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "gingelly (sesame) oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sesame seeds",
+        "normalizedName": "sesame-seeds",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "spring onion",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli (optional)",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Press the tofu block between two plates weighted with something heavy for 10 minutes to push out moisture. Cut into 2 cm cubes and toss in cornflour until lightly coated — this layer gives them a golden crust when fried.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Cook rice with 2.5 cups water: 2 whistles in a pressure cooker or 18 minutes covered in a saucepan over low heat. Fluff and keep warm.",
+        "timerMinutes": 18,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a kadai over medium-high flame. Fry the tofu cubes in a single layer, turning every 2 minutes, until all sides are golden and crisp — about 8–10 minutes total. Transfer to a plate lined with paper. Do not crowd the pan or the tofu will steam rather than fry.",
+        "timerMinutes": 10,
+        "method": "pan-frying"
+      },
+      {
+        "order": 4,
+        "text": "In the same kadai, reduce heat to medium. Add a teaspoon more oil if the pan is dry, then fry the minced garlic, grated ginger and sliced green chilli for 45 seconds until golden and fragrant — watch carefully so the garlic does not darken or it will taste bitter.",
+        "timerMinutes": 1,
+        "method": "sauteing"
+      },
+      {
+        "order": 5,
+        "text": "Add soy sauce, sugar and 2 tbsp water. Stir and bring to a bubbling simmer for 1 minute until the sauce thickens slightly and becomes glossy. Return the fried tofu and toss gently so each piece is coated without breaking.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 6,
+        "text": "Drizzle gingelly oil over the glazed tofu, scatter sesame seeds and spring onion greens. Divide rice into bowls, spoon the tofu and all the sauce on top, and serve immediately with oi muchim or a simple cucumber salad on the side."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "pressure-cooker"
+    ],
+    "methods": [
+      "pan-frying",
+      "sauteing",
+      "pressure-cooking"
+    ],
+    "tags": [
+      "bowl",
+      "healthy",
+      "quick",
+      "comfort-food",
+      "bachelor-friendly"
+    ],
+    "allergens": [
+      "soy",
+      "gluten",
+      "sesame"
+    ],
+    "substitutions": [
+      {
+        "ingredient": "tofu",
+        "substitute": "400 g paneer, cubed — skip the cornflour coating and fry until golden on two sides; it holds its shape better"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "tamari for a slightly less salty soy flavour, same quantity"
+      },
+      {
+        "ingredient": "sesame-seeds",
+        "substitute": "chopped roasted peanuts for a similar nutty crunch — omit sesame allergen if substituting"
+      }
+    ],
+    "nutrition": {
+      "calories": 360,
+      "protein": 16,
+      "carbs": 52,
+      "fat": 11,
+      "fiber": 2,
+      "sugar": 6,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "culturalNote": "Ganjang dubu jjim (soy-braised tofu) is a cornerstone of Korean vegetarian home cooking, made quickly in a single pan and versatile enough to top rice, noodles or lettuce wraps. The soy-garlic glaze technique is applied to dozens of Korean proteins.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": "Firm tofu is sold as 'firm tofu' or 'bean curd' in most Indian supermarkets and Korean-Chinese stores in cities. Cornflour (corn starch) is available in any Indian provision store under the same name. Use a kadai for frying — the sloping sides allow you to turn the cubes easily without breaking them. If tofu is unavailable, paneer makes an excellent substitute; skip the cornflour coating as paneer holds shape without it.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-korean-quick-cabbage-kimchi",
+    "slug": "korean-quick-cabbage-kimchi",
+    "title": "Korean Quick Small-Batch Cabbage Kimchi",
+    "nativeTitle": "배추김치",
+    "description": "A small-batch vegan kimchi made from salted cabbage massaged with gochujang, garlic and ginger, ready to eat in 4–6 hours and developing deeper flavour over the following week — an achievable home ferment with entirely Indian-available ingredients.",
+    "cuisine": "korean",
+    "country": "south-korea",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "side"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 0,
+    "totalTimeMinutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "napa or regular cabbage, cut into 4 cm pieces",
+        "normalizedName": "cabbage",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "gochujang (Korean chilli paste)",
+        "normalizedName": "gochujang",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "salt (for brining)",
+        "normalizedName": "salt",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "vinegar (rice or white)",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "spring onion, cut into 3 cm lengths",
+        "normalizedName": "spring-onion",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Toss the cabbage pieces with 2 tbsp salt in a large bowl, massaging it in. Leave for 20 minutes until the cabbage has wilted and released a pool of liquid. This draws out moisture so the kimchi stays crisp rather than watery.",
+        "timerMinutes": 20
+      },
+      {
+        "order": 2,
+        "text": "Rinse the salted cabbage under cold water to wash off excess salt, then squeeze firmly in small handfuls until as dry as you can get it."
+      },
+      {
+        "order": 3,
+        "text": "Combine gochujang, minced garlic, grated ginger, sugar and vinegar in a bowl and mix into a smooth, thick paste. For a finer texture, blend these briefly in a mixie.",
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Cut spring onions into 3 cm lengths. Wearing gloves (gochujang stains deeply), combine the squeezed cabbage, spring onion and kimchi paste in a clean bowl. Massage the paste into every layer of cabbage until each piece is thoroughly and evenly coated.",
+        "method": "fermenting"
+      },
+      {
+        "order": 5,
+        "text": "Pack the kimchi tightly into a clean jar or airtight container, pressing down firmly after each handful to eliminate air pockets. Leave about 3 cm of space at the top as it expands slightly during fermentation."
+      },
+      {
+        "order": 6,
+        "text": "Close the lid loosely (not airtight — fermentation needs to breathe) and leave at room temperature for 4–6 hours in warm weather or 1–2 days in cooler conditions, until a pleasant tang is just starting to come through. Taste to judge readiness — it should smell lively and taste mildly sour. Seal and refrigerate. This kimchi keeps for up to 2 weeks, growing tangier over time."
+      }
+    ],
+    "cookware": [
+      "mixie"
+    ],
+    "methods": [
+      "no-cook",
+      "fermenting"
+    ],
+    "tags": [
+      "healthy",
+      "budget",
+      "comfort-food",
+      "leftover-friendly"
+    ],
+    "allergens": [
+      "soy"
+    ],
+    "substitutions": [
+      {
+        "ingredient": "cabbage",
+        "substitute": "cubed daikon radish (mooli) for kkakdugi, a crunchy radish kimchi — salt for 30 minutes and proceed the same way"
+      },
+      {
+        "ingredient": "gochujang",
+        "substitute": "1.5 tbsp Kashmiri chilli powder mixed with 2 tsp water and 1 tsp sugar — mild heat with a vibrant red colour"
+      },
+      {
+        "ingredient": "garlic",
+        "substitute": "1 tsp garlic powder if fresh is unavailable — use sparingly as it is more concentrated"
+      }
+    ],
+    "nutrition": {
+      "calories": 40,
+      "protein": 2,
+      "carbs": 9,
+      "fat": 0,
+      "fiber": 3,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "culturalNote": "Kimchi is the cornerstone of Korean food culture — a fermented preserve that has accompanied every Korean meal for centuries. This quick small-batch recipe omits fish sauce to keep it fully vegan, producing a clean, tangy kimchi that is a reliable condiment for any rice-based meal.",
+    "regionalVariation": "Traditional kimchi uses gochugaru (Korean chilli flakes) rather than gochujang paste, and typically includes fish sauce or salted shrimp for deeper umami. This simplified version substitutes both for pantry ingredients while preserving the essential fermented tang.",
+    "indianKitchenAdaptation": "Indian napa cabbage is sold as 'Chinese cabbage' in metro vegetable markets; regular tight-head cabbage (gobhi patta) works equally well — just increase the salt time to 30 minutes as it has thicker leaves. Gochujang is available in specialty stores in Indian cities; Kashmiri chilli powder provides a good colour substitute with gentler heat. The kimchi can be fermented in any clean glass jar. It pairs beautifully alongside dal and rice as a tangy, probiotic-rich condiment.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  }
+]

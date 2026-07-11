@@ -1,0 +1,3024 @@
+[
+  {
+    "id": "ca-mexican-chicken-tacos",
+    "slug": "mexican-chicken-tacos",
+    "title": "Mexican Chicken Tacos",
+    "nativeTitle": "Tacos de Pollo",
+    "description": "Chilli-cumin marinated chicken thighs cooked on a hot tawa until charred at the edges, then sliced and tucked into warm tortillas with fresh onion, tomato, coriander and lime juice. Street-food energy with weeknight ease.",
+    "cuisine": "mexican",
+    "country": "mexico",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "boneless chicken thighs",
+        "normalizedName": "chicken",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "soft corn or flour tortillas",
+        "normalizedName": "tortilla",
+        "quantity": 8,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, finely diced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, finely diced",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves (cilantro), chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "lime or lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder (or smoked paprika)",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "thick curd (sour cream substitute)",
+        "normalizedName": "curd",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "for topping"
+      },
+      {
+        "name": "avocado, sliced",
+        "normalizedName": "avocado",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true,
+        "notes": "or use guacamole"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Combine red chilli powder, cumin, minced garlic, 1 tbsp lime juice, 1 tbsp oil and salt in a bowl. Add the chicken thighs and coat well on all sides. Set aside for at least 10 minutes to marinate.",
+        "timerMinutes": 10,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Heat a tawa or heavy frying pan over high flame until very hot — a drop of water should evaporate immediately on contact. Add a thin film of oil and lay the chicken thighs flat without overlapping.",
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Cook without moving for 5 minutes until the underside is deeply browned with charred edges. Flip and cook the second side for another 4–5 minutes until the thighs are cooked through and the juices run clear when pierced at the thickest point.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 4,
+        "text": "Transfer the chicken to a board and rest for 3 minutes, then slice thinly across the grain. While the chicken rests, warm the tortillas one at a time on the same hot tawa, about 30 seconds per side until soft with light char spots.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 5,
+        "text": "Mix the diced onion, tomato and coriander with the remaining lime juice and a pinch of salt to make a quick pico. Build each taco: pile chicken on a tortilla, spoon on the pico, add avocado or curd if using, and serve immediately while the tortilla is still warm."
+      }
+    ],
+    "cookware": [
+      "tawa"
+    ],
+    "methods": [
+      "marinating",
+      "tawa-cooking",
+      "pan-frying"
+    ],
+    "tags": [
+      "street-food",
+      "quick",
+      "party"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein": 30,
+      "carbs": 32,
+      "fat": 13,
+      "fiber": 3,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "paneer or soya chunks for a vegetarian version",
+        "notes": "marinate the same way; reduce cook time to 4 minutes per side"
+      },
+      {
+        "ingredient": "tortilla",
+        "substitute": "thin wheat roti or chapati works as an excellent wrap base"
+      },
+      {
+        "ingredient": "avocado",
+        "substitute": "whipped curd with a pinch of salt and lemon approximates the creamy element"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "thick coconut yogurt for a dairy-free topping"
+      }
+    ],
+    "culturalNote": "Tacos de pollo are the everyday workhorse of Mexican street-food stalls, found at taqerías from Mexico City to the Yucatán coast where every family has its own marinade secret.",
+    "regionalVariation": "Oaxacan tacos often include chapulines (toasted grasshoppers) as a topping; Yucatán cooks favour achiote paste in the marinade, giving the chicken a vivid orange-red hue.",
+    "indianKitchenAdaptation": "Cook the chicken on a heavy iron tawa or in a well-seasoned kadai on high flame to replicate the charred edges. Thin wheat rotis are the ideal tortilla substitute — roll them to roughly 6 inches before cooking. Use kashmiri chilli powder in place of smoked paprika for colour without too much heat. Hung curd or thick dahi is the best stand-in for sour cream and is readily available at any Indian dairy.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-mexican-quesadillas",
+    "slug": "mexican-quesadillas",
+    "title": "Mexican Quesadillas",
+    "nativeTitle": "Quesadillas",
+    "description": "Flour tortillas filled with melted cheese, sautéed capsicum and onion, and toasted golden on a dry tawa. Quick to make, endlessly customisable, and satisfying enough for a full meal.",
+    "cuisine": "mexican",
+    "country": "mexico",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "large flour tortillas",
+        "normalizedName": "tortilla",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cheese (mozzarella or cheddar), grated",
+        "normalizedName": "cheese",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "capsicum (bell pepper), thinly sliced",
+        "normalizedName": "capsicum",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 2,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves (cilantro), chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "thick curd (sour cream)",
+        "normalizedName": "curd",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "for dipping"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat oil in a frying pan over medium-high flame. Add the sliced onion and capsicum with a pinch of salt and cook, stirring often, for 5–6 minutes until softened and lightly caramelised at the edges. Stir in the garlic, green chilli and cumin for the last minute, then take off the heat.",
+        "timerMinutes": 6,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Lay a tortilla flat on a dry tawa over medium flame. Scatter a quarter of the grated cheese over one half of the tortilla, then spoon a quarter of the capsicum mixture on top. Sprinkle with coriander leaves and fold the plain half over the filling, pressing gently.",
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Toast the quesadilla for 2 minutes until the underside is golden and crisp. Carefully flip with a spatula and toast the second side for another 2 minutes until the cheese is fully melted and both sides are evenly browned.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 4,
+        "text": "Slide onto a board and repeat with the remaining tortillas and filling. Cut each quesadilla into three wedges with a knife or pizza cutter. Serve immediately with thick curd or a drizzle of chilli sauce on the side."
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "frying-pan"
+    ],
+    "methods": [
+      "sauteing",
+      "tawa-cooking",
+      "pan-frying"
+    ],
+    "tags": [
+      "quick",
+      "kids-friendly",
+      "under-30-minutes",
+      "budget"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 350,
+      "protein": 14,
+      "carbs": 36,
+      "fat": 17,
+      "fiber": 2,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "cheese",
+        "substitute": "paneer, grated or crumbled, melts differently but works well",
+        "notes": "mix with a little butter for creaminess"
+      },
+      {
+        "ingredient": "tortilla",
+        "substitute": "thin roti or paratha — the result is a desi take on quesadillas that many families already make"
+      },
+      {
+        "ingredient": "capsicum",
+        "substitute": "corn kernels or mushrooms for a different filling"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "tomato ketchup thinned with lime juice for a simpler dip"
+      }
+    ],
+    "culturalNote": "Quesadillas originated in colonial Mexico as a way to melt asadero cheese inside tortillas; today they are as common at Mexican breakfast tables as they are on restaurant menus worldwide.",
+    "regionalVariation": "In Mexico City, quesadillas are often made on a comal without cheese and stuffed with huitlacoche (corn fungus) or squash blossoms; adding cheese is considered a regional rather than universal practice.",
+    "indianKitchenAdaptation": "A tawa is the perfect tool here — use a cast-iron tawa or heavy flat pan on medium flame. Amul or any processed cheese works if mozzarella is unavailable; grated paneer mixed with a pinch of salt and pepper is a good vegetarian substitute. Thin wheat rotis from any Indian kitchen replace flour tortillas seamlessly.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-mexican-guacamole",
+    "slug": "mexican-guacamole",
+    "title": "Mexican Guacamole",
+    "nativeTitle": "Guacamole",
+    "description": "Hand-mashed avocado with fresh lime juice, white onion, green chilli, tomato and coriander — mixed by hand in minutes and eaten immediately so the avocado stays vivid green. The centrepiece of any Mexican spread.",
+    "cuisine": "mexican",
+    "country": "mexico",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack",
+      "side"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 0,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "ripe avocados",
+        "normalizedName": "avocado",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "lime or lemon juice (fresh)",
+        "normalizedName": "lemon",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "white or red onion, finely diced",
+        "normalizedName": "onion",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, seeds removed, finely diced",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves (cilantro), finely chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced (optional)",
+        "normalizedName": "garlic",
+        "quantity": 1,
+        "unit": "clove",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Halve the avocados, remove the stones and scoop the flesh into a bowl. Add the lime juice and a good pinch of salt immediately — the acid prevents browning.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Mash the avocado with a fork to your preferred texture — some people want it completely smooth, most prefer it chunky with visible pieces. Do not use a blender; hand-mashing gives a far better result."
+      },
+      {
+        "order": 3,
+        "text": "Fold in the diced onion, tomato, green chilli, coriander and garlic (if using). Taste and adjust lime juice and salt — guacamole should be bright and tangy, not flat."
+      },
+      {
+        "order": 4,
+        "text": "Serve within 30 minutes for the best colour and flavour. If you need to hold it longer, press a piece of cling film directly onto the surface of the guacamole and refrigerate — the direct contact prevents air browning."
+      }
+    ],
+    "cookware": [
+      "blender"
+    ],
+    "methods": [
+      "no-cook"
+    ],
+    "tags": [
+      "quick",
+      "under-30-minutes",
+      "healthy",
+      "low-oil",
+      "party",
+      "summer"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 160,
+      "protein": 2,
+      "carbs": 9,
+      "fat": 14,
+      "fiber": 6,
+      "sugar": 1,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "avocado",
+        "substitute": "not really substitutable, but mashed boiled peas with lemon and mint makes an interesting green dip in a pinch"
+      },
+      {
+        "ingredient": "lemon",
+        "substitute": "raw mango juice adds a similar tartness and is very Indian-kitchen friendly"
+      },
+      {
+        "ingredient": "green-chilli",
+        "substitute": "a pinch of red chilli powder for heat without the crunch"
+      }
+    ],
+    "culturalNote": "Guacamole has been made in Mexico since the Aztec era, and the word itself comes from the Nahuatl words for avocado and sauce. True guacamole needs nothing more than avocado, lime, chilli and salt.",
+    "regionalVariation": "Oaxacan guacamole sometimes includes grasshoppers (chapulines) for a nutty crunch; some Yucatán versions add a small amount of habanero instead of green chilli for floral heat.",
+    "indianKitchenAdaptation": "Avocados are now available in most metro Indian supermarkets and on quick-commerce apps. Look for Hass avocados that yield slightly when pressed — rock-hard ones need 2–3 days at room temperature to ripen. Lime juice from Indian nimbu is a perfect substitute and often preferable for its sharpness. The dip pairs brilliantly with Indian nachos or even as a spread on toast.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-mexican-pico-de-gallo",
+    "slug": "mexican-pico-de-gallo",
+    "title": "Pico de Gallo (Fresh Tomato Salsa)",
+    "nativeTitle": "Pico de Gallo",
+    "description": "A crisp, raw Mexican condiment of finely diced tomato, white onion, green chilli and coriander dressed with lime juice. Ready in ten minutes, it brightens everything from tacos to grilled chicken.",
+    "cuisine": "mexican",
+    "country": "mexico",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "side",
+      "snack"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 0,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "ripe tomatoes, seeds removed, finely diced",
+        "normalizedName": "tomato",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "white onion, finely diced",
+        "normalizedName": "onion",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli (jalapeño or serrano), finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves (cilantro), chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "lime or lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Halve the tomatoes and use a teaspoon to scoop out the seeds and watery pulp — this keeps the salsa from becoming soupy. Dice the flesh into small, even pieces about 5 mm square.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Combine the diced tomato, onion, green chilli and coriander in a bowl. Season generously with salt and add the lime juice."
+      },
+      {
+        "order": 3,
+        "text": "Toss everything together and taste — the salsa should be bright, a little salty and lively with citrus. Add more lime or chilli to taste. Let it rest for 5 minutes before serving so the flavours can meld.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 4,
+        "text": "Serve immediately or within a few hours. After 2–3 hours refrigerated, the tomato starts to release liquid and the salsa loses its crunch — make it fresh whenever possible."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "no-cook"
+    ],
+    "tags": [
+      "quick",
+      "under-30-minutes",
+      "healthy",
+      "low-oil",
+      "summer",
+      "salad"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 25,
+      "protein": 1,
+      "carbs": 5,
+      "fat": 0,
+      "fiber": 1,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "tomato",
+        "substitute": "ripe mango for a sweet, fruity salsa that pairs well with fish"
+      },
+      {
+        "ingredient": "green-chilli",
+        "substitute": "finely diced capsicum for a milder version suitable for kids"
+      },
+      {
+        "ingredient": "lemon",
+        "substitute": "a small splash of apple cider vinegar adds similar brightness"
+      }
+    ],
+    "culturalNote": "Pico de gallo, literally 'beak of the rooster', is Mexico's everyday fresh salsa — the standard condiment on any taquería table alongside lime wedges and dried chilli sauce.",
+    "regionalVariation": "In coastal regions, a version called pico de gallo de fruta replaces the tomato with diced watermelon, jicama and cucumber, dressed with chilli powder and lime for a refreshing street snack.",
+    "indianKitchenAdaptation": "This is essentially a Mexican version of the Indian kachumber salad — dice everything small and serve alongside any grilled meat or dal-rice meal for a fresh counterpoint. Green chillies available in any Indian vegetable market are the right substitute for jalapeño. Nimbu juice is ideal here.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-mexican-arroz-rojo",
+    "slug": "mexican-arroz-rojo",
+    "title": "Arroz Rojo (Mexican Red Rice)",
+    "nativeTitle": "Arroz Rojo",
+    "description": "Long-grain rice toasted in oil until golden, then simmered in a blended tomato-garlic broth until each grain is fluffy and a deep brick-red colour. The classic side dish that accompanies virtually every Mexican plate.",
+    "cuisine": "mexican",
+    "country": "mexico",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "long-grain or basmati rice",
+        "normalizedName": "basmati-rice",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "ripe tomatoes",
+        "normalizedName": "tomato",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, roughly chopped",
+        "normalizedName": "onion",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "green chilli",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "tomato paste",
+        "normalizedName": "tomato-paste",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "for deeper colour"
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "vegetable stock or water",
+        "normalizedName": "stock",
+        "quantity": 2.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, for garnish",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Rinse the rice thoroughly until the water runs clear, then drain completely. Blend the tomatoes, onion and garlic together with a splash of water into a smooth purée — you should have about 1.5 cups of purée.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a heavy-bottomed saucepan or kadai over medium-high flame. Add the drained rice and stir constantly for 4–5 minutes until the grains turn an even golden colour and smell nutty. This toasting step is essential for the final texture.",
+        "timerMinutes": 5,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Pour in the tomato purée — it will bubble and spit, so step back. Stir and let it cook into the rice for 2–3 minutes until the liquid mostly evaporates and the rice looks brick-red and coated. Add cumin, tomato paste and salt.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 4,
+        "text": "Add the stock, bring to a rolling boil, then reduce the flame to the lowest setting. Cover the pan tightly and cook for 18 minutes without lifting the lid.",
+        "timerMinutes": 18,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Turn off the flame and let the rice steam undisturbed for 5 minutes with the lid on. Uncover, fluff gently with a fork and check that the grains are separate and cooked through. Garnish with coriander leaves and serve alongside beans, tacos or grilled meat."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "blender"
+    ],
+    "methods": [
+      "sauteing",
+      "simmering",
+      "one-pot"
+    ],
+    "tags": [
+      "comfort-food",
+      "budget",
+      "lunchbox",
+      "bachelor-friendly"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 290,
+      "protein": 5,
+      "carbs": 52,
+      "fat": 7,
+      "fiber": 2,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "basmati-rice",
+        "substitute": "sona masoori or any long-grain rice works — avoid short-grain as it goes sticky"
+      },
+      {
+        "ingredient": "stock",
+        "substitute": "plain water works fine; add an extra pinch of salt and cumin to compensate"
+      },
+      {
+        "ingredient": "tomato",
+        "substitute": "150 ml canned crushed tomatoes plus 1 tbsp tomato paste for a year-round version"
+      }
+    ],
+    "culturalNote": "Arroz rojo is the rice of the Mexican table — eaten daily across the country with beans, salsa and tortillas as a plate of frijoles con arroz that has sustained generations.",
+    "regionalVariation": "Oaxacan red rice often includes a small whole chilli simmered in the pot; some northern recipes add a handful of frozen peas and diced carrot for colour and sweetness.",
+    "indianKitchenAdaptation": "This recipe is a natural fit for an Indian pressure cooker — after toasting the rice and cooking in the tomato purée, add 2 cups stock, close the lid and cook for 2 whistles on medium flame. Release pressure naturally. The technique mirrors tomato rice (thakkali sadam) and produces excellent results. Use sona masoori or any long-grain rice from your pantry.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-mexican-burrito-bowl",
+    "slug": "mexican-burrito-bowl",
+    "title": "Mexican Burrito Bowl",
+    "nativeTitle": "Tazón de Burrito",
+    "description": "A hearty assembly of chilli-seasoned chicken, fluffy rice, spiced black beans, sweet corn, fresh pico and creamy toppings all layered in a bowl. Every component can be made ahead, making this the perfect batch-cook meal.",
+    "cuisine": "mexican",
+    "country": "mexico",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "boneless chicken breast or thigh",
+        "normalizedName": "chicken",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "cooked long-grain rice (2 cups raw)",
+        "normalizedName": "rice",
+        "quantity": 3,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "canned or cooked black beans, drained",
+        "normalizedName": "black-beans",
+        "quantity": 1,
+        "unit": "can",
+        "optional": false
+      },
+      {
+        "name": "sweet corn kernels (fresh or frozen)",
+        "normalizedName": "corn",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "tomato, finely diced",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion — half for chicken marinade, half for pico",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "lime or lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves (cilantro)",
+        "normalizedName": "coriander-leaves",
+        "quantity": 5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "thick curd (sour cream)",
+        "normalizedName": "curd",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "dollop on each bowl"
+      },
+      {
+        "name": "avocado, sliced",
+        "normalizedName": "avocado",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Mix 1 tsp red chilli powder, 1 tsp cumin, half the minced garlic, 1 tbsp lime juice, 1 tbsp oil and salt. Coat the chicken thoroughly and set aside. While the chicken marinates, cook the rice according to your usual method, then stir in a little lime juice and half the coriander.",
+        "timerMinutes": 10,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Heat 1 tbsp oil in a kadai or frying pan on high flame. Sear the marinated chicken for 5–6 minutes per side until charred at the edges and cooked through. Rest 3 minutes then slice into strips.",
+        "timerMinutes": 12,
+        "method": "pan-frying"
+      },
+      {
+        "order": 3,
+        "text": "In the same pan over medium flame, add 1 tbsp oil and the remaining garlic. Add the drained black beans with the remaining chilli powder, cumin and salt. Stir and cook for 4–5 minutes until the beans are heated through and slightly saucy. Add a splash of water if they look dry.",
+        "timerMinutes": 5,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Toast the corn in the same dry pan for 2–3 minutes until lightly charred — this caramelises the sugars and adds depth. Combine the diced tomato, remaining onion (diced), remaining coriander and the rest of the lime juice with a pinch of salt to make a quick pico.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 5,
+        "text": "Build each bowl: start with a generous scoop of coriander rice, then arrange the chicken strips, spiced beans, charred corn and pico in sections. Add sliced avocado and a dollop of curd if using. Serve immediately so the warm components contrast with the fresh pico."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "marinating",
+      "pan-frying",
+      "sauteing"
+    ],
+    "tags": [
+      "bowl",
+      "gym",
+      "healthy",
+      "bachelor-friendly",
+      "lunchbox"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 520,
+      "protein": 38,
+      "carbs": 58,
+      "fat": 14,
+      "fiber": 9,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "soya chunks or tofu for a vegetarian bowl — marinate and pan-fry the same way"
+      },
+      {
+        "ingredient": "black-beans",
+        "substitute": "rajma (kidney beans) pressure-cooked and lightly seasoned is a natural Indian equivalent"
+      },
+      {
+        "ingredient": "avocado",
+        "substitute": "a spoonful of guacamole or simply thick curd with lime"
+      },
+      {
+        "ingredient": "corn",
+        "substitute": "roasted chickpeas add a similar bite and protein boost"
+      }
+    ],
+    "culturalNote": "The burrito bowl format was popularised by fast-casual chains in the United States but draws on the traditional Mexican tradition of serving rice, beans and protein together as a balanced plate.",
+    "regionalVariation": "Tex-Mex versions pile on shredded cheese and jalapeños; a lighter coastal Mexican take might replace rice with shredded cabbage and add a fish protein.",
+    "indianKitchenAdaptation": "Rajma is the ideal substitute for black beans and needs no searching — pressure-cook 1 cup soaked rajma for 5–6 whistles, season with cumin and chilli powder. Use your regular kadai for the chicken and a pressure cooker for the beans. The entire bowl can be assembled with ingredients that are either in Indian pantries or easy to find in a metro city.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-mexican-chicken-enchiladas",
+    "slug": "mexican-chicken-enchiladas",
+    "title": "Mexican Chicken Enchiladas (Stovetop)",
+    "nativeTitle": "Enchiladas de Pollo",
+    "description": "Shredded chilli-spiced chicken rolled inside tortillas and nestled in a rich tomato-chilli sauce, finished with melted cheese in a covered pan. A simplified stovetop version that skips the oven but delivers the same comforting result.",
+    "cuisine": "mexican",
+    "country": "mexico",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 35,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "boneless chicken (breast or thigh)",
+        "normalizedName": "chicken",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "medium flour tortillas",
+        "normalizedName": "tortilla",
+        "quantity": 8,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomatoes, roughly chopped",
+        "normalizedName": "tomato",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion — 1 for sauce, 1 for filling",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves",
+        "normalizedName": "garlic",
+        "quantity": 5,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oregano, dried",
+        "normalizedName": "oregano",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "vegetable or chicken stock",
+        "normalizedName": "stock",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "mozzarella or cheddar cheese, grated",
+        "normalizedName": "cheese",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, to serve",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Place the chicken in a small pot with 1 cup water, half the garlic and a pinch of salt. Bring to a boil, reduce heat and simmer for 15 minutes until the chicken is fully cooked through. Remove, cool slightly and shred with two forks. Reserve the poaching liquid.",
+        "timerMinutes": 15,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Blend the tomatoes, one onion (quartered) and the remaining garlic into a smooth sauce. Heat 1 tbsp oil in a kadai over medium flame, pour in the blended sauce and let it sizzle. Cook for 8–10 minutes, stirring occasionally, until the sauce darkens and thickens. Add 1 tsp chilli powder, cumin, coriander powder, oregano and salt, then stir in the stock. Simmer 3 more minutes.",
+        "timerMinutes": 13,
+        "method": "simmering"
+      },
+      {
+        "order": 3,
+        "text": "Finely dice the second onion and sauté it in 1 tbsp oil until soft. Add the shredded chicken, remaining chilli powder and salt; stir together for 2 minutes until the filling is well seasoned and heated through."
+      },
+      {
+        "order": 4,
+        "text": "Briefly dip each tortilla in the warm tomato sauce to soften it — about 5 seconds per side. Spoon 2–3 tbsp of chicken filling along the centre of each tortilla and roll it up tightly. Arrange all the rolled enchiladas seam-side down in a large wide kadai or frying pan.",
+        "method": "sauteing"
+      },
+      {
+        "order": 5,
+        "text": "Pour the remaining tomato sauce over the enchiladas and scatter the grated cheese on top. Cover the pan with a lid and cook on low flame for 8 minutes until the cheese melts and the tortillas are steamed through. Garnish with coriander leaves and serve directly from the pan.",
+        "timerMinutes": 8
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "heavy-bottomed-pot",
+      "blender"
+    ],
+    "methods": [
+      "boiling",
+      "simmering",
+      "sauteing"
+    ],
+    "tags": [
+      "comfort-food",
+      "party",
+      "gravy"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 34,
+      "carbs": 40,
+      "fat": 19,
+      "fiber": 4,
+      "sugar": 6,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "shredded rajma or soya chunks for a hearty vegetarian filling"
+      },
+      {
+        "ingredient": "tortilla",
+        "substitute": "thin wheat rotis can be rolled and used as enchilada wrappers"
+      },
+      {
+        "ingredient": "cheese",
+        "substitute": "crumbled paneer mixed with a pinch of salt melts less smoothly but tastes good"
+      },
+      {
+        "ingredient": "stock",
+        "substitute": "the chicken poaching liquid is perfect here — use it instead of stock"
+      }
+    ],
+    "culturalNote": "Enchiladas date back to pre-Columbian Mexico where tortillas were dipped in chilli sauce and eaten plain — the cheese and chicken filling are later colonial additions that have become the defining version worldwide.",
+    "regionalVariation": "Enchiladas verdes use a tomatillo-based green sauce; mole enchiladas from Oaxaca are smothered in a complex chocolate-chilli sauce that takes hours to make.",
+    "indianKitchenAdaptation": "This stovetop version was specifically designed to work in an Indian kitchen without an oven. Use your regular kadai as the baking dish — a wide kadai with a tight-fitting lid is ideal. Thin wheat rotis are the perfect tortilla substitute. Amul cheese or any processed cheese melts easily and is available everywhere. The tomato-chilli sauce is very similar to a shahi gravy in technique.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-mexican-chilaquiles",
+    "slug": "mexican-chilaquiles",
+    "title": "Mexican Chilaquiles",
+    "nativeTitle": "Chilaquiles Rojos",
+    "description": "Crisp tortilla pieces simmered in a smoky tomato-chilli sauce until they soak up the liquid and turn tender, then crowned with fried eggs, coriander, curd and crumbled cheese. The quintessential Mexican weekend breakfast.",
+    "cuisine": "mexican",
+    "country": "mexico",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "lunch"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "corn or flour tortillas, cut into wedges",
+        "normalizedName": "tortilla",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "eggs",
+        "normalizedName": "egg",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomatoes, roughly chopped",
+        "normalizedName": "tomato",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, roughly chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies or red chilli powder",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "water or stock",
+        "normalizedName": "stock",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "thick curd or sour cream",
+        "normalizedName": "curd",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "for topping"
+      },
+      {
+        "name": "cheese (feta or cheddar), crumbled",
+        "normalizedName": "cheese",
+        "quantity": 40,
+        "unit": "g",
+        "optional": true,
+        "notes": "for topping"
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Cut the tortillas into triangles or rough 5 cm squares. Heat 2 tbsp oil in a kadai over medium-high flame and shallow-fry the tortilla pieces in batches for 2–3 minutes until crisp and golden. Drain on paper and set aside.",
+        "timerMinutes": 6,
+        "method": "shallow-frying"
+      },
+      {
+        "order": 2,
+        "text": "Blend the tomatoes, onion, garlic and dried red chillies together into a smooth sauce. In the same kadai with a little more oil, pour in the blended sauce — it will spit, so stand back. Cook over medium heat for 5–6 minutes, stirring often, until the sauce deepens in colour and smell.",
+        "timerMinutes": 6,
+        "method": "simmering"
+      },
+      {
+        "order": 3,
+        "text": "Season the sauce with cumin and salt, add the stock and stir. Tip in the fried tortilla pieces and fold them through the sauce gently — you want them coated but not broken. Simmer for 2–3 minutes until the tortillas have absorbed the sauce and softened to your preference. Remove from heat.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 4,
+        "text": "In a separate small frying pan, heat a thin film of oil and fry the eggs sunny-side up over medium flame until the whites are set but the yolks are still runny, about 2–3 minutes.",
+        "timerMinutes": 3,
+        "method": "pan-frying"
+      },
+      {
+        "order": 5,
+        "text": "Divide the chilaquiles between two plates, set a fried egg on top of each and finish with curd, crumbled cheese and coriander leaves. Eat immediately — the tortillas continue to soften and the dish is best right off the pan."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "frying-pan"
+    ],
+    "methods": [
+      "shallow-frying",
+      "simmering",
+      "pan-frying"
+    ],
+    "tags": [
+      "comfort-food",
+      "budget",
+      "quick",
+      "under-30-minutes"
+    ],
+    "allergens": [
+      "egg",
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 430,
+      "protein": 17,
+      "carbs": 38,
+      "fat": 24,
+      "fiber": 4,
+      "sugar": 7,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "tortilla",
+        "substitute": "stale roti or chapati torn into pieces works as a wonderful base for this dish"
+      },
+      {
+        "ingredient": "egg",
+        "substitute": "skip the egg for a vegetarian version; shredded paneer or curd on top adds protein"
+      },
+      {
+        "ingredient": "dried-red-chilli",
+        "substitute": "1.5 tsp red chilli powder gives the same heat if whole chillies are unavailable"
+      },
+      {
+        "ingredient": "cheese",
+        "substitute": "crumbled paneer or a few tbsp of thick curd is fine"
+      }
+    ],
+    "culturalNote": "Chilaquiles are Mexico's champion leftover dish — originally a way to revive stale tortillas in chilli sauce. The name comes from the Nahuatl word for 'submerged in chilli sauce'.",
+    "regionalVariation": "Chilaquiles verdes use a green tomatillo sauce; some Mexico City versions add shredded chicken or are finished in the oven for a crispy top layer.",
+    "indianKitchenAdaptation": "Stale or day-old rotis are a perfect substitute for tortillas — tear them into rough triangles and shallow-fry or toast dry on a tawa until crisp before adding to the sauce. The sauce is basically a spiced tomato gravy that any Indian cook will feel at home making. The dish has a strong resemblance to the North Indian 'roti churi' concept — comfort food built around repurposing bread.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-mexican-black-bean-soup",
+    "slug": "mexican-black-bean-soup",
+    "title": "Mexican Black Bean Soup",
+    "nativeTitle": "Sopa de Frijoles Negros",
+    "description": "A velvety, cumin-fragrant soup of pressure-cooked black beans blended with sautéed onion, garlic and chilli, then served with a swirl of curd and fresh coriander. Simple, filling and deeply satisfying on any night.",
+    "cuisine": "mexican",
+    "country": "mexico",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 45,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "dried black beans, soaked overnight",
+        "normalizedName": "black-beans",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "onion, diced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves",
+        "normalizedName": "garlic",
+        "quantity": 5,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "green chilli",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oregano, dried",
+        "normalizedName": "oregano",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "lime or lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, to serve",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Drain and rinse the soaked black beans. Add them to a pressure cooker with 4 cups water and pressure-cook on medium flame for 6–7 whistles until the beans are completely tender and can be mashed between two fingers. Let the pressure release naturally.",
+        "timerMinutes": 25,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a heavy-bottomed pot over medium flame. Add the diced onion and cook for 5–6 minutes until golden. Add garlic and green chilli and sauté for 1 minute until fragrant. Stir in the chopped tomato with a pinch of salt and cook for 5 minutes until the tomato breaks down.",
+        "timerMinutes": 12,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add the cumin, chilli powder and oregano to the onion-tomato base and stir for 30 seconds. Tip in the pressure-cooked beans along with all their cooking liquid and stir well to combine."
+      },
+      {
+        "order": 4,
+        "text": "Use a potato masher or the back of a ladle to partially mash the beans — aim for about half the beans crushed, leaving the rest whole for texture. Alternatively, ladle half the soup into a blender, blitz smooth and return to the pot. Simmer for 8–10 minutes until the soup reaches your preferred consistency.",
+        "timerMinutes": 10,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Squeeze in the lime juice, taste and adjust salt and cumin. Serve hot in bowls, garnished with coriander leaves. A swirl of thick curd on top adds a cooling creamy contrast, or serve alongside warm tortillas or crusty bread."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "heavy-bottomed-pot",
+      "blender"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "sauteing",
+      "simmering"
+    ],
+    "tags": [
+      "soup",
+      "healthy",
+      "budget",
+      "bachelor-friendly",
+      "comfort-food",
+      "one-pot-meal"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 220,
+      "protein": 12,
+      "carbs": 36,
+      "fat": 5,
+      "fiber": 12,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "black-beans",
+        "substitute": "rajma (kidney beans) is the closest Indian substitute — pressure-cook for 5–6 whistles"
+      },
+      {
+        "ingredient": "black-beans",
+        "substitute": "a can of black beans shortens cook time to 20 minutes total",
+        "notes": "drain and rinse before using"
+      },
+      {
+        "ingredient": "oregano",
+        "substitute": "a few curry leaves and a pinch of garam masala for an Indo-Mexican twist"
+      }
+    ],
+    "culturalNote": "Black bean soup is a staple across Central America and Mexico, where black beans (frijoles negros) are cooked daily and eaten in some form at almost every meal.",
+    "regionalVariation": "Cuban black bean soup (sopa de frijoles negros) uses bay leaves and a sofrito of onion, garlic and capsicum; Colombian versions are thicker and often served over white rice.",
+    "indianKitchenAdaptation": "Black beans are now stocked at most Indian supermarkets, health-food stores and online. Rajma is a near-identical substitute available everywhere — the soup technique is almost identical to a simple rajma dal. Use your pressure cooker for efficient bean cooking. The cumin-tomato-onion base will feel familiar to any Indian cook who makes dal.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-mexican-refried-beans",
+    "slug": "mexican-refried-beans",
+    "title": "Refried Beans (Frijoles Refritos)",
+    "nativeTitle": "Frijoles Refritos",
+    "description": "Pressure-cooked rajma or black beans mashed and fried in a seasoned pan until they become a thick, creamy spread. The essential Mexican side dish that doubles as a dip, a taco filling and a protein base for any bowl.",
+    "cuisine": "mexican",
+    "country": "mexico",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "side",
+      "snack",
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 45,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rajma (kidney beans) or black beans, soaked overnight",
+        "normalizedName": "rajma",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "onion, finely diced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 4,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "lime or lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Drain and rinse the soaked beans. Pressure-cook them with 4 cups water and a pinch of salt on medium flame for 6–7 whistles until completely soft — the beans should collapse without resistance when pressed. Let the pressure release naturally and reserve the cooking liquid separately.",
+        "timerMinutes": 25,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a wide kadai over medium flame. Add the cumin seeds and let them sizzle for 15 seconds, then add the diced onion. Cook for 6–7 minutes until the onion turns golden and begins to caramelise at the edges.",
+        "timerMinutes": 7,
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add the minced garlic and cook for 1 minute until fragrant. Stir in the red chilli powder for 20 seconds. Add the cooked beans along with about half a cup of the reserved cooking liquid.",
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Mash the beans vigorously with a potato masher or the back of a large spoon while the mixture is still in the pan. You want a rough, spreadable consistency — not a smooth purée. Add more cooking liquid a splash at a time until the refried beans reach your preferred thickness.",
+        "timerMinutes": 8
+      },
+      {
+        "order": 5,
+        "text": "Cook the mashed beans over medium heat, stirring frequently, for 5 minutes until they pull away from the sides of the pan and look glossy. Add lime juice, taste for salt and serve warm as a side, a dip with tortilla chips or as a filling in tacos and burritos.",
+        "timerMinutes": 5
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "kadai"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "tempering",
+      "sauteing"
+    ],
+    "tags": [
+      "budget",
+      "comfort-food",
+      "bachelor-friendly",
+      "healthy"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 200,
+      "protein": 10,
+      "carbs": 32,
+      "fat": 5,
+      "fiber": 10,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "rajma",
+        "substitute": "canned kidney beans cut cook time to 15 minutes; drain and rinse before using"
+      },
+      {
+        "ingredient": "rajma",
+        "substitute": "black beans for a darker, earthier Mexican-style version"
+      },
+      {
+        "ingredient": "oil",
+        "substitute": "butter or ghee adds richness — 2 tbsp replaces the 3 tbsp oil for a richer result",
+        "notes": "adds dairy allergen"
+      }
+    ],
+    "culturalNote": "The name 'refried' is a mistranslation — frijoles refritos means 'well-fried beans', not fried twice. The dish is made fresh daily across Mexico and rarely involves frying more than once.",
+    "regionalVariation": "In northern Mexico, lard is the traditional fat and gives the beans a distinctive richness; bean varieties vary by region — pinto beans in the north, black beans on the Gulf Coast and Yucatán.",
+    "indianKitchenAdaptation": "Rajma is the ideal Mexican-to-Indian substitution here — the kidney bean already features in Indian cuisine and needs no sourcing effort. This recipe is almost identical to a dry rajma preparation without the tomato gravy. Use your pressure cooker as usual. The finished spread can serve as a dal substitute with rice or as a protein layer in wraps made with roti.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-mexican-elote-corn",
+    "slug": "mexican-elote-corn",
+    "title": "Elote-Style Charred Corn",
+    "nativeTitle": "Elote",
+    "description": "Corn cobs charred directly over a flame or on a tawa, then slathered with a tangy curd dressing, dusted with red chilli powder and finished with a squeeze of lime and fresh coriander. Mexico's most beloved street snack.",
+    "cuisine": "mexican",
+    "country": "mexico",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack",
+      "side"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "corn cobs",
+        "normalizedName": "corn",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "thick curd or sour cream",
+        "normalizedName": "curd",
+        "quantity": 5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "butter, softened",
+        "normalizedName": "butter",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "for extra richness"
+      },
+      {
+        "name": "red chilli powder or smoked paprika",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "lime or lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 1,
+        "unit": "clove",
+        "optional": true
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Husk the corn cobs and rinse well. Mix the thick curd with minced garlic (if using), a pinch of salt and the lime juice in a small bowl — this is the dressing. Set aside.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Place the corn cobs directly on the gas flame on medium heat, rotating with tongs every 2 minutes, until the kernels are charred in patches all around — about 8–10 minutes total. Alternatively, heat a dry tawa to smoking-hot and char the cobs on all sides, turning every 2 minutes.",
+        "timerMinutes": 10,
+        "method": "grilling"
+      },
+      {
+        "order": 3,
+        "text": "While the corn is still hot, rub softened butter over it if using — the heat will melt it immediately into the crevices. This adds richness and helps the dressing cling.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 4,
+        "text": "Generously spread or brush the curd dressing all over each hot cob, making sure it gets into the char marks. Dust evenly with red chilli powder, scatter coriander leaves on top and give a final squeeze of lime. Serve immediately on the cob or cut the kernels off and toss in a bowl for a salad-style version."
+      }
+    ],
+    "cookware": [
+      "tawa"
+    ],
+    "methods": [
+      "grilling",
+      "no-cook"
+    ],
+    "tags": [
+      "street-food",
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "summer",
+      "kids-friendly"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 160,
+      "protein": 4,
+      "carbs": 28,
+      "fat": 5,
+      "fiber": 3,
+      "sugar": 8,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "curd",
+        "substitute": "thick coconut yogurt for a dairy-free version that is equally creamy"
+      },
+      {
+        "ingredient": "corn",
+        "substitute": "frozen corn kernels pan-charred in a dry hot kadai give the same effect if fresh cobs are unavailable"
+      },
+      {
+        "ingredient": "butter",
+        "substitute": "a small drizzle of olive oil or even ghee adds a similar richness"
+      }
+    ],
+    "culturalNote": "Elote is Mexico City's most iconic street snack, sold by vendors who push carts loaded with boiling or grilling corn. The dressing combination of crema, chilli, lime and cotija cheese is a perfect balance of all five tastes.",
+    "regionalVariation": "Esquites is the off-the-cob version served in a cup — the same flavours tossed with cup corn. Some Oaxacan versions add a squirt of Valentina hot sauce and a crumble of string cheese.",
+    "indianKitchenAdaptation": "Charring corn directly on the gas flame is already extremely common in India — this is the exact same 'bhutta' technique. The Mexican twist is just the dressing: swap the butter and sour cream for thick dahi, add kashmiri chilli powder instead of smoked paprika, and lime juice. Chaat masala can replace the chilli powder for an Indo-Mexican fusion version.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-mexican-chicken-fajitas",
+    "slug": "mexican-chicken-fajitas",
+    "title": "Mexican Chicken Fajitas (Tawa Style)",
+    "nativeTitle": "Fajitas de Pollo",
+    "description": "Strips of chilli-lime marinated chicken and sizzling capsicum cooked on a screaming-hot tawa, then wrapped in warm tortillas at the table. The sizzle, the smell and the wrap-it-yourself ritual make this an instant party dish.",
+    "cuisine": "mexican",
+    "country": "mexico",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "boneless chicken breast or thigh, sliced into strips",
+        "normalizedName": "chicken",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "capsicum (mixed colours if possible), sliced",
+        "normalizedName": "capsicum",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, sliced into half-rings",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "lime or lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "flour tortillas, to serve",
+        "normalizedName": "tortilla",
+        "quantity": 8,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "thick curd or sour cream",
+        "normalizedName": "curd",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Combine red chilli powder, cumin, coriander powder, garlic, 2 tbsp lime juice, 1 tbsp oil and salt in a bowl. Add the chicken strips and toss well to coat. Marinate for at least 10 minutes — 30 minutes in the refrigerator gives a deeper flavour.",
+        "timerMinutes": 10,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Heat a tawa or cast-iron pan to the highest possible flame until visibly smoking. Add 1 tbsp oil and lay the marinated chicken strips in a single layer without overlapping. Cook undisturbed for 2–3 minutes until char marks form, then toss and cook for another 2–3 minutes until cooked through. Transfer to a plate.",
+        "timerMinutes": 6,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 3,
+        "text": "In the same hot tawa, add the remaining oil and tip in the sliced capsicum and onion. Keep the flame high and toss the vegetables every 30 seconds for 4–5 minutes — you want them tender with char marks but still with a little bite. Season with salt and the remaining lime juice.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 4,
+        "text": "Return the chicken to the tawa, toss together with the vegetables for 30 seconds to combine the flavours. Warm the tortillas on the same tawa or directly over the gas flame for 20 seconds per side."
+      },
+      {
+        "order": 5,
+        "text": "Carry the sizzling tawa straight to the table for maximum effect. Let everyone build their own fajitas: pile chicken and vegetables into a tortilla, add coriander and a spoonful of curd, then roll or fold and eat immediately."
+      }
+    ],
+    "cookware": [
+      "tawa"
+    ],
+    "methods": [
+      "marinating",
+      "tawa-cooking",
+      "stir-frying"
+    ],
+    "tags": [
+      "party",
+      "quick",
+      "grill-bbq",
+      "street-food"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 400,
+      "protein": 32,
+      "carbs": 36,
+      "fat": 13,
+      "fiber": 3,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "paneer strips marinated the same way make excellent vegetarian fajitas"
+      },
+      {
+        "ingredient": "capsicum",
+        "substitute": "zucchini or mushrooms char well on a high flame and add an earthy note"
+      },
+      {
+        "ingredient": "tortilla",
+        "substitute": "thin whole-wheat roti or paratha — perfect Indian substitution"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "guacamole or a squeeze of lemon with sliced avocado"
+      }
+    ],
+    "culturalNote": "Fajitas originated along the Texas-Mexico border where ranch workers were paid partly in skirt steak, which they grilled over wood fires and wrapped in tortillas. Today the format works for any protein.",
+    "regionalVariation": "Traditional Tex-Mex fajitas use skirt steak (arrachera); fish and prawn fajitas are popular along Mexico's Pacific coast served with a green tomatillo salsa.",
+    "indianKitchenAdaptation": "The tawa is the original Indian fajita pan — use the heaviest iron tawa you have, heat it properly before adding food, and cook on the highest flame. The result rivals any restaurant version. Kashmiri chilli powder gives an authentic red colour; a tiny pinch of dried mango powder (amchur) adds the lime-sour note if you run out of nimbu. Roti serves as a seamless wrap.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-brazilian-feijoada",
+    "slug": "brazilian-feijoada",
+    "title": "Brazilian Feijoada (Simplified Pressure-Cooker)",
+    "nativeTitle": "Feijoada",
+    "description": "Brazil's iconic black bean stew cooked with pork, garlic and bay leaf in a pressure cooker until thick and deeply savoury. This simplified home version captures the soul of the dish without requiring specialty cured meats.",
+    "cuisine": "brazilian",
+    "country": "brazil",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 55,
+    "totalTimeMinutes": 70,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "dried black beans, soaked overnight",
+        "normalizedName": "black-beans",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "pork shoulder or belly, cut into 3 cm pieces",
+        "normalizedName": "pork",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion, finely diced",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, minced",
+        "normalizedName": "garlic",
+        "quantity": 6,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "tomato, chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "bay leaves",
+        "normalizedName": "bay-leaf",
+        "quantity": 3,
+        "unit": "leaf",
+        "optional": false
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, freshly ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "orange juice or lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "brightens the stew"
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "spring onion, sliced, to serve",
+        "normalizedName": "spring-onion",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Drain and rinse the soaked black beans. Season the pork pieces generously with salt, black pepper and cumin. Heat 2 tbsp oil in a pressure cooker on high flame and sear the pork in batches until browned on all sides, about 3–4 minutes per batch. Remove and set aside.",
+        "timerMinutes": 8,
+        "method": "pan-frying"
+      },
+      {
+        "order": 2,
+        "text": "In the same pressure cooker, add 1 tbsp oil and cook the diced onion over medium heat for 5 minutes until golden. Add the minced garlic and stir for 1 minute. Add the tomatoes with a pinch of salt and cook for 3–4 minutes until they soften.",
+        "timerMinutes": 10,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Return the seared pork to the pot. Add the drained black beans, bay leaves and 5 cups water. Stir well, close the pressure cooker lid and cook on medium flame for 8–9 whistles until both the beans and pork are completely tender.",
+        "timerMinutes": 30,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Allow the pressure to release naturally. Open the lid — the stew should be thick and dark. If it looks too watery, simmer uncovered on medium heat for 10 minutes stirring occasionally until it thickens to a spoonable consistency. Remove the bay leaves.",
+        "timerMinutes": 10,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Stir in the orange or lemon juice for brightness, taste and adjust salt. Serve over white rice with sliced spring onion and a wedge of lime on the side. Traditional accompaniments include sautéed collard greens (use spinach) and fried cassava or toasted cassava flour (farinha)."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "kadai"
+    ],
+    "methods": [
+      "pan-frying",
+      "sauteing",
+      "pressure-cooking",
+      "simmering"
+    ],
+    "tags": [
+      "comfort-food",
+      "one-pot-meal",
+      "party",
+      "winter"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 420,
+      "protein": 30,
+      "carbs": 40,
+      "fat": 14,
+      "fiber": 12,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "pork",
+        "substitute": "beef or mutton pieces for a similar hearty stew in non-pork households"
+      },
+      {
+        "ingredient": "black-beans",
+        "substitute": "rajma (kidney beans) works well here — the stew turns a slightly different colour but the flavour is excellent"
+      },
+      {
+        "ingredient": "pork",
+        "substitute": "omit meat entirely and add an extra cup of beans plus a handful of soya chunks for a vegetarian feijoada",
+        "notes": "dietType must change to vegetarian"
+      }
+    ],
+    "culturalNote": "Feijoada is Brazil's national dish, traditionally made on Wednesdays and Saturdays. It originated as a peasant stew made from the less-prized cuts of pork, slow-cooked with black beans until everything melded into one pot.",
+    "regionalVariation": "Rio de Janeiro's version uses a broader mix of pork cuts including smoked ribs, trotters and tongue; São Paulo versions tend to be slightly thicker. Bahia adds dendê palm oil for a more golden colour.",
+    "indianKitchenAdaptation": "The pressure cooker is the ideal tool for this recipe — it cuts the bean and pork cooking time from 3 hours to 30 minutes. Black beans are increasingly available in Indian cities; rajma is a completely interchangeable substitute. Pork belly available from specialty butchers in Christian and tribal regions of India is the closest cut to what Brazilians use. The thick, savoury stew eaten over rice mirrors the experience of dal-rice in Indian cuisine.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-peruvian-lomo-saltado",
+    "slug": "peruvian-lomo-saltado",
+    "title": "Peruvian Lomo Saltado",
+    "nativeTitle": "Lomo Saltado",
+    "description": "A vibrant stir-fry of beef strips, tomato, capsicum and spring onion tossed with soy sauce, vinegar and cumin in a blazing wok, then served over white rice and crispy fried potato strips. The meeting point of Chinese and Peruvian cooking.",
+    "cuisine": "peruvian",
+    "country": "peru",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef sirloin or rump, sliced into thin strips",
+        "normalizedName": "beef",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "potatoes, cut into thick matchstick strips",
+        "normalizedName": "potato",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomatoes, cut into wedges",
+        "normalizedName": "tomato",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "capsicum (red or yellow), cut into strips",
+        "normalizedName": "capsicum",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "spring onions, cut into 4 cm lengths",
+        "normalizedName": "spring-onion",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "vinegar (red wine or white)",
+        "normalizedName": "vinegar",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "green chilli, sliced (ají amarillo substitute)",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, roughly chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "cooked white rice, to serve",
+        "normalizedName": "rice",
+        "quantity": 3,
+        "unit": "cup",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Marinate the beef strips with 1 tbsp soy sauce, half the cumin and a pinch of salt for 10 minutes. Meanwhile, deep-fry or shallow-fry the potato strips in hot oil until golden and crispy — about 5–6 minutes. Drain and set aside; season with salt.",
+        "timerMinutes": 15,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Heat a wok or kadai over the highest possible flame until smoking. Add 2 tbsp oil and, when it shimmers, add the beef strips in a single layer without stirring for 1 minute to get a sear. Toss and cook for another 2 minutes — the beef should be browned outside but still slightly pink inside. Remove and set aside.",
+        "timerMinutes": 3,
+        "method": "stir-frying"
+      },
+      {
+        "order": 3,
+        "text": "In the same wok, add 1 tbsp oil on high flame. Add the minced garlic and stir for 20 seconds, then add the capsicum and spring onion. Stir-fry for 2 minutes until they start to soften at the edges but retain crunch.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 4,
+        "text": "Add the tomato wedges and toss for 1 minute — they should stay chunky, not dissolve. Return the beef to the wok. Pour in the remaining soy sauce, vinegar, remaining cumin and the sliced green chilli. Toss everything together on high heat for 1–2 minutes until the sauce reduces and coats the ingredients.",
+        "timerMinutes": 2,
+        "method": "stir-frying"
+      },
+      {
+        "order": 5,
+        "text": "Scatter coriander leaves over the stir-fry and toss once more. Serve immediately over white rice with the crispy potato strips arranged alongside or piled on top. The contrast between the saucy stir-fry and the crunchy potatoes is the defining character of the dish."
+      }
+    ],
+    "cookware": [
+      "wok",
+      "kadai"
+    ],
+    "methods": [
+      "marinating",
+      "stir-frying",
+      "shallow-frying"
+    ],
+    "tags": [
+      "comfort-food",
+      "party",
+      "quick"
+    ],
+    "allergens": [
+      "soy",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 510,
+      "protein": 35,
+      "carbs": 48,
+      "fat": 18,
+      "fiber": 5,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "beef",
+        "substitute": "chicken strips or paneer for non-beef households — marinate and cook the same way"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "2 tbsp soy sauce can be replaced with 1 tbsp tamarind concentrate and 1 tbsp salt-water for a soy-free version"
+      },
+      {
+        "ingredient": "potato",
+        "substitute": "cassava chips or sweet potato fries for an authentic Peruvian-style variation"
+      }
+    ],
+    "culturalNote": "Lomo saltado is the prime expression of Chifa cooking — the fusion of Chinese stir-fry techniques with Peruvian ingredients brought by Cantonese immigrant workers in the 19th century. It is Peru's most popular restaurant dish.",
+    "regionalVariation": "Lima restaurants serve it with ají amarillo paste, a fruity Peruvian yellow chilli unavailable outside the country — green chilli with a pinch of turmeric for colour is the best approximation. Some versions add a splash of Pisco brandy for a flambéed finish.",
+    "indianKitchenAdaptation": "The wok technique is identical to Indo-Chinese stir-frying already popular in India. Use your heaviest kadai on maximum flame, add the oil and let it smoke before adding meat — high heat is non-negotiable. Light soy sauce is widely available at Indian supermarkets and online. Beef can be substituted with chicken for a crowd that doesn't eat red meat. The fried potato strips are very similar to Indian French fries — use your standard kadai for deep-frying.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-latin-corn-pancakes",
+    "slug": "latin-corn-pancakes",
+    "title": "Latin Corn and Rice Flour Pancakes",
+    "nativeTitle": "Tortitas de Elote",
+    "description": "Fluffy sweet-savoury pancakes made from fresh corn blended with rice flour and a touch of jaggery, cooked golden on a tawa. Inspired by Mexican tortitas de elote and Venezuelan cachapa, adapted with rice flour for an Indian pantry.",
+    "cuisine": "mexican",
+    "country": "mexico",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "snack",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "fresh or frozen sweet corn kernels",
+        "normalizedName": "corn",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "rice flour",
+        "normalizedName": "rice-flour",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "egg",
+        "normalizedName": "egg",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true,
+        "notes": "adds binding; skip for eggless version"
+      },
+      {
+        "name": "milk",
+        "normalizedName": "milk",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "jaggery or sugar",
+        "normalizedName": "jaggery",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "butter or oil",
+        "normalizedName": "butter",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "for cooking"
+      },
+      {
+        "name": "green chilli, finely chopped (savoury variation)",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Set aside one-third of the corn kernels. Blend the remaining two-thirds with the milk, egg (if using), jaggery and salt in a blender until you get a thick, slightly grainy batter — do not over-blend, some texture is ideal.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Pour the blended batter into a bowl and fold in the reserved whole corn kernels, rice flour, and green chilli and coriander if using. The batter should be thick enough to hold its shape when dropped from a spoon — add a splash more milk if it seems too stiff."
+      },
+      {
+        "order": 3,
+        "text": "Heat a tawa over medium flame and add a small knob of butter or a drizzle of oil. Spoon 3–4 tbsp of batter per pancake onto the tawa, spreading gently into a circle about 8 cm across. Cook for 3 minutes until the edges set and the underside is golden.",
+        "timerMinutes": 3,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Flip carefully and cook the second side for 2–3 minutes until golden and cooked through — press lightly with a spatula; no wet batter should ooze from the sides. Repeat with remaining batter, adding butter to the tawa between batches.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 5,
+        "text": "Serve the pancakes warm, either sweet — with a drizzle of honey or a small knob of butter — or savoury with thick curd, pico de gallo or any chutney. The pancakes are best eaten fresh off the tawa."
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "blender"
+    ],
+    "methods": [
+      "tawa-cooking",
+      "no-cook"
+    ],
+    "tags": [
+      "kids-friendly",
+      "budget",
+      "quick",
+      "under-30-minutes",
+      "sweet",
+      "tiffin"
+    ],
+    "allergens": [
+      "dairy",
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 180,
+      "protein": 4,
+      "carbs": 32,
+      "fat": 5,
+      "fiber": 2,
+      "sugar": 8,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "egg",
+        "substitute": "1 tbsp extra rice flour and 1 tsp baking powder for a fully eggless binder",
+        "notes": "texture will be slightly denser"
+      },
+      {
+        "ingredient": "rice-flour",
+        "substitute": "besan (gram flour) for a nuttier, more savoury pancake"
+      },
+      {
+        "ingredient": "jaggery",
+        "substitute": "white or brown sugar — the flavour of jaggery is preferred for its caramel note"
+      },
+      {
+        "ingredient": "butter",
+        "substitute": "coconut oil adds a tropical flavour that suits the corn very well"
+      }
+    ],
+    "culturalNote": "Tortitas de elote are a beloved Mexican antojito made during corn season. The cachapa, their Venezuelan cousin, is a thicker version cooked on a budare (clay griddle) and typically filled with hand cheese.",
+    "regionalVariation": "Mexican versions are thinner and crispier around the edges; Venezuelan cachapa are thicker and softer and often sandwiched with salty fresh cheese (queso de mano). Both celebrate peak-season sweet corn.",
+    "indianKitchenAdaptation": "Sweet corn is widely available year-round in India at vegetable markets and frozen in supermarkets. Rice flour (arisi maavu) is a South Indian pantry staple. This recipe bridges Mexican and Indian tiffin traditions — the pancake technique is identical to making a thick dosa. Jaggery (vellam) adds the authentic sweet note. A mixie does the blending job perfectly.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-peruvian-fish-ceviche",
+    "slug": "peruvian-fish-ceviche",
+    "title": "Peruvian Fish Ceviche",
+    "nativeTitle": "Ceviche de Pescado",
+    "description": "Cubed fresh fish marinated in an abundance of lime juice until 'cooked' by the acid, then tossed with red onion, green chilli, coriander and salt. A bright, cooling dish that requires no heat — the citrus does all the work.",
+    "cuisine": "peruvian",
+    "country": "peru",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "dietType": [
+      "pescatarian",
+      "high_protein",
+      "low_carb"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "firm fresh fish (seer fish, tilapia or pomfret), skinless, cubed",
+        "normalizedName": "fish",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "lime or lemon juice (freshly squeezed)",
+        "normalizedName": "lemon",
+        "quantity": 150,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "red onion, sliced paper-thin",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, finely sliced (ají limo substitute)",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves (cilantro), roughly torn",
+        "normalizedName": "coriander-leaves",
+        "quantity": 5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 1,
+        "unit": "clove",
+        "optional": true
+      },
+      {
+        "name": "ginger, minced",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "not traditional but popular in Indian coastal versions"
+      },
+      {
+        "name": "corn on the cob, boiled and cut into rounds",
+        "normalizedName": "corn",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true,
+        "notes": "traditional Peruvian garnish"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Ensure the fish is very fresh — this dish is only as good as the fish you use. Cut it into 2–3 cm cubes, removing any remaining bones. Rinse under cold water and pat dry.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Thinly slice the red onion and rinse under cold running water for 2 minutes to remove harshness. Drain and squeeze out excess moisture. This step is important — raw onion without rinsing overpowers the dish.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 3,
+        "text": "Place the fish cubes in a non-reactive bowl (glass or ceramic, not metal). Season generously with salt and toss well — the salt starts the texture-firming process. Add the lime juice, minced garlic and ginger (if using) and stir gently to combine.",
+        "method": "marinating"
+      },
+      {
+        "order": 4,
+        "text": "Cover and refrigerate for 10–15 minutes. The fish will turn opaque and firm as the citric acid denatures the proteins — this is 'cooking' with acid. Check at 10 minutes: the outside should be white and opaque but the very centre should still have a slightly translucent core for the best texture.",
+        "timerMinutes": 12
+      },
+      {
+        "order": 5,
+        "text": "Add the rinsed onion slices, sliced green chilli and torn coriander leaves. Toss gently and taste — adjust salt, lime and chilli. Serve immediately in chilled bowls with boiled corn rounds alongside. The leche de tigre (the leftover lime-fish juice in the bowl) is considered a delicacy and can be sipped as a shot."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "marinating",
+      "no-cook"
+    ],
+    "tags": [
+      "healthy",
+      "low-oil",
+      "summer",
+      "quick",
+      "party"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "nutrition": {
+      "calories": 160,
+      "protein": 28,
+      "carbs": 5,
+      "fat": 3,
+      "fiber": 1,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "fish",
+        "substitute": "prawns or squid cut into rings work beautifully — prawns need 15–20 minutes in lime to cure fully"
+      },
+      {
+        "ingredient": "lemon",
+        "substitute": "a mix of lemon and raw mango juice for a strongly Indian flavour profile"
+      },
+      {
+        "ingredient": "green-chilli",
+        "substitute": "a small amount of red chilli powder mixed with lime mimics the ají limo heat without the fresh chilli crunch"
+      }
+    ],
+    "culturalNote": "Ceviche is Peru's national dish and has been made along the Pacific coast for thousands of years. Ancient Peruvians used chicha (fermented corn beer) and local fruits to cure fish; the lime-cured version we know arrived with Spanish colonisers.",
+    "regionalVariation": "Lima-style ceviche is minimalist — fish, lime, chilli, onion and salt only. Northern Peruvian versions marinate longer and use local fruit juices. Nikkei (Japanese-Peruvian) ceviche adds soy sauce and sesame to the leche de tigre.",
+    "indianKitchenAdaptation": "Fresh seer fish (vanjaram), tilapia or pomfret from the fish market are the ideal choices for Indian ceviche — all firm enough to hold their shape during curing. Use the abundant Indian nimbu (lime) for authenticity; it works perfectly. The concept of acid-curing fish is unfamiliar to most Indian cooks but requires zero equipment. Serve as an appetiser at parties or as a light summer lunch. Always use fish purchased the same day.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  }
+]

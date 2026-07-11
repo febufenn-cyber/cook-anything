@@ -1,0 +1,3047 @@
+[
+  {
+    "id": "ca-indo-nasi-goreng",
+    "slug": "indo-nasi-goreng",
+    "title": "Indonesian Nasi Goreng",
+    "nativeTitle": "Nasi Goreng",
+    "description": "Indonesia's iconic fried rice — day-old rice tossed on high heat with garlic, shallots, egg and a glossy hit of sweet-savoury soy, topped with a fried egg and prawn crackers. The trick is a blazing hot pan and rice that is cold enough to stay separate.",
+    "cuisine": "indonesian",
+    "country": "indonesia",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 25,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "day-old cooked rice",
+        "normalizedName": "rice",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false,
+        "notes": "cold leftover rice fries best — fresh rice turns mushy"
+      },
+      {
+        "name": "eggs",
+        "normalizedName": "egg",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false,
+        "notes": "2 for scrambling into the rice, 1 fried on top per serving"
+      },
+      {
+        "name": "prawn, peeled and deveined",
+        "normalizedName": "prawn",
+        "quantity": 150,
+        "unit": "g",
+        "optional": true,
+        "notes": "skip for a vegetarian version"
+      },
+      {
+        "name": "onion, thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "green chilli, sliced",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "dark soy sauce (or kecap manis)",
+        "normalizedName": "soy-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "kecap manis is sweet Indonesian soy; mix 1 tbsp dark soy + 1 tsp jaggery if unavailable"
+      },
+      {
+        "name": "fish sauce",
+        "normalizedName": "fish-sauce",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "adds depth; skip for vegetarian"
+      },
+      {
+        "name": "red chilli powder or paprika",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "spring onions, sliced",
+        "normalizedName": "spring-onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "sesame oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "finish oil for aroma"
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "If using prawn, toss them with a pinch of salt and red chilli powder. Set aside. Beat 2 of the eggs in a bowl and season lightly with salt.",
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Heat 1 tbsp oil in a wok or kadai on high flame. Add the prawn and stir-fry for 1–2 minutes until pink and just cooked through. Remove and set aside.",
+        "timerMinutes": 2,
+        "method": "stir-frying"
+      },
+      {
+        "order": 3,
+        "text": "Add the remaining 2 tbsp oil to the same wok on high heat. Add garlic and green chilli and stir for 20 seconds until fragrant, then add the onion slices and stir-fry for 1–2 minutes until the edges colour.",
+        "timerMinutes": 2,
+        "method": "stir-frying"
+      },
+      {
+        "order": 4,
+        "text": "Add the cold rice and press it into the wok with a spatula. Toss and press repeatedly for 2–3 minutes, breaking any lumps, until every grain is coated and the rice smells toasty.",
+        "timerMinutes": 3,
+        "method": "stir-frying"
+      },
+      {
+        "order": 5,
+        "text": "Push the rice to the sides. Pour the beaten egg into the centre and let it set for 20 seconds, then scramble and fold it through the rice quickly before it dries out.",
+        "method": "stir-frying"
+      },
+      {
+        "order": 6,
+        "text": "Return the prawn to the wok. Add soy sauce, fish sauce and remaining red chilli powder. Toss on high heat for 1 minute until everything is evenly coated and glossy. Check salt — soy sauce is already salty.",
+        "timerMinutes": 1,
+        "method": "stir-frying"
+      },
+      {
+        "order": 7,
+        "text": "Drizzle sesame oil and scatter half the spring onions. Divide into bowls. In the same pan, fry the remaining egg sunny-side up in a little oil and perch one on each serving.",
+        "method": "pan-frying"
+      },
+      {
+        "order": 8,
+        "text": "Garnish with remaining spring onions and serve immediately — nasi goreng waits for no one once it comes off the heat."
+      }
+    ],
+    "cookware": [
+      "wok",
+      "frying-pan"
+    ],
+    "methods": [
+      "stir-frying",
+      "pan-frying"
+    ],
+    "tags": [
+      "street-food",
+      "bachelor-friendly",
+      "leftover-friendly",
+      "quick",
+      "comfort-food"
+    ],
+    "allergens": [
+      "egg",
+      "soy",
+      "gluten",
+      "fish",
+      "shellfish"
+    ],
+    "nutrition": {
+      "calories": 430,
+      "protein": 22,
+      "carbs": 55,
+      "fat": 14,
+      "fiber": 2,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "fish-sauce",
+        "substitute": "1 extra tsp soy sauce plus a squeeze of lemon",
+        "notes": "makes it pescatarian-free"
+      },
+      {
+        "ingredient": "prawn",
+        "substitute": "150 g diced firm tofu, shallow-fried until golden",
+        "notes": "makes it vegetarian"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "mix 1 tbsp soy sauce + 1 tsp jaggery to mimic sweet kecap manis",
+        "notes": "closer to the street-stall taste"
+      },
+      {
+        "ingredient": "egg",
+        "substitute": "silken tofu scrambled in 1 tbsp oil for a vegan version"
+      }
+    ],
+    "culturalNote": "Nasi goreng is Indonesia's national dish and daily staple, sold from roadside warungs at dawn and eaten as a late-night supper — the sweet soy sauce (kecap manis) and the fried egg on top are non-negotiable signatures.",
+    "regionalVariation": "Nasi goreng Jawa uses more jaggery and less chilli; the Sumatran version is hotter with more green chilli and sometimes adds anchovies.",
+    "indianKitchenAdaptation": "Use a kadai on the highest flame your hob will give — the best substitute for a wok. Cold leftover sona masoori or ponni rice works perfectly. Replace kecap manis with a mix of 1 tbsp dark soy sauce and 1 tsp jaggery (gur). Fish sauce is now available at Big Basket or Natures Basket; skip it or use a dash more soy. Sesame oil (til ka tel) is available at most Indian grocers.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-indo-mie-goreng",
+    "slug": "indo-mie-goreng",
+    "title": "Indonesian Mie Goreng",
+    "nativeTitle": "Mie Goreng",
+    "description": "Springy egg noodles stir-fried with chicken, cabbage and egg in a punchy soy-and-chilli sauce — Indonesia's answer to every late-night craving. The high-heat toss caramelises the sauce onto the noodles and gives them a lightly smoky edge.",
+    "cuisine": "indonesian",
+    "country": "indonesia",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 25,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "dried egg noodles or hakka noodles",
+        "normalizedName": "noodles",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "boneless chicken, thinly sliced",
+        "normalizedName": "chicken",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "eggs",
+        "normalizedName": "egg",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cabbage, shredded",
+        "normalizedName": "cabbage",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "spring onions, cut in 2 cm pieces",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "green chillies, sliced",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "oyster sauce",
+        "normalizedName": "oyster-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "adds umami depth; substitute with 1 tsp extra soy sauce if unavailable"
+      },
+      {
+        "name": "chilli sauce or sambal",
+        "normalizedName": "green-chilli-sauce",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Boil the noodles in salted water according to packet instructions until just tender, about 3–4 minutes. Drain, rinse under cold water and toss with 1 tsp oil to prevent sticking.",
+        "timerMinutes": 4,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Mix soy sauce, oyster sauce and chilli sauce in a small bowl. Set the sauce aside.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Heat 2 tbsp oil in a wok or kadai on the highest flame. Add garlic and green chilli and stir for 20 seconds, then add the sliced chicken. Stir-fry on high heat for 3–4 minutes until the chicken is cooked through with a little colour.",
+        "timerMinutes": 4,
+        "method": "stir-frying"
+      },
+      {
+        "order": 4,
+        "text": "Push the chicken to the side. Add the remaining oil and crack the eggs into the space. Scramble quickly and fold into the chicken before the eggs are fully set.",
+        "method": "stir-frying"
+      },
+      {
+        "order": 5,
+        "text": "Add the onion slices and cabbage. Stir-fry for 1–2 minutes until the cabbage just wilts but still has a slight crunch.",
+        "timerMinutes": 2,
+        "method": "stir-frying"
+      },
+      {
+        "order": 6,
+        "text": "Add the drained noodles and pour the sauce over everything. Toss vigorously on high heat for 1–2 minutes until every strand is coated and the sauce is absorbed.",
+        "timerMinutes": 2,
+        "method": "stir-frying"
+      },
+      {
+        "order": 7,
+        "text": "Taste and adjust salt. Scatter in the spring onion pieces, give a final toss and serve immediately, with extra chilli sauce on the side."
+      }
+    ],
+    "cookware": [
+      "wok",
+      "saucepan"
+    ],
+    "methods": [
+      "boiling",
+      "stir-frying"
+    ],
+    "tags": [
+      "street-food",
+      "bachelor-friendly",
+      "quick",
+      "comfort-food",
+      "budget"
+    ],
+    "allergens": [
+      "egg",
+      "soy",
+      "gluten",
+      "shellfish"
+    ],
+    "nutrition": {
+      "calories": 520,
+      "protein": 30,
+      "carbs": 58,
+      "fat": 18,
+      "fiber": 3,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "tofu (200 g, pressed and cubed) for a vegetarian version",
+        "notes": "fry tofu separately until golden before adding"
+      },
+      {
+        "ingredient": "noodles",
+        "substitute": "rice noodles for a gluten-free base",
+        "notes": "soak rice noodles in boiling water 5 minutes instead of boiling"
+      },
+      {
+        "ingredient": "oyster-sauce",
+        "substitute": "1 tsp extra soy sauce plus a pinch of sugar",
+        "notes": "hoisin sauce also works if available"
+      },
+      {
+        "ingredient": "egg",
+        "substitute": "scrambled tofu seasoned with turmeric for a vegan option"
+      }
+    ],
+    "culturalNote": "Mie goreng is eaten morning to midnight across Indonesia, from roadside carts to hotel breakfast buffets — its soy-forward sauce and elastic noodles make it as beloved as nasi goreng, just chewier.",
+    "regionalVariation": "Javanese mie goreng is milder and slightly sweet; Acehnese versions add curry spices and are hotter. Some coastal versions include fresh shrimp and bean sprouts.",
+    "indianKitchenAdaptation": "Hakka noodles (widely available) are a perfect swap for Indonesian yellow noodles. Use a kadai on high flame to simulate the wok. Oyster sauce is available in supermarkets; if not, use a little extra soy sauce and half a teaspoon of sugar. Chilli garlic sauce found at any Indian store works for the sambal.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-indo-chicken-satay",
+    "slug": "indo-chicken-satay",
+    "title": "Indonesian Chicken Satay with Peanut Sauce",
+    "nativeTitle": "Sate Ayam",
+    "description": "Turmeric-yellow chicken skewers grilled over high heat until charred at the edges, served with a rich, fragrant peanut sauce spiked with lemongrass and lime. The marinade is simple — the peanut sauce is where the soul of the dish lives.",
+    "cuisine": "indonesian",
+    "country": "indonesia",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "dinner",
+      "snack"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "boneless chicken thighs, cut into 2 cm cubes",
+        "normalizedName": "chicken",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "lemongrass stalks, white part only, finely grated",
+        "normalizedName": "lemongrass",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "fresh ginger, grated (substitute for galangal)",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false,
+        "notes": "galangal is traditional; ginger gives a close result"
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "jaggery (substitute for palm sugar)",
+        "normalizedName": "jaggery",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "roasted peanuts",
+        "normalizedName": "peanut",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "coconut milk",
+        "normalizedName": "coconut-milk",
+        "quantity": 100,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Blend or finely mince garlic and grated lemongrass together. Combine with turmeric, coriander powder, soy sauce, half the jaggery and 1 tbsp oil into a marinade. Toss the chicken cubes in this mixture and marinate for at least 20 minutes at room temperature.",
+        "timerMinutes": 20,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "While the chicken marinates, make the peanut sauce. Blend the roasted peanuts until coarse crumbs, then add coconut milk, remaining jaggery, red chilli powder, lemon juice and a pinch of salt. Blend to a thick, pourable consistency — add water by the tablespoon if needed.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Pour the peanut sauce into a small saucepan and warm on low heat for 3–4 minutes, stirring, until it thickens and turns glossy. Taste and balance salt, chilli and sweetness. Keep warm.",
+        "timerMinutes": 4,
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "Thread 4–5 chicken pieces onto each skewer (use soaked bamboo skewers or thin metal ones). Brush lightly with remaining oil.",
+        "method": "grilling"
+      },
+      {
+        "order": 5,
+        "text": "Heat a tawa or grill pan on high until smoking. Grill the skewers for 4–5 minutes, turning every 90 seconds, until the chicken is charred at the edges and cooked through with no pink inside.",
+        "timerMinutes": 5,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 6,
+        "text": "Rest the skewers for 2 minutes. Serve hot with the warm peanut sauce for dipping or spooned over the skewers, and sliced cucumber and red onion on the side.",
+        "timerMinutes": 2
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "blender",
+      "saucepan"
+    ],
+    "methods": [
+      "marinating",
+      "tawa-cooking",
+      "simmering"
+    ],
+    "tags": [
+      "street-food",
+      "party",
+      "grill-bbq",
+      "comfort-food"
+    ],
+    "allergens": [
+      "peanuts",
+      "soy",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein": 34,
+      "carbs": 16,
+      "fat": 21,
+      "fiber": 2,
+      "sugar": 7,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "peanut",
+        "substitute": "cashew paste (100 g blended cashews) for a peanut-free sauce",
+        "notes": "thinner sauce — add less water"
+      },
+      {
+        "ingredient": "chicken",
+        "substitute": "500 g paneer cubes or tofu, marinated the same way for a vegetarian satay",
+        "notes": "reduce grill time to 2 minutes per side"
+      },
+      {
+        "ingredient": "lemongrass",
+        "substitute": "1 tsp lemon zest plus extra ginger",
+        "notes": "lemongrass is now available at many Indian supermarkets"
+      },
+      {
+        "ingredient": "jaggery",
+        "substitute": "1 tbsp honey or brown sugar"
+      }
+    ],
+    "culturalNote": "Sate ayam is one of Indonesia's most recognised street foods — skewers grilled over coconut-shell charcoal are sold outside every mosque after Friday prayers, drenched in peanut sauce and wrapped in lontong (compressed rice cake).",
+    "regionalVariation": "Madura-style satay uses a sweeter peanut sauce with more jaggery; Bali sate lilit uses minced meat pressed onto lemongrass stalks instead of cubes on bamboo.",
+    "indianKitchenAdaptation": "Use a cast-iron tawa or skillet on the highest flame — the char marks make a real difference. Bamboo skewers (soaked 30 minutes) or metal skewers work. Roasted peanuts (verkadalai, available everywhere) are the base of the peanut sauce. Jaggery (gur or vellam) replaces palm sugar perfectly. Lemongrass is now stocked in most metro Indian supermarkets; otherwise substitute with lemon zest.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-indo-beef-rendang",
+    "slug": "indo-beef-rendang",
+    "title": "Indonesian Beef Rendang (Pressure Cooker)",
+    "nativeTitle": "Rendang Sapi",
+    "description": "Indonesia's dry, intensely spiced beef curry where chunks of meat are simmered in coconut milk and a fragrant spice paste until the liquid evaporates and the beef fries in its own coconut oil, forming a dark, clinging crust. A pressure cooker brings the usual three-hour slow-cook down to under an hour.",
+    "cuisine": "indonesian",
+    "country": "indonesia",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 55,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef (brisket or chuck), cut into 4 cm cubes",
+        "normalizedName": "beef",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "coconut milk, full-fat",
+        "normalizedName": "coconut-milk",
+        "quantity": 400,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "desiccated or freshly grated coconut, dry-roasted until golden",
+        "normalizedName": "coconut",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "this is kerisik — dry-roast on a tawa for 4 minutes until deep golden"
+      },
+      {
+        "name": "onion, roughly chopped",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves",
+        "normalizedName": "garlic",
+        "quantity": 6,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "fresh ginger (substitute for galangal)",
+        "normalizedName": "ginger",
+        "quantity": 2,
+        "unit": "inch",
+        "optional": false,
+        "notes": "galangal is traditional; ginger gives a similar warmth"
+      },
+      {
+        "name": "lemongrass stalks, bruised",
+        "normalizedName": "lemongrass",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "kaffir lime leaves",
+        "normalizedName": "kaffir-lime-leaves",
+        "quantity": 5,
+        "unit": "leaf",
+        "optional": false,
+        "notes": "available at Indian specialty stores; substitute with lime zest"
+      },
+      {
+        "name": "red chilli powder (Kashmiri for colour, bird's eye for heat)",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cinnamon stick",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "whole cloves",
+        "normalizedName": "clove",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "star anise",
+        "normalizedName": "star-anise",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "jaggery",
+        "normalizedName": "jaggery",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "balances the chilli"
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Dry-roast the grated coconut in a tawa on medium heat, stirring constantly, for 3–4 minutes until dark golden. Grind to a coarse paste with a little water — this is the kerisik that gives rendang its signature dry texture. Set aside.",
+        "timerMinutes": 4,
+        "method": "roasting"
+      },
+      {
+        "order": 2,
+        "text": "Blend onion, garlic, ginger and red chilli powder with 3 tbsp water into a smooth spice paste.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in the pressure cooker pot on medium-high flame. Add cinnamon, cloves and star anise; fry for 30 seconds until fragrant. Add the spice paste and sauté, stirring, for 6–8 minutes until the oil separates from the paste and the raw smell is gone.",
+        "timerMinutes": 8,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Add the beef pieces and turmeric; sear, turning, for 4–5 minutes until lightly browned on all sides.",
+        "timerMinutes": 5,
+        "method": "sauteing"
+      },
+      {
+        "order": 5,
+        "text": "Add coconut milk, lemongrass, kaffir lime leaves, jaggery and salt. Stir well. Seal the pressure cooker and cook on high pressure for 4 whistles, then reduce to low and cook for 10 more minutes. Allow pressure to release naturally — about 10 minutes.",
+        "timerMinutes": 25,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 6,
+        "text": "Open the cooker — the beef should be fork-tender. Add the kerisik paste and stir through. Cook uncovered on medium heat, stirring every few minutes, until the gravy reduces completely and the beef starts to fry in the thick coconut oil — about 20–25 minutes. The rendang is ready when the colour deepens to dark brown and no liquid remains.",
+        "timerMinutes": 25,
+        "method": "simmering"
+      },
+      {
+        "order": 7,
+        "text": "Taste for salt. Remove whole spices and lemongrass before serving. Rendang tastes significantly better the next day — the spices deepen overnight."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "tawa",
+      "blender"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "sauteing",
+      "simmering"
+    ],
+    "tags": [
+      "comfort-food",
+      "festival",
+      "party",
+      "winter"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 480,
+      "protein": 38,
+      "carbs": 12,
+      "fat": 32,
+      "fiber": 3,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "beef",
+        "substitute": "goat meat (mutton) cut into large pieces — increase pressure to 5 whistles",
+        "notes": "flavour profile is very similar"
+      },
+      {
+        "ingredient": "coconut-milk",
+        "substitute": "200 ml coconut milk powder dissolved in 400 ml water",
+        "notes": "widely available and shelf-stable"
+      },
+      {
+        "ingredient": "kaffir-lime-leaves",
+        "substitute": "zest of 1 lime or 3–4 curry leaves for a gentle citrus note"
+      },
+      {
+        "ingredient": "lemongrass",
+        "substitute": "1 tsp lemon zest added with the spice paste"
+      }
+    ],
+    "culturalNote": "Rendang is considered the 'world's most delicious food' in multiple popular rankings and originates from the Minangkabau people of West Sumatra — it was traditionally made in large batches before weddings and religious festivals to feed the whole village.",
+    "regionalVariation": "Malaysian rendang (rendang tok from Perak) is even drier and less sweet; Minangkabau rendang uses far more dried chillies and is almost jet-black when done.",
+    "indianKitchenAdaptation": "The pressure cooker adaptation here is designed for Indian kitchens. Use brisket or any bone-in beef available at your local butcher. Replace galangal (rare in India) with fresh ginger. Kaffir lime leaves are increasingly available at specialty grocers; failing that, a strip of lime zest stirred in at the end delivers a similar citrus lift. Desiccated coconut (dry khopra) works for the kerisik. Jaggery replaces palm sugar.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-indo-gado-gado",
+    "slug": "indo-gado-gado",
+    "title": "Indonesian Gado Gado",
+    "nativeTitle": "Gado-Gado",
+    "description": "Indonesia's great vegetable salad — blanched potato, carrot, beans and cabbage with sliced cucumber, fried tofu and hard-boiled egg, all blanketed in a warm, creamy peanut-tamarind dressing. The contrast of hot dressing over cool vegetables is the whole point.",
+    "cuisine": "indonesian",
+    "country": "indonesia",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 40,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "potato, peeled and halved",
+        "normalizedName": "potato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "carrot, cut into batons",
+        "normalizedName": "carrot",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green beans, trimmed",
+        "normalizedName": "beans",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "cabbage, cut into wedges",
+        "normalizedName": "cabbage",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "cucumber, sliced",
+        "normalizedName": "cucumber",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "eggs, hard-boiled and halved",
+        "normalizedName": "egg",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "firm tofu, cubed",
+        "normalizedName": "tofu",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "roasted peanuts",
+        "normalizedName": "peanut",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves",
+        "normalizedName": "garlic",
+        "quantity": 2,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "tamarind pulp",
+        "normalizedName": "tamarind",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "jaggery (substitute for palm sugar)",
+        "normalizedName": "jaggery",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Bring a large pot of salted water to a boil. Add potato and cook 8–10 minutes until just tender but not falling apart. In the last 3 minutes, add carrot and beans; in the final minute, add cabbage. Drain all vegetables and arrange on a large plate.",
+        "timerMinutes": 10,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Heat 2 tbsp oil in a frying pan on medium-high. Fry the tofu cubes for 4–5 minutes, turning, until golden on all sides. Drain on paper and add to the plate alongside the cucumber and halved eggs.",
+        "timerMinutes": 5,
+        "method": "shallow-frying"
+      },
+      {
+        "order": 3,
+        "text": "For the peanut sauce, blend roasted peanuts and garlic to a coarse paste. Add tamarind pulp, jaggery, chilli powder, soy sauce, lemon juice and 80 ml warm water. Blend until smooth and pourable, adjusting water for consistency.",
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Transfer the peanut sauce to a small saucepan. Warm on low heat, stirring, for 2–3 minutes until it glosses and the raw garlic smell is gone. Taste and adjust sweetness (jaggery), sourness (tamarind) and salt.",
+        "timerMinutes": 3,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Pour the warm peanut sauce generously over the arranged vegetables, tofu and eggs. Serve immediately while the sauce is warm and the vegetables are still slightly warm. In Indonesia, gado gado is dressed at the table so each guest can control the ratio."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "frying-pan",
+      "blender",
+      "saucepan"
+    ],
+    "methods": [
+      "boiling",
+      "shallow-frying",
+      "simmering",
+      "no-cook"
+    ],
+    "tags": [
+      "salad",
+      "healthy",
+      "budget",
+      "comfort-food"
+    ],
+    "allergens": [
+      "egg",
+      "peanuts",
+      "soy",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein": 20,
+      "carbs": 28,
+      "fat": 24,
+      "fiber": 6,
+      "sugar": 10,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "tofu",
+        "substitute": "paneer cubes, shallow-fried until golden",
+        "notes": "widely available in India and takes the same treatment"
+      },
+      {
+        "ingredient": "peanut",
+        "substitute": "any seed butter (sunflower, pumpkin) for a peanut-free version"
+      },
+      {
+        "ingredient": "tamarind",
+        "substitute": "1.5 tbsp lemon juice plus 0.5 tsp amchur",
+        "notes": "gives tartness without the tamarind funk"
+      },
+      {
+        "ingredient": "jaggery",
+        "substitute": "2 tsp sugar or honey"
+      }
+    ],
+    "culturalNote": "Gado gado translates loosely as 'mix-mix' and is eaten throughout Indonesia as a full meal — its peanut sauce has made it one of the most recognisable Indonesian dishes abroad, especially in the Netherlands, reflecting the historical colonial connection.",
+    "regionalVariation": "Jakarta-style gado gado uses a wetter, more peppery sauce; Surabaya versions are richer and spicier. Some regions add prawn crackers (kerupuk) on top for crunch.",
+    "indianKitchenAdaptation": "Everything in this recipe is available at Indian grocery stores. Use roasted peanuts (verkadalai) from any snack section. Tamarind pulp (puli) is standard in South Indian kitchens. Tofu (paneer mould bean curd) is available in larger cities; paneer is an excellent substitute. Jaggery (vellam/gur) replaces palm sugar exactly. A kadai works as well as any pot for blanching.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-indo-sambal-fried-egg",
+    "slug": "indo-sambal-fried-egg",
+    "title": "Indonesian Sambal Telur (Sambal Fried Egg)",
+    "nativeTitle": "Sambal Telur",
+    "description": "Hard-boiled eggs fried until blistered and golden, then simmered in a fiery shallot-and-chilli sambal until the sauce clings to every ridge. A perfect everyday Indonesian dish that turns humble eggs into something bold and deeply satisfying.",
+    "cuisine": "indonesian",
+    "country": "indonesia",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "eggs, hard-boiled and peeled",
+        "normalizedName": "egg",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "shallots, finely sliced",
+        "normalizedName": "shallot",
+        "quantity": 6,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies, soaked in warm water 10 minutes",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 5,
+        "unit": "piece",
+        "optional": false,
+        "notes": "adjust for heat tolerance"
+      },
+      {
+        "name": "tomato, roughly chopped",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tamarind pulp",
+        "normalizedName": "tamarind",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "jaggery (substitute for palm sugar)",
+        "normalizedName": "jaggery",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "lemongrass stalk, bruised and tied in a knot",
+        "normalizedName": "lemongrass",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat 3 tbsp oil in a kadai on medium-high. Score the peeled hard-boiled eggs lightly with a knife and fry, turning, for 3–4 minutes until the surface blisters and turns deep golden. Remove and set aside.",
+        "timerMinutes": 4,
+        "method": "shallow-frying"
+      },
+      {
+        "order": 2,
+        "text": "Drain the soaked dried chillies and blend them with the garlic, shallots and tomato into a smooth red paste. Add a splash of water if needed to keep the blender moving.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Add 1 tbsp oil to the same kadai on medium heat. Add the lemongrass, then pour in the chilli paste. Fry, stirring frequently, for 6–8 minutes until the sambal darkens in colour, smells deeply fragrant and the oil begins to pool at the edges.",
+        "timerMinutes": 8,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Add tamarind pulp, jaggery and salt. Stir for 1 minute, then add 50 ml water. Simmer for 2–3 minutes until a thick, clingy sauce forms.",
+        "timerMinutes": 3,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Nestle the fried eggs into the sambal. Spoon the sauce over them and simmer gently for 2 more minutes so the eggs absorb the flavour. Remove the lemongrass stalk and serve immediately with steamed rice."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "blender"
+    ],
+    "methods": [
+      "shallow-frying",
+      "kadai-cooking",
+      "simmering"
+    ],
+    "tags": [
+      "street-food",
+      "budget",
+      "bachelor-friendly",
+      "comfort-food",
+      "quick"
+    ],
+    "allergens": [
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 280,
+      "protein": 14,
+      "carbs": 10,
+      "fat": 21,
+      "fiber": 2,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "egg",
+        "substitute": "400 g firm tofu blocks, fried until golden the same way",
+        "notes": "makes a vegan sambal tahu"
+      },
+      {
+        "ingredient": "dried-red-chilli",
+        "substitute": "1 tbsp Kashmiri red chilli powder mixed with 1 tsp cayenne",
+        "notes": "adjust cayenne for heat"
+      },
+      {
+        "ingredient": "tamarind",
+        "substitute": "1 tbsp lemon juice plus pinch of amchur",
+        "notes": "use at the same stage"
+      }
+    ],
+    "culturalNote": "Sambal telur is the everyday egg dish found across Indonesian home kitchens and warungs — the fried egg absorbs the fiery-tangy sambal and is spooned over a mound of white rice for a complete, deeply satisfying meal.",
+    "regionalVariation": "Javanese versions are sweeter with extra jaggery; Padang-style sambal eggs are drier and far hotter. Some coastal versions add a splash of coconut milk to soften the sambal.",
+    "indianKitchenAdaptation": "A kadai is ideal for frying the eggs and building the sambal in the same vessel. Dried red chillies (byadgi or guntur) from any Indian masala shop give excellent colour and heat. Tamarind pulp (imli) and jaggery (gur) are pantry staples in most Indian kitchens. Lemongrass is increasingly stocked in city supermarkets; skip it if unavailable — the sambal still delivers.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-malay-chicken-curry",
+    "slug": "malay-chicken-curry",
+    "title": "Malaysian Chicken Curry",
+    "nativeTitle": "Kari Ayam",
+    "description": "A deeply aromatic Malaysian chicken curry simmered in rich coconut milk with lemongrass, kaffir lime leaves and a fragrant spice paste. Lighter and more herbaceous than Indian chicken curry, it is served over rice or with roti canai for soaking up the silky golden gravy.",
+    "cuisine": "malaysian",
+    "country": "malaysia",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 35,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken curry cut pieces (with bone)",
+        "normalizedName": "chicken",
+        "quantity": 700,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "coconut milk, full-fat",
+        "normalizedName": "coconut-milk",
+        "quantity": 300,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "onion, roughly chopped",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "lemongrass stalks, bruised",
+        "normalizedName": "lemongrass",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "kaffir lime leaves",
+        "normalizedName": "kaffir-lime-leaves",
+        "quantity": 4,
+        "unit": "leaf",
+        "optional": false,
+        "notes": "tear the leaves before adding; substitute with lime zest"
+      },
+      {
+        "name": "red chilli powder (use Kashmiri for colour)",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "curry powder",
+        "normalizedName": "curry-powder",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "Malaysian curry powder or any mild chicken masala blend"
+      },
+      {
+        "name": "potato, peeled and quartered",
+        "normalizedName": "potato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": true,
+        "notes": "traditional addition that makes the dish go further"
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Blend the chopped onion into a smooth paste. Heat oil in a kadai on medium heat; add lemongrass and torn kaffir lime leaves and fry for 30 seconds until aromatic.",
+        "method": "tempering"
+      },
+      {
+        "order": 2,
+        "text": "Add the onion paste and fry, stirring, for 6–8 minutes until it turns golden and the raw smell disappears.",
+        "timerMinutes": 8,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add ginger-garlic paste and stir for 2 minutes until fragrant. Add all the dry spices — turmeric, chilli powder, coriander powder and curry powder — and fry for 1 minute on low heat.",
+        "timerMinutes": 3,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Add the chicken pieces and turn the heat to high. Sear for 4–5 minutes, stirring, until the chicken is coated in the spice paste and has some colour on the outside.",
+        "timerMinutes": 5,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Add potato pieces if using. Pour in 200 ml warm water and salt. Cover and simmer on medium heat for 15 minutes.",
+        "timerMinutes": 15,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Pour in the coconut milk and stir gently. Simmer uncovered on medium-low for 10–12 minutes until the gravy thickens slightly and the chicken is cooked through — the juices should run clear when pierced. Remove lemongrass before serving.",
+        "timerMinutes": 12,
+        "method": "simmering"
+      },
+      {
+        "order": 7,
+        "text": "Taste for salt and heat. The curry should be a rich, golden-orange colour with a thin, coconut-fragrant gravy. Serve with steamed rice, roti canai or bread."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "blender"
+    ],
+    "methods": [
+      "sauteing",
+      "kadai-cooking",
+      "simmering",
+      "tempering"
+    ],
+    "tags": [
+      "gravy",
+      "comfort-food",
+      "party"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 420,
+      "protein": 32,
+      "carbs": 18,
+      "fat": 26,
+      "fiber": 3,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "700 g chickpeas (tinned or boiled) for a vegetarian Malaysian curry",
+        "notes": "skip the initial searing step"
+      },
+      {
+        "ingredient": "coconut-milk",
+        "substitute": "150 g coconut milk powder dissolved in 300 ml warm water",
+        "notes": "shelf-stable and widely available"
+      },
+      {
+        "ingredient": "kaffir-lime-leaves",
+        "substitute": "zest of 1 lime stirred in at the end"
+      },
+      {
+        "ingredient": "lemongrass",
+        "substitute": "1 tsp lemon zest or 2 tbsp lemon juice"
+      }
+    ],
+    "culturalNote": "Kari ayam is a staple of Malaysian mamak (Indian-Muslim) restaurant menus and home kitchens alike — the combination of Southeast Asian aromatics (lemongrass, kaffir lime) with Indian spice technique reflects Malaysia's rich culinary heritage.",
+    "regionalVariation": "Nyonya chicken curry (Peranakan style) adds pandan leaves and is slightly sweeter; northern Malaysian versions use more whole spices and are closer to an Indian-style curry.",
+    "indianKitchenAdaptation": "This dish is very close to Indian-style coconut chicken curry and adapts naturally to a kadai. Use any good chicken masala or a mild curry powder blend; Kashmiri chilli gives the golden-orange colour without excessive heat. Lemongrass is now stocked in many Indian supermarkets; substitute with a strip of lemon zest if unavailable. Coconut milk tetra packs are widely available across India.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-malay-roti-canai",
+    "slug": "malay-roti-canai",
+    "title": "Malaysian Roti Canai",
+    "nativeTitle": "Roti Canai",
+    "description": "Malaysia's beloved flaky, layered flatbread — a ghee-enriched maida dough stretched paper-thin, laminated with fat and folded repeatedly into many layers, then slapped on a hot tawa until blistered and crisp at the edges. Identical in technique to South Indian parotta, shared across the Indian Ocean.",
+    "cuisine": "malaysian",
+    "country": "malaysia",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "tiffin",
+      "side"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "maida (all-purpose flour)",
+        "normalizedName": "maida",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "ghee or unsalted butter",
+        "normalizedName": "ghee",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "ghee gives better flavour and a crisper crust"
+      },
+      {
+        "name": "milk (or water)",
+        "normalizedName": "milk",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "milk enriches the dough; plain water also works"
+      },
+      {
+        "name": "egg",
+        "normalizedName": "egg",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true,
+        "notes": "added to the dough for extra richness and layering"
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil (for resting and cooking)",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "water (warm, for the dough)",
+        "normalizedName": "water",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Combine flour, salt and sugar. Add the egg (if using), milk and enough warm water to bring it into a soft, pliable dough — about 3 tbsp at a time. Knead for 8–10 minutes until very smooth and elastic. The dough should be softer than chapati dough.",
+        "timerMinutes": 10,
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Divide the dough into 6 equal balls. Rub each ball generously with ghee. Arrange in a tray, cover with a damp cloth and rest for at least 20 minutes — this relaxes the gluten and makes the dough easy to stretch.",
+        "timerMinutes": 20,
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Oil your work surface lightly. Take one ball and press it flat with your palm. Using your fingertips, stretch it outward from the centre, rotating and pulling, until it is nearly translucent — aim for as large and thin as possible without tearing.",
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Dab the stretched sheet lightly with ghee. Fold in the sides like an envelope to form a rough square, then fold again so you have a multi-layered rectangle. You can also fold it into a coil (roti bomb style) for a round, spiral flatbread.",
+        "method": "no-cook"
+      },
+      {
+        "order": 5,
+        "text": "Heat a tawa on medium-high until very hot. Add a few drops of oil and slap the folded dough onto the tawa. Cook for 2–3 minutes per side until golden brown patches appear and the bread is cooked through. Adjust heat so it does not burn before the layers cook.",
+        "timerMinutes": 6,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 6,
+        "text": "As soon as it comes off the tawa, clap the roti canai firmly between your palms to separate the layers — this is the signature \"fluffing\" that makes it flaky. Repeat with remaining dough balls.",
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 7,
+        "text": "Serve immediately with Malaysian chicken curry, dhal curry or any coconut-based gravy for dipping. Roti canai waits for no one — eat it the moment the layers separate."
+      }
+    ],
+    "cookware": [
+      "tawa"
+    ],
+    "methods": [
+      "tawa-cooking",
+      "no-cook"
+    ],
+    "tags": [
+      "street-food",
+      "tiffin",
+      "comfort-food",
+      "kids-friendly",
+      "budget"
+    ],
+    "allergens": [
+      "gluten",
+      "dairy",
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 280,
+      "protein": 7,
+      "carbs": 42,
+      "fat": 10,
+      "fiber": 1,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "ghee",
+        "substitute": "vegetable shortening or margarine for a dairy-free version",
+        "notes": "ghee gives the crispest, most flavourful result"
+      },
+      {
+        "ingredient": "maida",
+        "substitute": "half maida, half wheat flour for a slightly more nutritious version",
+        "notes": "slightly denser but still layers well"
+      },
+      {
+        "ingredient": "milk",
+        "substitute": "coconut milk for extra richness",
+        "notes": "popular in some Malaysian households"
+      }
+    ],
+    "culturalNote": "Roti canai arrived in Malaysia with Tamil-Indian migrants in the 19th century and is now so beloved that most Malaysians consider it their own — eating it with dhal and curry at a kopitiam (coffee shop) is a national morning ritual.",
+    "regionalVariation": "Roti telur has egg cracked onto the stretched dough before folding. Roti pisang folds in banana. Roti bomb is thick, round and buttered inside. The technique is identical to parotta in Tamil Nadu and Kerala.",
+    "indianKitchenAdaptation": "Roti canai is virtually identical to Tamil Nadu parotta in technique and ingredients. The only difference is that Malaysian roti canai is often slightly thinner and crispier. A cast-iron tawa is ideal. Use ghee (nei) for the authentic flavour — it is available in every Indian kitchen. Maida is the same flour used for parotta. No special ingredients needed.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-malay-laksa",
+    "slug": "malay-laksa",
+    "title": "Malaysian Laksa (Coconut Noodle Soup)",
+    "nativeTitle": "Laksa",
+    "description": "A fiery, golden-orange coconut broth with rice noodles, prawn and tofu — Malaysia's most celebrated noodle soup and one of the defining dishes of Southeast Asian cooking. The spiced coconut base is fragrant with lemongrass, turmeric and chilli, and the whole bowl is finished with fresh herbs and a squeeze of lime.",
+    "cuisine": "malaysian",
+    "country": "malaysia",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "pescatarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 50,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "rice noodles (or flat rice vermicelli)",
+        "normalizedName": "noodles",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false,
+        "notes": "soak in warm water 15 minutes if dried, or use fresh"
+      },
+      {
+        "name": "prawn, peeled with heads reserved",
+        "normalizedName": "prawn",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "firm tofu, cut in cubes",
+        "normalizedName": "tofu",
+        "quantity": 150,
+        "unit": "g",
+        "optional": true
+      },
+      {
+        "name": "coconut milk, full-fat",
+        "normalizedName": "coconut-milk",
+        "quantity": 300,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "onion, roughly chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger (substitute for galangal)",
+        "normalizedName": "ginger",
+        "quantity": 1.5,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "lemongrass stalks, white part only",
+        "normalizedName": "lemongrass",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "kaffir lime leaves",
+        "normalizedName": "kaffir-lime-leaves",
+        "quantity": 3,
+        "unit": "leaf",
+        "optional": true
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fish sauce",
+        "normalizedName": "fish-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "bean sprouts",
+        "normalizedName": "sprouts",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": true
+      },
+      {
+        "name": "mint leaves",
+        "normalizedName": "mint",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": true
+      },
+      {
+        "name": "lemon, for serving",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "If using dried rice noodles, soak them in warm water for 15 minutes until just pliable but not fully soft. Drain and set aside.",
+        "timerMinutes": 15,
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Blend onion, garlic, ginger, lemongrass and red chilli powder with 3 tbsp water into a smooth laksa paste.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a heavy-bottomed pot on medium heat. Add the laksa paste and fry, stirring, for 6–8 minutes until the paste deepens in colour and the oil separates to the edges.",
+        "timerMinutes": 8,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Add turmeric and kaffir lime leaves. Pour in 600 ml water and bring to a simmer. Add prawn shells and heads if you have them and simmer for 10 minutes to build a seafood stock base. Strain out the solids.",
+        "timerMinutes": 10,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Add coconut milk and fish sauce to the strained broth. Bring to a gentle simmer — do not boil vigorously after coconut milk is in or it can split. Taste and adjust salt and fish sauce.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Add the peeled prawn and tofu to the simmering broth. Cook for 2–3 minutes until the prawn turn pink and curl. Do not overcook.",
+        "timerMinutes": 3,
+        "method": "simmering"
+      },
+      {
+        "order": 7,
+        "text": "Divide the soaked noodles into bowls. Ladle the hot laksa broth with prawn and tofu over the noodles. Top with fresh bean sprouts, mint leaves and a wedge of lemon on the side. Eat immediately while piping hot."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "blender"
+    ],
+    "methods": [
+      "simmering",
+      "sauteing",
+      "one-pot"
+    ],
+    "tags": [
+      "soup",
+      "comfort-food",
+      "party",
+      "bowl"
+    ],
+    "allergens": [
+      "fish",
+      "shellfish",
+      "soy"
+    ],
+    "nutrition": {
+      "calories": 460,
+      "protein": 24,
+      "carbs": 48,
+      "fat": 20,
+      "fiber": 4,
+      "sugar": 6,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "prawn",
+        "substitute": "200 g chicken breast, sliced, for a non-pescatarian version",
+        "notes": "simmer chicken 8 minutes until cooked through"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "substitute": "1 tbsp soy sauce plus a pinch of salt",
+        "notes": "changes the flavour profile slightly but works"
+      },
+      {
+        "ingredient": "coconut-milk",
+        "substitute": "200 ml coconut milk powder dissolved in 300 ml water",
+        "notes": "reduce simmer time by 2 minutes"
+      },
+      {
+        "ingredient": "sprouts",
+        "substitute": "sliced cabbage or any crunchy raw vegetable for garnish"
+      }
+    ],
+    "culturalNote": "Laksa is claimed by multiple Southeast Asian cultures — Malay, Nyonya and Singaporean versions all exist, each with fierce partisans. The coconut-based curry laksa (as opposed to the sour Penang asam laksa) is the version most commonly found outside the region.",
+    "regionalVariation": "Penang asam laksa replaces coconut milk with a tamarind-and-fish broth, making it sharply sour and completely different in character. Sarawak laksa from Borneo has a distinctive sambal belacan finish.",
+    "indianKitchenAdaptation": "The laksa paste is built from everyday Indian ingredients: ginger (as galangal substitute), lemongrass (available at city supermarkets), red chilli powder and garlic. Use rice noodles (semiya-style thin noodles or flat rice noodles from any south Indian store). Fish sauce is increasingly available; soy sauce is a workable substitute. The heavy-bottomed pot can be a pressure-cooker base or any thick kadai.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-malay-char-kway-teow",
+    "slug": "malay-char-kway-teow",
+    "title": "Malaysian Char Kway Teow",
+    "nativeTitle": "Char Kway Teow",
+    "description": "Malaysia's most celebrated street noodle — flat rice noodles stir-fried at furious heat with prawn, egg, bean sprouts and a dark soy-chilli sauce until the noodles pick up a smoky, caramelised edge known as 'wok hei'. The whole dish is ready in under five minutes of actual cooking time.",
+    "cuisine": "malaysian",
+    "country": "malaysia",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "pescatarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "flat rice noodles (kway teow), fresh or dried",
+        "normalizedName": "noodles",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false,
+        "notes": "if dried, soak in warm water 15 min; fresh noodles are best"
+      },
+      {
+        "name": "prawn, peeled",
+        "normalizedName": "prawn",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "eggs",
+        "normalizedName": "egg",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "bean sprouts",
+        "normalizedName": "sprouts",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "spring onions, cut in 3 cm pieces",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "green chillies, sliced",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "dark soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "dark soy gives the characteristic colour; use 1.5 tbsp dark + 0.5 tbsp light if you have both"
+      },
+      {
+        "name": "fish sauce",
+        "normalizedName": "fish-sauce",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "chilli sauce",
+        "normalizedName": "green-chilli-sauce",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "If using dried noodles, soak in warm water for 15 minutes until pliable, then drain well. Mix soy sauce, fish sauce and chilli sauce in a small bowl.",
+        "timerMinutes": 15,
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Heat a wok or kadai on the highest flame for 2 minutes until smoking. This is the single most important step — the heat creates wok hei (the smoky breath of the wok). Add oil and let it shimmer.",
+        "method": "stir-frying"
+      },
+      {
+        "order": 3,
+        "text": "Add garlic and green chilli and stir for 15 seconds. Add prawn and stir-fry for 1.5–2 minutes until just pink — remove and set aside.",
+        "timerMinutes": 2,
+        "method": "stir-frying"
+      },
+      {
+        "order": 4,
+        "text": "Add the drained noodles and press them against the wok in a single layer. Leave undisturbed for 30 seconds to char slightly, then toss. Repeat once more.",
+        "method": "stir-frying"
+      },
+      {
+        "order": 5,
+        "text": "Pour the sauce mixture over the noodles and toss on high heat for 1 minute until every strand is dark and coated.",
+        "timerMinutes": 1,
+        "method": "stir-frying"
+      },
+      {
+        "order": 6,
+        "text": "Push noodles aside. Crack both eggs into the space and scramble quickly, then fold through the noodles before they fully set.",
+        "method": "stir-frying"
+      },
+      {
+        "order": 7,
+        "text": "Return the prawn. Add bean sprouts and spring onion, toss for 30 seconds — the sprouts should still have a crunch. Taste for salt. Dish up and eat immediately; the noodles lose their texture if they sit."
+      }
+    ],
+    "cookware": [
+      "wok",
+      "frying-pan"
+    ],
+    "methods": [
+      "stir-frying"
+    ],
+    "tags": [
+      "street-food",
+      "comfort-food",
+      "quick",
+      "bachelor-friendly"
+    ],
+    "allergens": [
+      "egg",
+      "soy",
+      "gluten",
+      "fish",
+      "shellfish"
+    ],
+    "nutrition": {
+      "calories": 510,
+      "protein": 26,
+      "carbs": 62,
+      "fat": 17,
+      "fiber": 3,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "prawn",
+        "substitute": "150 g chicken slices or tofu for a non-seafood version",
+        "notes": "cook chicken 4 minutes before adding noodles"
+      },
+      {
+        "ingredient": "noodles",
+        "substitute": "any flat noodle — wide rice noodles or even fresh pasta noodles work",
+        "notes": "fresh noodles have better texture than dried"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "substitute": "0.5 tsp extra soy sauce",
+        "notes": "loses some depth but works fine"
+      },
+      {
+        "ingredient": "sprouts",
+        "substitute": "shredded cabbage",
+        "notes": "add 1 minute earlier to allow it to soften slightly"
+      }
+    ],
+    "culturalNote": "Char kway teow originated with Chinese-Malaysian hawkers and was historically considered poor people's food because of its cheap ingredients — today it commands premium prices at heritage hawker stalls and is one of Malaysia's most-searched dishes online.",
+    "regionalVariation": "Penang char kway teow is the benchmark — it often includes blood cockles (hum), Chinese lap cheong sausage and is cooked in lard for a more intense flavour. Kuala Lumpur versions are cleaner and less oily.",
+    "indianKitchenAdaptation": "A kadai on the highest flame is the best Indian substitute for a wok. Let it heat until almost smoking before adding oil. Rice noodles are available at South Indian stores as wide kozhukattai noodles or flat rice pasta from specialty stores. Dark soy sauce is sold in supermarkets. Fish sauce is available online and in gourmet grocery stores; soy sauce with a pinch of salt is a workable substitute.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-filipino-chicken-adobo",
+    "slug": "filipino-chicken-adobo",
+    "title": "Filipino Chicken Adobo",
+    "nativeTitle": "Adobong Manok",
+    "description": "The national dish of the Philippines — chicken braised in a bold mixture of soy sauce, vinegar, garlic and black pepper until the meat is fall-tender and the sauce reduces to a sticky, lacquered glaze. Deliberately preserved by its acidity, adobo tastes better on days two and three.",
+    "cuisine": "filipino",
+    "country": "philippines",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 40,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken curry cut pieces (bone-in)",
+        "normalizedName": "chicken",
+        "quantity": 800,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "white vinegar (cane or rice vinegar preferred)",
+        "normalizedName": "vinegar",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "vinegar is the soul of adobo — do not reduce"
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 0.33,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, smashed",
+        "normalizedName": "garlic",
+        "quantity": 8,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "bay leaves",
+        "normalizedName": "bay-leaf",
+        "quantity": 3,
+        "unit": "leaf",
+        "optional": false
+      },
+      {
+        "name": "whole black peppercorns",
+        "normalizedName": "black-pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "do not substitute with ground pepper for the full aroma"
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 0.25,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false,
+        "notes": "taste first — soy sauce is already salty"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Combine the chicken pieces, vinegar, soy sauce, smashed garlic, bay leaves and peppercorns in a pot or kadai. Let everything marinate for 10 minutes at room temperature while you gather the rest of your equipment.",
+        "timerMinutes": 10,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Bring the pot to a boil on medium-high heat, uncovered. Once boiling, reduce to a steady simmer and cook for 20–25 minutes, turning the chicken halfway, until the pieces are cooked through and the liquid has reduced by half.",
+        "timerMinutes": 25,
+        "method": "braising"
+      },
+      {
+        "order": 3,
+        "text": "Fish out the chicken pieces and set them aside. You should have about 1 cup of a dark, tangy braising liquid remaining — taste it. If too sour, add a pinch of sugar.",
+        "method": "one-pot"
+      },
+      {
+        "order": 4,
+        "text": "Heat oil in a separate wide pan or tawa on high. Fry the chicken pieces, skin-side down if applicable, for 3–4 minutes per side until browned and caramelised on the outside.",
+        "timerMinutes": 8,
+        "method": "pan-frying"
+      },
+      {
+        "order": 5,
+        "text": "Pour the reduced braising sauce back over the chicken pieces in the pan. Simmer on medium heat for 3–5 more minutes, spooning the sauce over the chicken, until the sauce becomes a sticky, lacquered glaze that coats every piece.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Remove bay leaves. Serve over steamed rice, spooning the glossy garlic sauce from the pan over the top. Adobo refrigerates well for 3 days and the flavour intensifies each day."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "frying-pan"
+    ],
+    "methods": [
+      "marinating",
+      "braising",
+      "pan-frying",
+      "simmering"
+    ],
+    "tags": [
+      "comfort-food",
+      "budget",
+      "leftover-friendly",
+      "lunchbox"
+    ],
+    "allergens": [
+      "soy",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "protein": 34,
+      "carbs": 5,
+      "fat": 22,
+      "fiber": 0,
+      "sugar": 1,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "vinegar",
+        "substitute": "0.5 cup tamarind water (2 tbsp pulp dissolved in half cup water)",
+        "notes": "South Indian-friendly adaptation with a similar sour-salty result"
+      },
+      {
+        "ingredient": "chicken",
+        "substitute": "800 g pork belly cut into 3 cm cubes — increase braising to 35 minutes",
+        "notes": "pork adobo is equally traditional in the Philippines"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "coconut aminos for a lower-sodium option",
+        "notes": "slightly sweeter flavour profile"
+      },
+      {
+        "ingredient": "bay-leaf",
+        "substitute": "curry leaves for an Indian-pantry twist",
+        "notes": "gives a South Indian flavour bridge"
+      }
+    ],
+    "culturalNote": "Adobo is not a single recipe but a cooking method across the Philippines — every family claims theirs is authentic. The vinegar was historically used for preservation before refrigeration, and the dish evolved across regional and economic lines over centuries.",
+    "regionalVariation": "Northern Luzon adobo is dry, with the sauce reduced to almost nothing so the chicken fries in its own fat. Bicolano adobo adds coconut milk for a richer, milder result. Some Ilocano versions skip soy sauce entirely and use salt alone.",
+    "indianKitchenAdaptation": "Chicken adobo is extremely easy to adapt in an Indian kitchen. White vinegar (sirka) is available at every grocery store. Use any heavy-bottomed kadai or saucepan for the braising step. Soy sauce is widely available. Whole peppercorns and bay leaves (tej patta) are standard Indian pantry items. The two-step braise-then-fry technique is familiar to anyone who has made Indian chicken curries.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-filipino-sinigang-prawn",
+    "slug": "filipino-sinigang-prawn",
+    "title": "Filipino Sinigang (Tamarind Prawn Soup)",
+    "nativeTitle": "Sinigang na Hipon",
+    "description": "The Philippines' sour-savoury national soup — a clear tamarind broth packed with prawn, tomato, radish, spinach and green beans. The sourness is the point: it wakes up every vegetable in the pot and makes plain rice irresistible.",
+    "cuisine": "filipino",
+    "country": "philippines",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "pescatarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "large prawn, head on",
+        "normalizedName": "prawn",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "tamarind pulp",
+        "normalizedName": "tamarind",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "dissolve in 200 ml warm water and strain; adjust for sourness"
+      },
+      {
+        "name": "tomato, quartered",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, quartered",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green beans, trimmed and halved",
+        "normalizedName": "beans",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "radish or carrot, cut in 1 cm rounds",
+        "normalizedName": "carrot",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false,
+        "notes": "white radish (daikon/mooli) is traditional; carrot is widely available"
+      },
+      {
+        "name": "spinach leaves",
+        "normalizedName": "spinach",
+        "quantity": 2,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "green chilli, whole",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": true,
+        "notes": "add whole for mild heat; slit for more spice"
+      },
+      {
+        "name": "fish sauce",
+        "normalizedName": "fish-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 1,
+        "unit": "l",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Dissolve the tamarind pulp in 200 ml warm water. Squeeze and knead to extract the juice, then strain through a sieve, discarding the fibres. Set the sour water aside.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a large pot on medium heat. Add the onion and tomato and sauté for 3–4 minutes until the tomato softens and releases its juice into the pot.",
+        "timerMinutes": 4,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Pour in 1 litre of water and the strained tamarind liquid. Add fish sauce and bring to a steady boil.",
+        "timerMinutes": 8,
+        "method": "boiling"
+      },
+      {
+        "order": 4,
+        "text": "Add the carrot (or radish) and green beans to the boiling broth. Simmer for 6–8 minutes until just tender but not mushy.",
+        "timerMinutes": 8,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Add the prawn and green chillies. Simmer for 3–4 minutes until the prawn turn pink and curl. Do not overcook — they should be just done.",
+        "timerMinutes": 4,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Drop in the spinach leaves, stir once and remove from heat after 30 seconds — the residual heat wilts the spinach perfectly. Taste the broth: adjust sourness with more tamarind water, saltiness with fish sauce, and heat with chilli.",
+        "method": "one-pot"
+      },
+      {
+        "order": 7,
+        "text": "Ladle generously into deep bowls and serve with steamed rice on the side. In Filipino tradition, the rice is dipped into the sinigang broth itself — the soup is as much a sauce for the rice as a standalone dish."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "boiling",
+      "simmering",
+      "sauteing",
+      "one-pot"
+    ],
+    "tags": [
+      "soup",
+      "healthy",
+      "comfort-food",
+      "budget",
+      "one-pot-meal"
+    ],
+    "allergens": [
+      "fish",
+      "shellfish"
+    ],
+    "nutrition": {
+      "calories": 190,
+      "protein": 22,
+      "carbs": 12,
+      "fat": 6,
+      "fiber": 4,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "prawn",
+        "substitute": "400 g pork ribs (pre-boiled 10 minutes) for a non-seafood sinigang",
+        "notes": "increase simmering to 25 minutes after the tamarind is added"
+      },
+      {
+        "ingredient": "tamarind",
+        "substitute": "3 tbsp lemon juice or 2 tbsp amchur dissolved in water",
+        "notes": "gives the sour note though without the earthy tamarind complexity"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "substitute": "2 tbsp soy sauce plus a pinch of salt"
+      },
+      {
+        "ingredient": "spinach",
+        "substitute": "chopped drumstick leaves (murungai keerai), amaranth or any green",
+        "notes": "drumstick leaves give a South Indian flavour bridge"
+      }
+    ],
+    "culturalNote": "Sinigang is arguably more beloved in Filipino homes than adobo — the tamarind broth is the soup every Filipino grows up eating, made differently in every household by adjusting sourness and choice of protein. The word comes from the Tagalog word for sour.",
+    "regionalVariation": "Sinigang sa sampaloc uses fresh tamarind fruits boiled and mashed directly into the soup. Some regions use kamias (bilimbi fruit) or green mango as the souring agent instead of tamarind, each giving a distinct flavour.",
+    "indianKitchenAdaptation": "Sinigang maps very naturally to a South Indian palate — the sour tamarind broth is familiar territory. Use tamarind pulp (imli/puli) from any Indian pantry. Daikon radish (mooli) is widely available in North India; carrot substitutes perfectly in South India. Drumstick (murungakkai) is an excellent South Indian addition — add with the beans. Fish sauce (available at Big Basket or specialty stores) adds depth; soy sauce is a workable alternative.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-filipino-lumpia",
+    "slug": "filipino-lumpia",
+    "title": "Filipino Lumpia (Fried Spring Rolls)",
+    "nativeTitle": "Lumpiang Shanghai",
+    "description": "Crispy, slender Filipino spring rolls — a spiced filling of minced chicken, carrot and spring onion wrapped in a thin flour skin and fried until shatteringly crunchy. Lumpia are the must-have party food at every Filipino celebration, served by the dozens with a sweet-chilli dip.",
+    "cuisine": "filipino",
+    "country": "philippines",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "minced chicken (or pork)",
+        "normalizedName": "keema",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "carrot, finely grated",
+        "normalizedName": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "spring onion, finely chopped",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, minced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "onion, finely diced",
+        "normalizedName": "onion",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "egg (for sealing and the filling)",
+        "normalizedName": "egg",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "maida (for the spring roll wrappers or as a paste to seal)",
+        "normalizedName": "maida",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false,
+        "notes": "use to make homemade wrappers (thin crepe style) or buy spring roll pastry if available"
+      },
+      {
+        "name": "cornflour (for homemade wrappers)",
+        "normalizedName": "cornflour",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "add to maida for crispier homemade wrappers"
+      },
+      {
+        "name": "green chilli sauce or sweet chilli sauce (for dipping)",
+        "normalizedName": "green-chilli-sauce",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil (for deep frying)",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "If making homemade wrappers: whisk maida and cornflour with a pinch of salt and enough water (about 200 ml) to make a thin, pourable batter. Heat a lightly oiled flat pan on medium; pour 3 tbsp batter and swirl into a thin 18 cm crepe. Cook 1 minute until the top is dry. Stack with parchment between them. You need 12 wrappers.",
+        "timerMinutes": 15,
+        "method": "pan-frying"
+      },
+      {
+        "order": 2,
+        "text": "Mix the minced meat, grated carrot, spring onion, garlic, onion, soy sauce, pepper and half the beaten egg until evenly combined. Season with salt — the soy sauce already adds salt, so taste as you go.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Lay a wrapper on a clean surface. Place 2 tbsp of filling in a thin line about 3 cm from the bottom edge. Roll upward tightly, fold in the sides, and continue rolling. Seal the edge with the remaining beaten egg. Repeat with all wrappers.",
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Heat 2 cups oil in a kadai or deep frying pan to 175°C (a small piece of wrapper should bubble vigorously within 3 seconds). Fry the lumpia in batches of 4–5, turning, for 4–5 minutes until deep golden and the filling is cooked through.",
+        "timerMinutes": 5,
+        "method": "deep-frying"
+      },
+      {
+        "order": 5,
+        "text": "Drain on a wire rack or paper. Do not stack while hot or the wrappers lose their crunch. Serve immediately with sweet chilli sauce or a quick dip of vinegar, garlic and pinch of sugar."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "frying-pan"
+    ],
+    "methods": [
+      "deep-frying",
+      "pan-frying"
+    ],
+    "tags": [
+      "street-food",
+      "fried-snack",
+      "party",
+      "kids-friendly"
+    ],
+    "allergens": [
+      "egg",
+      "soy",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 320,
+      "protein": 18,
+      "carbs": 28,
+      "fat": 16,
+      "fiber": 2,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "keema",
+        "substitute": "300 g finely diced mixed vegetables (cabbage, carrot, mushroom) for a vegetarian lumpia",
+        "notes": "sauté the vegetable filling first to remove moisture before wrapping"
+      },
+      {
+        "ingredient": "maida",
+        "substitute": "ready-made spring roll pastry sheets (available in frozen section at large supermarkets)",
+        "notes": "much quicker and crispier result"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "1.5 tbsp Maggi masala sauce for an Indian-pantry adaptation"
+      },
+      {
+        "ingredient": "egg",
+        "substitute": "2 tbsp maida paste (flour + water) for sealing if avoiding egg in the wrapper",
+        "notes": "a flour-water slurry seals just as effectively"
+      }
+    ],
+    "culturalNote": "Lumpiang shanghai is named for its Chinese origins (lumpia comes from the Hokkien word lumpia, meaning spring roll) adapted by Filipino cooks over centuries — today it is the non-negotiable appetiser at every Filipino birthday party, fiesta and holiday table.",
+    "regionalVariation": "Lumpiang sariwa is a fresh, unfried version with a peanut sauce instead of a sweet-chilli dip. Lumpiang ubod uses heart of palm as the filling. Some regional versions add bean sprouts and tofu.",
+    "indianKitchenAdaptation": "Lumpia maps closely to Indian spring rolls. Make the wrapper dough exactly as you would for a thin dosa batter-style crepe using maida. Minced chicken (kothu kozhi) or mince from any Indian butcher works perfectly. Deep fry in a kadai with neutral oil. Chilli garlic sauce from any Indian store works as the dipping sauce. Ready-made samosa pastry sheets can replace spring roll wrappers in a pinch.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-malay-garlic-butter-prawns",
+    "slug": "malay-garlic-butter-prawns",
+    "title": "Malaysian Garlic Butter Prawns",
+    "nativeTitle": "Udang Mentega Bawang Putih",
+    "description": "Jumbo prawns tossed in a sizzling, fragrant garlic-and-butter sauce with a hit of chilli and a squeeze of lime — a Malaysian zi char (Chinese-Malaysian stir-fry restaurant) classic that takes under 15 minutes from fridge to table. The sauce is sticky, golden and absolutely made for white rice.",
+    "cuisine": "malaysian",
+    "country": "malaysia",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "pescatarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 12,
+    "totalTimeMinutes": 22,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "large prawn, shell on (deveined through the shell)",
+        "normalizedName": "prawn",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false,
+        "notes": "shell-on prawns absorb the butter better and taste richer"
+      },
+      {
+        "name": "garlic cloves, minced",
+        "normalizedName": "garlic",
+        "quantity": 8,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "unsalted butter",
+        "normalizedName": "butter",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies, broken in half",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false,
+        "notes": "adjust for heat tolerance; remove seeds for less heat"
+      },
+      {
+        "name": "spring onion, cut in 3 cm pieces",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "oyster sauce",
+        "normalizedName": "oyster-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "adds the savoury depth that makes the sauce glossy"
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "lemon or lime juice",
+        "normalizedName": "lemon",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pat the prawns dry with kitchen paper — moisture will cause the butter to splatter. Mix oyster sauce, soy sauce, lemon juice and sugar in a small bowl and set aside.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a wide frying pan or tawa on high. Add the prawns in a single layer and sear without moving for 1.5 minutes until the underside is pink and a little charred. Flip and sear the other side for 1 minute. Remove and set aside.",
+        "timerMinutes": 3,
+        "method": "pan-frying"
+      },
+      {
+        "order": 3,
+        "text": "Reduce heat to medium. Add butter and let it melt and foam. Add garlic and dried red chillies and fry, stirring constantly, for 1.5–2 minutes until the garlic turns pale golden and smells nutty. Do not let the garlic brown — it turns bitter quickly in butter.",
+        "timerMinutes": 2,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Pour in the sauce mixture and stir. The butter sauce will hiss and bubble — let it simmer for 30 seconds until slightly thickened.",
+        "timerMinutes": 1,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Return the prawns to the pan. Toss to coat every prawn in the garlic butter sauce, then add the spring onion pieces. Cook on medium heat for 1 more minute, turning the prawns, until everything is glossy and the prawns are cooked through.",
+        "timerMinutes": 1,
+        "method": "pan-frying"
+      },
+      {
+        "order": 6,
+        "text": "Taste for salt — the oyster and soy sauces bring significant saltiness. Serve immediately over steamed jasmine rice with extra lime wedges on the side. Eat the prawns shell-on for maximum flavour."
+      }
+    ],
+    "cookware": [
+      "frying-pan",
+      "tawa"
+    ],
+    "methods": [
+      "pan-frying",
+      "sauteing",
+      "simmering"
+    ],
+    "tags": [
+      "quick",
+      "party",
+      "comfort-food",
+      "under-30-minutes"
+    ],
+    "allergens": [
+      "shellfish",
+      "dairy",
+      "soy",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 290,
+      "protein": 28,
+      "carbs": 8,
+      "fat": 16,
+      "fiber": 1,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "butter",
+        "substitute": "ghee for a rich Indian-kitchen version",
+        "notes": "ghee handles high heat better than butter and gives a more Indian flavour bridge"
+      },
+      {
+        "ingredient": "prawn",
+        "substitute": "500 g fish fillets cut in 4 cm pieces",
+        "notes": "reduce initial sear to 1 minute per side to avoid overcooking"
+      },
+      {
+        "ingredient": "oyster-sauce",
+        "substitute": "1 tbsp hoisin sauce or 1 tsp extra soy sauce with a pinch of sugar",
+        "notes": "hoisin gives sweetness and body like oyster sauce"
+      },
+      {
+        "ingredient": "dried-red-chilli",
+        "substitute": "0.5 tsp red chilli flakes or 1 tsp sambal oelek (chilli sauce)",
+        "notes": "easier to control the heat"
+      }
+    ],
+    "culturalNote": "Garlic butter prawns appear on every Malaysian zi char menu — the Chinese-Malaysian tradition of wok-cooking high-heat dishes at pavement restaurants. The butter is a Western influence absorbed into the cuisine in the colonial era, now considered quintessentially Malaysian.",
+    "regionalVariation": "Some versions add evaporated milk to make a creamier sauce (an otak-otak influence). Penang versions are spicier and drier; KL versions lean wetter with more butter sauce to spoon over rice.",
+    "indianKitchenAdaptation": "Use a heavy tawa or kadai on the highest flame. Ghee can substitute for butter and is even better for high-heat cooking. Fresh prawns (eral/jhinga) from the local market work perfectly. Oyster sauce is available at large supermarkets; replace it with a teaspoon of extra soy sauce and a pinch of sugar if unavailable. Dried red chillies (byadgi or Kashmiri) are standard Indian pantry items. This dish works with tail-on king prawns found at any seafood market.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  }
+]

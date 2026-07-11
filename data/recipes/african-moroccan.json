@@ -1,0 +1,2379 @@
+[
+  {
+    "id": "ca-moroccan-chicken-tagine-olive-lemon",
+    "slug": "moroccan-chicken-tagine-olive-lemon",
+    "title": "Moroccan Chicken Tagine with Olives and Lemon",
+    "nativeTitle": null,
+    "description": "A slow-braised Moroccan chicken stew fragrant with cumin, cinnamon and saffron, lifted by briny green olives and bright lemon at the finish. Traditionally cooked in a conical clay tagine, this version is adapted for a heavy-bottomed pot with identical results.",
+    "cuisine": "moroccan",
+    "country": "morocco",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 50,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken, curry-cut bone-in pieces",
+        "normalizedName": "chicken",
+        "quantity": 800,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion, thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 5,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "fresh ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "green olives, pitted",
+        "normalizedName": "olives",
+        "quantity": 80,
+        "unit": "g",
+        "optional": false,
+        "notes": "Kalamata olives add a richer flavour"
+      },
+      {
+        "name": "lemon (juice and zest)",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "saffron strands",
+        "normalizedName": "saffron",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": true,
+        "notes": "Use an extra pinch of turmeric for colour if unavailable"
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "ground cinnamon",
+        "normalizedName": "cinnamon",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, freshly ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "fresh coriander leaves, roughly chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "fresh parsley, roughly chopped",
+        "normalizedName": "parsley",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "In a large bowl, toss the chicken pieces with turmeric, cumin, coriander powder, cinnamon, black pepper and half the minced garlic. Mix until the pieces are evenly coated. Let the chicken rest while you prepare the rest — even 10 minutes of marinating improves the flavour.",
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Heat 2 tbsp oil in a heavy-bottomed pot over medium-high flame. Sear the chicken in batches — do not crowd the pot — for 3–4 minutes per side until the pieces are deep golden with some charred edges. Remove to a plate and set aside.",
+        "timerMinutes": 8,
+        "method": "pan-frying"
+      },
+      {
+        "order": 3,
+        "text": "Reduce the flame to medium and add the remaining oil to the same pot. Add the sliced onions and cook, stirring occasionally, for 6 minutes until soft and translucent. Add the remaining garlic and grated ginger; stir for 1 minute until the raw smell disappears.",
+        "timerMinutes": 7,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "If using saffron, dissolve the strands in 3 tbsp of warm water and pour into the pot. Return all the seared chicken pieces and any resting juices to the pot. Pour in 300 ml water so the liquid comes about halfway up the chicken.",
+        "method": "braising"
+      },
+      {
+        "order": 5,
+        "text": "Bring to a gentle boil, then reduce to a low simmer, cover tightly and cook for 30 minutes. After 30 minutes, the chicken should be almost tender — pierce the thickest piece with a knife and the juices should run clear.",
+        "timerMinutes": 30,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Add the olives, the juice of both lemons and the zest of one lemon. Simmer uncovered for 8–10 minutes — the sauce will reduce and turn glossy and the chicken will be fall-off-the-bone tender. Taste and adjust salt.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 7,
+        "text": "Scatter chopped coriander leaves and parsley over the top. Serve hot directly from the pot with crusty bread, steamed couscous (or rava), or plain basmati rice."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "braising",
+      "simmering",
+      "sauteing",
+      "pan-frying"
+    ],
+    "tags": [
+      "comfort-food",
+      "party",
+      "gravy"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 380,
+      "protein": 36,
+      "carbs": 9,
+      "fat": 22,
+      "fiber": 2,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "olives",
+        "substitute": "Kalamata olives for deeper brine, or skip entirely and add 1 tbsp capers for a different salt note"
+      },
+      {
+        "ingredient": "saffron",
+        "substitute": "An extra pinch of turmeric for colour; the flavour difference is noticeable but the dish still works well"
+      },
+      {
+        "ingredient": "chicken",
+        "substitute": "Bone-in mutton pieces; increase covered braising time to 50 minutes before adding olives",
+        "notes": "lamb shanks are the most traditional Moroccan substitute"
+      },
+      {
+        "ingredient": "lemon",
+        "substitute": "1 tbsp white vinegar plus 0.5 tsp sugar for a similar sweet-sour note if lemons are unavailable"
+      }
+    ],
+    "culturalNote": "The tagine is Morocco's most celebrated slow-cooked dish — named after the conical clay pot it is traditionally cooked in over wood charcoal. Chicken with olives and preserved lemon (hamad m'rakad) is the most popular version, served at every Moroccan festive table.",
+    "regionalVariation": "Fez cooks add honeyed onions and almonds for sweetness alongside the olives; Marrakesh versions use preserved lemon for a more intense citrus punch than fresh lemon.",
+    "indianKitchenAdaptation": "Cook in a heavy-bottomed handi or deep kadai with a tight-fitting lid. Saffron (kesar) is widely available at Indian mithai shops and is the same ingredient. Serve over sooji (rava) prepared by the absorption method as a couscous substitute — 1 part rava, 1.25 parts boiling water, covered for 5 minutes then fluffed with a fork.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-moroccan-vegetable-couscous",
+    "slug": "moroccan-vegetable-couscous",
+    "title": "Moroccan Seven-Vegetable Couscous",
+    "nativeTitle": null,
+    "description": "A vibrant Moroccan vegan stew of chickpeas and seasonal vegetables spiced with cumin, cinnamon and saffron, served over a mound of steamed semolina (couscous). Friday's communal dish across the Maghreb, this version is entirely plant-based and cooks in under an hour.",
+    "cuisine": "moroccan",
+    "country": "morocco",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "couscous (fine semolina / sooji)",
+        "normalizedName": "rava",
+        "quantity": 240,
+        "unit": "g",
+        "optional": false,
+        "notes": "Fine sooji (rava) is the best Indian substitute for couscous"
+      },
+      {
+        "name": "onion, cut into thin wedges",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "carrot, cut into thick coins",
+        "normalizedName": "carrot",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "pumpkin or butternut squash, 3 cm cubes",
+        "normalizedName": "pumpkin",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false,
+        "notes": "Lauki (bottle gourd) is a good budget substitute"
+      },
+      {
+        "name": "bottle gourd (lauki), diced",
+        "normalizedName": "bottle-gourd",
+        "quantity": 150,
+        "unit": "g",
+        "optional": true,
+        "notes": "Or substitute zucchini"
+      },
+      {
+        "name": "tomato, roughly chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "chickpeas, cooked or canned",
+        "normalizedName": "chickpea",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "ground cinnamon",
+        "normalizedName": "cinnamon",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder or paprika",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "fresh coriander leaves, for serving",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Prepare the couscous first so it is ready when the stew is done. Bring 300 ml water to a boil and take off the heat. Pour over the rava (couscous) in a bowl, add 0.5 tsp salt and 1 tsp oil, stir once, then cover tightly with a plate. Set aside for 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Heat 2 tbsp oil in a heavy-bottomed pot over medium flame. Add the onion wedges and cook for 5 minutes until they soften and turn translucent at the edges without browning.",
+        "timerMinutes": 5,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add carrot and pumpkin to the pot. Stir in cumin, coriander powder, turmeric, cinnamon and red chilli powder; cook for 2 minutes until the spices coat the vegetables and smell fragrant.",
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Add the chopped tomatoes and 400 ml water. Season generously with salt. Bring to a boil, then reduce to a low simmer, cover and cook for 15 minutes until the carrots are mostly tender.",
+        "timerMinutes": 15,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Add the bottle gourd (or zucchini) and chickpeas. Simmer uncovered for 8 minutes — the gourd should be just tender, the broth fragrant and slightly thickened. Taste and adjust salt.",
+        "timerMinutes": 8,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Fluff the rested couscous (rava) with a fork — it should be light and separated, not clumped. Mound the couscous in a large shallow bowl or individual plates, ladle the hot vegetable broth and vegetables over and around, and finish with fresh coriander leaves."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "saucepan"
+    ],
+    "methods": [
+      "simmering",
+      "sauteing",
+      "one-pot"
+    ],
+    "tags": [
+      "comfort-food",
+      "budget",
+      "healthy",
+      "one-pot-meal"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "protein": 11,
+      "carbs": 62,
+      "fat": 9,
+      "fiber": 8,
+      "sugar": 7,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "rava",
+        "substitute": "Ready-made couscous from a specialty store, prepared as per packet instructions; or use quinoa for a gluten-free version"
+      },
+      {
+        "ingredient": "pumpkin",
+        "substitute": "Sweet potato or diced raw banana (kaccha kela) for a denser, starchier stew"
+      },
+      {
+        "ingredient": "chickpea",
+        "substitute": "White rajma (kidney beans) or boiled chana dal; both hold their shape in the broth"
+      },
+      {
+        "ingredient": "bottle-gourd",
+        "substitute": "Ridge gourd (turai) or regular zucchini; add in the last 8 minutes as they cook faster"
+      }
+    ],
+    "culturalNote": "Couscous is the national dish of Morocco and a cherished Friday communal meal across the Maghreb, traditionally steamed above the stew broth in a couscousière — a two-tier steamer whose bottom holds the stew and whose top holds the grain.",
+    "regionalVariation": "Fez-style couscous is crowned with caramelised onions, raisins and toasted almonds for a sweet finish; southern Moroccan versions are simpler and savoury, relying on the depth of the broth.",
+    "indianKitchenAdaptation": "Fine sooji (rava / upma rava) is a nearly identical substitute for couscous — the same grain, the same absorption texture. The vegetable stew cooks in any kadai or pressure cooker. All spices are from a standard Indian pantry. Budget-friendly and naturally vegan, this dish needs no specialist equipment or imports.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-moroccan-harira-soup",
+    "slug": "moroccan-harira-soup",
+    "title": "Moroccan Harira Soup",
+    "nativeTitle": null,
+    "description": "A hearty Moroccan tomato and lentil soup enriched with chickpeas and thin vermicelli, scented with cinnamon and cumin. Harira is the traditional soup served to break the Ramadan fast but is equally popular as a warming everyday meal.",
+    "cuisine": "moroccan",
+    "country": "morocco",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 35,
+    "totalTimeMinutes": 50,
+    "servings": 5,
+    "ingredients": [
+      {
+        "name": "chickpeas, cooked or canned",
+        "normalizedName": "chickpea",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "masoor dal (red lentils), rinsed",
+        "normalizedName": "masoor-dal",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "tomato, roughly chopped",
+        "normalizedName": "tomato",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato paste",
+        "normalizedName": "tomato-paste",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "onion, finely diced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "celery stalks, finely sliced",
+        "normalizedName": "celery",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": true,
+        "notes": "Skip if unavailable; add an extra onion instead"
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ground cinnamon",
+        "normalizedName": "cinnamon",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "thin wheat vermicelli (semiya), broken into 2 cm pieces",
+        "normalizedName": "vermicelli",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "lemon (juice only)",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "fresh coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "fresh parsley, chopped",
+        "normalizedName": "parsley",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": true
+      },
+      {
+        "name": "olive oil or cooking oil",
+        "normalizedName": "olive-oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat oil in a heavy-bottomed pot over medium flame. Add the onion and celery and cook for 5 minutes, stirring occasionally, until the onion turns soft and translucent. Add the garlic and stir for 30 seconds until fragrant.",
+        "timerMinutes": 6,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Add tomato paste and cook for 2 minutes, stirring, until it deepens in colour. Add the chopped fresh tomatoes, cinnamon, cumin, turmeric and black pepper. Stir well and cook for 3 minutes until the tomatoes start to break down.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Pour in 1.2 litres of water. Add the rinsed masoor dal, chickpeas and salt. Bring to a boil, skim off any foam, then reduce the flame to low, cover and simmer for 20 minutes until the lentils are completely soft and falling apart — this gives the soup its characteristic thick body.",
+        "timerMinutes": 20,
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "Add the broken vermicelli to the soup. Simmer uncovered for 4–5 minutes until the pasta is just cooked — the soup will thicken noticeably. If it becomes too thick, add a splash of hot water.",
+        "timerMinutes": 5,
+        "method": "boiling"
+      },
+      {
+        "order": 5,
+        "text": "Squeeze in the lemon juice. Taste and adjust salt. Ladle into bowls and finish with a generous scattering of fresh coriander and parsley. Serve with Moroccan bread or any flatbread on the side."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "simmering",
+      "sauteing",
+      "boiling",
+      "one-pot"
+    ],
+    "tags": [
+      "soup",
+      "budget",
+      "comfort-food",
+      "healthy",
+      "eid"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 210,
+      "protein": 10,
+      "carbs": 34,
+      "fat": 5,
+      "fiber": 7,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "vermicelli",
+        "substitute": "Broken spaghetti or rice (add 3 tbsp raw rice instead); or leave it out for a gluten-free version"
+      },
+      {
+        "ingredient": "masoor-dal",
+        "substitute": "Yellow moong dal (cooks faster and is softer) or toor dal (gives a slightly denser texture)"
+      },
+      {
+        "ingredient": "celery",
+        "substitute": "Extra onion or 2 tbsp finely chopped spring onion; celery adds a subtle herbal note that parsley can partly replace"
+      },
+      {
+        "ingredient": "olive-oil",
+        "substitute": "Any neutral cooking oil; the flavour change is minimal"
+      }
+    ],
+    "culturalNote": "Harira is Morocco's national comfort soup, eaten daily during Ramadan to break the fast (iftar) alongside dates and shebbakia pastries. Its name means 'silk' in Darija — referring to the silky texture from dissolved lentils and tomatoes.",
+    "regionalVariation": "Some Moroccan families add a small amount of browned lamb or beef for richness; others stir in a beaten egg swirled in at the end (similar to egg drop soup) for extra protein.",
+    "indianKitchenAdaptation": "Masoor dal replaces hard-to-find lentil varieties in the same step. Semiya (wheat vermicelli) is the exact Indian equivalent of the pasta used. The entire soup cooks in one pot with pantry spices and is well suited to a pressure cooker — cook on high pressure for 8 minutes (about 3 whistles) after adding the lentils, then add vermicelli and finish on the stovetop.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-moroccan-carrot-salad",
+    "slug": "moroccan-carrot-salad",
+    "title": "Moroccan Spiced Carrot Salad",
+    "nativeTitle": null,
+    "description": "Tender boiled carrots tossed in warm cumin-cinnamon-spiced olive oil and finished with lemon and fresh herbs. This simple Moroccan mezze salad is served at room temperature — equally good as a side, a light lunch or part of a spread.",
+    "cuisine": "moroccan",
+    "country": "morocco",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "side",
+      "lunch",
+      "snack"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "carrots, peeled and sliced into 5 mm coins",
+        "normalizedName": "carrot",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "garlic, finely minced",
+        "normalizedName": "garlic",
+        "quantity": 2,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "ground cinnamon",
+        "normalizedName": "cinnamon",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder or mild paprika",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "lemon (juice of 1, zest of 0.5)",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "fresh coriander leaves, roughly torn",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "fresh mint leaves",
+        "normalizedName": "mint",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "jaggery (for sweetness)",
+        "normalizedName": "jaggery",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "Skip for a purely savoury salad"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Bring a medium saucepan of salted water to a boil. Add the sliced carrots and cook for 7 minutes until fork-tender but not mushy — they should hold their shape. Drain and spread on a plate to steam off excess moisture.",
+        "timerMinutes": 7,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "While the carrots drain, warm the olive oil in a small frying pan over low heat. Add the minced garlic and fry gently for 30 seconds until fragrant but not browned. Add cumin, coriander powder, cinnamon and chilli powder; stir for 15 seconds just to bloom the spices in the oil.",
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Pour the warm spiced oil over the drained carrots. Add lemon juice, lemon zest, optional jaggery and salt. Toss gently until every slice is glossy and evenly coated.",
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Transfer to a serving plate. Scatter coriander leaves and mint over the top. The salad is best served warm or at room temperature — it can also be made ahead and chilled, though the colour of the herbs will deepen overnight."
+      }
+    ],
+    "cookware": [
+      "saucepan",
+      "frying-pan"
+    ],
+    "methods": [
+      "boiling",
+      "sauteing",
+      "no-cook"
+    ],
+    "tags": [
+      "salad",
+      "budget",
+      "healthy",
+      "low-oil",
+      "under-30-minutes",
+      "lunchbox"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 110,
+      "protein": 2,
+      "carbs": 17,
+      "fat": 5,
+      "fiber": 4,
+      "sugar": 8,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "carrot",
+        "substitute": "Roasted beetroot with the same spice mix makes a stunning pink version; parboiled sweet potato works beautifully too"
+      },
+      {
+        "ingredient": "olive-oil",
+        "substitute": "Any neutral cooking oil; a few drops of sesame oil added at the end gives an interesting East-meets-West aroma"
+      },
+      {
+        "ingredient": "lemon",
+        "substitute": "1 tsp white vinegar or a generous squeeze of tamarind water for a different but equally tart note"
+      },
+      {
+        "ingredient": "jaggery",
+        "substitute": "A pinch of sugar or a drizzle of honey (honey makes it non-vegan) for those who prefer a hint of sweetness"
+      }
+    ],
+    "culturalNote": "This dish (known as khizou mchermel) is a Moroccan mezze staple — one of several small plates, called kemia, placed on the table before a main meal to stimulate the appetite.",
+    "regionalVariation": "Marrakesh cooks sometimes add a handful of golden raisins for sweetness; Casablanca versions include a pinch of ras el hanout spice blend and omit the mint.",
+    "indianKitchenAdaptation": "Completely pantry-friendly for an Indian cook — carrots (gajar) are available year-round and all spices are standard staples. Use any cooking oil if olive oil is unavailable. The warm spiced oil technique is similar to a light tadka. Serve as a chatpata side alongside dal and rice, or as a salad in a lunchbox.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-egyptian-koshari",
+    "slug": "egyptian-koshari",
+    "title": "Egyptian Koshari",
+    "nativeTitle": null,
+    "description": "Egypt's beloved street-food bowl — layers of rice, brown lentils and macaroni topped with a fiery spiced tomato sauce, crispy caramelised onions and a sharp garlic-vinegar drizzle. Every component is budget-friendly and the result is addictively satisfying.",
+    "cuisine": "egyptian",
+    "country": "egypt",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 40,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "short-grain or sona masoori rice",
+        "normalizedName": "rice",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "masoor dal (red or brown lentils), rinsed",
+        "normalizedName": "masoor-dal",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "Traditional koshari uses brown lentils that hold shape; masoor gives a softer result"
+      },
+      {
+        "name": "small elbow macaroni or broken vermicelli",
+        "normalizedName": "pasta",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "chickpeas, cooked or canned",
+        "normalizedName": "chickpea",
+        "quantity": 1,
+        "unit": "can",
+        "optional": false
+      },
+      {
+        "name": "onion, halved and very thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "tomato, finely chopped",
+        "normalizedName": "tomato",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato paste",
+        "normalizedName": "tomato-paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "white vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder or cayenne",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Start with the crispy onions as they take the longest. Heat 2 tbsp oil in a large kadai or frying pan over medium-low heat. Add the thinly sliced onions with a pinch of salt and cook slowly, stirring every few minutes, for 20 minutes until deep golden-brown and crispy — patience here is key. Drain on paper towels and set aside; they will crisp further as they cool.",
+        "timerMinutes": 20,
+        "method": "pan-frying"
+      },
+      {
+        "order": 2,
+        "text": "While the onions cook, bring 500 ml salted water to a boil in a saucepan. Add the masoor dal and cook for 12–15 minutes until tender but the lentils still hold their shape (don't let them turn to mush). Drain and set aside.",
+        "timerMinutes": 15,
+        "method": "boiling"
+      },
+      {
+        "order": 3,
+        "text": "Cook the macaroni in a separate pot of salted boiling water until al dente (check packet time, usually 8–10 minutes). Drain and set aside.",
+        "timerMinutes": 10,
+        "method": "boiling"
+      },
+      {
+        "order": 4,
+        "text": "Make the tomato sauce: heat 2 tbsp oil in a saucepan. Add half the minced garlic and stir for 30 seconds. Add tomato paste and cook for 2 minutes. Add fresh tomato, 1 tsp cumin, coriander powder and chilli powder; simmer uncovered for 10 minutes until the sauce thickens and the raw tomato smell is gone. Season with salt.",
+        "timerMinutes": 12,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Make the garlic-vinegar sauce: combine the vinegar, remaining garlic (minced), a pinch of cumin and a pinch of salt in a small bowl. Stir and set aside — this sharp sauce is drizzled over the bowl at serving.",
+        "method": "no-cook"
+      },
+      {
+        "order": 6,
+        "text": "Cook the rice: rinse the rice, combine with 1.75 cups water, 0.5 tsp cumin, and 0.5 tsp salt in a saucepan. Bring to a boil, then lower to the minimum flame, cover and cook for 18 minutes until all water is absorbed and the rice is fluffy. Fluff with a fork.",
+        "timerMinutes": 18,
+        "method": "boiling"
+      },
+      {
+        "order": 7,
+        "text": "Assemble: layer a generous portion of cumin rice in each bowl, add a spoonful of lentils and some macaroni on top, then scatter chickpeas over. Ladle the spiced tomato sauce generously over everything. Pile the crispy onions on top and drizzle the garlic-vinegar sauce to taste. Serve immediately so the onions stay crunchy."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "saucepan",
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "pan-frying",
+      "boiling",
+      "simmering",
+      "no-cook"
+    ],
+    "tags": [
+      "street-food",
+      "budget",
+      "comfort-food",
+      "one-pot-meal",
+      "lunchbox"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 16,
+      "carbs": 84,
+      "fat": 10,
+      "fiber": 10,
+      "sugar": 7,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "pasta",
+        "substitute": "Broken wheat semiya (vermicelli) is the most authentic and widely available Indian substitute; cook in boiling water for 3–4 minutes"
+      },
+      {
+        "ingredient": "masoor-dal",
+        "substitute": "Yellow moong dal for a softer texture; or substitute half the lentils with additional chickpeas"
+      },
+      {
+        "ingredient": "chickpea",
+        "substitute": "Cooked rajma (kidney beans) or boiled kala chana for a different but equally hearty protein layer"
+      },
+      {
+        "ingredient": "vinegar",
+        "substitute": "Fresh lime juice thinned with a little water for a citrus version of the sharp sauce"
+      }
+    ],
+    "culturalNote": "Koshari is Egypt's unofficial national dish and the king of Cairo street food — sold from pushcarts and dedicated restaurant chains at all hours. It is a living example of Egypt's layered culinary history: the pasta from Italian influence, the lentils from ancient traditions, and the spiced tomato sauce from the Ottoman era.",
+    "regionalVariation": "Alexandria-style koshari uses a more vinegar-forward sauce; Cairo street versions often serve the tomato sauce and vinegar sauce separately in pitchers so diners control the ratio themselves.",
+    "indianKitchenAdaptation": "All components are entirely achievable in an Indian kitchen. Use sona masoori or short-grain rice. Replace macaroni with semiya (wheat vermicelli) — widely available and arguably more authentic. The birista technique (slow-fried onions for biryani) is identical to the crispy onion topping. Cook lentils in a pressure cooker for 2 whistles if short on time.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-egyptian-ful-medames",
+    "slug": "egyptian-ful-medames",
+    "title": "Egyptian Ful Medames",
+    "nativeTitle": null,
+    "description": "Egypt's quintessential breakfast — slow-simmered broad beans mashed with garlic, cumin and lemon, finished with a swirl of olive oil. Ful medames has been eaten in the Nile valley for millennia and remains the most democratic meal in the country, served from street carts at dawn.",
+    "cuisine": "egyptian",
+    "country": "egypt",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "lunch"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "dried fava beans (broad beans), soaked overnight; or use canned",
+        "normalizedName": "lobia",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false,
+        "notes": "Fava beans (broad beans) are traditional; lobia (black-eyed peas) is the closest widely available substitute"
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "lemon (juice of 1)",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "fresh coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": true
+      },
+      {
+        "name": "parsley, chopped",
+        "normalizedName": "parsley",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": true
+      },
+      {
+        "name": "green chilli, finely sliced (optional heat)",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "tomato, finely diced (for garnish)",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "If using dried soaked fava beans, drain and transfer to a saucepan with 600 ml fresh water. Bring to a boil, then reduce to a low simmer, cover and cook for 25–30 minutes until the beans are completely tender and break easily between your fingers. If using canned lobia or canned fava beans, drain, rinse and place in a saucepan with 100 ml water over low heat.",
+        "timerMinutes": 30,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Once the beans are tender, use the back of a spoon or a fork to partially mash about half of them directly in the pan — the mixture should be thick and chunky, not a smooth paste. Leave the rest of the beans whole for texture.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Add the minced garlic, cumin powder, lemon juice and a generous pinch of salt. Stir over low heat for 2 minutes so the garlic blooms gently in the warm beans.",
+        "timerMinutes": 2,
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "Transfer to a shallow serving bowl or keep in the pan. Drizzle olive oil generously over the top. Scatter chopped coriander, parsley, fresh tomato and green chilli over the surface. Serve warm with flatbread for scooping — pita or any Indian roti works perfectly."
+      }
+    ],
+    "cookware": [
+      "saucepan"
+    ],
+    "methods": [
+      "boiling",
+      "simmering",
+      "no-cook"
+    ],
+    "tags": [
+      "budget",
+      "healthy",
+      "lunchbox",
+      "under-30-minutes"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 240,
+      "protein": 12,
+      "carbs": 32,
+      "fat": 8,
+      "fiber": 9,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "lobia",
+        "substitute": "Boiled chickpeas give a neutral, creamy result; soaked and boiled toor dal is an ultra-budget substitute"
+      },
+      {
+        "ingredient": "olive-oil",
+        "substitute": "Any neutral oil; a few drops of sesame oil add a distinctive aroma"
+      },
+      {
+        "ingredient": "lemon",
+        "substitute": "Half a lime or 1 tsp tamarind water for a rounder sourness"
+      },
+      {
+        "ingredient": "cumin",
+        "substitute": "Half the amount of cumin seeds, dry-roasted and crushed, for a more intense earthy note"
+      }
+    ],
+    "culturalNote": "Ful medames dates back to ancient Egypt and is considered the national dish. Egyptians say 'ful and eggs are the food of the pharaohs' — it remains the most eaten breakfast in the country, from roadside carts to five-star hotel buffets.",
+    "regionalVariation": "Upper Egypt versions add a pinch of ground coriander and dried hot chilli; in Alexandria, ful is served looser with more lemon and topped with chopped white onion.",
+    "indianKitchenAdaptation": "Fava beans (broad beans) are not commonly stocked in Indian stores, but lobia (black-eyed peas / karamani) or chickpeas make excellent substitutes with only a slight difference in texture. Pressure-cook soaked lobia for 3 whistles instead of boiling. The dish is essentially a spiced mashed pulse — very close in spirit to a simple dal with olive oil and lemon.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-egyptian-molokhia-spinach-stew",
+    "slug": "egyptian-molokhia-spinach-stew",
+    "title": "Egyptian Molokhia-Style Spinach Stew",
+    "nativeTitle": null,
+    "description": "A deeply flavoured Egyptian spinach stew made by wilting spinach in rich chicken stock, then finishing with a sizzling garlic-coriander taqliya. Molokhia is traditionally made with jute-mallow leaves; this version uses spinach (palak) for an identical technique with an ingredient found in every Indian market.",
+    "cuisine": "egyptian",
+    "country": "egypt",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "fresh spinach leaves (molokhia substitute), finely chopped",
+        "normalizedName": "spinach",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false,
+        "notes": "Traditional molokhia uses jute-mallow leaves (mulukhiyah); spinach gives the same texture and cooking technique"
+      },
+      {
+        "name": "chicken (bone-in for stock, or use pre-made chicken stock)",
+        "normalizedName": "chicken",
+        "quantity": 400,
+        "unit": "g",
+        "optional": true,
+        "notes": "Omit and use vegetable stock for a vegetarian version"
+      },
+      {
+        "name": "chicken stock or water",
+        "normalizedName": "stock",
+        "quantity": 600,
+        "unit": "ml",
+        "optional": false,
+        "notes": "Use 1 stock cube dissolved in water if needed"
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 6,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "coriander seeds, coarsely ground (or coriander powder)",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "butter or ghee for the taqliya",
+        "normalizedName": "ghee",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "The garlic-coriander butter drizzle is called taqliya and is the signature element of molokhia"
+      },
+      {
+        "name": "lemon (juice only)",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "black pepper",
+        "normalizedName": "black-pepper",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "If using bone-in chicken, place in a saucepan with 800 ml water, a pinch of salt and a little black pepper. Bring to a boil, then simmer covered for 20 minutes. Remove the chicken and strain the broth — you need 600 ml of this stock. Shred the cooked chicken from the bones and set aside. If using pre-made stock, skip this step.",
+        "timerMinutes": 20,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Bring the 600 ml stock to a simmer in a saucepan. Add the finely chopped spinach, salt, cumin and black pepper. Stir, reduce heat to low and let the spinach cook in the simmering stock for 5 minutes — the leaves will wilt and release their colour into the broth, turning it a deep green.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 3,
+        "text": "While the spinach cooks, make the taqliya (garlic-coriander finish): melt ghee in a small frying pan over medium heat. Add all the minced garlic at once and stir constantly for 90 seconds until deep golden. Add ground coriander and stir for 10 seconds — the garlic should smell nutty and fragrant, not bitter.",
+        "timerMinutes": 2,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Pour the hot taqliya into the simmering spinach stew and stir immediately — the garlic and coriander will perfume the whole pot. Add the shredded chicken if using. Squeeze in the lemon juice and taste for salt. Serve hot over plain white rice.",
+        "method": "simmering"
+      }
+    ],
+    "cookware": [
+      "saucepan",
+      "frying-pan"
+    ],
+    "methods": [
+      "boiling",
+      "simmering",
+      "sauteing"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "soup",
+      "healthy"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 220,
+      "protein": 20,
+      "carbs": 6,
+      "fat": 13,
+      "fiber": 3,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "spinach",
+        "substitute": "Frozen chopped spinach (palak); thaw and squeeze dry before adding to the broth — works identically"
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "Butter or 2 tbsp oil for a dairy-free taqliya; ghee gives the most authentic aroma"
+      },
+      {
+        "ingredient": "chicken",
+        "substitute": "Omit the chicken and use vegetable stock for a vegetarian version; add a can of chickpeas for protein"
+      },
+      {
+        "ingredient": "stock",
+        "substitute": "A stock cube dissolved in hot water or the water from boiling vegetables works well"
+      }
+    ],
+    "culturalNote": "Molokhia is one of the oldest dishes in the world — records of its use in Egypt date to the pharaonic era. The defining technique is the taqliya (a flash-fry of garlic in butter poured over the finished soup), which gives the dish its characteristic aroma.",
+    "regionalVariation": "Syrian and Lebanese versions use the whole jute-mallow leaf and serve the broth over chicken and rice separately; Egyptian molokhia is always minced finely and mixed directly into the broth.",
+    "indianKitchenAdaptation": "Spinach (palak) is the perfect substitute for jute-mallow leaves and gives an identical result. Ghee (clarified butter) is available in every Indian kitchen and is exactly what the taqliya calls for. The whole dish is similar to a simplified palak curry without the heavy masala base, and cooks in one saucepan in under 30 minutes.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-ethiopian-doro-wat",
+    "slug": "ethiopian-doro-wat",
+    "title": "Ethiopian Doro Wat (Spiced Chicken Stew)",
+    "nativeTitle": null,
+    "description": "Ethiopia's iconic slow-cooked chicken stew — whole boiled eggs and chicken pieces simmered in a slow-caramelised onion base deeply spiced with berbere-style chillies, cinnamon, cardamom and clove, richened with spiced butter. Doro wat is Ethiopia's most celebrated dish, served during festivals over spongy injera flatbread.",
+    "cuisine": "ethiopian",
+    "country": "ethiopia",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 65,
+    "totalTimeMinutes": 85,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken (bone-in pieces, skinless)",
+        "normalizedName": "chicken",
+        "quantity": 700,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "eggs, hard-boiled and peeled",
+        "normalizedName": "egg",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "red onion, very finely minced",
+        "normalizedName": "onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false,
+        "notes": "The onion cooks dry without oil first — this slow caramelisation forms the flavour base"
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 6,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "fresh ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 1.5,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder (Kashmiri or cayenne for berbere heat)",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "Berbere spice blend is traditional; approximate it with extra chilli + the spices listed below"
+      },
+      {
+        "name": "ground cinnamon",
+        "normalizedName": "cinnamon",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cardamom powder",
+        "normalizedName": "cardamom",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "ground cloves",
+        "normalizedName": "clove",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "ghee or spiced niter kibbeh (clarified butter)",
+        "normalizedName": "ghee",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "Niter kibbeh is Ethiopian spiced butter; plain ghee is the best Indian substitute"
+      },
+      {
+        "name": "lemon (juice only)",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Score the hard-boiled eggs all over with a fork or knife tip — this allows the sauce to penetrate during cooking. Prick the chicken pieces deeply with a fork as well. Toss chicken with lemon juice and a pinch of salt and let it rest while you start the onion.",
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "In a heavy-bottomed pot over medium heat with no oil, add the very finely minced red onion. Cook dry, stirring frequently, for 20 minutes until the onion is completely dry, deep caramel-brown and reduced to less than a third of its original volume — this is the heart of doro wat. Do not rush this step.",
+        "timerMinutes": 20
+      },
+      {
+        "order": 3,
+        "text": "Add the ghee to the caramelised onion and stir to combine. Add garlic and ginger; stir for 2 minutes until fragrant. Add red chilli powder, cinnamon, cardamom, cloves and black pepper; stir for 1 minute on medium-low flame until the spices are absorbed into the oil and the colour deepens to a brick red.",
+        "timerMinutes": 3,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Add the chicken pieces and stir to coat in the thick spiced onion paste. Pour in 300 ml water, bring to a boil, then reduce the flame to low, cover and simmer for 30 minutes, stirring occasionally, until the chicken is cooked through and the sauce has darkened and thickened.",
+        "timerMinutes": 30,
+        "method": "braising"
+      },
+      {
+        "order": 5,
+        "text": "Nestle the scored hard-boiled eggs gently into the sauce. Cover and cook on low for 10 more minutes — the eggs will absorb the sauce colour and flavour through the scored surface. Taste for salt and adjust.",
+        "timerMinutes": 10,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "The finished doro wat should have a thick, glossy dark-red sauce that coats the chicken with rich, layered spice. Serve over injera (Ethiopian flatbread), rice or any flatbread — the sauce is meant to be scooped up generously."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "braising",
+      "simmering",
+      "sauteing",
+      "marinating"
+    ],
+    "tags": [
+      "comfort-food",
+      "party",
+      "festival",
+      "gravy"
+    ],
+    "allergens": [
+      "egg",
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein": 38,
+      "carbs": 12,
+      "fat": 24,
+      "fiber": 3,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "Bone-in mutton pieces for a richer, meatier version; increase braising time to 50 minutes"
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "Butter or oil; ghee is closest to niter kibbeh (Ethiopian spiced butter) that is traditional"
+      },
+      {
+        "ingredient": "egg",
+        "substitute": "Skip the eggs for a straightforward chicken stew; or use paneer cubes scored and added at the same step"
+      },
+      {
+        "ingredient": "red-chilli-powder",
+        "substitute": "Use Kashmiri chilli powder for a milder, deeply red version with less heat but richer colour"
+      }
+    ],
+    "culturalNote": "Doro wat is Ethiopia's most revered dish — served on special occasions, weddings, Ethiopian Christmas (Genna) and Easter. The dish is inseparable from injera (fermented teff flatbread), which acts as both plate and utensil at the communal table.",
+    "regionalVariation": "Tigrinya-speaking northern Ethiopia versions use slightly different proportions of berbere and sometimes add more cardamom; Addis Ababa restaurant versions are often richer with more butter.",
+    "indianKitchenAdaptation": "Cook in a kadai or heavy handi. Berbere spice blend can be assembled from the Indian pantry: red chilli powder, cinnamon, cardamom, cloves, coriander seeds (ground) and black pepper in the proportions listed. Niter kibbeh (Ethiopian spiced butter) is best replaced with plain ghee — the flavour is very close. The dry-caramelising of onions without oil is the crucial step; do not skip it.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-ethiopian-misir-wot",
+    "slug": "ethiopian-misir-wot",
+    "title": "Ethiopian Misir Wot (Red Lentil Stew)",
+    "nativeTitle": null,
+    "description": "A thick, boldly spiced Ethiopian red lentil stew cooked with berbere-style chillies, caramelised onion and garlic — one of Ethiopia's most popular fasting dishes and a complete vegan meal. The lentils dissolve into a dense, intensely flavoured stew that clings to injera or bread.",
+    "cuisine": "ethiopian",
+    "country": "ethiopia",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 35,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "masoor dal (red lentils), rinsed",
+        "normalizedName": "masoor-dal",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "red onion, very finely minced",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 5,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "fresh ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder (or berbere spice blend)",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "Reduce to 1 tbsp for medium heat"
+      },
+      {
+        "name": "ground cinnamon",
+        "normalizedName": "cinnamon",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cardamom powder",
+        "normalizedName": "cardamom",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "lemon (juice, for finishing)",
+        "normalizedName": "lemon",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "In a heavy-bottomed pot over medium heat with no oil, add the finely minced onion. Cook dry, stirring often, for 12–15 minutes until the onion is reduced, dry and deep caramel-brown — this is essential for the characteristic sweetness and depth of Ethiopian wot.",
+        "timerMinutes": 14,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Add the oil and stir to combine with the caramelised onion. Add garlic and ginger; stir for 1 minute until fragrant. Add red chilli powder, cinnamon, cardamom, coriander powder and turmeric; stir for 1 minute on medium-low until the spices are absorbed into the oiled onion base and the colour turns deep brick-red.",
+        "timerMinutes": 2,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add the rinsed masoor dal and stir to coat in the spiced onion base. Pour in 550 ml water. Bring to a boil, then reduce to a low simmer, cover and cook for 20 minutes until the lentils are fully cooked and most of them have dissolved into the sauce — the stew should be thick enough to hold a soft mound shape.",
+        "timerMinutes": 20,
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "Uncover and stir. If the stew is too thin, simmer uncovered for 5 more minutes to reduce. Squeeze in optional lemon juice and taste for salt. The finished misir wot should be dense, deeply red and intensely spiced. Serve hot over rice or with flatbread for scooping."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "simmering",
+      "sauteing",
+      "one-pot"
+    ],
+    "tags": [
+      "budget",
+      "healthy",
+      "comfort-food",
+      "one-pot-meal",
+      "eid"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 270,
+      "protein": 13,
+      "carbs": 38,
+      "fat": 8,
+      "fiber": 8,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "masoor-dal",
+        "substitute": "Toor dal (split pigeon peas) for a slightly nuttier stew; cook time increases by 5 minutes"
+      },
+      {
+        "ingredient": "red-chilli-powder",
+        "substitute": "Kashmiri chilli powder for vivid colour with moderate heat, or paprika for mild heat with good colour"
+      },
+      {
+        "ingredient": "oil",
+        "substitute": "Ghee or butter for a richer stew (will no longer be vegan), closer to the traditional niter kibbeh version"
+      },
+      {
+        "ingredient": "ginger",
+        "substitute": "0.5 tsp ground ginger powder in equal measure if fresh ginger is unavailable"
+      }
+    ],
+    "culturalNote": "Misir wot is a cornerstone of Ethiopian fasting cuisine — Orthodox Christians fast up to 250 days a year, and this vegan lentil dish is eaten almost daily during that period. It is one of the most popular dishes served at Ethiopian communal meals (gursha) on injera.",
+    "regionalVariation": "Some cooks add a tablespoon of niter kibbeh (Ethiopian spiced clarified butter) at the end for extra richness even in the fasting version; Addis Ababa restaurants often finish with a raw egg cracked on top in a separate non-fasting variation.",
+    "indianKitchenAdaptation": "Misir wot is essentially a Berbere-spiced masoor dal — if you can cook Indian red lentil curry, this is the same technique with a different spice blend. All ingredients are from a standard Indian pantry. The dry-caramelising of onions before adding oil is the one technique to master. Pressure cook for 2 whistles if short on time, then reduce uncovered on the stove.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-ethiopian-tikil-gomen",
+    "slug": "ethiopian-tikil-gomen",
+    "title": "Ethiopian Tikil Gomen (Spiced Cabbage and Potato)",
+    "nativeTitle": null,
+    "description": "A simple and comforting Ethiopian vegan stew of cabbage and potatoes gently cooked with turmeric, cumin and ginger until meltingly tender. One of Ethiopia's most popular fasting dishes, tikil gomen is mild in spice, deeply satisfying and comes together in under 40 minutes.",
+    "cuisine": "ethiopian",
+    "country": "ethiopia",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "cabbage (firm, white or green), cut into 4 cm chunks",
+        "normalizedName": "cabbage",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "potato, peeled and cut into 2 cm cubes",
+        "normalizedName": "potato",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "carrot, sliced into thick coins",
+        "normalizedName": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "onion, thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "fresh ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper",
+        "normalizedName": "black-pepper",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat oil in a heavy-bottomed pot over medium flame. Add the sliced onion and cook for 5 minutes until translucent. Add garlic and ginger; stir for 1 minute until the raw smell disappears.",
+        "timerMinutes": 6,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Add turmeric, cumin, coriander powder and black pepper. Stir for 30 seconds until the spices coat the onion and the colour turns a vivid golden-yellow.",
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add the diced potato and carrot. Stir well to coat in the spiced oil. Pour in 100 ml water, add salt, cover and cook on medium-low for 8 minutes until the potato begins to soften.",
+        "timerMinutes": 8,
+        "method": "one-pot"
+      },
+      {
+        "order": 4,
+        "text": "Add the cabbage chunks and stir gently to mix. The cabbage will release its own water. Cover and cook for 10 minutes on low heat, stirring once halfway, until the cabbage is tender and the potato is completely soft and coated in the yellow-spiced sauce.",
+        "timerMinutes": 10,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Uncover and stir. If any liquid remains, increase heat briefly to evaporate it — the finished tikil gomen should be lightly sauced, not soupy. Taste for salt and serve hot over rice or alongside injera."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "sauteing",
+      "simmering",
+      "one-pot"
+    ],
+    "tags": [
+      "budget",
+      "healthy",
+      "comfort-food",
+      "one-pot-meal",
+      "kids-friendly"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 195,
+      "protein": 4,
+      "carbs": 30,
+      "fat": 8,
+      "fiber": 6,
+      "sugar": 7,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "cabbage",
+        "substitute": "Pointed cabbage (savoy) or even pak choi; cauliflower florets give a denser result"
+      },
+      {
+        "ingredient": "potato",
+        "substitute": "Sweet potato (shakarkand) for a slightly sweeter, more nutritious stew"
+      },
+      {
+        "ingredient": "carrot",
+        "substitute": "Green beans or peas added in the last 5 minutes for colour and crunch"
+      },
+      {
+        "ingredient": "oil",
+        "substitute": "Ghee for a richer flavour (no longer vegan); adds a nuttiness that is excellent with the turmeric"
+      }
+    ],
+    "culturalNote": "Tikil gomen (gomen means greens in Amharic) is one of the handful of simple vegetable dishes that form the foundation of Ethiopian fasting cuisine — consumed by millions of Orthodox Christians during the long Lenten period and for regular fasting days throughout the year.",
+    "regionalVariation": "Some versions add a green chilli for gentle warmth; others skip carrot and use extra potato for a purely two-ingredient stew. Addis Ababa home cooks often add a handful of green peas in the last minutes.",
+    "indianKitchenAdaptation": "This dish is remarkably similar to gobhi aloo (Indian cabbage and potato stir-fry) with turmeric and cumin — any Indian cook will feel at home. The only difference is the absence of mustard seed tempering and curry leaves. Cook in a kadai with a lid. All ingredients are standard Indian pantry items and the dish can be on the table in 40 minutes.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-west-african-jollof-rice",
+    "slug": "west-african-jollof-rice",
+    "title": "West African Jollof Rice",
+    "nativeTitle": null,
+    "description": "West Africa's most celebrated one-pot rice dish — rice cooked low and slow in a deeply seasoned tomato-pepper-onion base until every grain is stained brick-red and smoky. The coveted party jollof flavour comes from the slightly charred bottom layer that forms on the lowest heat at the end.",
+    "cuisine": "west-african",
+    "country": "nigeria",
+    "region": null,
+    "language": "en",
+    "mealType": ["lunch", "dinner"],
+    "dietType": ["vegan"],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 40,
+    "totalTimeMinutes": 60,
+    "servings": 6,
+    "ingredients": [
+      { "name": "long-grain parboiled rice or basmati, rinsed", "normalizedName": "rice", "quantity": 2, "unit": "cup", "optional": false },
+      { "name": "tomato, roughly chopped", "normalizedName": "tomato", "quantity": 4, "unit": "piece", "optional": false },
+      { "name": "tomato paste", "normalizedName": "tomato-paste", "quantity": 3, "unit": "tbsp", "optional": false },
+      { "name": "capsicum (red or green bell pepper), roughly chopped", "normalizedName": "capsicum", "quantity": 2, "unit": "piece", "optional": false },
+      { "name": "onion, 2 for blending plus 1 sliced for frying", "normalizedName": "onion", "quantity": 3, "unit": "piece", "optional": false },
+      { "name": "garlic, minced", "normalizedName": "garlic", "quantity": 4, "unit": "clove", "optional": false },
+      { "name": "red chilli powder", "normalizedName": "red-chilli-powder", "quantity": 1, "unit": "tsp", "optional": false },
+      { "name": "cumin powder", "normalizedName": "cumin", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "coriander powder", "normalizedName": "coriander-seeds", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "thyme (dried)", "normalizedName": "thyme", "quantity": 1, "unit": "tsp", "optional": false },
+      { "name": "bay leaves", "normalizedName": "bay-leaf", "quantity": 2, "unit": "leaf", "optional": false },
+      { "name": "vegetable stock or water", "normalizedName": "stock", "quantity": 500, "unit": "ml", "optional": false, "notes": "Vegetable stock deepens the flavour; plain water works" },
+      { "name": "cooking oil", "normalizedName": "oil", "quantity": 4, "unit": "tbsp", "optional": false },
+      { "name": "salt", "normalizedName": "salt", "quantity": null, "unit": "to_taste", "optional": false }
+    ],
+    "steps": [
+      { "order": 1, "text": "Blend the fresh tomatoes, capsicum and two of the roughly chopped onions together into a smooth puree. Set aside — this tomato-pepper puree is the flavour base of jollof.", "method": "no-cook" },
+      { "order": 2, "text": "Heat oil in a large heavy-bottomed pot over medium-high flame. Add the remaining sliced onion and fry for 5 minutes until beginning to brown at the edges. Add garlic and stir for 30 seconds until fragrant.", "timerMinutes": 5, "method": "sauteing" },
+      { "order": 3, "text": "Add the tomato paste and stir-fry for 3 minutes until it darkens from bright red to a deeper brick colour — this removes the raw tinned flavour and adds depth. Do not skip this step.", "timerMinutes": 3 },
+      { "order": 4, "text": "Pour in the blended tomato-pepper puree. Add chilli powder, cumin, coriander, thyme and bay leaves. Bring to a vigorous boil and cook uncovered on medium-high for 15 minutes, stirring occasionally, until the sauce has reduced by almost half and oil is beginning to float on the surface.", "timerMinutes": 15, "method": "simmering" },
+      { "order": 5, "text": "Season the reduced sauce generously with salt. Add the rinsed rice and stir to coat every grain. Pour in the stock — it should cover the rice by about 2 cm. Bring to a boil, then reduce heat to the absolute minimum and cover tightly with foil and then the pot lid to trap all steam.", "method": "one-pot" },
+      { "order": 6, "text": "Cook on the lowest possible flame for 25–30 minutes until the rice is cooked through and all liquid is absorbed. For authentic smoky jollof flavour, remove the lid for the final 3 minutes to let a lightly charred bottom crust form. Fluff gently and serve immediately.", "timerMinutes": 30, "method": "dum" }
+    ],
+    "cookware": ["heavy-bottomed-pot", "blender"],
+    "methods": ["sauteing", "simmering", "one-pot", "dum"],
+    "tags": ["street-food", "budget", "party", "one-pot-meal", "comfort-food"],
+    "allergens": [],
+    "nutrition": {
+      "calories": 340,
+      "protein": 7,
+      "carbs": 62,
+      "fat": 8,
+      "fiber": 4,
+      "sugar": 7,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      { "ingredient": "capsicum", "substitute": "Roasted canned red peppers for a sweeter base; or use an extra tomato if capsicum is unavailable" },
+      { "ingredient": "thyme", "substitute": "Dried oregano or a pinch of dried basil; thyme is not a common Indian pantry herb so either works" },
+      { "ingredient": "stock", "substitute": "Plain water plus a Maggi or Knorr vegetable stock cube for the same depth of flavour" },
+      { "ingredient": "rice", "substitute": "Long-grain sona masoori or basmati; avoid short-grain varieties that turn too sticky in the pot" }
+    ],
+    "culturalNote": "Jollof rice is the most passionately debated dish in West Africa — Nigeria and Ghana each claim the superior version and the friendly rivalry is a source of great pride across the continent and diaspora.",
+    "regionalVariation": "Nigerian jollof uses long-grain parboiled rice and is known for a smoky charred base; Ghanaian jollof is lighter and often made with basmati; Senegalese thiéboudienne is a related but distinct fish-and-rice dish.",
+    "indianKitchenAdaptation": "Basmati rice works very well and is what most Indian cooks will have. The technique is similar to tomato rice (tamatar chawal) but the tomato-pepper base must be reduced for 15 minutes first — this step is essential and should not be skipped. Use a blender (mixie) for the base. Cook in a heavy handi or thick-bottomed pot.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-west-african-maafe-peanut-stew",
+    "slug": "west-african-maafe-peanut-stew",
+    "title": "West African Maafe (Peanut Stew)",
+    "nativeTitle": null,
+    "description": "A rich and warming West African peanut stew of chicken simmered in a thick tomato-peanut sauce with warming spices — one of the great dishes of Senegalese and Malian cuisine. Maafe is earthy, slightly sweet from the peanuts and deeply savoury all at once.",
+    "cuisine": "west-african",
+    "country": "senegal",
+    "region": null,
+    "language": "en",
+    "mealType": ["lunch", "dinner"],
+    "dietType": ["non_vegetarian"],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 45,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "ingredients": [
+      { "name": "chicken (bone-in, curry cut)", "normalizedName": "chicken", "quantity": 700, "unit": "g", "optional": false },
+      { "name": "roasted peanuts, very finely ground (or 4 tbsp smooth peanut butter)", "normalizedName": "peanut", "quantity": 100, "unit": "g", "optional": false, "notes": "Peanut butter is a quicker substitute; grind with 100 ml water into a paste" },
+      { "name": "tomato, roughly chopped", "normalizedName": "tomato", "quantity": 3, "unit": "piece", "optional": false },
+      { "name": "tomato paste", "normalizedName": "tomato-paste", "quantity": 2, "unit": "tbsp", "optional": false },
+      { "name": "onion, finely diced", "normalizedName": "onion", "quantity": 1, "unit": "piece", "optional": false },
+      { "name": "garlic, minced", "normalizedName": "garlic", "quantity": 4, "unit": "clove", "optional": false },
+      { "name": "fresh ginger, grated", "normalizedName": "ginger", "quantity": 1, "unit": "inch", "optional": false },
+      { "name": "potato, peeled and cut into 3 cm chunks", "normalizedName": "potato", "quantity": 2, "unit": "piece", "optional": true, "notes": "Sweet potato is the traditional West African choice; regular potato works" },
+      { "name": "red chilli powder", "normalizedName": "red-chilli-powder", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "cumin powder", "normalizedName": "cumin", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "coriander powder", "normalizedName": "coriander-seeds", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "bay leaf", "normalizedName": "bay-leaf", "quantity": 1, "unit": "leaf", "optional": true },
+      { "name": "cooking oil", "normalizedName": "oil", "quantity": 3, "unit": "tbsp", "optional": false },
+      { "name": "salt", "normalizedName": "salt", "quantity": null, "unit": "to_taste", "optional": false }
+    ],
+    "steps": [
+      { "order": 1, "text": "If using whole roasted peanuts, grind them in a blender with 100 ml water into a thick smooth paste. If using peanut butter, stir 4 tbsp with 100 ml warm water until smooth and lump-free. Set the peanut paste aside.", "method": "no-cook" },
+      { "order": 2, "text": "Heat oil in a heavy-bottomed pot over medium-high flame. Season chicken pieces with salt and sear in batches for 3 minutes per side until golden on the surface. Remove and set aside.", "timerMinutes": 8, "method": "pan-frying" },
+      { "order": 3, "text": "In the same pot add onion and cook for 4 minutes until soft. Add garlic and ginger; stir for 1 minute. Add tomato paste and cook for 2 minutes until it darkens. Add fresh tomato, chilli powder, cumin, coriander powder and bay leaf; cook for 5 minutes until the tomatoes break down.", "timerMinutes": 12, "method": "sauteing" },
+      { "order": 4, "text": "Pour in 400 ml water and return the seared chicken to the pot. Add potato chunks. Bring to a boil, then reduce to a low simmer, cover and cook for 20 minutes until the chicken is cooked through and the potato is nearly tender.", "timerMinutes": 20, "method": "braising" },
+      { "order": 5, "text": "Stir the peanut paste into the stew — the sauce will thicken immediately; stir well to fully incorporate. Add a splash of water if it becomes too thick. Simmer uncovered for 8 minutes, stirring often to prevent the peanut base sticking to the bottom. Taste for salt and remove the bay leaf.", "timerMinutes": 8, "method": "simmering" },
+      { "order": 6, "text": "The finished maafe should be a rich terracotta-coloured stew with a thick peanut sauce clinging to each piece of chicken. Serve hot over plain white rice." }
+    ],
+    "cookware": ["heavy-bottomed-pot", "blender"],
+    "methods": ["pan-frying", "braising", "simmering", "sauteing"],
+    "tags": ["comfort-food", "gravy", "party", "one-pot-meal"],
+    "allergens": ["peanuts"],
+    "nutrition": {
+      "calories": 480,
+      "protein": 38,
+      "carbs": 22,
+      "fat": 28,
+      "fiber": 4,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      { "ingredient": "peanut", "substitute": "Almond butter or cashew butter for a nut-butter variation; or toasted sunflower seeds blended smooth for a peanut-free alternative" },
+      { "ingredient": "chicken", "substitute": "Bone-in mutton for a richer stew; increase braising time to 45 minutes. Or use paneer cubes and vegetable stock for a vegetarian version" },
+      { "ingredient": "potato", "substitute": "Sweet potato (shakarkand) for an authentically West African sweetness; add in the same braising step" },
+      { "ingredient": "tomato-paste", "substitute": "Extra 2 tbsp blended fresh tomato, reduced for 5 additional minutes in the pot" }
+    ],
+    "culturalNote": "Maafe is one of the oldest dishes of the Senegambian region — the groundnut was introduced to West Africa by Portuguese traders in the 16th century and became so integral to the cuisine that dishes like maafe are now considered deeply traditional.",
+    "regionalVariation": "Malian versions tend to be thicker and sometimes include bitter melon or okra; Gambian versions are lighter with more chilli; Guinean maafe sometimes incorporates cassava leaves.",
+    "indianKitchenAdaptation": "Peanuts (moongphali / verkadalai) are widely sold roasted in Indian markets. Grind them in a mixie with water to make the paste — identical to making peanut chutney. All spices are from the standard Indian pantry and the braising technique mirrors Indian chicken curry. Cook in a kadai or pressure cooker (3 whistles on step 4, then add peanut paste and finish on the stovetop).",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-west-african-yassa-chicken",
+    "slug": "west-african-yassa-chicken",
+    "title": "West African Yassa Chicken (Senegalese Lemon-Onion Chicken)",
+    "nativeTitle": null,
+    "description": "Senegal's signature grilled-then-simmered chicken — marinated in lemon juice, ground mustard and vast quantities of slowly caramelised onions, then braised until meltingly tender. Yassa is bold, tangy and deeply onion-forward, one of the most distinctive dishes in West African cooking.",
+    "cuisine": "west-african",
+    "country": "senegal",
+    "region": null,
+    "language": "en",
+    "mealType": ["lunch", "dinner"],
+    "dietType": ["non_vegetarian"],
+    "difficulty": "medium",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 55,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "ingredients": [
+      { "name": "chicken (bone-in pieces)", "normalizedName": "chicken", "quantity": 800, "unit": "g", "optional": false },
+      { "name": "onion, halved and very thinly sliced", "normalizedName": "onion", "quantity": 4, "unit": "piece", "optional": false, "notes": "The onion is the star of yassa; do not reduce the quantity" },
+      { "name": "lemon (juice of 3 lemons)", "normalizedName": "lemon", "quantity": 3, "unit": "piece", "optional": false },
+      { "name": "mustard seeds, dry-roasted and ground into paste", "normalizedName": "mustard-seeds", "quantity": 1.5, "unit": "tsp", "optional": false, "notes": "Dijon mustard (2 tsp) is traditional; ground mustard seeds are the best Indian pantry substitute" },
+      { "name": "garlic, minced", "normalizedName": "garlic", "quantity": 4, "unit": "clove", "optional": false },
+      { "name": "green chilli, finely chopped", "normalizedName": "green-chilli", "quantity": 2, "unit": "piece", "optional": true },
+      { "name": "black pepper, freshly ground", "normalizedName": "black-pepper", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "bay leaf", "normalizedName": "bay-leaf", "quantity": 2, "unit": "leaf", "optional": true },
+      { "name": "cooking oil", "normalizedName": "oil", "quantity": 4, "unit": "tbsp", "optional": false },
+      { "name": "salt", "normalizedName": "salt", "quantity": null, "unit": "to_taste", "optional": false },
+      { "name": "fresh coriander leaves (garnish)", "normalizedName": "coriander-leaves", "quantity": 1, "unit": "handful", "optional": true }
+    ],
+    "steps": [
+      { "order": 1, "text": "Combine lemon juice, ground mustard seeds, garlic, black pepper, green chilli and a generous amount of salt in a large bowl. Add the chicken pieces and all the sliced onions; toss everything together to coat and marinate for at least 30 minutes — up to 4 hours in the fridge gives deeper flavour.", "method": "marinating" },
+      { "order": 2, "text": "Lift the chicken pieces from the marinade and reserve all the onions and marinade liquid. Heat 2 tbsp oil in a heavy-bottomed pot over high heat and sear the chicken for 3–4 minutes per side until nicely browned on the surface. Remove and set aside.", "timerMinutes": 8, "method": "pan-frying" },
+      { "order": 3, "text": "Reduce heat to medium-low. Add remaining 2 tbsp oil to the pot. Add all the reserved marinated onions and cook slowly, stirring occasionally, for 25 minutes until completely collapsed, deep caramel-brown and almost jammy — the mass will reduce to about a third of its original volume. This long caramelisation is the soul of yassa.", "timerMinutes": 25, "method": "sauteing" },
+      { "order": 4, "text": "Return the seared chicken to the pot and nestle into the caramelised onions. Pour in all the reserved marinade liquid and add bay leaves. Bring to a boil, then reduce to a low simmer, cover and cook for 20 minutes until the chicken is tender. Taste for salt and remove bay leaves.", "timerMinutes": 20, "method": "braising" },
+      { "order": 5, "text": "The finished yassa should be tangy and savoury with a thick onion sauce coating every piece of chicken. Scatter coriander leaves over the top and serve over plain white rice — the sauce soaks into the rice beautifully." }
+    ],
+    "cookware": ["heavy-bottomed-pot", "kadai"],
+    "methods": ["braising", "sauteing", "pan-frying", "marinating"],
+    "tags": ["party", "comfort-food", "gravy", "grill-bbq"],
+    "allergens": ["mustard"],
+    "nutrition": {
+      "calories": 390,
+      "protein": 36,
+      "carbs": 14,
+      "fat": 21,
+      "fiber": 2,
+      "sugar": 7,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      { "ingredient": "mustard-seeds", "substitute": "Prepared yellow mustard (1 tsp) or Dijon mustard (1.5 tsp) if available; omit entirely for a mustard-free lemon-onion chicken" },
+      { "ingredient": "chicken", "substitute": "Bone-in fish steaks for a pescatarian yassa; reduce braising time to 10 minutes" },
+      { "ingredient": "lemon", "substitute": "Lime juice in the same quantity for a slightly brighter, more tropical finish" },
+      { "ingredient": "onion", "substitute": "Do not reduce quantity — yassa is specifically an onion-forward dish; shallots can replace half the onion for extra sweetness" }
+    ],
+    "culturalNote": "Yassa is from Casamance in southern Senegal and is one of the country's most iconic dishes — it embodies the tradition of acidic marinades used as both preservative and tenderiser. The dish is eaten across Senegal, Gambia, Guinea-Bissau and among the large West African diaspora in France.",
+    "regionalVariation": "Gambian versions use lime and add a Scotch bonnet chilli for intense heat; some Dakar restaurants add olives to the braising pot for an extra savoury note.",
+    "indianKitchenAdaptation": "Dry-roast mustard seeds (rai / kadugu) and grind into a coarse paste using a mortar and pestle — this replicates the mustard note exactly. The slow onion caramelisation is identical to the technique for onion-based Indian gravies. The entire dish cooks in a kadai. Serve over basmati rice.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-west-african-suya-grilled-chicken",
+    "slug": "west-african-suya-grilled-chicken",
+    "title": "West African Suya-Style Grilled Chicken",
+    "nativeTitle": null,
+    "description": "A dry-spiced West African grilled chicken inspired by Nigeria's famous suya skewers — thin chicken strips rubbed in a boldly spiced peanut-chilli coating and grilled until charred at the edges, smoky and intensely flavoured. Suya is Nigeria's most popular street food, sold at night markets across the country.",
+    "cuisine": "west-african",
+    "country": "nigeria",
+    "region": null,
+    "language": "en",
+    "mealType": ["dinner", "lunch", "snack"],
+    "dietType": ["non_vegetarian"],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      { "name": "chicken breast or thigh, sliced into thin 1 cm strips", "normalizedName": "chicken", "quantity": 600, "unit": "g", "optional": false, "notes": "Thighs stay juicier on the grill; breast strips cook faster" },
+      { "name": "roasted peanuts, very finely ground (the yaji spice base)", "normalizedName": "peanut", "quantity": 60, "unit": "g", "optional": false, "notes": "Ground roasted peanuts form the dry coating that is the essence of suya" },
+      { "name": "red chilli powder or cayenne", "normalizedName": "red-chilli-powder", "quantity": 2, "unit": "tsp", "optional": false },
+      { "name": "dry ginger powder (soonth)", "normalizedName": "ginger", "quantity": 1, "unit": "tsp", "optional": false, "notes": "Dry ginger powder (soonth) is traditional; fresh ginger paste (double quantity) can substitute" },
+      { "name": "garlic, minced or garlic powder", "normalizedName": "garlic", "quantity": 1, "unit": "tsp", "optional": false },
+      { "name": "coriander powder", "normalizedName": "coriander-seeds", "quantity": 1, "unit": "tsp", "optional": false },
+      { "name": "cumin powder", "normalizedName": "cumin", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "ground cinnamon", "normalizedName": "cinnamon", "quantity": 0.25, "unit": "tsp", "optional": false },
+      { "name": "black pepper, ground", "normalizedName": "black-pepper", "quantity": 0.5, "unit": "tsp", "optional": false },
+      { "name": "cooking oil", "normalizedName": "oil", "quantity": 2, "unit": "tbsp", "optional": false },
+      { "name": "salt", "normalizedName": "salt", "quantity": null, "unit": "to_taste", "optional": false },
+      { "name": "onion, thinly sliced (for serving)", "normalizedName": "onion", "quantity": 1, "unit": "piece", "optional": true }
+    ],
+    "steps": [
+      { "order": 1, "text": "Combine the finely ground roasted peanuts, red chilli powder, ginger powder, garlic, coriander powder, cumin, cinnamon, black pepper and salt in a bowl — this is the yaji (suya spice blend). Add oil and mix into a thick, slightly sticky paste that will cling to the chicken.", "method": "no-cook" },
+      { "order": 2, "text": "Add the thin-sliced chicken strips to the bowl and rub the yaji coating thoroughly onto every surface of the meat. Marinate for at least 15 minutes at room temperature, or up to 2 hours in the fridge for deeper flavour. Thread onto skewers if desired, or keep flat for tawa grilling.", "method": "marinating", "timerMinutes": 15 },
+      { "order": 3, "text": "Heat a tawa, grill pan or heavy frying pan over high heat until very hot. Brush lightly with a drop of oil. Place the marinated chicken strips in a single layer — do not crowd the pan — and cook for 3–4 minutes per side until the coating is darkly charred at the edges and the chicken is fully cooked through with no pink remaining.", "timerMinutes": 8, "method": "grilling" },
+      { "order": 4, "text": "Rest the grilled chicken for 2 minutes. The peanut coating should have formed a dark, fragrant crust on the surface. Serve immediately on a bed of sliced raw onion with extra yaji sprinkled over and a squeeze of lime on the side. Traditionally accompanied with sliced white bread or plain rice." }
+    ],
+    "cookware": ["tawa", "grill", "skillet"],
+    "methods": ["grilling", "marinating", "tawa-cooking"],
+    "tags": ["street-food", "grill-bbq", "party", "quick", "gym"],
+    "allergens": ["peanuts"],
+    "nutrition": {
+      "calories": 310,
+      "protein": 34,
+      "carbs": 7,
+      "fat": 16,
+      "fiber": 2,
+      "sugar": 1,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      { "ingredient": "peanut", "substitute": "Ground roasted sunflower seeds for a peanut-free version; the texture is similar but flavour is milder" },
+      { "ingredient": "chicken", "substitute": "Paneer slices (250 g) for a vegetarian suya; grill for 2 minutes per side only so the paneer does not harden" },
+      { "ingredient": "ginger", "substitute": "Fresh ginger paste (double the quantity) rubbed into the spice mix works well if dry ginger powder (soonth) is unavailable" },
+      { "ingredient": "red-chilli-powder", "substitute": "Kashmiri chilli powder for vivid colour with moderate heat; smoked paprika for smokiness without the heat" }
+    ],
+    "culturalNote": "Suya is one of Nigeria's most iconic street foods — thin slices of beef (the original cut) or chicken coated in a spiced peanut rub called yaji and grilled over charcoal, sold from roadside grills across northern Nigeria and throughout the West African diaspora worldwide.",
+    "regionalVariation": "Northern Nigerian suya is traditionally beef sliced from the leg; southern versions favour chicken and occasionally lamb. Classic Hausa-style yaji uses ground kuli-kuli (a dried peanut cake) which has a more concentrated peanut flavour than fresh roasted peanuts.",
+    "indianKitchenAdaptation": "Ground moongphali (peanuts) are the suya rub's key ingredient — available roasted at Indian stores; use unsalted where possible or reduce added salt. Dry ginger powder (soonth) from the Indian pantry is exactly what the recipe calls for. Cook on a cast-iron tawa over a high flame for the best char. The spice profile is close to a dry tandoor rub but with ground peanuts as the binder instead of yogurt.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  }
+]

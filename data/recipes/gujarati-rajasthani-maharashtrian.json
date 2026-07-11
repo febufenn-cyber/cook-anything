@@ -1,0 +1,4559 @@
+[
+  {
+    "id": "ca-gujarati-khaman-dhokla",
+    "slug": "gujarati-khaman-dhokla",
+    "title": "Gujarati Khaman Dhokla",
+    "nativeTitle": "ખમણ ઢોકળા",
+    "description": "Spongy steamed chickpea-flour cakes from Gujarat, finished with a crackling tempering of mustard seeds, sesame and green chillies. Light, tangy and subtly sweet, dhokla is equally at home as a morning breakfast, afternoon snack or party starter served alongside green coriander chutney.",
+    "cuisine": "gujarati",
+    "country": "india",
+    "region": "gujarat",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "snack"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "besan (gram flour)",
+        "normalizedName": "besan",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "water, at room temperature",
+        "normalizedName": "water",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "green chilli, finely chopped (for batter) + 2 slit (for tempering)",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger, freshly grated",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "baking soda (or Eno fruit salt)",
+        "normalizedName": "baking-soda",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "Eno gives a slightly fluffier texture; plain baking soda also works"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "1 tbsp for greasing + 2 tbsp for tempering"
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "sesame seeds",
+        "normalizedName": "sesame-seeds",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "In a large bowl, whisk together besan, water, lemon juice, turmeric, sugar, grated ginger, 1 chopped green chilli and salt until the batter is completely smooth with no lumps. It should pour like thick pancake batter — add a splash more water if it feels too stiff.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Grease a flat-bottomed plate or round cake tin (20–22 cm) lightly with oil. Place it inside a steamer or a large lidded pot fitted with a stand. Pour 2–3 cups of water into the steamer base and bring it to a rolling boil over high flame before you touch the batter."
+      },
+      {
+        "order": 3,
+        "text": "Add the baking soda to the batter and stir briskly for 10 seconds — the batter will foam and swell visibly. Immediately pour it into the greased plate; tilt gently to level. Work fast, as the rise begins the moment soda hits the acid.",
+        "method": "steaming"
+      },
+      {
+        "order": 4,
+        "text": "Lower the flame to medium and steam the dhokla for 18–20 minutes with the lid on. Resist opening the lid before 15 minutes. Insert a toothpick into the centre — it should come out dry and the surface should look set and slightly firm to a gentle press.",
+        "timerMinutes": 20,
+        "method": "steaming"
+      },
+      {
+        "order": 5,
+        "text": "While the dhokla cools for 5 minutes, make the tempering: heat 2 tbsp oil in a small saucepan on medium. Add mustard seeds and let them pop. Add sesame seeds, 2 slit green chillies and curry leaves; fry for 20 seconds. Stir in 3 tbsp water and a pinch of sugar, let it bubble once, then take off the heat.",
+        "method": "tempering"
+      },
+      {
+        "order": 6,
+        "text": "Cut the cooled dhokla into 5 cm squares or diamonds while it is still in the plate. Pour the warm tempering evenly over all the pieces so every surface soaks up the sweet-spiced liquid. Scatter coriander leaves on top and serve directly from the plate with green chutney on the side."
+      }
+    ],
+    "cookware": [
+      "steamer",
+      "saucepan"
+    ],
+    "methods": [
+      "steaming",
+      "tempering",
+      "no-cook"
+    ],
+    "tags": [
+      "festival",
+      "diwali",
+      "navratri",
+      "kids-friendly",
+      "party",
+      "healthy",
+      "low-oil",
+      "quick"
+    ],
+    "allergens": [
+      "sesame",
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 185,
+      "protein": 8,
+      "carbs": 26,
+      "fat": 6,
+      "fiber": 3,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "baking-soda",
+        "substitute": "1 tsp Eno fruit salt (plain/unflavoured)",
+        "notes": "Eno produces a more uniform rise; add at the very last second before pouring into the plate"
+      },
+      {
+        "ingredient": "lemon",
+        "substitute": "2 tbsp white vinegar or 2.5 tbsp thin tamarind water"
+      },
+      {
+        "ingredient": "sesame-seeds",
+        "substitute": "omit or replace with 1 tsp poppy seeds",
+        "notes": "texture changes slightly but taste is fine"
+      },
+      {
+        "ingredient": "curry-leaves",
+        "substitute": "a pinch of asafoetida added to the tempering oil"
+      }
+    ],
+    "culturalNote": "Khaman dhokla is a cornerstone of the Gujarati snack repertoire, sold from roadside stalls across Ahmedabad and eaten at any hour with cups of masala chai.",
+    "regionalVariation": "The Khatta dhokla (white dhokla) of northern Gujarat uses soaked and ground chana dal rather than besan, giving a coarser, tangier result; Surati dhokla is sweeter with more jaggery in the batter.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-gujarati-thepla",
+    "slug": "gujarati-thepla",
+    "title": "Gujarati Thepla",
+    "nativeTitle": "ગુજરાતી થેપલા",
+    "description": "Thin, spiced whole-wheat flatbreads kneaded with fresh fenugreek leaves, turmeric and a hint of chilli, then lightly pan-fried on a tawa. Thepla keeps well for two days at room temperature, making it the quintessential Gujarati travel food — eaten as-is, with curd or with mango pickle.",
+    "cuisine": "gujarati",
+    "country": "india",
+    "region": "gujarat",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "lunch",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "whole wheat flour (atta)",
+        "normalizedName": "wheat-flour",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "fresh fenugreek leaves (methi), tightly packed and finely chopped",
+        "normalizedName": "fenugreek-leaves",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "curd (not sour)",
+        "normalizedName": "curd",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "makes the dough pliable and adds mild tang"
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "ajwain (carom seeds)",
+        "normalizedName": "ajwain",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "aids digestion; skip if unavailable"
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "1 tbsp in dough, rest for frying"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Sprinkle a pinch of salt over the chopped fenugreek leaves and rest for 5 minutes. Squeeze firmly with both hands to express any bitter liquid, then discard the liquid. This step keeps the thepla from tasting overly bitter."
+      },
+      {
+        "order": 2,
+        "text": "In a large mixing bowl combine wheat flour, squeezed fenugreek, curd, turmeric, red chilli powder, cumin, ajwain, ginger-garlic paste, 1 tbsp oil and salt. Mix until the leaves are evenly distributed, then knead into a soft but non-sticky dough, adding water a tablespoon at a time if needed. The dough should be slightly softer than roti dough.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Divide the dough into 10–12 equal balls. On a lightly floured surface, roll each ball into a thin round about 16 cm in diameter — thinner than a roti but not paper-thin. Dust lightly with flour between rolls."
+      },
+      {
+        "order": 4,
+        "text": "Heat a tawa on medium-high until a drop of water sizzles away instantly. Place a thepla on the dry tawa and cook for 30–40 seconds until dry patches appear on the top surface. Flip and cook for another 30 seconds.",
+        "timerMinutes": 1,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Drizzle a few drops of oil around the edges and press the thepla lightly with a flat spatula; flip once more and cook until golden spots appear on the oiled surface, about 20 seconds more. Remove and place on a plate. Cook all theplas in the same manner. Stack them under a clean cloth to keep them soft.",
+        "timerMinutes": 1,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 6,
+        "text": "Serve hot with fresh curd, mango pickle or simply on their own. Cooled theplas wrapped in foil travel well for two days without refrigeration."
+      }
+    ],
+    "cookware": [
+      "tawa"
+    ],
+    "methods": [
+      "tawa-cooking",
+      "no-cook"
+    ],
+    "tags": [
+      "lunchbox",
+      "tiffin",
+      "kids-friendly",
+      "budget",
+      "healthy"
+    ],
+    "allergens": [
+      "gluten",
+      "dairy",
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 220,
+      "protein": 6,
+      "carbs": 32,
+      "fat": 8,
+      "fiber": 4,
+      "sugar": 1,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "fenugreek-leaves",
+        "substitute": "1 cup grated bottle gourd (doodhi) squeezed dry, or 1 cup grated carrot",
+        "notes": "these give a different flavour profile but a similar moist dough"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "3 tbsp buttermilk or 2 tbsp water + few drops lemon juice"
+      },
+      {
+        "ingredient": "wheat-flour",
+        "substitute": "half wheat flour, half besan for a crispier, protein-richer thepla"
+      }
+    ],
+    "culturalNote": "Thepla is the Gujarati traveller's companion — packed in tiffin boxes on train journeys and long road trips because it stays fresh for hours and needs no reheating.",
+    "regionalVariation": "Methia thepla from Saurashtra uses whole methi seeds pounded with sesame for a more textured, nutty dough. Sweet thepla (made with jaggery) is a traditional sweet eaten at festivals.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-gujarati-kadhi",
+    "slug": "gujarati-kadhi",
+    "title": "Gujarati Kadhi",
+    "nativeTitle": "ગુજરાતી કઢી",
+    "description": "A thin, silky yogurt-and-gram-flour broth that is simultaneously sweet, sour and gently spiced — quite unlike the thicker, more pungent Punjabi version. Gujarati kadhi is ladled generously over plain rice and is the dish most home cooks in the region associate with Sunday comfort.",
+    "cuisine": "gujarati",
+    "country": "india",
+    "region": "gujarat",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "curd (fresh, mildly sour)",
+        "normalizedName": "curd",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "besan (gram flour)",
+        "normalizedName": "besan",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "jaggery or sugar",
+        "normalizedName": "jaggery",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "jaggery gives a warmer sweetness; use sugar if preferred"
+      },
+      {
+        "name": "green chilli, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger, finely chopped",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "cinnamon stick, small",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "In a large bowl whisk together curd and besan until fully smooth with no lumps. Gradually stir in the water a little at a time to keep the mixture uniform. Add turmeric, salt, ginger, slit green chillies and jaggery; whisk again to combine.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Pour the curd mixture into a heavy-bottomed pot or saucepan set on medium heat. Stir continuously with a wooden spoon — never stop stirring at this stage — until the liquid just begins to steam and show the first signs of bubbling. Stopping early causes the curd to split into grainy curds.",
+        "method": "simmering"
+      },
+      {
+        "order": 3,
+        "text": "Once the kadhi reaches a gentle boil, reduce the flame to low and cook uncovered, stirring every minute or two, for 10 minutes. The kadhi will gradually thicken to a pourable soup-like consistency and the besan will lose its raw taste. Taste and adjust salt and jaggery.",
+        "timerMinutes": 10,
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "Heat ghee in a small saucepan on medium-high. Add mustard seeds and let them splutter. Add cumin seeds, dried red chillies, cloves, cinnamon and curry leaves; the spices will fry and crackle in about 20–25 seconds. Pour this tempering directly into the simmering kadhi — it will sizzle dramatically.",
+        "method": "tempering"
+      },
+      {
+        "order": 5,
+        "text": "Stir the kadhi well and simmer for 2 more minutes. Finish with fresh coriander leaves and serve hot over steamed rice, with a papad and pickle on the side."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "saucepan"
+    ],
+    "methods": [
+      "simmering",
+      "tempering",
+      "no-cook"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "budget",
+      "under-30-minutes"
+    ],
+    "allergens": [
+      "dairy",
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 140,
+      "protein": 5,
+      "carbs": 14,
+      "fat": 7,
+      "fiber": 1,
+      "sugar": 8,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "jaggery",
+        "substitute": "1.5 tbsp sugar — the kadhi will be lighter in colour"
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "neutral oil; the tempering will be less rich but still flavourful"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "equal part buttermilk; reduce water by half as buttermilk is thinner"
+      }
+    ],
+    "culturalNote": "Gujarati kadhi is unusual among Indian kadhi recipes for its pronounced sweetness — jaggery is not an afterthought but a defining ingredient that balances the natural sourness of the yogurt.",
+    "regionalVariation": "Kathiyawadi kadhi from Saurashtra region is darker, spicier and less sweet, often made with groundnut oil instead of ghee. Some households add pakoras (besan fritters) to the kadhi, turning it into a more substantial dish.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-gujarati-undhiyu",
+    "slug": "gujarati-undhiyu",
+    "title": "Gujarati Undhiyu (Simplified Winter Vegetable Dish)",
+    "nativeTitle": "ઊંધિયું",
+    "description": "A slow-cooked winter medley of purple brinjal, raw banana, potato and fresh peas, bound together with a fragrant green masala paste of coconut, coriander, sesame and green chilli. This simplified stovetop version captures the spirit of the original slow-fire dish without an earthen pot.",
+    "cuisine": "gujarati",
+    "country": "india",
+    "region": "gujarat",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 35,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "small brinjal (round purple variety), quartered",
+        "normalizedName": "brinjal",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "potato, peeled and cut into large cubes",
+        "normalizedName": "potato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "raw banana (kachche kele), peeled and cut into thick coins",
+        "normalizedName": "raw-banana",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "fresh green peas (or frozen)",
+        "normalizedName": "peas",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "green beans, cut into 3 cm pieces",
+        "normalizedName": "beans",
+        "quantity": 100,
+        "unit": "g",
+        "optional": true,
+        "notes": "valor (flat beans) is traditional; regular beans work well"
+      },
+      {
+        "name": "besan (gram flour), for muthias",
+        "normalizedName": "besan",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "fresh fenugreek leaves (methi), finely chopped",
+        "normalizedName": "fenugreek-leaves",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "dried kasuri methi can substitute; use 2 tbsp"
+      },
+      {
+        "name": "fresh coconut, grated",
+        "normalizedName": "coconut",
+        "quantity": 0.25,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, roughly chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 0.25,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "green chilli",
+        "normalizedName": "green-chilli",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic",
+        "normalizedName": "garlic",
+        "quantity": 6,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, roughly chopped",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "sesame seeds",
+        "normalizedName": "sesame-seeds",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Make the muthias first: combine besan, chopped fenugreek leaves, a pinch of turmeric, a pinch of salt, 0.5 tsp oil and just enough water to form a firm dough. Shape into marble-sized balls. Heat 2 tbsp oil in a kadai and shallow-fry the muthias in batches over medium flame until they turn golden and firm, about 3–4 minutes per batch. Drain on paper and set aside.",
+        "timerMinutes": 8,
+        "method": "shallow-frying"
+      },
+      {
+        "order": 2,
+        "text": "Grind together coconut, coriander leaves, green chillies, garlic, ginger, sesame seeds, cumin and sugar with a splash of water in a mixie to a coarse, vibrant green paste. Do not over-blend — a little texture is ideal.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "In the same kadai, heat remaining oil on medium. Add the ground masala paste and fry, stirring continuously, for 3–4 minutes until the raw garlic smell disappears and the oil just starts to separate at the edges.",
+        "timerMinutes": 4,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Add potato, raw banana and brinjal to the kadai and gently turn to coat every piece in the masala. Sprinkle remaining turmeric and salt. Add 0.5 cup water, cover tightly and cook on low flame for 15 minutes, shaking the pan every 5 minutes instead of stirring to prevent the vegetables from breaking.",
+        "timerMinutes": 15,
+        "method": "slow-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Add the peas and beans, then nestle the fried muthias over the top. Cover and cook for another 8–10 minutes until the potatoes are fully tender when pierced and the peas are bright green.",
+        "timerMinutes": 10,
+        "method": "slow-cooking"
+      },
+      {
+        "order": 6,
+        "text": "Drizzle lemon juice over the top, taste for salt and give the pan a gentle fold. Serve hot with puris or phulkas and fresh curd. Undhiyu tastes even better on the second day after the masala has time to permeate all the vegetables."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "mixie"
+    ],
+    "methods": [
+      "shallow-frying",
+      "kadai-cooking",
+      "slow-cooking",
+      "no-cook"
+    ],
+    "tags": [
+      "festival",
+      "winter",
+      "comfort-food",
+      "budget"
+    ],
+    "allergens": [
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 300,
+      "protein": 9,
+      "carbs": 40,
+      "fat": 12,
+      "fiber": 8,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "raw-banana",
+        "substitute": "same quantity of yam (suran) or sweet potato cut into large cubes"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "3 tbsp desiccated coconut soaked in 2 tbsp warm water for 10 minutes"
+      },
+      {
+        "ingredient": "fenugreek-leaves",
+        "substitute": "2 tbsp kasuri methi (dried fenugreek leaves); skip the salting step"
+      },
+      {
+        "ingredient": "beans",
+        "substitute": "100 g flat beans (valor papdi) if available at Indian grocery stores"
+      }
+    ],
+    "culturalNote": "Undhiyu, meaning 'upside-down' in Gujarati, was traditionally cooked in a sealed clay pot buried upside-down in the ground over slow-burning embers — a fire-pit technique that is rare today even in Gujarat.",
+    "regionalVariation": "The Surati undhiyu is moister and heavier on green masala than the Kathiyawadi version, which tends to be drier and includes more whole spices. Muthias (spiced gram-flour dumplings) are non-negotiable in both.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-gujarati-sev-tameta-nu-shaak",
+    "slug": "gujarati-sev-tameta-nu-shaak",
+    "title": "Gujarati Sev Tameta Nu Shaak",
+    "nativeTitle": "સેવ ટામેટા નુ શાક",
+    "description": "A quick Gujarati tomato curry where ripe tomatoes are cooked into a tangy-sweet gravy and then blanketed with a generous layer of crispy sev (fried chickpea noodles) just before serving. The interplay of soft gravy and crunchy sev is the whole point — serve immediately or the sev softens.",
+    "cuisine": "gujarati",
+    "country": "india",
+    "region": "gujarat",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 20,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "ripe tomatoes, roughly chopped",
+        "normalizedName": "tomato",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "jaggery or sugar",
+        "normalizedName": "jaggery",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "balances the tomato acidity — essential in Gujarati cooking"
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "sev (thin fried chickpea noodles), store-bought",
+        "normalizedName": "besan",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false,
+        "notes": "nylon sev (the thinnest variety) is traditional; any sev or bhujia works"
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat oil in a kadai on medium-high. Add mustard seeds and wait until they pop. Add cumin seeds, asafoetida and curry leaves; they will crackle in about 10 seconds. Add the green chillies and onion and sauté until the onion is translucent and soft, about 4–5 minutes.",
+        "timerMinutes": 5,
+        "method": "tempering"
+      },
+      {
+        "order": 2,
+        "text": "Stir in the ginger and garlic and cook for 30 seconds until the raw smell goes. Add turmeric, red chilli powder and coriander powder; stir for 20 seconds then immediately add the chopped tomatoes and a pinch of salt to prevent burning.",
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Cook the tomatoes on medium flame, breaking them up with the back of a spoon, until they fully collapse and the oil begins to separate from the sides of the masala — about 8 minutes. The gravy should be thick and jammy, not watery.",
+        "timerMinutes": 8,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Add jaggery and salt, stir to combine, then add 0.25 cup water to loosen the gravy to a pourable consistency. Taste and adjust sweet-sour-spice balance — Gujarati shaak leans sweet. Simmer for 2 more minutes."
+      },
+      {
+        "order": 5,
+        "text": "Take the kadai off the flame. Scatter sev generously over the surface of the gravy — do not stir it in. Top with coriander leaves and serve immediately with rotis, thepla or phulkas. Once the sev soaks up gravy it loses its crunch, so serve and eat without delay."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "tempering",
+      "kadai-cooking",
+      "simmering"
+    ],
+    "tags": [
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "comfort-food"
+    ],
+    "allergens": [
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 210,
+      "protein": 5,
+      "carbs": 28,
+      "fat": 9,
+      "fiber": 4,
+      "sugar": 7,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "jaggery",
+        "substitute": "1 tsp sugar or a small piece of dates blended with a little water"
+      },
+      {
+        "ingredient": "besan",
+        "substitute": "crushed bhujia mix or thin sev namkeen — different spice profile but similar crunch"
+      },
+      {
+        "ingredient": "onion",
+        "substitute": "omit for a no-onion version; add an extra pinch of asafoetida"
+      }
+    ],
+    "culturalNote": "This 20-minute dish exemplifies the Gujarati home-cook's genius for combining pantry staples: a pot of tomatoes, a handful of sev and a perfectly balanced tempering is all it takes.",
+    "regionalVariation": "In some households a small amount of tamarind pulp replaces the jaggery, shifting the dish from sweet-spicy to tangy-spicy. Surat versions sometimes add kokum for an extra sour note.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-gujarati-handvo",
+    "slug": "gujarati-handvo",
+    "title": "Gujarati Handvo",
+    "nativeTitle": "ગુજરાતી હાંડવો",
+    "description": "A thick, savoury Gujarati cake made from a spiced batter of rava, besan and curd studded with grated bottle gourd and carrot, then cooked in a covered kadai until crusty and golden on both sides. Handvo is a satisfying one-dish meal that works as breakfast, lunch or an evening snack.",
+    "cuisine": "gujarati",
+    "country": "india",
+    "region": "gujarat",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "lunch",
+      "snack"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rava (fine semolina)",
+        "normalizedName": "rava",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "besan (gram flour)",
+        "normalizedName": "besan",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "curd, sour",
+        "normalizedName": "curd",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 0.25,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "bottle gourd (doodhi), peeled and grated",
+        "normalizedName": "bottle-gourd",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "carrot, peeled and grated",
+        "normalizedName": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "green peas (fresh or frozen)",
+        "normalizedName": "peas",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "green chilli, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "baking soda",
+        "normalizedName": "baking-soda",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "sesame seeds",
+        "normalizedName": "sesame-seeds",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "In a large bowl whisk together rava, besan, curd and water until smooth. Rest the batter for 15 minutes so the rava absorbs the curd and softens slightly. Meanwhile squeeze the grated bottle gourd in your palms to remove excess water — this prevents the handvo from becoming soggy.",
+        "timerMinutes": 15,
+        "method": "fermenting"
+      },
+      {
+        "order": 2,
+        "text": "Add the squeezed bottle gourd, grated carrot, peas, green chilli, ginger, turmeric, red chilli powder, sugar and salt to the rested batter. Mix well. Just before cooking add baking soda and fold it in — the batter will bubble lightly.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Heat 2 tbsp oil in a thick-bottomed kadai (25 cm diameter works well) on medium. Add mustard seeds; once they pop add sesame seeds and curry leaves and fry for 10 seconds. The tempering goes straight on the base of the pan.",
+        "method": "tempering"
+      },
+      {
+        "order": 4,
+        "text": "Immediately pour the entire batter over the tempering in the kadai. Spread it gently with a spatula to an even disc about 2.5 cm thick. Drizzle 1 tbsp oil around the edges. Cover tightly with a lid and cook on low-medium flame for 15 minutes.",
+        "timerMinutes": 15,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Lift the lid after 15 minutes — the top should look dry and set (no wet batter visible) and the sides should have pulled away slightly from the kadai. Drizzle the remaining 1 tbsp oil around the edges and gently slide a flat spatula under the handvo to loosen it. Invert it onto a large plate and then carefully slide it back into the kadai with the cooked side up. Cover and cook for a further 8–10 minutes until the second side is golden and the cake is cooked through.",
+        "timerMinutes": 10,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 6,
+        "text": "Slide the handvo onto a cutting board, let it rest for 5 minutes, then cut into wedges. Serve warm with green coriander-mint chutney. Leftovers reheat well in a pan with a few drops of oil."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "tempering",
+      "kadai-cooking",
+      "no-cook",
+      "fermenting"
+    ],
+    "tags": [
+      "comfort-food",
+      "kids-friendly",
+      "budget",
+      "lunchbox"
+    ],
+    "allergens": [
+      "gluten",
+      "dairy",
+      "sesame",
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 295,
+      "protein": 9,
+      "carbs": 38,
+      "fat": 12,
+      "fiber": 4,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "bottle-gourd",
+        "substitute": "150 g grated zucchini or ridge gourd, squeezed dry",
+        "notes": "any mild watery gourd works"
+      },
+      {
+        "ingredient": "rava",
+        "substitute": "replace half the rava with rice flour for a crispier base"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "equal quantity buttermilk; reduce water to zero"
+      },
+      {
+        "ingredient": "baking-soda",
+        "substitute": "0.75 tsp Eno fruit salt for a lighter, spongier texture"
+      }
+    ],
+    "culturalNote": "Handvo is a traditional Gujarati household recipe that showcases the community's love of vegetable-enriched batters — similar in spirit to the South Indian uttapam but baked thick rather than poured thin.",
+    "regionalVariation": "Some Gujarati households ferment the batter overnight with a small amount of urad dal and rice for a more complex, mildly sour handvo closer to the original. The baking-soda shortcut is a practical modern substitute.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-gujarati-shrikhand",
+    "slug": "gujarati-shrikhand",
+    "title": "Gujarati Shrikhand",
+    "nativeTitle": "ગુજરાતી શ્રીખંડ",
+    "description": "A luxuriously thick, silky-smooth Gujarati dessert made by straining full-fat curd overnight until dense, then whipping it with powdered sugar, cardamom and saffron. Shrikhand is served chilled, often alongside pooris for the classic puri-shrikhand combination at Gujarati weddings and festivals.",
+    "cuisine": "gujarati",
+    "country": "india",
+    "region": "gujarat",
+    "language": "en",
+    "mealType": [
+      "dessert"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 0,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "full-fat curd (set overnight in the fridge), strained to make hung curd",
+        "normalizedName": "curd",
+        "quantity": 750,
+        "unit": "ml",
+        "optional": false,
+        "notes": "straining 750 ml full-fat curd for 6–8 hours yields about 300 g hung curd (chakka)"
+      },
+      {
+        "name": "powdered sugar (caster or icing sugar)",
+        "normalizedName": "sugar",
+        "quantity": 6,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "adjust to taste — Gujarati shrikhand is very sweet"
+      },
+      {
+        "name": "green cardamom, freshly powdered",
+        "normalizedName": "cardamom",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "saffron strands",
+        "normalizedName": "saffron",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "warm milk (to bloom saffron)",
+        "normalizedName": "milk",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "pistachios, thinly sliced (for garnish)",
+        "normalizedName": "pistachio",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "almonds, thinly sliced (for garnish)",
+        "normalizedName": "almond",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "rose water",
+        "normalizedName": "rose-water",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "adds a floral note; skip if you prefer a pure cardamom-saffron flavour"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "The night before (or at least 6 hours ahead), line a large colander with a clean muslin cloth or several layers of cheesecloth. Pour in the curd, tie the corners of the cloth and hang it over a bowl in the refrigerator. Let it drain until you have a dense, clay-like mass (chakka) and at least 400 ml of whey has dripped out.",
+        "timerMinutes": 360,
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Soak the saffron strands in 2 tbsp of warm milk for 10 minutes until the milk turns a deep golden yellow. Freshly crack and powder the cardamom seeds with a pinch of sugar to keep them from clumping."
+      },
+      {
+        "order": 3,
+        "text": "Transfer the hung curd to a mixing bowl. Add powdered sugar, cardamom powder and the saffron-milk. Beat vigorously with a whisk or electric beater for 2–3 minutes until the mixture is completely smooth, light and creamy with no lumps of curd visible.",
+        "timerMinutes": 3,
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Add rose water if using and fold in gently. Taste — the shrikhand should be very sweet with a pronounced cardamom-saffron fragrance. Add more sugar or cardamom as needed."
+      },
+      {
+        "order": 5,
+        "text": "Transfer to a serving bowl or individual cups, cover and refrigerate for at least 1 hour before serving. Garnish generously with sliced pistachios and almonds just before bringing to the table. Serve alongside hot puris for the classic combination."
+      }
+    ],
+    "cookware": [
+      "blender"
+    ],
+    "methods": [
+      "no-cook"
+    ],
+    "tags": [
+      "sweet",
+      "festival",
+      "diwali",
+      "navratri",
+      "party",
+      "summer"
+    ],
+    "allergens": [
+      "dairy",
+      "nuts"
+    ],
+    "nutrition": {
+      "calories": 210,
+      "protein": 7,
+      "carbs": 30,
+      "fat": 7,
+      "fiber": 0,
+      "sugar": 28,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "curd",
+        "substitute": "500 g ready-made Greek yogurt strained for 1 hour — shortcut that saves overnight straining",
+        "notes": "result is slightly less firm but acceptable"
+      },
+      {
+        "ingredient": "saffron",
+        "substitute": "a tiny drop of yellow food colour + 0.25 tsp vanilla essence for a milder flavour"
+      },
+      {
+        "ingredient": "pistachio",
+        "substitute": "cashews halved or any nut you have; the garnish is flexible"
+      }
+    ],
+    "culturalNote": "Shrikhand paired with puris is the centrepiece of a traditional Gujarati thali at celebrations — the combination of fried bread and creamy sweetened curd is considered auspicious and indulgent in equal measure.",
+    "regionalVariation": "Amrakhand is the mango variation of shrikhand where ripe Alphonso mango pulp replaces or supplements the saffron — hugely popular in Maharashtra and made every summer when Alphonsos are in season.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-rajasthani-gatte-ki-sabzi",
+    "slug": "rajasthani-gatte-ki-sabzi",
+    "title": "Rajasthani Gatte Ki Sabzi",
+    "nativeTitle": "गट्टे की सब्जी",
+    "description": "Spiced gram-flour cylinders (gatte) boiled until firm, sliced into roundels and simmered in a tangy, deeply spiced yogurt-and-tomato curry. This is Rajasthan's answer to the region's sparse vegetable landscape — a protein-rich curry made from pantry staples alone.",
+    "cuisine": "rajasthani",
+    "country": "india",
+    "region": "rajasthan",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 35,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "besan (gram flour), for gatte",
+        "normalizedName": "besan",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "curd (sour), for gatte",
+        "normalizedName": "curd",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "ajwain (carom seeds), for gatte",
+        "normalizedName": "ajwain",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder, for gatte",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil, for gatte dough + gravy",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "curd (sour), for gravy",
+        "normalizedName": "curd",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "besan, for gravy (to bind)",
+        "normalizedName": "besan",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "tomato, finely chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, finely sliced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Make the gatte dough: combine 1.5 cups besan, 3 tbsp sour curd, ajwain, 0.5 tsp red chilli powder, 0.25 tsp turmeric, 1 tbsp oil and salt. Mix and knead into a stiff, non-sticky dough — stiffer than roti dough. Divide into 4 portions and roll each into a smooth cylinder about 1.5 cm in diameter.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Bring a large pot of well-salted water to a boil. Drop in the gatte cylinders and cook on a full boil for 12–14 minutes until firm to the touch and the surface looks slightly textured rather than smooth. A cut cylinder should show no raw besan inside. Drain, reserving 1 cup of the cooking water.",
+        "timerMinutes": 14,
+        "method": "boiling"
+      },
+      {
+        "order": 3,
+        "text": "Once cool enough to handle, slice the cooked gatte into 1.5 cm roundels. If you like a bit of extra texture, shallow-fry the sliced gatte in a little oil over medium heat until lightly golden on each side, then set aside."
+      },
+      {
+        "order": 4,
+        "text": "Whisk together 1 cup sour curd, 1 tbsp besan and the remaining 0.25 tsp turmeric in a bowl until completely smooth. Heat 3 tbsp oil in a kadai on medium-high. Add cumin and dried red chillies; let them sizzle for 15 seconds. Add asafoetida and onions; sauté until deep golden, about 7 minutes.",
+        "timerMinutes": 8,
+        "method": "tempering"
+      },
+      {
+        "order": 5,
+        "text": "Add ginger-garlic paste and fry for a minute. Add tomatoes, remaining red chilli powder, coriander powder and salt; cook until tomatoes are completely broken down and oil surfaces — about 6 minutes. Lower the flame and pour in the curd-besan mixture, stirring constantly to prevent curdling.",
+        "timerMinutes": 6,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 6,
+        "text": "Add 0.75 cup of the reserved gatte-cooking water and bring the gravy to a gentle simmer. Add the gatte roundels and cook together for 5 minutes so the gatte absorb the curry. Stir in garam masala, taste and adjust salt. Finish with coriander leaves and serve hot with steamed rice or bajra roti.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "kadai"
+    ],
+    "methods": [
+      "boiling",
+      "tempering",
+      "kadai-cooking",
+      "simmering",
+      "no-cook"
+    ],
+    "tags": [
+      "gravy",
+      "comfort-food",
+      "budget",
+      "one-pot-meal"
+    ],
+    "allergens": [
+      "dairy",
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 310,
+      "protein": 12,
+      "carbs": 34,
+      "fat": 14,
+      "fiber": 5,
+      "sugar": 6,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "curd",
+        "substitute": "2 tbsp lemon juice + same volume of water if curd is unavailable; the gravy will be thinner"
+      },
+      {
+        "ingredient": "ajwain",
+        "substitute": "equal quantity cumin seeds; flavour shifts slightly but gatte still work"
+      },
+      {
+        "ingredient": "besan",
+        "substitute": "no direct substitute — besan is the defining ingredient of gatte"
+      }
+    ],
+    "culturalNote": "Gatte ki sabzi evolved as an ingenious workaround for the arid Thar desert landscape where fresh vegetables are scarce — gram flour, the staple protein of Rajasthani cuisine, doubles as both protein and the main vegetable.",
+    "regionalVariation": "In Jodhpur households the gattas are smaller and the curry richer with extra ghee, while Bikaner cooks prefer the gattas slightly chewy and the gravy more sour. Methi gatte (with fenugreek leaves kneaded into the dough) are popular in winter.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-rajasthani-dal-baati",
+    "slug": "rajasthani-dal-baati",
+    "title": "Rajasthani Dal Baati",
+    "nativeTitle": "दाल बाटी",
+    "description": "Hard, wheat-flour dough balls (baati) baked golden and then cracked open and drowned in ghee, served alongside a rich five-lentil dal and optionally a crumbly sweet churma. Rajasthan's most iconic dish manages to be simultaneously rustic and celebratory.",
+    "cuisine": "rajasthani",
+    "country": "india",
+    "region": "rajasthan",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 45,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "whole wheat flour (atta), for baati",
+        "normalizedName": "wheat-flour",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "semolina (rava / sooji), for baati",
+        "normalizedName": "rava",
+        "quantity": 0.25,
+        "unit": "cup",
+        "optional": false,
+        "notes": "adds a slight crunch to the crust"
+      },
+      {
+        "name": "ghee, for baati dough + finishing",
+        "normalizedName": "ghee",
+        "quantity": 6,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "3 tbsp in dough, 3 tbsp for finishing; use generously"
+      },
+      {
+        "name": "ajwain (carom seeds), for baati",
+        "normalizedName": "ajwain",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "toor dal",
+        "normalizedName": "toor-dal",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "chana dal",
+        "normalizedName": "chana-dal",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "moong dal",
+        "normalizedName": "moong-dal",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "masoor dal (red lentils)",
+        "normalizedName": "masoor-dal",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "urad dal",
+        "normalizedName": "urad-dal",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "tomato, chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Rinse all five dals together, soak for 20 minutes, then pressure-cook with 3 cups water, 0.25 tsp turmeric and a pinch of salt for 4–5 whistles on medium flame. Once pressure drops naturally, open and mash the dal partially — it should be thick with some texture.",
+        "timerMinutes": 25,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "Make the baati dough: combine wheat flour, rava, 3 tbsp ghee, ajwain and salt in a large bowl. Rub the ghee into the flour with your fingertips until it resembles coarse breadcrumbs — this step is what makes the baati crumble apart when broken. Add water gradually (about 0.5 cup) and knead into a stiff, non-pliable dough. It should feel much harder than roti dough.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Divide the dough into 10 equal balls. Gently press each ball between your palms to form a smooth sphere with a slight dent on top. Preheat your oven or air-fryer to 180°C. Place baatis on a baking tray and bake for 30–35 minutes (oven) or air-fry at 180°C for 20–22 minutes, turning once halfway, until deep golden on all sides and cooked through — a crack will appear on the surface.",
+        "timerMinutes": 35,
+        "method": "baking"
+      },
+      {
+        "order": 4,
+        "text": "Meanwhile make the dal tempering: heat oil in a kadai, add cumin and let them sizzle. Add onion and cook until deep golden, about 7 minutes. Add ginger-garlic paste and fry for a minute, then add tomatoes, red chilli powder, remaining turmeric, coriander powder and salt. Cook until oil separates. Pour this tarka into the cooked dal and stir. Add lemon juice and garam masala; simmer for 3 minutes.",
+        "timerMinutes": 12,
+        "method": "tempering"
+      },
+      {
+        "order": 5,
+        "text": "Remove baatis from the oven. While piping hot, gently crack each baati in half (or tap it firmly on the counter until it opens up) and drop it into a bowl with 0.5 tsp ghee. The heat melts the ghee into the crumbled interior — this is non-negotiable; dal baati without ghee is not dal baati.",
+        "method": "roasting"
+      },
+      {
+        "order": 6,
+        "text": "Serve the ghee-soaked baati pieces in a bowl with generous ladlefuls of the dal poured over the top. Scatter coriander leaves and offer extra ghee and lemon wedges on the side. Pair with onion salad and pickle."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "oven",
+      "kadai",
+      "baking-tray"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "baking",
+      "tempering",
+      "no-cook",
+      "roasting"
+    ],
+    "tags": [
+      "festival",
+      "comfort-food",
+      "party"
+    ],
+    "allergens": [
+      "gluten",
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 520,
+      "protein": 18,
+      "carbs": 62,
+      "fat": 22,
+      "fiber": 10,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "ghee",
+        "substitute": "refined butter or dalda (vanaspati) for traditional substitution; oil gives a less rich result"
+      },
+      {
+        "ingredient": "rava",
+        "substitute": "skip the rava and use all wheat flour; the baati will be slightly denser"
+      }
+    ],
+    "culturalNote": "Dal baati was historically the field food of Rajputana warriors — hard baatis cooked on embers kept for days without spoiling, while dal provided protein. Today it is served at every Rajasthani wedding and celebration.",
+    "regionalVariation": "Churma is the traditional sweet accompaniment — coarsely broken leftover baatis fried in ghee and ground with jaggery and cardamom. Jodhpur baatis are smaller and rounder; Jaipur versions can be enormous, stuffed with spiced lentils (called stuffed baati).",
+    "indianKitchenAdaptation": "No oven? Cook the shaped baatis directly on a gas flame over a wire rack (tandoor-style), turning with tongs every 2–3 minutes until charred patches appear all around, about 12–15 minutes total. Or bake in an air-fryer at 180°C for 22 minutes. The dal works perfectly in any Indian pressure cooker.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-rajasthani-laal-maas",
+    "slug": "rajasthani-laal-maas",
+    "title": "Rajasthani Laal Maas (Simplified)",
+    "nativeTitle": "लाल मास",
+    "description": "A fiery, dark-red Rajasthani mutton curry made with an abundance of dried Mathania red chillies, garlic and ghee — one of the most uncompromisingly spiced meat preparations in Indian cooking. This simplified home version manages the heat through Kashmiri red chilli powder without sacrificing the deep colour and bold character of the original.",
+    "cuisine": "rajasthani",
+    "country": "india",
+    "region": "rajasthan",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "very_hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 55,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "mutton (bone-in, curry cut)",
+        "normalizedName": "mutton",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "curd, well-beaten",
+        "normalizedName": "curd",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "ghee is fundamental here; oil gives a flat result"
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "onion, thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, roughly crushed",
+        "normalizedName": "garlic",
+        "quantity": 10,
+        "unit": "clove",
+        "optional": false,
+        "notes": "laal maas is very garlicky — do not reduce"
+      },
+      {
+        "name": "ginger, cut into thin matchsticks",
+        "normalizedName": "ginger",
+        "quantity": 1.5,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "Kashmiri red chilli powder (for deep colour)",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "use Kashmiri chilli for colour; add 1 extra tsp hot chilli powder for more heat"
+      },
+      {
+        "name": "dried red chillies, whole",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "black peppercorns",
+        "normalizedName": "black-pepper",
+        "quantity": 8,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "bay leaves",
+        "normalizedName": "bay-leaf",
+        "quantity": 2,
+        "unit": "leaf",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, roughly torn",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Marinate the mutton: mix mutton pieces with curd, 1 tbsp Kashmiri chilli powder and turmeric. Cover and rest for at least 30 minutes at room temperature, or up to 4 hours refrigerated. The curd marinade tenderises the meat and helps the colour penetrate.",
+        "timerMinutes": 30,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Heat ghee and oil together in a heavy-bottomed pot or pressure cooker on high. Add cumin, cloves, peppercorns and bay leaves; fry for 30 seconds until fragrant. Add sliced onions and cook, stirring frequently, until they are deep mahogany-brown — this takes 15 minutes and is the most important step for a dark, flavourful gravy.",
+        "timerMinutes": 15,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Add the crushed garlic and ginger matchsticks; fry for 2 minutes. Add whole dried red chillies, the remaining red chilli powder and coriander powder. Stir and fry on medium for 1 minute — the masala should be deeply fragrant and beginning to stick to the bottom of the pot."
+      },
+      {
+        "order": 4,
+        "text": "Add the marinated mutton (do not drain the curd marinade) and turn the flame to high. Sear the mutton pieces, turning constantly, for 5–6 minutes until the meat is no longer pink on the outside and the curd has been absorbed into the masala.",
+        "timerMinutes": 6,
+        "method": "braising"
+      },
+      {
+        "order": 5,
+        "text": "Add 1 cup hot water, season with salt, cover the pot and cook for 25–30 minutes on medium — or pressure-cook for 3 whistles on medium then allow natural release. The mutton should be very tender and fall away from the bone easily when pressed.",
+        "timerMinutes": 30,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 6,
+        "text": "Uncover and check consistency. If the gravy is very thin, cook uncovered on high for 5 minutes until it reduces to a thick, oil-rimmed curry. Taste and adjust salt and heat. Finish with coriander leaves and serve with bajra roti, missi roti or steamed rice and a cooling curd raita alongside."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "pressure-cooker"
+    ],
+    "methods": [
+      "marinating",
+      "kadai-cooking",
+      "braising",
+      "pressure-cooking"
+    ],
+    "tags": [
+      "gravy",
+      "comfort-food",
+      "party"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein": 36,
+      "carbs": 8,
+      "fat": 28,
+      "fiber": 2,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "mutton",
+        "substitute": "750 g bone-in chicken; reduce pressure-cook time to 2 whistles or stovetop cook to 20 minutes"
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "4 tbsp neutral oil; the curry will be less rich but still flavourful"
+      },
+      {
+        "ingredient": "red-chilli-powder",
+        "substitute": "use byadgi chilli powder (mild, deeply red) for colour without extreme heat, then add cayenne separately for heat"
+      }
+    ],
+    "culturalNote": "Laal maas, literally 'red meat', was originally made with the small, intensely hot Mathania chillies of Rajasthan that grow nowhere else — the extreme heat was practical as much as flavour-driven, acting as a preservative in the desert climate.",
+    "regionalVariation": "The Jaipur version sometimes adds a small amount of browned onion paste and a few whole kachri (wild Rajasthani melon seeds) which act as a natural meat tenderiser. Village preparations still use mustard oil rather than ghee.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-maharashtrian-pav-bhaji",
+    "slug": "maharashtrian-pav-bhaji",
+    "title": "Maharashtrian Pav Bhaji",
+    "nativeTitle": "पाव भाजी",
+    "description": "Mumbai's most beloved street food: a heavily spiced, vigorously mashed mixed-vegetable curry cooked on a flat iron tawa, served with butter-toasted bread rolls (pav). The bhaji is deliberately overworked until it becomes a unified, glossy orange mass — any remaining vegetable texture is a mistake.",
+    "cuisine": "maharashtrian",
+    "country": "india",
+    "region": "maharashtra",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "potatoes, boiled and peeled",
+        "normalizedName": "potato",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cauliflower, roughly chopped",
+        "normalizedName": "cauliflower",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "green peas (fresh or frozen)",
+        "normalizedName": "peas",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "capsicum (green bell pepper), finely chopped",
+        "normalizedName": "capsicum",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomatoes, finely chopped",
+        "normalizedName": "tomato",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 8,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "green chilli, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "pav bhaji masala",
+        "normalizedName": "curry-powder",
+        "quantity": 2.5,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "store-bought MDH or Everest brand; this is the defining spice"
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "butter",
+        "normalizedName": "butter",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "use generously — butter is essential to the street-food character"
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, finely chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 0.25,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "bread rolls (pav), 8 rolls",
+        "normalizedName": "bread",
+        "quantity": 8,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pressure-cook or boil the cauliflower and peas together with a pinch of turmeric until completely soft — about 2 whistles in a pressure cooker. Drain and set aside. The boiled potatoes should already be ready.",
+        "timerMinutes": 10,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "Heat 2 tbsp butter in a wide, heavy-bottomed pan or tawa on medium-high. Add the onions and cook until golden, about 6 minutes, then add garlic, ginger and green chilli and fry for another minute. Add the capsicum and cook for 2 minutes until just softened.",
+        "timerMinutes": 8,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Add the tomatoes with a pinch of salt. Cook on medium-high, crushing the tomatoes with a masher as they soften, until the oil rises from the masala and the mixture is dark and jammy — about 8 minutes. Add pav bhaji masala, red chilli powder and remaining turmeric; stir and fry for 1 minute.",
+        "timerMinutes": 8,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Add all the boiled vegetables to the pan. Mash everything together vigorously with a potato masher, incorporating the masala through the vegetables. This is where the dish is built — keep mashing and folding for 3–4 minutes until no chunks remain and the bhaji is a uniform, thick paste.",
+        "timerMinutes": 4,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Add 0.5 cup water to loosen, stir, and simmer for 5 minutes on medium. Stir in 1 tbsp butter, lemon juice, salt and half the coriander leaves. The bhaji should be thick enough to hold its shape on a spoon but still flow slowly. Taste and add more pav bhaji masala if needed.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Slit the pavs horizontally almost all the way through. Heat remaining butter on a tawa and toast the pavs cut-side down for 1–2 minutes until golden and slightly crispy on the cut surfaces. Serve the bhaji in a bowl with a knob of butter on top, remaining coriander, and the toasted pavs and lemon wedges alongside.",
+        "timerMinutes": 2,
+        "method": "tawa-cooking"
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "tawa",
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "tawa-cooking",
+      "simmering",
+      "kadai-cooking"
+    ],
+    "tags": [
+      "street-food",
+      "comfort-food",
+      "party",
+      "kids-friendly",
+      "budget",
+      "quick"
+    ],
+    "allergens": [
+      "gluten",
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein": 11,
+      "carbs": 58,
+      "fat": 16,
+      "fiber": 8,
+      "sugar": 8,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "cauliflower",
+        "substitute": "150 g carrots or beetroot, boiled soft; beetroot turns the bhaji a vivid pink"
+      },
+      {
+        "ingredient": "butter",
+        "substitute": "2 tbsp oil + 2 tbsp ghee for a dairy alternative that's richer than plain oil"
+      },
+      {
+        "ingredient": "curry-powder",
+        "substitute": "if pav bhaji masala is unavailable: 1 tbsp garam masala + 0.5 tsp amchur + 0.5 tsp dry mango powder",
+        "notes": "the flavour will differ but is still excellent"
+      }
+    ],
+    "culturalNote": "Pav bhaji was invented in the 1850s as a quick lunch for Mumbai's textile mill workers — a one-pan dish that used leftover vegetables, was filling, and could be cooked and sold fast on the streets of Lalbaug.",
+    "regionalVariation": "Khada pav bhaji (chunky, un-mashed version) is popular in some Pune restaurants. Cheese pav bhaji (with processed cheese melted in) is a modern street-food innovation. Paneer pav bhaji adds chunks of cottage cheese for richness.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-maharashtrian-vada-pav",
+    "slug": "maharashtrian-vada-pav",
+    "title": "Maharashtrian Vada Pav",
+    "nativeTitle": "वडा पाव",
+    "description": "Mumbai's iconic street burger: a spiced mashed potato patty (batata vada) dunked in a besan batter and deep-fried until blistered, then wedged into a soft pav with layers of dry garlic chutney and green coriander chutney. Every element can be made ahead for an easy crowd-pleasing snack.",
+    "cuisine": "maharashtrian",
+    "country": "india",
+    "region": "maharashtra",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "snack",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "potatoes, boiled and mashed",
+        "normalizedName": "potato",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, finely minced",
+        "normalizedName": "garlic",
+        "quantity": 6,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "green chilli, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger, finely grated",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, finely chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "oil, for tempering + deep-frying",
+        "normalizedName": "oil",
+        "quantity": 500,
+        "unit": "ml",
+        "optional": false,
+        "notes": "500 ml for deep-frying; 1 tsp extra for potato tempering"
+      },
+      {
+        "name": "besan (gram flour), for batter",
+        "normalizedName": "besan",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "rice flour (for extra crispiness in batter)",
+        "normalizedName": "rice-flour",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "red chilli powder (for batter)",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "baking soda (for light batter)",
+        "normalizedName": "baking-soda",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": true
+      },
+      {
+        "name": "bread rolls (pav), 8 rolls",
+        "normalizedName": "bread",
+        "quantity": 8,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat 1 tsp oil in a kadai on medium. Add mustard seeds; once they pop add asafoetida, curry leaves, garlic and green chilli and fry for 30 seconds. Add turmeric and immediately tip in the mashed potato. Mix well, add lemon juice, salt and coriander leaves. Cool the filling to room temperature before shaping.",
+        "method": "tempering"
+      },
+      {
+        "order": 2,
+        "text": "Divide the potato filling into 8 equal portions and roll each into a smooth ball, then flatten slightly into a disc about 6 cm wide and 2 cm thick. Place on a tray and refrigerate for 10 minutes — cold filling holds its shape better during frying.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Make the batter: whisk together besan, rice flour, red chilli powder, a pinch of turmeric, baking soda and salt. Add water gradually, whisking until the batter is smooth and coats the back of a spoon — thick enough to cling to the vada without dripping off immediately.",
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Heat oil in a kadai to 175°C (a small drop of batter should surface within 2 seconds). Dip each potato disc into the batter, letting the excess drip off, and gently slide it into the hot oil. Fry 2–3 vadas at a time for 3–4 minutes, turning occasionally, until the crust is golden and blistered all over. Drain on paper.",
+        "timerMinutes": 4,
+        "method": "deep-frying"
+      },
+      {
+        "order": 5,
+        "text": "Slit the pav rolls horizontally. Smear the cut surface of one side with green coriander chutney and the other with dry garlic-coconut chutney (see notes). Place a hot vada inside, press gently so the chutney grips it, and serve immediately while the crust is still crackling.",
+        "method": "no-cook"
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "frying-pan"
+    ],
+    "methods": [
+      "tempering",
+      "deep-frying",
+      "no-cook"
+    ],
+    "tags": [
+      "street-food",
+      "comfort-food",
+      "budget",
+      "kids-friendly",
+      "fried-snack"
+    ],
+    "allergens": [
+      "gluten",
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 10,
+      "carbs": 62,
+      "fat": 22,
+      "fiber": 5,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "potato",
+        "substitute": "equal weight boiled raw banana (kachche kela) mashed with the same spicing — a popular variation"
+      },
+      {
+        "ingredient": "bread",
+        "substitute": "any soft dinner roll or milk bun; a pav bun bought from a bakery is ideal"
+      },
+      {
+        "ingredient": "rice-flour",
+        "substitute": "omit — the batter works without it, just slightly less crispy"
+      }
+    ],
+    "culturalNote": "Vada pav was created in 1966 by Ashok Vaidya, a vendor outside Dadar railway station who invented the potato-in-bread combination as a cheap, filling alternative to keema pav for the Hindu mill workers.",
+    "regionalVariation": "Nashik-style vada pav is served with a fiery dry chutney made from roasted garlic, dried chillies and fresh coconut. The Pune version is typically drier and less saucy. A Kolhapuri variant uses the region's hot wet masala inside the filling.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-maharashtrian-misal-pav",
+    "slug": "maharashtrian-misal-pav",
+    "title": "Maharashtrian Misal Pav",
+    "nativeTitle": "मिसळ पाव",
+    "description": "A fiery sprouted moth-bean curry (usal) dressed with a crunchy sev-farsan topping, diced onion, chopped coriander and a squeeze of lime — then served with butter-toasted pav to temper the heat. Misal pav is Maharashtra's punishing breakfast of champions, and the hotter the better.",
+    "cuisine": "maharashtrian",
+    "country": "india",
+    "region": "maharashtra",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "lunch",
+      "snack"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "very_hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "moth beans or whole moong, sprouted (see notes)",
+        "normalizedName": "sprouts",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false,
+        "notes": "soak overnight, drain and keep covered for 12–18 hrs until 1 cm tails appear"
+      },
+      {
+        "name": "onion, finely chopped (2 for curry + 1 for garnish)",
+        "normalizedName": "onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, finely chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, minced",
+        "normalizedName": "garlic",
+        "quantity": 6,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "green chilli, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "coconut, grated (fresh or frozen)",
+        "normalizedName": "coconut",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "tamarind pulp",
+        "normalizedName": "tamarind",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "gives the characteristic sour note of Kolhapuri-style misal"
+      },
+      {
+        "name": "jaggery",
+        "normalizedName": "jaggery",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "sev or farsan (crispy chickpea snack mix), for topping",
+        "normalizedName": "besan",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false,
+        "notes": "store-bought sev or mixed farsan; adds the essential crunch contrast"
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "lemon, cut into wedges",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "bread rolls (pav), 8 rolls",
+        "normalizedName": "bread",
+        "quantity": 8,
+        "unit": "piece",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pressure-cook the sprouted beans with 1.5 cups water, turmeric and salt for 2 whistles on medium, then allow natural pressure release. The beans should be fully cooked but still holding their shape — not mushy. If using a pot, simmer covered for 20–25 minutes.",
+        "timerMinutes": 15,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "Grind together the grated coconut with 2 chopped garlic cloves and 2 tbsp of the cooked beans (for body) into a smooth paste using a mixie with very little water. This coconut masala paste is what distinguishes Maharashtrian misal from a plain dal.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a kadai on medium-high. Add mustard seeds and let them pop. Add curry leaves, remaining garlic, ginger and 2 chopped onions; sauté until deep golden, about 8 minutes. Add green chillies and tomatoes; cook until soft and oil surfaces, about 5 minutes more.",
+        "timerMinutes": 13,
+        "method": "tempering"
+      },
+      {
+        "order": 4,
+        "text": "Add red chilli powder, coriander powder and garam masala; stir and fry for 30 seconds. Add the ground coconut paste and fry, stirring constantly, for 2 minutes until the rawness disappears. Add the cooked sprouts along with all their cooking liquid.",
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Stir in tamarind pulp, jaggery and salt. Add 0.5 cup water if the usal looks too thick — misal gravy should be pourable. Simmer on medium for 8 minutes, taste and adjust heat (add more red chilli powder if you want it hotter). The colour should be deep red-orange.",
+        "timerMinutes": 8,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "To assemble: ladle the hot usal into deep bowls. Top with a generous handful of sev or farsan, diced raw onion and coriander. Squeeze half a lemon over the top. Serve immediately with toasted pav on the side — the sev must be added at the last second to stay crunchy."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "kadai",
+      "mixie"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "tempering",
+      "kadai-cooking",
+      "simmering",
+      "no-cook"
+    ],
+    "tags": [
+      "street-food",
+      "budget",
+      "comfort-food"
+    ],
+    "allergens": [
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein": 14,
+      "carbs": 54,
+      "fat": 12,
+      "fiber": 10,
+      "sugar": 6,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "sprouts",
+        "substitute": "2 cups whole green moong (soaked overnight and sprouted); or canned chickpeas drained well — reduces prep time to zero"
+      },
+      {
+        "ingredient": "tamarind",
+        "substitute": "1.5 tbsp lemon juice or 1 tbsp kokum extract"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "2 tbsp coconut milk powder dissolved in 3 tbsp water; add at the same stage"
+      }
+    ],
+    "culturalNote": "Misal is so tied to Maharashtra's identity that several cities claim the definitive version — Nasikchi misal (dry, served with thick curry on the side), Kolhapuri misal (searingly hot) and Pune misal (balanced) are three entirely different experiences.",
+    "regionalVariation": "Kolhapuri misal uses the region's fiery wet masala (Kolhapuri masala) and is served with a separate bowl of very spicy rassa (thin gravy) that diners mix in according to their tolerance. Nashik misal is often drier with more of the sev-farsan acting as a binding agent.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-maharashtrian-kanda-poha",
+    "slug": "maharashtrian-kanda-poha",
+    "title": "Maharashtrian Kanda Poha",
+    "nativeTitle": "कांदा पोहा",
+    "description": "The quintessential Maharashtrian breakfast: rinsed flattened rice (poha) tossed with a golden onion-mustard tempering, brightened with lemon and finished with fresh coriander, roasted peanuts and a scatter of sev. Simple, light and ready in 15 minutes, poha is as much a mood as it is a meal.",
+    "cuisine": "maharashtrian",
+    "country": "india",
+    "region": "maharashtra",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "tiffin",
+      "snack"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 20,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "thick poha (flattened rice, medium or thick variety)",
+        "normalizedName": "poha",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false,
+        "notes": "medium poha gives the best balance of softness and structure; thin poha turns mushy"
+      },
+      {
+        "name": "onion (kanda), finely sliced",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "roasted peanuts",
+        "normalizedName": "peanut",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "Maharashtrian poha always has a whisper of sweetness"
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sev (thin crispy noodles), for topping",
+        "normalizedName": "besan",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "adds a delightful crunch; add just before serving"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Rinse the poha in a colander under cold running water for 30 seconds, tossing gently. Let it drain completely — poha should be just moist enough to squeeze into a clump without dripping. Sprinkle turmeric, sugar and a pinch of salt over the drained poha and toss to coat evenly. Set aside.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a kadai on medium-high. Add mustard seeds and wait until they pop. Add asafoetida and curry leaves — they will crackle loudly. Immediately add the slit green chillies and sliced onion. Cook, stirring, until the onion is soft and beginning to turn translucent, about 4–5 minutes. Do not let it colour too much.",
+        "timerMinutes": 5,
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add the roasted peanuts and stir for 30 seconds to warm them through. Reduce heat to low and add the seasoned poha. Using a spatula, gently fold everything together — do not stir vigorously or the poha grains will break. Every grain should be coated in the golden turmeric-oil mixture.",
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Cover and cook on low for 2 minutes, then uncover and check — the poha should be heated through and fluffed up, not wet or sticky. Sprinkle lemon juice and toss once more. Taste and adjust salt, lemon and sugar.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 5,
+        "text": "Serve immediately in bowls topped with fresh coriander and a few pinches of sev. Poha does not keep well once made — the texture deteriorates as it sits, so cook to order and eat right away with a cup of strong masala chai."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "tempering",
+      "kadai-cooking",
+      "no-cook"
+    ],
+    "tags": [
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "kids-friendly",
+      "lunchbox",
+      "tiffin"
+    ],
+    "allergens": [
+      "peanuts",
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 260,
+      "protein": 6,
+      "carbs": 38,
+      "fat": 10,
+      "fiber": 3,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "poha",
+        "substitute": "2 cups leftover cooked rice rinsed lightly — makes a different but equally quick dish"
+      },
+      {
+        "ingredient": "peanut",
+        "substitute": "2 tbsp roasted cashew halves or sunflower seeds"
+      },
+      {
+        "ingredient": "onion",
+        "substitute": "omit for no-onion version; add 1 boiled potato diced small for body"
+      }
+    ],
+    "culturalNote": "Poha is so deeply embedded in Maharashtrian morning culture that it is used as a playful social shorthand — in Mumbai, 'let's have poha' means 'let's meet casually and chat without obligation'.",
+    "regionalVariation": "Indori poha (from neighbouring Madhya Pradesh) is garnished with jalebi and is sweeter and more elaborate. Nagpuri poha uses more green chilli and a specific local variety of thick poha. Kanda batata poha adds boiled diced potato to the onion base.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-maharashtrian-zunka",
+    "slug": "maharashtrian-zunka",
+    "title": "Maharashtrian Zunka",
+    "nativeTitle": "झुणका",
+    "description": "A quickly cooked, crumbly preparation of besan (gram flour) dry-fried with onion, green chilli, garlic and a punchy tempering — neither a curry nor a fritter but something entirely its own. Zunka is eaten with bhakri (millet flatbread) and is the soul food of rural Maharashtra.",
+    "cuisine": "maharashtrian",
+    "country": "india",
+    "region": "maharashtra",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "breakfast"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 20,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "besan (gram flour)",
+        "normalizedName": "besan",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, thinly sliced",
+        "normalizedName": "garlic",
+        "quantity": 6,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "green chilli, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Dry-roast the besan in a kadai on low-medium heat for 3–4 minutes, stirring without stopping, until it smells nutty and toasty and turns a shade or two darker. Remove immediately to a plate — the besan should not colour beyond golden. This step removes the raw taste.",
+        "timerMinutes": 4,
+        "method": "roasting"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in the same kadai on medium-high. Add mustard seeds; once they pop add cumin, asafoetida and curry leaves. Immediately add sliced garlic and cook for 30 seconds until just beginning to turn golden. Add onions, green chilli and ginger; sauté until the onion is soft and lightly golden, about 5 minutes.",
+        "timerMinutes": 6,
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add turmeric, red chilli powder and coriander powder; stir for 20 seconds. Pour in 0.75 cup water and bring to a boil. Season with salt.",
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Lower the flame to medium and add the roasted besan to the boiling water in a thin, steady stream, whisking or stirring rapidly to prevent lumps. The mixture will thicken almost immediately and come together into a cohesive, crumbly mass as it cooks.",
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Reduce heat to low and cook for 3–4 minutes, stirring and scraping the bottom of the pan to prevent sticking, until the zunka is fully cooked, no longer raw-tasting, and has a crumbly but moist texture — it should look like very coarsely scrambled eggs. Scatter coriander leaves and serve hot with bhakri, chapati or plain rice.",
+        "timerMinutes": 4
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "roasting",
+      "tempering",
+      "kadai-cooking"
+    ],
+    "tags": [
+      "comfort-food",
+      "budget",
+      "quick",
+      "under-30-minutes",
+      "healthy"
+    ],
+    "allergens": [
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 230,
+      "protein": 9,
+      "carbs": 24,
+      "fat": 11,
+      "fiber": 4,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "besan",
+        "substitute": "no direct substitute — the texture and flavour of zunka are entirely besan-dependent"
+      },
+      {
+        "ingredient": "onion",
+        "substitute": "2 large shallots for a slightly sweeter version, or omit for no-onion-no-garlic version adding extra asafoetida"
+      }
+    ],
+    "culturalNote": "Zunka-bhakri is considered the meal of the farmer and the soldier in Maharashtra — simple, filling, requiring no refrigeration and providing sustained energy for physical work.",
+    "regionalVariation": "Kolhapuri zunka is hotter and darker, often using the region's distinctive coconut-based wet masala. Some households near Satara add dried kokum for a sour note. The wet version (called pithla) has more water added and becomes a pourable besan curry.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-maharashtrian-bharli-vangi",
+    "slug": "maharashtrian-bharli-vangi",
+    "title": "Maharashtrian Bharli Vangi",
+    "nativeTitle": "भरली वांगी",
+    "description": "Small, tender brinjals stuffed with a fragrant roasted coconut-peanut-sesame masala and braised in a rich, slightly sweet tamarind-tomato gravy. Bharli Vangi is Maharashtra's most loved brinjal dish — the stuffing is the dish, and the gravy is merely its devoted companion.",
+    "cuisine": "maharashtrian",
+    "country": "india",
+    "region": "maharashtra",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "small brinjal (small green or purple variety), about 8–10 pieces",
+        "normalizedName": "brinjal",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "fresh coconut, grated",
+        "normalizedName": "coconut",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "roasted peanuts, coarsely ground",
+        "normalizedName": "peanut",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sesame seeds, roasted",
+        "normalizedName": "sesame-seeds",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "onion, sliced thin",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic",
+        "normalizedName": "garlic",
+        "quantity": 6,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "tomato, roughly chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tamarind pulp",
+        "normalizedName": "tamarind",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "jaggery",
+        "normalizedName": "jaggery",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Dry-roast the onion slices in a dry pan on medium heat, stirring, until they turn deep brown and start to dry out — about 7 minutes. Add garlic and ginger in the last minute and continue roasting. Cool slightly and grind with tomatoes to a coarse wet paste in a mixie.",
+        "timerMinutes": 8,
+        "method": "roasting"
+      },
+      {
+        "order": 2,
+        "text": "In the same pan dry-roast the sesame seeds until golden (1 minute), then add coconut and roast until the coconut turns pale golden and fragrant (2–3 minutes). Combine roasted sesame, coconut and ground peanuts in a bowl. Add red chilli powder, coriander powder, half the turmeric, garam masala, tamarind, jaggery and salt. Mix into a moist, cohesive stuffing.",
+        "timerMinutes": 4,
+        "method": "roasting"
+      },
+      {
+        "order": 3,
+        "text": "Wash the brinjals and make two deep cuts crosswise from the base almost to the stem, keeping the brinjal intact. Gently press the stuffing into the cuts of each brinjal, filling them generously. Reserve any leftover stuffing for the gravy.",
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Heat oil in a wide kadai on medium. Add mustard seeds; when they pop add curry leaves and the remaining turmeric. Gently nestle the stuffed brinjals in a single layer. Pour in the ground onion-tomato paste around the brinjals and sauté the masala for 2–3 minutes until the raw smell goes.",
+        "timerMinutes": 3,
+        "method": "tempering"
+      },
+      {
+        "order": 5,
+        "text": "Add any leftover stuffing to the gravy along with 0.75 cup water. Stir gently around the brinjals without disturbing them. Cover tightly and cook on low-medium for 18–20 minutes, turning the brinjals very carefully once at the halfway mark, until they are completely tender when pierced with a knife and the gravy has thickened.",
+        "timerMinutes": 20,
+        "method": "braising"
+      },
+      {
+        "order": 6,
+        "text": "Taste the gravy — it should be well balanced between the tamarind sourness, jaggery sweetness and chilli heat. Adjust any element. Scatter coriander leaves and serve hot with jowar or wheat bhakri, or with steamed rice."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "mixie"
+    ],
+    "methods": [
+      "roasting",
+      "tempering",
+      "braising",
+      "no-cook"
+    ],
+    "tags": [
+      "gravy",
+      "comfort-food",
+      "budget"
+    ],
+    "allergens": [
+      "sesame",
+      "peanuts",
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 275,
+      "protein": 7,
+      "carbs": 22,
+      "fat": 18,
+      "fiber": 7,
+      "sugar": 6,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "coconut",
+        "substitute": "4 tbsp desiccated coconut soaked in 2 tbsp warm water; dry roast briefly before using"
+      },
+      {
+        "ingredient": "peanut",
+        "substitute": "same quantity roasted cashew pieces; richer but works well"
+      },
+      {
+        "ingredient": "tamarind",
+        "substitute": "2 tbsp lemon juice added at the end, off heat; the sourness will be brighter"
+      }
+    ],
+    "culturalNote": "Bharli vangi is a staple at Maharashtrian festive meals and weddings — the dish requires patience and produces a result that is far more layered than its humble brinjal-based origins suggest.",
+    "regionalVariation": "Vidarbha-style bharli vangi is hotter and uses less tamarind. Kolhapuri versions include the region's wet masala in the stuffing for a more complex flavour. Some coastal Konkan households add a small amount of dried kokum to the gravy instead of tamarind.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-maharashtrian-amti-dal",
+    "slug": "maharashtrian-amti-dal",
+    "title": "Maharashtrian Amti Dal",
+    "nativeTitle": "आमटी",
+    "description": "Toor dal simmered with kokum, jaggery and goda masala into a dal that is simultaneously sour, sweet and warmly spiced — completely unlike any North Indian dal. Amti is the anchoring dish of the Maharashtrian thali, and its complex flavour comes together in under 30 minutes once the dal is cooked.",
+    "cuisine": "maharashtrian",
+    "country": "india",
+    "region": "maharashtra",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "toor dal (pigeon pea)",
+        "normalizedName": "toor-dal",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "kokum, dried",
+        "normalizedName": "kokum",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false,
+        "notes": "the key souring agent in Maharashtrian cooking; substitute tamarind if unavailable"
+      },
+      {
+        "name": "jaggery",
+        "normalizedName": "jaggery",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "essential — amti is always slightly sweet"
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "goda masala (Maharashtrian garam masala)",
+        "normalizedName": "garam-masala",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "goda masala has a sweeter, coconut-and-star-anise flavour; regular garam masala is an acceptable substitute"
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "oil or ghee",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies, whole",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "fresh coconut, grated",
+        "normalizedName": "coconut",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "added at the end gives richness; skip for a plainer amti"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Rinse toor dal and soak for 20 minutes. Pressure-cook with 2.5 cups water, turmeric and a pinch of salt for 4 whistles on medium. Open once the pressure drops naturally and whisk the cooked dal vigorously until smooth and creamy.",
+        "timerMinutes": 25,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a saucepan on medium-high. Add mustard seeds; when they pop add cumin, asafoetida, dried red chillies and curry leaves. Fry for 20 seconds until the leaves crackle and the chillies darken slightly.",
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Pour the tempered oil directly into the cooked dal in the pressure cooker (or transfer the dal to the saucepan). Add kokum, jaggery, red chilli powder, coriander powder and goda masala. Stir well and bring to a gentle boil."
+      },
+      {
+        "order": 4,
+        "text": "Add 0.5 cup water if the dal is very thick — amti should be pourable like a thin soup, not a paste. Simmer on medium for 8 minutes so the kokum infuses its colour and sourness and the jaggery dissolves completely. Taste and adjust the sweet-sour-spice balance — this is the defining moment of the dish.",
+        "timerMinutes": 8,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Stir in grated coconut (if using) and cook for 1 more minute. Scatter coriander leaves and serve hot over steamed rice with a side of Maharashtrian bhaji, papad and koshimbir (raita)."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "saucepan"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "tempering",
+      "simmering"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "budget",
+      "healthy",
+      "one-pot-meal"
+    ],
+    "allergens": [
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 220,
+      "protein": 12,
+      "carbs": 32,
+      "fat": 5,
+      "fiber": 7,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "kokum",
+        "substitute": "1.5 tbsp tamarind pulp; add after the dal comes to a boil"
+      },
+      {
+        "ingredient": "garam-masala",
+        "substitute": "use regular garam masala + 1 tsp coriander powder + a tiny pinch of star anise powder to approximate goda masala"
+      },
+      {
+        "ingredient": "jaggery",
+        "substitute": "1.5 tsp sugar; the sweetness will be cleaner but less complex"
+      }
+    ],
+    "culturalNote": "Amti is the one element no Maharashtrian meal can replace — it serves the same function as sambar in Tamil Nadu, binding the thali together and acting as a palate-cleanser between other dishes.",
+    "regionalVariation": "Vidarbha amti is darker, hotter and uses less jaggery. Konkan coastal amti incorporates more coconut. The Nagpuri version adds a small amount of poppy seeds ground into the tempering for a nuttier, richer flavour.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-maharashtrian-puran-poli",
+    "slug": "maharashtrian-puran-poli",
+    "title": "Maharashtrian Puran Poli",
+    "nativeTitle": "पुरण पोळी",
+    "description": "Golden, ghee-kissed flatbreads stuffed with a dense, fragrant filling of chana dal sweetened with jaggery and perfumed with cardamom and nutmeg. Puran poli is the celebratory sweet bread of Maharashtra and is served on Holi, Gudhi Padwa and almost every auspicious occasion.",
+    "cuisine": "maharashtrian",
+    "country": "india",
+    "region": "maharashtra",
+    "language": "en",
+    "mealType": [
+      "dessert",
+      "lunch"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "hard",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 60,
+    "totalTimeMinutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chana dal (split Bengal gram), for puran",
+        "normalizedName": "chana-dal",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "jaggery, grated or broken",
+        "normalizedName": "jaggery",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false,
+        "notes": "the quantity of jaggery should equal the cooked, drained chana dal in volume"
+      },
+      {
+        "name": "green cardamom, freshly powdered",
+        "normalizedName": "cardamom",
+        "quantity": 6,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "nutmeg, freshly grated",
+        "normalizedName": "nutmeg",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "whole wheat flour (atta), for dough",
+        "normalizedName": "wheat-flour",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder (small pinch for dough)",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "gives the poli its traditional pale yellow hue"
+      },
+      {
+        "name": "oil, for dough",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "ghee, for frying and serving",
+        "normalizedName": "ghee",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "puran poli served without ghee is considered incomplete in Maharashtra"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Rinse chana dal and soak for 30 minutes. Pressure-cook with 2 cups water and a pinch of turmeric for 4 whistles on medium until soft. Drain all water completely using a colander — the dal must be as dry as possible; any moisture will make the filling watery and difficult to stuff.",
+        "timerMinutes": 35,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "Cook the drained chana dal in a thick pan with jaggery on medium heat, stirring constantly, until the jaggery melts and the mixture dries into a cohesive ball that leaves the sides of the pan clean — about 10–12 minutes. This mixture is the puran. Add cardamom powder and nutmeg, stir and cool completely. Pass through a puran poli press or a coarse sieve, or mash very finely until smooth.",
+        "timerMinutes": 12,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Make a soft, pliable dough with wheat flour, oil, turmeric, salt and enough water. The dough must be notably softer than roti dough — almost sticky. Coat it with 1 tbsp oil, cover with a damp cloth and rest for 30 minutes. A soft dough is the key to thin, un-torn polis.",
+        "timerMinutes": 30,
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Divide the dough into 12 balls and the puran into 12 equal portions. Flatten a dough ball on an oiled surface (not floured), place a puran ball in the centre and fold the dough around it, sealing firmly. Flatten gently with your palm, then roll out to a thin 15–16 cm circle using light, even pressure. Roll from the centre outward; never press down on the edges.",
+        "method": "no-cook"
+      },
+      {
+        "order": 5,
+        "text": "Heat a tawa on medium. Cook each poli for 45 seconds, flip when dry spots appear, and cook the second side for 45 seconds. Spread 0.5 tsp ghee on the top face and flip; cook for 20 seconds until golden patches form. Spread more ghee on the second face, flip and cook for 10 seconds. The total tawa time per poli is about 2 minutes.",
+        "timerMinutes": 2,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 6,
+        "text": "Stack the polis and serve warm, each one topped with an extra drizzle of ghee. Puran poli is traditionally eaten with amti dal poured over the top (the combination is called varan-bhat puran poli) or with a bowl of warm milk spiked with cardamom and saffron."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "kadai",
+      "tawa"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "kadai-cooking",
+      "tawa-cooking",
+      "no-cook"
+    ],
+    "tags": [
+      "festival",
+      "diwali",
+      "navratri",
+      "sweet",
+      "kids-friendly"
+    ],
+    "allergens": [
+      "gluten",
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein": 10,
+      "carbs": 60,
+      "fat": 10,
+      "fiber": 5,
+      "sugar": 25,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "jaggery",
+        "substitute": "equal weight brown sugar or coconut sugar; the flavour will be less complex"
+      },
+      {
+        "ingredient": "wheat-flour",
+        "substitute": "half maida (plain flour) and half atta gives a more supple dough that is easier for beginners; the poli will be slightly lighter in colour"
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "good-quality white butter for a less rich version; oil is not recommended as it lacks the nutty flavour that finishes the dish"
+      }
+    ],
+    "culturalNote": "Puran poli is cooked on Holi morning in almost every Maharashtrian household — the fragrance of jaggery and cardamom cooking together is considered the smell of the festival itself across the state.",
+    "regionalVariation": "The Goa and Konkani version (called holige) uses toor dal instead of chana dal for a slightly softer, less grainy puran. The Karnataka obbattu is a close cousin with the same stuffing principle but a different spice blend including fennel.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-rajasthani-kadhi",
+    "slug": "rajasthani-kadhi",
+    "title": "Rajasthani Kadhi",
+    "nativeTitle": "राजस्थानी कढ़ी",
+    "description": "A robustly spiced, fiery yogurt-and-besan curry tempered with mustard oil, dried chillies and whole spices — bold and pungent where the Gujarati version is mild and sweet. Rajasthani kadhi gets its distinctive character from a generous hand with red chilli and the subtle heat of mustard oil in the tempering.",
+    "cuisine": "rajasthani",
+    "country": "india",
+    "region": "rajasthan",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "sour curd",
+        "normalizedName": "curd",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false,
+        "notes": "Rajasthani kadhi uses very sour curd — the sourer the better"
+      },
+      {
+        "name": "besan (gram flour)",
+        "normalizedName": "besan",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "mustard oil",
+        "normalizedName": "mustard-oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "authentic Rajasthani kadhi uses mustard oil; substitute with neutral oil if preferred"
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fenugreek seeds",
+        "normalizedName": "fenugreek-seeds",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "adds a pleasantly bitter note that distinguishes this kadhi"
+      },
+      {
+        "name": "dried red chillies, whole",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "a final drizzle of ghee enriches the kadhi before serving"
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Whisk together curd, besan, turmeric, red chilli powder, coriander powder, salt and water in a large bowl until completely smooth with no lumps. Pour into a heavy-bottomed saucepan.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Place the saucepan on medium heat and stir the curd mixture constantly as it heats — this prevents the besan from sinking and the curd from splitting. Bring to a slow boil while still stirring, then reduce to a gentle simmer for 10 minutes until the kadhi thickens slightly and no longer smells raw.",
+        "timerMinutes": 12,
+        "method": "simmering"
+      },
+      {
+        "order": 3,
+        "text": "Heat mustard oil in a small pan on high until it starts to smoke lightly (this step removes the pungency of raw mustard oil). Reduce to medium and add cumin seeds, fenugreek seeds, dried red chillies and asafoetida; they will sizzle and pop in about 20 seconds. Add curry leaves and fry for 10 seconds more.",
+        "method": "tempering"
+      },
+      {
+        "order": 4,
+        "text": "Pour the tempering into the simmering kadhi all at once — it will sizzle and the room will smell of toasted mustard and fenugreek. Stir well and simmer for 3 more minutes. Taste and adjust salt and chilli.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 5,
+        "text": "Drizzle ghee over the surface if using, scatter coriander leaves and serve hot over steamed rice, bajra roti or with a meal of dal baati. Unlike Gujarati kadhi, this version is not sweet — do not add sugar or jaggery."
+      }
+    ],
+    "cookware": [
+      "saucepan",
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "simmering",
+      "tempering",
+      "no-cook"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "budget"
+    ],
+    "allergens": [
+      "dairy",
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 145,
+      "protein": 6,
+      "carbs": 11,
+      "fat": 9,
+      "fiber": 1,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "mustard-oil",
+        "substitute": "2 tbsp neutral oil; the kadhi loses the signature pungency but is still good"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "equal quantity buttermilk; reduce the water by half as buttermilk is thinner"
+      },
+      {
+        "ingredient": "fenugreek-seeds",
+        "substitute": "omit if unavailable; the kadhi will be less bitter but still authentic in most other ways"
+      }
+    ],
+    "culturalNote": "In the Marwar region of Rajasthan, kadhi is often the only source of liquid in a dry meal of bajra roti and gatte — it serves as both dal and gravy, poured generously over everything on the plate.",
+    "regionalVariation": "Pakora kadhi (kadhi with besan fritters) is popular across Rajasthan for special occasions. Marwari kadhi tends to use even more sour curd and a heavier hand with fenugreek seeds than the milder Shekhawati versions.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-gujarati-poha-khichdi",
+    "slug": "gujarati-poha-khichdi",
+    "title": "Gujarati Poha Khichdi",
+    "nativeTitle": "પૌંઆ ખીચડી",
+    "description": "A light, one-pan Gujarati breakfast made by cooking thick poha with potato, green peas and a bright tempering of mustard, ginger and green chilli. Faster than a standard khichdi and more substantial than plain poha, this dish sits at the sweet spot between the two and is ready in under 20 minutes.",
+    "cuisine": "gujarati",
+    "country": "india",
+    "region": "gujarat",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "tiffin",
+      "snack"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 25,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "thick poha (flattened rice)",
+        "normalizedName": "poha",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "potato, boiled and diced into small cubes",
+        "normalizedName": "potato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green peas (fresh or frozen)",
+        "normalizedName": "peas",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "green chilli, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "roasted peanuts",
+        "normalizedName": "peanut",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "Gujarati touch of sweetness; do not skip"
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "sesame seeds",
+        "normalizedName": "sesame-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "asafoetida",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Rinse the poha in a colander under cold water for 30 seconds, toss and drain until just moist. Sprinkle turmeric, sugar and a pinch of salt over the drained poha and toss gently to colour it evenly.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a kadai on medium-high. Add mustard seeds and wait for them to pop. Add sesame seeds (if using), asafoetida and curry leaves; fry for 10 seconds. Add green chilli and ginger; stir for 20 seconds.",
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add the peas and sauté for 1 minute until heated through. Add the diced boiled potato and roasted peanuts; toss gently for 30 seconds to warm everything without breaking the potato pieces.",
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Reduce heat to low and add the seasoned poha. Fold everything together with a wide spatula using gentle lifting movements — do not stir hard or the poha grains will become a paste. Every grain should be coated in the turmeric-oil.",
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Cover and cook on low for 2 minutes so the poha steams through and turns tender. Remove from heat, drizzle lemon juice, adjust salt and fold once more. Serve immediately with a cup of chai and scatter coriander leaves on top.",
+        "timerMinutes": 2
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "tempering",
+      "kadai-cooking",
+      "no-cook"
+    ],
+    "tags": [
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "kids-friendly",
+      "lunchbox",
+      "tiffin",
+      "one-pot-meal"
+    ],
+    "allergens": [
+      "peanuts",
+      "sesame",
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 245,
+      "protein": 5,
+      "carbs": 36,
+      "fat": 9,
+      "fiber": 3,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "poha",
+        "substitute": "2 cups thin semolina (fine rava) — turns the dish into a variation of upma-khichdi"
+      },
+      {
+        "ingredient": "peanut",
+        "substitute": "roasted cashew halves for a richer version; or skip entirely for a nut-free dish"
+      },
+      {
+        "ingredient": "potato",
+        "substitute": "skip and add extra peas for a lighter version, or use diced boiled sweet potato for a naturally sweet twist"
+      }
+    ],
+    "culturalNote": "Poha khichdi is a Gujarat-specific preparation distinct from both Maharashtrian poha and North Indian khichdi — the Gujarati love for a whisper of sweetness in savoury dishes is its defining characteristic.",
+    "regionalVariation": "Saurashtra households sometimes add a small amount of grated raw papaya or raw mango along with the potato for a tangy, fruity note. Some Ahmedabad variants skip the potato entirely and add more sev on top, making it almost a breakfast chaat.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  }
+]

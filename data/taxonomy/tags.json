@@ -1,0 +1,177 @@
+[
+  {
+    "slug": "street-food",
+    "name": "Street Food",
+    "blurb": "Dishes born on the streets — pani puri, vada pav, kothu parotta — that thrive on bold spicing, quick assembly, and the energy of a busy stall. These recipes bring that same spontaneous pleasure home."
+  },
+  {
+    "slug": "festival",
+    "name": "Festival",
+    "blurb": "Recipes tied to celebration and community — the kind made in large batches, shared with neighbours, and eaten with a sense of occasion. Included here are dishes appropriate for any Indian festival setting."
+  },
+  {
+    "slug": "diwali",
+    "name": "Diwali Special",
+    "blurb": "Sweets, snacks, and savouries traditionally made during Diwali — from chakli and murukku to besan ladoo and kaju katli. These recipes are typically made in advance and gifted or served over several days."
+  },
+  {
+    "slug": "pongal",
+    "name": "Pongal Special",
+    "blurb": "Dishes central to the Tamil harvest festival Pongal, anchored by the ceremonial sweet and savoury pongal rice preparations cooked in clay pots. The occasion calls for freshly harvested rice and jaggery."
+  },
+  {
+    "slug": "onam",
+    "name": "Onam Special",
+    "blurb": "Recipes associated with Kerala's Onam festival, especially the elaborate sadya — a vegetarian feast of 20-plus dishes served on a banana leaf. These dishes celebrate the abundance of the harvest season."
+  },
+  {
+    "slug": "eid",
+    "name": "Eid Special",
+    "blurb": "Rich, celebratory dishes prepared for Eid ul-Fitr and Eid ul-Adha, including biryanis, seviyan kheer, haleem, and kormas that mark the end of Ramadan or the feast of sacrifice with deep flavour and generous portions."
+  },
+  {
+    "slug": "christmas",
+    "name": "Christmas Special",
+    "blurb": "Recipes from India's Anglo-Indian, Goan, and Kerala Christian traditions — fruit cakes, rose cookies, vindaloo, and sorpotel — that make Christmas in India a distinctive and layered culinary event."
+  },
+  {
+    "slug": "navratri",
+    "name": "Navratri Special",
+    "blurb": "Recipes suitable for Navratri fasting, typically excluding onion, garlic, and certain grains while embracing ingredients like sabudana, kuttu flour, and sendha namak. These dishes are flavourful despite their restrictions."
+  },
+  {
+    "slug": "bachelor-friendly",
+    "name": "Bachelor Friendly",
+    "blurb": "Recipes designed for minimal equipment, short skill requirements, and pantry ingredients that don't demand a stocked spice cabinet. These are the reliable go-tos when you're cooking for one or two with limited time."
+  },
+  {
+    "slug": "quick",
+    "name": "Quick",
+    "blurb": "Recipes that come together faster than expected — typically through efficient technique, minimal prep, or smart use of pantry staples — without sacrificing real flavour for speed."
+  },
+  {
+    "slug": "under-30-minutes",
+    "name": "Under 30 Minutes",
+    "blurb": "Complete dishes that go from raw ingredients to the table in 30 minutes or less, verified by total time. Ideal for weeknight cooking when time is the hardest ingredient to find."
+  },
+  {
+    "slug": "budget",
+    "name": "Budget",
+    "blurb": "Recipes that keep ingredient costs low without feeling like compromise — drawing on lentils, seasonal produce, eggs, and whole grains to create filling and satisfying meals on any budget."
+  },
+  {
+    "slug": "gym",
+    "name": "Gym / Fitness",
+    "blurb": "Recipes engineered around high protein content and sensible macros to support training, muscle building, or active recovery. Flavour is not sacrificed for nutrition here."
+  },
+  {
+    "slug": "comfort-food",
+    "name": "Comfort Food",
+    "blurb": "Dishes that feel like a hug — the rasams, khichdis, dal tadkas, and payasams you reach for when you want warmth, familiarity, and something that tastes like home."
+  },
+  {
+    "slug": "party",
+    "name": "Party",
+    "blurb": "Crowd-pleasing recipes that scale well, look impressive on a spread, and hold up during a gathering — from appetisers that survive a buffer table to biryanis made in family-sized quantities."
+  },
+  {
+    "slug": "kids-friendly",
+    "name": "Kids Friendly",
+    "blurb": "Recipes with mild spicing, familiar textures, and easy-to-eat formats that children tend to enjoy — without being dumbed down enough to bore the adults eating alongside them."
+  },
+  {
+    "slug": "one-pot-meal",
+    "name": "One-Pot Meal",
+    "blurb": "Complete, balanced meals that are built entirely in a single pot or pan, reducing both preparation complexity and washing up. Khichdi, sambar rice, and pulao are classic examples."
+  },
+  {
+    "slug": "leftover-friendly",
+    "name": "Leftover Friendly",
+    "blurb": "Recipes that taste as good — or better — the next day, making them excellent for batch cooking and planned-over lunches. Gravies, dals, and rice dishes often benefit from resting overnight."
+  },
+  {
+    "slug": "lunchbox",
+    "name": "Lunchbox",
+    "blurb": "Recipes specifically suited to packing in a dabba or lunchbox — they travel well, don't leak, and taste good at room temperature a few hours after cooking."
+  },
+  {
+    "slug": "tiffin",
+    "name": "Tiffin",
+    "blurb": "Light meals or snacks served in the South Indian tiffin tradition — think idli, dosa, pongal, and upma served with chutneys and sambar, typically for breakfast or mid-morning."
+  },
+  {
+    "slug": "no-onion-no-garlic",
+    "name": "No Onion No Garlic",
+    "blurb": "Recipes that skip onion and garlic entirely, suitable for Jain dietary practice, certain fasting traditions, or simply personal preference. The flavour comes from spices, asafoetida, and aromatics like ginger."
+  },
+  {
+    "slug": "summer",
+    "name": "Summer",
+    "blurb": "Refreshing, cooling, or hydrating recipes particularly well suited to hot weather — including chilled drinks, buttermilk preparations, light salads, and dishes that don't require long periods of standing over a hot flame."
+  },
+  {
+    "slug": "monsoon",
+    "name": "Monsoon",
+    "blurb": "Warm, deeply spiced recipes that feel right during the rainy season — piping hot pakoras, masala chai, and hearty soups that pair naturally with the sound of rain on the roof."
+  },
+  {
+    "slug": "winter",
+    "name": "Winter",
+    "blurb": "Richly spiced, warming recipes suited to cooler months — from sarson da saag and makki di roti in the north to sesame-laden dishes in Maharashtra and hearty bone broths across the subcontinent."
+  },
+  {
+    "slug": "healthy",
+    "name": "Healthy",
+    "blurb": "Recipes prioritising whole ingredients, balanced nutrition, and mindful cooking — lower in processed components and built around vegetables, pulses, and lean proteins without sacrificing taste."
+  },
+  {
+    "slug": "low-oil",
+    "name": "Low Oil",
+    "blurb": "Recipes that achieve full flavour with a minimal amount of added fat, using technique — steaming, dry-roasting, careful tempering — rather than oil as the primary flavour carrier."
+  },
+  {
+    "slug": "gravy",
+    "name": "Gravy",
+    "blurb": "Dishes with a pourable or spoonable sauce — from thin broths to thick, spiced masala gravies — that are designed to be eaten with rice or bread and tend to be the centrepiece of an Indian meal."
+  },
+  {
+    "slug": "dry-curry",
+    "name": "Dry Curry",
+    "blurb": "Semi-dry or fully dry preparations where the liquid has been cooked off to leave a coating of concentrated spices around the main ingredient — particularly popular as accompaniments to rice and dal."
+  },
+  {
+    "slug": "salad",
+    "name": "Salad",
+    "blurb": "Fresh, raw, or lightly cooked ingredient combinations — from South Indian kachumber to sprouted legume salads — that balance texture and bright dressings without heavy cooking."
+  },
+  {
+    "slug": "soup",
+    "name": "Soup",
+    "blurb": "Liquid-forward dishes from thin rasam and clear shorba to creamy lentil soups and sweet corn soups, covering both the warming restoratives of Indian cooking and internationally inspired variations."
+  },
+  {
+    "slug": "bowl",
+    "name": "Bowl",
+    "blurb": "Single-vessel meals built around a grain or legume base and topped with proteins, vegetables, and sauces — a format that naturally suits Indian rice and dal combinations as much as global grain bowls."
+  },
+  {
+    "slug": "wrap",
+    "name": "Wrap",
+    "blurb": "Hand-held preparations where a flatbread, paratha, or roti encloses a filling of spiced vegetables, meat, or cheese — from Kolkata kati rolls to Kerala parotta wraps."
+  },
+  {
+    "slug": "grill-bbq",
+    "name": "Grill / BBQ",
+    "blurb": "Recipes intended for a grill, griddle, or open flame, celebrating char-kissed surfaces and the smoky edge that only direct heat can provide. Includes tandoori preparations and coal-smoked dishes."
+  },
+  {
+    "slug": "sweet",
+    "name": "Sweet",
+    "blurb": "Desserts, sweets, and sweet preparations — from payasam and halwa to barfi and jalebi — that mark the end of a meal or the beginning of a celebration in Indian culinary tradition."
+  },
+  {
+    "slug": "fried-snack",
+    "name": "Fried Snack",
+    "blurb": "Crispy, golden snacks produced by frying — whether deep-fried like samosas and murukku or shallow-fried like cutlets — that are the backbone of Indian tea-time and street-food culture."
+  }
+]

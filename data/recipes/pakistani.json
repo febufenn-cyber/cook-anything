@@ -1,0 +1,3558 @@
+[
+  {
+    "id": "ca-pakistani-chicken-karahi",
+    "slug": "pakistani-chicken-karahi",
+    "title": "Pakistani Chicken Karahi",
+    "nativeTitle": "چکن کڑاہی",
+    "description": "A boldly spiced, dry-style chicken curry cooked directly in a steel karahi over high heat. Juicy bone-in pieces meld with tomatoes, ginger, and whole spices into a glossy, clinging masala with almost no added water.",
+    "cuisine": "pakistani",
+    "country": "pakistan",
+    "region": "punjab-pakistan",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 40,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken (curry cut, with bone)",
+        "normalizedName": "chicken",
+        "quantity": 750,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "tomatoes, roughly chopped",
+        "normalizedName": "tomato",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "oil or ghee",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "ginger, julienned",
+        "normalizedName": "ginger",
+        "quantity": 2,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, minced",
+        "normalizedName": "garlic",
+        "quantity": 6,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "green chillies, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, coarsely ground",
+        "normalizedName": "black-pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curd (plain yogurt)",
+        "normalizedName": "curd",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "fresh coriander and ginger strips for garnish",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat oil in a wide karahi or heavy wok over high flame. Add cumin seeds and let them sizzle for 15 seconds, then add the minced garlic and half the ginger julienne. Fry, stirring constantly, for 1 minute until fragrant but not burnt.",
+        "timerMinutes": 2,
+        "method": "tempering"
+      },
+      {
+        "order": 2,
+        "text": "Add the chicken pieces and sear over high heat, turning every minute, until all surfaces are sealed and lightly golden — about 7–8 minutes. The chicken will release moisture; keep the flame high so it evaporates quickly.",
+        "timerMinutes": 8,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Add the chopped tomatoes, red chilli powder, turmeric, coriander powder, and salt. Stir vigorously and cook uncovered on medium-high heat for 10 minutes, pressing the tomatoes with the back of the spoon until they break down completely into a thick paste.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 4,
+        "text": "Reduce heat to medium. Stir in the beaten curd one spoon at a time to prevent splitting. Cook for 5 minutes, stirring often, until the yogurt is absorbed and the oil begins to separate around the edges of the masala.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 5,
+        "text": "Add the green chillies and coarsely ground black pepper. Continue cooking for another 10 minutes, stirring occasionally, until the masala dries out and clings thickly to each piece of chicken and oil pools visibly on top.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 6,
+        "text": "Sprinkle garam masala over the top and fold through gently. Taste and adjust salt. Finish with remaining ginger julienne and fresh coriander leaves. Serve straight from the karahi with naan or roti."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "kadai-cooking",
+      "tempering",
+      "sauteing"
+    ],
+    "tags": [
+      "party",
+      "comfort-food",
+      "gravy",
+      "eid"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein": 34,
+      "carbs": 8,
+      "fat": 23,
+      "fiber": 2,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "750 g mutton (curry cut)",
+        "notes": "increase cook time to 60 minutes"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "3 tbsp full-fat coconut milk",
+        "notes": "changes character slightly but keeps richness"
+      },
+      {
+        "ingredient": "green-chilli",
+        "substitute": "1 tsp chilli flakes",
+        "notes": "for milder heat"
+      }
+    ],
+    "culturalNote": "Karahi is Pakistan's most beloved restaurant dish, named after the two-handled iron wok in which it is cooked and served sizzling at the table.",
+    "regionalVariation": "Lahore-style karahi uses more oil and tomatoes; Peshawar-style (white karahi) omits chilli powder entirely and relies on black pepper and cream.",
+    "indianKitchenAdaptation": "This dish translates perfectly to an Indian kitchen. Use a cast-iron kadai or heavy wok for authentic char. Kashmiri red chilli powder gives the characteristic deep colour without extra heat. The dish requires no special Pakistani pantry items — standard Indian grocery spices work exactly the same. For a quick weeknight version, pressure cook the chicken for 2 whistles first, then finish the masala in the kadai.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-pakistani-mutton-karahi",
+    "slug": "pakistani-mutton-karahi",
+    "title": "Pakistani Mutton Karahi",
+    "nativeTitle": "مٹن کڑاہی",
+    "description": "Slow-cooked goat pieces in a concentrated tomato-ginger masala, finished with crushed black pepper and a generous pour of ghee. This karahi's sauce is silky from the marrow and bold enough to stand up to fresh naan.",
+    "cuisine": "pakistani",
+    "country": "pakistan",
+    "region": "punjab-pakistan",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 75,
+    "totalTimeMinutes": 90,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "mutton (goat, curry cut with bone)",
+        "normalizedName": "mutton",
+        "quantity": 750,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "tomatoes, roughly chopped",
+        "normalizedName": "tomato",
+        "quantity": 5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, crushed",
+        "normalizedName": "garlic",
+        "quantity": 8,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, julienned (half for cooking, half for garnish)",
+        "normalizedName": "ginger",
+        "quantity": 3,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "green chillies, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, coarsely crushed",
+        "normalizedName": "black-pepper",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curd",
+        "normalizedName": "curd",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "fresh coriander leaves",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat oil and ghee together in a large karahi over high heat. Add the crushed garlic and half the ginger and fry for 1 minute until golden. Add the mutton pieces and sear on all sides until the meat is browned and sealed, about 8–10 minutes.",
+        "timerMinutes": 10,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 2,
+        "text": "Add the chopped tomatoes, red chilli powder, turmeric, coriander powder, and salt. Stir well, reduce heat to medium, cover and cook for 20 minutes. The tomatoes will collapse into a thick paste — stir every 5 minutes to prevent sticking.",
+        "timerMinutes": 20
+      },
+      {
+        "order": 3,
+        "text": "Uncover and increase flame to high. Stir-fry the masala vigorously for 5 minutes, pressing it against the sides, until the oil separates clearly on top and the tomato moisture has cooked off completely.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 4,
+        "text": "Beat the curd smooth and add it one spoon at a time, stirring after each addition. Cook on medium for 5 minutes until absorbed, then pour in 200 ml hot water, cover, and simmer on low heat for 35 minutes until the mutton is fully tender and falling from the bone.",
+        "timerMinutes": 40,
+        "method": "braising"
+      },
+      {
+        "order": 5,
+        "text": "Remove the lid and cook on high heat for 5 minutes to tighten the gravy. Add green chillies, coarsely crushed black pepper, and garam masala. Stir and cook for 2 more minutes.",
+        "timerMinutes": 7
+      },
+      {
+        "order": 6,
+        "text": "Taste for salt, garnish with remaining ginger julienne and fresh coriander, and serve directly from the karahi with naan or a stack of hot chapati."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "kadai-cooking",
+      "braising",
+      "sauteing"
+    ],
+    "tags": [
+      "party",
+      "comfort-food",
+      "eid",
+      "gravy"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 430,
+      "protein": 35,
+      "carbs": 9,
+      "fat": 28,
+      "fiber": 2,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "mutton",
+        "substitute": "750 g chicken on bone",
+        "notes": "reduce simmering time to 20 minutes"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "4 tbsp coconut cream",
+        "notes": "use if avoiding dairy"
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "extra cooking oil",
+        "notes": "ghee adds characteristic richness"
+      }
+    ],
+    "culturalNote": "Mutton karahi is synonymous with Pakistani celebrations — it is the centrepiece of eid spreads and family gatherings, and vendors across Lahore and Karachi specialise in nothing else.",
+    "regionalVariation": "Karahi from Karachi restaurants tends to have more tomatoes and a saucier consistency; Lahori dhaba-style is drier and uses more ghee.",
+    "indianKitchenAdaptation": "Mutton karahi needs long cooking — use a pressure cooker shortcut: after the initial sear and masala, pressure cook with 150 ml water for 5–6 whistles on medium heat, then open and finish on high heat in the karahi to dry the masala. Kashmiri lal mirch powder from any Indian spice shop gives the authentic reddish colour. Indian goat (bakra) is identical to Pakistani mutton; lamb from a supermarket also works well.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-pakistani-nihari",
+    "slug": "pakistani-nihari",
+    "title": "Pakistani Nihari (Home Style)",
+    "nativeTitle": "نہاری",
+    "description": "A slow-cooked wheat-thickened shank stew, deeply aromatic with warming spices and finished with ginger, fried onions, and fresh green chilli. This simplified home version achieves the soul of old Delhi and Karachi nihari without an overnight simmer.",
+    "cuisine": "pakistani",
+    "country": "pakistan",
+    "region": "punjab-pakistan",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "hard",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 130,
+    "totalTimeMinutes": 150,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "mutton shanks or nalli (marrow bones)",
+        "normalizedName": "mutton",
+        "quantity": 800,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion, thinly sliced and deep-fried until golden (birista)",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "oil or ghee",
+        "normalizedName": "oil",
+        "quantity": 5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "wheat flour (atta)",
+        "normalizedName": "wheat-flour",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "for thickening"
+      },
+      {
+        "name": "nihari masala or meat masala blend",
+        "normalizedName": "curry-powder",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "MDH Nihari Masala from Indian grocery stores"
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fennel seeds",
+        "normalizedName": "fennel",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "bay leaf",
+        "normalizedName": "bay-leaf",
+        "quantity": 2,
+        "unit": "leaf",
+        "optional": false
+      },
+      {
+        "name": "ginger, julienned (for serving)",
+        "normalizedName": "ginger",
+        "quantity": 2,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "green chillies, thinly sliced",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "lemon",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "fresh coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat oil or ghee in a large heavy-bottomed pot over high heat. Add the mutton shanks and sear well on all sides until brown, about 8 minutes. Remove the meat and set aside.",
+        "timerMinutes": 8,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "In the same pot, add ginger-garlic paste and fry for 2 minutes until the raw smell goes. Add the nihari masala, red chilli powder, coriander powder, turmeric, fennel seeds, and bay leaves. Stir on medium heat for 1 minute.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 3,
+        "text": "Return the meat to the pot. Crush in about three-quarters of the fried onions. Pour in 1.2 litres of hot water, add salt, bring to a boil, then reduce heat to the lowest setting. Cover tightly and simmer for 90 minutes, checking occasionally and skimming any foam from the surface.",
+        "timerMinutes": 90,
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "Mix the wheat flour with 5 tablespoons of cold water into a smooth slurry with no lumps. Ladle a cup of hot broth from the pot into the slurry while whisking, then pour the mixture back into the pot. Stir well to prevent lumps.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 5,
+        "text": "Continue simmering uncovered for 20 more minutes, stirring every few minutes, until the stew has thickened to a velvety consistency that coats the back of a spoon. Add garam masala and taste for salt.",
+        "timerMinutes": 20
+      },
+      {
+        "order": 6,
+        "text": "Ladle into deep bowls. Top each serving with ginger julienne, sliced green chillies, a squeeze of lemon juice, the remaining crispy fried onions, and fresh coriander. Serve with naan for dipping into the broth."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "frying-pan"
+    ],
+    "methods": [
+      "braising",
+      "simmering",
+      "slow-cooking"
+    ],
+    "tags": [
+      "comfort-food",
+      "winter",
+      "gravy",
+      "eid"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 520,
+      "protein": 38,
+      "carbs": 18,
+      "fat": 32,
+      "fiber": 2,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "mutton",
+        "substitute": "800 g beef shin or brisket",
+        "notes": "increase simmer time to 2.5 hours"
+      },
+      {
+        "ingredient": "curry-powder",
+        "substitute": "2 tbsp homemade spice mix: 1 tsp each cumin, coriander, fennel plus 0.5 tsp each ginger powder, clove, cardamom",
+        "notes": "if nihari masala not available"
+      },
+      {
+        "ingredient": "wheat-flour",
+        "substitute": "2 tbsp rice flour or cornflour",
+        "notes": "for a gluten-free thickener"
+      }
+    ],
+    "culturalNote": "Nihari originates from Mughal-era Old Delhi where it was slow-cooked overnight and served at Fajr (dawn prayer) — the name derives from 'nahar', Arabic for morning. It is now equally beloved in Karachi and Lahore.",
+    "regionalVariation": "Karachi-style nihari uses more oil and a looser gravy; Lahori nihari tends to be thicker and heavier on the spice. Some versions add kapura (brain) or paya (trotters) for extra richness.",
+    "indianKitchenAdaptation": "Use a pressure cooker to cut the simmering time dramatically: after step 3, pressure cook for 8–10 whistles on medium heat instead of the 90-minute simmer. Release pressure naturally, then open and continue with the flour slurry on direct heat. MDH Nihari Masala is widely available at Indian spice shops. If unavailable, use Shan Nihari Masala or mix meat masala with a pinch of kewra water (gulab jal) and some extra fennel.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-pakistani-seekh-kebab",
+    "slug": "pakistani-seekh-kebab",
+    "title": "Pakistani Seekh Kebab",
+    "nativeTitle": "سیخ کباب",
+    "description": "Minced beef or mutton seasoned with raw onion, fresh herbs, and warm spices, moulded onto skewers and cooked on a griddle or air-fryer until charred and juicy. These kebabs are best eaten straight off the tawa with mint chutney and sliced onions.",
+    "cuisine": "pakistani",
+    "country": "pakistan",
+    "region": "punjab-pakistan",
+    "language": "en",
+    "mealType": [
+      "dinner",
+      "snack"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "minced mutton or beef (medium fat, not lean)",
+        "normalizedName": "keema",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion, very finely chopped and squeezed dry",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger, finely grated",
+        "normalizedName": "ginger",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, finely grated",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "green chillies, very finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "fresh coriander, finely chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin, roasted and ground",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, freshly ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil for basting",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Squeeze the chopped onion in a clean cloth or your hands to remove as much moisture as possible — wet onion is the number one reason seekh kebabs fall apart. Combine onion with all the spices, herbs, ginger, and garlic in a bowl.",
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Add the mince to the bowl and knead firmly with your hands for 3–4 minutes, working the mixture until it becomes sticky and cohesive. A well-kneaded mince will hold its shape on the skewer. Refrigerate for 30 minutes if time permits.",
+        "timerMinutes": 30
+      },
+      {
+        "order": 3,
+        "text": "Wet your hands and divide the mince into 8 equal portions. Mould each portion firmly around a flat-sided metal skewer (or kebab stick), pressing firmly and extending it into a 15 cm sausage shape. The grip must be tight or it will slide off during cooking.",
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Heat a tawa or griddle on high flame until very hot and brush with oil. Place the skewered kebabs on the tawa and cook for 4–5 minutes on one side without moving, until a good crust forms. Turn carefully and cook the second side for 4 minutes.",
+        "timerMinutes": 10,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Baste with a little oil and cook, turning once more, for a further 3–4 minutes until fully cooked through and slightly charred on the outside. To check doneness, press the thickest part — it should feel firm, not squishy.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 6,
+        "text": "Slide the kebabs off the skewers and serve immediately on a plate lined with raw onion rings and lemon wedges, with mint chutney or raita on the side."
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "skillet"
+    ],
+    "methods": [
+      "tawa-cooking",
+      "grilling",
+      "marinating"
+    ],
+    "tags": [
+      "street-food",
+      "grill-bbq",
+      "party",
+      "eid",
+      "bachelor-friendly"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 310,
+      "protein": 28,
+      "carbs": 5,
+      "fat": 20,
+      "fiber": 1,
+      "sugar": 1,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "keema",
+        "substitute": "500 g chicken mince",
+        "notes": "cook 1–2 minutes less; chicken dries out faster"
+      },
+      {
+        "ingredient": "cumin",
+        "substitute": "0.5 tsp ajwain (carom seeds)",
+        "notes": "gives a different but pleasant herbal note"
+      }
+    ],
+    "culturalNote": "Seekh kebab is street food across Pakistan's cities — vendors grill them over charcoal braziers, wrapping each batch in paratha with raw onion and green chutney.",
+    "regionalVariation": "Peshawari seekh kebabs are almost entirely unseasoned — just meat, fat, and salt — relying on the quality of the meat over the spice blend.",
+    "indianKitchenAdaptation": "Cook on a cast-iron tawa on the highest flame your hob allows to replicate the tandoor's searing heat. No metal skewers? Shape the mixture into oval flat patties (an inch thick) and pan-fry — they'll taste identical. For an air-fryer version, cook at 200°C for 10–12 minutes, turning halfway. The flat seekh shape is easier to hold on any Indian tawa than a round kebab.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-pakistani-chapli-kebab",
+    "slug": "pakistani-chapli-kebab",
+    "title": "Pakistani Chapli Kebab",
+    "nativeTitle": "چپلی کباب",
+    "description": "Peshawari-style flat beef patties made with crushed spices, raw tomato, egg, and a little flour, shallow-fried in oil until crisp-edged and deeply flavoured. The name is said to come from 'chaprikh', meaning flat in Pashto.",
+    "cuisine": "pakistani",
+    "country": "pakistan",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "minced beef (with some fat, not lean)",
+        "normalizedName": "keema",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, seeds removed and finely chopped",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chillies, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "egg, lightly beaten",
+        "normalizedName": "egg",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "wheat flour (atta)",
+        "normalizedName": "wheat-flour",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "binds the patty"
+      },
+      {
+        "name": "coriander seeds, coarsely crushed",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, coarsely ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fresh coriander, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "fresh mint leaves, chopped",
+        "normalizedName": "mint",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "oil for shallow frying",
+        "normalizedName": "oil",
+        "quantity": 6,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Squeeze all excess moisture from the chopped onion and seed the tomato before chopping — excess liquid prevents a crisp crust. Combine the mince, onion, tomato, green chillies, coriander leaves, and mint in a large bowl.",
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Add the egg, wheat flour, all the dry spices, and salt. Knead the mixture firmly with your hands for 3 minutes until everything is evenly combined and the mince holds together when pressed. Unlike seekh kebab, you want to see some texture — do not over-process.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 3,
+        "text": "Divide into 8 portions. Press each between your palms to form a flat, round patty about 1 cm thick and 10 cm across — thinner than an Indian kebab. Work the edges to prevent cracking."
+      },
+      {
+        "order": 4,
+        "text": "Heat oil in a wide frying pan on medium-high heat. The oil should be 3–4 mm deep. Test with a small piece of mince — if it sizzles immediately, the oil is ready. Add 3–4 kebabs at a time without crowding.",
+        "method": "shallow-frying"
+      },
+      {
+        "order": 5,
+        "text": "Cook for 4–5 minutes on the first side without touching, until the underside is dark brown and crisp. Flip carefully and cook the second side for 3–4 minutes. The centre should feel firm and the edges should look dry. Drain on kitchen paper.",
+        "timerMinutes": 9
+      },
+      {
+        "order": 6,
+        "text": "Serve hot with sliced raw onion, a tomato slice, a squeeze of lemon, and naan or paratha. These are best eaten immediately while the crust is crisp."
+      }
+    ],
+    "cookware": [
+      "frying-pan",
+      "tawa"
+    ],
+    "methods": [
+      "shallow-frying",
+      "marinating"
+    ],
+    "tags": [
+      "street-food",
+      "party",
+      "eid",
+      "comfort-food"
+    ],
+    "allergens": [
+      "egg",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "protein": 25,
+      "carbs": 10,
+      "fat": 24,
+      "fiber": 1,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "keema",
+        "substitute": "500 g lamb mince",
+        "notes": "lamb works equally well"
+      },
+      {
+        "ingredient": "egg",
+        "substitute": "1 tbsp besan (gram flour) mixed with 2 tbsp water",
+        "notes": "egg-free binder; texture is slightly less crisp"
+      },
+      {
+        "ingredient": "wheat-flour",
+        "substitute": "2 tbsp rice flour",
+        "notes": "makes the crust crispier and is gluten-free"
+      }
+    ],
+    "culturalNote": "Chapli kebab hails from the Khyber Pakhtunkhwa region of Pakistan and is among the most copied street foods in the country — every family has its own spice ratio kept fiercely secret.",
+    "regionalVariation": "Authentic Peshawar chapli kebab uses beef fat along with mince and adds pomegranate seeds (anardana) for a slight tartness; some versions include dried plums.",
+    "indianKitchenAdaptation": "A regular Indian tawa or cast-iron frying pan works perfectly — use enough oil to coat the base generously, 4–5 mm deep, for the authentic crispy edge. Minced beef is available in Muslim butcher shops across India; substitute with mutton mince from any Indian market. The spices are all standard Indian pantry staples. Chapli kebab pairs wonderfully with Indian roomali roti or laccha paratha.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-pakistani-karachi-chicken-biryani",
+    "slug": "pakistani-karachi-chicken-biryani",
+    "title": "Karachi-Style Chicken Biryani",
+    "nativeTitle": "کراچی چکن بریانی",
+    "description": "A fragrant, layered rice dish made with dum cooking, where spiced chicken and parboiled basmati alternate in a sealed pot. Karachi biryani is richer than its north Indian cousins, with curd-marinated chicken, fried onions, and a subtle hit of kewra water.",
+    "cuisine": "pakistani",
+    "country": "pakistan",
+    "region": "sindh",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "hard",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 40,
+    "cookTimeMinutes": 60,
+    "totalTimeMinutes": 100,
+    "servings": 5,
+    "ingredients": [
+      {
+        "name": "chicken (curry cut, bone-in)",
+        "normalizedName": "chicken",
+        "quantity": 900,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "basmati rice, soaked 30 minutes",
+        "normalizedName": "basmati-rice",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "curd (thick)",
+        "normalizedName": "curd",
+        "quantity": 200,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "onion, thinly sliced and fried until deep golden",
+        "normalizedName": "onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomatoes, chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "green chillies, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 6,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "oil or ghee",
+        "normalizedName": "oil",
+        "quantity": 5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "ghee (for layering)",
+        "normalizedName": "ghee",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "whole spices: cardamom, cinnamon sticks, cloves, bay leaves",
+        "normalizedName": "cardamom",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "combined: 4 cardamom, 1 cinnamon stick, 4 cloves, 2 bay leaves"
+      },
+      {
+        "name": "rose water or kewra water",
+        "normalizedName": "rose-water",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "saffron soaked in 2 tbsp warm milk",
+        "normalizedName": "saffron",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": true
+      },
+      {
+        "name": "mint leaves",
+        "normalizedName": "mint",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "fresh coriander leaves",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Marinate the chicken with curd, ginger-garlic paste, red chilli powder, turmeric, coriander powder, half the garam masala, lemon juice, and salt. Mix well, cover, and set aside for at least 30 minutes — longer if time allows.",
+        "timerMinutes": 30,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Fry sliced onions in oil until dark golden-brown and crisp. Remove and drain on paper. In the same oil, add whole spices and let them sizzle for 30 seconds, then add the marinated chicken along with chopped tomatoes and green chillies.",
+        "timerMinutes": 15,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Cook the chicken on high heat for 5 minutes, then medium heat for 20 minutes, stirring occasionally, until the oil separates and the chicken masala is thick. The gravy should be quite dry — almost sticking to the pan. Set the chicken masala aside.",
+        "timerMinutes": 25
+      },
+      {
+        "order": 4,
+        "text": "Bring a large pot of heavily salted water to a rolling boil. Add the soaked and drained basmati rice with the remaining whole spices. Parboil for exactly 6 minutes — the grains should be 70% cooked and still have a slight chalky centre. Drain immediately.",
+        "timerMinutes": 6,
+        "method": "boiling"
+      },
+      {
+        "order": 5,
+        "text": "In a heavy-bottomed pot or Dutch oven, spread a layer of chicken masala on the base. Top with a layer of drained rice. Scatter half the fried onions, half the mint, half the coriander, and drizzle with ghee. Repeat the layers ending with rice on top.",
+        "method": "dum"
+      },
+      {
+        "order": 6,
+        "text": "Drizzle rose water and the saffron-milk over the top layer of rice. Seal the pot tightly with a lid wrapped in a damp cloth or foil, place over a flat griddle (tawa) on the lowest possible flame, and cook on dum for 25 minutes.",
+        "timerMinutes": 25,
+        "method": "dum"
+      },
+      {
+        "order": 7,
+        "text": "Remove from heat and let rest for 10 minutes without opening. Open the lid, gently mix from the bottom upwards using a wide spatula to incorporate the layers. Serve with raita and salad."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "heavy-bottomed-pot",
+      "tawa"
+    ],
+    "methods": [
+      "dum",
+      "marinating",
+      "boiling",
+      "kadai-cooking"
+    ],
+    "tags": [
+      "party",
+      "eid",
+      "comfort-food",
+      "festival"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 620,
+      "protein": 38,
+      "carbs": 65,
+      "fat": 22,
+      "fiber": 3,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "basmati-rice",
+        "substitute": "Sona Masoori rice",
+        "notes": "reduce parboiling to 4 minutes; texture is softer"
+      },
+      {
+        "ingredient": "saffron",
+        "substitute": "a few drops of orange food colour mixed in milk",
+        "notes": "gives colour without flavour"
+      },
+      {
+        "ingredient": "rose-water",
+        "substitute": "kewra essence — 2 drops in 2 tbsp water",
+        "notes": "more concentrated; use sparingly"
+      }
+    ],
+    "culturalNote": "Karachi biryani is the city's great equaliser — sold equally from roadside handcarts and five-star hotel banquets, and fiercely defended as distinct from Hyderabadi biryani.",
+    "regionalVariation": "Karachi versions use more chilli and tomato in the chicken masala compared to Lahori biryani; Sindhi biryani (a related dish) adds potatoes and dried plums for a more complex flavour.",
+    "indianKitchenAdaptation": "This recipe works perfectly in any Indian kitchen. Use a heavy aluminium degchi or pressure cooker base (lid removed) for the dum stage, placed on a cast-iron tawa over the lowest flame. Kewra essence is available in Indian grocery stores as 'kewra water' (Natraj or Patanjali brand). Kashmiri red chilli powder gives the characteristic bright colour without additional heat.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-pakistani-sindhi-biryani",
+    "slug": "pakistani-sindhi-biryani",
+    "title": "Sindhi Biryani",
+    "nativeTitle": "سندھی بریانی",
+    "description": "A robustly spiced biryani from Sindh province with tender mutton, sour tomatoes, potato wedges, and a distinctive tart note from the cooking style. More sour and aromatic than its north Pakistani cousins, with whole spices perfuming every grain.",
+    "cuisine": "pakistani",
+    "country": "pakistan",
+    "region": "sindh",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "hard",
+    "spiceLevel": "very_hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 35,
+    "cookTimeMinutes": 80,
+    "totalTimeMinutes": 115,
+    "servings": 5,
+    "ingredients": [
+      {
+        "name": "mutton (curry cut, bone-in)",
+        "normalizedName": "mutton",
+        "quantity": 800,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "basmati rice, soaked 30 minutes",
+        "normalizedName": "basmati-rice",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "potatoes, peeled and halved",
+        "normalizedName": "potato",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curd",
+        "normalizedName": "curd",
+        "quantity": 150,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "tomatoes, chopped",
+        "normalizedName": "tomato",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, sliced and fried golden",
+        "normalizedName": "onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "green chillies, whole",
+        "normalizedName": "green-chilli",
+        "quantity": 8,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cardamom pods",
+        "normalizedName": "cardamom",
+        "quantity": 5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cinnamon stick",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "bay leaves",
+        "normalizedName": "bay-leaf",
+        "quantity": 2,
+        "unit": "leaf",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 6,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "mint leaves",
+        "normalizedName": "mint",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "fresh coriander",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "lemon",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Marinate the mutton in curd, ginger-garlic paste, red chilli powder, turmeric, coriander powder, and salt for 30 minutes. Deep-fry or shallow-fry the potato halves in hot oil until golden on the outside, then set aside.",
+        "timerMinutes": 30,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a large pot. Add whole spices and sizzle for 30 seconds, then add the fried onions and fry for 2 minutes. Add the marinated mutton and cook on high heat for 8 minutes, turning often, until browned on all sides.",
+        "timerMinutes": 10,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Add the chopped tomatoes and green chillies. Cook on medium heat for 20 minutes, stirring regularly, pressing the tomatoes down until they dissolve into the masala. The oil should separate clearly on the surface before you move to the next step.",
+        "timerMinutes": 20
+      },
+      {
+        "order": 4,
+        "text": "Add the fried potatoes and 200 ml hot water. Cover and cook on low heat for 30 minutes until the mutton is tender when pierced with a fork and the potatoes have absorbed the spiced gravy. The masala should be thick and not watery.",
+        "timerMinutes": 30
+      },
+      {
+        "order": 5,
+        "text": "Meanwhile, parboil the soaked basmati rice in a large pot of salted water with a bay leaf for 6 minutes until 70% cooked. Drain thoroughly.",
+        "timerMinutes": 6,
+        "method": "boiling"
+      },
+      {
+        "order": 6,
+        "text": "Layer the cooked mutton and potatoes in the base of a heavy pot. Top with parboiled rice, scatter mint, coriander, and a squeeze of lemon juice. Drizzle ghee over the top. Seal tightly and place on a hot tawa over the lowest flame for 25 minutes on dum.",
+        "timerMinutes": 25,
+        "method": "dum"
+      },
+      {
+        "order": 7,
+        "text": "Rest off the heat for 10 minutes, then gently fold the biryani from the bottom to mix the layers. Serve with raita, pickle, and thinly sliced raw onion."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "kadai",
+      "tawa",
+      "frying-pan"
+    ],
+    "methods": [
+      "dum",
+      "braising",
+      "boiling",
+      "marinating",
+      "kadai-cooking"
+    ],
+    "tags": [
+      "party",
+      "eid",
+      "comfort-food",
+      "festival"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 680,
+      "protein": 36,
+      "carbs": 72,
+      "fat": 26,
+      "fiber": 4,
+      "sugar": 6,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "mutton",
+        "substitute": "900 g chicken (bone-in)",
+        "notes": "reduce cooking time to 20 minutes before layering"
+      },
+      {
+        "ingredient": "lemon",
+        "substitute": "2 tsp amchur (dry mango powder)",
+        "notes": "adds sourness without additional moisture"
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "2 tbsp butter",
+        "notes": "similar richness"
+      }
+    ],
+    "culturalNote": "Sindhi biryani is a source of deep regional pride in Karachi, where Sindhi families guard their recipes carefully — some versions include yoghurt-marinated mutton that has been slow-cooked the night before for a more intense flavour.",
+    "regionalVariation": "Hyderabad (Sindh) versions use more whole spices and a sourer masala than Karachi versions; the potato is non-negotiable across Sindh but is absent from Pakistani Punjabi biryani.",
+    "indianKitchenAdaptation": "Sindhi biryani uses the same layered dum technique as Hyderabadi biryani — follow the same dum method used for Hyderabadi biryani in an Indian kitchen. Place the pot on a pre-heated tawa on the lowest gas flame, or use the oven at 150°C for 20 minutes after sealing with foil. The dish can be simplified by pressure cooking the mutton for 4 whistles on medium heat before layering.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-pakistani-aloo-keema",
+    "slug": "pakistani-aloo-keema",
+    "title": "Pakistani Aloo Keema",
+    "nativeTitle": "آلو قیمہ",
+    "description": "Spiced minced beef or mutton cooked down with cubed potatoes until the mince is dry and the potatoes have absorbed the masala. A quick weeknight staple that pairs with roti, puri, or basmati rice.",
+    "cuisine": "pakistani",
+    "country": "pakistan",
+    "region": "punjab-pakistan",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 35,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "minced mutton or beef",
+        "normalizedName": "keema",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "potatoes, peeled and cubed (2 cm)",
+        "normalizedName": "potato",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomatoes, chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "green chillies, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fresh coriander, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat oil in a heavy pan over medium-high heat. Add cumin seeds and let them splutter for 15 seconds, then add the chopped onion. Fry, stirring often, for 7–8 minutes until the onion is a rich golden-brown.",
+        "timerMinutes": 8,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Add ginger-garlic paste and stir for 1 minute until the raw smell disappears. Add the chopped tomatoes, red chilli powder, turmeric, coriander powder, and salt. Cook for 5 minutes on medium heat, stirring and pressing the tomatoes, until they soften completely.",
+        "timerMinutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Add the mince and break it apart immediately with a spoon or spatula so no large lumps remain. Fry on high heat for 5 minutes, stirring constantly, until the mince loses its pink colour and the water it releases has evaporated.",
+        "timerMinutes": 5,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Add the cubed potatoes and green chillies. Stir well to coat the potatoes in the masala, then pour in 150 ml water. Bring to a boil, cover, reduce to low heat, and cook for 15 minutes until the potatoes are completely tender when pierced.",
+        "timerMinutes": 15
+      },
+      {
+        "order": 5,
+        "text": "Remove the lid and cook on medium heat for 3–4 minutes, stirring often, until most of the liquid has dried up and the mince and potato cling together in a thick, barely-moist mixture. Sprinkle garam masala and fold in.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 6,
+        "text": "Garnish with fresh coriander and serve hot with chapati, puri, or steamed rice. A dollop of butter on top adds an extra layer of richness."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "frying-pan"
+    ],
+    "methods": [
+      "kadai-cooking",
+      "sauteing"
+    ],
+    "tags": [
+      "bachelor-friendly",
+      "budget",
+      "comfort-food",
+      "quick",
+      "lunchbox"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 340,
+      "protein": 26,
+      "carbs": 22,
+      "fat": 17,
+      "fiber": 3,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "keema",
+        "substitute": "400 g chicken mince",
+        "notes": "reduce cooking time by 5 minutes"
+      },
+      {
+        "ingredient": "potato",
+        "substitute": "frozen green peas (matar keema variant)",
+        "notes": "add in the last 5 minutes, no extra water needed"
+      },
+      {
+        "ingredient": "oil",
+        "substitute": "2 tbsp ghee",
+        "notes": "richer flavour"
+      }
+    ],
+    "culturalNote": "Aloo keema is the quintessential Pakistani home-kitchen meal — prepared on busy weekdays and packed into school lunchboxes across the country. It is one of the first dishes young Pakistanis learn to cook.",
+    "regionalVariation": "Punjab versions tend to be drier and less oily; Karachi home cooks sometimes add a small amount of tomato paste for extra depth and colour.",
+    "indianKitchenAdaptation": "This dish is almost identical to the north Indian aloo keema and requires no special adaptation. Cook exactly as written in any Indian karahi or pressure cooker. For a pressure cooker version, after adding the potatoes and water, cook for 2 whistles on medium heat, open naturally, and finish on high heat to dry the masala. Mutton mince is available at any halal butcher; chicken mince is sold at all major Indian supermarkets.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-pakistani-palak-gosht",
+    "slug": "pakistani-palak-gosht",
+    "title": "Pakistani Palak Gosht",
+    "nativeTitle": "پالک گوشت",
+    "description": "Tender slow-cooked mutton and wilted spinach in a warmly spiced gravy — a Pakistani classic where the iron-richness of spinach and the deep savour of slow-braised meat create a beautifully balanced dish.",
+    "cuisine": "pakistani",
+    "country": "pakistan",
+    "region": "punjab-pakistan",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 65,
+    "totalTimeMinutes": 80,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "mutton (curry cut, bone-in)",
+        "normalizedName": "mutton",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "fresh spinach, washed and roughly chopped",
+        "normalizedName": "spinach",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomatoes, chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "green chillies, whole",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "ginger, julienned for garnish",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": true
+      },
+      {
+        "name": "cream (optional finishing swirl)",
+        "normalizedName": "cream",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat oil in a wide, heavy pot over high heat. Add cumin seeds and let them splutter. Add the chopped onion and fry on medium-high heat for 8–10 minutes, stirring often, until it turns a rich, even golden-brown.",
+        "timerMinutes": 10,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Add ginger-garlic paste and cook for 2 minutes until fragrant and the raw smell has gone. Add the chopped tomatoes, red chilli powder, turmeric, coriander powder, and salt. Stir and cook for 5 minutes until the tomatoes break down into a paste.",
+        "timerMinutes": 7
+      },
+      {
+        "order": 3,
+        "text": "Add the mutton pieces and sear on high heat for 5 minutes, turning once, until the outer surfaces are browned and sealed. Pour in 200 ml hot water, cover, and cook on low heat for 40 minutes. Check and stir every 10 minutes, adding a splash of water if the masala is sticking.",
+        "timerMinutes": 45,
+        "method": "braising"
+      },
+      {
+        "order": 4,
+        "text": "Add the fresh spinach and green chillies directly on top of the tender mutton. Cover and cook on medium heat for 5 minutes — the spinach will collapse dramatically in volume. Stir everything together thoroughly and cook uncovered for 3 more minutes.",
+        "timerMinutes": 8
+      },
+      {
+        "order": 5,
+        "text": "For a smoother gravy, use the back of the spatula to mash some of the spinach against the pot wall, or give a quick partial blend with a hand blender for a creamier texture. Taste for salt and add garam masala.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 6,
+        "text": "Finish with a swirl of cream if using. Garnish with ginger julienne and serve with hot naan or chapati."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "braising",
+      "sauteing"
+    ],
+    "tags": [
+      "comfort-food",
+      "healthy",
+      "gravy",
+      "winter"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 390,
+      "protein": 30,
+      "carbs": 10,
+      "fat": 24,
+      "fiber": 4,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "mutton",
+        "substitute": "600 g chicken thighs (bone-in)",
+        "notes": "reduce braising time to 20 minutes"
+      },
+      {
+        "ingredient": "spinach",
+        "substitute": "500 g frozen spinach, thawed and squeezed dry",
+        "notes": "add directly without extra cooking time"
+      },
+      {
+        "ingredient": "cream",
+        "substitute": "2 tbsp full-fat milk",
+        "notes": "lighter finish"
+      }
+    ],
+    "culturalNote": "Palak gosht appears on the winter table of most Pakistani households — the dish is considered wholesome and nourishing, particularly valued for young children and elderly family members.",
+    "regionalVariation": "Punjab-style palak gosht keeps the spinach roughly textured; some Sindhi versions purée the spinach entirely for a smoother, greener gravy.",
+    "indianKitchenAdaptation": "This recipe is essentially identical to north Indian palak gosht and needs no adaptation — it cooks well in any kadai or pressure cooker. For a pressure cooker shortcut, cook the mutton masala for 5 whistles on medium heat, open naturally, then add the spinach and cook uncovered for 5 minutes on medium heat. Fresh palak (spinach) from Indian markets is identical to that used in Pakistan.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-pakistani-chicken-white-karahi",
+    "slug": "pakistani-chicken-white-karahi",
+    "title": "Pakistani Chicken White Karahi",
+    "nativeTitle": "چکن وائٹ کڑاہی",
+    "description": "A creamy, mild chicken karahi without tomatoes or red chilli, relying entirely on black pepper, cream, fresh ginger, and green chilli for its flavour. The result is a glossy white sauce that is elegant without being bland.",
+    "cuisine": "pakistani",
+    "country": "pakistan",
+    "region": "punjab-pakistan",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 40,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken (curry cut, bone-in)",
+        "normalizedName": "chicken",
+        "quantity": 750,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "curd (thick, full-fat)",
+        "normalizedName": "curd",
+        "quantity": 200,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "cream",
+        "normalizedName": "cream",
+        "quantity": 100,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "butter",
+        "normalizedName": "butter",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "ginger, finely grated (half) and julienned (half)",
+        "normalizedName": "ginger",
+        "quantity": 2,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, finely grated",
+        "normalizedName": "garlic",
+        "quantity": 5,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "green chillies, slit lengthwise",
+        "normalizedName": "green-chilli",
+        "quantity": 5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "black pepper, coarsely crushed",
+        "normalizedName": "black-pepper",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cardamom pods, lightly crushed",
+        "normalizedName": "cardamom",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fresh coriander and ginger julienne for garnish",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat oil and butter together in a karahi over medium-high heat. Add cumin seeds and lightly crushed cardamom and sizzle for 20 seconds. Add the grated ginger and garlic and fry for 1 minute until fragrant — they should turn very lightly golden but not brown.",
+        "timerMinutes": 2,
+        "method": "tempering"
+      },
+      {
+        "order": 2,
+        "text": "Add the chicken pieces and sear over high heat for 5–6 minutes, turning every minute, until sealed and lightly coloured on all sides. Season generously with salt and add 1 teaspoon of the crushed black pepper.",
+        "timerMinutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Beat the curd until smooth. Reduce heat to medium and pour the curd over the chicken, stirring quickly to prevent it from splitting. Add the green chillies. Cook, stirring occasionally, for 10 minutes until the chicken has absorbed the yoghurt and the sauce has reduced.",
+        "timerMinutes": 10,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Pour in the cream, reduce heat to low-medium, and simmer for 15 minutes, stirring every 3–4 minutes, until the chicken is fully cooked through and the sauce is thick and creamy — it should coat the back of a spoon.",
+        "timerMinutes": 15
+      },
+      {
+        "order": 5,
+        "text": "Add the remaining black pepper and garam masala. Taste for salt. Cook for 2 more minutes on high heat to tighten the sauce slightly and give it a light sheen.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 6,
+        "text": "Garnish with fresh coriander leaves and ginger julienne. Serve from the karahi directly with naan — the white karahi's mild flavour is best complemented by a plain bread rather than rice."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "kadai-cooking",
+      "tempering",
+      "sauteing"
+    ],
+    "tags": [
+      "party",
+      "comfort-food",
+      "gravy",
+      "kids-friendly"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 410,
+      "protein": 33,
+      "carbs": 6,
+      "fat": 29,
+      "fiber": 1,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "cream",
+        "substitute": "100 ml full-fat coconut cream",
+        "notes": "dairy-free alternative; slightly different flavour profile"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "100 ml full-fat milk + 1 tsp lemon juice (left to curdle for 5 minutes)",
+        "notes": "works as a quick yoghurt substitute"
+      },
+      {
+        "ingredient": "butter",
+        "substitute": "2 tbsp ghee",
+        "notes": "richer, more aromatic"
+      }
+    ],
+    "culturalNote": "White karahi (safed karahi) gained popularity in Lahori restaurants as a milder alternative to the standard red karahi — particularly popular with families and those who prefer fragrant over fiery.",
+    "regionalVariation": "Peshawari restaurants are credited with originating the concept of karahi without red chilli; the version with cream is a Lahori restaurant evolution of the original.",
+    "indianKitchenAdaptation": "This dish has a very close Indian cousin in malai chicken tikka masala. Cook it in a kadai on medium-low heat — cream-based sauces must not boil hard or they split. Thick full-fat Amul or Milky Mist cream works best. The dish pairs beautifully with Indian tandoori naan or a soft laccha paratha from any Indian bakery.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-pakistani-namkeen-gosht",
+    "slug": "pakistani-namkeen-gosht",
+    "title": "Peshawari Namkeen Gosht",
+    "nativeTitle": "نمکین گوشت",
+    "description": "A strikingly minimalist mutton dish from Peshawar — just meat, salt, ginger, garlic, and black pepper, cooked in its own fat until the broth reduces to a crystal-clear golden oil. Nothing else. The quality of the mutton carries the dish entirely.",
+    "cuisine": "pakistani",
+    "country": "pakistan",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 70,
+    "totalTimeMinutes": 80,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "mutton (mixed cuts: ribs, shoulder, leg — on bone)",
+        "normalizedName": "mutton",
+        "quantity": 1,
+        "unit": "kg",
+        "optional": false
+      },
+      {
+        "name": "ginger, crushed or grated",
+        "normalizedName": "ginger",
+        "quantity": 2,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, crushed",
+        "normalizedName": "garlic",
+        "quantity": 6,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "black pepper, coarsely crushed",
+        "normalizedName": "black-pepper",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "green chillies, whole",
+        "normalizedName": "green-chilli",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "oil or mutton fat rendered",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "ginger julienne for garnish",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": true
+      },
+      {
+        "name": "fresh coriander for garnish",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "lemon wedges for serving",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat oil in a wide, heavy kadai or wok over high flame. Add the mutton pieces and sear in batches for 4–5 minutes per batch, turning once, until all sides are browned. The goal is a dark crust — this is where the flavour comes from.",
+        "timerMinutes": 12,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 2,
+        "text": "When all the mutton is browned, return it all to the pot. Add the crushed ginger, garlic, cumin seeds, and a very generous amount of salt. Add just 100 ml of water — enough to prevent sticking but not enough to make a broth. Cover tightly.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 3,
+        "text": "Cook on medium-low heat for 50 minutes, checking every 15 minutes and adding a tiny splash of water (30 ml) only if the meat is sticking dangerously. The mutton releases its own juices and fat as it cooks — you want to let these slowly evaporate rather than adding water.",
+        "timerMinutes": 50,
+        "method": "braising"
+      },
+      {
+        "order": 4,
+        "text": "After 50 minutes the mutton should be tender and the liquid should have completely evaporated, leaving only clear golden fat pooled in the pot. Increase heat to high, add the crushed black pepper and whole green chillies, and fry the mutton in its own fat for 5 minutes, turning occasionally, until the surfaces are slightly charred.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 5,
+        "text": "Taste for salt and add more if needed — the dish should be well-seasoned since it has no other flavour scaffolding. Remove from heat, scatter ginger julienne and coriander if using.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 6,
+        "text": "Serve in the karahi with lemon wedges and fresh naan. The golden fat pooled in the bottom is part of the dish — scoop naan through it. Roasted Peshawari naan or tandoori roti is the traditional accompaniment."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "kadai-cooking",
+      "braising"
+    ],
+    "tags": [
+      "eid",
+      "party",
+      "comfort-food",
+      "dry-curry"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 450,
+      "protein": 38,
+      "carbs": 2,
+      "fat": 32,
+      "fiber": 0,
+      "sugar": 0,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "mutton",
+        "substitute": "1 kg goat ribs or lamb rib chops",
+        "notes": "cooking time and method are identical"
+      },
+      {
+        "ingredient": "black-pepper",
+        "substitute": "2 tsp cracked Sichuan pepper for a floral variation",
+        "notes": "non-traditional but interesting"
+      }
+    ],
+    "culturalNote": "Namkeen gosht (literally 'salty meat') is the signature dish of Peshawar's Qissa Khwani Bazaar dhaba culture — a statement that superior meat needs no embellishment.",
+    "regionalVariation": "Some versions in Khyber Pakhtunkhwa add a few dried red chillies; others use pure rendered sheep-tail fat (dumba fat) for an intensely gamey flavour.",
+    "indianKitchenAdaptation": "Use a cast-iron kadai or any heavy wok — the key is high heat for searing and very low heat for the long covered cook. Indian goat (bakra) is the closest equivalent to Pakistani mutton, available from any halal butcher. The restraint of this recipe surprises most Indian cooks accustomed to elaborate masala — resist the urge to add tomato or chilli powder. The black pepper and char are the entire flavour story.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-pakistani-daal-chawal",
+    "slug": "pakistani-daal-chawal",
+    "title": "Pakistani Daal Chawal",
+    "nativeTitle": "دال چاول",
+    "description": "Yellow masoor daal simmered with onion, tomato, and whole spices, finished with a sizzling tarka of dried red chilli and cumin. Paired with plain steamed basmati rice, this is Pakistan's most comforting everyday meal.",
+    "cuisine": "pakistani",
+    "country": "pakistan",
+    "region": "punjab-pakistan",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 35,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "red masoor daal (split red lentils)",
+        "normalizedName": "masoor-dal",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "basmati rice",
+        "normalizedName": "basmati-rice",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "green chillies, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "ghee (for tarka)",
+        "normalizedName": "ghee",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies, whole",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fresh coriander, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "lemon",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 700,
+        "unit": "ml",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Wash the daal in several changes of water until the water runs clear. Wash and soak the basmati rice in cold water for 20 minutes, then cook with 1.5 times its volume of water and a pinch of salt in a covered pot on low heat for 15 minutes until perfectly fluffy. Rest covered, off heat.",
+        "timerMinutes": 20,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Heat 2 tablespoons of oil in a medium pot. Add the chopped onion and fry on medium heat for 6–7 minutes until golden. Add ginger-garlic paste and cook for 1 minute until the raw smell disappears.",
+        "timerMinutes": 8,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add tomatoes, turmeric, coriander powder, and red chilli powder. Stir and cook for 3 minutes until the tomatoes soften. Add the washed daal, green chillies, and 700 ml water. Bring to a boil, then simmer on low heat for 20 minutes, stirring occasionally, until the lentils are fully dissolved and creamy.",
+        "timerMinutes": 23,
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "Adjust salt to taste. If the daal is thicker than you like, stir in a little hot water. The consistency should be thick but pourable — it should flow off the spoon in a slow, steady stream rather than clumping.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 5,
+        "text": "For the tarka (tempering), heat ghee and 1 tablespoon oil in a small pan over high heat until smoking. Add the cumin seeds and dried red chillies. Within 10 seconds they will splutter and darken — immediately pour this sizzling tarka over the daal and cover for 30 seconds to let the aroma bloom.",
+        "timerMinutes": 1,
+        "method": "tempering"
+      },
+      {
+        "order": 6,
+        "text": "Garnish with fresh coriander and a squeeze of lemon juice. Serve the daal in a bowl alongside a generous serving of steamed basmati rice, with a pickle and raw onion on the side."
+      }
+    ],
+    "cookware": [
+      "saucepan",
+      "frying-pan",
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "simmering",
+      "sauteing",
+      "tempering",
+      "boiling"
+    ],
+    "tags": [
+      "budget",
+      "comfort-food",
+      "bachelor-friendly",
+      "healthy",
+      "one-pot-meal",
+      "lunchbox"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein": 16,
+      "carbs": 68,
+      "fat": 10,
+      "fiber": 8,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "masoor-dal",
+        "substitute": "250 g chana daal or toor daal",
+        "notes": "chana daal needs an extra 15 minutes of cooking; toor daal is very similar"
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "2 tsp butter or extra oil",
+        "notes": "ghee tarka gives the most authentic smoky aroma"
+      },
+      {
+        "ingredient": "basmati-rice",
+        "substitute": "Sona Masoori rice",
+        "notes": "reduce water slightly as it absorbs less"
+      }
+    ],
+    "culturalNote": "Daal chawal is Pakistan's unofficial national comfort food — eaten at every economic level and in every household. It is the meal Pakistani mothers make when someone is unwell, and the first thing many Pakistanis crave when travelling abroad.",
+    "regionalVariation": "Punjab-style daal chawal uses a generous ghee tarka; Sindhi households sometimes add dried mango (kairi) or tamarind to the daal for a sourer note.",
+    "indianKitchenAdaptation": "Pakistani daal chawal is virtually identical to the north Indian version. Masoor daal is widely available at all Indian provision stores. For a pressure cooker version, cook the tempered masala with washed daal and 500 ml water for 3 whistles on medium heat — open naturally and adjust consistency. The ghee tarka is an Indian technique too — this dish needs no adaptation at all.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-pakistani-chicken-jalfrezi",
+    "slug": "pakistani-chicken-jalfrezi",
+    "title": "Pakistani Chicken Jalfrezi",
+    "nativeTitle": "چکن جلفریزی",
+    "description": "A stir-fried, semi-dry chicken dish with bold stripes of capsicum and onion, tossed together in a tangy tomato-spice base. Jalfrezi cooks fast over high heat — the vegetables stay crunchy and the sauce barely coats the pieces.",
+    "cuisine": "pakistani",
+    "country": "pakistan",
+    "region": "punjab-pakistan",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken breast or boneless thigh, cut in 3 cm cubes",
+        "normalizedName": "chicken",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "capsicum (green, red, or mix), cut into strips",
+        "normalizedName": "capsicum",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, cut into thick petals",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomatoes, roughly chopped",
+        "normalizedName": "tomato",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "green chillies, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "tomato paste",
+        "normalizedName": "tomato-paste",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fresh coriander",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Season the chicken cubes with salt, half the red chilli powder, and half the turmeric. Heat 2 tablespoons of oil in a wide karahi or wok over very high heat. Add the chicken and stir-fry for 5–6 minutes, turning often, until every side is seared golden. Remove the chicken and set aside.",
+        "timerMinutes": 6,
+        "method": "stir-frying"
+      },
+      {
+        "order": 2,
+        "text": "Add the remaining oil to the same pan. Add cumin seeds, then add ginger-garlic paste and fry for 1 minute. Add the chopped tomatoes, tomato paste, remaining chilli powder, coriander powder, remaining turmeric, and salt. Stir vigorously on high heat for 4 minutes until the tomatoes break down into a thick paste.",
+        "timerMinutes": 5,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Add the onion petals and slit green chillies to the masala. Stir-fry on high heat for 2 minutes — the onions should soften slightly at the edges but retain their crunch. The colour will brighten and the raw smell of the masala will fade.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 4,
+        "text": "Return the seared chicken to the pan. Stir well to coat every piece in the masala. Add the capsicum strips and toss everything together over high heat for 3–4 minutes until the capsicum is just tender but still bright and slightly crisp.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 5,
+        "text": "Squeeze lemon juice over the dish, sprinkle garam masala, and toss once more. The sauce should be thick and clinging, not pooling — if it looks too dry, add 2 tablespoons of water and toss quickly.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 6,
+        "text": "Garnish with fresh coriander and serve immediately with naan, chapati, or egg fried rice. Jalfrezi must be eaten hot — it does not keep well as the vegetables lose their texture."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "wok"
+    ],
+    "methods": [
+      "stir-frying",
+      "kadai-cooking",
+      "sauteing"
+    ],
+    "tags": [
+      "quick",
+      "bachelor-friendly",
+      "dry-curry",
+      "party"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 320,
+      "protein": 35,
+      "carbs": 12,
+      "fat": 15,
+      "fiber": 3,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "600 g paneer (for vegetarian version)",
+        "notes": "cut into same-sized cubes; cook time same"
+      },
+      {
+        "ingredient": "capsicum",
+        "substitute": "200 g broccoli florets",
+        "notes": "add slightly earlier as broccoli takes longer to soften"
+      },
+      {
+        "ingredient": "tomato-paste",
+        "substitute": "extra 1 tomato, grated",
+        "notes": "reduces thickness slightly"
+      }
+    ],
+    "culturalNote": "Jalfrezi (from the Bengali 'jhal' meaning spicy and 'frezy' meaning stir-fried) became a Pakistani restaurant classic via the British Indian restaurant circuit — it is now more popular in Karachi and Lahore than in its Bengali homeland.",
+    "regionalVariation": "Restaurant versions sometimes add a splash of vinegar or tamarind for extra tang; home cooks in Lahore often add boiled egg halves as a quick protein addition.",
+    "indianKitchenAdaptation": "Jalfrezi is made identically in Indian kitchens and needs no modification. Use a flat-bottomed wok or cast-iron kadai to achieve the high-heat stir-fry. The dish works brilliantly with Indian paneer as a vegetarian swap — a recipe beloved in north India. Tomato paste (Kissan or Maggi brand) is available in all Indian supermarkets and gives the tangy depth the dish needs.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-pakistani-shami-kebab",
+    "slug": "pakistani-shami-kebab",
+    "title": "Pakistani Shami Kebab",
+    "nativeTitle": "شامی کباب",
+    "description": "Silky-smooth beef and chana daal patties flavoured with whole spices and fresh herbs, shallow-fried to a golden crust. A Pakistani tea-time classic and one of the most refined kebabs in the subcontinent — soft inside, crisp outside.",
+    "cuisine": "pakistani",
+    "country": "pakistan",
+    "region": "punjab-pakistan",
+    "language": "en",
+    "mealType": [
+      "snack",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 45,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "minced beef (or mutton)",
+        "normalizedName": "keema",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "chana daal (split chickpea), soaked 1 hour",
+        "normalizedName": "chana-dal",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion, roughly chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "green chillies, finely chopped (half for cooking, half for stuffing)",
+        "normalizedName": "green-chilli",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "fresh coriander, finely chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "mint leaves, chopped",
+        "normalizedName": "mint",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cardamom pods",
+        "normalizedName": "cardamom",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cinnamon stick",
+        "normalizedName": "cinnamon",
+        "quantity": 0.5,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, whole",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "egg, lightly beaten (for binding)",
+        "normalizedName": "egg",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "oil for shallow frying",
+        "normalizedName": "oil",
+        "quantity": 5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Place the mince, drained soaked chana daal, chopped onion, garlic, ginger, whole spices (cardamom, cinnamon, cloves, cumin, black pepper), red chilli powder, 2 of the green chillies, and salt into a pot. Add 250 ml water and bring to a boil. Simmer covered on low heat for 30 minutes until the daal is completely soft and the water has been fully absorbed.",
+        "timerMinutes": 30,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Remove the cinnamon stick. Let the mixture cool for 10 minutes, then transfer to a food processor and grind to a smooth, dense paste — it should form a ball when pressed. Do not add any water. If the mixture is too moist, cook it uncovered on a pan for 5 minutes, stirring constantly, until dry.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Mix the beaten egg, half the fresh coriander, and half the mint into the ground paste. The egg binds the kebabs and adds richness. Divide the mixture into 12 equal portions. Mix together the remaining coriander, mint, and green chillies to form the stuffing.",
+        "method": "marinating"
+      },
+      {
+        "order": 4,
+        "text": "Flatten each portion into a small disc. Place a pinch of the herb stuffing in the centre, fold the edges up over the filling, and gently press into a smooth, round patty about 1.5 cm thick. Refrigerate the shaped patties for 20 minutes to firm up.",
+        "timerMinutes": 20
+      },
+      {
+        "order": 5,
+        "text": "Heat oil in a frying pan over medium heat. Test the temperature by dipping the edge of one patty — it should sizzle steadily but not violently. Cook 4 patties at a time for 3–4 minutes per side until golden-brown and firm. Flip only once.",
+        "timerMinutes": 8,
+        "method": "shallow-frying"
+      },
+      {
+        "order": 6,
+        "text": "Drain on kitchen paper and serve warm with mint chutney, green chutney, and a wedge of lemon. Shami kebabs also work as a burger patty inside a naan or as a side dish alongside biryani."
+      }
+    ],
+    "cookware": [
+      "saucepan",
+      "frying-pan"
+    ],
+    "methods": [
+      "boiling",
+      "shallow-frying",
+      "marinating"
+    ],
+    "tags": [
+      "street-food",
+      "party",
+      "eid",
+      "comfort-food"
+    ],
+    "allergens": [
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 320,
+      "protein": 24,
+      "carbs": 16,
+      "fat": 17,
+      "fiber": 4,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "keema",
+        "substitute": "400 g chicken mince",
+        "notes": "same process, cook time the same"
+      },
+      {
+        "ingredient": "egg",
+        "substitute": "1 tbsp besan with 2 tbsp water",
+        "notes": "egg-free binder"
+      },
+      {
+        "ingredient": "chana-dal",
+        "substitute": "100 g red masoor daal",
+        "notes": "softer texture; dissolves faster in step 1"
+      }
+    ],
+    "culturalNote": "Shami kebab is said to have originated in the royal kitchens of Awadh and was later adopted across Pakistan, where it is associated with hospitality — guests are served shami kebabs before a formal meal as a welcoming snack.",
+    "regionalVariation": "Lahori shami kebabs tend to have a finer texture and more stuffing; in Sindh, some cooks add a little lemon zest to the herb stuffing.",
+    "indianKitchenAdaptation": "This recipe is identical to the north Indian shami kebab and needs no adaptation. Chana daal (Bengal gram dal) is available at every Indian grocery store. The key technique — simmering the mince and daal dry, then grinding — is the same as the Indian method. Shami kebabs freeze very well after shaping (before frying), making them an excellent make-ahead party snack for Indian home cooks.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-pakistani-zarda",
+    "slug": "pakistani-zarda",
+    "title": "Pakistani Zarda (Sweet Rice)",
+    "nativeTitle": "زردہ",
+    "description": "Vibrant saffron-yellow sweet rice cooked with ghee, sugar, cardamom, and scattered with fried dry fruits. Zarda is Pakistan's celebratory dessert rice — gleaming orange-gold and fragrant with rose water, it closes weddings, eids, and family feasts.",
+    "cuisine": "pakistani",
+    "country": "pakistan",
+    "region": "punjab-pakistan",
+    "language": "en",
+    "mealType": [
+      "dessert"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 40,
+    "totalTimeMinutes": 55,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "basmati rice, soaked 30 minutes",
+        "normalizedName": "basmati-rice",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cardamom pods, lightly bruised",
+        "normalizedName": "cardamom",
+        "quantity": 6,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "saffron strands soaked in 3 tbsp warm milk",
+        "normalizedName": "saffron",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "milk",
+        "normalizedName": "milk",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "rose water",
+        "normalizedName": "rose-water",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cashew nuts, halved",
+        "normalizedName": "cashew",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "almond, slivered or halved",
+        "normalizedName": "almond",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "raisins",
+        "normalizedName": "raisin",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "khoya (dried milk solids), crumbled",
+        "normalizedName": "khoya",
+        "quantity": 50,
+        "unit": "g",
+        "optional": true
+      },
+      {
+        "name": "pistachio, slivered (for garnish)",
+        "normalizedName": "pistachio",
+        "quantity": 20,
+        "unit": "g",
+        "optional": true
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 800,
+        "unit": "ml",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Bring 800 ml water to a boil in a large pot with a pinch of salt and 2 of the cardamom pods. Add the soaked, drained basmati rice and boil for 7–8 minutes until 75% cooked — the grains should still have a very slight bite. Drain thoroughly in a colander.",
+        "timerMinutes": 8,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "In the same pot, heat ghee over medium heat. Add the remaining cardamom pods and fry for 20 seconds until fragrant. Add the sugar and 150 ml water, stirring until the sugar dissolves completely to form a light syrup. Allow to simmer for 3 minutes.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 3,
+        "text": "Add the parboiled rice to the sugar syrup and stir gently to coat every grain. Pour the saffron-milk over the top but do not mix — this creates streaks of deep yellow and white in the final dish.",
+        "method": "dum"
+      },
+      {
+        "order": 4,
+        "text": "Drizzle the rose water over the rice. Cover the pot with a damp cloth and then the lid to create a tight seal. Cook on the very lowest flame for 20 minutes on dum, allowing the rice to steam in the syrup until each grain is separate, glossy, and fully cooked.",
+        "timerMinutes": 20,
+        "method": "dum"
+      },
+      {
+        "order": 5,
+        "text": "While the rice is on dum, heat 1 tbsp of ghee in a small pan and fry the cashews, almonds, and raisins for 2 minutes until the nuts are golden and the raisins puff up. Remove from heat immediately to avoid burning.",
+        "timerMinutes": 2,
+        "method": "sauteing"
+      },
+      {
+        "order": 6,
+        "text": "Open the dum rice, fold the yellow and white layers gently with a wide spatula. Transfer to a serving platter and top with the fried dry fruits, crumbled khoya if using, and slivered pistachios. Serve warm or at room temperature."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "frying-pan"
+    ],
+    "methods": [
+      "dum",
+      "boiling",
+      "sauteing"
+    ],
+    "tags": [
+      "festival",
+      "eid",
+      "sweet",
+      "party"
+    ],
+    "allergens": [
+      "dairy",
+      "nuts"
+    ],
+    "nutrition": {
+      "calories": 520,
+      "protein": 7,
+      "carbs": 80,
+      "fat": 18,
+      "fiber": 1,
+      "sugar": 38,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "saffron",
+        "substitute": "1/4 tsp turmeric mixed in warm milk",
+        "notes": "gives colour; lacks saffron's floral aroma"
+      },
+      {
+        "ingredient": "khoya",
+        "substitute": "50 g condensed milk, drizzled on top before serving",
+        "notes": "adds sweetness and creaminess"
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "butter",
+        "notes": "similar richness; slightly different aroma"
+      }
+    ],
+    "culturalNote": "Zarda is served at the end of Pakistani weddings and Eid celebrations — the name comes from the Persian 'zard' meaning yellow, referring to the dish's signature saffron colour.",
+    "regionalVariation": "Lahori zarda is heavily studded with dry fruits and richer in ghee; some versions in Punjab add khoya for a creamier texture. Karachi versions sometimes include coconut strips.",
+    "indianKitchenAdaptation": "Zarda is nearly identical to north Indian zarda pulao and can be made in any Indian kitchen without changes. Saffron (kesar) from Kashmiri suppliers is widely available at Indian stores; the Pampore saffron of Kashmir is actually better quality than most available in Pakistan. Khoya (mawa) is sold fresh at mithai shops across India. Use a heavy aluminium pot with a tight lid for the dum step.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-pakistani-doodh-patti-chai",
+    "slug": "pakistani-doodh-patti-chai",
+    "title": "Pakistani Doodh Patti Chai",
+    "nativeTitle": "دودھ پتی چائے",
+    "description": "Thick, sweet milk tea simmered directly with loose-leaf black tea until it takes on a deep tawny colour and a creamy, almost condensed texture. Pakistan's answer to everything — wake-up call, afternoon reset, and the universal social currency.",
+    "cuisine": "pakistani",
+    "country": "pakistan",
+    "region": "punjab-pakistan",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "drink",
+      "snack"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 2,
+    "cookTimeMinutes": 12,
+    "totalTimeMinutes": 14,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "full-fat milk",
+        "normalizedName": "milk",
+        "quantity": 400,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 100,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "loose black tea leaves (Lipton Yellow Label or Tapal Danedar)",
+        "normalizedName": "tea",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "adjust to taste — doodh patti is traditionally quite sweet"
+      },
+      {
+        "name": "cardamom pods, lightly cracked",
+        "normalizedName": "cardamom",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Combine the milk, water, and cracked cardamom in a small saucepan. Bring to a vigorous simmer over medium heat, stirring occasionally. Do not let the milk boil unattended — it will rise rapidly.",
+        "timerMinutes": 4,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Once simmering, add the loose tea leaves directly to the milk. Stir once to submerge. Reduce heat to low and simmer for 5 minutes, watching carefully and stirring every minute. The tea will gradually stain the milk a deep orange-brown.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 3,
+        "text": "Add the sugar and stir to dissolve. For a thicker, more intense chai, continue simmering for 2 more minutes — the liquid will reduce slightly and the tea flavour will deepen. For lighter chai, remove earlier.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 4,
+        "text": "Pour through a fine strainer directly into two cups or glasses. The chai should be a rich, creamy brown — not pale. Serve immediately while it is very hot, with a rusk, biscuit, or paratha on the side."
+      }
+    ],
+    "cookware": [
+      "saucepan"
+    ],
+    "methods": [
+      "boiling",
+      "simmering"
+    ],
+    "tags": [
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "comfort-food",
+      "bachelor-friendly"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 120,
+      "protein": 5,
+      "carbs": 14,
+      "fat": 5,
+      "fiber": 0,
+      "sugar": 12,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "milk",
+        "substitute": "200 ml evaporated milk + 200 ml water",
+        "notes": "gives a richer, more condensed flavour"
+      },
+      {
+        "ingredient": "sugar",
+        "substitute": "2 tsp jaggery (gur)",
+        "notes": "earthy sweetness that complements the tea"
+      },
+      {
+        "ingredient": "tea",
+        "substitute": "2 tsp masala chai blend",
+        "notes": "adds ginger, clove, and pepper notes"
+      }
+    ],
+    "culturalNote": "Doodh patti (literally 'milk leaves') is distinguished from regular chai by the absence of water — pure milk carries the tea. It is the drink of choice at Pakistani dhabas, roadside stalls, and early morning truck stops, and is brewed stronger than almost any other tea in the world.",
+    "regionalVariation": "Lahore doodh patti is thick and sweet; Karachi versions are sometimes slightly less sweet but equally milky. Peshawari green tea (qehwa) is a completely different drink used in the northwest.",
+    "indianKitchenAdaptation": "This is made exactly like south Indian filter coffee's milk-forward approach but with tea. Use any good full-cream milk — Amul or Heritage brands work well. Tapal Danedar tea is available in Pakistani grocery stores across Indian cities; alternatively use Brooke Bond Red Label or any strong Assam tea for the closest flavour. Simmer on the very lowest flame your hob allows to prevent the milk from scorching on the bottom.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  }
+]

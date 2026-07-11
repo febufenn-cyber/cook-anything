@@ -1,0 +1,3021 @@
+[
+  {
+    "id": "ca-italian-spaghetti-pomodoro",
+    "slug": "italian-spaghetti-pomodoro",
+    "title": "Spaghetti al Pomodoro",
+    "nativeTitle": "Spaghetti al Pomodoro",
+    "description": "A Neapolitan weeknight staple where ripe tomatoes are barely cooked in olive oil until they collapse into a bright, sweet sauce. The secret is restraint — few ingredients, high heat, and good pasta water do all the work.",
+    "cuisine": "italian",
+    "country": "italy",
+    "region": "naples",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "spaghetti or thin pasta",
+        "normalizedName": "pasta",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "ripe tomatoes, roughly chopped",
+        "normalizedName": "tomato",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false,
+        "notes": "or one 400 g can of whole peeled tomatoes"
+      },
+      {
+        "name": "garlic cloves, thinly sliced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "fresh basil leaves",
+        "normalizedName": "basil",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "black pepper, freshly cracked",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Bring a large pot of well-salted water to a rolling boil. Use about 1 tsp salt per litre — the water should taste mildly of the sea.",
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Warm the olive oil in a wide, heavy-bottomed pan over medium heat. Add the garlic slices and cook gently for 1–2 minutes until they are pale golden and fragrant — do not let them brown.",
+        "timerMinutes": 2,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add all the tomatoes to the pan, raise the heat to medium-high and season with salt. Crush any large pieces with the back of a spoon. Cook uncovered, stirring occasionally, for 12–15 minutes until the sauce is thick and the oil floats on the surface.",
+        "timerMinutes": 15,
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "Meanwhile, cook the pasta in the boiling water according to packet time but pull it out 1 minute early — it should be firm at the centre. Reserve a full mug (200 ml) of starchy pasta water before draining."
+      },
+      {
+        "order": 5,
+        "text": "Add the drained pasta directly into the tomato pan. Toss briskly over medium heat, splashing in pasta water a little at a time until the sauce clings to each strand and the bottom of the pan is just moistened, about 2 minutes.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 6,
+        "text": "Remove from heat, tear in the basil leaves and crack over black pepper. Serve immediately — pomodoro waits for no one."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "saucepan"
+    ],
+    "methods": [
+      "boiling",
+      "simmering",
+      "sauteing"
+    ],
+    "tags": [
+      "quick",
+      "comfort-food",
+      "budget",
+      "one-pot-meal"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein": 12,
+      "carbs": 72,
+      "fat": 11,
+      "fiber": 5,
+      "sugar": 8,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "tomato",
+        "substitute": "400 g canned crushed tomatoes",
+        "notes": "use San Marzano style if available; adjust salt accordingly"
+      },
+      {
+        "ingredient": "basil",
+        "substitute": "fresh coriander leaves or dried oregano",
+        "notes": "not traditional but gives a pleasant herby note"
+      },
+      {
+        "ingredient": "olive-oil",
+        "substitute": "any neutral cooking oil",
+        "notes": "olive oil adds authentic flavour but refined sunflower oil works"
+      },
+      {
+        "ingredient": "pasta",
+        "substitute": "rice vermicelli or thin wheat noodles",
+        "notes": "boil for 3–4 minutes less; sauce quantity stays the same"
+      }
+    ],
+    "culturalNote": "Al pomodoro is the dish Neapolitan mothers make when the refrigerator looks bare — a few tomatoes, good oil and garlic, and the meal is done.",
+    "regionalVariation": "In Sicily the sauce often includes a pinch of sugar and sometimes a anchovy fillet melted in the oil; Roman versions add a torn chilli for heat.",
+    "indianKitchenAdaptation": "Cook the sauce in a kadai on medium flame — it works perfectly. If spaghetti is unavailable, use thin wheat noodles or seviyan; cook them separately and drain before adding to the sauce. Fresh basil is available in metro stores; coriander is a passable stand-in. Olive oil (extra-light variety) is sold at most large supermarkets and online grocery apps at moderate price.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-italian-aglio-e-olio",
+    "slug": "italian-aglio-e-olio",
+    "title": "Spaghetti Aglio e Olio",
+    "nativeTitle": "Spaghetti Aglio e Olio",
+    "description": "Rome's famous midnight pasta — silky spaghetti tossed in golden garlic-infused olive oil with a flutter of chilli and fresh parsley. It comes together in the time it takes the pasta to boil.",
+    "cuisine": "italian",
+    "country": "italy",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "dinner",
+      "lunch"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 20,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "spaghetti",
+        "normalizedName": "pasta",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, finely sliced",
+        "normalizedName": "garlic",
+        "quantity": 6,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies, roughly crumbled",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false,
+        "notes": "reduce to 1 for mild heat"
+      },
+      {
+        "name": "fresh parsley, roughly chopped",
+        "normalizedName": "parsley",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "black pepper",
+        "normalizedName": "black-pepper",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Bring a large pot of generously salted water to a boil. Add the spaghetti and cook until 1 minute shy of al dente. Reserve 200 ml of pasta water before draining.",
+        "timerMinutes": 9,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "While the pasta cooks, warm the olive oil in a wide pan over the lowest heat. Add the garlic slices and let them steep and turn pale golden over 4–5 minutes — they should sizzle gently, not spit. Remove from heat if they colour too fast.",
+        "timerMinutes": 5,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add the crumbled dried chillies to the pan and return to low heat for 30 seconds to bloom the flavour. The oil will take on an orange-red tint."
+      },
+      {
+        "order": 4,
+        "text": "Add the drained pasta directly to the pan. Toss over medium heat, pouring in pasta water a splash at a time, until the oil emulsifies into a light, glossy coating on every strand — about 2 minutes.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 5,
+        "text": "Take off heat, scatter in the parsley and a grind of black pepper, toss once more and serve at once."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "frying-pan"
+    ],
+    "methods": [
+      "boiling",
+      "sauteing"
+    ],
+    "tags": [
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "bachelor-friendly"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 560,
+      "protein": 14,
+      "carbs": 72,
+      "fat": 24,
+      "fiber": 4,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "pasta",
+        "substitute": "thin wheat noodles or rice vermicelli",
+        "notes": "cook time will differ; adjust accordingly"
+      },
+      {
+        "ingredient": "parsley",
+        "substitute": "fresh coriander leaves",
+        "notes": "adds a slightly different herbal character but works well in an Indian kitchen"
+      },
+      {
+        "ingredient": "olive-oil",
+        "substitute": "good-quality refined sunflower or rice-bran oil",
+        "notes": "flavour will be milder; add a small knob of butter for richness"
+      },
+      {
+        "ingredient": "dried-red-chilli",
+        "substitute": "1 tsp red chilli flakes or 2 fresh green chillies, sliced",
+        "notes": "fresh chillies give sharper heat"
+      }
+    ],
+    "culturalNote": "Legend has it aglio e olio was invented by Rome's late-night revellers who found only oil, garlic and leftover pasta at home — it became the city's beloved after-midnight meal.",
+    "regionalVariation": "Some Roman cooks finish with a pinch of crushed toasted breadcrumbs for texture; Neapolitan versions sometimes add a few anchovies with the garlic.",
+    "indianKitchenAdaptation": "A standard kadai or frying pan works perfectly for the garlic oil. Use extra-light olive oil (sold at D-Mart and Nature's Basket) or refined sunflower oil. If spaghetti is unavailable, Ching's or any thin wheat noodle is a convincing substitute. Coriander can replace parsley. The dish is naturally budget-friendly and makes an excellent bachelor or hostel-room dinner.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-italian-penne-arrabbiata",
+    "slug": "italian-penne-arrabbiata",
+    "title": "Penne all'Arrabbiata",
+    "nativeTitle": "Penne all'Arrabbiata",
+    "description": "Arrabbiata means 'angry' in Italian, and this Roman sauce earns the name — a fiery tomato-garlic sauce clinging to ridged penne tubes. It is spicy, tangy and done in under 30 minutes.",
+    "cuisine": "italian",
+    "country": "italy",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "penne rigate",
+        "normalizedName": "pasta",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "ripe tomatoes, roughly chopped, or canned crushed tomatoes",
+        "normalizedName": "tomato",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, chopped",
+        "normalizedName": "garlic",
+        "quantity": 5,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false,
+        "notes": "use 2 for medium heat, 6 for very hot"
+      },
+      {
+        "name": "olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "fresh parsley, chopped",
+        "normalizedName": "parsley",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Bring a large pot of heavily salted water to a rolling boil. Add the penne and cook until al dente according to packet instructions, usually 10–12 minutes. Reserve 200 ml pasta water before draining.",
+        "timerMinutes": 12,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "While pasta cooks, warm the olive oil in a wide pan over medium heat. Add the garlic and dried chillies and fry for 1–2 minutes, stirring, until the garlic is pale gold and the chillies darken slightly and release their heat into the oil.",
+        "timerMinutes": 2,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add the tomatoes with a good pinch of salt. Raise the heat to medium-high and cook uncovered, crushing the tomatoes with the back of a spoon, for 12 minutes until the sauce thickens and oil separates on top.",
+        "timerMinutes": 12,
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "Add the drained penne to the sauce and toss vigorously over medium heat, adding pasta water a splash at a time until the sauce is glossy and coats each tube — about 2 minutes.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 5,
+        "text": "Remove from heat, scatter over the parsley if using, and serve immediately. Do not add cheese — the authentic Roman arrabbiata is cheese-free."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "frying-pan"
+    ],
+    "methods": [
+      "boiling",
+      "sauteing",
+      "simmering"
+    ],
+    "tags": [
+      "quick",
+      "budget",
+      "comfort-food",
+      "bachelor-friendly"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 430,
+      "protein": 12,
+      "carbs": 74,
+      "fat": 12,
+      "fiber": 5,
+      "sugar": 7,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "pasta",
+        "substitute": "rigatoni, fusilli or any ridged pasta",
+        "notes": "smooth pasta like linguine won't hold the sauce as well"
+      },
+      {
+        "ingredient": "dried-red-chilli",
+        "substitute": "2 tsp red chilli flakes or 3 fresh red chillies, slit",
+        "notes": "adjust quantity to match your heat tolerance"
+      },
+      {
+        "ingredient": "tomato",
+        "substitute": "one 400 g tin of whole plum tomatoes, crushed by hand",
+        "notes": "canned tomatoes give a consistent result all year round"
+      },
+      {
+        "ingredient": "olive-oil",
+        "substitute": "sunflower oil plus a pinch of dried oregano",
+        "notes": "oregano compensates for the milder oil"
+      }
+    ],
+    "culturalNote": "All'arrabbiata was born in Rome as a peasant dish — abundant chillies and tomatoes were far cheaper than meat, yet the result was deeply satisfying.",
+    "regionalVariation": "Some versions add a small pinch of capers or olives at the end; Southern Italian cooks sometimes use fresh chillies rather than dried for a brighter heat.",
+    "indianKitchenAdaptation": "Cook the sauce in a kadai on medium flame — the wide base helps the tomatoes reduce quickly. Indian dried Kashmiri or byadgi chillies give good colour and moderate heat; add one or two regular dried red chillies for fire. Any penne available in the pasta aisle at supermarkets works; rinse and check cooking times on the packet.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-italian-creamy-mushroom-pasta",
+    "slug": "italian-creamy-mushroom-pasta",
+    "title": "Creamy Mushroom Pasta",
+    "nativeTitle": null,
+    "description": "Earthy button mushrooms sautéed with garlic, thyme and a touch of cream, then tossed with pasta into a sauce that is luxuriously rich without being heavy. A weeknight dinner that tastes like a restaurant treat.",
+    "cuisine": "italian",
+    "country": "italy",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "pasta (penne, rigatoni or tagliatelle)",
+        "normalizedName": "pasta",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "fresh button or cremini mushrooms, sliced",
+        "normalizedName": "mushroom",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "onion, finely diced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "fresh cream (heavy cream or cooking cream)",
+        "normalizedName": "cream",
+        "quantity": 150,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "butter",
+        "normalizedName": "butter",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "Parmesan or Grana Padano, grated",
+        "normalizedName": "cheese",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "dried thyme",
+        "normalizedName": "thyme",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, freshly cracked",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "fresh parsley, chopped",
+        "normalizedName": "parsley",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Cook the pasta in a large pot of well-salted boiling water until al dente. Reserve a mug of pasta water before draining and set aside.",
+        "timerMinutes": 12,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Heat the butter and olive oil together in a wide pan over medium-high heat. Add the mushrooms in a single layer — resist stirring for 2–3 minutes so they develop a golden sear rather than steaming.",
+        "timerMinutes": 3,
+        "method": "pan-frying"
+      },
+      {
+        "order": 3,
+        "text": "Once the mushrooms are golden and their liquid has evaporated, push them to one side and add the onion. Cook for 3 minutes until soft, then stir everything together with the garlic and thyme. Fry for 1 minute until fragrant.",
+        "timerMinutes": 4,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Season with salt and black pepper, then pour in the cream. Stir and let it bubble on medium heat for 2–3 minutes until the sauce thickens enough to coat the back of a spoon.",
+        "timerMinutes": 3,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Add the drained pasta to the pan and toss, adding pasta water a little at a time to loosen the sauce until every piece of pasta is coated. Scatter over the grated cheese and half the parsley, toss once more."
+      },
+      {
+        "order": 6,
+        "text": "Serve in warm bowls, topped with the remaining parsley and an extra grind of black pepper."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "frying-pan"
+    ],
+    "methods": [
+      "boiling",
+      "sauteing",
+      "simmering",
+      "pan-frying"
+    ],
+    "tags": [
+      "comfort-food",
+      "kids-friendly",
+      "quick"
+    ],
+    "allergens": [
+      "gluten",
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 520,
+      "protein": 16,
+      "carbs": 68,
+      "fat": 22,
+      "fiber": 4,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "cream",
+        "substitute": "200 ml full-fat coconut milk or thick cashew cream",
+        "notes": "coconut milk adds a slight sweetness; both make it dairy-free"
+      },
+      {
+        "ingredient": "mushroom",
+        "substitute": "zucchini and capsicum, diced",
+        "notes": "sauté the vegetables the same way; cook zucchini 2 minutes less to retain texture"
+      },
+      {
+        "ingredient": "cheese",
+        "substitute": "nutritional yeast (2 tbsp) for a vegan version",
+        "notes": "adds a nutty, cheesy flavour without dairy"
+      },
+      {
+        "ingredient": "butter",
+        "substitute": "extra olive oil or a vegan spread",
+        "notes": "butter adds richness; use coconut oil for a fully plant-based dish"
+      }
+    ],
+    "culturalNote": "Cream-based pasta dishes are more popular in Northern Italy — particularly the Po valley — where the dairy culture has always been strong and butter and cream appear as freely as olive oil does in the south.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": "Amul fresh cream is the ideal substitute for cooking cream and is widely available. Sauté the mushrooms in a large kadai on high flame — the wide base helps them brown without stewing. If fresh Parmesan is unavailable, any processed cheese block grated finely adds a pleasant saltiness. Dried thyme is sold in the spice section at most supermarkets.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-italian-pasta-carbonara",
+    "slug": "italian-pasta-carbonara",
+    "title": "Pasta Carbonara (Egg and Mushroom Adaptation)",
+    "nativeTitle": "Pasta alla Carbonara",
+    "description": "A silky Roman egg-and-cheese pasta sauce made without pork — golden sautéed mushrooms stand in for guanciale, providing savouriness and substance. The technique is all about temperature control so the eggs turn into velvet, not scramble.",
+    "cuisine": "italian",
+    "country": "italy",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "spaghetti or rigatoni",
+        "normalizedName": "pasta",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "eggs (3 whole + 2 yolks)",
+        "normalizedName": "egg",
+        "quantity": 5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "Pecorino Romano or Parmesan, finely grated",
+        "normalizedName": "cheese",
+        "quantity": 80,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "button mushrooms, sliced thinly",
+        "normalizedName": "mushroom",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false,
+        "notes": "replaces guanciale; adds umami and texture"
+      },
+      {
+        "name": "garlic cloves",
+        "normalizedName": "garlic",
+        "quantity": 2,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, coarsely cracked",
+        "normalizedName": "black-pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "In a bowl, whisk together the eggs, yolks and grated cheese with the cracked black pepper until completely smooth. Set aside at room temperature — cold eggs will seize on contact with the hot pasta.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Cook the pasta in a large pot of well-salted boiling water until al dente. Reserve at least 250 ml of pasta water before draining.",
+        "timerMinutes": 12,
+        "method": "boiling"
+      },
+      {
+        "order": 3,
+        "text": "While pasta cooks, heat olive oil in a large frying pan over high heat. Add mushrooms in one layer and sear without stirring for 2–3 minutes until golden and caramelised. Add the garlic cloves (whole) and toss for 1 more minute, then discard garlic.",
+        "timerMinutes": 4,
+        "method": "pan-frying"
+      },
+      {
+        "order": 4,
+        "text": "Drain the pasta and immediately add to the mushroom pan. Remove the pan completely from heat — this is critical. Let the pasta cool for 30 seconds so the pan is no longer scorching."
+      },
+      {
+        "order": 5,
+        "text": "Pour the egg-cheese mixture over the pasta and toss continuously, adding pasta water a few tablespoons at a time. The residual heat will gently cook the eggs into a glossy, flowing sauce. If it looks dry, add more pasta water; if it looks like it's scrambling, add cold water immediately and toss fast. Aim for a sauce that coats each strand thickly.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 6,
+        "text": "Plate immediately into warm bowls. Top with extra grated cheese, a generous twist of black pepper and serve at once — carbonara does not wait."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "frying-pan"
+    ],
+    "methods": [
+      "boiling",
+      "pan-frying",
+      "no-cook"
+    ],
+    "tags": [
+      "comfort-food",
+      "quick",
+      "party"
+    ],
+    "allergens": [
+      "gluten",
+      "dairy",
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 560,
+      "protein": 26,
+      "carbs": 68,
+      "fat": 20,
+      "fiber": 3,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "mushroom",
+        "substitute": "200 g smoked tofu, diced and pan-fried until crispy",
+        "notes": "adds smokiness; use soy sauce to season for extra depth"
+      },
+      {
+        "ingredient": "cheese",
+        "substitute": "50 g processed cheese block, finely grated",
+        "notes": "less sharp than Pecorino but melts smoothly into the sauce"
+      },
+      {
+        "ingredient": "egg",
+        "substitute": "150 ml silken tofu blended smooth for a vegan version — the texture is different but creamy",
+        "notes": "omit dairy cheese too; season generously with nutritional yeast"
+      },
+      {
+        "ingredient": "pasta",
+        "substitute": "thick rice noodles or wheat noodles",
+        "notes": "cook separately and drain well; the sauce works on any noodle"
+      }
+    ],
+    "culturalNote": "Classic carbonara uses guanciale (cured pork cheek) and no cream — the richness comes entirely from eggs and cheese. This version keeps that technique intact while swapping mushrooms for the pork.",
+    "regionalVariation": "Purists in Rome use only Pecorino Romano, no garlic, and four ingredients; this recipe takes small liberties to make it widely accessible.",
+    "indianKitchenAdaptation": "Use a kadai or any wide thick-bottomed pan. Amul Parmesan (in the refrigerator aisle) or any block cheese finely grated works well. The key challenge is temperature — once you drain the pasta and add the egg mixture, work very fast and keep the pan off the burner. Mushrooms are available at most vegetable markets in metros; button mushrooms from the supermarket are ideal. This dish works without any typically Italian ingredient being hard to find.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-italian-lasagna",
+    "slug": "italian-lasagna",
+    "title": "Simplified Lasagna (Vegetarian)",
+    "nativeTitle": "Lasagna al Forno",
+    "description": "Layers of pasta sheets, a rich tomato-basil sauce, creamy béchamel and melted cheese baked into a bubbling casserole. This simplified home version skips elaborate prep but keeps every bit of the comfort.",
+    "cuisine": "italian",
+    "country": "italy",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 45,
+    "totalTimeMinutes": 75,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "dried lasagna pasta sheets",
+        "normalizedName": "pasta",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "ripe tomatoes, blended, or canned crushed tomatoes",
+        "normalizedName": "tomato",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, minced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "fresh basil leaves",
+        "normalizedName": "basil",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "dried oregano",
+        "normalizedName": "oregano",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "butter",
+        "normalizedName": "butter",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "maida (all-purpose flour)",
+        "normalizedName": "maida",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "full-fat milk",
+        "normalizedName": "milk",
+        "quantity": 500,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "mozzarella or processed cheese, grated",
+        "normalizedName": "cheese",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "black pepper",
+        "normalizedName": "black-pepper",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "nutmeg, grated",
+        "normalizedName": "nutmeg",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Make the tomato sauce: heat olive oil in a pan, add onion and cook for 4 minutes until soft. Add garlic and fry 1 minute, then add the tomatoes, oregano, salt and half the basil. Simmer uncovered for 15 minutes until the sauce thickens.",
+        "timerMinutes": 15,
+        "method": "simmering"
+      },
+      {
+        "order": 2,
+        "text": "Make the béchamel: melt butter in a saucepan over medium heat. Add flour and stir constantly for 1 minute until the raw flour smell disappears. Gradually pour in the milk, whisking continuously to prevent lumps.",
+        "timerMinutes": 1,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Continue stirring the béchamel over medium heat for 5–7 minutes until thick enough to coat the back of a spoon. Season with salt, black pepper and a pinch of nutmeg. Remove from heat.",
+        "timerMinutes": 7
+      },
+      {
+        "order": 4,
+        "text": "If using dried lasagna sheets that are not 'no-boil', cook them in salted boiling water for 6–7 minutes until pliable but not fully cooked. Drain and lay flat on an oiled surface. Pre-boil lasagna sheets save half the baking time.",
+        "timerMinutes": 7,
+        "method": "boiling"
+      },
+      {
+        "order": 5,
+        "text": "Preheat the oven to 180 °C. Spread a thin layer of tomato sauce on the base of a 30 × 20 cm baking dish. Lay a single layer of pasta sheets over it, then spoon over a layer of béchamel and scatter some grated cheese.",
+        "method": "baking"
+      },
+      {
+        "order": 6,
+        "text": "Repeat the layers — tomato sauce, pasta, béchamel, cheese — until all the ingredients are used, finishing with a generous layer of béchamel and a thick blanket of grated cheese on top. Tuck in the remaining basil leaves.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 7,
+        "text": "Cover loosely with foil and bake for 25 minutes. Remove the foil and bake for a further 15–20 minutes until the top is deeply golden and the edges are bubbling. Rest for 10 minutes before cutting and serving.",
+        "timerMinutes": 45,
+        "method": "baking"
+      }
+    ],
+    "cookware": [
+      "oven",
+      "baking-tray",
+      "saucepan",
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "boiling",
+      "simmering",
+      "sauteing",
+      "baking"
+    ],
+    "tags": [
+      "comfort-food",
+      "party",
+      "kids-friendly"
+    ],
+    "allergens": [
+      "gluten",
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 490,
+      "protein": 18,
+      "carbs": 58,
+      "fat": 20,
+      "fiber": 4,
+      "sugar": 9,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "pasta",
+        "substitute": "thin whole-wheat roti or tortilla layers",
+        "notes": "not traditional but works as a no-boil shortcut layered straight into the dish"
+      },
+      {
+        "ingredient": "milk",
+        "substitute": "coconut milk or oat milk for a dairy-free béchamel",
+        "notes": "coconut milk adds a subtle sweetness; add extra flour if the sauce is too thin"
+      },
+      {
+        "ingredient": "cheese",
+        "substitute": "crumbled paneer mixed with 2 tbsp cream",
+        "notes": "press-dry the paneer first so it doesn't release water during baking"
+      },
+      {
+        "ingredient": "basil",
+        "substitute": "fresh mint or coriander leaves mixed with dried oregano",
+        "notes": "the flavour profile shifts slightly but remains aromatic"
+      }
+    ],
+    "culturalNote": "Lasagna al forno originated in the Emilia-Romagna region and has been a Sunday table centrepiece in Italian homes for centuries, traditionally made with homemade egg pasta and bolognese.",
+    "regionalVariation": "In Naples, lasagna is a Carnival dish layered with fried meatballs, hard-boiled eggs and ricotta; in Liguria a version exists using pesto instead of tomato sauce.",
+    "indianKitchenAdaptation": "Baking the lasagna requires an oven. Without one, assemble the layers in a deep kadai or pressure-cooker insert, cover tightly and cook on the lowest flame for 25–30 minutes — it will not brown on top but will cook through. Use Amul butter and Amul mozzarella (sold in blocks in most cities) or any processed cheese. Dried lasagna sheets are available at gourmet grocery stores or online; look for 'instant lasagna' which requires no pre-boiling.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-italian-margherita-pizza",
+    "slug": "italian-margherita-pizza",
+    "title": "Margherita Pizza (Tawa and Oven Method)",
+    "nativeTitle": "Pizza Margherita",
+    "description": "The original Neapolitan pizza — thin hand-stretched dough topped with crushed tomato, fresh mozzarella and basil. Two methods are given: a conventional oven and a tawa-stovetop method that works without any baking equipment.",
+    "cuisine": "italian",
+    "country": "italy",
+    "region": "naples",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 90,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 105,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "maida (all-purpose flour)",
+        "normalizedName": "maida",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "instant dry yeast",
+        "normalizedName": "yeast",
+        "quantity": 7,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "water, lukewarm",
+        "normalizedName": "water",
+        "quantity": 250,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "ripe tomatoes, blended or canned tomatoes, crushed",
+        "normalizedName": "tomato",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "fresh mozzarella or pizza cheese (block), torn or sliced",
+        "normalizedName": "cheese",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "fresh basil leaves",
+        "normalizedName": "basil",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "garlic clove, minced",
+        "normalizedName": "garlic",
+        "quantity": 1,
+        "unit": "clove",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Mix yeast, sugar and 50 ml of the warm water in a small bowl. Leave for 5–10 minutes until it turns frothy — if it does not froth, the yeast is dead and must be replaced.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Combine flour and salt in a wide bowl, make a well in the centre and pour in the yeast mixture, remaining water and olive oil. Mix until a shaggy dough forms, then knead for 8–10 minutes until smooth and elastic. The dough should spring back when you poke it.",
+        "timerMinutes": 10,
+        "method": "fermenting"
+      },
+      {
+        "order": 3,
+        "text": "Shape into a ball, place in a lightly oiled bowl, cover with a damp cloth and rest in a warm spot for 60 minutes until the dough has doubled in size.",
+        "timerMinutes": 60
+      },
+      {
+        "order": 4,
+        "text": "Meanwhile, prepare the sauce: cook the blended tomatoes with a pinch of salt and the garlic (if using) in a small pan for 8–10 minutes until slightly thickened. Remove from heat and cool.",
+        "timerMinutes": 10,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Punch down the risen dough and divide into 4 equal portions. On a lightly floured surface, stretch each portion by hand or with a rolling pin into a thin round about 25 cm across. Do not use too much flour or the base will not crisp.",
+        "method": "baking"
+      },
+      {
+        "order": 6,
+        "text": "OVEN METHOD — Preheat oven to its highest setting (240–250 °C) for 30 minutes with a baking tray inside. Slide one pizza onto the hot tray, spread 3 tbsp sauce to within 1 cm of the edge, top with cheese pieces and bake for 8–10 minutes until the base is blistered and the cheese is molten and beginning to brown.",
+        "timerMinutes": 10,
+        "method": "baking"
+      },
+      {
+        "order": 7,
+        "text": "TAWA METHOD — Heat a dry iron tawa on high flame until very hot. Place the stretched base on the tawa. After 1 minute the underside will set and small bubbles will appear. Spread sauce and cheese, cover the tawa with a lid and cook on medium-low for 5–7 minutes until the cheese melts and the base is cooked through. For a slightly charred top, hold the lid slightly ajar and place a burning charcoal or tongs-held flame beneath the lid for 30 seconds.",
+        "timerMinutes": 7,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 8,
+        "text": "Remove from the oven or tawa, scatter fresh basil leaves immediately over the hot cheese, drizzle with a thread of olive oil and serve without cutting into too many slices — Neapolitan pizza is meant to be eaten soft and floppy."
+      }
+    ],
+    "cookware": [
+      "oven",
+      "baking-tray",
+      "tawa"
+    ],
+    "methods": [
+      "baking",
+      "tawa-cooking",
+      "simmering",
+      "fermenting"
+    ],
+    "tags": [
+      "kids-friendly",
+      "party",
+      "comfort-food"
+    ],
+    "allergens": [
+      "gluten",
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 18,
+      "carbs": 72,
+      "fat": 14,
+      "fiber": 3,
+      "sugar": 6,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "yeast",
+        "substitute": "1 tsp baking powder mixed into the flour for a quick dough — no rest time needed",
+        "notes": "the base will be more bready than chewy but perfectly edible"
+      },
+      {
+        "ingredient": "maida",
+        "substitute": "atta (whole wheat flour) for a heartier base",
+        "notes": "the dough will be slightly denser; add a little extra water as atta absorbs more"
+      },
+      {
+        "ingredient": "cheese",
+        "substitute": "crumbled paneer + 2 tbsp cream",
+        "notes": "pan-fry paneer briefly first so it holds its shape under heat"
+      },
+      {
+        "ingredient": "basil",
+        "substitute": "fresh coriander or mint leaves scattered at the end",
+        "notes": "scatter only after the pizza comes off heat — they wilt and taste better"
+      }
+    ],
+    "culturalNote": "Pizza Margherita was supposedly created in 1889 to honour Queen Margherita of Savoy with the colours of the Italian flag — red tomato, white mozzarella, green basil.",
+    "regionalVariation": "Neapolitan pizza uses a softer, wetter dough and bakes in a wood-fired oven at 450 °C for 90 seconds; Roman pizza al taglio is thicker, crispier and sold by weight from rectangular trays.",
+    "indianKitchenAdaptation": "The tawa method is the easiest route without an oven — a heavy iron tawa (available at any housewares store) replicates the crisp base. Amul pizza cheese or any block mozzarella (sold at Nature's Basket and online) grates and melts well. Maida is available at every kirana store. Fresh basil is increasingly available at metro supermarkets; dried basil can be sprinkled before topping instead.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-italian-risotto",
+    "slug": "italian-risotto",
+    "title": "Classic Vegetable Risotto",
+    "nativeTitle": "Risotto alle Verdure",
+    "description": "Creamy Northern Italian rice cooked low and slow, stirred patiently as it absorbs warm vegetable stock ladle by ladle until each grain is tender and surrounded by a flowing, starchy sauce. Finished with butter and Parmesan for a restaurant-quality result at home.",
+    "cuisine": "italian",
+    "country": "italy",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Arborio or any short-grain rice",
+        "normalizedName": "rice",
+        "quantity": 320,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "warm vegetable stock",
+        "normalizedName": "stock",
+        "quantity": 1200,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "onion, finely diced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, minced",
+        "normalizedName": "garlic",
+        "quantity": 2,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "butter, divided",
+        "normalizedName": "butter",
+        "quantity": 60,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "peas",
+        "normalizedName": "peas",
+        "quantity": 100,
+        "unit": "g",
+        "optional": true
+      },
+      {
+        "name": "zucchini, diced small",
+        "normalizedName": "zucchini",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "Parmesan, finely grated",
+        "normalizedName": "cheese",
+        "quantity": 60,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "black pepper, freshly cracked",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "brightens the finished dish"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Keep the stock warm in a small saucepan over low heat throughout cooking — cold stock stops the cooking process and makes a gluey risotto.",
+        "method": "simmering"
+      },
+      {
+        "order": 2,
+        "text": "Heat half the butter and all the olive oil in a wide, heavy-bottomed pan over medium heat. Add the onion and cook for 4–5 minutes until soft and translucent. Add the garlic and fry for 1 minute.",
+        "timerMinutes": 5,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add the rice and stir it around in the butter for 2 minutes until each grain turns opaque at the centre — this toasting step stops the risotto from becoming mushy.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 4,
+        "text": "Add the first ladle of warm stock and stir until it is almost fully absorbed. Continue adding stock one ladle at a time, stirring continuously and waiting for absorption before adding the next. This will take 18–20 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "order": 5,
+        "text": "After about 15 minutes, stir in the peas and zucchini with the next ladle of stock. Continue stirring until the rice is tender but still has a slight bite at the centre and the overall consistency is flowing, not stiff.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 6,
+        "text": "Remove the pan from heat. Add the remaining butter and all the grated Parmesan and stir vigorously (this is called mantecatura) until the risotto turns glossy and creamy. Squeeze in lemon juice, check salt and pepper.",
+        "method": "no-cook"
+      },
+      {
+        "order": 7,
+        "text": "Serve immediately in warm bowls — risotto sets quickly and does not reheat well. Top with extra Parmesan and black pepper."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "saucepan"
+    ],
+    "methods": [
+      "sauteing",
+      "simmering",
+      "one-pot"
+    ],
+    "tags": [
+      "comfort-food",
+      "party",
+      "healthy"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 12,
+      "carbs": 68,
+      "fat": 18,
+      "fiber": 3,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "rice",
+        "substitute": "regular Indian short-grain rice (sona masoori) or basmati",
+        "notes": "basmati gives a slightly different, less starchy texture; keep stirring to release starch"
+      },
+      {
+        "ingredient": "cheese",
+        "substitute": "3 tbsp nutritional yeast + a splash of coconut cream for a vegan version",
+        "notes": "adds cheesy depth without dairy"
+      },
+      {
+        "ingredient": "butter",
+        "substitute": "extra olive oil or a vegan butter spread",
+        "notes": "butter is crucial for the creamy finish; use a good substitute for best results"
+      },
+      {
+        "ingredient": "stock",
+        "substitute": "2 vegetable stock cubes dissolved in 1.2 l hot water",
+        "notes": "Maggi or Knorr vegetable stock cubes are widely available in India"
+      }
+    ],
+    "culturalNote": "Risotto is the signature dish of Lombardy and the Po Valley, where short-grain rice varieties thrive. Patience is the only technique — no lid, no rushing, just steady stirring and warm stock.",
+    "regionalVariation": "Risotto alla Milanese, the most iconic version, is flavoured with saffron and served alongside ossobuco. Venetian risotto al nero uses squid ink; risotto al radicchio is a Veronese winter staple.",
+    "indianKitchenAdaptation": "A heavy-bottomed kadai or a deep non-stick pan works perfectly. Use Indian sona masoori or a short-grain rice — basmati also works but give it more stirring to release starch. Vegetable stock cubes from Knorr or Maggi dissolved in hot water are an easy shortcut. The pressure-cooker shortcut: cook the soffritto (onion-garlic) first in a kadai, then transfer everything with all the stock to a pressure cooker, seal and cook for 2 whistles on medium heat. Release pressure naturally, then stir in butter and cheese — you lose some texture but save 15 minutes.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-italian-minestrone",
+    "slug": "italian-minestrone",
+    "title": "Minestrone Soup",
+    "nativeTitle": "Minestrone",
+    "description": "Italy's great vegetable soup — a hearty, tomato-based broth packed with seasonal vegetables, beans and pasta. Every family has a different version, and every version is deeply satisfying on a cold day.",
+    "cuisine": "italian",
+    "country": "italy",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 35,
+    "totalTimeMinutes": 55,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "onion, diced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "celery stalks, sliced",
+        "normalizedName": "celery",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "carrot, diced",
+        "normalizedName": "carrot",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, minced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "zucchini, diced",
+        "normalizedName": "zucchini",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomatoes, chopped, or canned tomatoes",
+        "normalizedName": "tomato",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "cooked or canned kidney beans or cannellini beans",
+        "normalizedName": "rajma",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "small pasta (macaroni or ditali)",
+        "normalizedName": "pasta",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "vegetable stock or water",
+        "normalizedName": "stock",
+        "quantity": 1500,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "dried rosemary",
+        "normalizedName": "rosemary",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "dried thyme",
+        "normalizedName": "thyme",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "bay leaf",
+        "normalizedName": "bay-leaf",
+        "quantity": 1,
+        "unit": "leaf",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "black pepper",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Warm olive oil in a large heavy-bottomed pot over medium heat. Add the onion, celery and carrot, season with a pinch of salt and cook for 7–8 minutes until softened and lightly golden.",
+        "timerMinutes": 8,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Add the garlic and cook for 1 minute until fragrant. Stir in the tomatoes, rosemary, thyme and bay leaf. Cook for 5 minutes until the tomatoes break down and the oil separates slightly at the edges.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Pour in the stock, bring to a boil, then reduce the heat to a gentle simmer. Add the zucchini and beans. Partially cover and simmer for 15 minutes until all the vegetables are tender.",
+        "timerMinutes": 15,
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "Add the pasta to the pot and cook uncovered for 8–10 minutes until the pasta is tender. The soup will thicken — add a little hot water if it becomes too thick for your liking.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 5,
+        "text": "Discard the bay leaf. Taste and adjust salt and pepper. Ladle into deep bowls and drizzle generously with a good olive oil before serving."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "sauteing",
+      "simmering",
+      "one-pot"
+    ],
+    "tags": [
+      "soup",
+      "healthy",
+      "budget",
+      "one-pot-meal",
+      "comfort-food",
+      "winter"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 280,
+      "protein": 10,
+      "carbs": 42,
+      "fat": 8,
+      "fiber": 9,
+      "sugar": 7,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "rajma",
+        "substitute": "boiled chickpeas, lobia or any available cooked legume",
+        "notes": "chickpeas add more texture; adjust simmer time if using dry soaked beans"
+      },
+      {
+        "ingredient": "zucchini",
+        "substitute": "ridge gourd (turai), bottle gourd or green capsicum",
+        "notes": "ridge gourd is an excellent Indian stand-in for zucchini in soups"
+      },
+      {
+        "ingredient": "pasta",
+        "substitute": "small pieces of broken wheat (daliya) or brown rice",
+        "notes": "daliya adds a pleasant nuttiness and is more nutritious"
+      },
+      {
+        "ingredient": "celery",
+        "substitute": "leek or the green tops of spring onion",
+        "notes": "celery has a distinct flavour but these substitutes work in the background of a hearty soup"
+      }
+    ],
+    "culturalNote": "Minestrone has no fixed recipe — it was historically a way to use whatever vegetables were in season and leftover bread or pasta in the pantry. The word means simply 'the big soup'.",
+    "regionalVariation": "Ligurian minestrone uses pesto stirred in at the end; Milanese versions add rice instead of pasta. Winter minestrone relies on cabbage and root vegetables; summer versions feature zucchini, tomatoes and fresh beans.",
+    "indianKitchenAdaptation": "Make this in a pressure cooker: sauté the soffritto (onion, celery, carrot, garlic) in the cooker base on medium flame, then add tomatoes, vegetables, stock and beans. Seal and pressure-cook for 3 whistles on medium. Open after pressure releases, return to the flame, add pasta or broken wheat and simmer open for 10 minutes. Knorr or Maggi vegetable cubes dissolved in water work as stock. Zucchini can be replaced with turai (ridge gourd) which behaves identically in soup.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-italian-pesto-pasta",
+    "slug": "italian-pesto-pasta",
+    "title": "Pesto Pasta",
+    "nativeTitle": "Pasta al Pesto",
+    "description": "Ligurian basil pesto — a vivid green paste of fresh basil, garlic, cheese, nuts and olive oil — tossed through hot pasta with a few spoons of pasta water to bind it into a glossy, aromatic sauce.",
+    "cuisine": "italian",
+    "country": "italy",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 12,
+    "totalTimeMinutes": 27,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "trofie, trenette or penne pasta",
+        "normalizedName": "pasta",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "fresh basil leaves, tightly packed",
+        "normalizedName": "basil",
+        "quantity": 60,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "cashews (substitute for pine nuts)",
+        "normalizedName": "cashew",
+        "quantity": 40,
+        "unit": "g",
+        "optional": false,
+        "notes": "pine nuts or walnuts are traditional; cashews are widely available in India"
+      },
+      {
+        "name": "Parmesan or Pecorino, grated",
+        "normalizedName": "cheese",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves",
+        "normalizedName": "garlic",
+        "quantity": 2,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "olive oil, good quality",
+        "normalizedName": "olive-oil",
+        "quantity": 80,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "black pepper",
+        "normalizedName": "black-pepper",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "keeps the pesto bright green and adds freshness"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Lightly toast the cashews in a dry pan over low heat for 2 minutes until pale golden. Set aside to cool — toasted nuts add depth to the pesto.",
+        "timerMinutes": 2,
+        "method": "pan-frying"
+      },
+      {
+        "order": 2,
+        "text": "Combine basil leaves, cooled cashews, garlic and grated cheese in a blender or mixie. Pulse a few times to break down the ingredients, then blend while drizzling in the olive oil in a slow, steady stream. Blend to a textured paste — not completely smooth. Season with salt, pepper and a squeeze of lemon.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Cook pasta in a large pot of heavily salted boiling water until al dente — follow packet timings. Reserve 150 ml of the starchy pasta water before draining.",
+        "timerMinutes": 12,
+        "method": "boiling"
+      },
+      {
+        "order": 4,
+        "text": "Transfer the drained pasta to a large bowl (not on a hot flame). Add 3–4 tablespoons of pasta water to the pesto and stir — this loosens the pesto and helps it coat the pasta evenly.",
+        "method": "no-cook"
+      },
+      {
+        "order": 5,
+        "text": "Pour the pesto over the pasta and toss well, adding more pasta water a tablespoon at a time until every strand is coated in a glossy, bright-green sauce. Do not return the pasta to heat as the pesto will discolour and the cheese will become grainy."
+      },
+      {
+        "order": 6,
+        "text": "Serve immediately in warm bowls with an extra drizzle of olive oil and a few basil leaves on top."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "mixie",
+      "frying-pan"
+    ],
+    "methods": [
+      "boiling",
+      "pan-frying",
+      "no-cook"
+    ],
+    "tags": [
+      "quick",
+      "comfort-food",
+      "party"
+    ],
+    "allergens": [
+      "gluten",
+      "dairy",
+      "nuts"
+    ],
+    "nutrition": {
+      "calories": 550,
+      "protein": 16,
+      "carbs": 68,
+      "fat": 24,
+      "fiber": 4,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "basil",
+        "substitute": "fresh coriander + a few mint leaves for an Indian-fusion pesto",
+        "notes": "add a green chilli for heat; the flavour profile is different but delicious"
+      },
+      {
+        "ingredient": "cashew",
+        "substitute": "walnut, almond or actual pine nuts if available",
+        "notes": "walnuts give a slightly more bitter pesto; blanch almonds first"
+      },
+      {
+        "ingredient": "olive-oil",
+        "substitute": "cold-pressed coconut oil or refined sunflower oil",
+        "notes": "the flavour will be milder; use a light-tasting oil to let the basil shine"
+      },
+      {
+        "ingredient": "cheese",
+        "substitute": "nutritional yeast (3 tbsp) for a vegan pesto",
+        "notes": "also omit cheese and ensure the pasta water binds the sauce"
+      }
+    ],
+    "culturalNote": "Pesto Genovese is the pride of Liguria on the Italian Riviera, where the small-leafed Ligurian basil — said to be sweeter and less anise-like than elsewhere — is protected by a PDO designation.",
+    "regionalVariation": "Sicilian pesto (pesto alla trapanese) uses fresh tomatoes and almonds instead of cheese and pine nuts for a brighter, lighter sauce.",
+    "indianKitchenAdaptation": "A standard Indian mixie blends pesto in under a minute — use the small chutney jar for best results. Fresh basil is available at supermarkets like More, D-Mart and Nature's Basket in major cities; hydroponic basil is now found in Swiggy Instamart. Cashews are an excellent and cheaper substitute for pine nuts (which are expensive imports). Extra-light olive oil is adequate here; the flavour is subtler but pesto is still distinctive.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-italian-bruschetta",
+    "slug": "italian-bruschetta",
+    "title": "Bruschetta al Pomodoro",
+    "nativeTitle": "Bruschetta al Pomodoro",
+    "description": "Grilled or toasted country bread rubbed with raw garlic and topped with diced fresh tomatoes, basil and olive oil. Italy's greatest antipasto takes ten minutes and repays every second of effort.",
+    "cuisine": "italian",
+    "country": "italy",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack",
+      "side"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 5,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "thick country bread or sourdough, sliced 1.5 cm",
+        "normalizedName": "bread",
+        "quantity": 8,
+        "unit": "slice",
+        "optional": false
+      },
+      {
+        "name": "ripe tomatoes, deseeded and finely diced",
+        "normalizedName": "tomato",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, halved",
+        "normalizedName": "garlic",
+        "quantity": 2,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "fresh basil leaves, torn",
+        "normalizedName": "basil",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "olive oil, good quality",
+        "normalizedName": "olive-oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "black pepper",
+        "normalizedName": "black-pepper",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Dice the tomatoes finely, discard the seeds and watery pulp. Place in a bowl, season with a generous pinch of salt, a drizzle of olive oil, the torn basil and black pepper. Toss and set aside for 10 minutes so the tomatoes release their juices and the flavours meld.",
+        "timerMinutes": 10,
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Toast the bread slices on a hot tawa, under a grill or in a dry pan until golden and crisp on both sides — about 2 minutes per side. The bread should have some charred edges and be firm enough to hold the topping without going soggy immediately.",
+        "timerMinutes": 5,
+        "method": "grilling"
+      },
+      {
+        "order": 3,
+        "text": "While the toast is still hot, rub each slice firmly with the cut face of a garlic clove. The coarse toasted surface acts like a grater and infuses the bread with raw garlic flavour."
+      },
+      {
+        "order": 4,
+        "text": "Heap a generous spoonful of the tomato mixture onto each slice. Drizzle lightly with more olive oil and serve within 5 minutes before the bread softens."
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "frying-pan"
+    ],
+    "methods": [
+      "grilling",
+      "no-cook"
+    ],
+    "tags": [
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "street-food",
+      "summer",
+      "party"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 210,
+      "protein": 5,
+      "carbs": 28,
+      "fat": 9,
+      "fiber": 3,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "bread",
+        "substitute": "thick-sliced baguette or any firm white sandwich bread",
+        "notes": "avoid soft sliced bread as it will collapse under the topping"
+      },
+      {
+        "ingredient": "olive-oil",
+        "substitute": "refined sunflower oil with a pinch of dried oregano",
+        "notes": "the flavour is milder; the oregano compensates with aroma"
+      },
+      {
+        "ingredient": "basil",
+        "substitute": "fresh coriander or mint",
+        "notes": "coriander gives an Indian twist that works surprisingly well with the tomatoes"
+      },
+      {
+        "ingredient": "tomato",
+        "substitute": "roasted capsicum or a mix of tomato and cucumber",
+        "notes": "roasted capsicum gives a sweeter, smokier bruschetta"
+      }
+    ],
+    "culturalNote": "Bruschetta dates to ancient Rome, when olive oil producers tasted their fresh harvest on bread — the word comes from the verb 'bruscare', meaning to char over coals.",
+    "regionalVariation": "In Tuscany a version called 'fettunta' uses just oil, salt and garlic with no topping. Central Italian variations include white beans (cannellini) and cured meats alongside the tomatoes.",
+    "indianKitchenAdaptation": "Use any thick-sliced bread available (Britannia or Modern sandwich loaves work fine in a pinch, though a baguette from a bakery is better). Toast directly on a flat tawa on medium-high flame — press lightly for even charring. Good olive oil is available at most supermarkets; look for extra-light variety for everyday use. Fresh basil is sold at gourmet stores; coriander makes an equally delicious version with an Indian character.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-italian-focaccia",
+    "slug": "italian-focaccia",
+    "title": "Rosemary Focaccia",
+    "nativeTitle": "Focaccia al Rosmarino",
+    "description": "Ligurian flatbread at its finest — a thick, dimpled, golden-crusted bread soaked with olive oil, dimpled generously with fingertips and scattered with rosemary and flaky salt. Crisp on the outside, pillowy within.",
+    "cuisine": "italian",
+    "country": "italy",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack",
+      "side",
+      "breakfast"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 80,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 105,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "maida (all-purpose flour)",
+        "normalizedName": "maida",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "instant dry yeast",
+        "normalizedName": "yeast",
+        "quantity": 7,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "olive oil, divided",
+        "normalizedName": "olive-oil",
+        "quantity": 80,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "lukewarm water",
+        "normalizedName": "water",
+        "quantity": 350,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "fresh or dried rosemary",
+        "normalizedName": "rosemary",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "olives, halved (optional topping)",
+        "normalizedName": "olives",
+        "quantity": 60,
+        "unit": "g",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Dissolve the yeast and sugar in 100 ml of the warm water. Leave for 5–8 minutes until it becomes frothy — this confirms the yeast is active.",
+        "timerMinutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Combine flour and salt in a large bowl. Pour in the yeast mixture, remaining water and 3 tablespoons of the olive oil. Mix until a sticky dough forms, then knead on a floured surface for 8–10 minutes until smooth and slightly tacky. The dough should be wetter than bread dough — resist adding too much flour.",
+        "timerMinutes": 10,
+        "method": "fermenting"
+      },
+      {
+        "order": 3,
+        "text": "Place the dough in a lightly oiled bowl, cover with a damp cloth and rest in a warm spot for 60 minutes until roughly doubled in size.",
+        "timerMinutes": 60
+      },
+      {
+        "order": 4,
+        "text": "Pour 3 tablespoons of olive oil into a 30 × 20 cm baking tray and tilt to coat the base generously. Transfer the risen dough to the tray and stretch it gently to fill the tin. Cover and rest for 20 minutes — this allows the gluten to relax so you can stretch it fully without it springing back.",
+        "timerMinutes": 20
+      },
+      {
+        "order": 5,
+        "text": "Preheat the oven to 220 °C. Dimple the dough aggressively all over with your fingertips, pressing all the way to the base of the tray. Drizzle the remaining olive oil generously into the dimples — it will pool there and form crispy pockets.",
+        "method": "baking"
+      },
+      {
+        "order": 6,
+        "text": "Scatter the rosemary and olives over the top. Sprinkle with a little extra salt. Bake for 20–25 minutes until deeply golden on top and the sides have pulled away from the tray. The bottom should sound hollow when tapped.",
+        "timerMinutes": 25,
+        "method": "baking"
+      },
+      {
+        "order": 7,
+        "text": "Remove from the oven, drizzle over one final tablespoon of olive oil while hot, and allow to cool in the tray for 10 minutes before cutting into squares or rectangles."
+      }
+    ],
+    "cookware": [
+      "oven",
+      "baking-tray"
+    ],
+    "methods": [
+      "fermenting",
+      "baking"
+    ],
+    "tags": [
+      "comfort-food",
+      "party",
+      "budget",
+      "kids-friendly"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 280,
+      "protein": 6,
+      "carbs": 46,
+      "fat": 9,
+      "fiber": 2,
+      "sugar": 1,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "rosemary",
+        "substitute": "dried thyme, oregano or carom seeds (ajwain)",
+        "notes": "ajwain gives an unusual but pleasant Indian-Italian twist"
+      },
+      {
+        "ingredient": "olives",
+        "substitute": "sun-dried tomato pieces or sliced jalapeño",
+        "notes": "sun-dried tomatoes intensify the flavour; jalapeño adds heat"
+      },
+      {
+        "ingredient": "yeast",
+        "substitute": "2 tsp baking powder mixed into the flour — skip the proofing and rest steps",
+        "notes": "the bread will be more cake-like and less chewy; reduce oven time by 5 minutes"
+      },
+      {
+        "ingredient": "maida",
+        "substitute": "half maida and half atta (whole wheat flour)",
+        "notes": "the texture will be denser and more wholesome; add 20 ml extra water as atta absorbs more"
+      }
+    ],
+    "culturalNote": "Focaccia is the direct ancestor of pizza — the word shares a root with 'focus' (Latin for fire hearth) and it has been baked in Ligurian homes since Roman times.",
+    "regionalVariation": "Focaccia di Recco is a paper-thin crispy version sandwiching fresh cheese; in Bari (Puglia), focaccia barese is topped with cherry tomatoes and olives; in Genoa, the classic version uses only oil and salt.",
+    "indianKitchenAdaptation": "An oven is needed for authentic focaccia. Without one, heat a heavy iron tawa on medium-low, place the dimpled dough on it, cover tightly with a lid and cook for 8–10 minutes on the lowest flame until the base is golden. Finish by placing a piece of burning charcoal inside an inverted steel katori set on top of the dough and cover for 3 minutes to brown the top. Maida is available at every kirana store. Dried rosemary is in the spice aisle of most supermarkets.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-italian-caprese-salad",
+    "slug": "italian-caprese-salad",
+    "title": "Insalata Caprese",
+    "nativeTitle": "Insalata Caprese",
+    "description": "The colours of the Italian flag on a plate — alternating slices of fresh mozzarella and ripe tomato, draped with basil and finished with nothing more than good olive oil and sea salt. Simplicity raised to an art form.",
+    "cuisine": "italian",
+    "country": "italy",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "side",
+      "snack"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 0,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "fresh mozzarella or pizza mozzarella block, sliced 5 mm",
+        "normalizedName": "cheese",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "large ripe tomatoes, sliced 5 mm",
+        "normalizedName": "tomato",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "fresh basil leaves",
+        "normalizedName": "basil",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "extra-virgin olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "black pepper, freshly cracked",
+        "normalizedName": "black-pepper",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Slice the tomatoes and mozzarella to roughly equal thickness — about 5 mm — so each bite has both in balance. Pat the mozzarella dry with kitchen paper if it is swimming in whey.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Arrange alternating overlapping slices of tomato and mozzarella in a single layer on a flat plate, slightly fanning each slice to one side so the colours alternate visibly."
+      },
+      {
+        "order": 3,
+        "text": "Tuck whole basil leaves between and on top of the slices. Season generously with salt and a crack of black pepper."
+      },
+      {
+        "order": 4,
+        "text": "Drizzle the olive oil in a thin, generous stream from a height so it falls evenly across the entire plate. Serve immediately — do not refrigerate once dressed, as cold kills the tomato flavour."
+      }
+    ],
+    "cookware": [
+      "skillet"
+    ],
+    "methods": [
+      "no-cook"
+    ],
+    "tags": [
+      "salad",
+      "summer",
+      "quick",
+      "under-30-minutes",
+      "healthy",
+      "low-oil"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 230,
+      "protein": 14,
+      "carbs": 5,
+      "fat": 18,
+      "fiber": 1,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "cheese",
+        "substitute": "firm paneer, sliced thin and soaked in salted water for 10 minutes",
+        "notes": "pat completely dry before plating; it mimics the texture of fresh mozzarella well"
+      },
+      {
+        "ingredient": "basil",
+        "substitute": "fresh mint leaves or microgreens",
+        "notes": "mint gives a cooler, slightly different character; use sparingly"
+      },
+      {
+        "ingredient": "olive-oil",
+        "substitute": "cold-pressed coconut oil (liquid state) or avocado oil",
+        "notes": "use the best oil you have — this dish has nowhere to hide a poor ingredient"
+      },
+      {
+        "ingredient": "tomato",
+        "substitute": "roasted red capsicum strips for a winter version",
+        "notes": "roast until blistered, peel, and layer just as you would fresh tomato"
+      }
+    ],
+    "culturalNote": "Caprese — meaning 'of Capri' — is said to have been created on the island of Capri after World War I as a patriotic salad dressed in the colours of Italy.",
+    "regionalVariation": "In Campania the salad sometimes includes a drizzle of balsamic glaze; purists from the island of Capri insist on only oil and salt — no vinegar, no balsamic, and absolutely no garlic.",
+    "indianKitchenAdaptation": "Amul mozzarella blocks (refrigerator aisle) are widely available and work perfectly when sliced thin. Paneer is an excellent and genuinely flavourful substitute — press-dry it and soak in lightly salted water for 15 minutes for a milder, milkier result. Use only the best olive oil you have as there is nothing to mask an inferior one. Ripe desi or hybrid tomatoes from the market — especially the large Bangalore or Pune varieties — are ideal.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-italian-panzanella",
+    "slug": "italian-panzanella",
+    "title": "Panzanella (Tuscan Bread Salad)",
+    "nativeTitle": "Panzanella",
+    "description": "Tuscany's summer salad of stale bread soaked briefly in water, squeezed dry, then tossed with vine-ripe tomatoes, cucumber, onion, basil and a sharp olive-oil dressing. The bread absorbs the tomato juices and becomes the best thing on the plate.",
+    "cuisine": "italian",
+    "country": "italy",
+    "region": "tuscany",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "side"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 0,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "stale country bread or ciabatta, torn into chunks",
+        "normalizedName": "bread",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "ripe tomatoes, cut into chunks",
+        "normalizedName": "tomato",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "cucumber, halved and sliced",
+        "normalizedName": "cucumber",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "red onion or white onion, thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "fresh basil leaves, torn",
+        "normalizedName": "basil",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "extra-virgin olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red wine vinegar or white vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "black pepper",
+        "normalizedName": "black-pepper",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Sprinkle a little water or dip the bread chunks very briefly in a bowl of cold water — 5–10 seconds only. Squeeze out firmly with both hands until the bread is damp but not dripping. Break into rough pieces and place in a large mixing bowl.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Add the tomatoes to the bowl and toss with a good pinch of salt. Let them sit for 5 minutes — the salt draws out their juices, which will season the bread and dress the salad naturally.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Add the cucumber, onion and basil to the bowl. Drizzle over the olive oil and vinegar. Season generously with salt and pepper."
+      },
+      {
+        "order": 4,
+        "text": "Toss everything together gently and allow the salad to rest for 10 minutes at room temperature before serving — this is critical. The bread needs time to soak up the dressing and tomato juices and become cohesive.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 5,
+        "text": "Taste once more for salt, drizzle with a last thread of olive oil and serve at room temperature. Panzanella does not keep — eat it the same day."
+      }
+    ],
+    "cookware": [
+      "skillet"
+    ],
+    "methods": [
+      "no-cook"
+    ],
+    "tags": [
+      "salad",
+      "summer",
+      "budget",
+      "quick",
+      "leftover-friendly"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 270,
+      "protein": 6,
+      "carbs": 34,
+      "fat": 13,
+      "fiber": 4,
+      "sugar": 7,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "bread",
+        "substitute": "toasted idli or leftover thick roti torn into pieces",
+        "notes": "roti makes a convincing panzanella; toast it lightly before adding so it holds up to soaking"
+      },
+      {
+        "ingredient": "cucumber",
+        "substitute": "deseeded ridge gourd (turai) or thinly sliced capsicum",
+        "notes": "capsicum adds a pleasant crunch and sweetness"
+      },
+      {
+        "ingredient": "vinegar",
+        "substitute": "lemon juice or a splash of diluted tamarind water",
+        "notes": "tamarind gives an Indian-fusion tang that pairs beautifully with fresh basil"
+      },
+      {
+        "ingredient": "basil",
+        "substitute": "fresh coriander and mint leaves",
+        "notes": "use half and half; both herbs bring freshness that echoes the role of basil"
+      }
+    ],
+    "culturalNote": "Panzanella was originally a poor Tuscan farmer's dish, born from the need to use up bread that had gone stale rather than waste it. Peasant ingenuity turned it into one of Italy's most celebrated summer preparations.",
+    "regionalVariation": "Florentine panzanella traditionally omits cucumber and adds capers and anchovies; coastal Tuscan versions sometimes include tuna packed in oil. The bread type matters — a dense, unsalted Tuscan bread is the authentic choice.",
+    "indianKitchenAdaptation": "Day-old bread from any local bakery works perfectly — the staler the better. Sourdough or multigrain bread from chains like Theobroma or Paul also works well. Regular white vinegar from any kirana store is an ideal substitute for red wine vinegar. Indian cucumbers tend to be more watery than European ones — deseed and salt them separately for 5 minutes and drain before adding to prevent a soggy salad.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-italian-potato-gnocchi",
+    "slug": "italian-potato-gnocchi",
+    "title": "Potato Gnocchi with Butter and Herbs",
+    "nativeTitle": "Gnocchi di Patate",
+    "description": "Pillowy potato dumplings made from just three ingredients — floury potato, flour and salt — boiled until they float to the surface, then tossed in browned herb butter. Light, cloud-soft and endlessly satisfying.",
+    "cuisine": "italian",
+    "country": "italy",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 40,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "starchy potatoes (e.g. Russet or Kufri), boiled and peeled",
+        "normalizedName": "potato",
+        "quantity": 800,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "maida (all-purpose flour), plus extra for dusting",
+        "normalizedName": "maida",
+        "quantity": 180,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "egg yolk (optional — binds and enriches)",
+        "normalizedName": "egg",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "butter",
+        "normalizedName": "butter",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "fresh basil or parsley, chopped",
+        "normalizedName": "basil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "Parmesan or Pecorino, grated, to finish",
+        "normalizedName": "cheese",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "black pepper",
+        "normalizedName": "black-pepper",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Boil the potatoes whole in their skins until completely tender — a skewer should pass through with no resistance, about 20–25 minutes. Drain, and while still hot, peel and pass them through a ricer or mash thoroughly until completely lump-free. Spread on a tray to let steam escape for 5 minutes — dry potatoes absorb less flour and make lighter gnocchi.",
+        "timerMinutes": 30,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Transfer the cooled mashed potato to a clean work surface. Make a well, add the salt and flour (and the egg yolk if using). Work the mixture together gently with a dough scraper or your hands just until it comes together into a soft, slightly sticky dough. Do not overwork — overworked gnocchi become dense and rubbery.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Divide the dough into 6 portions. Roll each into a rope about 1.5 cm thick on a lightly floured surface. Cut each rope into 2 cm pillows. If you wish, roll each pillow gently over the back of a fork to create ridges that hold the sauce."
+      },
+      {
+        "order": 4,
+        "text": "Bring a large pot of well-salted water to a rolling boil. Drop in the gnocchi in batches — do not crowd the pot. They are ready when they float to the surface and then cook for a further 30–45 seconds. Fish out with a slotted spoon and set aside.",
+        "timerMinutes": 5,
+        "method": "boiling"
+      },
+      {
+        "order": 5,
+        "text": "In a wide frying pan, melt the butter over medium-high heat until it foams and turns pale golden with a nutty fragrance — browned butter, about 2–3 minutes. Add the cooked gnocchi and toss to coat. Add the basil, season with black pepper.",
+        "timerMinutes": 3,
+        "method": "pan-frying"
+      },
+      {
+        "order": 6,
+        "text": "Plate immediately into warm bowls. Top with freshly grated Parmesan and serve without delay — gnocchi lose their texture as they sit."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "frying-pan"
+    ],
+    "methods": [
+      "boiling",
+      "pan-frying"
+    ],
+    "tags": [
+      "comfort-food",
+      "kids-friendly",
+      "budget",
+      "party"
+    ],
+    "allergens": [
+      "gluten",
+      "dairy",
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein": 10,
+      "carbs": 65,
+      "fat": 14,
+      "fiber": 4,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "maida",
+        "substitute": "rice flour (50%) + maida (50%) for a lighter, chewier gnocchi",
+        "notes": "reduces gluten; gives a slightly smoother surface"
+      },
+      {
+        "ingredient": "cheese",
+        "substitute": "a sprinkle of nutritional yeast for a vegan topping",
+        "notes": "omit butter and use olive oil for a fully plant-based version"
+      },
+      {
+        "ingredient": "butter",
+        "substitute": "olive oil or a vegan spread",
+        "notes": "olive oil gives a lighter, fruitier finish; great with just basil and pepper"
+      },
+      {
+        "ingredient": "egg",
+        "substitute": "omit entirely — the recipe works without it",
+        "notes": "eggless gnocchi are slightly more delicate; handle them gently when cutting"
+      }
+    ],
+    "culturalNote": "Gnocchi are eaten every Thursday in Rome — giovedì gnocchi is a tradition so strong that restaurants around the city still mark it on their menus. Elsewhere in Italy, gnocchi are associated with good luck on the last day of the month.",
+    "regionalVariation": "Gnocchi alla Sorrentina are baked with tomato sauce and mozzarella; Venetian gnocchi are often flavoured with spinach for green colour; in Friuli a version uses bread instead of potato.",
+    "indianKitchenAdaptation": "Indian potatoes — particularly the high-starch white Kufri or Jyoti varieties — make excellent gnocchi dough. Boil and rice or mash them very dry for the best texture. Amul butter is perfect for the browned-butter finish. If no ricer is available, press the potatoes through a steel sieve with the back of a spoon. The gnocchi can also be pan-fried in butter in a kadai after boiling for extra golden edges.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-italian-lentil-zuppa",
+    "slug": "italian-lentil-zuppa",
+    "title": "Italian Lentil Soup (Zuppa di Lenticchie)",
+    "nativeTitle": "Zuppa di Lenticchie",
+    "description": "A slow-simmered Umbrian lentil soup with rosemary, garlic, celery and tomato — warming, protein-rich and deeply earthy. A drizzle of olive oil and a slice of toasted bread transform it into a complete meal.",
+    "cuisine": "italian",
+    "country": "italy",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 40,
+    "totalTimeMinutes": 55,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "brown or green lentils (masoor dal or any whole lentil)",
+        "normalizedName": "masoor-dal",
+        "quantity": 350,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion, diced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "celery stalks, sliced",
+        "normalizedName": "celery",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "carrot, diced",
+        "normalizedName": "carrot",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ripe tomatoes, chopped, or canned tomatoes",
+        "normalizedName": "tomato",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "vegetable stock or water",
+        "normalizedName": "stock",
+        "quantity": 1500,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "dried rosemary",
+        "normalizedName": "rosemary",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "bay leaf",
+        "normalizedName": "bay-leaf",
+        "quantity": 2,
+        "unit": "leaf",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "black pepper, freshly cracked",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "bread, toasted, to serve",
+        "normalizedName": "bread",
+        "quantity": 6,
+        "unit": "slice",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Rinse the lentils under cold water until the water runs clear. If using regular masoor dal, no soaking is needed. Brown or green whole lentils benefit from 30 minutes soaking — they will cook more evenly.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Warm 3 tablespoons of olive oil in a large heavy-bottomed pot over medium heat. Add the onion, celery and carrot with a pinch of salt. Cook for 8 minutes until soft, fragrant and lightly golden.",
+        "timerMinutes": 8,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add the garlic and rosemary and stir for 1 minute until fragrant. Add the tomatoes and cook for 5 minutes, stirring occasionally, until they break down and the oil tints orange-red.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 4,
+        "text": "Add the rinsed lentils, bay leaves and all the stock. Bring to a boil over high heat, then reduce to a steady simmer. Partially cover and cook for 25–30 minutes until the lentils are completely tender and beginning to fall apart at the edges.",
+        "timerMinutes": 30,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Discard the bay leaves. For a creamier texture, use a ladle to scoop out one-third of the soup and blend until smooth, then stir it back in — this gives body without losing the whole lentils. Season generously with salt, pepper and a squeeze of lemon.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 6,
+        "text": "Ladle into deep bowls, drizzle generously with the remaining olive oil, crack over more black pepper and serve alongside a slice of toasted bread for dipping."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "blender"
+    ],
+    "methods": [
+      "sauteing",
+      "simmering",
+      "one-pot"
+    ],
+    "tags": [
+      "soup",
+      "healthy",
+      "budget",
+      "one-pot-meal",
+      "winter",
+      "comfort-food"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 290,
+      "protein": 16,
+      "carbs": 42,
+      "fat": 8,
+      "fiber": 13,
+      "sugar": 6,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "masoor-dal",
+        "substitute": "toor dal, moong dal or chana dal",
+        "notes": "toor dal gives a slightly softer, more soupy texture; all work well in this broth"
+      },
+      {
+        "ingredient": "celery",
+        "substitute": "the green tops of spring onion or leek",
+        "notes": "spring onion tops give freshness; leek gives sweetness similar to celery"
+      },
+      {
+        "ingredient": "rosemary",
+        "substitute": "dried thyme or a single bay leaf extra",
+        "notes": "rosemary is distinctive here; thyme is the closest substitute"
+      },
+      {
+        "ingredient": "bread",
+        "substitute": "toasted roti or thick papad",
+        "notes": "toasted roti torn and dunked in the soup makes a thoroughly satisfying meal"
+      }
+    ],
+    "culturalNote": "Lentil soup is a staple of Umbria and central Italy, where the famous Castelluccio lentils — tiny, quick-cooking and sweet — grow at high altitude. The soup is a Good Luck dish eaten on New Year's Eve all over Italy.",
+    "regionalVariation": "The Venetian version uses wine and a splash of balsamic vinegar; Tuscan recipes add kale (cavolo nero) for the last 10 minutes of cooking; Southern Italian versions stir in pasta or rice to make a heartier one-pot meal.",
+    "indianKitchenAdaptation": "Use masoor dal (whole red lentils with skin, not the split orange variety) for the closest texture to Italian lentils. Toor dal also works but gives a slightly different flavour. Make this in a pressure cooker for speed: sauté the vegetables in the cooker base on medium flame, add tomatoes and cook 3 minutes, then add lentils and stock, seal and cook for 4 whistles on medium heat. Open after pressure releases, check and adjust consistency. The pressure-cooker method cuts cook time from 30 to 12 minutes.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  }
+]

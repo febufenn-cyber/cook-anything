@@ -1,0 +1,3568 @@
+[
+  {
+    "id": "ca-bengali-machher-jhol",
+    "slug": "bengali-machher-jhol",
+    "title": "Bengali Machher Jhol",
+    "nativeTitle": "মাছের ঝোল",
+    "description": "A light, turmeric-gold fish curry from Bengal, cooked in pungent mustard oil with potatoes and a thin tomato gravy. Rohu or katla are the traditional choices, though any firm river fish soaks up the kalonji-scented broth equally well.",
+    "cuisine": "bengali",
+    "country": "india",
+    "region": "bengal",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "pescatarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rohu or katla fish steaks",
+        "normalizedName": "fish",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "potato, cut into thick wedges",
+        "normalizedName": "potato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, roughly chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "fresh ginger, grated into paste",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "kalonji (nigella seeds)",
+        "normalizedName": "kalonji",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "green chilli, slit lengthwise",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mustard oil",
+        "normalizedName": "mustard-oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 400,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Rub the fish steaks all over with half the turmeric and a generous pinch of salt. Leave to marinate for 10 minutes while you chop the tomatoes and cut the potatoes.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Heat mustard oil in a kadai over high flame until it turns pale and the sharp raw smell mellows. Carefully lower the fish pieces in and shallow-fry until golden and firm on both sides, about 3 minutes per side. Remove and set on a plate.",
+        "timerMinutes": 6,
+        "method": "shallow-frying"
+      },
+      {
+        "order": 3,
+        "text": "Reduce to medium flame. Add the kalonji and slit green chillies to the same oil and let them splutter for 20 seconds. Add the potato wedges and fry, turning occasionally, until lightly golden on the cut sides, about 3 minutes.",
+        "timerMinutes": 3,
+        "method": "tempering"
+      },
+      {
+        "order": 4,
+        "text": "Add the tomatoes, remaining turmeric, red chilli powder and ginger paste. Stir well and cook on medium until the tomatoes collapse and the oil rises to the surface, about 4 minutes.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 5,
+        "text": "Pour in 400 ml water and season with salt. Bring to a rolling boil, then cover and simmer on medium until the potatoes are just tender when pierced with a knife, about 8 minutes.",
+        "timerMinutes": 8,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Slide the fried fish pieces into the gravy. Simmer uncovered for 5 minutes, spooning the gravy over the fish without breaking the steaks. The jhol should remain thin and golden.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 7,
+        "text": "Taste for salt, scatter coriander leaves over the top, and rest 5 minutes before serving. Ladle the jhol generously over hot steamed rice and eat immediately."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "shallow-frying",
+      "simmering",
+      "tempering"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "budget"
+    ],
+    "allergens": [
+      "fish",
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 270,
+      "protein": 30,
+      "carbs": 14,
+      "fat": 10,
+      "fiber": 2,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "fish",
+        "substitute": "600 g paneer cubes for a vegetarian version",
+        "notes": "fry paneer for 2 minutes only; it needs far less simmer time"
+      },
+      {
+        "ingredient": "mustard-oil",
+        "substitute": "any neutral cooking oil",
+        "notes": "mustard oil is the signature aroma; refined oil produces a milder curry"
+      },
+      {
+        "ingredient": "potato",
+        "substitute": "raw banana wedges",
+        "notes": "add 2 extra minutes to the simmering step as raw banana takes longer to soften"
+      }
+    ],
+    "culturalNote": "Jhol means a thin, pourable curry in Bengali — machher jhol is the quintessential weekday fish dish eaten at lunch across West Bengal and Bangladesh, always served over steamed rice.",
+    "regionalVariation": "Versions from Dhaka use more mustard oil and sometimes add a split raw mango for tartness; Kolkata households tend to keep it simpler with tomato and no souring agent.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-bengali-shorshe-maach",
+    "slug": "bengali-shorshe-maach",
+    "title": "Shorshe Maach (Bengali Mustard Fish)",
+    "nativeTitle": "সর্ষে মাছ",
+    "description": "Thick white mustard paste clings to fish steaks simmered in their own pungent, fiery sauce — a dish that punches far above its ingredient count. Green chillies cut the bitterness of the mustard, while mustard oil doubles down on the character.",
+    "cuisine": "bengali",
+    "country": "india",
+    "region": "bengal",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "pescatarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rohu, katla or bhetki fish steaks",
+        "normalizedName": "fish",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "white mustard seeds (shorshe)",
+        "normalizedName": "mustard-seeds",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "soak in water 15 minutes before grinding"
+      },
+      {
+        "name": "green chilli",
+        "normalizedName": "green-chilli",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "mustard oil",
+        "normalizedName": "mustard-oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 150,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soak the mustard seeds in 4 tablespoons of water for 15 minutes so they grind smoothly. Rub the fish with half the turmeric and a pinch of salt and set aside.",
+        "timerMinutes": 15
+      },
+      {
+        "order": 2,
+        "text": "Drain and grind the soaked mustard seeds with 2 green chillies, remaining turmeric and a pinch of salt using a small blender or mortar. Add just enough water to bring it to a thick, smooth paste — about 50 ml.",
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Heat mustard oil in a kadai over high flame until it lightens in colour. Carefully shallow-fry the fish steaks until pale golden on both sides, about 2 minutes per side. Remove and rest on a plate.",
+        "timerMinutes": 4,
+        "method": "shallow-frying"
+      },
+      {
+        "order": 4,
+        "text": "Lower the flame to medium. Pour the mustard paste into the same kadai and stir for 1 minute to cook out the raw edge. Add the red chilli powder if using, and the remaining 2 slit green chillies.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 5,
+        "text": "Pour in 150 ml water, season with salt and bring to a gentle simmer. Carefully place the fried fish into the gravy in a single layer.",
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Cover and cook on low for 8 minutes. The mustard paste will thicken the gravy and the fish will absorb the pungent flavour. Do not stir — slide the kadai gently if needed.",
+        "timerMinutes": 8
+      },
+      {
+        "order": 7,
+        "text": "Uncover, drizzle 1 teaspoon of raw mustard oil over the top as a finishing note, and serve hot directly over steamed rice. Shorshe maach waits for no one."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "blender"
+    ],
+    "methods": [
+      "shallow-frying",
+      "simmering"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "budget"
+    ],
+    "allergens": [
+      "fish",
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 280,
+      "protein": 31,
+      "carbs": 3,
+      "fat": 15,
+      "fiber": 1,
+      "sugar": 1,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "fish",
+        "substitute": "firm tofu slabs (200 g) for a vegetarian adaptation",
+        "notes": "pat dry and fry tofu 3 minutes per side"
+      },
+      {
+        "ingredient": "mustard-seeds",
+        "substitute": "2 tbsp ready-made yellow mustard paste from a jar",
+        "notes": "reduce the water to 80 ml as the paste is already fluid"
+      },
+      {
+        "ingredient": "mustard-oil",
+        "substitute": "refined oil",
+        "notes": "the dish will taste noticeably milder; add an extra tbsp of mustard paste to compensate"
+      }
+    ],
+    "culturalNote": "Shorshe maach is a cornerstone of Bengali cooking, where mustard (shorshe) is treated as both a spice and a sauce base — a technique unique to Bengal in Indian cuisine.",
+    "regionalVariation": "Hilsa (ilish) is the most prized fish for this dish; its fatty flesh balances the sharpness of the mustard far better than lean varieties.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-bengali-kosha-mangsho",
+    "slug": "bengali-kosha-mangsho",
+    "title": "Kosha Mangsho (Bengali Dry Mutton Curry)",
+    "nativeTitle": "কষা মাংস",
+    "description": "A slow-cooked, oil-glistening Bengali mutton curry where the meat is braised until almost all the liquid is absorbed, leaving it coated in a deep mahogany masala. This is the dish Bengali households cook on special Sundays, demanding patience and rewarding generously.",
+    "cuisine": "bengali",
+    "country": "india",
+    "region": "bengal",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "hard",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 90,
+    "totalTimeMinutes": 120,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "mutton (bone-in curry pieces)",
+        "normalizedName": "mutton",
+        "quantity": 1,
+        "unit": "kg",
+        "optional": false
+      },
+      {
+        "name": "onion, finely sliced",
+        "normalizedName": "onion",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "curd (yogurt), beaten",
+        "normalizedName": "curd",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "bay leaf",
+        "normalizedName": "bay-leaf",
+        "quantity": 2,
+        "unit": "leaf",
+        "optional": false
+      },
+      {
+        "name": "cardamom pods",
+        "normalizedName": "cardamom",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cinnamon stick",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "mustard oil",
+        "normalizedName": "mustard-oil",
+        "quantity": 5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "jaggery or sugar",
+        "normalizedName": "jaggery",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "traditional; balances the heat"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Mix the mutton with beaten curd, ginger-garlic paste, red chilli powder, coriander powder, turmeric and salt in a large bowl. Massage the marinade into the meat thoroughly, cover and rest for at least 30 minutes at room temperature.",
+        "timerMinutes": 30,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Heat mustard oil in a heavy kadai or wide pot over high flame until it smokes and lightens. Add the bay leaves, cardamom, cinnamon and cloves — let them release their fragrance for 30 seconds.",
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add the sliced onions and cook on medium-high, stirring regularly, until they turn deep mahogany and caramelized, about 20 minutes. Do not rush this step — the colour of the kosha depends on it.",
+        "timerMinutes": 20,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Tip the marinated mutton (including all the marinade) into the kadai. Increase heat to high and stir constantly for 5 minutes, sealing the meat and letting the water from the marinade evaporate.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 5,
+        "text": "Reduce to low. Cover tightly and cook for 40 minutes, stirring every 10 minutes and adding a splash of water (2–3 tbsp at a time) only if the masala threatens to scorch. The meat will release its own juices.",
+        "timerMinutes": 40,
+        "method": "braising"
+      },
+      {
+        "order": 6,
+        "text": "Uncover and increase heat to medium. Continue stirring and cooking for 15 minutes more until the gravy has dried down to a thick, clinging coat on every piece of meat and oil pools around the edges. Add jaggery if using.",
+        "timerMinutes": 15,
+        "method": "slow-cooking"
+      },
+      {
+        "order": 7,
+        "text": "Sprinkle garam masala, stir once, and turn off the heat. Kosha mangsho rests well — serve after 10 minutes with luchi, paratha or steamed rice."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "marinating",
+      "braising",
+      "tempering",
+      "sauteing",
+      "slow-cooking"
+    ],
+    "tags": [
+      "comfort-food",
+      "dry-curry",
+      "party",
+      "winter",
+      "festival"
+    ],
+    "allergens": [
+      "dairy",
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein": 38,
+      "carbs": 8,
+      "fat": 26,
+      "fiber": 1,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "mutton",
+        "substitute": "bone-in chicken pieces (reduce total cook time to 50 minutes)",
+        "notes": "reduce the braising in step 5 to 20 minutes"
+      },
+      {
+        "ingredient": "mustard-oil",
+        "substitute": "any neutral cooking oil plus 1 tsp ghee for richness"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "2 tbsp thick coconut cream",
+        "notes": "the dish will taste less tangy; add a small squeeze of lemon at the end"
+      }
+    ],
+    "culturalNote": "Kosha mangsho literally means 'cooked-down meat' in Bengali — the long reduction is what distinguishes it from an ordinary curry, producing intensely concentrated flavour in each bite.",
+    "regionalVariation": "Some Kolkata families add a small amount of dark soy sauce for colour and depth; rural Bengal versions use a simpler spice palette with more whole dried red chillies.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-bengali-cholar-dal",
+    "slug": "bengali-cholar-dal",
+    "title": "Bengali Cholar Dal",
+    "nativeTitle": "ছোলার ডাল",
+    "description": "Sweetly spiced chana dal simmered until just creamy, then finished with a tempering of ghee, dried red chillies and shredded coconut — Bengal's festive lentil that appears beside luchi at every celebration from Durga Puja to weddings.",
+    "cuisine": "bengali",
+    "country": "india",
+    "region": "bengal",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "breakfast"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 40,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chana dal (Bengal gram), soaked 2 hours",
+        "normalizedName": "chana-dal",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "coconut, cut into small cubes or strips",
+        "normalizedName": "coconut",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "raisins",
+        "normalizedName": "raisin",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "dried red chillies, whole",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "bay leaf",
+        "normalizedName": "bay-leaf",
+        "quantity": 2,
+        "unit": "leaf",
+        "optional": false
+      },
+      {
+        "name": "cardamom pods",
+        "normalizedName": "cardamom",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cinnamon stick",
+        "normalizedName": "cinnamon",
+        "quantity": 0.5,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "jaggery or sugar",
+        "normalizedName": "jaggery",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "adds a subtle sweetness traditional in Bengali dal"
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 600,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Drain the soaked chana dal and transfer to a pressure cooker. Add 600 ml water, turmeric and salt, close the lid and pressure-cook on medium until 2 whistles. Let the pressure release naturally for 10 minutes — the dal should be soft but the grains still holding their shape.",
+        "timerMinutes": 20,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "Open the cooker and check the dal: it should be creamy when pressed between fingers but not mashed. If it is still firm, pressure-cook for 1 more whistle. Set the cooked dal aside.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Heat ghee in a kadai over medium flame. Add the bay leaves, cardamom, cinnamon and cloves and let them sizzle for 30 seconds until aromatic. Add the dried red chillies — they will puff up in 10 seconds.",
+        "timerMinutes": 1,
+        "method": "tempering"
+      },
+      {
+        "order": 4,
+        "text": "Add the coconut strips and stir-fry for 2 minutes until they take on a faint golden colour. Add the raisins if using — they will plump up in 30 seconds.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 5,
+        "text": "Pour the cooked dal into the kadai and stir to combine with the tempered ghee and coconut. Add jaggery and simmer for 5 minutes, adjusting consistency with a splash of water if needed. The dal should be semi-thick, not soupy.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Taste and adjust salt and jaggery. Serve warm alongside luchi or steamed rice. Cholar dal is equally good the next day when the spices have deepened."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "kadai"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "tempering",
+      "simmering"
+    ],
+    "tags": [
+      "festival",
+      "comfort-food",
+      "budget"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 290,
+      "protein": 12,
+      "carbs": 38,
+      "fat": 10,
+      "fiber": 8,
+      "sugar": 6,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "ghee",
+        "substitute": "coconut oil for a dairy-free version",
+        "notes": "the dish will taste lighter but equally fragrant"
+      },
+      {
+        "ingredient": "chana-dal",
+        "substitute": "yellow split peas (cook 5 minutes longer under pressure)"
+      },
+      {
+        "ingredient": "jaggery",
+        "substitute": "1 tsp sugar or a few ripe raisins for sweetness"
+      }
+    ],
+    "culturalNote": "Cholar dal is inseparable from the Bengali festive plate — it is the obligatory partner to luchi during Durga Puja pandal meals and is considered the dal of celebration rather than everyday eating.",
+    "regionalVariation": "Muslim Bengali households sometimes add a small pinch of green cardamom powder at the end rather than whole spices; some families also add small fried potato cubes to the tempering.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-bengali-dim-er-dalna",
+    "slug": "bengali-dim-er-dalna",
+    "title": "Dim-er Dalna (Bengali Egg Curry)",
+    "nativeTitle": "ডিমের ডালনা",
+    "description": "Hard-boiled eggs deep-fried to a lacy golden skin and simmered in a potato-studded, warmly spiced Bengali gravy. This is humble weekday cooking elevated by careful spicing and the contrast between the crispy egg exterior and silky curry.",
+    "cuisine": "bengali",
+    "country": "india",
+    "region": "bengal",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 35,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "eggs, hard-boiled and peeled",
+        "normalizedName": "egg",
+        "quantity": 6,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "potato, cubed into 2 cm pieces",
+        "normalizedName": "potato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, chopped",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "bay leaf",
+        "normalizedName": "bay-leaf",
+        "quantity": 1,
+        "unit": "leaf",
+        "optional": false
+      },
+      {
+        "name": "mustard oil",
+        "normalizedName": "mustard-oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 300,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Score the surface of each peeled egg with 3 shallow cuts and rub all over with a pinch of turmeric and salt. This helps the skin colour evenly and the curry sauce cling to the eggs.",
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Heat mustard oil in a kadai over high flame until pale. Shallow-fry the eggs, rolling them, until golden-brown on all sides, about 4 minutes. Fry the potato cubes in the same oil until lightly golden, 3 minutes. Set both aside.",
+        "timerMinutes": 7,
+        "method": "shallow-frying"
+      },
+      {
+        "order": 3,
+        "text": "Add the bay leaf and cumin seeds to the remaining oil over medium heat. Let them crackle for 20 seconds, then add the onions. Cook until the onions turn golden-brown, stirring frequently, about 8 minutes.",
+        "timerMinutes": 8,
+        "method": "tempering"
+      },
+      {
+        "order": 4,
+        "text": "Add ginger-garlic paste and cook, stirring, for 2 minutes until the raw smell disappears. Add the tomato with a pinch of salt and cook until it breaks down and oil separates from the masala, about 4 minutes.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 5,
+        "text": "Lower the flame. Add turmeric, red chilli powder and coriander powder, stir for 30 seconds to toast the spices without burning. Add the fried potato cubes and coat in the masala.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 6,
+        "text": "Pour in 300 ml water, season with salt and bring to a boil. Add the fried eggs, cover and simmer on medium for 10 minutes until the potatoes are fully cooked and the gravy coats a spoon lightly.",
+        "timerMinutes": 10,
+        "method": "simmering"
+      },
+      {
+        "order": 7,
+        "text": "Sprinkle garam masala, stir gently and switch off. Let the dim-er dalna rest 5 minutes — it improves noticeably. Serve over steamed rice or with luchi."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "shallow-frying",
+      "simmering",
+      "tempering"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "budget",
+      "lunchbox"
+    ],
+    "allergens": [
+      "egg",
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 310,
+      "protein": 18,
+      "carbs": 15,
+      "fat": 20,
+      "fiber": 2,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "egg",
+        "substitute": "firm paneer cubes (200 g) for a paneer dalna",
+        "notes": "do not score paneer; fry 2 minutes per side only"
+      },
+      {
+        "ingredient": "mustard-oil",
+        "substitute": "any neutral cooking oil",
+        "notes": "the Bengali character comes largely from the mustard oil"
+      },
+      {
+        "ingredient": "potato",
+        "substitute": "parboiled cauliflower florets",
+        "notes": "reduce the simmering time to 6 minutes"
+      }
+    ],
+    "culturalNote": "Dalna refers to a semi-thick Bengali curry style; dim-er dalna is the go-to egg dish for households that observe non-vegetarian restrictions on certain days of the week.",
+    "regionalVariation": "Some coastal Bengali families add a pinch of sugar to the gravy for a slight sweetness; the Dhaka version is often spicier and may include a whole green chilli in the gravy.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-bengali-luchi",
+    "slug": "bengali-luchi",
+    "title": "Luchi (Bengali Deep-Fried Puffed Bread)",
+    "nativeTitle": "লুচি",
+    "description": "Gossamer-thin rounds of maida dough deep-fried in hot oil until they balloon into golden pillows. Luchi are the celebratory bread of Bengal — lighter than puri, crisper at the edges, and irresistible alongside cholar dal or any Bengali curry.",
+    "cuisine": "bengali",
+    "country": "india",
+    "region": "bengal",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "tiffin",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "maida (all-purpose flour)",
+        "normalizedName": "maida",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "oil or ghee for the dough",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "ghee gives a richer flavour"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "warm water",
+        "normalizedName": "water",
+        "quantity": 150,
+        "unit": "ml",
+        "optional": false,
+        "notes": "add gradually until a soft dough forms"
+      },
+      {
+        "name": "oil for deep-frying",
+        "normalizedName": "oil",
+        "quantity": 500,
+        "unit": "ml",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Combine maida, salt and 2 tbsp oil in a large bowl. Rub the oil into the flour with your fingertips until the mixture resembles fine breadcrumbs. Add warm water a little at a time, kneading into a smooth, soft dough that does not stick to your hands. Rest covered for 15 minutes.",
+        "timerMinutes": 15
+      },
+      {
+        "order": 2,
+        "text": "Divide the dough into 16 equal balls. Roll each ball on a lightly oiled surface (not floured) into a thin, even round of about 12 cm diameter. Avoid making the edges thicker than the centre.",
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a kadai or deep frying pan to 180 degrees C — a small piece of dough dropped in should rise immediately and sizzle. Slide one luchi into the oil and press the centre gently with the back of a slotted spoon; this helps it puff.",
+        "method": "deep-frying"
+      },
+      {
+        "order": 4,
+        "text": "Fry for 30 seconds until the luchi is puffed and pale golden, then flip and fry 20 seconds more. It should remain white to very pale gold — do not let it brown. Remove and drain on paper.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 5,
+        "text": "Repeat with the remaining discs, frying in batches of 2 at a time. Luchi deflate as they cool so serve them immediately, carried straight from the oil to the plate."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "frying-pan"
+    ],
+    "methods": [
+      "deep-frying"
+    ],
+    "tags": [
+      "festival",
+      "comfort-food",
+      "kids-friendly"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 310,
+      "protein": 5,
+      "carbs": 44,
+      "fat": 13,
+      "fiber": 1,
+      "sugar": 1,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "maida",
+        "substitute": "half maida and half wheat flour for a slightly more nutritious luchi",
+        "notes": "the texture will be less delicate and luchis may not puff as dramatically"
+      },
+      {
+        "ingredient": "oil",
+        "substitute": "ghee for rubbing into the dough",
+        "notes": "ghee adds a distinctive richness traditional in Kolkata street luchi"
+      }
+    ],
+    "culturalNote": "Luchi is to Bengali cuisine what puri is to North India — but made exclusively with white flour, making it lighter and more festive. It is served at weddings, religious gatherings and Sunday breakfasts across Bengal.",
+    "regionalVariation": "Some families rest the dough longer (30 minutes) for a more elastic luchi; Dhaka-style luchi is slightly larger and thicker than the Kolkata variety.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-bengali-mishti-doi",
+    "slug": "bengali-mishti-doi",
+    "title": "Mishti Doi (Bengali Baked Sweet Curd)",
+    "nativeTitle": "মিষ্টি দই",
+    "description": "Whole milk reduced to a silken concentrate, sweetened with caramelised jaggery and set slowly in residual oven heat until it trembles like a delicate panna cotta. Mishti doi is Bengal's most beloved dessert — its colour the warm amber of aged caramel.",
+    "cuisine": "bengali",
+    "country": "india",
+    "region": "bengal",
+    "language": "en",
+    "mealType": [
+      "dessert"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 45,
+    "totalTimeMinutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "full-fat milk",
+        "normalizedName": "milk",
+        "quantity": 1,
+        "unit": "l",
+        "optional": false
+      },
+      {
+        "name": "jaggery, grated",
+        "normalizedName": "jaggery",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false,
+        "notes": "or substitute with 80 g sugar for a paler doi"
+      },
+      {
+        "name": "curd (yogurt) as starter",
+        "normalizedName": "curd",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Preheat the oven to 60 degrees C or its lowest setting. If your oven cannot go this low, you can use the residual heat method — heat it to 100 degrees C then switch it off just before placing the doi inside.",
+        "method": "baking"
+      },
+      {
+        "order": 2,
+        "text": "Pour the milk into a heavy saucepan and bring to a rolling boil. Reduce heat to medium-low and stir frequently, scraping the sides, until the milk reduces to about 700 ml and feels noticeably thicker. This takes about 20 minutes.",
+        "timerMinutes": 20,
+        "method": "simmering"
+      },
+      {
+        "order": 3,
+        "text": "Add the grated jaggery to the hot reduced milk and stir until completely dissolved. The milk will turn a warm caramel-brown colour. Cool the mixture to 45 degrees C — it should feel just warm, not hot, on your wrist.",
+        "timerMinutes": 15
+      },
+      {
+        "order": 4,
+        "text": "Whisk the curd starter until smooth, then stir it thoroughly into the cooled milk mixture. Pour immediately into ceramic bowls, small ramekins or clay pots — do not move them after this point.",
+        "method": "fermenting"
+      },
+      {
+        "order": 5,
+        "text": "Place the filled pots in the preheated oven (or just-switched-off warm oven). Leave undisturbed for 6 to 8 hours or overnight in a warm room-temperature spot if your oven cannot maintain low heat. The doi is ready when the surface holds a spoon without collapsing.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 6,
+        "text": "Refrigerate for at least 2 hours before serving cold. Mishti doi keeps well covered in the refrigerator for up to 2 days."
+      }
+    ],
+    "cookware": [
+      "saucepan",
+      "oven"
+    ],
+    "methods": [
+      "simmering",
+      "baking",
+      "fermenting"
+    ],
+    "tags": [
+      "festival",
+      "sweet",
+      "kids-friendly",
+      "summer"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 180,
+      "protein": 7,
+      "carbs": 28,
+      "fat": 5,
+      "fiber": 0,
+      "sugar": 24,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "jaggery",
+        "substitute": "condensed milk (150 ml) — omit added sugar",
+        "notes": "stir condensed milk into warm reduced milk; the colour will be paler gold"
+      },
+      {
+        "ingredient": "milk",
+        "substitute": "full-fat coconut milk for a vegan doi",
+        "notes": "use 2 tbsp coconut-based yogurt as starter; set time may be 1 to 2 hours longer"
+      }
+    ],
+    "culturalNote": "Mishti doi is served in small clay matkas across Bengal — the porous clay absorbs moisture, firming the curd and lending a subtle earthy note that sweet shops have replicated for centuries.",
+    "regionalVariation": "Kolkata sweet-shop style mishti doi is very thick and caramel-dark; suburban versions are paler and more yogurt-like in texture, using sugar instead of jaggery.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-bengali-aloo-bhaja",
+    "slug": "bengali-aloo-bhaja",
+    "title": "Bengali Aloo Bhaja (Crispy Fried Potatoes)",
+    "nativeTitle": "আলু ভাজা",
+    "description": "Paper-thin potato slices fried in smoking mustard oil with kalonji until shatteringly crisp at the edges and golden throughout. The Bengali approach to fried potatoes is minimal and addictive — a daily side dish that disappears faster than it is made.",
+    "cuisine": "bengali",
+    "country": "india",
+    "region": "bengal",
+    "language": "en",
+    "mealType": [
+      "side",
+      "snack",
+      "lunch"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 25,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "medium potatoes, peeled",
+        "normalizedName": "potato",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "kalonji (nigella seeds)",
+        "normalizedName": "kalonji",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "mustard oil",
+        "normalizedName": "mustard-oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Slice the potatoes into very thin rounds, about 2 to 3 mm thick. A sharp knife or mandoline is ideal. Rinse the slices in cold water to remove excess starch, then pat completely dry with a kitchen cloth.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Heat mustard oil in a tawa or wide frying pan over high flame until it turns pale and a faint smoke appears. Add the kalonji and let it sizzle for 5 seconds.",
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Working in batches, lay the potato slices in a single layer. Sprinkle turmeric, chilli powder and salt over the top. Fry on high without disturbing for 3 minutes until the undersides are golden.",
+        "timerMinutes": 3,
+        "method": "shallow-frying"
+      },
+      {
+        "order": 4,
+        "text": "Flip each slice and fry the other side for 2 to 3 minutes until crisp and golden-brown at the edges. The centres may remain slightly softer than the edges — that contrast is the joy of aloo bhaja. Remove and drain briefly.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 5,
+        "text": "Repeat with remaining slices. Serve immediately alongside dal and rice — aloo bhaja loses its crispness within 10 minutes and does not reheat well."
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "frying-pan"
+    ],
+    "methods": [
+      "shallow-frying",
+      "tempering"
+    ],
+    "tags": [
+      "budget",
+      "quick",
+      "under-30-minutes",
+      "comfort-food",
+      "dry-curry"
+    ],
+    "allergens": [
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 195,
+      "protein": 3,
+      "carbs": 24,
+      "fat": 10,
+      "fiber": 3,
+      "sugar": 1,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "mustard-oil",
+        "substitute": "coconut oil for a milder version",
+        "notes": "heat coconut oil until lightly smoking before adding the potatoes"
+      },
+      {
+        "ingredient": "kalonji",
+        "substitute": "cumin seeds (1/4 tsp)",
+        "notes": "cumin gives a North Indian character; kalonji is the authentic Bengali choice"
+      },
+      {
+        "ingredient": "potato",
+        "substitute": "raw banana sliced thin",
+        "notes": "fry 1 minute longer per side as raw banana is denser"
+      }
+    ],
+    "culturalNote": "Bhaja means fried in Bengali — the mustard oil and kalonji are the minimal but essential markers that distinguish this from a generic potato fry and make it distinctly Bengali.",
+    "regionalVariation": "Coastal Bengali families may use a pinch of panch phoron (five-spice blend) in place of kalonji alone; some homes omit turmeric entirely for a purer starchy flavour.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-bengali-begun-bhaja",
+    "slug": "bengali-begun-bhaja",
+    "title": "Bengali Begun Bhaja (Spiced Fried Brinjal)",
+    "nativeTitle": "বেগুন ভাজা",
+    "description": "Thick brinjal rounds coated in a light spice rub and shallow-fried in mustard oil until caramel-dark on the outside and meltingly tender within. A beloved Bengali side dish that turns a single humble vegetable into something worth eating on its own.",
+    "cuisine": "bengali",
+    "country": "india",
+    "region": "bengal",
+    "language": "en",
+    "mealType": [
+      "side",
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 25,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "large brinjal (eggplant)",
+        "normalizedName": "brinjal",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false,
+        "notes": "choose a large, heavy brinjal for thick rounds"
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mustard oil",
+        "normalizedName": "mustard-oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Slice the brinjal into rounds about 1 cm thick. Sprinkle salt generously over both sides and rest on a rack or colander for 8 minutes — moisture will bead on the surface. Pat dry with a cloth.",
+        "timerMinutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Mix turmeric and red chilli powder in a small bowl with a pinch of salt. Dust both sides of each brinjal round lightly with the spice mix, pressing gently so it adheres."
+      },
+      {
+        "order": 3,
+        "text": "Heat mustard oil in a tawa or wide frying pan over medium-high flame until the oil smells nutty and pale smoke appears. Arrange the brinjal rounds in a single layer without overcrowding.",
+        "method": "shallow-frying"
+      },
+      {
+        "order": 4,
+        "text": "Fry undisturbed for 4 minutes until the underside is deep golden-brown and the rounds have shrunk slightly. Flip carefully and fry the other side for 3 to 4 minutes. The centre should press easily — if it is still firm, reduce the flame and cover for 1 minute.",
+        "timerMinutes": 8
+      },
+      {
+        "order": 5,
+        "text": "Remove and serve immediately or at room temperature beside dal-bhaat. Do not stack the pieces on top of each other or the crust will soften."
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "frying-pan"
+    ],
+    "methods": [
+      "shallow-frying"
+    ],
+    "tags": [
+      "budget",
+      "quick",
+      "under-30-minutes",
+      "comfort-food",
+      "dry-curry",
+      "low-oil"
+    ],
+    "allergens": [
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 130,
+      "protein": 2,
+      "carbs": 10,
+      "fat": 10,
+      "fiber": 4,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "brinjal",
+        "substitute": "thick rounds of ridge gourd or raw banana",
+        "notes": "both work well with the same spice rub and frying method"
+      },
+      {
+        "ingredient": "mustard-oil",
+        "substitute": "coconut oil",
+        "notes": "add 1 extra pinch of turmeric to compensate for the reduced pungency"
+      }
+    ],
+    "culturalNote": "Begun bhaja is so fundamental to Bengali cooking that it is served at the very start of the meal as a palate opener — placed before the dal and rice arrive so diners eat it at its crispest.",
+    "regionalVariation": "Puja-day versions omit the red chilli for a milder profile; some households coat the slices with a thin layer of rice flour before frying for extra crunch.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-kashmiri-rogan-josh",
+    "slug": "kashmiri-rogan-josh",
+    "title": "Kashmiri Rogan Josh",
+    "nativeTitle": null,
+    "description": "Braised lamb in a rust-red sauce of Kashmiri dried chillies, aromatic whole spices and whisked curd — the centrepiece of Wazwan, Kashmir's grand ceremonial feast. The vivid colour comes entirely from dried chillies rather than tomatoes, giving rogan josh its distinctive clean heat and clarity.",
+    "cuisine": "kashmiri",
+    "country": "india",
+    "region": "kashmir",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "hard",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 90,
+    "totalTimeMinutes": 110,
+    "servings": 5,
+    "ingredients": [
+      {
+        "name": "mutton (bone-in pieces, 5 cm)",
+        "normalizedName": "mutton",
+        "quantity": 800,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "curd (full-fat yogurt), whisked smooth",
+        "normalizedName": "curd",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "Kashmiri red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "use Kashmiri mirch for deep colour without excessive heat"
+      },
+      {
+        "name": "dried whole Kashmiri red chillies, soaked 10 min",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "fennel seeds (saunf)",
+        "normalizedName": "fennel",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried ginger powder (sonth)",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "dry ginger powder; do not substitute with fresh ginger"
+      },
+      {
+        "name": "green cardamom pods",
+        "normalizedName": "cardamom",
+        "quantity": 5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cinnamon stick",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "bay leaf",
+        "normalizedName": "bay-leaf",
+        "quantity": 2,
+        "unit": "leaf",
+        "optional": false
+      },
+      {
+        "name": "mustard oil",
+        "normalizedName": "mustard-oil",
+        "quantity": 5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 300,
+        "unit": "ml",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat mustard oil in a heavy-bottomed pot over high flame until it turns pale and smokes lightly. Add the bay leaves, cardamom, cloves and cinnamon — let them sizzle for 30 seconds until fragrant.",
+        "method": "tempering"
+      },
+      {
+        "order": 2,
+        "text": "Add the mutton pieces and sear on high heat, turning every 2 minutes, until well browned all over, about 10 minutes. The browning builds the foundational flavour of the dish.",
+        "timerMinutes": 10,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Reduce heat to medium-low. Add the Kashmiri chilli powder, dried ginger powder and fennel seeds. Stir for 1 minute to coat the meat without letting the spices burn.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 4,
+        "text": "Squeeze the soaked dried chillies and add them to the pot. Add the whisked curd one tablespoon at a time, stirring constantly after each addition so the curd does not split. Once all the curd is incorporated, stir vigorously for 2 minutes on medium flame.",
+        "timerMinutes": 3,
+        "method": "braising"
+      },
+      {
+        "order": 5,
+        "text": "Pour in 300 ml water and season with salt. Bring to a boil, then cover tightly and reduce to a low simmer. Cook for 60 minutes, stirring every 15 minutes and adding a small splash of water only if the pot looks dry.",
+        "timerMinutes": 60,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Uncover and check the mutton — it should be fork-tender and the oil should be floating in pools of deep red on the surface. If the gravy is too thin, simmer uncovered for 10 more minutes to concentrate it.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 7,
+        "text": "Taste for salt and rest 10 minutes before serving. Rogan josh is served with steamed basmati rice or Kashmiri naan — the rich red gravy stains the rice a pale coral when mixed."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "braising",
+      "simmering",
+      "tempering",
+      "sauteing"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "party",
+      "winter",
+      "festival"
+    ],
+    "allergens": [
+      "dairy",
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 440,
+      "protein": 36,
+      "carbs": 5,
+      "fat": 30,
+      "fiber": 1,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "mutton",
+        "substitute": "bone-in chicken pieces — reduce simmering to 35 minutes",
+        "notes": "rogan josh is traditionally lamb or mutton but chicken absorbs the spices beautifully"
+      },
+      {
+        "ingredient": "mustard-oil",
+        "substitute": "ghee (same quantity)",
+        "notes": "ghee gives a richer, less pungent base"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "100 ml thick coconut cream added after searing",
+        "notes": "stir in the same way to prevent splitting; the dish will taste less tangy"
+      }
+    ],
+    "culturalNote": "Rogan josh is the crown jewel of Kashmiri Wazwan — the multi-course ceremonial feast cooked by professional chefs called wazas. The dish takes its name from the Persian rogan (oil) and josh (heat or passion).",
+    "regionalVariation": "The Kashmiri Pandit version omits onion and garlic entirely, relying on asafoetida and dry ginger; the Muslim Wazwan version uses fried onion paste for a richer, darker gravy.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-kashmiri-dum-aloo",
+    "slug": "kashmiri-dum-aloo",
+    "title": "Kashmiri Dum Aloo",
+    "nativeTitle": null,
+    "description": "Small potatoes deep-fried until dimpled and golden, then slow-cooked in a vivid scarlet gravy of Kashmiri chilli and fennel-scented yogurt. Unlike the North Indian version, Kashmiri dum aloo contains no onion or garlic — the heat is tempered by yogurt and the warmth of whole spices.",
+    "cuisine": "kashmiri",
+    "country": "india",
+    "region": "kashmir",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 45,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "small potatoes (golf-ball size), boiled and peeled",
+        "normalizedName": "potato",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "curd (yogurt), whisked smooth",
+        "normalizedName": "curd",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "Kashmiri red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "Kashmiri mirch gives colour without fierce heat"
+      },
+      {
+        "name": "fennel seeds (saunf), ground",
+        "normalizedName": "fennel",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried ginger powder (sonth)",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cardamom pods",
+        "normalizedName": "cardamom",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "asafoetida (hing)",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mustard oil",
+        "normalizedName": "mustard-oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 200,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pierce each boiled potato all over with a fork or toothpick — this allows the gravy to penetrate the skin. Mix the Kashmiri chilli powder with 1 tbsp of water to form a paste and set aside.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Heat mustard oil in a kadai over high flame until pale. Deep-fry or shallow-fry the pierced potatoes in batches, turning, until the skins are puckered and golden-brown, about 6 minutes per batch. Remove and drain.",
+        "timerMinutes": 12,
+        "method": "deep-frying"
+      },
+      {
+        "order": 3,
+        "text": "Reduce oil in the same kadai to 3 tbsp. Add the cloves, cardamom and a pinch of asafoetida over medium heat. Let them sizzle for 20 seconds. Add the chilli paste and stir for 1 minute — the oil will turn brilliant red.",
+        "timerMinutes": 1,
+        "method": "tempering"
+      },
+      {
+        "order": 4,
+        "text": "Add the whisked curd one tablespoon at a time, stirring vigorously after each addition to prevent splitting. Continue adding until all the curd is in; the sauce should look creamy and rust-red.",
+        "timerMinutes": 3,
+        "method": "sauteing"
+      },
+      {
+        "order": 5,
+        "text": "Add the ground fennel, dried ginger powder and turmeric. Stir to combine, then pour in 200 ml water and season with salt. Bring to a simmer.",
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Add the fried potatoes to the gravy. Cover tightly and cook on low for 20 minutes (dum cooking) — the potatoes will absorb the red sauce and swell. Lift the lid and check the gravy consistency; it should coat the potatoes thickly.",
+        "timerMinutes": 20,
+        "method": "dum"
+      },
+      {
+        "order": 7,
+        "text": "Taste for salt and serve with steamed basmati rice. The potatoes will have turned a deep mahogany-red and should be yielding all the way through when squeezed gently."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "deep-frying",
+      "dum",
+      "tempering",
+      "simmering"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "festival",
+      "no-onion-no-garlic"
+    ],
+    "allergens": [
+      "dairy",
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 280,
+      "protein": 6,
+      "carbs": 32,
+      "fat": 14,
+      "fiber": 4,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "mustard-oil",
+        "substitute": "ghee",
+        "notes": "ghee gives a richer, milder base; use the same quantity"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "100 ml full-fat coconut milk for a dairy-free version",
+        "notes": "add all at once rather than spoon by spoon; stir gently to avoid splitting"
+      },
+      {
+        "ingredient": "potato",
+        "substitute": "baby potatoes or cubed large potatoes",
+        "notes": "fry cubed potatoes for only 4 minutes; piercing is still important"
+      }
+    ],
+    "culturalNote": "Kashmiri dum aloo is cooked without any onion or garlic, making it acceptable for Hindu Kashmiri Pandits who traditionally avoid these alliums. The dish is a staple at Yagnopavit ceremonies and Navratri feasts.",
+    "regionalVariation": "Some Kashmiri families use a tiny amount of milk in place of curd for a milder, creamier sauce; the Jammu version often adds a small amount of onion paste for a different character.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-kashmiri-yakhni",
+    "slug": "kashmiri-yakhni",
+    "title": "Kashmiri Yakhni (Curd-Braised Mutton Stew)",
+    "nativeTitle": null,
+    "description": "A serene, ivory-coloured mutton stew from Kashmir where the entire depth of flavour comes from aromatic whole spices and whisked yogurt rather than tomatoes or chilli powder. Yakhni is deliberately mild, demonstrating the Wazwan philosophy that restraint in spicing can produce extraordinary flavour.",
+    "cuisine": "kashmiri",
+    "country": "india",
+    "region": "kashmir",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 75,
+    "totalTimeMinutes": 90,
+    "servings": 5,
+    "ingredients": [
+      {
+        "name": "mutton (bone-in pieces)",
+        "normalizedName": "mutton",
+        "quantity": 750,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "curd (full-fat yogurt), whisked",
+        "normalizedName": "curd",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "fennel seeds (saunf)",
+        "normalizedName": "fennel",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried ginger powder (sonth)",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "green cardamom pods",
+        "normalizedName": "cardamom",
+        "quantity": 6,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "black cardamom (badi elaichi)",
+        "normalizedName": "cardamom",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cinnamon stick",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "bay leaf",
+        "normalizedName": "bay-leaf",
+        "quantity": 2,
+        "unit": "leaf",
+        "optional": false
+      },
+      {
+        "name": "asafoetida (hing)",
+        "normalizedName": "asafoetida",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 500,
+        "unit": "ml",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat ghee in a heavy-bottomed pot over medium flame. Add the asafoetida, then the bay leaves, both types of cardamom, cloves and cinnamon. Let them sizzle for 30 seconds — the ghee will become wonderfully fragrant.",
+        "method": "tempering"
+      },
+      {
+        "order": 2,
+        "text": "Add the mutton pieces and brown on all sides over high heat, turning every 2 minutes, for about 8 minutes. The surface should be pale brown, not dark — yakhni should remain light in colour.",
+        "timerMinutes": 8,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add the fennel seeds and dried ginger powder, stir for 30 seconds. Reduce heat to medium-low. Add the whisked curd two tablespoons at a time, stirring constantly and waiting for each addition to be absorbed before the next. This prevents curdling.",
+        "timerMinutes": 5,
+        "method": "braising"
+      },
+      {
+        "order": 4,
+        "text": "Once all the curd is incorporated, pour in 500 ml water and season with salt. Stir gently and bring to a slow boil.",
+        "method": "boiling"
+      },
+      {
+        "order": 5,
+        "text": "Cover and simmer on the lowest possible flame for 50 minutes, stirring once every 15 minutes. The mutton is done when it falls easily from the bone and the gravy is fragrant and slightly thickened. Do not let the gravy boil vigorously or the yogurt will split.",
+        "timerMinutes": 50,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Taste for salt and serve the yakhni in wide bowls over steamed basmati rice. The gravy should be a pale, almost ivory colour with pools of ghee on top — that is correct and desirable."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "braising",
+      "simmering",
+      "tempering",
+      "sauteing"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "winter",
+      "festival",
+      "no-onion-no-garlic"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 390,
+      "protein": 34,
+      "carbs": 6,
+      "fat": 25,
+      "fiber": 0,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "mutton",
+        "substitute": "bone-in chicken pieces — reduce simmering to 30 minutes",
+        "notes": "yakhni with chicken is lighter and cooks much faster"
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "neutral cooking oil",
+        "notes": "ghee is integral to the richness of this dish; substitute only if necessary"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "100 ml evaporated milk whisked with 2 tbsp lemon juice",
+        "notes": "the flavour will be less tangy; adjust salt accordingly"
+      }
+    ],
+    "culturalNote": "Yakhni is one of the oldest preparations in the Wazwan and the gentlest — Kashmiri families serve it to convalescing family members and new mothers for its restorative, easy-to-digest character.",
+    "regionalVariation": "Some Kashmiri Pandit families add a small piece of dried lotus root (nadroo) to the stew for texture; restaurant versions often enrich the gravy with a spoonful of cream at the end.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-kashmiri-rajma",
+    "slug": "kashmiri-rajma",
+    "title": "Kashmiri Rajma",
+    "nativeTitle": null,
+    "description": "Small, dark Kashmiri kidney beans slow-cooked in a thick gravy of onions, dried ginger, fennel and warm spices — a dish with a character entirely different from the Punjabi version. The Kashmiri style is deeper in colour, drier in texture and fragrant with valley spices.",
+    "cuisine": "kashmiri",
+    "country": "india",
+    "region": "kashmir",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 60,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rajma (kidney beans), soaked overnight",
+        "normalizedName": "rajma",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "use small Kashmiri rajma if available; regular red kidney beans work too"
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, finely chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "dried ginger powder (sonth)",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "this is in addition to the fresh paste and is key to Kashmiri character"
+      },
+      {
+        "name": "Kashmiri red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fennel seeds, ground",
+        "normalizedName": "fennel",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "mustard oil",
+        "normalizedName": "mustard-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Drain the soaked rajma and pressure-cook with fresh water (covering by 5 cm) and salt for 4 to 5 whistles on medium flame. The beans should be completely tender but holding their shape. Drain and reserve the cooking liquid.",
+        "timerMinutes": 25,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "Heat mustard oil in a kadai over high flame until pale. Add the onions and cook on medium-high, stirring, until they turn deep golden, about 10 minutes.",
+        "timerMinutes": 10,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add ginger-garlic paste and cook until the raw smell disappears, about 2 minutes. Add the tomatoes with a pinch of salt and cook until they collapse and the oil separates, about 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 4,
+        "text": "Lower the flame and add Kashmiri chilli powder, coriander powder, ground fennel, dried ginger powder and turmeric. Stir for 30 seconds to bloom the spices without burning them.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 5,
+        "text": "Add the cooked rajma and 250 ml of the reserved cooking liquid. Stir to combine, cover and simmer on medium for 15 minutes, letting the beans absorb the masala and the gravy thicken.",
+        "timerMinutes": 15,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Taste for salt and sprinkle garam masala. Stir once and rest for 5 minutes. Finish with coriander leaves and serve with steamed rice or roti. Kashmiri rajma tastes even better the next day when the spices have deepened."
+      }
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "kadai"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "simmering",
+      "sauteing"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "budget",
+      "one-pot-meal"
+    ],
+    "allergens": [
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 320,
+      "protein": 16,
+      "carbs": 44,
+      "fat": 8,
+      "fiber": 12,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "rajma",
+        "substitute": "canned kidney beans (2 cans, 400 g each) — skip the pressure-cooking step",
+        "notes": "rinse canned beans well and add directly to the masala"
+      },
+      {
+        "ingredient": "mustard-oil",
+        "substitute": "any neutral cooking oil",
+        "notes": "the pungent depth will be softer; add a small pinch extra of garam masala to compensate"
+      },
+      {
+        "ingredient": "fennel",
+        "substitute": "cumin seeds (1 tsp)",
+        "notes": "omit fennel and use cumin for a Punjabi-style rajma instead"
+      }
+    ],
+    "culturalNote": "Rajma is grown widely in the Kashmir Valley and is considered a staple winter dish; the small dark-red Kashmiri variety has a thicker skin and earthier flavour than the larger Punjabi kidney bean.",
+    "regionalVariation": "Jammu-style rajma uses a thinner, tomato-forward gravy without fennel; the Valley version prefers a thicker, drier style with the spice palette of the Wazwan.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-goan-fish-curry",
+    "slug": "goan-fish-curry",
+    "title": "Goan Fish Curry",
+    "nativeTitle": null,
+    "description": "Coconut milk thickened with a freshly ground masala of coriander, cumin and dried chillies, sharpened with kokum for a tangy sourness that sets Goan curry apart from every other Indian coconut preparation. This is the curry that homesick Goans crave most when they leave.",
+    "cuisine": "goan",
+    "country": "india",
+    "region": "goa",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "pescatarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "firm fish (kingfish, pomfret or mackerel) steaks",
+        "normalizedName": "fish",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "coconut milk, thick",
+        "normalizedName": "coconut-milk",
+        "quantity": 400,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "grated coconut (or 60 g desiccated coconut)",
+        "normalizedName": "coconut",
+        "quantity": 6,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "kokum (3 to 4 pieces), soaked in 2 tbsp warm water",
+        "normalizedName": "kokum",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false,
+        "notes": "substitute with 1 tbsp tamarind pulp if unavailable"
+      },
+      {
+        "name": "dried red chillies (Byadgi or Kashmiri)",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "coriander seeds",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "onion, half roughly chopped for grinding, half sliced for frying",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Dry-roast the dried red chillies, coriander seeds and cumin for 2 minutes in a dry pan until aromatic. Transfer to a blender with the grated coconut, garlic cloves, half the roughly chopped onion and turmeric. Grind to a very smooth paste with a little water.",
+        "timerMinutes": 5,
+        "method": "roasting"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a kadai or wide saucepan over medium flame. Add the sliced half of the onion and cook until golden at the edges, about 5 minutes. Add the green chillies and fry for 30 seconds.",
+        "timerMinutes": 5,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add the ground coconut-chilli paste to the pan. Stir-fry over medium heat for 3 minutes until the paste darkens slightly and the oil separates around the edges.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 4,
+        "text": "Pour in the coconut milk and 100 ml water. Stir to combine, season with salt and bring to a gentle simmer. Do not let the curry boil vigorously after adding coconut milk or it may split.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Add the kokum pieces along with their soaking water. The curry will turn a faint pink-orange. Taste the sourness — add more kokum water if you prefer a sharper edge.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 6,
+        "text": "Slide the fish pieces into the simmering curry in a single layer. Cover and cook on medium-low for 10 minutes without stirring — move the pan occasionally to prevent sticking. The fish is done when it flakes at the thickest point when probed with a fork.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 7,
+        "text": "Switch off the heat and rest 5 minutes. Goan fish curry is best served the moment it is made, poured over steamed rice with a slice of kokum on the side."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "blender"
+    ],
+    "methods": [
+      "simmering",
+      "sauteing",
+      "roasting"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "festival"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "protein": 28,
+      "carbs": 12,
+      "fat": 22,
+      "fiber": 3,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "fish",
+        "substitute": "500 g prawns — reduce cooking to 5 minutes",
+        "notes": "prawns absorb the coconut-kokum gravy beautifully"
+      },
+      {
+        "ingredient": "kokum",
+        "substitute": "1 tbsp tamarind pulp",
+        "notes": "add tamarind at the same stage; the colour will be darker amber rather than pink"
+      },
+      {
+        "ingredient": "coconut-milk",
+        "substitute": "200 ml canned coconut cream diluted with 200 ml water",
+        "notes": "the curry will be richer and thicker; add a splash of water if needed"
+      }
+    ],
+    "culturalNote": "Goan fish curry is a daily staple across the coastal villages of Goa, eaten for lunch with red Goan rice (ukde tandul). Every family has a slightly different proportion of chillies to coconut, passed down through generations.",
+    "regionalVariation": "North Goan versions tend to be hotter with more dried red chillies; South Goan preparations use more coconut and tend to be creamier and slightly less tart.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-goan-chicken-vindaloo",
+    "slug": "goan-chicken-vindaloo",
+    "title": "Goan Chicken Vindaloo",
+    "nativeTitle": null,
+    "description": "A fiery, wine-dark Goan curry that balances searing heat with the sharp twang of vinegar and the depth of slow-fried onions and roasted spices. Vindaloo is not simply a hot curry — the vinegar is structural, tenderising the chicken and cutting through the fat in the same way wine does in a European braise.",
+    "cuisine": "goan",
+    "country": "india",
+    "region": "goa",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "very_hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 45,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken (bone-in curry pieces)",
+        "normalizedName": "chicken",
+        "quantity": 800,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion, finely sliced",
+        "normalizedName": "onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies (Byadgi + 2 hot Guntur)",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 10,
+        "unit": "piece",
+        "optional": false,
+        "notes": "use fewer chillies for a medium-hot version"
+      },
+      {
+        "name": "garlic cloves",
+        "normalizedName": "garlic",
+        "quantity": 8,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, roughly chopped",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cinnamon stick",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "black pepper",
+        "normalizedName": "black-pepper",
+        "quantity": 8,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "white vinegar (or toddy vinegar)",
+        "normalizedName": "vinegar",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "jaggery or sugar",
+        "normalizedName": "jaggery",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "balances the heat and vinegar"
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soak the dried red chillies in 3 tbsp warm vinegar for 15 minutes until soft. Transfer to a blender with garlic, ginger, cumin, cloves, cinnamon, black pepper and turmeric. Grind to a fine, smooth paste — the colour should be deep brick-red.",
+        "timerMinutes": 15,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Rub 2 tbsp of the vindaloo paste over the chicken pieces and marinate for at least 15 minutes (longer is better). Keep the remaining paste for the gravy.",
+        "timerMinutes": 15
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a kadai over medium-high flame. Add the sliced onions and cook, stirring frequently, until they turn a deep golden-brown, about 15 minutes. Do not rush — the caramelised onions give body and sweetness.",
+        "timerMinutes": 15,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Add the remaining vindaloo paste to the onions and stir-fry for 3 minutes until the oil separates and the paste smells roasted rather than raw.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 5,
+        "text": "Add the marinated chicken and any residual marinade. Increase heat to high and sear the pieces, turning, until every piece is coated in the red masala, about 5 minutes.",
+        "timerMinutes": 5,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 6,
+        "text": "Add 200 ml water, season with salt and add jaggery if using. Cover and simmer on medium for 20 minutes until the chicken is cooked through and the gravy is thick and intensely red. Stir once or twice to prevent sticking.",
+        "timerMinutes": 20,
+        "method": "simmering"
+      },
+      {
+        "order": 7,
+        "text": "Taste for salt, heat and sourness — add a few more drops of vinegar if you want more tang. Vindaloo improves overnight; serve the next day if possible, with steamed rice or crusty Goan pav."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "blender"
+    ],
+    "methods": [
+      "simmering",
+      "sauteing",
+      "kadai-cooking",
+      "marinating"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "party",
+      "festival"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 420,
+      "protein": 38,
+      "carbs": 10,
+      "fat": 24,
+      "fiber": 2,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "pork shoulder (750 g, cut into 4 cm cubes) — the original vindaloo protein",
+        "notes": "increase simmering to 45 minutes for pork to become tender"
+      },
+      {
+        "ingredient": "vinegar",
+        "substitute": "tamarind water (2 tbsp pulp dissolved in 3 tbsp water)",
+        "notes": "the dish will taste different but still authentically Goan"
+      },
+      {
+        "ingredient": "dried-red-chilli",
+        "substitute": "reduce to 4 Byadgi chillies and add 2 tsp Kashmiri chilli powder for colour",
+        "notes": "this produces a milder, family-friendly vindaloo"
+      }
+    ],
+    "culturalNote": "Vindaloo arrived in Goa with Portuguese sailors as carne de vinha d'alhos — meat in wine and garlic. Goan cooks replaced wine with palm toddy vinegar and added Indian spices, transforming it into a dish more alive than its ancestor.",
+    "regionalVariation": "The original Goan home vindaloo is drier and more intensely spiced than the restaurant version; some families seal the pot with dough for a slow dum-style braise that deepens the flavour further.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-goan-prawn-balchao",
+    "slug": "goan-prawn-balchao",
+    "title": "Goan Prawn Balchao",
+    "nativeTitle": null,
+    "description": "Prawns cooked in a thick, tangy, fiery spice paste of vinegar, dried chillies and aromatics until the sauce caramelises around them. Balchao is the Goan spiced pickle that doubles as a condiment — bold enough to be eaten in tiny amounts alongside rice or used as a relish.",
+    "cuisine": "goan",
+    "country": "india",
+    "region": "goa",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "pescatarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "very_hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "prawns, shelled and deveined",
+        "normalizedName": "prawn",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, finely chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies (hot variety)",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 8,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves",
+        "normalizedName": "garlic",
+        "quantity": 6,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cinnamon stick",
+        "normalizedName": "cinnamon",
+        "quantity": 0.5,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "white vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "jaggery or sugar",
+        "normalizedName": "jaggery",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "essential for the sweet-sour-hot balance"
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soak the dried red chillies in 3 tbsp vinegar for 15 minutes. Grind them with garlic, ginger, cumin, cloves, cinnamon and turmeric into a fine, fragrant paste using a blender or stone grinder.",
+        "timerMinutes": 15,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a kadai over medium-high flame. Add the onions and cook until they turn deep golden-brown, about 10 minutes. Stir frequently to prevent burning.",
+        "timerMinutes": 10,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add the ground spice paste and fry for 2 minutes until the raw smell vanishes and the paste darkens. Add the tomatoes and cook until they break down completely and the oil surfaces, about 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 4,
+        "text": "Add the remaining 1 tbsp vinegar and the jaggery. Stir and cook for 1 minute — the masala should be thick, dark and glossy. Season with salt.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 5,
+        "text": "Add the prawns and toss to coat them thoroughly in the balchao masala. Cook on high for 4 to 5 minutes, stirring, until the prawns are pink, curled and the sauce has reduced to cling tightly around each prawn.",
+        "timerMinutes": 5,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 6,
+        "text": "Taste for the balance of hot, sour and sweet — adjust with more vinegar or jaggery as needed. Balchao can be eaten immediately or stored covered for 2 days in the refrigerator, where it develops a deeper pickle-like intensity."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "blender"
+    ],
+    "methods": [
+      "sauteing",
+      "kadai-cooking"
+    ],
+    "tags": [
+      "comfort-food",
+      "dry-curry",
+      "festival",
+      "party"
+    ],
+    "allergens": [
+      "shellfish"
+    ],
+    "nutrition": {
+      "calories": 280,
+      "protein": 26,
+      "carbs": 12,
+      "fat": 14,
+      "fiber": 2,
+      "sugar": 6,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "prawn",
+        "substitute": "squid rings (500 g) — cook for only 3 minutes or they will toughen",
+        "notes": "squid balchao is equally popular in coastal Goa"
+      },
+      {
+        "ingredient": "vinegar",
+        "substitute": "tamarind water (3 tbsp pulp in 4 tbsp water)",
+        "notes": "the taste will be less sharp and more fruity"
+      },
+      {
+        "ingredient": "dried-red-chilli",
+        "substitute": "reduce to 4 chillies and add 2 tsp Kashmiri chilli powder for colour with less heat"
+      }
+    ],
+    "culturalNote": "Balchao is Goa's beloved preservation method — the original pickle version uses far more vinegar and oil and can be stored for weeks unrefrigerated, making it a practical pantry condiment for fishing communities.",
+    "regionalVariation": "The fish balchao made with dried salted fish is even more pungent and traditional; prawn balchao is the fresher, everyday version served at the family table.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-goan-xacuti",
+    "slug": "goan-xacuti",
+    "title": "Goan Chicken Xacuti",
+    "nativeTitle": null,
+    "description": "A complex, nutty curry built on a dry-roasted coconut and spice paste that includes poppy seeds, fennel and star anise for an aromatic depth unlike any other Indian coconut curry. Xacuti is the dish that demonstrates the full sophistication of Goan masala-making.",
+    "cuisine": "goan",
+    "country": "india",
+    "region": "goa",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "hard",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 50,
+    "totalTimeMinutes": 80,
+    "servings": 5,
+    "ingredients": [
+      {
+        "name": "chicken (bone-in pieces)",
+        "normalizedName": "chicken",
+        "quantity": 800,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "grated coconut (fresh or desiccated)",
+        "normalizedName": "coconut",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "onion — 1 sliced for paste, 1 sliced for curry",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves",
+        "normalizedName": "garlic",
+        "quantity": 6,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "dried red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 6,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "coriander seeds",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fennel seeds",
+        "normalizedName": "fennel",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "star anise",
+        "normalizedName": "star-anise",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cinnamon stick",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "sesame seeds (white)",
+        "normalizedName": "sesame-seeds",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "in Goa, poppy seeds are used; sesame seeds make an excellent substitute"
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 300,
+        "unit": "ml",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "In a dry kadai over medium flame, toast the grated coconut, stirring constantly, until it turns an even dark golden-brown, about 5 minutes. Watch carefully — the line between toasted and burnt is narrow. Transfer to a plate.",
+        "timerMinutes": 5,
+        "method": "roasting"
+      },
+      {
+        "order": 2,
+        "text": "In the same dry pan, toast the dried red chillies, coriander seeds, cumin, fennel, star anise, cloves and cinnamon for 2 minutes until aromatic. Add the sesame seeds and toast 30 seconds more. Cool slightly.",
+        "timerMinutes": 3,
+        "method": "roasting"
+      },
+      {
+        "order": 3,
+        "text": "Transfer the toasted spices and coconut to a blender. Add the 1 sliced onion (raw, not fried), garlic, ginger, turmeric and enough water to grind into a thick, smooth paste — about 80 ml water.",
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Heat oil in a heavy kadai over medium-high flame. Add the remaining sliced onion and fry until golden, about 8 minutes. Add the ground xacuti paste and cook, stirring, for 5 minutes until the oil separates and the paste smells roasted and nutty.",
+        "timerMinutes": 13,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Add the chicken pieces and turn to coat in the paste. Sear on high heat for 5 minutes, stirring, until the chicken no longer looks raw on the outside.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 6,
+        "text": "Add 300 ml water and salt. Bring to a boil, then cover and simmer on medium-low for 25 minutes until the chicken is cooked through and the gravy has thickened to a dark, mahogany consistency. Stir every 10 minutes.",
+        "timerMinutes": 25,
+        "method": "simmering"
+      },
+      {
+        "order": 7,
+        "text": "Taste for salt and rest 10 minutes before serving. Xacuti is best with steamed rice and a wedge of lime — the acidity lifts the rich coconut-spice gravy beautifully."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "blender"
+    ],
+    "methods": [
+      "roasting",
+      "simmering",
+      "kadai-cooking"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "party",
+      "festival",
+      "winter"
+    ],
+    "allergens": [
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 430,
+      "protein": 36,
+      "carbs": 14,
+      "fat": 26,
+      "fiber": 4,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "lamb shoulder pieces (800 g) — increase simmering to 55 minutes",
+        "notes": "xacuti paste works equally well with lamb or mutton"
+      },
+      {
+        "ingredient": "sesame-seeds",
+        "substitute": "cashews (6–8 nuts, broken) for a richer, creamier paste",
+        "notes": "dry-roast the cashews lightly before grinding"
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "4 tbsp desiccated coconut soaked in 2 tbsp hot water for 5 minutes",
+        "notes": "fresh grated coconut gives a better toasted flavour"
+      }
+    ],
+    "culturalNote": "Xacuti (pronounced sha-KOO-ti) is considered one of the most complex dishes in the Goan Catholic culinary tradition — the toasted coconut masala technique is the signature that separates it from any other Indian curry.",
+    "regionalVariation": "Some coastal villages use poppy seeds (khus khus) as the thickening seed in place of sesame; the xacuti paste can also be made with lamb, vegetables or jackfruit.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-goan-sorak-curry",
+    "slug": "goan-sorak-curry",
+    "title": "Goan Sorak Curry (Kokum-Coconut Vegetable Curry)",
+    "nativeTitle": null,
+    "description": "A light, kokum-soured coconut gravy from the Goan Catholic and Hindu coastal tradition, built around seasonal vegetables and a simple freshly ground coconut masala. Sorak is the everyday Goan curry that requires almost no time and delivers a sharp, refreshing coconut broth that is deeply satisfying.",
+    "cuisine": "goan",
+    "country": "india",
+    "region": "goa",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "drumstick pieces (cut into 6 cm lengths)",
+        "normalizedName": "drumstick",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false,
+        "notes": "can use potato, raw banana or brinjal instead"
+      },
+      {
+        "name": "grated coconut (fresh)",
+        "normalizedName": "coconut",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "kokum pieces, soaked in 3 tbsp warm water",
+        "normalizedName": "kokum",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false,
+        "notes": "substitute with 1 tbsp tamarind if unavailable"
+      },
+      {
+        "name": "dried red chillies (Byadgi)",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "coriander seeds",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "onion, roughly chopped",
+        "normalizedName": "onion",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "coconut oil",
+        "normalizedName": "coconut-oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 400,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Grind the grated coconut, dried red chillies, coriander seeds, cumin seeds, turmeric, garlic and roughly chopped onion together with 100 ml water into a very smooth, fine paste. The paste should be pale orange.",
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Heat coconut oil in a kadai or saucepan over medium flame. Add the green chillies and fry for 30 seconds. Add the ground coconut paste and stir-fry for 2 minutes until fragrant and slightly darker.",
+        "timerMinutes": 2,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 3,
+        "text": "Pour in 300 ml water and stir the paste into a smooth gravy. Season with salt and bring to a gentle simmer.",
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "Add the drumstick pieces. Cover and simmer on medium for 12 minutes until the drumsticks are tender — they should bend slightly and the flesh should pull away from the ribbed exterior easily.",
+        "timerMinutes": 12
+      },
+      {
+        "order": 5,
+        "text": "Add the kokum pieces and their soaking water. Simmer uncovered for 3 more minutes. The curry will take on a faint pink hue and a sharp, fruity sourness. Taste — a good sorak should balance coconut sweetness, chilli heat and kokum tartness.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 6,
+        "text": "Switch off and serve hot over steamed rice. Sorak curry is at its best freshly made — it is thinner than other coconut curries by design, meant to be drunk from the bowl like a light soup."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "blender"
+    ],
+    "methods": [
+      "simmering",
+      "kadai-cooking"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "budget",
+      "healthy",
+      "low-oil"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 190,
+      "protein": 3,
+      "carbs": 16,
+      "fat": 13,
+      "fiber": 5,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "drumstick",
+        "substitute": "potato (2 medium, cubed) — simmer 15 minutes instead of 12",
+        "notes": "any firm vegetable works in sorak; drumstick is most traditional"
+      },
+      {
+        "ingredient": "kokum",
+        "substitute": "1 tbsp tamarind pulp dissolved in 2 tbsp water",
+        "notes": "tamarind gives a darker colour and slightly more intense sourness"
+      },
+      {
+        "ingredient": "coconut-oil",
+        "substitute": "any neutral oil",
+        "notes": "coconut oil reinforces the coconut flavour; neutral oil is a fine substitute"
+      }
+    ],
+    "culturalNote": "Sorak (meaning sour curry in Konkani) is the daily curry of Goa's fishing communities — quick to make, cheap, and designed to pair with the red Goan parboiled rice that fuelled generations of coastal workers.",
+    "regionalVariation": "The Hindu Saraswat Brahmin version of sorak is purely vegetarian and often thinner; the Catholic version sometimes includes clams or small dried shrimp for an umami depth.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  }
+]

@@ -1,0 +1,3325 @@
+[
+  {
+    "id": "ca-ic-gobi-manchurian-dry",
+    "slug": "ic-gobi-manchurian-dry",
+    "title": "Gobi Manchurian Dry",
+    "nativeTitle": null,
+    "description": "Crispy cauliflower florets enveloped in a sticky, tangy Indo-Chinese sauce — soy-dark, vinegar-sharp and chilli-bright. This is the Indo-Chinese starter that shows up at every birthday party, dhaba and food court from Mumbai to Chennai.",
+    "cuisine": "indo-chinese",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack",
+      "side"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "cauliflower, cut into medium florets",
+        "normalizedName": "cauliflower",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "maida (all-purpose flour)",
+        "normalizedName": "maida",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cornflour",
+        "normalizedName": "cornflour",
+        "quantity": 5,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "4 tbsp for batter, 1 tsp reserved for sauce slurry"
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "divided: 1 tsp in batter, 1 tsp for sauce"
+      },
+      {
+        "name": "black pepper, freshly ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "capsicum, diced into 2 cm pieces",
+        "normalizedName": "capsicum",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, diced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "spring onion, whites and greens separated",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, slit lengthwise",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "white vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "tomato ketchup",
+        "normalizedName": "tomato-ketchup",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "schezwan sauce",
+        "normalizedName": "green-chilli-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "replace with extra chilli sauce if unavailable"
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": null,
+        "unit": null,
+        "optional": false,
+        "notes": "for deep frying plus 2 tbsp for the sauce"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Separate cauliflower into bite-sized florets and drop into lightly salted boiling water for 3 minutes. Drain and spread on a clean towel — blanching ensures the inside is cooked through so the exterior can fry to a crisp without burning.",
+        "timerMinutes": 3,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Combine maida, 4 tbsp cornflour, 1 tsp ginger-garlic paste, red chilli powder, black pepper and salt in a wide bowl. Add water one tablespoon at a time — about 5–6 tbsp total — whisking to a thick, smooth batter that coats the back of a spoon without dripping freely."
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a kadai to 175 °C. Dip each floret in batter, let the excess drip off, then slide into the hot oil. Fry in batches of 8–10 for 4 minutes until pale gold. Drain on a rack, raise oil to 190 °C and fry the florets a second time for 2 minutes until deeply golden and crackling.",
+        "timerMinutes": 6,
+        "method": "deep-frying"
+      },
+      {
+        "order": 4,
+        "text": "Mix 1 tsp cornflour with 2 tbsp cold water to form a slurry. In a small bowl stir together soy sauce, vinegar, ketchup, schezwan sauce and sugar — this is your sauce base."
+      },
+      {
+        "order": 5,
+        "text": "Heat 2 tbsp oil in a wok or the same kadai on the highest flame until just smoking. Add spring onion whites and green chilli and toss 20 seconds, then add remaining ginger-garlic paste, onion and capsicum. Stir-fry on high for 2 minutes keeping the vegetables slightly crunchy.",
+        "timerMinutes": 2,
+        "method": "stir-frying"
+      },
+      {
+        "order": 6,
+        "text": "Pour the sauce base into the wok and bring to a brisk bubble. Stir in the cornflour slurry and cook 30 seconds until the sauce thickens and turns glossy — it should coat a spoon."
+      },
+      {
+        "order": 7,
+        "text": "Tip the fried florets into the wok and toss vigorously so every piece is glazed. Scatter spring onion greens on top and serve immediately — Gobi Manchurian softens within minutes, so it must be eaten straight from the wok."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "wok"
+    ],
+    "methods": [
+      "boiling",
+      "deep-frying",
+      "stir-frying"
+    ],
+    "tags": [
+      "street-food",
+      "party",
+      "fried-snack",
+      "budget"
+    ],
+    "allergens": [
+      "gluten",
+      "soy"
+    ],
+    "nutrition": {
+      "calories": 220,
+      "protein": 5,
+      "carbs": 25,
+      "fat": 11,
+      "fiber": 3,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "cauliflower",
+        "substitute": "500 g broccoli florets or whole mushrooms",
+        "notes": "mushrooms need no blanching"
+      },
+      {
+        "ingredient": "green-chilli-sauce",
+        "substitute": "1 tbsp red chilli sauce or sambal oelek"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "coconut aminos for a lower-sodium option"
+      },
+      {
+        "ingredient": "maida",
+        "substitute": "rice flour for a crispier gluten-free batter"
+      }
+    ],
+    "culturalNote": "Gobi Manchurian was pioneered by Chinese-Indian cooks in Kolkata and Mumbai who adapted their stir-fry technique to Indian palates using local spices and cauliflower, creating one of the most beloved Indo-Chinese dishes on the subcontinent.",
+    "regionalVariation": "South Indian cities lean sweeter with more ketchup; Delhi versions are darker and more soy-forward. In Maharashtra, a squeeze of lime is added at the end.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-ic-chilli-chicken-dry",
+    "slug": "ic-chilli-chicken-dry",
+    "title": "Chilli Chicken Dry",
+    "nativeTitle": null,
+    "description": "Crisp-battered chicken cubes tossed in a blazing chilli-soy glaze with capsicum and onion — this is the definitive Indo-Chinese party starter that outsells everything else on every restaurant menu. Fiery, sticky and impossible to stop eating.",
+    "cuisine": "indo-chinese",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack",
+      "side"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "boneless chicken, cut into 2 cm cubes",
+        "normalizedName": "chicken",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "egg",
+        "normalizedName": "egg",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false,
+        "notes": "binds the batter"
+      },
+      {
+        "name": "cornflour",
+        "normalizedName": "cornflour",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "3 tbsp for batter, 1 tsp for sauce slurry"
+      },
+      {
+        "name": "maida (all-purpose flour)",
+        "normalizedName": "maida",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "1 tbsp in marinade, 2 tbsp in sauce"
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "1 tsp in marinade, 1 tsp for sauce"
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, freshly ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "capsicum, cut into 2 cm squares",
+        "normalizedName": "capsicum",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, quartered and petals separated",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "spring onion, whites and greens separated",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, slit lengthwise",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "schezwan sauce",
+        "normalizedName": "green-chilli-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "tomato ketchup",
+        "normalizedName": "tomato-ketchup",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "white vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": null,
+        "unit": null,
+        "optional": false,
+        "notes": "for deep frying plus 2 tbsp for stir-fry"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "In a large bowl combine the chicken with the egg, 3 tbsp cornflour, maida, 1 tbsp soy sauce, 1 tsp ginger-garlic paste, red chilli powder, black pepper and salt. Mix well so every piece is evenly coated. Marinate for 15 minutes at room temperature.",
+        "timerMinutes": 15,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a kadai to 175 °C. Lower marinated chicken pieces in batches — do not crowd — and fry for 5 minutes until cooked through and lightly golden. Drain on a rack.",
+        "timerMinutes": 5,
+        "method": "deep-frying"
+      },
+      {
+        "order": 3,
+        "text": "Raise the oil to 190 °C and fry the chicken a second time for 2 minutes until the coating is deeply golden and crisped at the edges. This double-fry is what gives the characteristic crunch. Drain and set aside.",
+        "timerMinutes": 2,
+        "method": "deep-frying"
+      },
+      {
+        "order": 4,
+        "text": "Mix 1 tsp cornflour with 2 tbsp cold water for a slurry. In a small bowl stir together remaining 2 tbsp soy sauce, vinegar, ketchup, schezwan sauce and sugar."
+      },
+      {
+        "order": 5,
+        "text": "Heat 2 tbsp oil in a wok on the highest flame. Add the spring onion whites and green chilli and toss for 20 seconds. Add remaining ginger-garlic paste, then the onion petals and capsicum. Stir-fry for 2 minutes on high heat — the vegetables should char at the edges but stay firm.",
+        "timerMinutes": 2,
+        "method": "stir-frying"
+      },
+      {
+        "order": 6,
+        "text": "Pour in the sauce blend and let it bubble up. Add the cornflour slurry and stir for 30 seconds until the sauce turns thick and lacquered."
+      },
+      {
+        "order": 7,
+        "text": "Add the fried chicken and toss on high heat for 1 minute until every piece is glazed and the sauce clings tightly. Finish with spring onion greens and serve immediately as a starter or snack.",
+        "timerMinutes": 1
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "wok"
+    ],
+    "methods": [
+      "marinating",
+      "deep-frying",
+      "stir-frying"
+    ],
+    "tags": [
+      "street-food",
+      "party",
+      "fried-snack"
+    ],
+    "allergens": [
+      "gluten",
+      "soy",
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 295,
+      "protein": 24,
+      "carbs": 16,
+      "fat": 14,
+      "fiber": 1,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "500 g paneer or tofu for a vegetarian version",
+        "notes": "reduce frying time by 1 minute"
+      },
+      {
+        "ingredient": "egg",
+        "substitute": "3 tbsp curd for the batter, skip the egg",
+        "notes": "batter will be slightly softer"
+      },
+      {
+        "ingredient": "green-chilli-sauce",
+        "substitute": "1 tbsp gochujang thinned with a splash of vinegar"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "coconut aminos or tamari for a gluten-free option"
+      }
+    ],
+    "culturalNote": "Chilli Chicken is credited to Nelson Wang of the China Garden restaurant in Mumbai, who reportedly invented it in 1975 for an Indian customer who wanted something different — and inadvertently kick-started the entire Indo-Chinese food movement.",
+    "regionalVariation": "Kolkata-style chilli chicken uses a lighter batter and more vinegar for a tangier finish; South Indian versions add curry leaves to the toss.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-ic-chilli-paneer",
+    "slug": "ic-chilli-paneer",
+    "title": "Chilli Paneer",
+    "nativeTitle": null,
+    "description": "Golden-fried cubes of paneer tossed with capsicum and onion in a bold chilli-soy sauce — the vegetarian answer to Chilli Chicken and just as popular. The paneer absorbs the sauce while staying creamy inside and lightly crisped on the outside.",
+    "cuisine": "indo-chinese",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack",
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 35,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "paneer, cut into 2 cm cubes",
+        "normalizedName": "paneer",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "cornflour",
+        "normalizedName": "cornflour",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "3 tbsp for batter, 1 tsp for sauce slurry"
+      },
+      {
+        "name": "maida (all-purpose flour)",
+        "normalizedName": "maida",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, freshly ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "divided between batter and sauce"
+      },
+      {
+        "name": "capsicum, cut into 2 cm squares",
+        "normalizedName": "capsicum",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, quartered and layers separated",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "spring onion, whites and greens separated",
+        "normalizedName": "spring-onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "white vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "tomato ketchup",
+        "normalizedName": "tomato-ketchup",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "schezwan sauce",
+        "normalizedName": "green-chilli-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": null,
+        "unit": null,
+        "optional": false,
+        "notes": "3 tbsp for shallow-frying paneer plus 1 tbsp for sauce"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "In a bowl mix 3 tbsp cornflour, maida, 1 tsp ginger-garlic paste, red chilli powder, black pepper and salt. Add just enough water — about 3 tbsp — to make a thick batter. Coat the paneer cubes in this batter, pressing gently so the batter adheres."
+      },
+      {
+        "order": 2,
+        "text": "Heat 3 tbsp oil in a wide kadai or frying pan on medium-high. Place battered paneer cubes in a single layer and shallow-fry for 2 minutes per side until golden and slightly crisp on all faces. Remove and keep warm — do not drain on paper towel or the steam will soften the crust.",
+        "timerMinutes": 6,
+        "method": "shallow-frying"
+      },
+      {
+        "order": 3,
+        "text": "Mix 1 tsp cornflour with 2 tbsp cold water for a slurry. Combine soy sauce, vinegar, ketchup, schezwan sauce and sugar in a small bowl."
+      },
+      {
+        "order": 4,
+        "text": "In the same kadai, add 1 tbsp oil on high heat. Add spring onion whites and green chilli and stir for 20 seconds. Add remaining ginger-garlic paste, onion layers and capsicum and stir-fry for 2 minutes on the highest flame until slightly charred at the edges.",
+        "timerMinutes": 2,
+        "method": "stir-frying"
+      },
+      {
+        "order": 5,
+        "text": "Pour in the sauce blend and bring to a rapid bubble. Stir in the cornflour slurry and cook 30 seconds until the sauce thickens into a glossy, clingy coat."
+      },
+      {
+        "order": 6,
+        "text": "Add the fried paneer and toss gently so every cube is coated without crumbling. Check salt and adjust. Scatter spring onion greens on top and serve at once — as a starter, or alongside fried rice or noodles."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "frying-pan"
+    ],
+    "methods": [
+      "shallow-frying",
+      "stir-frying"
+    ],
+    "tags": [
+      "street-food",
+      "party",
+      "comfort-food"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten",
+      "soy"
+    ],
+    "nutrition": {
+      "calories": 320,
+      "protein": 14,
+      "carbs": 20,
+      "fat": 20,
+      "fiber": 1,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "paneer",
+        "substitute": "firm tofu pressed and dried, for a vegan version",
+        "notes": "mark dairy-free; use soy-free sauce too"
+      },
+      {
+        "ingredient": "maida",
+        "substitute": "rice flour for a gluten-free batter"
+      },
+      {
+        "ingredient": "green-chilli-sauce",
+        "substitute": "1 tbsp sriracha or sambal oelek"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "coconut aminos"
+      }
+    ],
+    "culturalNote": "Chilli Paneer emerged as the vegetarian flagship of the Indo-Chinese food scene, giving non-meat eaters the same fiery, saucy experience as Chilli Chicken and cementing Indo-Chinese as the preferred cuisine for Indian vegetarians seeking bold flavours.",
+    "regionalVariation": "In Bengaluru the dish often includes a handful of cashews tossed in at the end; Kolkata versions may add a light fish sauce note.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-ic-veg-hakka-noodles",
+    "slug": "ic-veg-hakka-noodles",
+    "title": "Veg Hakka Noodles",
+    "nativeTitle": null,
+    "description": "Thin wheat noodles stir-fried on a blazing flame with shredded cabbage, carrot, capsicum and spring onion, seasoned with soy sauce, vinegar and green chilli — the quintessential Indo-Chinese meal that is faster than ordering a takeaway and better than most.",
+    "cuisine": "indo-chinese",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 25,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "hakka noodles (dried)",
+        "normalizedName": "noodles",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "cabbage, finely shredded",
+        "normalizedName": "cabbage",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "carrot, julienned",
+        "normalizedName": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "capsicum, thinly sliced",
+        "normalizedName": "capsicum",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "spring onion, whites and greens separated",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, thinly sliced",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, finely chopped",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, finely chopped",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "white vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "green chilli sauce",
+        "normalizedName": "green-chilli-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, freshly ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sesame oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "for finishing; gingelly oil is the same as sesame oil"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Boil a large pot of water with 1 tsp salt. Add the hakka noodles and cook according to pack directions — typically 4–5 minutes — until al dente; they should still have a faint bite. Drain immediately, run under cold water, and toss with 1 tsp oil to prevent sticking.",
+        "timerMinutes": 5,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Prep all vegetables before heating the wok: shred cabbage finely, julienne the carrot, slice capsicum into thin strips, separate spring onion whites from greens. Everything goes in fast once the wok is hot, so nothing can wait."
+      },
+      {
+        "order": 3,
+        "text": "Heat 3 tbsp oil in a wok or large kadai on the highest flame available until lightly smoking. Add garlic, ginger and green chilli and toss for 20 seconds until fragrant — do not let garlic colour.",
+        "method": "stir-frying"
+      },
+      {
+        "order": 4,
+        "text": "Add sliced onion and spring onion whites and stir-fry for 1 minute. Add carrot strips next, stir for 30 seconds, then throw in cabbage and capsicum. Toss constantly on high heat for 2 minutes — the vegetables must stay slightly firm and bright.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 5,
+        "text": "Push the vegetables to one side. Add soy sauce, vinegar, chilli sauce and black pepper to the centre of the wok — let them sizzle for 10 seconds, then toss everything together to coat the vegetables evenly."
+      },
+      {
+        "order": 6,
+        "text": "Add the drained noodles and toss vigorously using tongs or two ladles, lifting from the bottom so the noodles do not clump. Stir-fry for 2 minutes until the noodles are lightly toasted and fragrant. Adjust salt, drizzle sesame oil if using, and finish with spring onion greens.",
+        "timerMinutes": 2
+      }
+    ],
+    "cookware": [
+      "wok",
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "boiling",
+      "stir-frying"
+    ],
+    "tags": [
+      "quick",
+      "under-30-minutes",
+      "bachelor-friendly",
+      "lunchbox",
+      "budget",
+      "comfort-food"
+    ],
+    "allergens": [
+      "gluten",
+      "soy"
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein": 9,
+      "carbs": 56,
+      "fat": 13,
+      "fiber": 4,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "noodles",
+        "substitute": "200 g spaghetti boiled to al dente, or rice noodles for a gluten-free version"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "coconut aminos"
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "a few drops of any nut oil for the finishing aroma"
+      },
+      {
+        "ingredient": "cabbage",
+        "substitute": "bean sprouts or thinly sliced mushrooms"
+      }
+    ],
+    "culturalNote": "Hakka noodles take their name from the Hakka Chinese community that settled in Tangra, Kolkata in the early 20th century. Their wok-cooking techniques blended with Indian spice sensibilities to produce a dish that is now more Indian than Chinese.",
+    "regionalVariation": "Kolkata Hakka noodles are milder and more garlicky; Mumbai-style versions tend to be spicier and often include a dash of schezwan sauce in the toss.",
+    "indianKitchenAdaptation": "A large kadai on the highest gas burner works as well as a wok — the key is sufficient heat. Do not add extra water; let the high heat and soy sauce do the work.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-ic-schezwan-fried-rice",
+    "slug": "ic-schezwan-fried-rice",
+    "title": "Schezwan Fried Rice",
+    "nativeTitle": null,
+    "description": "Day-old rice stir-fried with egg, colourful vegetables and a generous spoonful of schezwan sauce — smoky, hot and addictive. The red-tinged grains that come from a blazing wok have a distinct char that no restaurant version can beat when made fresh at home.",
+    "cuisine": "indo-chinese",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 25,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "cooked long grain rice, cooled (day-old is best)",
+        "normalizedName": "rice",
+        "quantity": 3,
+        "unit": "cup",
+        "optional": false,
+        "notes": "about 1 cup raw; must be fully cooled to fry without clumping"
+      },
+      {
+        "name": "eggs, lightly beaten",
+        "normalizedName": "egg",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "carrot, finely diced",
+        "normalizedName": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "capsicum, finely diced",
+        "normalizedName": "capsicum",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "spring onion, whites and greens separated",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, finely chopped",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, finely chopped",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "schezwan sauce",
+        "normalizedName": "green-chilli-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "white vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, freshly ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sesame oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "for finishing"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "If cooking rice fresh, use 1 cup rice to 1.5 cups water in a pressure cooker for 2 whistles, then spread on a tray and cool completely — at least 30 minutes. Day-old refrigerated rice works even better since it is fully dried out and will fry without clumping.",
+        "timerMinutes": 30,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "Heat 1 tbsp oil in a wok on the highest flame. Pour in the beaten eggs and scramble quickly, breaking into small pieces. Once just set but still slightly soft, push to the side of the wok."
+      },
+      {
+        "order": 3,
+        "text": "Add remaining 2 tbsp oil to the empty side. Add garlic, ginger and green chilli and toss for 20 seconds. Add onion and spring onion whites and stir-fry for 1 minute.",
+        "timerMinutes": 1,
+        "method": "stir-frying"
+      },
+      {
+        "order": 4,
+        "text": "Add carrot and capsicum and toss on high heat for 2 minutes until barely tender but still bright. Mix in the scrambled egg from the side."
+      },
+      {
+        "order": 5,
+        "text": "Add the schezwan sauce, soy sauce, vinegar and black pepper directly onto the vegetables and let them sizzle for 10 seconds. Toss to coat everything evenly."
+      },
+      {
+        "order": 6,
+        "text": "Add the cooled rice and press it gently across the wok surface. Let it sit undisturbed for 30 seconds to develop light caramelization on the bottom, then toss and repeat twice. The grains should be separate, lightly toasted and deeply red from the sauce. Adjust salt, drizzle sesame oil if using, scatter spring onion greens and serve at once.",
+        "timerMinutes": 3
+      }
+    ],
+    "cookware": [
+      "wok",
+      "kadai",
+      "pressure-cooker"
+    ],
+    "methods": [
+      "pressure-cooking",
+      "stir-frying"
+    ],
+    "tags": [
+      "quick",
+      "under-30-minutes",
+      "bachelor-friendly",
+      "lunchbox",
+      "budget",
+      "leftover-friendly"
+    ],
+    "allergens": [
+      "gluten",
+      "soy",
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "protein": 10,
+      "carbs": 54,
+      "fat": 11,
+      "fiber": 2,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "egg",
+        "substitute": "50 g crumbled paneer or tofu for a vegetarian version",
+        "notes": "mark as vegetarian if using paneer"
+      },
+      {
+        "ingredient": "green-chilli-sauce",
+        "substitute": "2 tbsp sambal oelek mixed with a few drops of vinegar"
+      },
+      {
+        "ingredient": "rice",
+        "substitute": "cooked cauliflower rice for a lower-carb version"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "coconut aminos"
+      }
+    ],
+    "culturalNote": "Schezwan Fried Rice is the Indo-Chinese adaptation of Chinese chao fan, ramped up with the fiery schezwan sauce that Indian cooks developed locally — a Chinese name, an Indian ingredient palette, and a flavour that exists only in India.",
+    "regionalVariation": "In Chennai the schezwan sauce is often home-ground from dried red chillies, garlic and Sichuan pepper; in Delhi, bottled schezwan sauce is universal.",
+    "indianKitchenAdaptation": "A large kadai on maximum gas flame works perfectly. The key trick is dry, cooled rice and high heat — never add water during stir-frying.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-ic-veg-manchurian-gravy",
+    "slug": "ic-veg-manchurian-gravy",
+    "title": "Veg Manchurian Gravy",
+    "nativeTitle": null,
+    "description": "Soft vegetable balls made from grated cabbage, carrot and paneer float in a dark, aromatic Indo-Chinese gravy that is meant to be ladled over steamed rice or noodles. This gravy version is richer and saucier than the dry snack and is considered the full meal form of Manchurian.",
+    "cuisine": "indo-chinese",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "cabbage, very finely grated",
+        "normalizedName": "cabbage",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "carrot, very finely grated",
+        "normalizedName": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, finely minced",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 3,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "1 tsp for balls, 2 tsp for gravy"
+      },
+      {
+        "name": "maida (all-purpose flour)",
+        "normalizedName": "maida",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cornflour",
+        "normalizedName": "cornflour",
+        "quantity": 5,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "3 tbsp for balls, 2 tbsp for gravy slurry"
+      },
+      {
+        "name": "black pepper, freshly ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "capsicum, finely diced",
+        "normalizedName": "capsicum",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "spring onion, whites and greens separated",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "white vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "tomato ketchup",
+        "normalizedName": "tomato-ketchup",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "schezwan sauce",
+        "normalizedName": "green-chilli-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": null,
+        "unit": null,
+        "optional": false,
+        "notes": "for deep frying plus 2 tbsp for the gravy"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Squeeze the grated cabbage and carrot firmly in your fists over the sink to remove as much moisture as possible — the drier the vegetables, the firmer the balls will be. Transfer to a bowl and mix in 1 tsp ginger-garlic paste, green chilli, 3 tbsp maida, 3 tbsp cornflour, black pepper and salt. The mixture should hold its shape when pressed; add the remaining 1 tbsp maida if it is too wet."
+      },
+      {
+        "order": 2,
+        "text": "Shape heaped tablespoons of mixture into smooth balls — you should get about 16. If they crack, moisten your palms slightly and re-roll. Place on a plate while you heat the oil.",
+        "method": "deep-frying"
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a kadai to 170 °C. Slide balls in batches of 5–6 and fry for 4–5 minutes, turning gently, until golden all over and firm when pressed. Drain on a rack — do not pierce them with a skewer or the steam will escape.",
+        "timerMinutes": 5,
+        "method": "deep-frying"
+      },
+      {
+        "order": 4,
+        "text": "Make a cornflour slurry by whisking 2 tbsp cornflour into 4 tbsp cold water. In a bowl, combine soy sauce, vinegar, ketchup, schezwan sauce and sugar."
+      },
+      {
+        "order": 5,
+        "text": "Heat 2 tbsp oil in a wok or kadai on high flame. Add spring onion whites, then 2 tsp ginger-garlic paste, onion and capsicum and stir-fry for 2 minutes.",
+        "timerMinutes": 2,
+        "method": "stir-frying"
+      },
+      {
+        "order": 6,
+        "text": "Pour in the sauce blend and 400 ml hot water and bring to a boil. Stir in the cornflour slurry and simmer for 2 minutes until the gravy is thick enough to coat the back of a spoon — it should be glossy and pourable, not gel-like.",
+        "timerMinutes": 2,
+        "method": "simmering"
+      },
+      {
+        "order": 7,
+        "text": "Gently lower the fried balls into the gravy and simmer 2 minutes so they absorb the sauce and become slightly softer on the outside while staying firm at the core. Taste for salt, ladle over steamed rice or noodles and top with spring onion greens.",
+        "timerMinutes": 2
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "wok"
+    ],
+    "methods": [
+      "deep-frying",
+      "stir-frying",
+      "simmering"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "party",
+      "budget"
+    ],
+    "allergens": [
+      "gluten",
+      "soy"
+    ],
+    "nutrition": {
+      "calories": 230,
+      "protein": 5,
+      "carbs": 28,
+      "fat": 11,
+      "fiber": 3,
+      "sugar": 6,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "cabbage",
+        "substitute": "200 g mushrooms, finely chopped",
+        "notes": "squeeze moisture out the same way"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "coconut aminos"
+      },
+      {
+        "ingredient": "maida",
+        "substitute": "rice flour for gluten-free balls",
+        "notes": "balls will be slightly more delicate"
+      },
+      {
+        "ingredient": "green-chilli-sauce",
+        "substitute": "1 tbsp sriracha"
+      }
+    ],
+    "culturalNote": "The Manchurian family of dishes — both dry and gravy — is one of the great inventions of India's Chinese-Indian community. The gravy form is the original restaurant presentation, meant to be shared as a side dish alongside fried rice.",
+    "regionalVariation": "In Kolkata the gravy tends to be lighter and more subtle; Mumbai-style is darker and punchy with heavier soy and schezwan seasoning.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-ic-dragon-chicken",
+    "slug": "ic-dragon-chicken",
+    "title": "Dragon Chicken",
+    "nativeTitle": null,
+    "description": "Double-fried chicken strips in a fiery, lightly sweet sauce studded with crunchy cashews — a South Indian Indo-Chinese specialty that is hotter and crunchier than regular chilli chicken. The combination of deep-fried nuts and glazed chicken makes it uniquely addictive.",
+    "cuisine": "indo-chinese",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack",
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "very_hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "boneless chicken breast or thigh, cut into thin strips",
+        "normalizedName": "chicken",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "egg, lightly beaten",
+        "normalizedName": "egg",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cornflour",
+        "normalizedName": "cornflour",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "3 tbsp for batter, 1 tsp for sauce slurry"
+      },
+      {
+        "name": "maida (all-purpose flour)",
+        "normalizedName": "maida",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, freshly ground",
+        "normalizedName": "black-pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cashews, halved",
+        "normalizedName": "cashew",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "capsicum, sliced into thin strips",
+        "normalizedName": "capsicum",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, sliced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "spring onion, whites and greens separated",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, slit lengthwise",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "schezwan sauce",
+        "normalizedName": "green-chilli-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "tomato ketchup",
+        "normalizedName": "tomato-ketchup",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "white vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": null,
+        "unit": null,
+        "optional": false,
+        "notes": "for deep frying plus 2 tbsp for stir-frying"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "In a bowl whisk together the egg, 3 tbsp cornflour, maida, ginger-garlic paste, 1 tsp red chilli powder, black pepper and salt into a thick batter. Add the chicken strips and toss to coat thoroughly. Marinate for 15 minutes.",
+        "timerMinutes": 15,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a kadai to 170 °C. Slide the chicken strips in batches of 6–8 and fry for 4 minutes until just cooked and pale gold. Drain. Raise the oil to 190 °C and fry the strips a second time for 2 minutes until very crispy. Drain on a rack.",
+        "timerMinutes": 6,
+        "method": "deep-frying"
+      },
+      {
+        "order": 3,
+        "text": "In the same hot oil (reduce to 160 °C), fry the cashew halves for 90 seconds until golden. Remove immediately and drain — cashews continue cooking off the heat so pull them slightly before they look done.",
+        "timerMinutes": 2,
+        "method": "deep-frying"
+      },
+      {
+        "order": 4,
+        "text": "Make a slurry with 1 tsp cornflour and 2 tbsp cold water. Combine soy sauce, schezwan sauce, ketchup, vinegar, remaining 1 tsp red chilli powder and sugar in a small bowl."
+      },
+      {
+        "order": 5,
+        "text": "Heat 2 tbsp oil in the wok on the highest flame. Add spring onion whites and green chilli and toss for 20 seconds. Add onion and capsicum and stir-fry for 2 minutes until the edges char slightly.",
+        "timerMinutes": 2,
+        "method": "stir-frying"
+      },
+      {
+        "order": 6,
+        "text": "Pour in the sauce blend and bring to a rapid boil. Add the cornflour slurry and stir for 30 seconds until the sauce turns thick and glossy."
+      },
+      {
+        "order": 7,
+        "text": "Add the fried chicken strips and cashews and toss on high heat for 1 minute until everything is lacquered in the sauce. Finish with spring onion greens and serve immediately with fried rice.",
+        "timerMinutes": 1
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "wok"
+    ],
+    "methods": [
+      "marinating",
+      "deep-frying",
+      "stir-frying"
+    ],
+    "tags": [
+      "party",
+      "street-food",
+      "fried-snack"
+    ],
+    "allergens": [
+      "gluten",
+      "soy",
+      "egg",
+      "nuts"
+    ],
+    "nutrition": {
+      "calories": 340,
+      "protein": 26,
+      "carbs": 18,
+      "fat": 18,
+      "fiber": 1,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "500 g paneer strips for a vegetarian Dragon Paneer"
+      },
+      {
+        "ingredient": "cashew",
+        "substitute": "30 g peanuts, fried until golden",
+        "notes": "mark peanut allergen instead of nuts"
+      },
+      {
+        "ingredient": "egg",
+        "substitute": "3 tbsp thick curd in the batter"
+      },
+      {
+        "ingredient": "green-chilli-sauce",
+        "substitute": "2 tbsp sriracha for a less complex heat"
+      }
+    ],
+    "culturalNote": "Dragon Chicken is believed to have originated in South Indian Indo-Chinese restaurants — particularly in Chennai and Bengaluru — where the local preference for very hot food pushed chefs to create a more fiery alternative to regular chilli chicken.",
+    "regionalVariation": "In Chennai the dish is often finished with a pinch of black pepper and curry leaves for a South Indian twist; Bengaluru versions sometimes add a drizzle of honey to balance the heat.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-ic-american-chopsuey",
+    "slug": "ic-american-chopsuey",
+    "title": "American Chopsuey",
+    "nativeTitle": null,
+    "description": "A generous nest of deep-fried crispy noodles blanketed with a tangy sweet-sour vegetable gravy and crowned with a fried egg — this is comfort food layered with contrasting textures. Nothing about it is authentically American or Chinese, but it is unmistakably, joyfully Indian.",
+    "cuisine": "indo-chinese",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 45,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "hakka noodles (dried)",
+        "normalizedName": "noodles",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "eggs",
+        "normalizedName": "egg",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false,
+        "notes": "1 per serving, fried sunny-side-up on top"
+      },
+      {
+        "name": "cabbage, shredded",
+        "normalizedName": "cabbage",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "carrot, julienned",
+        "normalizedName": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "capsicum, sliced",
+        "normalizedName": "capsicum",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "spring onion, whites and greens separated",
+        "normalizedName": "spring-onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, sliced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, finely chopped",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "tomato ketchup",
+        "normalizedName": "tomato-ketchup",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "white vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "green chilli sauce",
+        "normalizedName": "green-chilli-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cornflour",
+        "normalizedName": "cornflour",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "for thickening the gravy"
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, freshly ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": null,
+        "unit": null,
+        "optional": false,
+        "notes": "for deep frying noodles plus 2 tbsp for gravy and 1 tsp per egg"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Boil the noodles in salted water for 3 minutes — they should be barely cooked, with significant bite. Drain thoroughly, spread on a clean towel and pat dry. The drier the noodles, the crispier they will fry.",
+        "timerMinutes": 3,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a deep kadai to 180 °C. Divide the dried noodles into 3 portions and slide one portion at a time into the oil, pressing lightly with a ladle to form a flat disc. Fry 3–4 minutes until deeply golden and crackling. Drain on a rack — the noodle disc will harden further as it cools.",
+        "timerMinutes": 4,
+        "method": "deep-frying"
+      },
+      {
+        "order": 3,
+        "text": "Mix cornflour with 3 tbsp cold water into a smooth slurry. Combine ketchup, soy sauce, vinegar, chilli sauce, sugar and black pepper in a small bowl."
+      },
+      {
+        "order": 4,
+        "text": "Heat 2 tbsp oil in a wok or kadai on high flame. Add garlic and spring onion whites and stir for 20 seconds. Add onion and stir-fry for 1 minute, then add carrot, cabbage and capsicum and cook for 3 minutes on high heat until just tender.",
+        "timerMinutes": 4,
+        "method": "stir-frying"
+      },
+      {
+        "order": 5,
+        "text": "Pour the sauce blend and 250 ml hot water into the wok and bring to a boil. Stir in the cornflour slurry and cook 2 minutes, stirring constantly, until the gravy is thick, glossy and tangy — it should coat the back of a spoon. Adjust salt.",
+        "timerMinutes": 2,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Fry the eggs sunny-side-up in a little oil in a separate small pan — the yolks should be set on the edges but still runny in the centre. Season lightly with salt and pepper.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 7,
+        "text": "Place a crispy noodle disc on each plate. Ladle the hot vegetable gravy generously over so the noodles begin to soften at the edges while the centre stays crunchy. Perch a fried egg on top, scatter spring onion greens and serve immediately."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "wok",
+      "frying-pan"
+    ],
+    "methods": [
+      "boiling",
+      "deep-frying",
+      "stir-frying",
+      "simmering"
+    ],
+    "tags": [
+      "comfort-food",
+      "party",
+      "kids-friendly"
+    ],
+    "allergens": [
+      "gluten",
+      "soy",
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 14,
+      "carbs": 60,
+      "fat": 20,
+      "fiber": 4,
+      "sugar": 10,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "egg",
+        "substitute": "skip the egg for a vegetarian version — mark as vegetarian",
+        "notes": "the dish is still complete without the egg"
+      },
+      {
+        "ingredient": "noodles",
+        "substitute": "150 g rice noodles for a gluten-free version"
+      },
+      {
+        "ingredient": "tomato-ketchup",
+        "substitute": "2 tbsp tamarind pulp mixed with 1 tbsp sugar for a more tangy version"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "coconut aminos"
+      }
+    ],
+    "culturalNote": "American Chopsuey has no direct American or Chinese lineage — it is an entirely Indian invention named for a perceived air of foreign glamour. It became a staple of Mumbai's Irani cafes and Parsi restaurants in the mid-20th century before spreading across the country.",
+    "regionalVariation": "Mumbai versions tend to be more ketchup-forward and sweet; Kolkata versions are more soy-heavy and savoury. Some restaurants in Delhi add a thin egg omelette shredded over the top instead of a whole fried egg.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-ic-chicken-lollipop",
+    "slug": "ic-chicken-lollipop",
+    "title": "Chicken Lollipop",
+    "nativeTitle": null,
+    "description": "Chicken winglets frenched into drumstick shapes, marinated in a bold spiced batter and deep-fried until the coating shatters at the bite — served with schezwan dip. Preparing the lollipop shape takes a few extra minutes but gives every guest a built-in handle and an impressive table presence.",
+    "cuisine": "indo-chinese",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack",
+      "side"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "hard",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken wings or mid-joint winglets (about 12 pieces)",
+        "normalizedName": "chicken",
+        "quantity": 700,
+        "unit": "g",
+        "optional": false,
+        "notes": "ask the butcher to cut at the joint"
+      },
+      {
+        "name": "egg, lightly beaten",
+        "normalizedName": "egg",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cornflour",
+        "normalizedName": "cornflour",
+        "quantity": 5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "maida (all-purpose flour)",
+        "normalizedName": "maida",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, freshly ground",
+        "normalizedName": "black-pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "white vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "tomato ketchup",
+        "normalizedName": "tomato-ketchup",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "for the dipping sauce"
+      },
+      {
+        "name": "schezwan sauce",
+        "normalizedName": "green-chilli-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "for the dipping sauce"
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": null,
+        "unit": null,
+        "optional": false,
+        "notes": "for deep frying"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Prepare the lollipops: cut each winglet at the thinner joint if not already done. Hold the bone end with one hand and use a sharp knife to cut around the meat at the base, then scrape and push all the meat down to the fat end of the bone, forming a tight ball of meat around the bone tip. Rinse and pat dry."
+      },
+      {
+        "order": 2,
+        "text": "In a bowl combine ginger-garlic paste, soy sauce, vinegar, lemon juice, 1 tsp red chilli powder, half the black pepper and salt. Rub this marinade all over the lollipops, getting under the gathered meat. Marinate for at least 20 minutes at room temperature — or up to 4 hours refrigerated.",
+        "timerMinutes": 20,
+        "method": "marinating"
+      },
+      {
+        "order": 3,
+        "text": "In a separate bowl, whisk the egg with cornflour, maida, remaining red chilli powder and black pepper and a pinch of salt into a thick, smooth batter. Add a splash of water if needed to reach a consistency that coats the back of a spoon."
+      },
+      {
+        "order": 4,
+        "text": "Heat oil in a deep kadai to 170 °C. Holding each lollipop by the bone, dip the meat ball into the batter and let the excess drip off. Lower gently into the oil — avoid splashing. Fry in batches of 4 for 6–7 minutes, turning once, until the coating is set and lightly golden.",
+        "timerMinutes": 7,
+        "method": "deep-frying"
+      },
+      {
+        "order": 5,
+        "text": "Raise the oil to 190 °C and fry the lollipops a second time in batches for 2 minutes until deeply golden and the coating has a satisfying crunch. Drain on a wire rack — do not cover or the steam will soften the crust.",
+        "timerMinutes": 2,
+        "method": "deep-frying"
+      },
+      {
+        "order": 6,
+        "text": "For the dipping sauce, simply stir together the schezwan sauce and ketchup in a small bowl. Arrange the lollipops on a platter with the bone ends wrapped in foil for a neat presentation, and serve the schezwan dip alongside."
+      }
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "methods": [
+      "marinating",
+      "deep-frying"
+    ],
+    "tags": [
+      "party",
+      "street-food",
+      "fried-snack",
+      "kids-friendly"
+    ],
+    "allergens": [
+      "gluten",
+      "soy",
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 310,
+      "protein": 22,
+      "carbs": 18,
+      "fat": 16,
+      "fiber": 0,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "turkey winglets or drumettes if wings unavailable"
+      },
+      {
+        "ingredient": "egg",
+        "substitute": "3 tbsp thick curd for the batter"
+      },
+      {
+        "ingredient": "maida",
+        "substitute": "rice flour for a crispier gluten-free batter"
+      },
+      {
+        "ingredient": "green-chilli-sauce",
+        "substitute": "2 tbsp sriracha for the dip"
+      }
+    ],
+    "culturalNote": "Chicken Lollipop became the signature starter of Indo-Chinese cuisine across India, popularized in the 1980s by Chinese-Indian restaurants in Mumbai and Kolkata. The inventive presentation — bone as handle — made it perfect party food and it has remained a celebration staple ever since.",
+    "regionalVariation": "Kolkata versions often include a light orange food colouring in the batter; Chennai versions tend to use more black pepper and curry leaves in the marinade.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-ic-schezwan-noodles",
+    "slug": "ic-schezwan-noodles",
+    "title": "Schezwan Noodles",
+    "nativeTitle": null,
+    "description": "Wok-tossed noodles loaded with schezwan sauce, mushrooms and broccoli — this is the fiercer sibling of hakka noodles, with more sauce, more heat and a distinctly smoky depth from the high flame. A full meal in a bowl that comes together in under 30 minutes.",
+    "cuisine": "indo-chinese",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "very_hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 25,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "hakka noodles (dried)",
+        "normalizedName": "noodles",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "mushrooms, thickly sliced",
+        "normalizedName": "mushroom",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "broccoli, cut into small florets",
+        "normalizedName": "broccoli",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "capsicum, thinly sliced",
+        "normalizedName": "capsicum",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "spring onion, whites and greens separated",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, thinly sliced",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, finely chopped",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, finely chopped",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "schezwan sauce",
+        "normalizedName": "green-chilli-sauce",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "white vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, freshly ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "sesame oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "for finishing"
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Cook the noodles in a large pot of salted boiling water for 3–4 minutes until just al dente — they will cook further in the wok. Drain immediately, rinse under cold water to stop cooking, and toss with 1 tsp oil to prevent sticking.",
+        "timerMinutes": 4,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Blanch the broccoli florets in the same boiling water for 90 seconds, drain and plunge into cold water to keep the colour vivid and the texture crisp.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 3,
+        "text": "Heat 3 tbsp oil in a wok on the highest flame until just smoking. Add garlic, ginger and green chilli and stir-fry for 20 seconds. Add sliced onion and spring onion whites and cook for 1 minute.",
+        "timerMinutes": 1,
+        "method": "stir-frying"
+      },
+      {
+        "order": 4,
+        "text": "Add mushrooms and stir-fry on high heat for 2 minutes until they release their moisture and begin to brown. Add capsicum and blanched broccoli and toss for 1 minute — keep the broccoli bright green and the capsicum firm.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 5,
+        "text": "Add schezwan sauce, soy sauce, vinegar and black pepper. Toss to coat all the vegetables and let the sauce reduce for 30 seconds on the high flame."
+      },
+      {
+        "order": 6,
+        "text": "Add the cooked noodles and toss vigorously for 2 minutes, working from the bottom of the wok so the noodles do not clump. They should be evenly coated in the deep-red schezwan sauce. Adjust salt, drizzle sesame oil if using, and scatter spring onion greens. Serve immediately.",
+        "timerMinutes": 2
+      }
+    ],
+    "cookware": [
+      "wok",
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "boiling",
+      "stir-frying"
+    ],
+    "tags": [
+      "quick",
+      "under-30-minutes",
+      "bachelor-friendly",
+      "comfort-food"
+    ],
+    "allergens": [
+      "gluten",
+      "soy"
+    ],
+    "nutrition": {
+      "calories": 390,
+      "protein": 12,
+      "carbs": 58,
+      "fat": 13,
+      "fiber": 5,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "noodles",
+        "substitute": "200 g rice noodles for a gluten-free version"
+      },
+      {
+        "ingredient": "mushroom",
+        "substitute": "150 g baby corn or sliced zucchini"
+      },
+      {
+        "ingredient": "broccoli",
+        "substitute": "100 g cabbage shredded or bok choy"
+      },
+      {
+        "ingredient": "green-chilli-sauce",
+        "substitute": "3 tbsp sriracha — the heat profile is slightly different but equally bold"
+      }
+    ],
+    "culturalNote": "Schezwan Noodles borrow their name from China's Sichuan province but bear little resemblance to Sichuan cuisine — the Indo-Chinese version uses an Indian-made schezwan sauce and a wok technique learned from Chinese-Indian cooks in Kolkata and Mumbai.",
+    "regionalVariation": "Mumbai restaurant versions often add a handful of bean sprouts for crunch; Chennai cooks sometimes finish with a tempering of mustard seeds and dried red chilli — an unmistakably South Indian flourish.",
+    "indianKitchenAdaptation": "A large kadai on maximum gas flame is a perfect substitute for a wok. Cook in small batches if needed — overcrowding drops the temperature and the noodles will steam instead of fry.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-ic-paneer-65",
+    "slug": "ic-paneer-65",
+    "title": "Paneer 65",
+    "nativeTitle": null,
+    "description": "Paneer cubes marinated in spiced curd, coated in a crispy batter and deep-fried until golden, then flash-tossed in hot oil with curry leaves and green chilli. This South Indian restaurant classic bridges the gap between the tandoor and the wok, landing firmly in both camps.",
+    "cuisine": "indo-chinese",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack",
+      "side"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "paneer, cut into 3 cm cubes",
+        "normalizedName": "paneer",
+        "quantity": 350,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "thick curd (hung or whisked smooth)",
+        "normalizedName": "curd",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "must be thick, not watery"
+      },
+      {
+        "name": "cornflour",
+        "normalizedName": "cornflour",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "maida (all-purpose flour)",
+        "normalizedName": "maida",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, freshly ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false
+      },
+      {
+        "name": "green chilli, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "spring onion greens, sliced",
+        "normalizedName": "spring-onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": true,
+        "notes": "for garnish"
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": null,
+        "unit": null,
+        "optional": false,
+        "notes": "for deep frying plus 1 tbsp for the final toss"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Whisk curd until smooth with no lumps. Add ginger-garlic paste, red chilli powder, black pepper, lemon juice and salt and mix well. Add cornflour and maida and stir into a thick, smooth batter that should coat the paneer without dripping. If it is too thin, add 1 more tbsp cornflour.",
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Add the paneer cubes to the marinade and fold gently so every face is coated. Rest for 15 minutes at room temperature — the curd tenderises the paneer slightly and helps the batter cling.",
+        "timerMinutes": 15
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a kadai to 175 °C. Lower marinated paneer cubes in batches of 6–8 and fry for 3 minutes, turning once, until golden on all sides. Remove and drain on a rack — the coating should be crackling and set.",
+        "timerMinutes": 3,
+        "method": "deep-frying"
+      },
+      {
+        "order": 4,
+        "text": "Raise the oil to 190 °C and fry the paneer a second time for 90 seconds until deeply golden with a firm, crispy crust. Drain again.",
+        "timerMinutes": 2,
+        "method": "deep-frying"
+      },
+      {
+        "order": 5,
+        "text": "Heat 1 tbsp oil in a wide kadai or tawa on high heat until nearly smoking. Add curry leaves and stand back — they will spit and crackle vigorously. Immediately add the green chilli and stir for 20 seconds.",
+        "method": "tempering"
+      },
+      {
+        "order": 6,
+        "text": "Add the fried paneer to the curry leaf oil and toss on the highest heat for 1 minute until every cube is fragrant with the tempering. Scatter spring onion greens on top and serve immediately — Paneer 65 loses its crunch within a few minutes.",
+        "timerMinutes": 1
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "tawa"
+    ],
+    "methods": [
+      "marinating",
+      "deep-frying",
+      "tempering"
+    ],
+    "tags": [
+      "street-food",
+      "party",
+      "fried-snack",
+      "comfort-food"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 310,
+      "protein": 13,
+      "carbs": 18,
+      "fat": 20,
+      "fiber": 0,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "paneer",
+        "substitute": "firm tofu pressed and dried for a dairy-free version",
+        "notes": "reduce frying time by 30 seconds per side as tofu is less dense"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "3 tbsp plant-based yogurt for a dairy-free marinade"
+      },
+      {
+        "ingredient": "maida",
+        "substitute": "rice flour for a gluten-free batter"
+      },
+      {
+        "ingredient": "curry-leaves",
+        "substitute": "a few fresh basil leaves added at the very end, off heat"
+      }
+    ],
+    "culturalNote": "The '65' in Paneer 65 is the subject of much debate — popular theories claim it refers to the year 1965, the number of ingredients, or the temperature. What is clear is that the dish originated in South Indian restaurants and spread across India as a vegetarian twin to the iconic Chicken 65.",
+    "regionalVariation": "South Indian versions finish with a tempering of mustard seeds and asafoetida in addition to curry leaves; North Indian restaurants often skip the curry leaf toss and serve the fried paneer directly with a chilli dip.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-ic-manchow-soup",
+    "slug": "ic-manchow-soup",
+    "title": "Manchow Soup",
+    "nativeTitle": null,
+    "description": "A dark, thick and peppery Indo-Chinese vegetable soup crowned with a pile of crispy fried noodles — warming, deeply savoury and ready in under 40 minutes. The crunchy garnish softens into the soup as you eat, changing the texture with every spoonful.",
+    "cuisine": "indo-chinese",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack",
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "cabbage, very finely shredded",
+        "normalizedName": "cabbage",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "carrot, finely julienned",
+        "normalizedName": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "mushrooms, finely sliced",
+        "normalizedName": "mushroom",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "spring onion, whites and greens separated",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "capsicum, finely diced",
+        "normalizedName": "capsicum",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, finely minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, finely minced",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "green chilli, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "white vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cornflour",
+        "normalizedName": "cornflour",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "for thickening the soup"
+      },
+      {
+        "name": "black pepper, freshly ground",
+        "normalizedName": "black-pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "vegetable stock or water",
+        "normalizedName": "stock",
+        "quantity": 1,
+        "unit": "l",
+        "optional": false
+      },
+      {
+        "name": "hakka noodles (for crispy garnish)",
+        "normalizedName": "noodles",
+        "quantity": 50,
+        "unit": "g",
+        "optional": true,
+        "notes": "break into small pieces and deep fry until crispy"
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "for stir-frying plus extra if frying noodle garnish"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "If using the crispy noodle garnish, break dry noodles into small shards and deep-fry in hot oil (180 °C) for 90 seconds until pale golden and puffed. Drain on a rack and set aside — they will continue to crisp as they cool.",
+        "timerMinutes": 2,
+        "method": "deep-frying"
+      },
+      {
+        "order": 2,
+        "text": "Whisk cornflour into 5 tbsp cold water until completely smooth with no lumps. This slurry will be added at the end to thicken the soup."
+      },
+      {
+        "order": 3,
+        "text": "Heat 2 tbsp oil in a heavy-bottomed pot or large wok on high heat. Add garlic, ginger and green chilli and stir-fry for 20 seconds. Add spring onion whites and toss for 30 seconds.",
+        "method": "stir-frying"
+      },
+      {
+        "order": 4,
+        "text": "Add carrot, mushrooms and capsicum and stir-fry on high heat for 2 minutes until the mushrooms release their liquid and begin to colour. Add the shredded cabbage and toss for 1 further minute.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 5,
+        "text": "Pour in the stock or water and bring to a rolling boil. Add soy sauce, vinegar and black pepper. Taste — the soup should be distinctly savoury and peppery; adjust if needed.",
+        "timerMinutes": 5,
+        "method": "boiling"
+      },
+      {
+        "order": 6,
+        "text": "Stir in the cornflour slurry and cook on medium heat for 2 minutes, stirring constantly, until the soup thickens to a glossy, pourable consistency that coats the back of a spoon. Adjust salt.",
+        "timerMinutes": 2,
+        "method": "simmering"
+      },
+      {
+        "order": 7,
+        "text": "Ladle into deep bowls and top generously with the crispy fried noodles and spring onion greens. Serve immediately — the contrast between the thick hot soup and the crunchy garnish is the whole point of Manchow Soup."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "wok"
+    ],
+    "methods": [
+      "stir-frying",
+      "boiling",
+      "simmering"
+    ],
+    "tags": [
+      "soup",
+      "comfort-food",
+      "winter",
+      "budget",
+      "quick"
+    ],
+    "allergens": [
+      "gluten",
+      "soy"
+    ],
+    "nutrition": {
+      "calories": 140,
+      "protein": 4,
+      "carbs": 18,
+      "fat": 6,
+      "fiber": 3,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "mushroom",
+        "substitute": "100 g tofu, finely diced, for extra protein"
+      },
+      {
+        "ingredient": "noodles",
+        "substitute": "broken rice noodles fried the same way for a gluten-free garnish"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "coconut aminos"
+      },
+      {
+        "ingredient": "stock",
+        "substitute": "1 l water with 1 tsp tomato paste and a pinch of sugar for colour"
+      }
+    ],
+    "culturalNote": "Manchow Soup is one of the defining soups of Indo-Chinese restaurant culture across India, particularly popular in North India as a warming winter starter. The addition of crispy noodles on top is an Indian invention with no equivalent in Chinese cuisine.",
+    "regionalVariation": "In Kolkata the soup is often lighter and less thickened; Mumbai versions are darker, heavily peppered and sometimes include a splash of schezwan sauce.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-ic-sweet-corn-soup",
+    "slug": "ic-sweet-corn-soup",
+    "title": "Sweet Corn Soup",
+    "nativeTitle": null,
+    "description": "A silky, lightly sweet and milky corn soup thickened to a gentle cream with cornflour and brightened by white pepper and spring onion — the gentler, crowd-pleasing companion to the fiercer Manchow Soup. Ready in 25 minutes and beloved by children and adults alike.",
+    "cuisine": "indo-chinese",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack",
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "sweet corn kernels (fresh, canned or frozen)",
+        "normalizedName": "corn",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false,
+        "notes": "about 2 large cobs worth; canned and drained works perfectly"
+      },
+      {
+        "name": "cornflour",
+        "normalizedName": "cornflour",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "ginger, very finely minced",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "garlic, very finely minced",
+        "normalizedName": "garlic",
+        "quantity": 2,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "spring onion, whites and greens separated",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "black pepper, freshly ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "white vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "brightens the sweetness"
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "vegetable stock or water",
+        "normalizedName": "stock",
+        "quantity": 800,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Set aside 100 g of the corn kernels for texture. Place the remaining 300 g in a blender with 100 ml of the stock and blend to a coarse puree — not too smooth; some texture is good. Strain if you prefer a silky finish, or leave it as is for a more rustic soup."
+      },
+      {
+        "order": 2,
+        "text": "Whisk cornflour with 4 tbsp cold water until completely lump-free. This is your thickening slurry — add it only at the end."
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a saucepan over medium heat. Add ginger, garlic, spring onion whites and green chilli and sauté for 1 minute until softened and fragrant.",
+        "timerMinutes": 1,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Pour in the remaining stock and bring to a boil. Add the corn puree and the reserved whole kernels and return to a boil. Season with salt, sugar and black pepper.",
+        "timerMinutes": 5,
+        "method": "boiling"
+      },
+      {
+        "order": 5,
+        "text": "Stir in the cornflour slurry while the soup is at a steady simmer and cook for 3 minutes, stirring gently, until the soup thickens to a light, pourable cream. It should coat a spoon but flow easily when poured.",
+        "timerMinutes": 3,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Add vinegar if using, taste and adjust salt and sugar. Ladle into bowls and finish with spring onion greens and an extra grind of black pepper. Serve hot with a small bowl of vinegar and chilli sauce on the side for guests to adjust their own heat."
+      }
+    ],
+    "cookware": [
+      "saucepan",
+      "blender"
+    ],
+    "methods": [
+      "sauteing",
+      "boiling",
+      "simmering"
+    ],
+    "tags": [
+      "soup",
+      "kids-friendly",
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "comfort-food"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 110,
+      "protein": 3,
+      "carbs": 22,
+      "fat": 3,
+      "fiber": 2,
+      "sugar": 6,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "corn",
+        "substitute": "400 g frozen peas blended partially for a green soup variation"
+      },
+      {
+        "ingredient": "stock",
+        "substitute": "800 ml water with a pinch of turmeric and a bay leaf for colour"
+      },
+      {
+        "ingredient": "black-pepper",
+        "substitute": "0.5 tsp white pepper for a more authentic Chinese-restaurant flavour"
+      },
+      {
+        "ingredient": "cornflour",
+        "substitute": "2 tbsp arrowroot powder whisked in cold water — same thickening effect"
+      }
+    ],
+    "culturalNote": "Sweet Corn Soup became a fixture on Indian restaurant menus from the 1970s onwards and today is the most ordered soup in Indo-Chinese restaurants. Its mild flavour makes it the ideal starting course that appeals equally to children and those with a low tolerance for spice.",
+    "regionalVariation": "Some South Indian versions add a ladle of coconut milk for richness; egg-drop versions popular in Kolkata stir in a beaten egg in thin ribbons just before serving.",
+    "indianKitchenAdaptation": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-ic-chicken-fried-rice",
+    "slug": "ic-chicken-fried-rice",
+    "title": "Indo-style Chicken Fried Rice",
+    "nativeTitle": null,
+    "description": "Wok-tossed day-old rice with tender strips of chicken, scrambled egg and crisp vegetables seasoned with soy sauce and freshly ground black pepper — the classic Indo-Chinese rice dish that pairs with almost anything on the menu. Lighter and less fiery than Schezwan Fried Rice, with the chicken adding a satisfying depth.",
+    "cuisine": "indo-chinese",
+    "country": "india",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "boneless chicken breast or thigh, thinly sliced",
+        "normalizedName": "chicken",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "cooked long grain rice, cooled (day-old best)",
+        "normalizedName": "rice",
+        "quantity": 4,
+        "unit": "cup",
+        "optional": false,
+        "notes": "about 1.5 cups raw; must be completely cooled and dry"
+      },
+      {
+        "name": "eggs, lightly beaten",
+        "normalizedName": "egg",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "carrot, finely diced",
+        "normalizedName": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "capsicum, finely diced",
+        "normalizedName": "capsicum",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "spring onion, whites and greens separated",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic, finely minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ginger, finely minced",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "green chilli, thinly sliced",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 2.5,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "1 tbsp for marinating chicken, 1.5 tbsp for the rice"
+      },
+      {
+        "name": "white vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper, freshly ground",
+        "normalizedName": "black-pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "sesame oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "for finishing"
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Toss the chicken strips with 1 tbsp soy sauce, half the black pepper and a pinch of salt. Marinate for 10 minutes while you prepare everything else.",
+        "timerMinutes": 10,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Heat 1 tbsp oil in a wok on the highest flame. Add the chicken strips in a single layer and stir-fry for 3–4 minutes, tossing often, until just cooked through with a few browned edges. Remove and set aside.",
+        "timerMinutes": 4,
+        "method": "stir-frying"
+      },
+      {
+        "order": 3,
+        "text": "Add 1 tbsp oil to the same wok. Pour in the beaten eggs and scramble briskly with a spatula, breaking into small irregular pieces. Pull from the heat just before they are fully set — carry-over heat will finish them. Remove and set aside with the chicken."
+      },
+      {
+        "order": 4,
+        "text": "Add remaining 2 tbsp oil to the wok on high heat. Add garlic, ginger and green chilli and toss for 20 seconds. Add onion and spring onion whites and stir-fry for 1 minute until slightly translucent.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 5,
+        "text": "Add carrot and capsicum and toss on high heat for 2 minutes until just tender. Season with remaining soy sauce, vinegar and the rest of the black pepper — let the sauce sizzle against the hot wok for 10 seconds before mixing.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 6,
+        "text": "Add the cooled rice and break up any clumps with a spatula. Spread across the wok surface, press lightly and leave undisturbed for 30 seconds to develop a light crust on the bottom, then toss. Repeat twice so the rice is lightly toasted and every grain is separate.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 7,
+        "text": "Return the cooked chicken and scrambled egg to the wok and fold through gently. Taste and adjust salt. Drizzle sesame oil if using, scatter spring onion greens and serve immediately with chilli sauce or schezwan sauce on the side.",
+        "timerMinutes": 1
+      }
+    ],
+    "cookware": [
+      "wok",
+      "kadai"
+    ],
+    "methods": [
+      "marinating",
+      "stir-frying"
+    ],
+    "tags": [
+      "comfort-food",
+      "lunchbox",
+      "party",
+      "bachelor-friendly"
+    ],
+    "allergens": [
+      "gluten",
+      "soy",
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein": 22,
+      "carbs": 52,
+      "fat": 13,
+      "fiber": 2,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "250 g prawn (tails-on) stir-fried 2 minutes per side — mark pescatarian"
+      },
+      {
+        "ingredient": "egg",
+        "substitute": "100 g crumbled tofu tossed with a pinch of turmeric for a veg version"
+      },
+      {
+        "ingredient": "rice",
+        "substitute": "4 cups cooked cauliflower rice for a low-carb version"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "coconut aminos or tamari for gluten-free"
+      }
+    ],
+    "culturalNote": "Chicken Fried Rice became one of the most universally ordered dishes across Indian restaurants in the 1970s when Indo-Chinese cuisine spread from Kolkata and Mumbai to every city in the country, offering an approachable and satisfying alternative to biryanis and pulaos.",
+    "regionalVariation": "Kolkata-style uses lighter seasoning and more vinegar; South Indian versions occasionally add curry leaves to the egg scramble. Some North Indian restaurants add a ladle of Manchow-style gravy on the side.",
+    "indianKitchenAdaptation": "Use the largest kadai available and cook in two batches if needed. The key is completely dried, cooled rice and maximum flame — a crowded, low-heat wok produces wet, clumped rice.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  }
+]

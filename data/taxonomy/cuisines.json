@@ -1,0 +1,394 @@
+[
+  {
+    "slug": "tamil",
+    "name": "Tamil",
+    "country": "india",
+    "region": "tamil-nadu",
+    "blurb": "Tamil cuisine from South India is defined by rice-based meals, fragrant sambar, and lentil stews balanced with tamarind, finished with a tempering of mustard seeds and curry leaves.",
+    "signatureIngredients": ["rice", "tamarind", "toor-dal", "mustard-seeds", "curry-leaves", "coconut"]
+  },
+  {
+    "slug": "chettinad",
+    "name": "Chettinad",
+    "country": "india",
+    "region": "chettinad-region",
+    "blurb": "Chettinad cuisine from the mercantile Nattukotai Chettiar community of Tamil Nadu is celebrated for its layered spice blends, using rare aromatics alongside black pepper and dried red chillies to achieve extraordinary depth.",
+    "signatureIngredients": ["black-pepper", "dried-red-chilli", "fennel", "coriander-seeds", "coconut", "chicken"]
+  },
+  {
+    "slug": "kerala",
+    "name": "Kerala",
+    "country": "india",
+    "region": null,
+    "blurb": "Kerala cuisine celebrates the bounty of the Malabar Coast, weaving coconut, coconut oil, and an abundance of fresh seafood into dishes that are aromatic and gently yet persistently spiced.",
+    "signatureIngredients": ["coconut", "coconut-oil", "coconut-milk", "fish", "prawn", "rice"]
+  },
+  {
+    "slug": "andhra",
+    "name": "Andhra",
+    "country": "india",
+    "region": null,
+    "blurb": "Andhra cuisine is one of India's spiciest traditions, layering Guntur red chillies, tamarind, and bold spice powders into rice dishes, curries, and fiery chutneys that pack intense heat.",
+    "signatureIngredients": ["red-chilli-powder", "tamarind", "rice", "toor-dal", "mustard-seeds", "dried-red-chilli"]
+  },
+  {
+    "slug": "telangana",
+    "name": "Telangana",
+    "country": "india",
+    "region": "telangana-region",
+    "blurb": "Telangana cuisine draws on the flavors of the Deccan plateau, combining jowar, bajra, and mutton in rustic preparations with an earthy, warming spiciness that reflects its proud agrarian heritage.",
+    "signatureIngredients": ["mutton", "red-chilli-powder", "tamarind", "millet", "toor-dal", "onion"]
+  },
+  {
+    "slug": "hyderabadi",
+    "name": "Hyderabadi",
+    "country": "india",
+    "region": "telangana-region",
+    "blurb": "Hyderabadi cuisine blends Mughal refinement with Deccani boldness, producing the world-famous dum biryani, rich kormas, and tangy mirchi ka salan perfumed with saffron and whole aromatic spices.",
+    "signatureIngredients": ["basmati-rice", "mutton", "saffron", "curd", "mint", "onion"]
+  },
+  {
+    "slug": "karnataka",
+    "name": "Karnataka",
+    "country": "india",
+    "region": null,
+    "blurb": "Karnataka cuisine spans from the coconut-laced coastal dishes of Udupi to ragi-forward Mysuru preparations and the spiced bisi bele bath of Bengaluru, reflecting a state of remarkable culinary diversity.",
+    "signatureIngredients": ["coconut", "ragi", "toor-dal", "mustard-seeds", "ghee", "tamarind"]
+  },
+  {
+    "slug": "north-indian",
+    "name": "North Indian",
+    "country": "india",
+    "region": null,
+    "blurb": "North Indian cuisine is synonymous with slow-cooked curries, clay-oven breads, and creamy dals enriched with ghee and garam masala, shaped by river plains and centuries of Mughal influence.",
+    "signatureIngredients": ["ghee", "garam-masala", "wheat-flour", "onion", "tomato", "paneer"]
+  },
+  {
+    "slug": "punjabi",
+    "name": "Punjabi",
+    "country": "india",
+    "region": "punjab",
+    "blurb": "Punjabi cuisine is hearty and celebratory, built on mustard greens, makki roti, and rich lentil dals, with a generous hand with butter, ghee, and cream that gives every dish its characteristic warmth.",
+    "signatureIngredients": ["butter", "ghee", "cream", "wheat-flour", "rajma", "chickpea"]
+  },
+  {
+    "slug": "mughlai",
+    "name": "Mughlai",
+    "country": "india",
+    "region": null,
+    "blurb": "Mughlai cuisine is the aristocratic cooking of the Mughal courts, renowned for slow-cooked biryanis, saffron-laced kormas, and rich cream-based gravies perfumed with cardamom and rose water.",
+    "signatureIngredients": ["basmati-rice", "mutton", "cream", "saffron", "cardamom", "rose-water"]
+  },
+  {
+    "slug": "gujarati",
+    "name": "Gujarati",
+    "country": "india",
+    "region": "gujarat",
+    "blurb": "Gujarati cuisine is a largely vegetarian tradition that balances sweet, sour, and spicy notes in every dish, producing colorful dhoklas, farsan snacks, and dal preparations with a signature touch of jaggery.",
+    "signatureIngredients": ["besan", "jaggery", "mustard-seeds", "curd", "moong-dal", "tamarind"]
+  },
+  {
+    "slug": "rajasthani",
+    "name": "Rajasthani",
+    "country": "india",
+    "region": "rajasthan",
+    "blurb": "Rajasthani cuisine evolved in the desert, relying on preserved ingredients, dried pulses, and ghee-rich preparations like dal baati churma that sustain in harsh climates.",
+    "signatureIngredients": ["ghee", "wheat-flour", "moong-dal", "dried-red-chilli", "asafoetida", "millet"]
+  },
+  {
+    "slug": "maharashtrian",
+    "name": "Maharashtrian",
+    "country": "india",
+    "region": "maharashtra",
+    "blurb": "Maharashtrian cuisine ranges from spicy Konkan fish curries to Pune's pungent misal pav and the peanut-tinged vegetable dishes of Vidarbha, united by the tang of kokum and the warmth of goda masala.",
+    "signatureIngredients": ["kokum", "peanut", "coconut", "besan", "mustard-seeds", "tamarind"]
+  },
+  {
+    "slug": "goan",
+    "name": "Goan",
+    "country": "india",
+    "region": "goa",
+    "blurb": "Goan cuisine bears the vivid imprint of four centuries of Portuguese influence, marrying coconut, vinegar, and fiery red chillies into iconic dishes like vindaloo and the beloved fish curry rice.",
+    "signatureIngredients": ["coconut-milk", "vinegar", "dried-red-chilli", "fish", "pork", "coconut"]
+  },
+  {
+    "slug": "bengali",
+    "name": "Bengali",
+    "country": "india",
+    "region": "bengal",
+    "blurb": "Bengali cuisine celebrates freshwater fish and pungent mustard oil in dishes that honor the delta rivers, with a distinctive five-spice blend called panch phoron lending a unique character to vegetables and lentils.",
+    "signatureIngredients": ["fish", "mustard-oil", "mustard-seeds", "rice", "coconut", "jaggery"]
+  },
+  {
+    "slug": "kashmiri",
+    "name": "Kashmiri",
+    "country": "india",
+    "region": "kashmir",
+    "blurb": "Kashmiri cuisine from the Himalayan valley is fragrant and delicately mild, featuring slow-cooked rogan josh, yakhni, and elaborate wazwan banquets where lamb is braised with saffron and warming whole spices.",
+    "signatureIngredients": ["mutton", "saffron", "cardamom", "cinnamon", "curd", "fennel"]
+  },
+  {
+    "slug": "pakistani",
+    "name": "Pakistani",
+    "country": "pakistan",
+    "region": null,
+    "blurb": "Pakistani cuisine is a hearty South Asian tradition centered on wheat breads, slow-cooked nihari, smoky kebabs, and richly spiced gravies that carry the culinary heritage of the Indus Valley and Mughal courts.",
+    "signatureIngredients": ["wheat-flour", "mutton", "garam-masala", "ghee", "onion", "curd"]
+  },
+  {
+    "slug": "sri-lankan",
+    "name": "Sri Lankan",
+    "country": "sri-lanka",
+    "region": null,
+    "blurb": "Sri Lankan cuisine layers coconut milk and fiery red chillies into vibrant curries, drawing on Maldive fish, goraka, and lemongrass to produce a bold, distinctly tropical flavor profile.",
+    "signatureIngredients": ["coconut-milk", "fish", "red-chilli-powder", "coconut", "rice", "lemongrass"]
+  },
+  {
+    "slug": "bangladeshi",
+    "name": "Bangladeshi",
+    "country": "bangladesh",
+    "region": null,
+    "blurb": "Bangladeshi cuisine centers on freshwater fish and aromatic rice from the Bengal delta, with hilsa curry and mustard-spiced preparations showcasing a deep connection to the country's river-rich landscape.",
+    "signatureIngredients": ["fish", "mustard-oil", "rice", "mustard-seeds", "onion", "turmeric"]
+  },
+  {
+    "slug": "nepali",
+    "name": "Nepali",
+    "country": "nepal",
+    "region": null,
+    "blurb": "Nepali cuisine reflects Himalayan geography and Silk Road crossroads, built on momos, dal bhat, and gundruk fermented greens, with warming spices that sustain life at high altitudes.",
+    "signatureIngredients": ["rice", "toor-dal", "chicken", "ginger-garlic-paste", "turmeric", "cumin"]
+  },
+  {
+    "slug": "afghan",
+    "name": "Afghan",
+    "country": "afghanistan",
+    "region": null,
+    "blurb": "Afghan cuisine is shaped by the Silk Road, combining long-grain rice pilafs like qabuli pulao, freshly baked flatbreads, and slow-braised lamb with dried fruit and nuts in fragrant, satisfying dishes.",
+    "signatureIngredients": ["basmati-rice", "mutton", "raisin", "cashew", "cardamom", "onion"]
+  },
+  {
+    "slug": "chinese",
+    "name": "Chinese",
+    "country": "china",
+    "region": null,
+    "blurb": "Chinese cuisine is one of the world's most diverse culinary traditions, spanning thousands of years of regional variety from Cantonese dim sum and Sichuan fire to delicate Shanghainese braised preparations.",
+    "signatureIngredients": ["soy-sauce", "ginger", "garlic", "spring-onion", "rice", "noodles"]
+  },
+  {
+    "slug": "indo-chinese",
+    "name": "Indo-Chinese",
+    "country": "india",
+    "region": null,
+    "blurb": "Indo-Chinese cuisine is a vibrant street-food fusion born in Kolkata's Chinese community and beloved across urban India, combining Chinese techniques with Indian spices in dishes like Manchurian, chilli chicken, and hakka noodles.",
+    "signatureIngredients": ["soy-sauce", "green-chilli-sauce", "spring-onion", "noodles", "cornflour", "vinegar"]
+  },
+  {
+    "slug": "korean",
+    "name": "Korean",
+    "country": "south-korea",
+    "region": null,
+    "blurb": "Korean cuisine is built on fermented flavors, communal dining, and bold seasoning, with kimchi, gochujang, and sesame oil threading through rice dishes, soups, and grilled meats in equal measure.",
+    "signatureIngredients": ["gochujang", "kimchi", "soy-sauce", "sesame-seeds", "gingelly-oil", "rice"]
+  },
+  {
+    "slug": "japanese",
+    "name": "Japanese",
+    "country": "japan",
+    "region": null,
+    "blurb": "Japanese cuisine celebrates the art of umami and seasonal ingredients, expressed through pristine sushi, warming ramen broths, and the quiet refinement of kaiseki, underpinned by miso, soy sauce, and dashi stock.",
+    "signatureIngredients": ["rice", "soy-sauce", "miso", "seaweed", "gingelly-oil", "egg"]
+  },
+  {
+    "slug": "thai",
+    "name": "Thai",
+    "country": "thailand",
+    "region": null,
+    "blurb": "Thai cuisine achieves a masterful balance of sweet, sour, salty, and spicy flavors, delivered through fragrant coconut milk curries, zesty salads, and stir-fries brightened with lemongrass and kaffir lime.",
+    "signatureIngredients": ["coconut-milk", "lemongrass", "kaffir-lime-leaves", "fish-sauce", "basil", "green-chilli"]
+  },
+  {
+    "slug": "vietnamese",
+    "name": "Vietnamese",
+    "country": "vietnam",
+    "region": null,
+    "blurb": "Vietnamese cuisine emphasizes fresh herbs, clean broths, and rice-based preparations, with pho's layered bone broth, crisp banh mi, and rice paper rolls creating a cooking style that feels both light and complex.",
+    "signatureIngredients": ["rice", "fish-sauce", "lemongrass", "mint", "coriander-leaves", "spring-onion"]
+  },
+  {
+    "slug": "indonesian",
+    "name": "Indonesian",
+    "country": "indonesia",
+    "region": null,
+    "blurb": "Indonesian cuisine draws on a tropical archipelago of over 17,000 islands, united by sambal chilli pastes, coconut-based curries, and the iconic rendang—one of the world's great slow-cooked dishes.",
+    "signatureIngredients": ["coconut-milk", "lemongrass", "shallot", "garlic", "red-chilli-powder", "ginger"]
+  },
+  {
+    "slug": "malaysian",
+    "name": "Malaysian",
+    "country": "malaysia",
+    "region": null,
+    "blurb": "Malaysian cuisine is a delicious convergence of Malay, Chinese, and Indian traditions, celebrated for its hawker food culture and iconic dishes like nasi lemak, laksa, and char kway teow.",
+    "signatureIngredients": ["coconut-milk", "lemongrass", "kaffir-lime-leaves", "fish-sauce", "noodles", "tamarind"]
+  },
+  {
+    "slug": "filipino",
+    "name": "Filipino",
+    "country": "philippines",
+    "region": null,
+    "blurb": "Filipino cuisine is defined by its bold use of vinegar and soy sauce, the ubiquitous adobo braising method, and a Spanish-Malay-Chinese heritage that makes it one of Southeast Asia's most distinctive food cultures.",
+    "signatureIngredients": ["vinegar", "soy-sauce", "garlic", "pork", "chicken", "tamarind"]
+  },
+  {
+    "slug": "italian",
+    "name": "Italian",
+    "country": "italy",
+    "region": null,
+    "blurb": "Italian cuisine is a collection of passionate regional traditions united by fresh pasta, sun-ripened tomatoes, and excellent olive oil, with a philosophy of letting excellent local ingredients speak for themselves.",
+    "signatureIngredients": ["pasta", "tomato", "olive-oil", "basil", "garlic", "cheese"]
+  },
+  {
+    "slug": "french",
+    "name": "French",
+    "country": "france",
+    "region": null,
+    "blurb": "French cuisine is the bedrock of classical Western cooking, known for its mother sauces, precise technique, and a deep reverence for butter, cream, and carefully sourced seasonal ingredients.",
+    "signatureIngredients": ["butter", "cream", "thyme", "garlic", "cheese", "onion"]
+  },
+  {
+    "slug": "spanish",
+    "name": "Spanish",
+    "country": "spain",
+    "region": null,
+    "blurb": "Spanish cuisine ranges from saffron-scented paella of Valencia to smoky paprika stews of Castile and the vibrant tapas culture of Andalusia, united by extraordinary olive oil, garlic, and the sweetness of ripe tomatoes.",
+    "signatureIngredients": ["olive-oil", "saffron", "garlic", "tomato", "rice", "capsicum"]
+  },
+  {
+    "slug": "greek",
+    "name": "Greek",
+    "country": "greece",
+    "region": null,
+    "blurb": "Greek cuisine is one of the world's oldest, grounded in olive oil, lemon, fresh herbs, and the Mediterranean staples of lamb, cheese, and sun-ripened vegetables cooked with timeless simplicity.",
+    "signatureIngredients": ["olive-oil", "lemon", "mutton", "cheese", "oregano", "olives"]
+  },
+  {
+    "slug": "british",
+    "name": "British",
+    "country": "united-kingdom",
+    "region": null,
+    "blurb": "British cuisine has evolved from its hearty roast and pie traditions into a multicultural table drawing especially on South Asian influences, while retaining beloved classics built on root vegetables, good dairy, and quality cured meats.",
+    "signatureIngredients": ["potato", "butter", "cheese", "beef", "bread", "peas"]
+  },
+  {
+    "slug": "turkish",
+    "name": "Turkish",
+    "country": "turkey",
+    "region": "anatolia",
+    "blurb": "Turkish cuisine is heir to the vast Ottoman culinary legacy, celebrated for its wood-fired kebabs, meze spreads, fresh flatbreads, and sweets like baklava perfumed with rose water and pistachio.",
+    "signatureIngredients": ["mutton", "onion", "tomato", "olive-oil", "pistachio", "rose-water"]
+  },
+  {
+    "slug": "lebanese",
+    "name": "Lebanese",
+    "country": "lebanon",
+    "region": null,
+    "blurb": "Lebanese cuisine is celebrated for its vibrant meze culture—hummus, tabbouleh, kibbeh, and fattoush—built on fresh herbs, lemon, tahini, and the finest olive oil in the Levant.",
+    "signatureIngredients": ["chickpea", "tahini", "lemon", "olive-oil", "parsley", "mint"]
+  },
+  {
+    "slug": "persian",
+    "name": "Persian",
+    "country": "iran",
+    "region": null,
+    "blurb": "Persian cuisine is one of the world's oldest and most refined, known for fragrant rice dishes with herbed tahdigs, pomegranate-walnut stews, and the pairing of dried fruits with slow-braised lamb.",
+    "signatureIngredients": ["basmati-rice", "mutton", "saffron", "walnut", "raisin", "cinnamon"]
+  },
+  {
+    "slug": "middle-eastern",
+    "name": "Middle Eastern",
+    "country": null,
+    "region": null,
+    "blurb": "Middle Eastern cuisine spans a broad culinary landscape from the Levant to the Gulf, united by aromatic spice blends, tahini-laced dips, slow-cooked meats, and fragrant rice pilafs that reflect centuries of trade and exchange.",
+    "signatureIngredients": ["chickpea", "tahini", "olive-oil", "cumin", "coriander-seeds", "lemon"]
+  },
+  {
+    "slug": "moroccan",
+    "name": "Moroccan",
+    "country": "morocco",
+    "region": null,
+    "blurb": "Moroccan cuisine is a masterful blend of Berber, Arab, and Andalusian influences, producing fragrant tagines and couscous spiced with ras el hanout, preserved lemon, and the warming depth of cinnamon.",
+    "signatureIngredients": ["cinnamon", "cumin", "coriander-seeds", "lemon", "olive-oil", "mutton"]
+  },
+  {
+    "slug": "ethiopian",
+    "name": "Ethiopian",
+    "country": "ethiopia",
+    "region": null,
+    "blurb": "Ethiopian cuisine centers on injera—a spongy fermented flatbread—served with bold lentil wots, spiced niter kibbeh butter, and the complex berbere paste that gives Ethiopian food its remarkable depth.",
+    "signatureIngredients": ["masoor-dal", "chickpea", "red-chilli-powder", "butter", "onion", "cumin"]
+  },
+  {
+    "slug": "west-african",
+    "name": "West African",
+    "country": null,
+    "region": null,
+    "blurb": "West African cuisine is defined by deeply layered stews built on tomatoes, peppers, and palm-oil richness, with dishes like jollof rice and egusi soup showcasing a tradition that has profoundly shaped global cuisine.",
+    "signatureIngredients": ["tomato", "onion", "red-chilli-powder", "rice", "peanut", "oil"]
+  },
+  {
+    "slug": "egyptian",
+    "name": "Egyptian",
+    "country": "egypt",
+    "region": null,
+    "blurb": "Egyptian cuisine carries thousands of years of culinary heritage, centered on nourishing staples like ful medames, koshari, and molokhiya soup that reflect a deep civilization along the Nile.",
+    "signatureIngredients": ["masoor-dal", "chickpea", "tomato", "cumin", "garlic", "lemon"]
+  },
+  {
+    "slug": "mexican",
+    "name": "Mexican",
+    "country": "mexico",
+    "region": null,
+    "blurb": "Mexican cuisine is a UNESCO-recognized tradition that weaves together pre-Hispanic ingredients—chillies, corn, beans, and chocolate—with Spanish colonial influence to create complex moles, salsas, and vibrant street tacos.",
+    "signatureIngredients": ["tomato", "green-chilli", "black-beans", "corn", "tortilla", "avocado"]
+  },
+  {
+    "slug": "american",
+    "name": "American",
+    "country": "united-states",
+    "region": null,
+    "blurb": "American cuisine reflects the country's immigrant tapestry and regional diversity, from Southern barbecue and soul food to New England chowder and Tex-Mex fusions, with grilling, baking, and bold flavors at its heart.",
+    "signatureIngredients": ["beef", "bread", "potato", "cheese", "tomato", "corn"]
+  },
+  {
+    "slug": "brazilian",
+    "name": "Brazilian",
+    "country": "brazil",
+    "region": null,
+    "blurb": "Brazilian cuisine is as vast as the country itself, anchored by the national feijoada—a slow-cooked black bean stew with pork—and featuring Bahian coconut curries, Amazonian river fish, and vibrant tropical fruits.",
+    "signatureIngredients": ["black-beans", "pork", "beef", "rice", "coconut", "lemon"]
+  },
+  {
+    "slug": "peruvian",
+    "name": "Peruvian",
+    "country": "peru",
+    "region": null,
+    "blurb": "Peruvian cuisine, recognized as one of the world's most exciting, draws on Andean, Japanese, Chinese, and Spanish influences to produce ceviche, causa, lomo saltado, and a stunning diversity of potato preparations.",
+    "signatureIngredients": ["potato", "lemon", "fish", "corn", "chicken", "onion"]
+  },
+  {
+    "slug": "caribbean",
+    "name": "Caribbean",
+    "country": "jamaica",
+    "region": null,
+    "blurb": "Caribbean cuisine captures the spirit of the islands—jerk-spiced meats, rice and peas, ackee and saltfish, and allspice-laced stews that speak to the African, indigenous Taino, and colonial heritage of the region.",
+    "signatureIngredients": ["chicken", "rice", "coconut-milk", "black-pepper", "onion", "lemon"]
+  },
+  {
+    "slug": "mediterranean",
+    "name": "Mediterranean",
+    "country": null,
+    "region": null,
+    "blurb": "Mediterranean cuisine is an umbrella of shared culinary values—olive oil, fresh vegetables, legumes, herbs, and seafood—stretching from Spain and Italy through Greece, Lebanon, and the North African coast.",
+    "signatureIngredients": ["olive-oil", "tomato", "garlic", "lemon", "olives", "fish"]
+  }
+]

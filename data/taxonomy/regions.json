@@ -1,0 +1,194 @@
+[
+  {
+    "slug": "tamil-nadu",
+    "name": "Tamil Nadu",
+    "country": "india",
+    "blurb": "Tamil Nadu is the heartland of Dravidian culture and cuisine, renowned for its rice-based meals, temple food traditions, filter coffee, and a vast repertoire of vegetarian and non-vegetarian preparations."
+  },
+  {
+    "slug": "chettinad-region",
+    "name": "Chettinad",
+    "country": "india",
+    "blurb": "The Chettinad region in Tamil Nadu's Sivaganga district is home to the Nattukotai Chettiar community, whose merchant-class cuisine developed one of India's most complex spice cultures."
+  },
+  {
+    "slug": "kongunadu",
+    "name": "Kongunadu",
+    "country": "india",
+    "blurb": "Kongunadu encompasses the fertile western districts of Tamil Nadu around Coimbatore and Erode, known for a robust cuisine featuring finger millet, sorghum, fresh herbs, and hearty meat preparations."
+  },
+  {
+    "slug": "malabar",
+    "name": "Malabar",
+    "country": "india",
+    "blurb": "The Malabar Coast, covering northern Kerala and the Tulu Nadu coast of Karnataka, is India's historic spice coast, with a cuisine marked by Arab and Portuguese trade influences alongside exceptional biryanis and seafood."
+  },
+  {
+    "slug": "travancore",
+    "name": "Travancore",
+    "country": "india",
+    "blurb": "Travancore, the southern region of Kerala, maintains a rich tradition of Sadhya feasts served on banana leaves, coconut-based fish curries, and the distinctive culinary heritages of its Syrian Christian and Nair communities."
+  },
+  {
+    "slug": "coastal-andhra",
+    "name": "Coastal Andhra",
+    "country": "india",
+    "blurb": "Coastal Andhra along the Bay of Bengal is famous for some of India's most fiery cuisine, with abundant seafood, rice-based meals, and pickles that make bold use of the renowned Guntur chilli."
+  },
+  {
+    "slug": "rayalaseema",
+    "name": "Rayalaseema",
+    "country": "india",
+    "blurb": "Rayalaseema in southern Andhra Pradesh is known for a rustic, intensely spiced cuisine built on sorghum, lentils, and the pungent gongura sorrel leaf that defines its most signature preparations."
+  },
+  {
+    "slug": "telangana-region",
+    "name": "Telangana",
+    "country": "india",
+    "blurb": "The Telangana plateau features robust preparations of jowar, bajra, and lentils alongside the city of Hyderabad's celebrated biryani and Nizami court traditions rooted in centuries of Mughal influence."
+  },
+  {
+    "slug": "old-mysuru",
+    "name": "Old Mysuru",
+    "country": "india",
+    "blurb": "The Old Mysuru region of Karnataka is known for its refined Brahmin cuisine, golden benne dosas, the iconic Mysore pak sweet, and the distinctive sweet-and-savory balance of palace-influenced preparations."
+  },
+  {
+    "slug": "udupi-mangalore",
+    "name": "Udupi & Mangalore",
+    "country": "india",
+    "blurb": "Udupi and Mangalore on Karnataka's Tulu Nadu coast are celebrated for temple cuisine, coconut-rich seafood curries, filter coffee culture, and the original Udupi vegetarian restaurant tradition that spread across India."
+  },
+  {
+    "slug": "punjab",
+    "name": "Punjab (India)",
+    "country": "india",
+    "blurb": "The Punjab region of India is the breadbasket of the nation, producing hearty dishes like makki di roti and sarson da saag, with a generous hand with dairy and a bold, celebratory cooking tradition."
+  },
+  {
+    "slug": "gujarat",
+    "name": "Gujarat",
+    "country": "india",
+    "blurb": "Gujarat's fertile plains and Jain culinary influence have shaped a primarily vegetarian cuisine famous for its sweet-sour flavor balance, fermented snacks like dhokla, and the internationally cherished farsan tradition."
+  },
+  {
+    "slug": "rajasthan",
+    "name": "Rajasthan",
+    "country": "india",
+    "blurb": "Rajasthan's desert landscape gave rise to a cooking tradition built on dried pulses, ghee-rich breads, and preserved foods that could withstand harsh climates and the long journeys of its trading communities."
+  },
+  {
+    "slug": "maharashtra",
+    "name": "Maharashtra",
+    "country": "india",
+    "blurb": "Maharashtra stretches from the Konkan's fish-rich coastline to the high plateau of Vidarbha, producing a diverse cuisine that spans crab curries and peanut-laced pohe to the celebrated street food culture of Mumbai."
+  },
+  {
+    "slug": "goa",
+    "name": "Goa",
+    "country": "india",
+    "blurb": "Goa's coastal cuisine carries a unique Portuguese imprint in its use of vinegar, pork preparations, and artisan breads alongside the coconut and spice traditions inherited from the Konkan coast."
+  },
+  {
+    "slug": "bengal",
+    "name": "Bengal",
+    "country": "india",
+    "blurb": "Bengal—spanning West Bengal and Bangladesh—is home to one of India's most sophisticated culinary traditions, with a deep love of river fish, sweets like rasgulla and mishti doi, and a poetic reverence for food."
+  },
+  {
+    "slug": "kashmir",
+    "name": "Kashmir",
+    "country": "india",
+    "blurb": "Kashmir's cuisine is defined by the valley's saffron fields, walnut orchards, and the wazwan feast tradition—dozens of slow-cooked lamb dishes prepared by master cooks called wazas for celebratory gatherings."
+  },
+  {
+    "slug": "awadh",
+    "name": "Awadh",
+    "country": "india",
+    "blurb": "Awadh, centered on Lucknow in Uttar Pradesh, is the birthplace of dum cooking—sealing pots with dough to cook slowly—and the refined Nawabi cuisine that gave India its most celebrated biryani and kebab traditions."
+  },
+  {
+    "slug": "delhi",
+    "name": "Delhi",
+    "country": "india",
+    "blurb": "Delhi is a culinary crossroads where Mughal refinement, Punjabi heartiness, and a vibrant street food culture converge, producing some of India's most iconic dishes from the lanes of Chandni Chowk to its world-class kitchens."
+  },
+  {
+    "slug": "sichuan",
+    "name": "Sichuan",
+    "country": "china",
+    "blurb": "Sichuan province is renowned for its ma la numbing-spicy flavor principle, achieved through Sichuan peppercorns and dried chillies, producing a bold, aromatic cuisine that is one of China's most internationally recognized."
+  },
+  {
+    "slug": "guangdong",
+    "name": "Guangdong (Cantonese)",
+    "country": "china",
+    "blurb": "Guangdong is the birthplace of Cantonese cuisine—the world's most widely spread Chinese regional cooking style—celebrated for its dim sum, gentle steaming techniques, and reverence for the natural flavor of fresh ingredients."
+  },
+  {
+    "slug": "tuscany",
+    "name": "Tuscany",
+    "country": "italy",
+    "blurb": "Tuscany's cucina povera tradition prizes simplicity—Florentine bistecca, ribollita bean soup, and pappa al pomodoro—elevated by the world's finest olive oil, Chianti wines, and centuries of artisan food culture."
+  },
+  {
+    "slug": "sicily",
+    "name": "Sicily",
+    "country": "italy",
+    "blurb": "Sicily's cuisine is Italy's most diverse, shaped by Greek, Arab, Norman, and Spanish conquests into a tradition that embraces caponata, arancini, pasta alla norma, and an extraordinary array of seafood and sweets."
+  },
+  {
+    "slug": "naples",
+    "name": "Naples",
+    "country": "italy",
+    "blurb": "Naples is the birthplace of pizza and many of Italy's most beloved street foods, with a cuisine built on San Marzano tomatoes, buffalo mozzarella, and a passionate, democratic food culture that fiercely guards its traditions."
+  },
+  {
+    "slug": "provence",
+    "name": "Provence",
+    "country": "france",
+    "blurb": "Provence in southern France is defined by the sun-soaked flavors of herbes de Provence, lavender honey, tapenade, bouillabaisse fish stew, and ratatouille, all reflecting a land of abundant sun and aromatic herbs."
+  },
+  {
+    "slug": "oaxaca",
+    "name": "Oaxaca",
+    "country": "mexico",
+    "blurb": "Oaxaca is Mexico's culinary heartland, famous for its seven moles, tlayudas, quesillo string cheese, and the indigenous Zapotec ingredients that earned it recognition as a UNESCO food heritage destination."
+  },
+  {
+    "slug": "yucatan",
+    "name": "Yucatán",
+    "country": "mexico",
+    "blurb": "The Yucatán peninsula preserves one of Mexico's most distinctive cuisines, rooted in Mayan tradition—slow-cooking cochinita pibil in banana leaves, achiote-marinated meats, and the bright citrus of bitter orange."
+  },
+  {
+    "slug": "punjab-pakistan",
+    "name": "Punjab (Pakistan)",
+    "country": "pakistan",
+    "blurb": "Pakistan's Punjab is the country's most populous province and its culinary heartland, famous for its tandoor breads, slow-cooked nihari, karahi preparations, and a richly flavored tradition of meat-centered cooking."
+  },
+  {
+    "slug": "sindh",
+    "name": "Sindh",
+    "country": "pakistan",
+    "blurb": "Sindh's cuisine draws on the Indus Valley's ancient agricultural heritage, featuring Sindhi biryani, slow-cooked rice dishes, and the use of mangoes, lotus seeds, and dill that reflect its fertile riverine culture."
+  },
+  {
+    "slug": "jaffna",
+    "name": "Jaffna",
+    "country": "sri-lanka",
+    "blurb": "Jaffna, the cultural capital of Sri Lanka's Tamil community, is home to one of the island's finest regional cuisines—celebrated for its crab curries, palmyra palm sweets, and intensely spiced Jaffna curry powder."
+  },
+  {
+    "slug": "anatolia",
+    "name": "Anatolia",
+    "country": "turkey",
+    "blurb": "Anatolia, the vast heartland of modern Turkey, is the cradle of many of its most important culinary traditions, from the wood-fired kebabs of Adana and Gaziantep's baklava to the yogurt-based soups and grain dishes of the plateau."
+  },
+  {
+    "slug": "kansai",
+    "name": "Kansai",
+    "country": "japan",
+    "blurb": "The Kansai region, encompassing Osaka and Kyoto, is Japan's culinary capital—Osaka for its takoyaki, okonomiyaki, and izakaya culture; Kyoto for refined Buddhist kaiseki and the tofu-centered shojin ryori tradition."
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "slug": "tempering",
+    "name": "Tempering",
+    "blurb": "Tempering — or tadka — means blooming whole spices in hot oil or ghee to coax out their aromatic oils before adding them to a dish or finishing a dal. It takes under a minute but delivers the foundational flavour backbone of most South Asian cooking.",
+    "indianEquivalent": null
+  },
+  {
+    "slug": "pressure-cooking",
+    "name": "Pressure Cooking",
+    "blurb": "Pressure cooking uses steam sealed inside a cooker to raise the boiling point of water, slashing cooking times for dals, lentils, beans, and tough cuts of meat dramatically. It is the workhorse method of the Indian home kitchen.",
+    "indianEquivalent": null
+  },
+  {
+    "slug": "kadai-cooking",
+    "name": "Kadai Cooking",
+    "blurb": "Kadai cooking refers to dishes made in the deep, round-bottomed iron or steel kadai, combining dry-roasting, frying, and simmering in one vessel to build layered flavours. The curved walls allow ingredients to be tossed without spilling, making it ideal for semi-dry gravies.",
+    "indianEquivalent": null
+  },
+  {
+    "slug": "tawa-cooking",
+    "name": "Tawa Cooking",
+    "blurb": "Tawa cooking uses a flat or slightly concave cast-iron griddle to make flatbreads, dosas, and pan-seared preparations that need even dry heat. The seasoned iron surface adds a subtle char that no non-stick pan can replicate.",
+    "indianEquivalent": null
+  },
+  {
+    "slug": "deep-frying",
+    "name": "Deep Frying",
+    "blurb": "Deep frying submerges food in hot oil, typically between 170°C and 190°C, forming a crisp, sealed crust while the interior steams tender. Mastering oil temperature is the single most important skill for evenly fried results.",
+    "indianEquivalent": null
+  },
+  {
+    "slug": "shallow-frying",
+    "name": "Shallow Frying",
+    "blurb": "Shallow frying uses just enough oil to come halfway up the food, combining conductive heat from the pan and convective heat from the surrounding oil for a golden crust with far less oil than deep frying. It is the go-to method for fish fry, cutlets, and stuffed parathas.",
+    "indianEquivalent": null
+  },
+  {
+    "slug": "pan-frying",
+    "name": "Pan Frying",
+    "blurb": "Pan frying cooks food in a thin film of oil over direct heat, developing a Maillard-browned crust without the oil immersion of shallow or deep frying. It works beautifully for marinated chicken pieces, eggs, and quick vegetable preparations.",
+    "indianEquivalent": null
+  },
+  {
+    "slug": "stir-frying",
+    "name": "Stir Frying",
+    "blurb": "Stir frying tosses ingredients rapidly over very high heat in a small amount of oil, sealing in juices and preserving texture within minutes. A heavy kadai or wok over a powerful gas flame is ideal for achieving the smoky 'wok hei' character.",
+    "indianEquivalent": null
+  },
+  {
+    "slug": "steaming",
+    "name": "Steaming",
+    "blurb": "Steaming cooks food gently with moist heat from boiling water, preserving nutrients, colour, and delicate textures without any added fat. It is essential for idlis, dhokla, and modak, and can be done in an idli steamer, a regular pot with a lid, or a pressure cooker without the weight.",
+    "indianEquivalent": "idli steamer or a large pot with a fitted lid and an elevated plate; for small batches, the pressure cooker without the weight works well"
+  },
+  {
+    "slug": "boiling",
+    "name": "Boiling",
+    "blurb": "Boiling cooks food fully submerged in water or stock at 100°C, the simplest and most universally used wet-heat method. It is the foundation for boiled eggs, par-cooking vegetables, and preparing rice or pasta before finishing in sauce.",
+    "indianEquivalent": null
+  },
+  {
+    "slug": "simmering",
+    "name": "Simmering",
+    "blurb": "Simmering holds liquid just below the boil (around 85–95°C), allowing flavours to meld and proteins to cook gently without turning tough. Most Indian gravies and rasams finish on a simmer to concentrate and balance their spice notes.",
+    "indianEquivalent": null
+  },
+  {
+    "slug": "braising",
+    "name": "Braising",
+    "blurb": "Braising browns food first then cooks it slowly in a small amount of liquid in a covered pot, using a combination of wet and dry heat to break down collagen and create rich, sticky sauces. Heavy-bottomed pots or a covered kadai on a low flame produce excellent results at home.",
+    "indianEquivalent": "covered heavy kadai on low flame with a small amount of liquid — similar to the Indian technique of cooking on 'dum' but with more liquid"
+  },
+  {
+    "slug": "dum",
+    "name": "Dum (Slow-Steam Cooking)",
+    "blurb": "Dum is the ancient technique of sealing a pot with dough or a tight lid and cooking over very low heat, allowing food to cook in its own steam and aromatic vapours. It is the defining method for biryani and dum aloo, creating layers of flavour that no open-pot method can match.",
+    "indianEquivalent": null
+  },
+  {
+    "slug": "roasting",
+    "name": "Roasting",
+    "blurb": "Roasting uses dry heat, usually in an oven or over a direct flame, to caramelise the surface of vegetables, meats, and spices through Maillard browning. Flame-roasting whole brinjals or tomatoes directly on the gas burner is a deeply ingrained technique in Indian kitchens.",
+    "indianEquivalent": "flame-roasting directly on a gas burner for vegetables and spices; for larger roasts, a covered kadai on very low flame or a Dutch oven can approximate oven roasting"
+  },
+  {
+    "slug": "grilling",
+    "name": "Grilling",
+    "blurb": "Grilling cooks food over direct radiant heat from below or above, creating characteristic char marks and smoky flavours. A tawa or griddle pan over high heat can mimic grill char at home, or a charcoal grill can be used for the full outdoor experience.",
+    "indianEquivalent": "cast-iron tawa or ridged grill pan over high flame; for tandoor-style char, charcoal can be placed in a small pot inside a sealed vessel (sigri method)"
+  },
+  {
+    "slug": "baking",
+    "name": "Baking",
+    "blurb": "Baking uses enclosed dry heat — typically in an oven — to cook breads, cakes, pastries, and casseroles through gradual, even heat transfer. Where an oven is unavailable, a heavy kadai or pressure cooker with sand or salt can serve as a makeshift baking chamber.",
+    "indianEquivalent": "heavy kadai with a stand and lid (kadai oven method) or a pressure cooker without the gasket and weight, preheated with salt or sand at the base — suitable for cakes, cookies, and small breads"
+  },
+  {
+    "slug": "air-frying",
+    "name": "Air Frying",
+    "blurb": "Air frying circulates superheated air rapidly around food in a compact chamber, producing a crisp exterior similar to deep frying while using a fraction of the oil. It is excellent for snacks, reheating fried foods, and cooking marinated pieces evenly.",
+    "indianEquivalent": null
+  },
+  {
+    "slug": "sauteing",
+    "name": "Sauteing",
+    "blurb": "Sauteing cooks food quickly in a small amount of fat over medium-high heat, developing flavour through light browning without fully frying. In Indian cooking, onions, ginger, and garlic are routinely sauteed as the aromatic base before spices are added.",
+    "indianEquivalent": null
+  },
+  {
+    "slug": "fermenting",
+    "name": "Fermenting",
+    "blurb": "Fermenting allows natural or added microorganisms to transform raw ingredients — souring rice and lentil batter for idli and dosa, pickling vegetables, and developing complex flavours that hours of cooking alone cannot produce. It is a pillar of South Indian breakfast culture.",
+    "indianEquivalent": null
+  },
+  {
+    "slug": "no-cook",
+    "name": "No-Cook",
+    "blurb": "No-cook preparations require no application of heat at all, relying on acidic marinades, raw textures, or simply assembling pre-cooked or naturally edible ingredients. Raitas, lassi, fruit chaat, and many salads fall into this category.",
+    "indianEquivalent": null
+  },
+  {
+    "slug": "one-pot",
+    "name": "One-Pot",
+    "blurb": "One-pot cooking completes an entire dish — including any initial sauteing, simmering, or finishing — in a single vessel, minimising cleanup and concentrating flavours. Khichdi, sambar, and many Indian dals are classic one-pot dishes by nature.",
+    "indianEquivalent": null
+  },
+  {
+    "slug": "slow-cooking",
+    "name": "Slow Cooking",
+    "blurb": "Slow cooking applies very low heat over several hours, breaking down tough fibres and allowing spices to permeate deeply into meat and vegetables. A covered earthenware clay pot over a very low flame is the traditional Indian equivalent, yielding meltingly tender results.",
+    "indianEquivalent": "clay pot (mitti handi) or covered heavy-bottomed vessel on the lowest gas flame, sometimes placed over a tawa to diffuse heat — the traditional way to slow-cook dal makhani and bone broths"
+  },
+  {
+    "slug": "marinating",
+    "name": "Marinating",
+    "blurb": "Marinating soaks raw ingredients in a seasoned liquid or paste — typically combining acid, fat, and spices — to tenderise proteins and drive flavour inward before cooking. In Indian cooking, yoghurt-based marinades are especially prized for their tenderising enzyme action.",
+    "indianEquivalent": null
+  }
+]

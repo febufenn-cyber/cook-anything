@@ -1,0 +1,2911 @@
+[
+  {
+    "id": "ca-spanish-chicken-paella",
+    "slug": "spanish-chicken-paella",
+    "title": "Spanish Chicken Paella",
+    "nativeTitle": "Paella de Pollo",
+    "description": "A saffron-golden one-pot rice dish where chicken pieces are nestled into sofrito-infused short-grain rice and cooked until every grain absorbs the flavour of stock and spice, finishing with a lightly crisped base called socarrat. Adapted here for the Indian home kitchen using a wide kadai.",
+    "cuisine": "spanish",
+    "country": "spain",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 45,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken, bone-in pieces (legs and thighs)",
+        "normalizedName": "chicken",
+        "quantity": 700,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "short-grain rice (sona masoori or kolam)",
+        "normalizedName": "rice",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ripe tomatoes, grated or finely chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "red capsicum (shimla mirch), sliced into strips",
+        "normalizedName": "capsicum",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, finely minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "saffron strands",
+        "normalizedName": "saffron",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      },
+      {
+        "name": "olive oil (or sunflower oil)",
+        "normalizedName": "olive-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "hot chicken stock (or stock cube dissolved in 750 ml water)",
+        "normalizedName": "stock",
+        "quantity": 750,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "paprika or Kashmiri red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "green peas (frozen or fresh)",
+        "normalizedName": "peas",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": true
+      },
+      {
+        "name": "fresh parsley leaves, roughly chopped",
+        "normalizedName": "parsley",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": true
+      },
+      {
+        "name": "lemon, cut into wedges for serving",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Steep the saffron strands in 4 tablespoons of hot water for 10 minutes; the liquid will turn a rich amber-orange. Season the chicken pieces all over with salt and 1 teaspoon of the paprika, pressing the spice into the surface.",
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Heat olive oil in a wide, heavy kadai over medium-high heat. Place the chicken skin-side down (or smooth side down for skinless pieces) and sear without disturbing for 4–5 minutes until deeply golden. Flip and sear the other side for 3 minutes, then lift the chicken out and set aside — it will finish cooking with the rice.",
+        "timerMinutes": 8,
+        "method": "pan-frying"
+      },
+      {
+        "order": 3,
+        "text": "Reduce the heat to medium. In the same kadai, add the onion and cook, stirring occasionally, for 5 minutes until soft and lightly golden. Add the garlic and capsicum strips and cook for another 3 minutes until the capsicum begins to soften.",
+        "timerMinutes": 8,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Add the grated tomato and the remaining half teaspoon of paprika to the sofrito. Cook over medium flame, stirring now and then, for 7–8 minutes until the mixture thickens into a dark, jammy paste and oil begins to shimmer at the edges — this is the sofrito and it is the heart of the dish.",
+        "timerMinutes": 8
+      },
+      {
+        "order": 5,
+        "text": "Add the rice and stir it through the sofrito for 1–2 minutes so every grain is coated. Pour in the hot stock and the saffron water, taste the liquid for salt, and stir once to level everything out. Do not stir again after this point.",
+        "method": "one-pot"
+      },
+      {
+        "order": 6,
+        "text": "Nestle the seared chicken pieces back into the rice, scatter the peas around them if using, and bring the pot to a vigorous boil. Once boiling steadily, reduce the heat to the lowest possible setting and cook uncovered for 18–20 minutes. The surface will look dry and pitted when the rice is ready — this is normal.",
+        "timerMinutes": 20,
+        "method": "simmering"
+      },
+      {
+        "order": 7,
+        "text": "Remove from heat, cover tightly with a lid or foil, and rest for 5 minutes. Scatter fresh parsley on top and bring the kadai directly to the table. Serve with lemon wedges so each person can squeeze juice over their portion.",
+        "timerMinutes": 5
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "sauteing",
+      "pan-frying",
+      "simmering",
+      "one-pot",
+      "marinating"
+    ],
+    "tags": [
+      "party",
+      "comfort-food",
+      "one-pot-meal"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 495,
+      "protein": 37,
+      "carbs": 46,
+      "fat": 14,
+      "fiber": 3,
+      "sugar": 5,
+      "sodium": 640,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "rice",
+        "substitute": "Sona masoori or kolam rice are ideal; avoid basmati as the long grain stays separate rather than absorbing stock",
+        "notes": "Short to medium-grain varieties give the correct sticky-yet-distinct texture"
+      },
+      {
+        "ingredient": "saffron",
+        "substitute": "A quarter teaspoon of turmeric dissolved in the soaking water gives similar colour without the floral flavour; Kashmiri saffron from Indian spice shops works perfectly"
+      },
+      {
+        "ingredient": "stock",
+        "substitute": "Maggi or Knorr chicken stock cube dissolved in 750 ml hot water; or plain water with a bay leaf and an extra half teaspoon of salt"
+      },
+      {
+        "ingredient": "olive-oil",
+        "substitute": "Sunflower oil or any neutral refined oil; olive oil adds a mild fruitiness but is not essential to the final flavour"
+      },
+      {
+        "ingredient": "capsicum",
+        "substitute": "Shimla mirch (same vegetable, different name) is universally available; the red variety adds sweetness and colour"
+      }
+    ],
+    "culturalNote": "Paella originated in the rice fields around Valencia where farmworkers cooked Sunday meals over wood fires using whatever was to hand — originally rabbit, chicken, and snails rather than seafood. Today it is Spain's most internationally recognised dish, though Valencians will tell you most versions sold abroad bear little resemblance to the original.",
+    "regionalVariation": "Valencia's traditional paella uses rabbit, chicken, and green beans. Coastal areas make paella de mariscos with prawns, clams, and squid. Mixed paellas combining meat and seafood are common in restaurants across Spain. The choice of rice variety — Bomba or Calasparra — is considered important by purists.",
+    "indianKitchenAdaptation": "A wide flat-bottomed kadai is the best substitute for the traditional shallow paellera; a wider base means more surface area for the socarrat to form. Sona masoori or kolam rice from any South Indian grocery replaces Bomba rice well. Use Kashmiri red chilli powder instead of smoked paprika — it has the same mild, earthy quality. Stock cubes from Maggi or Knorr are widely available and convenient. Saffron is sold at Indian spice shops and paan stores; a small 1 g packet is enough for four to five batches.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-spanish-tortilla-espanola",
+    "slug": "spanish-tortilla-espanola",
+    "title": "Spanish Tortilla Española",
+    "nativeTitle": "Tortilla Española",
+    "description": "A thick, golden potato omelette that is the everyday soul food of Spain — slices of potato and onion slow-cooked in olive oil until tender, then bound with beaten egg and cooked into a firm, silky round that is equally good warm from the pan or at room temperature. Far simpler than it looks, and deeply satisfying.",
+    "cuisine": "spanish",
+    "country": "spain",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "lunch",
+      "snack",
+      "side"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "eggs",
+        "normalizedName": "egg",
+        "quantity": 6,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "potatoes, peeled and sliced 3 mm thin",
+        "normalizedName": "potato",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion, thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "olive oil (or any neutral oil)",
+        "normalizedName": "olive-oil",
+        "quantity": 5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Peel the potatoes and slice them into thin rounds about 3 mm thick — a mandoline or careful knife work both work. Slice the onion into thin half-moons. Season both with a generous pinch of salt.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Heat the olive oil in a 20–22 cm frying pan or tawa over medium-low flame. Add the potato and onion slices, gently pressing them down. Cook slowly for 18–20 minutes, turning occasionally with a spatula, until the potatoes are completely tender and pale gold rather than crisp — you are confiting them in oil, not frying.",
+        "timerMinutes": 20,
+        "method": "shallow-frying"
+      },
+      {
+        "order": 3,
+        "text": "While the potatoes cook, crack the eggs into a large bowl, season with salt, and beat well with a fork. When the potatoes are ready, lift them out with a slotted spoon and add them to the beaten egg, pressing gently to submerge. Let the mixture rest for 5 minutes so the egg starts to soak into the potato.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 4,
+        "text": "Pour away most of the oil from the pan, leaving just a thin coating. Reheat the pan over medium flame, then pour in the potato-egg mixture and spread it evenly. Cook for 4–5 minutes until the edges are set and the centre still looks slightly wobbly when you shake the pan.",
+        "timerMinutes": 5,
+        "method": "pan-frying"
+      },
+      {
+        "order": 5,
+        "text": "Place a large flat plate or tawa lid over the pan. In one confident motion, flip the pan so the tortilla lands on the plate cooked-side up. Slide it back into the pan raw-side down and cook for another 2–3 minutes until just set through — it should be slightly creamy in the centre rather than fully firm. Slide onto a plate and serve warm or at room temperature.",
+        "timerMinutes": 3
+      }
+    ],
+    "cookware": [
+      "frying-pan",
+      "tawa"
+    ],
+    "methods": [
+      "shallow-frying",
+      "pan-frying",
+      "no-cook"
+    ],
+    "tags": [
+      "bachelor-friendly",
+      "quick",
+      "budget",
+      "kids-friendly",
+      "lunchbox"
+    ],
+    "allergens": [
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 285,
+      "protein": 13,
+      "carbs": 22,
+      "fat": 16,
+      "fiber": 2,
+      "sugar": 2,
+      "sodium": 310,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "olive-oil",
+        "substitute": "Any neutral refined oil; ghee gives a richer flavour in the potato confiting step"
+      },
+      {
+        "ingredient": "potato",
+        "substitute": "Sweet potato can replace up to half the potato for a slightly sweet variation, though the texture will be softer"
+      },
+      {
+        "ingredient": "onion",
+        "substitute": "Spring onion (hara pyaz) or shallots work well; some Spanish cooks omit the onion entirely for a purer potato flavour"
+      }
+    ],
+    "culturalNote": "The tortilla española is Spain's most beloved everyday dish, found on every bar counter and in every home lunchbox from morning to midnight. Despite its simplicity, whether to include onion or not (con cebolla vs sin cebolla) is a fiercely debated national question in Spain.",
+    "regionalVariation": "Basque-style tortilla tends to be thicker and more custardy in the centre. Some Catalan versions add roasted red peppers or chorizo. Tortilla de patatas in Andalusia is sometimes served with alioli (garlic mayonnaise) on the side.",
+    "indianKitchenAdaptation": "A non-stick tawa is ideal for this recipe and makes the flip much less stressful than a stainless steel pan. Regular potatoes from any Indian market work perfectly — no special variety needed. Any neutral oil (sunflower, groundnut) replaces olive oil without noticeable loss of flavour. The flip step is the only tricky part: practise with a flat plate slightly larger than the tawa to build confidence. Adding a pinch of black pepper or a green chilli to the egg mix is a popular Indian adaptation.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-spanish-gazpacho",
+    "slug": "spanish-gazpacho",
+    "title": "Spanish Gazpacho",
+    "nativeTitle": "Gazpacho Andaluz",
+    "description": "A chilled raw vegetable soup from Andalusia in southern Spain — ripe tomatoes, cucumber, and red pepper blended with garlic, olive oil, and a splash of vinegar into a smooth, deeply refreshing liquid. No cooking required: the blender does all the work, and a spell in the refrigerator transforms the flavours into something far greater than the sum of its parts.",
+    "cuisine": "spanish",
+    "country": "spain",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 0,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "ripe red tomatoes, roughly chopped",
+        "normalizedName": "tomato",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "cucumber, peeled and roughly chopped",
+        "normalizedName": "cucumber",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "red capsicum (shimla mirch), deseeded and roughly chopped",
+        "normalizedName": "capsicum",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic clove",
+        "normalizedName": "garlic",
+        "quantity": 1,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "extra virgin olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red wine vinegar (or apple cider vinegar)",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "day-old white bread, crust removed (for body)",
+        "normalizedName": "bread",
+        "quantity": 1,
+        "unit": "slice",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "sugar (a pinch, only if tomatoes are tart)",
+        "normalizedName": "sugar",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Roughly chop the tomatoes, cucumber, and capsicum into large chunks — no need to be precise as everything will be blended. If using bread, soak the slice in 2 tablespoons of cold water for 2 minutes until it softens, then squeeze gently to remove excess water.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Add the tomatoes, cucumber, capsicum, garlic, soaked bread (if using), olive oil, vinegar, and a generous pinch of salt to a blender or mixie. Blend on high speed for 2–3 minutes until completely smooth and no visible chunks remain.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 3,
+        "text": "Taste the gazpacho and adjust: add more salt if bland, a splash more vinegar if it tastes flat, a pinch of sugar if your tomatoes were very acidic. If the soup looks too thick, blend in 3–4 tablespoons of cold water until it reaches the consistency of a smooth vegetable juice.",
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Pour the gazpacho into a large jar or jug, cover, and refrigerate for at least 30 minutes before serving — the flavours meld and deepen as it chills. Serve in bowls or tall glasses with a drizzle of olive oil on top and optional garnishes of tiny diced cucumber, tomato, and capsicum alongside.",
+        "timerMinutes": 30
+      }
+    ],
+    "cookware": [
+      "blender",
+      "mixie"
+    ],
+    "methods": [
+      "no-cook"
+    ],
+    "tags": [
+      "summer",
+      "healthy",
+      "quick",
+      "under-30-minutes",
+      "low-oil",
+      "salad"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 115,
+      "protein": 2,
+      "carbs": 10,
+      "fat": 8,
+      "fiber": 3,
+      "sugar": 7,
+      "sodium": 220,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "vinegar",
+        "substitute": "Lemon juice works as a bright substitute; use 1.5 tablespoons of fresh lemon juice in place of 1 tablespoon of vinegar"
+      },
+      {
+        "ingredient": "bread",
+        "substitute": "The bread can be omitted entirely for a lighter, thinner soup; or replace with 2 tablespoons of rolled oats blended in for body without gluten"
+      },
+      {
+        "ingredient": "capsicum",
+        "substitute": "Shimla mirch (same vegetable) from any Indian market; the red variety is sweeter and preferred here over green"
+      },
+      {
+        "ingredient": "olive-oil",
+        "substitute": "Any mild oil such as sunflower or refined groundnut oil; avoid strongly flavoured oils like mustard oil which would overpower the delicate vegetables"
+      }
+    ],
+    "culturalNote": "Gazpacho has its roots in Andalusia in southern Spain, where it has been made for centuries as a way to use summer's abundance of ripe tomatoes. Before tomatoes arrived from the Americas in the 16th century, earlier versions were made with just bread, vinegar, garlic, and olive oil — a cold soup that sustained farmworkers in the summer heat.",
+    "regionalVariation": "Salmorejo from Córdoba is a thicker, creamier cousin made with more bread and typically served with hard-boiled egg and jamón on top. Ajo blanco from Málaga is a white gazpacho made with almonds and grapes instead of tomatoes. Both are worth exploring in season.",
+    "indianKitchenAdaptation": "A standard mixie or countertop blender handles this recipe perfectly — blend in batches if needed. Indian summer tomatoes tend to be more acidic than Spanish ones, so taste before adding the optional sugar. All vegetables are available year-round in India. This makes an excellent cooler on hot days and can be chilled in a steel jug in the fridge for several hours. Serve it in steel tumblers for a fun no-fuss presentation. The bread is optional and can be skipped for a lighter, gluten-free version.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-spanish-patatas-bravas",
+    "slug": "spanish-patatas-bravas",
+    "title": "Spanish Patatas Bravas",
+    "nativeTitle": "Patatas Bravas",
+    "description": "Crispy fried potato cubes smothered in a fiery, smoky tomato-based brava sauce — the most popular tapa in Spain, found on every bar menu from Barcelona to Seville. The contrast between the crunchy potato and the bold, tangy sauce is what makes this dish so addictive, and the whole thing comes together in under an hour with pantry staples.",
+    "cuisine": "spanish",
+    "country": "spain",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack",
+      "side",
+      "lunch"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "potatoes, cut into 2 cm cubes",
+        "normalizedName": "potato",
+        "quantity": 700,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "ripe tomatoes, roughly chopped",
+        "normalizedName": "tomato",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, sliced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "olive oil (or sunflower oil for frying)",
+        "normalizedName": "olive-oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "oil for deep frying",
+        "normalizedName": "oil",
+        "quantity": 400,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "smoked paprika or Kashmiri red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red wine vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Cut the potatoes into rough 2 cm cubes — they don't need to be perfect. Pat them very dry with a kitchen towel or paper; any moisture on the surface will cause the oil to splatter and the potatoes to steam rather than crisp.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Heat the frying oil in a deep kadai to about 175°C — a cube of potato dropped in should sizzle briskly and rise to the surface within 10 seconds. Fry the potato cubes in two batches for 7–8 minutes each until golden and crisp all over. Drain on paper towels and season with salt immediately.",
+        "timerMinutes": 16,
+        "method": "deep-frying"
+      },
+      {
+        "order": 3,
+        "text": "While the potatoes drain, make the brava sauce. Heat the 4 tablespoons of olive oil in a saucepan over medium flame. Add the onion and cook for 5 minutes until softened. Add the garlic and cook for 1 minute until fragrant, then add the chopped tomatoes and the paprika.",
+        "timerMinutes": 6,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Cook the sauce over medium heat for 10–12 minutes, stirring regularly, until the tomatoes break down completely and the oil begins to separate around the edges of the pan. Add the vinegar and a good pinch of salt, stir well, and taste — the sauce should be tangy, slightly smoky, and boldly seasoned.",
+        "timerMinutes": 12
+      },
+      {
+        "order": 5,
+        "text": "For a smooth sauce, let it cool slightly and blend in a mixie or with an immersion blender until glossy and pourable. For a rustic version, leave it chunky. Pile the hot fried potatoes in a serving dish and spoon the brava sauce generously over the top — do not toss or the potatoes will lose their crunch. Serve immediately.",
+        "method": "no-cook"
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "saucepan",
+      "blender"
+    ],
+    "methods": [
+      "deep-frying",
+      "sauteing",
+      "no-cook"
+    ],
+    "tags": [
+      "street-food",
+      "fried-snack",
+      "party",
+      "budget",
+      "bachelor-friendly"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 320,
+      "protein": 4,
+      "carbs": 38,
+      "fat": 17,
+      "fiber": 4,
+      "sugar": 5,
+      "sodium": 290,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "red-chilli-powder",
+        "substitute": "Kashmiri red chilli powder is the best Indian substitute for smoked paprika — similar mild heat and deep red colour; add a tiny pinch of cayenne if you want more heat"
+      },
+      {
+        "ingredient": "vinegar",
+        "substitute": "Fresh lemon juice in equal quantity; adds brightness in a slightly different direction but works well"
+      },
+      {
+        "ingredient": "tomato",
+        "substitute": "Two tablespoons of tomato paste with an added 3 tablespoons of water gives a richer, more concentrated brava sauce"
+      },
+      {
+        "ingredient": "potato",
+        "substitute": "Cauliflower florets roasted or fried instead of potato for a lower-carb variation that absorbs the sauce beautifully"
+      }
+    ],
+    "culturalNote": "Patatas bravas — literally 'fierce potatoes' — are named for the spicy sauce rather than the potato itself. They became a staple of Spanish bar culture in the mid-20th century and are now considered an essential part of any tapas spread. The exact formula for the brava sauce is hotly contested, with Madrileños and Catalans each claiming their version is definitive.",
+    "regionalVariation": "Madrid's version uses a purely chilli-tomato sauce that is poured over, while Catalan-style patatas bravas are served with aioli (garlic mayonnaise) as well as the brava sauce, creating a striking contrast. Some Basque bars serve them with a green herb sauce instead.",
+    "indianKitchenAdaptation": "A deep kadai is ideal for frying the potato cubes — the high sides prevent splashing. Kashmiri red chilli powder is a near-perfect substitute for smoked paprika and is available everywhere. Any cooking oil (sunflower, groundnut) is fine for frying; the olive oil amount in the sauce is small enough to use the real thing. The brava sauce can be made ahead and refrigerated for up to three days — just fry the potatoes fresh when ready to serve, as they go soft quickly once dressed.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-spanish-gambas-al-ajillo",
+    "slug": "spanish-gambas-al-ajillo",
+    "title": "Spanish Garlic Prawns",
+    "nativeTitle": "Gambas al Ajillo",
+    "description": "Plump prawns cooked in a fragrant oil infused with thin slices of garlic and whole dried chillies until they turn pink and just firm — a Spanish classic that takes under 10 minutes to cook and rewards quality ingredients with a deeply satisfying result. Traditionally served sizzling in a small earthenware dish with crusty bread to mop up the garlicky oil.",
+    "cuisine": "spanish",
+    "country": "spain",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "dietType": [
+      "pescatarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 8,
+    "totalTimeMinutes": 18,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "prawns, medium-large, peeled and deveined",
+        "normalizedName": "prawn",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, sliced very thin",
+        "normalizedName": "garlic",
+        "quantity": 6,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "dried whole red chillies",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "extra virgin olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "lemon",
+        "normalizedName": "lemon",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "fresh parsley leaves, finely chopped",
+        "normalizedName": "parsley",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pat the prawns very dry with paper towels — any surface moisture will cause the oil to splatter and can water down the sauce. Season them lightly with salt. Slice the garlic as thin as possible with a sharp knife so the slices turn golden rather than burn.",
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Pour the olive oil into a wide frying pan or kadai and add the garlic slices and dried red chillies while the oil is still cold. Set the heat to medium and let everything warm up together for 3–4 minutes — the garlic will sizzle gently and turn pale gold at the edges. This slow infusion is key to the flavour of the dish.",
+        "timerMinutes": 4,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "When the garlic is lightly golden (not brown), add the prawns in a single layer, spreading them out so each one makes full contact with the hot oil. Cook for 90 seconds without touching them, then flip each prawn and cook for another 60–90 seconds. The prawns are done the moment they turn pink and curl into a loose C-shape — they should not curl tightly, which means they are overcooked.",
+        "timerMinutes": 3,
+        "method": "pan-frying"
+      },
+      {
+        "order": 4,
+        "text": "Take the pan off the heat immediately and squeeze the lemon juice over the prawns. Scatter the parsley generously on top and stir once to coat everything. Serve right away — ideally in the pan itself or a warmed bowl — with bread or rice to soak up the fragrant oil.",
+        "method": "no-cook"
+      }
+    ],
+    "cookware": [
+      "frying-pan",
+      "kadai"
+    ],
+    "methods": [
+      "sauteing",
+      "pan-frying",
+      "marinating",
+      "no-cook"
+    ],
+    "tags": [
+      "quick",
+      "under-30-minutes",
+      "party",
+      "healthy"
+    ],
+    "allergens": [
+      "shellfish"
+    ],
+    "nutrition": {
+      "calories": 210,
+      "protein": 24,
+      "carbs": 3,
+      "fat": 12,
+      "fiber": 0,
+      "sugar": 0,
+      "sodium": 380,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "prawn",
+        "substitute": "Button mushrooms or paneer cubes follow the same method for a vegetarian version; cook mushrooms a minute or two longer until they caramelise"
+      },
+      {
+        "ingredient": "dried-red-chilli",
+        "substitute": "Indian dried red chillies (byadgi or guntur variety) are a direct substitute; remove seeds for less heat. A pinch of red chilli flakes also works"
+      },
+      {
+        "ingredient": "olive-oil",
+        "substitute": "The olive oil quantity here is small enough that using it is worthwhile; in a pinch, refined sunflower oil with a small spoonful of butter gives a similar richness"
+      },
+      {
+        "ingredient": "parsley",
+        "substitute": "Fresh coriander leaves (dhania) are a good Indian substitute; the flavour is different but fresh and green in the same spirit"
+      }
+    ],
+    "culturalNote": "Gambas al ajillo is a cornerstone of the tapas tradition, found at virtually every bar in Spain from Madrid to coastal Catalonia. The dish exemplifies the Spanish approach to seafood: the best possible ingredient cooked with minimal interference and served immediately so nothing is lost. The technique of infusing cold oil with garlic before adding protein is a foundational Spanish method.",
+    "regionalVariation": "In Galicia in northwest Spain, a splash of white wine or Albariño is added to the oil along with the prawns. Some Basque versions include a small piece of dried green pepper (choricero) for a different kind of depth. Coastal Andalusian bars sometimes use smaller, sweeter local prawns that barely need a minute in the oil.",
+    "indianKitchenAdaptation": "A standard kadai or non-stick frying pan works perfectly here. Indian dried red chillies (available at any market) are an exact substitute — byadgi chillies add colour, guntur add heat. Fresh tiger prawns from any fish market or supermarket are ideal; frozen prawns work too but must be fully thawed and thoroughly dried first. The key Indian grocery item to pick up is good quality extra virgin olive oil, available at big supermarkets — the quantity used is small so it is worth using the real thing for flavour.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-greek-horiatiki-salad",
+    "slug": "greek-horiatiki-salad",
+    "title": "Greek Village Salad",
+    "nativeTitle": "Χωριάτικη Σαλάτα",
+    "description": "A boldly flavoured assembled salad from the Greek countryside — ripe tomatoes, cucumber, green pepper, and red onion piled together with kalamata olives and a thick slab of feta, dressed with only olive oil, dried oregano, and salt. No lettuce, no fuss, and nothing more than good produce and good olive oil between the ingredients and the bowl.",
+    "cuisine": "greek",
+    "country": "greece",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 12,
+    "cookTimeMinutes": 0,
+    "totalTimeMinutes": 12,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "ripe firm tomatoes, cut into wedges",
+        "normalizedName": "tomato",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cucumber, cut into thick half-moons",
+        "normalizedName": "cucumber",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green capsicum (shimla mirch), cut into rings",
+        "normalizedName": "capsicum",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "red onion, thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "kalamata or black olives",
+        "normalizedName": "olives",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "feta cheese (or fresh paneer, crumbled)",
+        "normalizedName": "cheese",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "extra virgin olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "dried oregano",
+        "normalizedName": "oregano",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red wine vinegar (optional, for tang)",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Cut the tomatoes into large wedges and the cucumber into thick half-moon chunks — they should look substantial and rustic, not finely diced. Slice the green capsicum into thin rings and the red onion into very thin half-moons.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Arrange the tomato, cucumber, capsicum, and red onion in a wide serving bowl or platter. Scatter the olives over the vegetables.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Place the block of feta on top of the salad — do not crumble it into the bowl. This is the traditional presentation and it looks far more impressive at the table. If using paneer, cut into a thick slab instead.",
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Drizzle the olive oil generously over everything, sprinkle the dried oregano on top (especially over the feta), and season with salt. Add a splash of red wine vinegar if you like more acidity. Gently toss the salad at the table just before eating so the oil coats everything.",
+        "method": "no-cook"
+      },
+      {
+        "order": 5,
+        "text": "For a proper Greek spread, warm pita bread or roti in a dry skillet over medium heat for 1 minute per side until warm and lightly charred in spots, then serve alongside the salad for scooping.",
+        "timerMinutes": 2
+      }
+    ],
+    "cookware": [
+      "skillet"
+    ],
+    "methods": [
+      "no-cook"
+    ],
+    "tags": [
+      "salad",
+      "summer",
+      "healthy",
+      "quick",
+      "under-30-minutes",
+      "budget"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 195,
+      "protein": 7,
+      "carbs": 9,
+      "fat": 15,
+      "fiber": 2,
+      "sugar": 5,
+      "sodium": 480,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "cheese",
+        "substitute": "Fresh firm paneer crumbled over the top gives a similar saline richness; or skip it entirely for a vegan version with the same dressing"
+      },
+      {
+        "ingredient": "olives",
+        "substitute": "If olives are unavailable, use pickled capers or simply leave them out — the salad is still excellent without them"
+      },
+      {
+        "ingredient": "vinegar",
+        "substitute": "Fresh lemon juice in equal quantity adds a cleaner citrus brightness; both are traditional in different parts of Greece"
+      },
+      {
+        "ingredient": "olive-oil",
+        "substitute": "A mild, good-quality oil can substitute, though extra virgin olive oil is central to the flavour here — the quantity is small so it is worth using the real thing"
+      }
+    ],
+    "culturalNote": "Horiatiki (meaning 'village salad') has been the Greek summer meal for generations, made when vegetables are at their ripest and most flavourful. In Greece it is served as a starter or alongside grilled fish or meat rather than as a side dish, and is eaten at room temperature, never chilled.",
+    "regionalVariation": "On the island of Crete, the salad is sometimes served with rusks (paximadia) soaked in olive oil beneath the vegetables to add texture. Some mainland versions include capers, and the island of Santorini uses its own famed tomatoes, which are famously small, sweet, and intensely concentrated.",
+    "indianKitchenAdaptation": "All vegetables here are completely standard in Indian markets year-round. Use shimla mirch for capsicum, any firm garden tomato for the tomatoes, and regular cucumbers. Feta is available at larger supermarkets and specialty cheese shops in metro cities; crumbled fresh paneer is a workable substitute with a similar mild, milky flavour. Good olive oil makes the biggest difference in this recipe since it is also the dressing — any decent brand from a supermarket will do. Serve with warm roti or tandoori naan instead of pita.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-greek-tzatziki",
+    "slug": "greek-tzatziki",
+    "title": "Greek Tzatziki",
+    "nativeTitle": "Τζατζίκι",
+    "description": "A thick, cooling yogurt-and-cucumber dip that is the all-purpose condiment of Greek cooking — served alongside souvlaki, spread inside pita wraps, spooned over moussaka, or simply set out with bread as a meze. The combination of strained curd, shredded cucumber, garlic, dill, and olive oil takes minutes to make but tastes deeply considered and refreshing.",
+    "cuisine": "greek",
+    "country": "greece",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack",
+      "side",
+      "lunch"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 0,
+    "totalTimeMinutes": 20,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "thick curd (Greek yogurt or hung curd)",
+        "normalizedName": "curd",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "cucumber, coarsely grated",
+        "normalizedName": "cucumber",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves",
+        "normalizedName": "garlic",
+        "quantity": 2,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "extra virgin olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "fresh dill, finely chopped (or mint)",
+        "normalizedName": "dill",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "lemon juice (or white wine vinegar)",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "fresh mint leaves (optional, for extra freshness)",
+        "normalizedName": "mint",
+        "quantity": 4,
+        "unit": "leaf",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Grate the cucumber coarsely on a box grater, then place it in a clean kitchen towel or a fine-mesh sieve and squeeze firmly to remove as much liquid as possible. Skipping this step will make the tzatziki watery within minutes.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Mince the garlic as finely as possible or crush it to a paste using a pinch of salt and the flat side of a knife. If you prefer a very smooth tzatziki without any garlic heat, blend the garlic with a teaspoon of olive oil in a small blender or mixie until it becomes a smooth paste.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "If your curd is thin (regular Indian dahi rather than thick Greek yogurt), hang it in muslin cloth over a bowl in the refrigerator for 2 hours to drain out the whey — the resulting hung curd should be about as thick as softened cream cheese.",
+        "timerMinutes": 15,
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "In a bowl, combine the drained curd, squeezed cucumber, garlic, olive oil, the juice of half the lemon, and the dill. Stir well and taste — add salt, more lemon juice, or more dill until the flavour is bright and balanced. Fold in the mint leaves if using.",
+        "method": "no-cook"
+      },
+      {
+        "order": 5,
+        "text": "Drizzle a little olive oil over the surface and scatter a few dill sprigs for presentation. Tzatziki is best served cold — refrigerate for at least 15 minutes before serving, and consume within 2 days as the cucumber continues to release water over time.",
+        "timerMinutes": 15,
+        "method": "no-cook"
+      }
+    ],
+    "cookware": [
+      "blender"
+    ],
+    "methods": [
+      "no-cook"
+    ],
+    "tags": [
+      "quick",
+      "summer",
+      "healthy",
+      "kids-friendly",
+      "low-oil"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 85,
+      "protein": 4,
+      "carbs": 5,
+      "fat": 5,
+      "fiber": 0,
+      "sugar": 4,
+      "sodium": 200,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "curd",
+        "substitute": "Regular Indian dahi works after hanging for 2–3 hours; thick coconut curd makes a vegan version with a slightly different flavour"
+      },
+      {
+        "ingredient": "dill",
+        "substitute": "Fresh mint is the most common alternative and equally traditional in some Greek regions; coriander leaves are a more Indian-flavoured variation"
+      },
+      {
+        "ingredient": "olive-oil",
+        "substitute": "Any mild oil in the same quantity; the olive oil adds a subtle richness and authentic flavour but is not load-bearing"
+      },
+      {
+        "ingredient": "lemon",
+        "substitute": "White wine vinegar (1 teaspoon) or apple cider vinegar gives the same sour note with a slightly different aroma"
+      }
+    ],
+    "culturalNote": "Tzatziki is believed to have roots in the Turkish cacık, a similar yogurt-cucumber preparation, reflecting the Ottoman culinary influence across the eastern Mediterranean. In Greece it appears at virtually every meal as a meze or condiment, and is rarely made commercially — every household has its own slightly different formula.",
+    "regionalVariation": "On the island of Santorini, capers are sometimes added for a salty, briny punch. Mainland Greek versions tend to be heavier on garlic, while island versions lean towards mint. Some northern Greek preparations add a splash of ouzo (anise liqueur) for depth, which can be approximated with a pinch of fennel seeds.",
+    "indianKitchenAdaptation": "Indian thick curd (dahi hung in muslin for 2 hours) is the ideal base and makes a result indistinguishable from Greek yogurt. Regular cucumbers found everywhere in India work perfectly — just squeeze out the water well. Fresh dill (suva or shepu) is available at vegetable markets in most metro cities; mint (pudina) is a good substitute. Garlic paste from a tube or pre-ground garlic from the market can save time. Serve with naan, roti, or as a raita-style accompaniment to any grilled dish.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-greek-moussaka",
+    "slug": "greek-moussaka",
+    "title": "Greek Moussaka",
+    "nativeTitle": "Μουσακάς",
+    "description": "A layered casserole of roasted eggplant and spiced minced meat blanketed under a thick, eggy béchamel sauce, then baked until the top is golden and set — one of Greece's great comfort dishes. This simplified version cuts the steps down to what matters most and skips the deep-frying of the eggplant in favour of oven-roasting for a lighter result.",
+    "cuisine": "greek",
+    "country": "greece",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 65,
+    "totalTimeMinutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "brinjal (eggplant), cut into 1 cm rounds",
+        "normalizedName": "brinjal",
+        "quantity": 700,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "keema (minced lamb or beef)",
+        "normalizedName": "keema",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, minced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "canned tomatoes or 3 ripe tomatoes, roughly chopped",
+        "normalizedName": "tomato",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "tomato paste",
+        "normalizedName": "tomato-paste",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "ground cinnamon",
+        "normalizedName": "cinnamon",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder or paprika (mild)",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "milk (full-fat)",
+        "normalizedName": "milk",
+        "quantity": 500,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "butter",
+        "normalizedName": "butter",
+        "quantity": 40,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "maida (all-purpose flour)",
+        "normalizedName": "maida",
+        "quantity": 40,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "egg",
+        "normalizedName": "egg",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "nutmeg, freshly grated or ground",
+        "normalizedName": "nutmeg",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Preheat the oven to 200°C. Lay the brinjal rounds on a baking tray, brush both sides with olive oil, and season with salt. Roast for 20 minutes, flipping once halfway, until the slices are soft, golden, and slightly collapsed. Set aside.",
+        "timerMinutes": 20,
+        "method": "roasting"
+      },
+      {
+        "order": 2,
+        "text": "While the brinjal roasts, make the meat sauce. Heat 2 tablespoons of olive oil in a kadai over medium-high flame. Add the onion and cook for 5 minutes until soft, then add the garlic and cook for 1 minute. Add the keema and break it up with a spoon, cooking until it is browned all over and no pink remains.",
+        "timerMinutes": 10,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add the tomatoes, tomato paste, cinnamon, and paprika to the meat. Season with salt, stir well, and simmer uncovered for 15 minutes until the sauce is thick and the liquid has largely evaporated — the mixture should look like a moist, fragrant ragù rather than a soupy sauce.",
+        "timerMinutes": 15,
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "Make the béchamel: melt the butter in a saucepan over medium heat, stir in the flour, and cook for 1 minute while stirring until the mixture smells biscuity. Gradually pour in the warm milk, a ladleful at a time, whisking constantly to prevent lumps. Keep whisking over medium heat for 5–7 minutes until the sauce thickens enough to coat the back of a spoon. Season with salt and nutmeg, remove from heat, and stir in the egg quickly.",
+        "timerMinutes": 8,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Assemble in a deep baking dish (about 25×30 cm): lay half the roasted brinjal in a single layer across the base. Spread all the meat sauce over the brinjal, then add a second layer of the remaining brinjal rounds. Pour the béchamel evenly over the top, spreading it with a spoon to cover the surface completely.",
+        "method": "baking"
+      },
+      {
+        "order": 6,
+        "text": "Bake at 180°C for 35–40 minutes until the béchamel top is a deep golden-brown and the edges are bubbling. A skewer inserted in the centre should feel hot when touched to your wrist.",
+        "timerMinutes": 40,
+        "method": "baking"
+      },
+      {
+        "order": 7,
+        "text": "Remove from the oven and allow the moussaka to rest for at least 15 minutes before cutting — this resting time is essential for the layers to firm up so the slices hold their shape. Serve warm, not piping hot.",
+        "timerMinutes": 15
+      }
+    ],
+    "cookware": [
+      "oven",
+      "kadai",
+      "saucepan",
+      "baking-tray"
+    ],
+    "methods": [
+      "roasting",
+      "sauteing",
+      "simmering",
+      "baking"
+    ],
+    "tags": [
+      "comfort-food",
+      "party",
+      "winter"
+    ],
+    "allergens": [
+      "dairy",
+      "egg",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 390,
+      "protein": 24,
+      "carbs": 18,
+      "fat": 26,
+      "fiber": 4,
+      "sugar": 6,
+      "sodium": 540,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "keema",
+        "substitute": "For a vegetarian version, use finely chopped mushrooms and cooked green lentils (masoor dal) in equal parts; the cinnamon-tomato sauce suits both"
+      },
+      {
+        "ingredient": "brinjal",
+        "substitute": "Zucchini (courgette) slices or thinly sliced potato can replace some or all of the brinjal; potato layers give a heartier, denser moussaka"
+      },
+      {
+        "ingredient": "maida",
+        "substitute": "Besan (chickpea flour) can replace maida in the béchamel for a gluten-free version; the sauce will have a slightly nuttier flavour"
+      },
+      {
+        "ingredient": "cinnamon",
+        "substitute": "A small pinch of garam masala adds a warm spiced note in the same spirit, though the flavour profile will be distinctly more South Asian"
+      }
+    ],
+    "culturalNote": "Moussaka as known today was codified into its modern layered form by Greek chef Nikolaos Tselementes in the 1920s, who added the French-style béchamel topping to an older Levantine dish of spiced meat and eggplant. It became Greece's national comfort dish and is Sunday lunch in countless Greek homes.",
+    "regionalVariation": "Northern Greek versions sometimes include a potato base layer beneath the brinjal, making the dish more substantial. Some Cretan preparations add cinnamon more aggressively and use a local aged cheese in the béchamel. A meatless moussaka using lentils or mushrooms is popular in monastery cooking traditions.",
+    "indianKitchenAdaptation": "An OTG or countertop oven works perfectly for this recipe. For kitchens without an oven, the assembled moussaka can be slow-cooked on the stovetop: place the dish on a tawa over very low flame, cover with a tight lid, and cook for 35–40 minutes until the top sets (the béchamel won't brown, but the flavours will be identical). Brinjal (baingan) is identical to eggplant and widely available. Keema is sold at most meat counters. Maida is the same as the all-purpose flour in the béchamel — available everywhere in India.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-greek-chicken-souvlaki",
+    "slug": "greek-chicken-souvlaki",
+    "title": "Greek Chicken Souvlaki",
+    "nativeTitle": "Κοτόπουλο Σουβλάκι",
+    "description": "Tender chunks of chicken marinated in lemon, garlic, olive oil, and oregano, then grilled until charred at the edges and juicy within — the Greek equivalent of a great kebab and one of the simplest ways to cook chicken well. In this Indian kitchen adaptation the skewers are cooked on a hot tawa rather than a grill, with near-identical results.",
+    "cuisine": "greek",
+    "country": "greece",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "boneless chicken (thighs preferred), cut into 3 cm cubes",
+        "normalizedName": "chicken",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, minced or grated",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "lemon, juice and zest",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "dried oregano",
+        "normalizedName": "oregano",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin (a small pinch, for warmth)",
+        "normalizedName": "cumin",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "black pepper, freshly ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "thick curd (for marinade, optional but tenderises well)",
+        "normalizedName": "curd",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "In a large bowl, whisk together the olive oil, lemon juice and zest, garlic, oregano, black pepper, and a generous pinch of salt. Add the curd if using — it helps tenderise the chicken and gives a slightly tangier result. Add the chicken cubes and toss well to coat every piece.",
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Cover the bowl and refrigerate for at least 30 minutes, or up to 4 hours for a deeper flavour. If using wooden skewers, soak them in water for 20 minutes before threading to prevent burning.",
+        "timerMinutes": 30,
+        "method": "marinating"
+      },
+      {
+        "order": 3,
+        "text": "Heat a tawa or heavy skillet over high heat until it is very hot — a drop of water should evaporate immediately on contact. Thread the chicken pieces onto skewers (or lay them directly on the tawa if not using skewers). Place the chicken in a single layer without crowding.",
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Cook the chicken for 5–6 minutes on one side without moving it, so a good char forms. Flip and cook for another 4–5 minutes on the other side. The chicken is done when the juices run clear when pierced with a knife, and the internal temperature (if checked) reaches 75°C. If the pieces are thick, briefly press them flat with a spatula for even cooking.",
+        "timerMinutes": 12,
+        "method": "grilling"
+      },
+      {
+        "order": 5,
+        "text": "Remove the souvlaki from the heat and rest for 3 minutes. Serve on warm pita, roti, or rice alongside tzatziki, sliced tomato, and fresh onion rings. A squeeze of lemon over the top just before eating brightens all the flavours.",
+        "timerMinutes": 3
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "grill"
+    ],
+    "methods": [
+      "marinating",
+      "tawa-cooking",
+      "grilling"
+    ],
+    "tags": [
+      "grill-bbq",
+      "healthy",
+      "quick",
+      "party",
+      "gym"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 290,
+      "protein": 36,
+      "carbs": 3,
+      "fat": 15,
+      "fiber": 0,
+      "sugar": 1,
+      "sodium": 380,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "Boneless mutton pieces work well with a longer marinating time (overnight) and slightly longer cooking; paneer cubes make an excellent vegetarian alternative"
+      },
+      {
+        "ingredient": "oregano",
+        "substitute": "A mix of dried thyme and basil in equal parts gives a similar Mediterranean herbal quality; fresh pudina (mint) in the marinade is a great Indian adaptation"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "The curd can be omitted entirely; the lemon and olive oil marinade alone produces excellent results"
+      },
+      {
+        "ingredient": "olive-oil",
+        "substitute": "Any mild oil; the marinade can also be made with gingelly (sesame) oil for a nutty variation that shifts the dish in a slightly different direction"
+      }
+    ],
+    "culturalNote": "Souvlaki — literally 'little skewer' — has been a street food staple in Greece since ancient times, with references to skewered and grilled meat appearing in texts by Aristophanes and Homer. Today it is the everyday fast food of Greece: wrapped in pita with tzatziki and tomatoes, it is eaten at all hours.",
+    "regionalVariation": "In Athens and much of mainland Greece, souvlaki usually means pork pieces on a skewer. The pita-wrapped version (souvlaki pita) is more common in fast-food settings. In the Cyclades islands, the meat is sometimes marinated with capers or thyme honey for extra flavour. Northern Greece uses more cumin and allspice in the marinade.",
+    "indianKitchenAdaptation": "A heavy cast-iron tawa or non-stick tawa on high flame produces excellent char and juiciness without a grill. Boneless chicken thighs (available at all meat counters and supermarkets) are the preferred cut for staying juicy. Curd is the ideal tenderiser already found in every Indian kitchen. Dried oregano is available at large grocery chains and spice stores. Serve the finished souvlaki wrapped in roti or naan with homemade tzatziki (made from hung curd) and sliced onion with a squeeze of lemon.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-greek-spanakorizo",
+    "slug": "greek-spanakorizo",
+    "title": "Greek Spinach Rice",
+    "nativeTitle": "Σπανακόρυζο",
+    "description": "A simple, nourishing Greek dish where spinach and rice are cooked together in one pot with onion, olive oil, lemon, and dill until the rice absorbs all the vegetable juices and the spinach melts into the grains — earthy, bright, and deeply satisfying. Often eaten on its own as a light meal or served as a side dish to grilled fish or meat.",
+    "cuisine": "greek",
+    "country": "greece",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "fresh spinach, roughly chopped",
+        "normalizedName": "spinach",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "long-grain rice (or any white rice)",
+        "normalizedName": "rice",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, sliced",
+        "normalizedName": "garlic",
+        "quantity": 2,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "ripe tomato, finely chopped",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "extra virgin olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "lemon, juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "fresh dill (or mint), finely chopped",
+        "normalizedName": "dill",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "water or light vegetable stock",
+        "normalizedName": "water",
+        "quantity": 400,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat the olive oil in a wide kadai or heavy-bottomed pot over medium heat. Add the onion and cook, stirring occasionally, for 5–6 minutes until soft and translucent. Add the garlic and cook for another minute until it smells fragrant.",
+        "timerMinutes": 6,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Add the chopped tomato if using and cook for 3 minutes until it softens. Add the spinach in two or three handfuls, stirring and allowing each addition to wilt before adding the next — the volume will reduce dramatically within a minute or two.",
+        "timerMinutes": 5,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add the rice and stir to coat the grains in the oily spinach mixture. Pour in the water or stock, season generously with salt, and bring to a boil. Stir once, then reduce the heat to low, cover tightly, and cook for 15 minutes without lifting the lid.",
+        "timerMinutes": 15,
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "After 15 minutes, check if the rice has absorbed all the liquid. If any liquid remains, cook uncovered for 2–3 more minutes. Remove from heat, squeeze the lemon juice over the top, scatter the dill, and stir gently to combine.",
+        "timerMinutes": 3,
+        "method": "one-pot"
+      },
+      {
+        "order": 5,
+        "text": "Cover and rest off the heat for 5 minutes before serving — this allows the rice to finish steaming and the dill to release its flavour into the dish. Serve warm with extra lemon wedges and a drizzle of olive oil, and optionally crumble feta cheese over the top (skip for vegan).",
+        "timerMinutes": 5
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "sauteing",
+      "simmering",
+      "one-pot"
+    ],
+    "tags": [
+      "healthy",
+      "budget",
+      "comfort-food",
+      "one-pot-meal",
+      "low-oil"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 250,
+      "protein": 6,
+      "carbs": 38,
+      "fat": 9,
+      "fiber": 4,
+      "sugar": 2,
+      "sodium": 280,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "spinach",
+        "substitute": "Frozen spinach (palak) works perfectly — thaw and squeeze out excess water before using; baby spinach needs no chopping"
+      },
+      {
+        "ingredient": "dill",
+        "substitute": "Fresh mint or coriander leaves give a different but equally aromatic result; dried dill can be used in half the quantity"
+      },
+      {
+        "ingredient": "rice",
+        "substitute": "Any white rice works; avoid basmati for the most authentic texture as it tends to stay more separate rather than creamy"
+      },
+      {
+        "ingredient": "olive-oil",
+        "substitute": "Good quality sunflower or groundnut oil works; a small knob of butter added at the end gives richness in place of olive oil"
+      }
+    ],
+    "culturalNote": "Spanakorizo is a cornerstone of Greek everyday cooking — simple, inexpensive, and deeply nourishing. It belongs to the category of ladera (olive oil dishes) that form the backbone of the Greek weekly meal, particularly during Lent when meat is avoided. The combination of dill and lemon with spinach and rice is considered a defining flavour of Greek home cooking.",
+    "regionalVariation": "On the island of Crete, spanakorizo is often made with wild greens (horta) instead of cultivated spinach, and the lemon is more aggressively applied. Some mainland versions include leek alongside the onion. A common taverna variation adds a spoonful of tomato paste to deepen the colour.",
+    "indianKitchenAdaptation": "Palak (spinach) is abundantly available and inexpensive across India — frozen palak works too. Any rice from your pantry (even sona masoori) produces a good result. Fresh dill (shepu or suva) is sold in bunches at many Indian vegetable markets; mint (pudina) is a good substitute. A small kadai with a tight-fitting lid makes the one-pot method effortless. The dish eats like a mildly seasoned palak pulao and appeals to children and adults alike.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-greek-gigantes-beans",
+    "slug": "greek-gigantes-beans",
+    "title": "Greek Giant Baked Beans",
+    "nativeTitle": "Γίγαντες Πλακί",
+    "description": "Large white beans slowly braised in a garlicky tomato sauce with herbs and olive oil until buttery-soft and deeply flavoured — a classic Greek meze and Lenten dish that uses the humblest of ingredients to extraordinary effect. Made here with kidney beans (rajma) as an Indian-available substitute for the traditional giant white beans.",
+    "cuisine": "greek",
+    "country": "greece",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 45,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "canned or cooked kidney beans (rajma), drained",
+        "normalizedName": "rajma",
+        "quantity": 2,
+        "unit": "can",
+        "optional": false
+      },
+      {
+        "name": "ripe tomatoes, finely chopped (or one 400 g can)",
+        "normalizedName": "tomato",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, finely diced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "extra virgin olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "tomato paste",
+        "normalizedName": "tomato-paste",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "dried oregano",
+        "normalizedName": "oregano",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried thyme",
+        "normalizedName": "thyme",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "bay leaves",
+        "normalizedName": "bay-leaf",
+        "quantity": 2,
+        "unit": "leaf",
+        "optional": false
+      },
+      {
+        "name": "fresh parsley, roughly chopped",
+        "normalizedName": "parsley",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": true
+      },
+      {
+        "name": "water or vegetable stock",
+        "normalizedName": "water",
+        "quantity": 200,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat the olive oil in a heavy-bottomed pot or kadai over medium heat. Add the onion and cook for 6–7 minutes until soft and beginning to turn golden at the edges. Add the garlic and cook for another minute until fragrant.",
+        "timerMinutes": 7,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Add the chopped tomatoes, tomato paste, oregano, thyme, and bay leaves. Stir everything together and cook for 8–10 minutes, stirring occasionally, until the tomatoes have broken down into a rough sauce and the oil is visible at the edges.",
+        "timerMinutes": 10,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add the drained beans and the water or stock. Season generously with salt and stir to combine. Bring to a gentle boil, then reduce the heat to low, partially cover the pot, and simmer for 25–30 minutes. The sauce should thicken around the beans — if it reduces too fast, add a splash more water.",
+        "timerMinutes": 30,
+        "method": "braising"
+      },
+      {
+        "order": 4,
+        "text": "Taste and adjust seasoning. Remove the bay leaves. The beans should be very tender, the sauce thick and flavourful, and the olive oil should have a beautiful, slightly glossy quality from absorbing the tomato. Scatter fresh parsley on top and drizzle a little extra olive oil before serving.",
+        "method": "one-pot"
+      },
+      {
+        "order": 5,
+        "text": "Serve warm or at room temperature with crusty bread or roti. Gigantes are actually even better the next day after the flavours have deepened overnight in the refrigerator — reheat gently with a splash of water to loosen the sauce.",
+        "method": "no-cook"
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "kadai"
+    ],
+    "methods": [
+      "sauteing",
+      "simmering",
+      "braising",
+      "one-pot"
+    ],
+    "tags": [
+      "budget",
+      "healthy",
+      "comfort-food",
+      "one-pot-meal",
+      "winter",
+      "leftover-friendly"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 295,
+      "protein": 12,
+      "carbs": 38,
+      "fat": 11,
+      "fiber": 10,
+      "sugar": 6,
+      "sodium": 350,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "rajma",
+        "substitute": "White kidney beans (safed rajma) or butter beans give a creamier result closest to the original Greek gigantes; canned chickpeas also work with a slightly firmer texture"
+      },
+      {
+        "ingredient": "tomato",
+        "substitute": "One 400 g can of crushed tomatoes gives a smoother, more consistent sauce than fresh tomatoes and works particularly well in winter when tomatoes are out of season"
+      },
+      {
+        "ingredient": "oregano",
+        "substitute": "Fresh oregano (2 tablespoons) gives a brighter flavour; a mix of dried marjoram and thyme approximates the same herbal note"
+      },
+      {
+        "ingredient": "olive-oil",
+        "substitute": "The olive oil is key to this dish — it creates the silky sauce texture. Reduce it but do not eliminate it; a mild oil plus a teaspoon of butter is a workable backup"
+      }
+    ],
+    "culturalNote": "Gigantes plaki — plaki meaning 'cooked flat in a pan' — is one of the great pillars of Greek vegetarian cooking, traditionally baked slowly in an earthenware dish in a wood oven. It is a standard Lenten dish (nistisimo) eaten during the forty days before Easter when meat and dairy are avoided, and also a popular everyday meze.",
+    "regionalVariation": "In northern Greece and Macedonia, the beans are sometimes made more robust with smoked paprika or a few strips of dried pepper. On Corfu, a simpler version uses only onion, tomato, and olive oil without herbs. Some tavernas add a drizzle of thick balsamic vinegar at the end for sweetness and depth.",
+    "indianKitchenAdaptation": "Canned rajma (kidney beans) from any Indian grocery store is the most practical ingredient here — look for butter beans (white rajma) if you want the closest match to the original. If using dried rajma, soak overnight and pressure cook for 4–5 whistles first. The braising happens in any kadai or heavy pot. Greek herbs (oregano, thyme) are available at large supermarket spice sections; substitute a pinch of mixed dried herbs if needed. This dish pairs well with bread, rice, or even chapati — its flavour is adaptable.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-mediterranean-lemon-oregano-chicken",
+    "slug": "mediterranean-lemon-oregano-chicken",
+    "title": "Mediterranean Lemon Oregano Roast Chicken",
+    "nativeTitle": "Pollo al Limone e Origano",
+    "description": "Bone-in chicken pieces marinated in a generous amount of lemon juice, garlic, olive oil, and dried oregano, then roasted until the skin is crisp and amber-golden and the meat is juicy and fragrant with herbs. This is the quintessential Mediterranean weekend roast — simple enough for a weeknight, impressive enough for a table of guests.",
+    "cuisine": "mediterranean",
+    "country": "greece",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 50,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken, bone-in pieces (legs, thighs, or whole cut up)",
+        "normalizedName": "chicken",
+        "quantity": 900,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves",
+        "normalizedName": "garlic",
+        "quantity": 5,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "extra virgin olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "lemon, juice and zest",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "dried oregano",
+        "normalizedName": "oregano",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "dried thyme",
+        "normalizedName": "thyme",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fresh rosemary sprigs (or 0.5 tsp dried)",
+        "normalizedName": "rosemary",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": true
+      },
+      {
+        "name": "black pepper, freshly ground",
+        "normalizedName": "black-pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "potato, cut into wedges (for roasting alongside)",
+        "normalizedName": "potato",
+        "quantity": 400,
+        "unit": "g",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Mince or finely grate the garlic. Whisk together the olive oil, lemon juice, lemon zest, garlic, oregano, thyme, black pepper, and a generous amount of salt in a large bowl until well combined. Add the chicken pieces and turn them thoroughly to coat every surface. If time allows, leave to marinate in the refrigerator for 1–4 hours.",
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Preheat the oven to 200°C. Place the chicken pieces skin-side up in a single layer in a roasting tin or baking tray. If using potato wedges, tuck them around the chicken and season them with salt, a drizzle of olive oil, and a pinch of oregano. Pour any remaining marinade over everything.",
+        "method": "roasting"
+      },
+      {
+        "order": 3,
+        "text": "Roast at 200°C for 45–50 minutes until the chicken skin is deeply golden and blistered, and the juices run completely clear when you pierce the thickest part with a knife. The potato wedges (if used) should be soft inside and golden-edged. Baste the chicken with the pan juices once at the halfway point for extra flavour.",
+        "timerMinutes": 50,
+        "method": "roasting"
+      },
+      {
+        "order": 4,
+        "text": "Let the chicken rest in the tin for 5 minutes before serving — this allows the juices to settle back into the meat so the first cut doesn't lose them all. Spoon the golden roasting juices over the chicken and serve with the potatoes, a Greek salad, or warm flatbread.",
+        "timerMinutes": 5
+      }
+    ],
+    "cookware": [
+      "oven",
+      "baking-tray"
+    ],
+    "methods": [
+      "marinating",
+      "roasting"
+    ],
+    "tags": [
+      "healthy",
+      "party",
+      "comfort-food",
+      "gym"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 370,
+      "protein": 40,
+      "carbs": 4,
+      "fat": 22,
+      "fiber": 0,
+      "sugar": 1,
+      "sodium": 420,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "The same marinade works beautifully on a whole fish (pomfret or sea bass) roasted at 200°C for 20–25 minutes; reduce the marinade time to 30 minutes for fish"
+      },
+      {
+        "ingredient": "rosemary",
+        "substitute": "Dried rosemary (half the quantity) or a couple of sprigs of fresh thyme; the oregano is the more essential herb here and should not be reduced"
+      },
+      {
+        "ingredient": "lemon",
+        "substitute": "Two tablespoons of white wine vinegar and a teaspoon of lemon extract give a similar sharpness when fresh lemons are unavailable"
+      },
+      {
+        "ingredient": "olive-oil",
+        "substitute": "Any neutral oil works for the marinade function; the olive oil contributes flavour to the crust, so mild oils are preferred over strongly flavoured ones"
+      }
+    ],
+    "culturalNote": "Lemon-oregano roast chicken is not a single dish but a fundamental technique shared across Greek, Cypriot, Italian, and Levantine cooking — the idea that olive oil, citrus, garlic, and dried herbs are all the flavour a good piece of chicken needs. It appears in different forms across the whole Mediterranean basin, each culture claiming it as their own.",
+    "regionalVariation": "Greek versions tend to use more oregano and lemon, while Italian preparations lean towards rosemary and white wine. Cypriot marinade is similar but often includes coriander seeds. Lebanese and Lebanese-style preparations sometimes add sumac and cumin to the spice mix.",
+    "indianKitchenAdaptation": "An OTG (countertop oven) or a modern microwave-convection oven handles this recipe perfectly. For a stovetop version, marinate as directed, then sear the chicken in a kadai over high heat for 5 minutes per side, add 2 tablespoons of water, cover tightly, and cook over very low heat for 30–35 minutes until cooked through — it won't have the same crisp skin but the flavour will be excellent. Bone-in chicken pieces are sold at all Indian meat counters. Dried oregano is available in larger supermarkets and online.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-mediterranean-chickpea-salad",
+    "slug": "mediterranean-chickpea-salad",
+    "title": "Mediterranean Chickpea Salad",
+    "nativeTitle": null,
+    "description": "A vibrant, no-cook salad of chickpeas, fresh tomatoes, cucumber, herbs, and a punchy lemon-cumin dressing that comes together in 15 minutes and tastes better the longer it sits — an ideal packed lunch, meze dish, or light dinner. High in protein and fibre, and completely vegan.",
+    "cuisine": "mediterranean",
+    "country": "lebanon",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "snack",
+      "side"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 0,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "cooked chickpeas (canned, drained) or boiled kabuli chana",
+        "normalizedName": "chickpea",
+        "quantity": 2,
+        "unit": "can",
+        "optional": false
+      },
+      {
+        "name": "ripe tomatoes, deseeded and diced",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cucumber, diced",
+        "normalizedName": "cucumber",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "red onion, finely sliced",
+        "normalizedName": "onion",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "fresh parsley, finely chopped",
+        "normalizedName": "parsley",
+        "quantity": 1,
+        "unit": "bunch",
+        "optional": false
+      },
+      {
+        "name": "fresh mint leaves, roughly torn",
+        "normalizedName": "mint",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": true
+      },
+      {
+        "name": "extra virgin olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "lemon, juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ground cumin",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "If using canned chickpeas, drain them in a sieve and rinse well under cold water to remove any tinned taste. If using dried kabuli chana, soak them overnight and pressure-cook for 3–4 whistles until tender, then drain and cool completely before using.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Make the dressing in a large bowl: whisk together the olive oil, lemon juice, cumin, and a generous pinch of salt until combined. Taste and adjust — it should be bright, tangy, and well-seasoned before any vegetables go in.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Add the chickpeas to the dressing and toss to coat. Add the diced tomatoes, cucumber, red onion, and parsley. Fold everything together gently — you want the chickpeas to stay intact rather than getting crushed. Add the mint if using.",
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Taste the salad and adjust — it may need more salt, more lemon, or more cumin depending on the acidity of your tomatoes and lemon. Optionally warm a flatbread or roti in a dry skillet and serve alongside for scooping. The salad keeps well in the refrigerator for up to 2 days; the chickpeas absorb the dressing and become even more flavourful overnight.",
+        "timerMinutes": 2
+      }
+    ],
+    "cookware": [
+      "skillet"
+    ],
+    "methods": [
+      "no-cook"
+    ],
+    "tags": [
+      "salad",
+      "healthy",
+      "budget",
+      "quick",
+      "under-30-minutes",
+      "gym",
+      "lunchbox"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 230,
+      "protein": 10,
+      "carbs": 30,
+      "fat": 9,
+      "fiber": 8,
+      "sugar": 4,
+      "sodium": 260,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chickpea",
+        "substitute": "Canned butter beans or lobia (black-eyed peas) give a different but equally satisfying result; firm cubed paneer can be added alongside chickpeas for extra protein"
+      },
+      {
+        "ingredient": "parsley",
+        "substitute": "Fresh coriander leaves (dhania) are an excellent Indian substitute and arguably even better in this salad given the cumin in the dressing"
+      },
+      {
+        "ingredient": "olive-oil",
+        "substitute": "Any good-quality oil works; the olive oil is used raw as a dressing ingredient so it has noticeable flavour impact"
+      },
+      {
+        "ingredient": "cumin",
+        "substitute": "A small pinch of roasted cumin powder (bhuna jeera) from any Indian pantry is actually a superb choice here — the toasting amplifies the flavour"
+      }
+    ],
+    "culturalNote": "Chickpea salads with herbs and lemon are found across the entire Mediterranean and Middle East — from Lebanese fattoush variations to Moroccan chickpea salads and Provençal preparations. Chickpeas (kabuli chana or safed chana) have been cultivated around the Mediterranean for thousands of years and appear in the culinary traditions of nearly every culture in the region.",
+    "regionalVariation": "Lebanese versions often include pomegranate seeds for a jewelled sweetness. North African preparations add cumin more aggressively along with harissa for heat. Greek versions sometimes add crumbled feta and olives. Turkish variations use dried mint and a drizzle of pomegranate molasses.",
+    "indianKitchenAdaptation": "Kabuli chana (white chickpeas) is the same ingredient as the chickpeas used across the Mediterranean. Canned chickpeas are increasingly available at Indian supermarkets and save considerable time; otherwise boil soaked chickpeas in a pressure cooker for 3–4 whistles. All other ingredients — cucumber, tomato, onion, mint, lemon, cumin — are staples of the Indian kitchen. The cumin in the dressing (bhuna jeera) can be dry-roasted and ground fresh for a more intense flavour. This makes an ideal tiffin box salad as it holds well for hours without wilting.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-greek-avgolemono-soup",
+    "slug": "greek-avgolemono-soup",
+    "title": "Greek Lemon Chicken Soup",
+    "nativeTitle": "Αυγολέμονο",
+    "description": "A silky, pale-gold Greek soup where a well-flavoured chicken broth is thickened with a classic avgolemono — a smooth emulsion of beaten eggs and lemon juice — to produce something that is at once deeply warming and brilliantly fresh. Simple in its ingredients but technically elegant, this is the Greek answer to a great chicken noodle soup.",
+    "cuisine": "greek",
+    "country": "greece",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 35,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "boneless chicken breast or thigh",
+        "normalizedName": "chicken",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "chicken stock (or stock cube in 1.2 litres hot water)",
+        "normalizedName": "stock",
+        "quantity": 1200,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "long-grain rice (for thickening and body)",
+        "normalizedName": "rice",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false
+      },
+      {
+        "name": "eggs, at room temperature",
+        "normalizedName": "egg",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "lemon, juice",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "fresh parsley, chopped (for garnish)",
+        "normalizedName": "parsley",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": true
+      },
+      {
+        "name": "black pepper, freshly ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pour the stock into a large pot and bring to a boil. Add the whole chicken pieces and the rice, season with salt, and reduce the heat to a simmer. Cook for 20 minutes until the chicken is cooked through and the rice is completely soft.",
+        "timerMinutes": 20,
+        "method": "simmering"
+      },
+      {
+        "order": 2,
+        "text": "Lift the chicken out with tongs and shred it into fine strips using two forks. Return the shredded chicken to the pot and keep the soup at a very gentle simmer — it should barely be moving.",
+        "method": "simmering"
+      },
+      {
+        "order": 3,
+        "text": "In a bowl, beat the eggs and lemon juice together vigorously with a fork or whisk until the mixture is pale, slightly frothy, and fully combined. This is the avgolemono — the egg-lemon emulsion that will thicken and brighten the soup.",
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Slowly ladle about 2–3 cups of the hot soup liquid into the egg-lemon bowl, a small amount at a time, whisking constantly as you pour. This is called tempering — it gradually raises the temperature of the eggs to prevent them from scrambling when they enter the hot soup.",
+        "method": "no-cook"
+      },
+      {
+        "order": 5,
+        "text": "Pour the tempered egg-lemon mixture back into the pot of soup in a slow stream while stirring continuously. Keep the heat on the absolute lowest setting and stir gently for 3–5 minutes — the soup will thicken slightly and turn a gorgeous silky pale-gold. Do not let it boil at this point or the eggs will curdle.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Taste for salt, add a good grind of black pepper, and serve immediately in warm bowls with fresh parsley scattered on top and an extra wedge of lemon on the side. The soup is best eaten right away as it can lose its silky texture if reheated to a full boil.",
+        "method": "no-cook"
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "saucepan"
+    ],
+    "methods": [
+      "simmering",
+      "boiling",
+      "no-cook"
+    ],
+    "tags": [
+      "soup",
+      "comfort-food",
+      "healthy",
+      "kids-friendly"
+    ],
+    "allergens": [
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 220,
+      "protein": 28,
+      "carbs": 14,
+      "fat": 5,
+      "fiber": 0,
+      "sugar": 1,
+      "sodium": 580,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "stock",
+        "substitute": "Homemade chicken broth is ideal; Maggi or Knorr chicken stock cubes dissolved in 1.2 litres of hot water give a very acceptable result"
+      },
+      {
+        "ingredient": "rice",
+        "substitute": "Fine vermicelli (sevai) broken into small pieces gives a thinner but equally comforting soup; orzo pasta (if available) is traditional in some Greek versions"
+      },
+      {
+        "ingredient": "egg",
+        "substitute": "The eggs are fundamental to avgolemono — without them, the dish becomes a simple lemon chicken soup. One additional yolk gives extra richness and stability"
+      },
+      {
+        "ingredient": "lemon",
+        "substitute": "The lemon quantity can be adjusted to taste; a very tart lemon may need only 1.5 pieces while a mild one may need 2.5 for the right brightness"
+      }
+    ],
+    "culturalNote": "Avgolemono (egg-lemon) is both a sauce and a soup technique that appears across Greek, Sephardic Jewish, and Turkish cooking — evidence of the shared culinary history of the eastern Mediterranean. As a soup, it is considered deeply restorative in Greek culture, often given to the sick or to new mothers recovering after childbirth.",
+    "regionalVariation": "Some Greek versions use orzo pasta instead of rice for a slightly more filling soup. A richer festive version uses only egg yolks rather than whole eggs for an even more velvety texture. On the island of Lesbos, a local variation adds a pinch of ground mastic for a distinctive resinous note.",
+    "indianKitchenAdaptation": "The key Indian technique to know here is tempering eggs with hot liquid — it is the same principle as adding hot oil to a beaten egg in French cooking but done the opposite way around. Keep the flame very low after adding the avgolemono mixture; Indian gas burners can run very hot so use the smallest burner at the lowest setting. Chicken stock cubes (Maggi, Knorr, or Real Good) are widely available and make this achievable in 45 minutes from a cold start. Semiya (vermicelli) is a very common Indian substitute for the rice and works beautifully in this soup.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-mediterranean-pita-flatbread",
+    "slug": "mediterranean-pita-flatbread",
+    "title": "Mediterranean Pita-Style Flatbread",
+    "nativeTitle": "خبز عربي",
+    "description": "A quick, yeasted flatbread puffed on a hot tawa and ready in under an hour — the everyday bread of the Middle East and Mediterranean, soft and flexible enough to wrap around souvlaki or scoop up tzatziki and hummus. This tawa-cooked method skips the oven entirely and works in any Indian home kitchen with excellent results.",
+    "cuisine": "mediterranean",
+    "country": "lebanon",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "lunch",
+      "dinner",
+      "snack",
+      "side"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 75,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "wheat flour (or maida for softer pita)",
+        "normalizedName": "wheat-flour",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "instant dry yeast",
+        "normalizedName": "yeast",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "olive oil (or any neutral oil)",
+        "normalizedName": "olive-oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sugar (to activate yeast)",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "warm water (around 40°C — comfortably warm to the touch)",
+        "normalizedName": "water",
+        "quantity": 180,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Dissolve the sugar and yeast in the warm water and let it stand for 5–8 minutes until it becomes foamy and slightly bubbly — this confirms the yeast is alive. If the mixture does not foam, the water was too hot or the yeast is expired; start again.",
+        "timerMinutes": 8,
+        "method": "fermenting"
+      },
+      {
+        "order": 2,
+        "text": "In a large bowl, combine the flour and salt. Make a well in the centre, add the yeast liquid and olive oil, and mix to a rough dough. Turn onto a clean surface and knead for 8–10 minutes until the dough is smooth, slightly tacky, and bounces back when you press it with a finger.",
+        "timerMinutes": 10,
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Form the dough into a ball, place in an oiled bowl, cover with a damp kitchen towel or cling film, and leave in a warm corner of the kitchen for 45–60 minutes until doubled in size. In an Indian kitchen this usually happens faster in the warmer months.",
+        "timerMinutes": 60,
+        "method": "fermenting"
+      },
+      {
+        "order": 4,
+        "text": "Punch down the risen dough and divide it into 6 equal portions. Roll each portion on a lightly floured surface into a thin circle about 20 cm across and 3–4 mm thick. Keep the thickness even for consistent puffing.",
+        "method": "no-cook"
+      },
+      {
+        "order": 5,
+        "text": "Heat a heavy tawa or skillet over high heat until it is very hot — a sprinkle of flour should turn light brown immediately. Place one pita on the dry tawa (no oil needed) and cook for 90 seconds to 2 minutes until bubbles appear on the surface and the underside has dark brown spots. Flip and cook for another 60–90 seconds. The pita should puff up at least partially — this is the characteristic pocket forming.",
+        "timerMinutes": 3,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 6,
+        "text": "Remove the cooked pita and wrap immediately in a clean kitchen towel to keep it soft and flexible as it cools. Repeat with the remaining portions. Serve warm with tzatziki, hummus, or alongside any grilled dish. Pita keeps at room temperature for up to 24 hours; reheat briefly on a dry tawa for 30 seconds per side.",
+        "method": "tawa-cooking"
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "skillet"
+    ],
+    "methods": [
+      "fermenting",
+      "tawa-cooking",
+      "no-cook"
+    ],
+    "tags": [
+      "budget",
+      "kids-friendly",
+      "lunchbox",
+      "wrap"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 205,
+      "protein": 5,
+      "carbs": 38,
+      "fat": 4,
+      "fiber": 2,
+      "sugar": 1,
+      "sodium": 320,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "wheat-flour",
+        "substitute": "Half wheat flour and half maida gives a softer result; all maida makes a pita with a lighter texture that puffs more reliably"
+      },
+      {
+        "ingredient": "yeast",
+        "substitute": "For a no-yeast quick version, use 1 teaspoon of baking powder instead; the bread will not puff into a pocket but will still be soft and flexible for wrapping"
+      },
+      {
+        "ingredient": "olive-oil",
+        "substitute": "Any neutral oil or even a tablespoon of ghee added to the dough gives a slightly richer, more pliable pita"
+      }
+    ],
+    "culturalNote": "Pita (or khubz, as it is called across much of the Arab world) is one of the oldest breads in human history, baked in clay ovens across the Levant and Mediterranean for millennia. The characteristic pocket forms because the dough is rolled very thin, causing the steam to separate the two layers dramatically during cooking in a very hot oven — or in this case, on a very hot tawa.",
+    "regionalVariation": "Lebanese pita is thinner and more delicate than Greek pita, which is thicker and softer. In Syria and Jordan, the bread is sometimes flavoured with nigella seeds (kalonji). Yemeni khubz is significantly thicker. Turkish pide uses a similar dough but is stretched into an oval and often topped with minced meat or cheese before baking.",
+    "indianKitchenAdaptation": "A heavy iron tawa or a thick non-stick tawa works superbly for this bread — the key is getting it genuinely very hot before the pita goes on. Indian wheat flour (atta) makes a slightly denser, healthier pita that is still delicious; maida gives the lightest, most pocket-forming result. The rising time is dramatically shorter in a warm Indian kitchen in summer (often 30–35 minutes is sufficient). The resulting pita is extremely similar to Indian chapati in technique and can be used interchangeably for wrapping souvlaki or serving with dips.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-greek-briam",
+    "slug": "greek-briam",
+    "title": "Greek Roasted Vegetables",
+    "nativeTitle": "Μπριάμ",
+    "description": "A generous oven tray of zucchini, eggplant, potato, and tomato slowly roasted in olive oil with garlic and herbs until each vegetable is meltingly tender and the edges are caramelised — the Greek equivalent of French ratatouille and equally good warm, at room temperature, or straight from the refrigerator the next day.",
+    "cuisine": "greek",
+    "country": "greece",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 60,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "zucchini (courgette), cut into 1 cm rounds",
+        "normalizedName": "zucchini",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "brinjal (eggplant), cut into 2 cm cubes",
+        "normalizedName": "brinjal",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "potatoes, peeled and cut into 1 cm rounds",
+        "normalizedName": "potato",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "ripe tomatoes, thinly sliced",
+        "normalizedName": "tomato",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, thinly sliced into half-moons",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, thinly sliced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "extra virgin olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "dried oregano",
+        "normalizedName": "oregano",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fresh parsley, roughly chopped (for finishing)",
+        "normalizedName": "parsley",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": true
+      },
+      {
+        "name": "water or vegetable stock",
+        "normalizedName": "water",
+        "quantity": 100,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Preheat the oven to 180°C. In a large bowl, toss the zucchini, brinjal, and potato with the olive oil, garlic, oregano, and a generous amount of salt until everything is well coated. Spread the vegetable mix into a large, deep baking dish or roasting tin.",
+        "method": "roasting"
+      },
+      {
+        "order": 2,
+        "text": "Lay the sliced tomatoes over the top of the vegetable mix, overlapping them slightly. Scatter the onion slices over the tomatoes. Pour the water or stock around the edges of the dish — this creates enough steam to braise the bottom layer of vegetables even as the top roasts.",
+        "method": "roasting"
+      },
+      {
+        "order": 3,
+        "text": "Roast at 180°C for 50–60 minutes, checking once at the 30-minute mark. If the top is colouring too fast, loosely cover with foil. The briam is ready when the potatoes are completely tender, the zucchini and brinjal are soft, and the tomatoes on top are collapsed and beginning to caramelise at the edges.",
+        "timerMinutes": 60,
+        "method": "roasting"
+      },
+      {
+        "order": 4,
+        "text": "Remove from the oven and allow to settle for 10 minutes — the vegetables continue to absorb the herb-infused olive oil as they rest. Scatter fresh parsley over the top before serving. Serve warm or at room temperature with bread for mopping up the oily juices in the dish.",
+        "timerMinutes": 10
+      }
+    ],
+    "cookware": [
+      "oven",
+      "baking-tray"
+    ],
+    "methods": [
+      "roasting"
+    ],
+    "tags": [
+      "healthy",
+      "summer",
+      "comfort-food",
+      "low-oil",
+      "leftover-friendly",
+      "budget"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 240,
+      "protein": 4,
+      "carbs": 28,
+      "fat": 13,
+      "fiber": 6,
+      "sugar": 7,
+      "sodium": 290,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "zucchini",
+        "substitute": "Ridge gourd (turai) or bottlegourd (lauki) are reasonable Indian substitutes that absorb the olive oil and herb flavours well, though the texture is slightly different"
+      },
+      {
+        "ingredient": "brinjal",
+        "substitute": "Any variety of baingan (eggplant/brinjal) is identical to what is used in Greece; long purple or round desi varieties both work well"
+      },
+      {
+        "ingredient": "olive-oil",
+        "substitute": "The olive oil is the dressing and flavour vehicle here — reduce the quantity to 3 tablespoons and supplement with a tablespoon of butter if using a neutral oil"
+      },
+      {
+        "ingredient": "oregano",
+        "substitute": "Dried thyme or mixed Italian herbs give a similar Mediterranean flavour; fresh basil added after cooking (not during) gives a different but lovely result"
+      }
+    ],
+    "culturalNote": "Briam belongs to the category of Greek ladera dishes — foods cooked generously in olive oil, often without meat, that form the foundation of everyday Greek home cooking. It is particularly associated with Lent and the summer months when garden vegetables are at their best and cooking something in the oven allows the cook to step away and attend to other things.",
+    "regionalVariation": "Some northern Greek versions include green beans and carrots alongside the standard vegetables. Cretan briam is made more aggressively herbed with fresh thyme and rosemary from the hillside. A Cycladic island variation sometimes includes a layer of sliced peppers for sweetness. In Cyprus, a similar dish called yiahni uses more tomato and cooks on the stovetop rather than in the oven.",
+    "indianKitchenAdaptation": "An OTG or any countertop oven handles briam perfectly. For a stovetop version, layer all the vegetables in a deep, heavy kadai with a tight-fitting lid over very low heat, adding the water or stock and olive oil, and cook for 45–50 minutes until the vegetables are completely soft — you will not get the caramelised edges of the oven version, but the flavour is largely the same. All vegetables (zucchini, brinjal, potato, tomato, onion) are completely standard in India. Dried oregano is available at large grocery chains. The dish is best made with a good quality olive oil since it is also the sauce.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  }
+]

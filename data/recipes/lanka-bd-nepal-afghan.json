@@ -1,0 +1,3796 @@
+[
+  {
+    "id": "ca-sl-chicken-curry",
+    "slug": "sl-chicken-curry",
+    "title": "Sri Lankan Chicken Curry",
+    "nativeTitle": null,
+    "description": "A rich, dark curry built on Sri Lanka's signature roasted curry powder and simmered in coconut milk until the chicken is fall-off-the-bone tender. Lemongrass and curry leaves weave an irresistible fragrance through the gravy, giving it a depth that sets it apart from other regional chicken curries.",
+    "cuisine": "sri-lankan",
+    "country": "sri-lanka",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 40,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken, curry cut with bone",
+        "normalizedName": "chicken",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false,
+        "notes": "Bone-in pieces give the best flavour; whole thighs and drumsticks work well."
+      },
+      {
+        "name": "Sri Lankan roasted curry powder",
+        "normalizedName": "curry-powder",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "Use the dark-roasted variety; available at South Asian grocery stores as Ceylon curry powder. See substitutions to make your own."
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "onion, thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false,
+        "notes": "Red or yellow; shallots give a sweeter, more authentic result."
+      },
+      {
+        "name": "garlic cloves, sliced",
+        "normalizedName": "garlic",
+        "quantity": 6,
+        "unit": "clove",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "ginger, sliced into coins",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "lemongrass stalk, bruised",
+        "normalizedName": "lemongrass",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true,
+        "notes": "Bash with the knife handle to release the oils; remove before serving."
+      },
+      {
+        "name": "green chillies, slit lengthwise",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false,
+        "notes": "Reduce to 1 for a milder curry."
+      },
+      {
+        "name": "pandan leaf (rampe)",
+        "normalizedName": "kaffir-lime-leaves",
+        "quantity": 1,
+        "unit": "leaf",
+        "optional": true,
+        "notes": "Pandan adds a subtle floral note; kaffir lime leaf is the closest available substitute in Indian markets."
+      },
+      {
+        "name": "fresh curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "tomato, roughly chopped",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "coconut milk, full-fat",
+        "normalizedName": "coconut-milk",
+        "quantity": 250,
+        "unit": "ml",
+        "optional": false,
+        "notes": "Thick coconut milk from a can or packet; full-fat gives the best body to the gravy."
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "Coconut oil is most authentic; any neutral cooking oil works."
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "fresh coriander leaves, to garnish",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Toss the chicken pieces with 1½ tbsp of the roasted curry powder, the turmeric, and ½ tsp salt. Turn each piece so it is well coated. Set aside while you prepare the aromatics.",
+        "timerMinutes": null,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Heat the oil in a heavy-bottomed pot or kadai over medium-high flame. Add the sliced onions and fry, stirring regularly, until they turn a deep golden brown — about 10 minutes. This caramelisation is what creates the dark, complex base characteristic of Sri Lankan curry.",
+        "timerMinutes": 10,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add the garlic, ginger, lemongrass, pandan leaf (if using), curry leaves, and slit green chillies. Stir and fry on medium heat for 2 minutes until the kitchen is filled with fragrance. Do not let the garlic burn.",
+        "timerMinutes": 2,
+        "method": "tempering"
+      },
+      {
+        "order": 4,
+        "text": "Stir in the remaining ½ tbsp curry powder and the chopped tomato. Cook for 3 minutes, pressing the tomato pieces against the pot until they completely soften and merge into the masala base.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 5,
+        "text": "Add the marinated chicken and increase heat to high. Stir to coat every piece in the masala and fry for 5 minutes, turning the chicken occasionally, until it browns slightly on the outside and the raw pink colour disappears.",
+        "timerMinutes": 5,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 6,
+        "text": "Pour in the coconut milk and 100 ml water. Stir, bring to a boil, then reduce heat to low. Cover and simmer until the chicken is cooked through and oil begins to rise to the surface — about 20 minutes. Taste and adjust salt.",
+        "timerMinutes": 20,
+        "method": "simmering"
+      },
+      {
+        "order": 7,
+        "text": "Remove the lemongrass stalk and pandan leaf. Garnish with fresh coriander leaves and serve hot with steamed rice, hoppers, or string hoppers.",
+        "timerMinutes": null
+      }
+    ],
+    "methods": [
+      "marinating",
+      "sauteing",
+      "tempering",
+      "kadai-cooking",
+      "simmering"
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "kadai"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 310,
+      "protein": 28,
+      "carbs": 8,
+      "fat": 18,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "curry-powder",
+        "substitute": "Homemade roasted curry powder: dry-roast 2 tbsp coriander seeds, 1 tsp cumin, 1 tsp fennel, and 6 dried red chillies in a pan until dark and fragrant, then cool and grind fine."
+      },
+      {
+        "ingredient": "coconut-milk",
+        "substitute": "3 tbsp coconut milk powder dissolved in 250 ml warm water; the flavour is slightly lighter but works well."
+      },
+      {
+        "ingredient": "lemongrass",
+        "substitute": "One extra sprig of fresh curry leaves plus a 1-inch strip of lemon zest added during simmering — different but aromatic."
+      },
+      {
+        "ingredient": "chicken",
+        "substitute": "600 g bone-in mutton pieces — use the same method but increase simmering time to 40 minutes or pressure-cook for 5 whistles on medium flame."
+      }
+    ],
+    "culturalNote": "Sri Lankan chicken curry is defined by its dark-roasted curry powder — a blend where whole spices are toasted until nearly smoky, giving the dish a depth that fresh masalas cannot replicate. It anchors the rice-and-curry spreads served at every Sri Lankan celebration and family meal.",
+    "regionalVariation": "Jaffna Tamil cooks add goraka (a souring agent similar to tamarind) instead of tomato, producing a fiercer, darker, and more intensely sour curry that is the hallmark of the north.",
+    "indianKitchenAdaptation": "Cook in a thick-bottomed kadai or pressure cooker (4 whistles on medium flame, then open-simmer for 5 minutes to thicken the gravy). Sri Lankan roasted curry powder is sold as 'Ceylon curry powder' at South Indian and Sri Lankan grocery stores; substitute with a blend of 1 tbsp meat masala and 1 tsp dark-roasted coriander powder if unavailable. Pandan leaf can be skipped or replaced with a fresh curry leaf sprig. Any Indian branded coconut milk packet works perfectly.",
+    "image": null,
+    "imageLicense": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-sl-pol-sambol",
+    "slug": "sl-pol-sambol",
+    "title": "Sri Lankan Pol Sambol",
+    "nativeTitle": null,
+    "description": "Sri Lanka's essential coconut relish — freshly grated coconut pounded with dried Maldive fish, red chilli, onion, and a squeeze of lime. Served at almost every Sri Lankan meal, it transforms a simple bowl of rice into something vibrant and crave-worthy.",
+    "cuisine": "sri-lankan",
+    "country": "sri-lanka",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "side",
+      "tiffin"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 0,
+    "totalTimeMinutes": 15,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "freshly grated coconut",
+        "normalizedName": "coconut",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false,
+        "notes": "Freshly grated gives the best texture; frozen grated coconut (thawed) is a reliable second choice."
+      },
+      {
+        "name": "Maldive fish (umbalakada / dried tuna flakes)",
+        "normalizedName": "fish",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "Dried cured tuna with a deep umami punch. Omit entirely for a vegan version — the relish is still delicious."
+      },
+      {
+        "name": "red onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "dried red chillies, broken",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false,
+        "notes": "Adjust quantity to taste; these provide the backbone heat."
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "lime juice",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "Lime is traditional; lemon juice works equally well."
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false,
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "If using Maldive fish, soak the flakes in 2 tbsp warm water for 5 minutes, then drain and break them apart into smaller pieces. This softens the dried fish and tempers its intense saltiness.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Combine the grated coconut, soaked Maldive fish (if using), red chilli powder, and broken dried red chillies in a large bowl. Add the finely chopped red onion and lime juice.",
+        "timerMinutes": null
+      },
+      {
+        "order": 3,
+        "text": "Using your fingertips, work the mixture together by rubbing and squeezing — you want the coconut to absorb the red colour and become lightly stained from the chilli. Alternatively, pulse everything 3–4 times in a mixie, stopping before it becomes a paste; the coconut should retain some texture.",
+        "timerMinutes": null,
+        "method": "no-cook"
+      },
+      {
+        "order": 4,
+        "text": "Add salt, taste, and adjust for heat, sourness, and seasoning. Let the sambol rest for 5 minutes before serving so the coconut absorbs the lime and chilli. Serve alongside rice and curry, hoppers, or roti.",
+        "timerMinutes": 5
+      }
+    ],
+    "methods": [
+      "no-cook"
+    ],
+    "cookware": [
+      "mixie"
+    ],
+    "tags": [
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "street-food"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "nutrition": {
+      "calories": 115,
+      "protein": 3,
+      "carbs": 5,
+      "fat": 10,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "fish",
+        "substitute": "Omit entirely for a vegan version; the coconut, chilli, and lime combination stands on its own and is widely eaten across Sri Lanka."
+      },
+      {
+        "ingredient": "coconut",
+        "substitute": "3 tbsp desiccated coconut soaked in 2 tbsp warm water for 10 minutes — the texture is slightly drier but the flavour is close."
+      },
+      {
+        "ingredient": "lemon",
+        "substitute": "1 tsp white vinegar or 1 tbsp tamarind water provides the necessary sourness if lime is unavailable."
+      }
+    ],
+    "culturalNote": "Pol sambol is the heartbeat of the Sri Lankan table — present at breakfast with hoppers and at lunch with rice, it is one of the first things a child learns to prepare. The word 'pol' means coconut in Sinhala, and 'sambol' refers to the pounded condiment style common across the island.",
+    "regionalVariation": "The Jaffna version omits onion or uses very little and leans heavily on dried chilli, making it a searingly hot, drier crumble. Coastal areas sometimes add a splash of lime pickle brine for extra punch.",
+    "indianKitchenAdaptation": "Fresh grated coconut is widely available in South India; use frozen grated coconut (thawed) anywhere else. The dry Maldive fish has no exact Indian equivalent — a small piece of dried salted fish (Bombay duck / bombil) crumbled in gives a similar umami depth, or simply omit for a clean vegan relish. Prepare in a mixie with the pulse function rather than a stone grinder.",
+    "image": null,
+    "imageLicense": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-sl-parippu-dhal",
+    "slug": "sl-parippu-dhal",
+    "title": "Sri Lankan Parippu (Coconut Dhal)",
+    "nativeTitle": null,
+    "description": "Sri Lanka's beloved coconut dhal — red lentils simmered until silky, then finished with rich coconut milk and topped with a sizzling tempering of mustard seeds, curry leaves, and onion. It is one of the first dishes placed on the rice-and-curry spread at every Sri Lankan meal.",
+    "cuisine": "sri-lankan",
+    "country": "sri-lanka",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "masoor dal (red lentils)",
+        "normalizedName": "masoor-dal",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "Rinse until the water runs clear."
+      },
+      {
+        "name": "coconut milk, full-fat",
+        "normalizedName": "coconut-milk",
+        "quantity": 200,
+        "unit": "ml",
+        "optional": false,
+        "notes": "Added after the lentils are cooked to keep the coconut flavour fresh."
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "coriander powder (ground coriander seeds)",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "onion, finely sliced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "garlic cloves, sliced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "green chillies, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "fresh curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "mustard seeds",
+        "normalizedName": "mustard-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "dried red chilli, broken in half",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "Coconut oil gives the most authentic aroma."
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false,
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Place the rinsed masoor dal in a heavy-bottomed pot with 600 ml water and the turmeric. Bring to a boil over medium-high heat, skimming off any foam that rises. Reduce heat and simmer uncovered until the lentils are completely soft and breaking apart — about 15 minutes.",
+        "timerMinutes": 15,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Pour in the coconut milk and stir well to combine. Add the red chilli powder and coriander powder. Cook on low heat for 5 minutes, stirring occasionally, until the dal thickens to a pourable consistency. Season with salt and keep on the lowest flame.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 3,
+        "text": "Heat oil in a small frying pan over medium heat. Add the mustard seeds and wait for them to crackle and pop — about 30 seconds. Add the curry leaves and broken dried red chilli; they will spit briefly in the hot oil.",
+        "timerMinutes": 1,
+        "method": "tempering"
+      },
+      {
+        "order": 4,
+        "text": "Add the sliced onion and fry, stirring, until it turns golden brown — about 5 minutes. Stir in the garlic, green chillies, and cumin seeds. Cook for 1 more minute until the garlic is lightly golden and the raw smell is gone.",
+        "timerMinutes": 6
+      },
+      {
+        "order": 5,
+        "text": "Pour the entire hot tempering over the coconut dhal and stir it in. Taste and adjust salt. Serve immediately alongside steamed rice, hoppers, or roti — the tempering aroma is best while still fresh.",
+        "timerMinutes": null
+      }
+    ],
+    "methods": [
+      "boiling",
+      "simmering",
+      "tempering"
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "frying-pan"
+    ],
+    "tags": [
+      "comfort-food",
+      "budget",
+      "healthy",
+      "one-pot-meal"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 210,
+      "protein": 10,
+      "carbs": 28,
+      "fat": 7,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "masoor-dal",
+        "substitute": "Toor dal or split moong dal work well — the texture becomes slightly thicker and earthier but the dish remains equally delicious."
+      },
+      {
+        "ingredient": "coconut-milk",
+        "substitute": "50 g coconut milk powder dissolved in 200 ml water; alternatively omit for a plain tempered dal that is lighter and less rich."
+      },
+      {
+        "ingredient": "mustard-seeds",
+        "substitute": "Cumin seeds in equal quantity for the tempering give a warmer, less sharp flavour that blends beautifully with the coconut."
+      }
+    ],
+    "culturalNote": "Parippu is one of the few dishes that appears at every Sri Lankan meal regardless of ethnicity, class, or occasion. The combination of lentils and coconut milk reflects the island's unique culinary identity — a bridge between the South Indian dal tradition and the island's own rich coconut heritage.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": "Pressure-cook the masoor dal with turmeric and water for 2 whistles on medium flame, then open and proceed from step 2. The tempering technique is nearly identical to South Indian tadka dal — the only difference is the coconut milk finish, which is widely available in Indian grocery stores. Coconut oil for the tempering is optional but worth using if you have it.",
+    "image": null,
+    "imageLicense": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-sl-kottu-roti",
+    "slug": "sl-kottu-roti",
+    "title": "Sri Lankan Kottu Roti",
+    "nativeTitle": null,
+    "description": "Sri Lanka's legendary street-food stir-fry of shredded flatbread, egg, chicken, and vegetables chopped and tossed on a ripping-hot griddle with roasted curry powder and soy sauce. The rhythmic clank of metal blades on the tawa announces kottu's arrival from a block away.",
+    "cuisine": "sri-lankan",
+    "country": "sri-lanka",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "godamba roti or parotta, torn into strips",
+        "normalizedName": "maida",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false,
+        "notes": "Use 4–5 store-bought layered parottas torn into irregular strips for convenience, or make from maida, salt, oil, and water (see substitutions)."
+      },
+      {
+        "name": "chicken breast or thigh, thinly sliced",
+        "normalizedName": "chicken",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "eggs",
+        "normalizedName": "egg",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "onion, thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "cabbage, finely shredded",
+        "normalizedName": "cabbage",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "capsicum (green or red), thinly sliced",
+        "normalizedName": "capsicum",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "green chillies, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false,
+        "notes": "Reduce to 1 for a milder plate."
+      },
+      {
+        "name": "fresh curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 2,
+        "unit": "sprig",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "Sri Lankan roasted curry powder",
+        "normalizedName": "curry-powder",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "Adds a deep savoury note and Sri Lankan street-food character."
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false,
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Season the chicken slices with a pinch of curry powder and salt. Set aside. If using store-bought parottas, tear or cut them into roughly 2 cm irregular strips. If making roti from scratch: mix 300 g maida, 1 tsp salt, 1 tbsp oil, and enough water to form a soft dough; knead 5 minutes, rest 20 minutes, roll thin, cook on a hot tawa, then cool and tear into strips.",
+        "timerMinutes": null
+      },
+      {
+        "order": 2,
+        "text": "Heat 2 tbsp oil in a kadai or wok over high flame until it shimmers. Add the sliced onion and stir-fry for 2 minutes until softened and beginning to colour at the edges. Add ginger-garlic paste, curry leaves, and green chillies, and stir for 30 seconds.",
+        "timerMinutes": 3,
+        "method": "stir-frying"
+      },
+      {
+        "order": 3,
+        "text": "Add the chicken slices and the remaining curry powder. Toss and fry on high heat for 5–6 minutes, stirring constantly, until the chicken is cooked through with a little colour on the edges. Push everything to the sides of the kadai.",
+        "timerMinutes": 6,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Drizzle the remaining oil into the centre of the pan. Crack in the eggs, scramble quickly with a spatula for about 30 seconds until just set but still soft, then fold the chicken and onion mixture back in and mix everything together. Add the shredded cabbage and capsicum strips.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 5,
+        "text": "Add the roti strips and pour in the soy sauce (if using). Toss everything vigorously on high heat for 3–4 minutes, using two spatulas to chop and fold the roti into the mixture. The roti edges should crisp slightly and pick up the curry-soy colour.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 6,
+        "text": "Taste and adjust salt. Remove from heat and serve immediately — kottu is best eaten piping hot while the roti strips still have some bite. Serve with extra green chilli and a wedge of lime.",
+        "timerMinutes": null
+      }
+    ],
+    "methods": [
+      "stir-frying",
+      "kadai-cooking",
+      "tawa-cooking"
+    ],
+    "cookware": [
+      "kadai",
+      "tawa"
+    ],
+    "tags": [
+      "street-food",
+      "comfort-food",
+      "leftover-friendly",
+      "budget"
+    ],
+    "allergens": [
+      "gluten",
+      "egg",
+      "soy"
+    ],
+    "nutrition": {
+      "calories": 445,
+      "protein": 24,
+      "carbs": 50,
+      "fat": 16,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "maida",
+        "substitute": "4–5 store-bought layered parottas or leftover chapatis torn into strips — this is the fastest and most practical shortcut used in home kitchens."
+      },
+      {
+        "ingredient": "chicken",
+        "substitute": "250 g extra-firm tofu, pressed and cubed, then fried golden before adding — makes an excellent vegetarian kottu."
+      },
+      {
+        "ingredient": "egg",
+        "substitute": "Skip the egg entirely for a no-egg version and add 1 tbsp extra soy sauce for depth."
+      },
+      {
+        "ingredient": "cabbage",
+        "substitute": "Bean sprouts or thinly sliced green beans add a similar crunch and colour."
+      }
+    ],
+    "culturalNote": "Kottu roti originated as a street-food hack for using up leftover godamba roti. Today it is Sri Lanka's most beloved fast food, and the sound of two metal blades rhythmically chopping the roti on a scorching hot tawa has become the defining sound of Sri Lankan street nights.",
+    "regionalVariation": "Cheese kottu, topped with a melted processed cheese slice, is enormously popular in Colombo. Jaffna-style kottu uses the local parotta variant and a fiercer chilli hit, while seafood kottu with cuttlefish or prawn is a coastal favourite.",
+    "indianKitchenAdaptation": "Use store-bought layered parottas (available frozen in South Indian supermarkets) to skip the roti-making step entirely. The stir-fry technique is identical to Indo-Chinese fried rice — just swap rice for roti strips. A kadai over a high gas flame replicates the tawa environment well. Ceylon curry powder can be replaced with a blend of garam masala and 1 tsp dark-roasted coriander powder.",
+    "image": null,
+    "imageLicense": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-sl-egg-hopper",
+    "slug": "sl-egg-hopper",
+    "title": "Sri Lankan Egg Hoppers",
+    "nativeTitle": null,
+    "description": "Sri Lanka's iconic bowl-shaped rice flour crepes, each cradling a soft-set egg at the centre. The edges are thin and lacy with a gentle crunch; the base is thick, slightly tangy, and custardy from the egg — a perfect vessel for pol sambol and coconut dhal.",
+    "cuisine": "sri-lankan",
+    "country": "sri-lanka",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "dinner",
+      "snack"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice flour, fine",
+        "normalizedName": "rice-flour",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false,
+        "notes": "Use fine-ground white rice flour; do not substitute with coarse rice flour."
+      },
+      {
+        "name": "coconut milk, full-fat",
+        "normalizedName": "coconut-milk",
+        "quantity": 400,
+        "unit": "ml",
+        "optional": false,
+        "notes": "Divide: 250 ml thick for the batter, 150 ml to adjust consistency."
+      },
+      {
+        "name": "baking soda",
+        "normalizedName": "baking-soda",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "Provides the lift that fermentation would normally give; do not increase or the hoppers will taste soapy."
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "A small amount activates the baking soda and adds a subtle sweetness to the crepe."
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "eggs (one per hopper)",
+        "normalizedName": "egg",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false,
+        "notes": "Use at room temperature for even setting."
+      },
+      {
+        "name": "cooking oil or coconut oil, for greasing",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "Coconut oil gives the most authentic aroma."
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Combine rice flour, baking soda, sugar, and salt in a large bowl. Whisk in 250 ml thick coconut milk gradually, working out any lumps. The batter should be smooth and slightly thicker than dosa batter — add thin coconut milk (or water) a tablespoon at a time until it flows off a spoon in a slow ribbon.",
+        "timerMinutes": null
+      },
+      {
+        "order": 2,
+        "text": "Cover the batter and rest for 20 minutes at room temperature. After resting, the batter will loosen slightly. Stir and check the consistency again — it should coat the back of a spoon but still flow easily.",
+        "timerMinutes": 20
+      },
+      {
+        "order": 3,
+        "text": "Heat a small, deep-sided kadai or curved frying pan (10–12 cm base diameter) over medium heat. Lightly oil the pan using a folded paper towel dipped in oil or a pastry brush. The pan is ready when a drop of batter sizzles immediately on contact.",
+        "timerMinutes": 2,
+        "method": "pan-frying"
+      },
+      {
+        "order": 4,
+        "text": "Pour 4–5 tbsp of batter into the hot pan. Immediately grasp the pan by the handle and swirl in a swift circular motion so the batter coats the sides thinly all the way up, leaving a small pool at the base. Crack one egg directly into the centre pool, cover with a tight-fitting lid, and cook for 2–3 minutes until the egg white is completely set and the edges of the hopper are dry and slightly pulling away from the pan.",
+        "timerMinutes": 3,
+        "method": "steaming"
+      },
+      {
+        "order": 5,
+        "text": "Run a thin spatula around the edges to loosen the hopper, then ease it out onto a plate — it should release cleanly, lacy and golden at the rim. Repeat for the remaining batter, re-oiling between each. Serve immediately with pol sambol, coconut dhal (parippu), and seeni sambol.",
+        "timerMinutes": null
+      }
+    ],
+    "methods": [
+      "pan-frying",
+      "steaming"
+    ],
+    "cookware": [
+      "kadai",
+      "frying-pan"
+    ],
+    "tags": [
+      "street-food",
+      "kids-friendly",
+      "budget",
+      "comfort-food"
+    ],
+    "allergens": [
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 185,
+      "protein": 6,
+      "carbs": 25,
+      "fat": 7,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "rice-flour",
+        "substitute": "Equal volume of fermented dosa or idli batter — omit baking soda and sugar, as fermentation provides natural lift and tang."
+      },
+      {
+        "ingredient": "coconut-milk",
+        "substitute": "50 g coconut milk powder dissolved in 400 ml warm water; the hoppers will be slightly less rich but still lacy and crisp at the edges."
+      },
+      {
+        "ingredient": "egg",
+        "substitute": "Skip entirely for plain hoppers (appa); the batter alone makes beautiful lacy crepes — serve with a generous spoonful of pol sambol."
+      }
+    ],
+    "culturalNote": "Hoppers (appa or appam) are Sri Lanka's most beloved breakfast, eaten at dawn before school or work and late at night as a street-food dinner. The egg hopper, with its perfectly set yolk sitting in a custardy bowl, is a marvel of simple cooking geometry that has fascinated cooks and food writers for generations.",
+    "regionalVariation": "The Southern province adds a touch of arrack (local spirit) to the batter for a faint yeasty fermentation note. Northern Tamil-style hoppers are made slightly thicker and served with fiery Jaffna chicken curry rather than coconut condiments.",
+    "indianKitchenAdaptation": "Use a small kuzhi karandi (the traditional South Indian appam pan) or a deep-sided tawa; any small wok with curved sides works. The batter is almost identical to Kerala-style appam batter — Kerala appam batter mix from Indian grocery stores is an excellent shortcut (just add egg to each). Fermented dosa batter thinned with coconut milk is a readily available substitute. Serve with coconut chutney if pol sambol ingredients are unavailable.",
+    "image": null,
+    "imageLicense": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-sl-jaffna-crab-curry",
+    "slug": "sl-jaffna-crab-curry",
+    "title": "Jaffna Crab Curry",
+    "nativeTitle": "நண்டு குழம்பு",
+    "description": "A fierce, dark crab curry from Sri Lanka's Jaffna peninsula — where dark-roasted curry powder, tamarind, and coconut milk build a gravy of remarkable depth and heat. The crabs are cooked shell-on so every morsel picks up the full force of the sauce.",
+    "cuisine": "sri-lankan",
+    "country": "sri-lanka",
+    "region": "jaffna",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "very_hot",
+    "budgetLevel": "premium",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "whole crab, cleaned and cut into pieces",
+        "normalizedName": "crab",
+        "quantity": 800,
+        "unit": "g",
+        "optional": false,
+        "notes": "Ask your fishmonger to clean and halve the crabs; break the claws so the sauce penetrates."
+      },
+      {
+        "name": "Sri Lankan roasted curry powder",
+        "normalizedName": "curry-powder",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "Use the dark-roasted variety for Jaffna style; the quantity is high by design — this is a boldly spiced curry."
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "onion, finely sliced",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "garlic cloves, sliced",
+        "normalizedName": "garlic",
+        "quantity": 6,
+        "unit": "clove",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "ginger, finely sliced",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "green chillies, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false,
+        "notes": "Reduce to 2 for a slightly less fierce curry."
+      },
+      {
+        "name": "dried red chillies, broken",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 5,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "fresh curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 3,
+        "unit": "sprig",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "tamarind paste",
+        "normalizedName": "tamarind",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "Dissolve in 3 tbsp warm water if using block tamarind; souring agent is essential to Jaffna style."
+      },
+      {
+        "name": "coconut milk, full-fat",
+        "normalizedName": "coconut-milk",
+        "quantity": 200,
+        "unit": "ml",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "lemongrass stalk, bruised",
+        "normalizedName": "lemongrass",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true,
+        "notes": "Adds fragrance; remove before serving."
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "Coconut oil is most authentic for Jaffna cuisine."
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false,
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Toss the crab pieces with 1 tbsp of the roasted curry powder, turmeric, and a generous pinch of salt. Mix to coat all surfaces. Set aside for 10 minutes while you prepare the aromatics.",
+        "timerMinutes": 10,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a heavy-bottomed pot over medium-high flame. Add the sliced onions and fry, stirring regularly, until deep golden — about 10 minutes. The dark caramelisation is what drives Jaffna curry's intense colour.",
+        "timerMinutes": 10,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Add garlic, ginger, curry leaves, slit green chillies, broken dried red chillies, and lemongrass (if using). Stir for 2 minutes over medium heat until fragrant. Add the remaining 2 tbsp curry powder and stir for 1 minute until the masala is very dark and dry.",
+        "timerMinutes": 3,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Add the tamarind liquid and stir it into the masala. Cook for 2 minutes until the masala comes together and the tamarind thickens slightly. The mixture will smell intensely sour and spiced.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 5,
+        "text": "Add the crab pieces and toss vigorously to coat every piece in the dark masala. Pour in the coconut milk and 100 ml water. Bring to a boil, then cover and cook on medium heat for 15 minutes, turning the crab pieces once, until the shells have turned bright orange-red and the sauce has thickened.",
+        "timerMinutes": 15,
+        "method": "braising"
+      },
+      {
+        "order": 6,
+        "text": "Uncover for the final 5 minutes to reduce the gravy and concentrate the flavours. Taste and adjust salt and tamarind. Remove the lemongrass stalk and serve hot with steamed rice — the sauce is best mopped up with fingers.",
+        "timerMinutes": 5
+      }
+    ],
+    "methods": [
+      "marinating",
+      "sauteing",
+      "kadai-cooking",
+      "braising",
+      "simmering"
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "kadai"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "party"
+    ],
+    "allergens": [
+      "shellfish"
+    ],
+    "nutrition": {
+      "calories": 280,
+      "protein": 30,
+      "carbs": 6,
+      "fat": 14,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "crab",
+        "substitute": "800 g large prawns (shell-on) reduce braising time to 8 minutes — the sauce is equally superb."
+      },
+      {
+        "ingredient": "tamarind",
+        "substitute": "2 tbsp thick tomato pulp plus 1 tsp white vinegar replicates the sourness when goraka or tamarind is unavailable."
+      },
+      {
+        "ingredient": "coconut-milk",
+        "substitute": "3 tbsp coconut milk powder dissolved in 200 ml water works as a pantry substitute."
+      }
+    ],
+    "culturalNote": "Jaffna cuisine is celebrated for an uncompromising heat that sets it apart from the gentler curries of the Colombo coast. Jaffna crab curry is the crown jewel of this tradition — its intensity comes from dark-roasting the spices almost to the edge of burning before the liquid is added.",
+    "regionalVariation": "The Batticaloa coast makes a similar crab curry but uses more coconut milk, producing a lighter, creamier gravy. Colombo versions often tone down the chilli and add more tomato for a broader appeal.",
+    "indianKitchenAdaptation": "Use live or freshwater crabs available at Indian fish markets. Cook in a thick-bottomed kadai rather than a pressure cooker — crab overcooks quickly. The dark-roasted curry powder can be approximated with a blend of 2 tbsp meat masala and 1 tsp dark-roasted coriander powder; increase red chilli powder by ½ tsp to get the Jaffna heat level. Tamarind paste is widely sold across India.",
+    "image": null,
+    "imageLicense": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-sl-devilled-chicken",
+    "slug": "sl-devilled-chicken",
+    "title": "Sri Lankan Devilled Chicken",
+    "nativeTitle": null,
+    "description": "A boldly flavoured Sri Lankan stir-fry of crispy fried chicken tossed in a tangy, chilli-hot sauce of ketchup, soy, and vinegar with rings of onion and capsicum. It is Sri Lanka's beloved bar snack and party dish — sweet, sour, and fiery all at once.",
+    "cuisine": "sri-lankan",
+    "country": "sri-lanka",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "boneless chicken, cut into bite-sized pieces",
+        "normalizedName": "chicken",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false,
+        "notes": "Thigh meat stays juicier than breast; cut into 3 cm cubes for even cooking."
+      },
+      {
+        "name": "onion, cut into thick rings",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false,
+        "notes": "Leave slightly thick so they stay crunchy."
+      },
+      {
+        "name": "capsicum, cut into chunks (use both colours if possible)",
+        "normalizedName": "capsicum",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "garlic cloves, thinly sliced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "ginger, julienned",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "green chillies, slit",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "dried red chillies, broken",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "tomato ketchup",
+        "normalizedName": "tomato-ketchup",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "vinegar",
+        "normalizedName": "vinegar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "White or malt vinegar; rice vinegar gives a milder tang."
+      },
+      {
+        "name": "fresh curry leaves",
+        "normalizedName": "curry-leaves",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": true,
+        "notes": null
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false,
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Season the chicken pieces generously with salt and a pinch of turmeric if desired. Heat 3 tbsp oil in a kadai over medium-high heat. Shallow-fry the chicken pieces in a single layer for 5–6 minutes, turning once, until golden and cooked through. Remove and set aside on a plate lined with paper towels.",
+        "timerMinutes": 6,
+        "method": "shallow-frying"
+      },
+      {
+        "order": 2,
+        "text": "In the same kadai (add the remaining 1 tbsp oil if it looks dry), increase heat to high. Add garlic, ginger, dried red chillies, and curry leaves (if using) and stir for 30 seconds — the chillies will darken and the kitchen will fill with a pungent aroma.",
+        "timerMinutes": 1,
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add the onion rings and slit green chillies. Toss on high heat for 2 minutes — the onion should soften but keep its structure and light crunch. Add the capsicum chunks and toss for 1 more minute.",
+        "timerMinutes": 3,
+        "method": "stir-frying"
+      },
+      {
+        "order": 4,
+        "text": "Add the tomato ketchup, soy sauce, and vinegar. Stir quickly to combine with the vegetables — the sauce will bubble and caramelise slightly on the hot pan, smelling sweet and tangy.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 5,
+        "text": "Return the fried chicken to the pan. Toss everything together on high heat for 2 minutes until each piece of chicken is well coated in the sticky, glowing sauce. Taste and adjust salt, vinegar, or chilli.",
+        "timerMinutes": 2,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 6,
+        "text": "Remove from heat and serve immediately as a starter or alongside fried rice. Devilled chicken is best eaten hot and fresh — the sauce becomes sticky and the chicken stays crisp.",
+        "timerMinutes": null
+      }
+    ],
+    "methods": [
+      "shallow-frying",
+      "tempering",
+      "stir-frying",
+      "kadai-cooking"
+    ],
+    "cookware": [
+      "kadai",
+      "frying-pan"
+    ],
+    "tags": [
+      "street-food",
+      "party",
+      "dry-curry",
+      "quick"
+    ],
+    "allergens": [
+      "soy",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 295,
+      "protein": 26,
+      "carbs": 12,
+      "fat": 16,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "Coconut aminos or 1 tsp Worcestershire sauce for a gluten-free alternative with a similar savoury depth."
+      },
+      {
+        "ingredient": "chicken",
+        "substitute": "400 g extra-firm tofu (pressed, cubed, fried crispy) for a vegetarian devilled dish — the sauce is the star and works with tofu beautifully."
+      },
+      {
+        "ingredient": "vinegar",
+        "substitute": "1 tbsp fresh lime juice added at the end — brighter, slightly less sharp than vinegar."
+      }
+    ],
+    "culturalNote": "Devilled chicken reflects the influence of Portuguese, Dutch, and British colonisers on Sri Lankan cooking, where spicy-sour-sweet flavour profiles were layered onto local poultry. Today it is ubiquitous at Sri Lankan parties and the unofficial star of the hotel buffet circuit.",
+    "regionalVariation": "Some cooks add a splash of arrack (Sri Lankan coconut-palm spirit) to flambé the sauce for a smoky, dramatic finish. Colombo Chinese restaurant versions include baby corn and mushrooms alongside the chicken.",
+    "indianKitchenAdaptation": "Cook entirely in a kadai — no special equipment needed. Soy sauce is widely available in Indian supermarkets and online. The flavour profile is close to Indo-Chinese chilli chicken; use the same wok technique of keeping the flame high and working fast. Serve with veg fried rice or as a party starter.",
+    "image": null,
+    "imageLicense": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-sl-watalappan",
+    "slug": "sl-watalappan",
+    "title": "Watalappan",
+    "nativeTitle": "වටලප්පන්",
+    "description": "Sri Lanka's treasured steamed coconut custard — silky, dark, and perfumed with kithul palm jaggery, cardamom, and nutmeg. This ancient Malay-influenced dessert wobbles gently when shaken and melts on the tongue with a caramel-coconut sweetness unlike anything else in the region.",
+    "cuisine": "sri-lankan",
+    "country": "sri-lanka",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "dessert"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 40,
+    "totalTimeMinutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "eggs",
+        "normalizedName": "egg",
+        "quantity": 5,
+        "unit": "piece",
+        "optional": false,
+        "notes": "Use large eggs at room temperature for a smooth custard."
+      },
+      {
+        "name": "kithul palm jaggery or dark cane jaggery",
+        "normalizedName": "jaggery",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false,
+        "notes": "Kithul (palm) jaggery gives an authentic deep caramel flavour; dark cane jaggery is a good substitute. Grate or roughly chop before using."
+      },
+      {
+        "name": "coconut milk, full-fat",
+        "normalizedName": "coconut-milk",
+        "quantity": 400,
+        "unit": "ml",
+        "optional": false,
+        "notes": "Warm gently to help dissolve the jaggery."
+      },
+      {
+        "name": "cardamom, freshly ground",
+        "normalizedName": "cardamom",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "Freshly ground from pods gives the most fragrant result."
+      },
+      {
+        "name": "nutmeg, freshly grated",
+        "normalizedName": "nutmeg",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "vanilla extract",
+        "normalizedName": "vanilla",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true,
+        "notes": null
+      },
+      {
+        "name": "cashews, halved",
+        "normalizedName": "cashew",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "For garnish on top before steaming; they press into the custard and look beautiful when unmoulded."
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 500,
+        "unit": "ml",
+        "optional": false,
+        "notes": "For the steaming vessel."
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Grate or finely chop the jaggery. Warm 200 ml of the coconut milk in a small saucepan over very low heat — do not boil. Add the jaggery and stir until completely dissolved. Remove from heat and let it cool to room temperature.",
+        "timerMinutes": 5,
+        "method": "simmering"
+      },
+      {
+        "order": 2,
+        "text": "Whisk the eggs in a large bowl until the whites and yolks are fully combined but not frothy — overmixing creates bubbles that will show up as holes in the finished custard. Stir in the remaining 200 ml coconut milk.",
+        "timerMinutes": null
+      },
+      {
+        "order": 3,
+        "text": "Slowly pour the cooled jaggery-coconut milk into the egg mixture, stirring gently. Add the ground cardamom, nutmeg, and vanilla extract (if using). Pass the mixture through a fine-mesh strainer or muslin cloth into a pouring jug — this step removes any lumpy bits and gives the custard its silky finish.",
+        "timerMinutes": null
+      },
+      {
+        "order": 4,
+        "text": "Pour the strained custard into one large 20 cm round mould or six individual ramekins. If using cashews, press the halved nuts gently into the surface of the custard. Cover each mould tightly with aluminium foil so that no condensation drips onto the surface during steaming.",
+        "timerMinutes": null
+      },
+      {
+        "order": 5,
+        "text": "Bring 500 ml water to a steady simmer in a steamer or pressure cooker (with the weight off). Set the covered mould(s) on the steaming rack. Steam on low heat for 30–35 minutes for a large mould or 20–25 minutes for individual ramekins — the custard is set when the edges are firm but the centre still has a slight jiggle.",
+        "timerMinutes": 35,
+        "method": "steaming"
+      },
+      {
+        "order": 6,
+        "text": "Remove from the steamer and allow to cool completely at room temperature before refrigerating for at least 1 hour. Run a thin knife around the edge of the mould and invert onto a serving plate — the cashews will be on top, pressed into the dark caramel surface. Serve chilled.",
+        "timerMinutes": 60
+      }
+    ],
+    "methods": [
+      "steaming",
+      "simmering"
+    ],
+    "cookware": [
+      "steamer",
+      "pressure-cooker",
+      "saucepan"
+    ],
+    "tags": [
+      "sweet",
+      "festival",
+      "eid",
+      "party",
+      "kids-friendly"
+    ],
+    "allergens": [
+      "egg",
+      "nuts"
+    ],
+    "nutrition": {
+      "calories": 210,
+      "protein": 7,
+      "carbs": 22,
+      "fat": 11,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "jaggery",
+        "substitute": "120 g dark brown sugar or muscovado sugar dissolved in the warm coconut milk — the caramel note is present but less complex than kithul jaggery."
+      },
+      {
+        "ingredient": "egg",
+        "substitute": "Not recommended — eggs provide the custard's structure and no vegan substitute achieves the same texture."
+      },
+      {
+        "ingredient": "cashew",
+        "substitute": "Pistachio halves pressed into the surface create a stunning green-on-dark colour contrast for a festive presentation."
+      }
+    ],
+    "culturalNote": "Watalappan has Malay origins and arrived in Sri Lanka with the Malay community brought by Dutch colonists in the 18th century. It became deeply woven into Sri Lankan Muslim culture, where it is the essential dessert at Eid celebrations and weddings. The name likely derives from the Malay 'vathal appam', a steamed egg cake.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": "Steam using a pressure cooker with the whistle weight removed — place ramekins on a trivet, add water, close the lid, and steam on low flame for 25 minutes. Kithul jaggery is sold at Kerala and South Indian specialty stores; Kolhapuri or Bellary dark jaggery is a widely available substitute. Coconut milk from any Indian brand works. Individual steel katoris (bowls) work as moulds in a pinch.",
+    "image": null,
+    "imageLicense": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-bd-bhuna-khichuri",
+    "slug": "bd-bhuna-khichuri",
+    "title": "Bangladeshi Bhuna Khichuri",
+    "nativeTitle": "ভুনা খিচুড়ি",
+    "description": "Bangladesh's festive version of khichdi — rice and lentils first fried in ghee with whole aromatic spices, then cooked together with caramelised onion until every grain is separate and fragrant. Unlike the porridge-like khichdi of other regions, bhuna khichuri has texture and presence.",
+    "cuisine": "bangladeshi",
+    "country": "bangladesh",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 35,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "polao rice or any short-grain rice, rinsed",
+        "normalizedName": "rice",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "Rinse until water runs clear; no need to soak."
+      },
+      {
+        "name": "moong dal, rinsed",
+        "normalizedName": "moong-dal",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "Dry-roast the rinsed dal in a dry pan for 2 minutes until lightly golden before using — this step adds a nutty depth."
+      },
+      {
+        "name": "onion, thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "Essential for flavour; a drizzle added at the end of cooking is key."
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "bay leaves",
+        "normalizedName": "bay-leaf",
+        "quantity": 2,
+        "unit": "leaf",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "cinnamon stick",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false,
+        "notes": "One 2-inch stick."
+      },
+      {
+        "name": "green cardamom pods, lightly bruised",
+        "normalizedName": "cardamom",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "Added at the end as a finishing touch."
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 600,
+        "unit": "ml",
+        "optional": false,
+        "notes": "Approximately 3 cups; adjust to get dry, separate grains."
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Dry-roast the rinsed moong dal in a heavy-bottomed pot over medium heat, stirring constantly, for 2 minutes until it turns lightly golden and smells nutty. Remove and set aside.",
+        "timerMinutes": 2,
+        "method": "roasting"
+      },
+      {
+        "order": 2,
+        "text": "Heat the oil and 1 tbsp ghee in the same pot over medium-high heat. Add the bay leaves, cinnamon stick, bruised cardamom pods, and cloves. Fry for 30 seconds until they splutter and release fragrance.",
+        "timerMinutes": 1,
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add the sliced onions and fry, stirring regularly, for 12–15 minutes until they are deeply golden-brown and have reduced to a quarter of their original volume. Do not rush this step — the fried onion is what makes bhuna khichuri taste distinctly festive.",
+        "timerMinutes": 14,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Add the ginger-garlic paste, turmeric, and red chilli powder. Stir and fry for 2 minutes until the raw smell disappears and the oil begins to separate slightly from the masala.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 5,
+        "text": "Add the rinsed rice and roasted moong dal to the pot. Stir well to coat the grains and lentils in the masala. Add salt and 600 ml water. Bring to a strong boil, then reduce heat to the lowest setting, cover tightly, and cook for 15 minutes.",
+        "timerMinutes": 15,
+        "method": "one-pot"
+      },
+      {
+        "order": 6,
+        "text": "Check that the water has been absorbed and the rice is cooked through. Drizzle the remaining 1 tbsp ghee over the top, sprinkle garam masala, and fold gently without breaking the grains. Cover and rest off the heat for 5 minutes before serving.",
+        "timerMinutes": 5
+      }
+    ],
+    "methods": [
+      "roasting",
+      "tempering",
+      "sauteing",
+      "one-pot"
+    ],
+    "cookware": [
+      "heavy-bottomed-pot"
+    ],
+    "tags": [
+      "comfort-food",
+      "one-pot-meal",
+      "festival",
+      "budget"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "protein": 11,
+      "carbs": 58,
+      "fat": 10,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "moong-dal",
+        "substitute": "Masoor dal (red lentils) for a slightly earthier flavour; cooking time remains the same."
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "Equal amount of butter for a similar richness, or extra neutral oil for a dairy-free version."
+      },
+      {
+        "ingredient": "rice",
+        "substitute": "Basmati rice for a more aromatic, separate-grained result — reduce water to 500 ml as basmati absorbs less."
+      }
+    ],
+    "culturalNote": "Bhuna khichuri is the comfort food of Bangladesh, eaten on rainy monsoon days with begun bhaji (fried brinjal) and a boiled egg. It is also an essential part of Eid al-Adha celebrations, where large batches are cooked in giant pots and shared with neighbours.",
+    "regionalVariation": "In the Sylhet region, khichuri is cooked with smoked beef and is considerably richer and more complex. The Chittagong coastal version adds dried shrimp to the base for a distinctive umami note.",
+    "indianKitchenAdaptation": "Cook in any thick-bottomed kadai or pressure cooker (2 whistles on medium flame for the covered stage). The technique and ingredients are closely related to North Indian khichdi and pulao — think of it as a hybrid. Ghee is widely available across India. The whole-spice tempering is identical to biryani technique.",
+    "image": null,
+    "imageLicense": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-bd-beguni",
+    "slug": "bd-beguni",
+    "title": "Beguni",
+    "nativeTitle": "বেগুনি",
+    "description": "Bangladesh's beloved fried brinjal fritters — thin rounds of brinjal dipped in a spiced besan batter and fried until crisp and golden. These are the quintessential Bangladeshi monsoon snack, served piping hot with mustard paste or a cup of cha.",
+    "cuisine": "bangladeshi",
+    "country": "bangladesh",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack",
+      "side"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "brinjal (medium size), cut into 5mm rounds",
+        "normalizedName": "brinjal",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false,
+        "notes": "A medium to large brinjal gives the best-sized rounds for frying; avoid very thin or very wide pieces."
+      },
+      {
+        "name": "besan (gram flour)",
+        "normalizedName": "besan",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "Split between the batter and the salted brinjal."
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "Stirred into the batter; adds a earthy note."
+      },
+      {
+        "name": "kalonji (nigella seeds)",
+        "normalizedName": "kalonji",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "A distinctly Bangladeshi touch; adds a faint onion-pepper flavour to the batter."
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 150,
+        "unit": "ml",
+        "optional": false,
+        "notes": "Adjust until batter is thick enough to coat a spoon without dripping off instantly."
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 400,
+        "unit": "ml",
+        "optional": false,
+        "notes": "For deep frying; the oil should be deep enough to submerge the fritters."
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Sprinkle the brinjal rounds with ¼ tsp turmeric and a little salt. Toss gently to coat and leave for 5 minutes — the salt draws out moisture and helps the batter adhere better.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Mix the besan, remaining ¼ tsp turmeric, red chilli powder, cumin seeds, kalonji (if using), and a good pinch of salt in a wide bowl. Gradually whisk in the water until a smooth, thick batter forms — it should coat the back of a spoon in an even layer without running off quickly.",
+        "timerMinutes": null
+      },
+      {
+        "order": 3,
+        "text": "Pat the salted brinjal rounds dry with a cloth or paper towel. Heat the oil in a kadai over medium-high heat until a tiny drop of batter sizzles and floats to the surface immediately — the oil is ready.",
+        "timerMinutes": 3,
+        "method": "deep-frying"
+      },
+      {
+        "order": 4,
+        "text": "Dip a brinjal round in the batter, letting excess drip off, then slide it gently into the hot oil. Fry 4–5 rounds at a time without crowding. Cook for 2–3 minutes, flipping once, until both sides are deep golden and the batter is crisp.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 5,
+        "text": "Lift the fritters out with a slotted spoon and drain on a plate lined with paper towels. Repeat with the remaining brinjal. Serve immediately while hot and crisp, with mustard paste or green chutney on the side.",
+        "timerMinutes": null
+      }
+    ],
+    "methods": [
+      "deep-frying"
+    ],
+    "cookware": [
+      "kadai"
+    ],
+    "tags": [
+      "street-food",
+      "quick",
+      "budget",
+      "under-30-minutes",
+      "fried-snack"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 195,
+      "protein": 5,
+      "carbs": 22,
+      "fat": 10,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "brinjal",
+        "substitute": "Courgette (zucchini) rounds, raw banana slices, or sliced raw plantain work beautifully in the same batter."
+      },
+      {
+        "ingredient": "besan",
+        "substitute": "A 50:50 mix of rice flour and besan gives a lighter, crispier fritter that stays crunchy for longer."
+      },
+      {
+        "ingredient": "kalonji",
+        "substitute": "Celery seeds or caraway seeds provide a similar aromatic peppery note if kalonji is unavailable."
+      }
+    ],
+    "culturalNote": "Beguni is the quintessential Bangladeshi iftar snack during Ramadan and a staple of the rainy-season kitchen. It is often served alongside khichuri — the pairing of the two is so classic that ordering one without the other at a Dhaka street stall would be considered an oversight.",
+    "regionalVariation": "Chittagong vendors add a pinch of ajwain (carom seeds) to the batter for a more medicinal, herby flavour. Some Dhaka recipes thin the batter with milk for a slightly richer coating.",
+    "indianKitchenAdaptation": "This is essentially the same as South Indian vazhakai bajji or North Indian baingan pakoda — the technique is identical. Besan is a pantry staple across India. Kalonji is sold as 'kalonji' or 'mangrail' in Indian spice shops and is worth adding for an authentic Bangladeshi character. Fry in any deep kadai; a splatter guard is helpful.",
+    "image": null,
+    "imageLicense": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-bd-chicken-roast",
+    "slug": "bd-chicken-roast",
+    "title": "Bangladeshi Chicken Roast",
+    "nativeTitle": "মুরগির রোস্ট",
+    "description": "Bangladesh's definitive chicken showpiece — bone-in pieces braised in a deeply caramelised onion masala with whole aromatic spices until the meat is fall-off-the-bone tender and the dark, clinging gravy is rich enough to eat on its own. This is the centrepiece of Bangladeshi celebrations.",
+    "cuisine": "bangladeshi",
+    "country": "bangladesh",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 50,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken, large pieces with bone (legs, thighs)",
+        "normalizedName": "chicken",
+        "quantity": 800,
+        "unit": "g",
+        "optional": false,
+        "notes": "Bone-in pieces are essential — they release gelatin that thickens the gravy."
+      },
+      {
+        "name": "onion, thinly sliced (for beresta and curry)",
+        "normalizedName": "onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false,
+        "notes": "Fry 2 onions into golden beresta (fried onion); use the third for the curry base."
+      },
+      {
+        "name": "plain curd (yogurt)",
+        "normalizedName": "curd",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "Used for marinating; tenderises the meat and adds a subtle tang."
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "ghee",
+        "normalizedName": "ghee",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "Added partway through for richness; do not substitute with oil for the full effect."
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "Half added during cooking, half sprinkled at the end."
+      },
+      {
+        "name": "bay leaves",
+        "normalizedName": "bay-leaf",
+        "quantity": 2,
+        "unit": "leaf",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "cinnamon stick",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false,
+        "notes": "One 2-inch stick."
+      },
+      {
+        "name": "green cardamom pods, bruised",
+        "normalizedName": "cardamom",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false,
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Toss the chicken pieces with curd, 1 tbsp ginger-garlic paste, ¼ tsp turmeric, and a generous pinch of salt. Cover and marinate for at least 15 minutes, or up to 4 hours in the refrigerator for maximum tenderness.",
+        "timerMinutes": 15,
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Heat oil in a heavy-bottomed pot over medium-high heat. Add the sliced onions from two of the onions and fry, stirring regularly, for 18–20 minutes until they are a very deep golden brown and crispy at the edges. Remove half and set aside as beresta (garnish); leave the other half in the pot.",
+        "timerMinutes": 20,
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "To the remaining fried onion in the pot, add the bay leaves, cinnamon stick, cardamom pods, and cloves. Stir for 30 seconds. Add the third sliced raw onion and the remaining 1 tbsp ginger-garlic paste; cook for 3 minutes until the raw onion softens.",
+        "timerMinutes": 4,
+        "method": "tempering"
+      },
+      {
+        "order": 4,
+        "text": "Add the remaining turmeric, red chilli powder, coriander powder, and half the garam masala. Stir vigorously for 2 minutes, adding a splash of water if needed to prevent sticking, until the masala is fragrant and the oil begins to separate around the edges.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 5,
+        "text": "Add the marinated chicken pieces and increase the heat to high. Stir and fry for 8–10 minutes, turning the pieces frequently, until the chicken is no longer pink on the outside and has developed colour. This high-heat bhuno (frying) step is what gives the roast its characteristic depth.",
+        "timerMinutes": 10,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 6,
+        "text": "Add 200 ml water, stir, and bring to a boil. Reduce heat to low, cover, and braise for 20 minutes until the chicken is cooked through and the gravy has thickened. Stir in the ghee and remaining garam masala, cook uncovered for 2 more minutes. Scatter the reserved beresta on top before serving.",
+        "timerMinutes": 22,
+        "method": "braising"
+      }
+    ],
+    "methods": [
+      "marinating",
+      "sauteing",
+      "tempering",
+      "kadai-cooking",
+      "braising"
+    ],
+    "cookware": [
+      "heavy-bottomed-pot"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "festival",
+      "eid",
+      "party"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 370,
+      "protein": 36,
+      "carbs": 9,
+      "fat": 21,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "curd",
+        "substitute": "3 tbsp thick coconut milk for a dairy-free version — the tenderness is slightly reduced but still good."
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "Equal amount of butter provides a similar richness; neutral oil works if keeping it fully dairy-free."
+      },
+      {
+        "ingredient": "chicken",
+        "substitute": "800 g bone-in mutton pieces — increase the braising time to 40 minutes and add 100 ml extra water."
+      }
+    ],
+    "culturalNote": "Bangladeshi chicken roast is not a roasted dish in the Western sense — 'roast' here refers to the bhuno (frying-down) method, where the chicken is cooked in a very small amount of liquid at high heat so that the masala fries rather than steams. It is the prestige dish of Dhaka households, served to honoured guests.",
+    "regionalVariation": "Sylheti versions add a generous amount of bay leaf and a more restrained chilli hand, producing a more aromatic, less fiery gravy. Old Dhaka preparations sometimes add a charcoal coal piece for a subtle smoky note in the finishing stage.",
+    "indianKitchenAdaptation": "Cook in a thick-bottomed kadai or a degchi; a pressure cooker can be used for the braising stage (2 whistles on medium) but reduces the bhuno character of the dish. The technique is similar to North Indian murgh masala. Ghee and whole spices are pantry staples in Indian kitchens. The key distinguishing element is the very deep caramelisation of onions — do not rush this step.",
+    "image": null,
+    "imageLicense": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-bd-shorshe-chingri",
+    "slug": "bd-shorshe-chingri",
+    "title": "Shorshe Chingri",
+    "nativeTitle": "সর্ষে চিংড়ি",
+    "description": "Bengal and Bangladesh's most celebrated prawn preparation — plump prawns simmered in a pungent, earthy mustard paste with green chilli and mustard oil. The dish has a raw, assertive heat that is softened by the natural sweetness of fresh prawns and a handful of green chillies.",
+    "cuisine": "bangladeshi",
+    "country": "bangladesh",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "large prawns, peeled and deveined",
+        "normalizedName": "prawn",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false,
+        "notes": "Leave the tails on for presentation. Fresh or thawed frozen prawns both work well."
+      },
+      {
+        "name": "yellow and black mustard seeds (for paste)",
+        "normalizedName": "mustard-seeds",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "Use a 2:1 ratio of yellow to black mustard seeds for a balanced paste that is pungent but not bitter. Soak in water for 15 minutes before grinding."
+      },
+      {
+        "name": "green chillies (4 for paste, 2 slit for cooking)",
+        "normalizedName": "green-chilli",
+        "quantity": 6,
+        "unit": "piece",
+        "optional": false,
+        "notes": "Grind 4 with the mustard paste; slit 2 and add them whole during cooking."
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "mustard oil",
+        "normalizedName": "mustard-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "Heat to smoking point and cool slightly before using — this mellows the sharp raw edge of mustard oil and is essential to authentic flavour."
+      },
+      {
+        "name": "kalonji (nigella seeds)",
+        "normalizedName": "kalonji",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "Used in the tempering; adds a characteristic Bangladeshi/Bengali aroma."
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 100,
+        "unit": "ml",
+        "optional": false,
+        "notes": "Just enough to thin the paste into a pourable sauce."
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soak the mustard seeds in 4 tbsp water for 15 minutes to soften them. Transfer to a mixie jar with 4 green chillies, ¼ tsp turmeric, a pinch of salt, and 2 tbsp fresh water. Grind to a very fine, smooth paste — any graininess in the mustard will leave a bitter taste.",
+        "timerMinutes": 15,
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Toss the peeled prawns with the remaining ¼ tsp turmeric and a pinch of salt. Set aside for 5 minutes. Heat the mustard oil in a kadai over high heat until it reaches smoking point — wisps of smoke will appear. Remove from heat and allow to cool for 1 minute; this neutralises the sharp raw pungency of mustard oil.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Return the kadai to medium heat. Add the kalonji seeds and let them crackle for 20 seconds. Add the slit green chillies and stir briefly. Pour in the mustard paste and stir for 2 minutes over medium heat until the paste is heated through and begins to dry slightly on the pan.",
+        "timerMinutes": 3,
+        "method": "tempering"
+      },
+      {
+        "order": 4,
+        "text": "Add 100 ml water to the mustard paste and stir to form a thin, yellow sauce. Bring to a gentle simmer. Taste the sauce for salt and adjust — it should be boldly pungent and slightly warm from the green chilli.",
+        "timerMinutes": 2,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Add the marinated prawns in a single layer. Cook on medium heat for 3–4 minutes, turning once, until the prawns have turned pink-orange and just curled — do not overcook or they will turn rubbery. The sauce should coat each prawn in a thin, fragrant film. Serve immediately with steamed rice.",
+        "timerMinutes": 4,
+        "method": "kadai-cooking"
+      }
+    ],
+    "methods": [
+      "no-cook",
+      "tempering",
+      "simmering",
+      "kadai-cooking"
+    ],
+    "cookware": [
+      "kadai",
+      "mixie"
+    ],
+    "tags": [
+      "quick",
+      "healthy",
+      "comfort-food"
+    ],
+    "allergens": [
+      "shellfish",
+      "mustard"
+    ],
+    "nutrition": {
+      "calories": 190,
+      "protein": 26,
+      "carbs": 3,
+      "fat": 9,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "prawn",
+        "substitute": "500 g firm white fish fillets (like rohu or catla), cut into 3 cm cubes — cook for 5–6 minutes total and handle gently to avoid breaking."
+      },
+      {
+        "ingredient": "mustard-seeds",
+        "substitute": "3 tbsp ready-made kasundi (Bengali mustard sauce) dissolved in 3 tbsp water — kasundi is available at Bengali stores and captures the authentic flavour."
+      },
+      {
+        "ingredient": "mustard-oil",
+        "substitute": "Cold-pressed coconut oil adds a different but pleasant character; avoid other neutral oils as they flatten the flavour."
+      }
+    ],
+    "culturalNote": "Shorshe chingri is a pillar of Bengali and Bangladeshi cuisine and one of the few dishes where the pungency of raw mustard oil is celebrated rather than cooked away. In Bangladesh, it is served at the peak of prawn season and is considered a benchmark of a cook's skill in handling bold flavours without overwhelming the ingredient.",
+    "regionalVariation": "West Bengali versions often include a small amount of coconut paste to round the sharp edges of the mustard. The Bangladeshi coastal style uses larger tiger prawns and keeps the sauce lean — just mustard, green chilli, and mustard oil.",
+    "indianKitchenAdaptation": "Mustard oil is sold across North India and Bengal; heat it to smoking as instructed to mellow its bite. The grinding step works perfectly in a small Indian mixie jar. Yellow mustard seeds may be sold as 'peeli sarson' in North Indian markets; black mustard seeds (kadugu/rai) are in every South Indian pantry. Kasundi (Bengali mustard sauce) is available online and in Bengali grocery stores across Indian metros.",
+    "image": null,
+    "imageLicense": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-np-chicken-momo",
+    "slug": "np-chicken-momo",
+    "title": "Nepali Chicken Momo with Jhol Achar",
+    "nativeTitle": "चिकेन मोमो",
+    "description": "Nepal's beloved steamed dumplings filled with spiced minced chicken, served in a warm, tangy tomato-sesame broth called jhol achar. The soup-like sauce soaks into each momo and turns every bite into something deeply satisfying and irreversibly addictive.",
+    "cuisine": "nepali",
+    "country": "nepal",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack",
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 45,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "minced chicken (keema)",
+        "normalizedName": "keema",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false,
+        "notes": "Chicken thigh mince has better flavour and juiciness than breast mince."
+      },
+      {
+        "name": "maida (all-purpose flour), for wrappers",
+        "normalizedName": "maida",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false,
+        "notes": "Knead to a firm, smooth dough; the wrapper must be thin but sturdy enough to hold the filling without tearing."
+      },
+      {
+        "name": "onion, very finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "garlic cloves, minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "green chillies, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "fresh coriander leaves, finely chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "black pepper, freshly cracked",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "Use generously — black pepper is the defining spice in momo filling."
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "Added to the filling to keep the mince moist during steaming."
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "tomatoes, for jhol achar",
+        "normalizedName": "tomato",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false,
+        "notes": "Roasted or dry-fried until charred on the outside for a smoky achar."
+      },
+      {
+        "name": "dried red chillies, for jhol achar",
+        "normalizedName": "dried-red-chilli",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "sesame seeds, lightly roasted, for jhol achar",
+        "normalizedName": "sesame-seeds",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "Dry-roast in a pan until golden for best flavour before grinding."
+      },
+      {
+        "name": "cumin seeds, for jhol achar",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "lemon juice, for jhol achar",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 300,
+        "unit": "ml",
+        "optional": false,
+        "notes": "For kneading (about 100 ml) and for the jhol achar sauce."
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Knead maida with a pinch of salt and approximately 100 ml water into a firm, smooth dough — it should not be sticky. Cover with a damp cloth and rest for 20 minutes. Meanwhile, combine minced chicken, onion, ginger, garlic, green chilli, coriander, black pepper, oil, and salt in a bowl. Mix well until everything is evenly distributed.",
+        "timerMinutes": 20
+      },
+      {
+        "order": 2,
+        "text": "Make the jhol achar: char the tomatoes directly on a gas flame or in a dry frying pan until the skin is blackened. Dry-roast the sesame seeds and cumin seeds in the same pan until golden. Blend the charred tomatoes, roasted sesame and cumin, dried red chillies, a pinch of salt, and 200 ml water into a smooth sauce. Add lemon juice, taste, and adjust salt. Set aside in a bowl.",
+        "timerMinutes": 10,
+        "method": "roasting"
+      },
+      {
+        "order": 3,
+        "text": "Divide the rested dough into small balls (about 12–15 g each). On a lightly floured surface, roll each ball into a thin circle about 8–9 cm in diameter — the edges should be thinner than the centre. Place 1 heaped tsp of filling in the centre.",
+        "timerMinutes": null
+      },
+      {
+        "order": 4,
+        "text": "Fold the dough over the filling and pleat the edges together, pinching and twisting to seal firmly. Work from one side, making small overlapping pleats until the momo is completely sealed with a twisted topknot — a tight seal prevents steam from opening the dumpling during cooking.",
+        "timerMinutes": null
+      },
+      {
+        "order": 5,
+        "text": "Lightly oil the steaming basket or idli plates. Arrange the momos so they are not touching each other. Steam over rapidly boiling water for 12–15 minutes until the wrappers turn translucent and are no longer sticky when pressed lightly.",
+        "timerMinutes": 15,
+        "method": "steaming"
+      },
+      {
+        "order": 6,
+        "text": "Transfer the hot momos to serving bowls and pour the jhol achar generously over or around them — the momos should sit in a pool of the tangy sauce. Serve immediately while the wrappers are tender.",
+        "timerMinutes": null
+      }
+    ],
+    "methods": [
+      "steaming",
+      "roasting"
+    ],
+    "cookware": [
+      "steamer",
+      "idli-steamer",
+      "frying-pan",
+      "mixie"
+    ],
+    "tags": [
+      "street-food",
+      "comfort-food",
+      "party",
+      "kids-friendly"
+    ],
+    "allergens": [
+      "gluten",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 340,
+      "protein": 22,
+      "carbs": 38,
+      "fat": 11,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "keema",
+        "substitute": "Finely chopped firm tofu or paneer (200 g) with grated vegetables for a vegetarian momo — popular as veg momo across Nepal."
+      },
+      {
+        "ingredient": "maida",
+        "substitute": "Gluten-free rice paper wrappers can replace the maida dough for a naturally gluten-free version, though the texture differs."
+      },
+      {
+        "ingredient": "sesame-seeds",
+        "substitute": "2 tbsp roasted peanuts blended into the achar give a similar nuttiness; include peanuts in allergen disclosure."
+      }
+    ],
+    "culturalNote": "Momo originated as a Tibetan dumpling and entered Nepal through cultural exchange along the Himalayan trade routes. Today, momo shops (momo pasal) are an institution in Kathmandu — eaten at every time of day, in every weather. Jhol achar, unique to Nepal, elevates the momo experience far beyond a plain soy-sauce dip.",
+    "regionalVariation": "Jhankri or mountain-style momos are larger, with coarser minced meat and wild herbs. Coastal Terai momos are smaller and use more chilli in the filling. Fried momo (kothey momo) is pan-fried on one side before steaming, giving a crispy base.",
+    "indianKitchenAdaptation": "Steam in a South Indian idli steamer, a multi-tier dhokla steamer, or a pressure cooker with the weight removed and plates on a trivet. The maida wrapper dough is identical to gyoza wrapper dough — very familiar. Sesame seeds and all filling spices are available in every Indian grocery. Jhol achar is similar to a tomato-sesame chutney; if time is short, a blended tomato chutney with roasted cumin is a quick stand-in.",
+    "image": null,
+    "imageLicense": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-np-dal-bhat-tarkari",
+    "slug": "np-dal-bhat-tarkari",
+    "title": "Nepali Dal Bhat Tarkari",
+    "nativeTitle": "दाल भात तरकारी",
+    "description": "Nepal's national meal — a complete, nourishing plate of soft toor dal, steamed rice, and a dry potato-and-spinach vegetable curry. Dal bhat is eaten twice a day by most Nepalis and is considered so complete and sustaining that the Nepali saying goes: dal bhat power, 24 hour.",
+    "cuisine": "nepali",
+    "country": "nepal",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 40,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "toor dal (pigeon pea lentils)",
+        "normalizedName": "toor-dal",
+        "quantity": 0.75,
+        "unit": "cup",
+        "optional": false,
+        "notes": "Rinse thoroughly until water runs clear."
+      },
+      {
+        "name": "rice, washed",
+        "normalizedName": "rice",
+        "quantity": 1.5,
+        "unit": "cup",
+        "optional": false,
+        "notes": "Any medium or short-grain rice works; Nepali households use local rice varieties."
+      },
+      {
+        "name": "potato, peeled and cubed",
+        "normalizedName": "potato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false,
+        "notes": "For the tarkari (vegetable curry)."
+      },
+      {
+        "name": "fresh spinach or mustard greens",
+        "normalizedName": "spinach",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false,
+        "notes": "For the tarkari; roughly chopped."
+      },
+      {
+        "name": "tomato, finely chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false,
+        "notes": "Used in both the dal and tarkari."
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false,
+        "notes": "One for the dal tempering, one for the tarkari."
+      },
+      {
+        "name": "garlic cloves, minced",
+        "normalizedName": "garlic",
+        "quantity": 5,
+        "unit": "clove",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "ginger, grated",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "inch",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.75,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "Divided between dal and tarkari."
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "Squeezed into the dal just before serving for brightness."
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pressure-cook the rinsed toor dal with ½ tsp turmeric, 2 cups water, and a pinch of salt for 3 whistles on medium flame. Open after the pressure releases naturally. The dal should be fully soft and porridge-like — mash it slightly with a ladle.",
+        "timerMinutes": 15,
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "While the dal cooks, start the rice: rinse the rice and cook in a separate saucepan with 3 cups water and a pinch of salt. Bring to a boil, reduce heat to very low, cover, and cook for 15 minutes. Turn off heat and rest covered for 5 minutes — do not open the lid during cooking.",
+        "timerMinutes": 20,
+        "method": "boiling"
+      },
+      {
+        "order": 3,
+        "text": "Make the dal tadka: heat 1.5 tbsp oil in a small frying pan. Add the cumin seeds and let them crackle. Add half the garlic and ginger, and stir for 30 seconds until fragrant. Add one chopped tomato and half the onion; cook for 3 minutes until the tomato softens. Pour this tempering into the cooked dal and stir. Add lemon juice (if using) and adjust salt.",
+        "timerMinutes": 5,
+        "method": "tempering"
+      },
+      {
+        "order": 4,
+        "text": "Make the tarkari: heat 1.5 tbsp oil in a kadai over medium heat. Add the remaining onion and fry for 4 minutes until softened. Add the remaining garlic, ginger, red chilli powder, coriander powder, remaining turmeric, and a splash of water; stir for 1 minute.",
+        "timerMinutes": 5,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Add the cubed potatoes and remaining chopped tomato to the tarkari. Stir to coat, add 3 tbsp water, cover, and cook on medium-low heat for 12 minutes until the potatoes are just tender. Add the spinach, stir until wilted — about 2 minutes. Sprinkle garam masala and adjust salt.",
+        "timerMinutes": 14,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Plate the meal: a large serving of rice in the centre of the plate, dal poured alongside or over, and tarkari to the side. Serve with achar (pickle) and papad if available. Dal bhat is meant to be refilled generously from the pot — a second serving is expected and welcomed.",
+        "timerMinutes": null
+      }
+    ],
+    "methods": [
+      "pressure-cooking",
+      "boiling",
+      "tempering",
+      "kadai-cooking",
+      "simmering"
+    ],
+    "cookware": [
+      "pressure-cooker",
+      "saucepan",
+      "kadai",
+      "frying-pan"
+    ],
+    "tags": [
+      "comfort-food",
+      "budget",
+      "healthy",
+      "one-pot-meal",
+      "lunchbox"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 420,
+      "protein": 15,
+      "carbs": 68,
+      "fat": 10,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "toor-dal",
+        "substitute": "Masoor dal (red lentils) cooks faster (2 whistles) and produces an equally thick, comforting dal."
+      },
+      {
+        "ingredient": "potato",
+        "substitute": "Cauliflower florets or cubed winter squash make an excellent seasonal tarkari substitute."
+      },
+      {
+        "ingredient": "spinach",
+        "substitute": "Fenugreek leaves (methi), mustard greens, or Swiss chard all work well in the tarkari."
+      }
+    ],
+    "culturalNote": "Dal bhat is not simply food in Nepal — it is a twice-daily ritual that anchors the rhythm of the day. Nepali porters and trekkers famously fuel multi-day Himalayan expeditions entirely on dal bhat, and the phrase 'dal bhat power, 24 hour' is a genuine Nepali expression of its sustaining qualities.",
+    "regionalVariation": "Hilly region versions use black dal (urad/lentil varieties with the husk on) and serve the tarkari quite dry. Terai versions from the southern plains are closer to North Indian dal and often use ghee in the tempering.",
+    "indianKitchenAdaptation": "This meal is almost entirely at home in an Indian kitchen — pressure cooker for dal, separate pot for rice, kadai for tarkari is a perfectly standard setup. The only distinguishing Nepali touch is timur (Szechuan pepper) in some versions, which can be approximated with extra black pepper and a small pinch of ground sichuan pepper from specialty stores. Serve with Indian-style mango or mixed pickle as the achar.",
+    "image": null,
+    "imageLicense": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-np-chicken-curry",
+    "slug": "np-chicken-curry",
+    "title": "Nepali Chicken Curry",
+    "nativeTitle": "कुखुराको मासु",
+    "description": "A warmly spiced, rustic Nepali chicken curry with a thick, lightly oily gravy built on caramelised onion, tomato, and an aromatic blend of coriander, cumin, and black pepper in place of the more complex masalas used further south. Simple, hearty, and completely satisfying.",
+    "cuisine": "nepali",
+    "country": "nepal",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 35,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken, curry cut with bone",
+        "normalizedName": "chicken",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false,
+        "notes": "Bone-in pieces are traditional; they enrich the gravy with body."
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "tomato, finely chopped",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "Adjust down to 1 tsp for a moderately hot curry."
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "A larger quantity than most Indian curries; this is characteristic of Nepali chicken."
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "timur or black pepper, coarsely ground",
+        "normalizedName": "black-pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "Timur (Szechuan/Sichuan pepper) is the authentic Nepali spice — it has a citrusy, numbing heat. Substitute with black pepper plus a tiny pinch of citrus zest."
+      },
+      {
+        "name": "garam masala",
+        "normalizedName": "garam-masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "Added at the end as a finishing touch."
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "Mustard oil is traditional in the hills but any neutral oil works."
+      },
+      {
+        "name": "fresh coriander leaves, to garnish",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": null
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false,
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat oil in a heavy-bottomed kadai or pot over medium-high heat. Add the cumin seeds and let them crackle for 20 seconds. Add the finely chopped onion and fry, stirring frequently, for 12 minutes until deep golden-brown and the volume has reduced by half.",
+        "timerMinutes": 13,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Add the ginger-garlic paste and stir vigorously for 2 minutes until the raw smell has gone and the paste has darkened slightly. Add the turmeric, red chilli powder, and coriander powder. Stir for 1 minute, adding a splash of water if the masala looks dry.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 3,
+        "text": "Add the finely chopped tomatoes. Cook on medium heat, mashing the tomato pieces down, for 5 minutes until the tomatoes have fully broken down, the masala has come together, and you can see oil beginning to separate around the edges. This is the signal the base is ready.",
+        "timerMinutes": 5
+      },
+      {
+        "order": 4,
+        "text": "Add the chicken pieces, increase heat to high, and stir to coat every piece in the masala. Fry for 6 minutes, turning occasionally, until the chicken has lightly browned on the outside and the raw pink colour has disappeared.",
+        "timerMinutes": 6,
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 5,
+        "text": "Add 200 ml water and the coarsely ground timur or black pepper. Stir, bring to a boil, then reduce heat to medium-low, cover, and simmer for 15 minutes until the chicken is cooked through and the gravy has thickened. Taste and adjust salt.",
+        "timerMinutes": 15,
+        "method": "simmering"
+      },
+      {
+        "order": 6,
+        "text": "Sprinkle garam masala, stir, and cook uncovered for 2 more minutes so the finishing spice blooms into the sauce. Garnish with fresh coriander leaves and serve hot with steamed rice or chapati.",
+        "timerMinutes": 2
+      }
+    ],
+    "methods": [
+      "sauteing",
+      "kadai-cooking",
+      "simmering"
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "kadai"
+    ],
+    "tags": [
+      "comfort-food",
+      "gravy",
+      "budget"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 295,
+      "protein": 28,
+      "carbs": 7,
+      "fat": 17,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "black-pepper",
+        "substitute": "A blend of ½ tsp Szechuan pepper (available at Chinese grocery stores) and ½ tsp black pepper comes closest to timur's citrusy, numbing quality."
+      },
+      {
+        "ingredient": "chicken",
+        "substitute": "600 g bone-in mutton pieces — increase simmering time to 35 minutes or pressure-cook for 5 whistles."
+      },
+      {
+        "ingredient": "coriander-seeds",
+        "substitute": "1 tbsp store-bought meat masala + 0.5 tbsp coriander powder if coriander powder alone is not available."
+      }
+    ],
+    "culturalNote": "Kukhura ko masu (chicken curry) is the celebratory meat dish of Nepal's hills — prepared at festivals, weddings, and when honouring guests. Unlike the elaborate spice blends of South Asian plains cooking, Nepali chicken curry relies on coriander, cumin, and timur to build its character, producing a cleaner, more direct flavour.",
+    "regionalVariation": "High-altitude Sherpa versions are cooked much drier with minimal water and heavy reliance on black pepper and ginger. The Newari community of Kathmandu adds a dry spice paste called 'sanyakhuna' for a distinctly earthy, fermented note.",
+    "indianKitchenAdaptation": "Cook identically to a North Indian chicken curry — kadai and pressure cooker both work. The main distinction is the absence of complex masalas; keep the spice list as written rather than adding garam masala early. Mustard oil (optional here) is sold across Indian markets and gives a more authentic hill-country aroma. Timur can be sourced online or from Himalayan food stores.",
+    "image": null,
+    "imageLicense": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-np-noodle-sadeko",
+    "slug": "np-noodle-sadeko",
+    "title": "Nepali Noodle Sadeko",
+    "nativeTitle": "नूडल्स सदेको",
+    "description": "A vibrant Nepali spiced noodle salad tossed in a punchy dressing of sesame oil, soy sauce, lime, and green chilli, then finished with roasted sesame seeds and crushed peanuts. Sadeko — meaning marinated or tossed — is Nepal's approach to the room-temperature spiced salad, and this noodle version is sold everywhere from street stalls to college canteens.",
+    "cuisine": "nepali",
+    "country": "nepal",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack",
+      "lunch"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "hot",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 10,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "noodles (wheat noodles or rice noodles)",
+        "normalizedName": "noodles",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false,
+        "notes": "Use flat or round wheat noodles for the most authentic texture. For a gluten-free version, use rice noodles and skip the soy sauce."
+      },
+      {
+        "name": "gingelly (sesame) oil",
+        "normalizedName": "gingelly-oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "Toss with noodles immediately after draining to prevent sticking and add a toasty aroma."
+      },
+      {
+        "name": "soy sauce",
+        "normalizedName": "soy-sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "lime or lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "Freshly squeezed; the bright sourness is essential."
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "Adjust to taste."
+      },
+      {
+        "name": "ginger, finely grated",
+        "normalizedName": "ginger",
+        "quantity": 0.5,
+        "unit": "inch",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "green chillies, finely sliced",
+        "normalizedName": "green-chilli",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false,
+        "notes": "Use less for a milder salad."
+      },
+      {
+        "name": "spring onions, thinly sliced (white and green parts)",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "fresh coriander leaves, roughly torn",
+        "normalizedName": "coriander-leaves",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "sesame seeds, lightly toasted",
+        "normalizedName": "sesame-seeds",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "Toast in a dry pan over medium heat until golden — do not walk away, they burn quickly."
+      },
+      {
+        "name": "roasted peanuts, coarsely crushed",
+        "normalizedName": "peanut",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "Adds crunch and a pleasant nuttiness; omit for a peanut-free version."
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false,
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Boil the noodles in a large pot of salted water according to the packet instructions — usually 3–5 minutes for wheat noodles. Drain immediately and rinse under cold running water to stop the cooking and prevent clumping. Toss with the sesame oil while still warm.",
+        "timerMinutes": 5,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "Toast the sesame seeds in a dry frying pan over medium heat, stirring constantly, for 2 minutes until golden and fragrant. Tip onto a plate to cool — they will continue to toast from residual heat if left in the pan.",
+        "timerMinutes": 2,
+        "method": "roasting"
+      },
+      {
+        "order": 3,
+        "text": "In a large mixing bowl, whisk together the soy sauce, lemon juice, red chilli powder, and grated ginger. Taste the dressing — it should be sour, salty, and hot. Adjust any of these three elements before adding the noodles.",
+        "timerMinutes": null
+      },
+      {
+        "order": 4,
+        "text": "Add the cooled, sesame-oiled noodles to the dressing bowl. Add the sliced spring onion, green chillies, and fresh coriander. Using tongs or two forks, toss everything together thoroughly until the noodles are evenly coated in the dark, fragrant dressing.",
+        "timerMinutes": null,
+        "method": "no-cook"
+      },
+      {
+        "order": 5,
+        "text": "Taste and adjust salt, sourness, or chilli. Let the salad rest for 3 minutes so the noodles absorb the dressing. Scatter the toasted sesame seeds and crushed peanuts (if using) over the top and serve immediately at room temperature.",
+        "timerMinutes": 3
+      }
+    ],
+    "methods": [
+      "boiling",
+      "roasting",
+      "no-cook"
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "frying-pan"
+    ],
+    "tags": [
+      "street-food",
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "salad"
+    ],
+    "allergens": [
+      "gluten",
+      "sesame",
+      "soy",
+      "peanuts"
+    ],
+    "nutrition": {
+      "calories": 245,
+      "protein": 7,
+      "carbs": 36,
+      "fat": 9,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "noodles",
+        "substitute": "Rice vermicelli (cooked per packet) for a gluten-free version — reduce the soy sauce and add ½ tsp extra lemon juice."
+      },
+      {
+        "ingredient": "soy-sauce",
+        "substitute": "1 tsp dark tamarind water plus a pinch of salt provides a similar sour-salty flavour without soy or gluten."
+      },
+      {
+        "ingredient": "gingelly-oil",
+        "substitute": "1 tsp toasted coconut oil gives a different but pleasant aroma; plain oil is a neutral fallback."
+      }
+    ],
+    "culturalNote": "Sadeko is a distinctly Nepali cooking concept — the act of marinating room-temperature food in spices and acid to create a bold, ready-to-eat dish without heat. Noodle sadeko became popular as instant noodle culture took hold in Nepal, with street vendors adding their own spiced twist to humble packet noodles.",
+    "regionalVariation": "Kathmandu versions sometimes add finely sliced raw onion in place of spring onion. Mountain trail versions use whatever vegetables are available — boiled potato cubes, julienned cucumber, or sprouted beans are common additions.",
+    "indianKitchenAdaptation": "Use any hakka noodles, Maggi-style noodles (cooked plain without the masala sachet), or rice vermicelli available in Indian grocery stores. Sesame oil (nallennai) is sold at South Indian grocery stores and online. The tossed salad technique is identical to a chaat — think of it as a spiced noodle chaat. Ready-made roasted peanuts in shells work; just break and use.",
+    "image": null,
+    "imageLicense": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-af-kabuli-pulao",
+    "slug": "af-kabuli-pulao",
+    "title": "Kabuli Pulao",
+    "nativeTitle": "کابلی پلاو",
+    "description": "Afghanistan's magnificent national dish — tender braised lamb buried under fragrant long-grain rice studded with sweet caramelised carrot ribbons and plump raisins, topped with toasted almonds. Kabuli pulao is a triumph of layered cooking: each component prepared with care, then united in a single pot for a final dum steam that makes the whole greater than the sum of its parts.",
+    "cuisine": "afghan",
+    "country": "afghanistan",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "hard",
+    "spiceLevel": "mild",
+    "budgetLevel": "premium",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 90,
+    "totalTimeMinutes": 120,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "basmati rice, soaked for 30 minutes and drained",
+        "normalizedName": "basmati-rice",
+        "quantity": 2,
+        "unit": "cup",
+        "optional": false,
+        "notes": "Soaking is important — it reduces cooking time and helps the grains stay long and separate."
+      },
+      {
+        "name": "bone-in lamb or mutton pieces",
+        "normalizedName": "mutton",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false,
+        "notes": "Shoulder pieces give the most flavourful meat and broth."
+      },
+      {
+        "name": "onion, sliced",
+        "normalizedName": "onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "carrot, peeled and cut into thin matchsticks",
+        "normalizedName": "carrot",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false,
+        "notes": "Julienne to about 4 cm length; they soften and caramelise into sweet amber ribbons."
+      },
+      {
+        "name": "raisins",
+        "normalizedName": "raisin",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "Rinse and soak in warm water for 10 minutes to plump them before using."
+      },
+      {
+        "name": "blanched almonds or almond flakes",
+        "normalizedName": "almond",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "Toasted until golden before scattering over the finished pulao."
+      },
+      {
+        "name": "green cardamom pods, bruised",
+        "normalizedName": "cardamom",
+        "quantity": 5,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "cinnamon stick",
+        "normalizedName": "cinnamon",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false,
+        "notes": "One 3-inch stick."
+      },
+      {
+        "name": "cloves",
+        "normalizedName": "clove",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "black pepper, coarsely ground",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "Used to caramelise the carrots and raisins; a small amount deepens their sweetness."
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 5,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "Use a neutral oil; ghee can replace 2 tbsp of oil for extra richness."
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false,
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat 3 tbsp oil in a large, heavy-bottomed pot over high heat. Add the mutton pieces in a single layer and brown on all sides for 8–10 minutes without moving them too early. Remove and set aside. In the same oil, fry the sliced onion until deeply golden — about 12 minutes.",
+        "timerMinutes": 22,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Return the browned mutton to the pot with the fried onion. Add cardamom, cinnamon stick, cloves, black pepper, cumin, and 1 tsp salt. Pour in 800 ml water, bring to a boil, then cover and simmer on low heat for 45 minutes until the lamb is tender. Taste the broth — it should be flavourful and well-seasoned, as it will cook the rice. Remove the lamb with a slotted spoon; strain and reserve the broth (you need about 600 ml).",
+        "timerMinutes": 50,
+        "method": "braising"
+      },
+      {
+        "order": 3,
+        "text": "In a separate frying pan, heat 2 tbsp oil over medium heat. Add the carrot matchsticks and stir-fry for 3 minutes. Add the drained, soaked raisins and the sugar. Cook, stirring, for 5 more minutes until the carrots are tender and caramelised to a golden-orange, and the raisins have plumped and glistened. Set aside. In the same pan, toast the almonds (if using) until golden — about 2 minutes.",
+        "timerMinutes": 10,
+        "method": "stir-frying"
+      },
+      {
+        "order": 4,
+        "text": "Return the reserved broth to the large pot and bring to a boil. Add the drained soaked rice and 1 tsp salt. Boil uncovered on high heat, stirring once, until the rice has absorbed most of the broth and small craters appear on the surface — about 8 minutes. The rice should be about 80% cooked at this stage.",
+        "timerMinutes": 8,
+        "method": "boiling"
+      },
+      {
+        "order": 5,
+        "text": "Arrange the braised lamb pieces on top of the half-cooked rice. Spread the caramelised carrots and raisins over the lamb and rice. Cover the pot tightly with a lid sealed with a damp cloth or foil to trap all steam. Cook on the lowest possible flame for 25 minutes — this is the dum stage, where the steam perfumes the whole pot and finishes the rice.",
+        "timerMinutes": 25,
+        "method": "dum"
+      },
+      {
+        "order": 6,
+        "text": "Turn off the heat and let the pot rest, still covered, for 10 minutes. Open, scatter the toasted almonds, and gently lift the lamb and carrot layers off the rice with a wide spatula — do not mix. Serve the rice first on a large platter, with the lamb pieces arranged on top and the carrot-raisin-almond garnish mounded over everything.",
+        "timerMinutes": 10
+      }
+    ],
+    "methods": [
+      "sauteing",
+      "braising",
+      "stir-frying",
+      "boiling",
+      "dum"
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "frying-pan"
+    ],
+    "tags": [
+      "festival",
+      "eid",
+      "party",
+      "comfort-food"
+    ],
+    "allergens": [
+      "nuts"
+    ],
+    "nutrition": {
+      "calories": 520,
+      "protein": 32,
+      "carbs": 58,
+      "fat": 17,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "mutton",
+        "substitute": "600 g bone-in chicken pieces — reduce the braising time to 25 minutes in step 2."
+      },
+      {
+        "ingredient": "almond",
+        "substitute": "Toasted cashew halves or pistachio slivers work equally well as a garnish; pistachios give a striking green colour."
+      },
+      {
+        "ingredient": "raisin",
+        "substitute": "Barberries (zereshk) if available at Persian grocery stores — their sharp flavour is more traditional than raisins in some Afghan households."
+      }
+    ],
+    "culturalNote": "Kabuli pulao is named after Kabul, Afghanistan's capital, and is considered the national dish of the country. It is the food of celebration — prepared for weddings, Eid feasts, and the arrival of honoured guests. A skilled cook's reputation rests on the quality of their pulao, and families guard their specific techniques closely.",
+    "regionalVariation": "Northern Afghan pulao uses a small amount of dried dill (shivid) in the rice stage. Herat-style pulao has a more pronounced saffron note. Nomadic southern versions omit the carrot topping and focus purely on the lamb-rice combination with a simple cumin-pepper broth.",
+    "indianKitchenAdaptation": "Cook in a heavy-bottomed degchi or a thick-bottomed kadai. The braising stage can be done in a pressure cooker (3 whistles on medium) to reduce time by 30 minutes — just ensure there is enough broth remaining after pressure cooking for the rice stage. Basmati rice is a pantry staple. The dum technique is identical to biryani-making; seal the pot with atta dough for a tighter seal if needed. Raisins (kishmish) and almonds (badam) are available in every Indian grocery.",
+    "image": null,
+    "imageLicense": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-af-borani-banjan",
+    "slug": "af-borani-banjan",
+    "title": "Borani Banjan",
+    "nativeTitle": "بورانی بادنجان",
+    "description": "Afghanistan's beloved aubergine dish — golden-fried brinjal rounds layered with a spiced tomato sauce and finished with a cool, garlicky yogurt poured over the top. The interplay of warm, smoky aubergine, tangy tomato, and chilled yogurt makes borani banjan a dish of arresting contrasts.",
+    "cuisine": "afghan",
+    "country": "afghanistan",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "brinjal (aubergine), sliced into 1 cm rounds",
+        "normalizedName": "brinjal",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false,
+        "notes": "Salt the rounds and leave 10 minutes before frying to draw out moisture — this is especially important for large, water-heavy brinjals."
+      },
+      {
+        "name": "thick plain curd (yogurt)",
+        "normalizedName": "curd",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false,
+        "notes": "Use full-fat, thick yogurt; whisk smooth. Hung curd or Greek-style yogurt works best as a topping."
+      },
+      {
+        "name": "tomatoes, roughly chopped",
+        "normalizedName": "tomato",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "garlic cloves (3 for tomato sauce, 2 crushed into yogurt)",
+        "normalizedName": "garlic",
+        "quantity": 5,
+        "unit": "clove",
+        "optional": false,
+        "notes": "Mash the 2 garlic cloves for yogurt very finely or grate them on a Microplane for a smooth, pungent garlic yogurt."
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": null
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "A small amount added to the tomato sauce rounds the flavour."
+      },
+      {
+        "name": "fresh mint leaves, for garnish",
+        "normalizedName": "mint",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "Dried mint can be used if fresh is unavailable; rub between fingers before scattering to activate the aroma."
+      },
+      {
+        "name": "fresh coriander leaves, for garnish",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": null
+      },
+      {
+        "name": "cooking oil",
+        "normalizedName": "oil",
+        "quantity": 5,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "Divided between frying the brinjal and making the tomato sauce."
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false,
+        "notes": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Sprinkle the brinjal rounds with salt on both sides and spread on a tray. Leave for 10 minutes — the salt will draw moisture to the surface, which you then pat dry with a cloth. Drying the surface is what allows the brinjal to fry rather than steam.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Heat 4 tbsp oil in a wide frying pan over medium-high heat. Add the brinjal rounds in a single layer — do not crowd the pan. Fry for 3–4 minutes per side until deep golden-brown and cooked through. Work in batches if needed. Drain on paper towels and season lightly with salt.",
+        "timerMinutes": 12,
+        "method": "shallow-frying"
+      },
+      {
+        "order": 3,
+        "text": "In the same pan (wipe it clean and add 1 tbsp fresh oil), cook the cumin seeds (if using) and 3 minced garlic cloves over medium heat for 30 seconds. Add the chopped tomatoes, turmeric, red chilli powder, and a pinch of salt. Cook for 8–10 minutes, stirring occasionally, until the tomatoes have completely broken down and the sauce is thick, dark, and oily.",
+        "timerMinutes": 10,
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "Prepare the garlic yogurt: whisk the curd smooth in a bowl. Add the 2 crushed garlic cloves and a good pinch of salt. Mix well and taste — the yogurt should be cool, creamy, and pungently garlicky. Chill in the refrigerator while you assemble the dish.",
+        "timerMinutes": null
+      },
+      {
+        "order": 5,
+        "text": "Spread the garlic yogurt in an even layer on a wide, shallow serving plate or platter. Arrange the fried brinjal rounds on top in a single overlapping layer. Spoon the tomato sauce over the brinjal — you want some yogurt visible around the edges and the sauce centred on the brinjal.",
+        "timerMinutes": null
+      },
+      {
+        "order": 6,
+        "text": "Scatter fresh mint leaves and coriander (if using) over the top and serve immediately. Borani banjan is eaten at room temperature — the contrast between the warm sauce and the cool yogurt is an intentional feature of the dish. Serve with Afghan naan or bread for scooping.",
+        "timerMinutes": null
+      }
+    ],
+    "methods": [
+      "shallow-frying",
+      "simmering",
+      "sauteing"
+    ],
+    "cookware": [
+      "frying-pan",
+      "kadai"
+    ],
+    "tags": [
+      "budget",
+      "healthy",
+      "comfort-food",
+      "low-oil"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 195,
+      "protein": 6,
+      "carbs": 14,
+      "fat": 13,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "curd",
+        "substitute": "Thick coconut yogurt for a dairy-free version — the tangy cooling effect is preserved and the dish becomes vegan."
+      },
+      {
+        "ingredient": "brinjal",
+        "substitute": "Courgette (zucchini) rounds fried the same way give a milder, slightly sweeter variation — reduce frying time to 2 minutes per side."
+      },
+      {
+        "ingredient": "mint",
+        "substitute": "Dried mint rubbed between the palms provides the same aroma at a fraction of the cost — use 1 tsp."
+      }
+    ],
+    "culturalNote": "Borani banjan appears at Afghan family meals and celebrations alike. The 'borani' refers to a class of Persian and Central Asian yogurt-dressed dishes that date back to medieval Islamic cuisine. The dish is a perfect expression of Afghan cooking: simple ingredients treated with patience and a clear understanding of contrast.",
+    "regionalVariation": "Some Kabul homes add a small amount of tomato paste for a deeper red colour in the sauce. Herat-style borani banjan includes a layer of lightly fried onion between the brinjal and the yogurt, adding sweetness and texture.",
+    "indianKitchenAdaptation": "Cook identically to South Indian brinjal fry or baingan bharta preparation stages — the shallow-frying technique is exactly the same. Thick hung curd (chakka dahi) available at Indian dairy stores is the closest to Afghan-style thick yogurt. Fresh mint (pudina) is readily available in Indian markets. The tomato sauce is essentially a simple tomato masala — familiar to any Indian home cook. Serve with plain naan or tandoori roti.",
+    "image": null,
+    "imageLicense": null,
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  }
+]

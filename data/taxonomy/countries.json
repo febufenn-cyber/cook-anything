@@ -1,0 +1,226 @@
+[
+  {
+    "slug": "india",
+    "name": "India",
+    "continent": "Asia",
+    "blurb": "India is one of the world's most culinarily diverse nations, with each state and community offering a distinct tradition shaped by history, climate, religion, and geography spanning thousands of years.",
+    "cuisines": ["tamil", "chettinad", "kerala", "andhra", "telangana", "hyderabadi", "karnataka", "north-indian", "punjabi", "mughlai", "gujarati", "rajasthani", "maharashtrian", "goan", "bengali", "kashmiri", "indo-chinese"]
+  },
+  {
+    "slug": "pakistan",
+    "name": "Pakistan",
+    "continent": "Asia",
+    "blurb": "Pakistan's cuisine is hearty and aromatic, shaped by the Indus Valley's agricultural heritage and Mughal court traditions that still define its slow-cooked meats, rich gravies, and wheat-based breads.",
+    "cuisines": ["pakistani"]
+  },
+  {
+    "slug": "sri-lanka",
+    "name": "Sri Lanka",
+    "continent": "Asia",
+    "blurb": "Sri Lanka's cuisine is a tropical feast of coconut-laced curries, hoppers, and fiery sambols that carry the layered influence of Sinhalese, Tamil, Arab, and Portuguese culinary histories.",
+    "cuisines": ["sri-lankan"]
+  },
+  {
+    "slug": "bangladesh",
+    "name": "Bangladesh",
+    "continent": "Asia",
+    "blurb": "Bangladesh's cuisine centers on the rivers and delta that define the landscape, celebrating freshwater fish, fragrant rice, and mustard-spiced preparations that run deep in the Bengali culinary tradition.",
+    "cuisines": ["bangladeshi"]
+  },
+  {
+    "slug": "nepal",
+    "name": "Nepal",
+    "continent": "Asia",
+    "blurb": "Nepal's cuisine reflects Himalayan terrain and cultural crossroads, balancing Tibetan-influenced dumplings with South Asian lentil-and-rice traditions and warming spiced preparations suited to high altitudes.",
+    "cuisines": ["nepali"]
+  },
+  {
+    "slug": "afghanistan",
+    "name": "Afghanistan",
+    "continent": "Asia",
+    "blurb": "Afghanistan's cuisine is a Silk Road tapestry, celebrated for fragrant rice pilafs, slow-cooked lamb, and freshly baked flatbreads infused with the dried fruits and nuts of Central Asian trade routes.",
+    "cuisines": ["afghan"]
+  },
+  {
+    "slug": "china",
+    "name": "China",
+    "continent": "Asia",
+    "blurb": "China's culinary landscape is extraordinarily diverse across its vast regions, uniting thousands of years of cooking tradition in a cuisine that ranges from fiery Sichuan to delicate Cantonese and everything between.",
+    "cuisines": ["chinese"]
+  },
+  {
+    "slug": "south-korea",
+    "name": "South Korea",
+    "continent": "Asia",
+    "blurb": "South Korea's cuisine is built on the art of fermentation—kimchi, gochujang, and doenjang—paired with communal grilling, warming stews, and a vibrant street food culture beloved worldwide.",
+    "cuisines": ["korean"]
+  },
+  {
+    "slug": "japan",
+    "name": "Japan",
+    "continent": "Asia",
+    "blurb": "Japan's cuisine is defined by precision, seasonality, and the pursuit of umami, expressed in everything from sushi and sashimi to ramen, tempura, and the elaborate multicourse kaiseki.",
+    "cuisines": ["japanese"]
+  },
+  {
+    "slug": "thailand",
+    "name": "Thailand",
+    "continent": "Asia",
+    "blurb": "Thailand's cuisine achieves a masterful balance of sweet, sour, salty, and spicy flavors, with fragrant coconut curries, zesty salads, and stir-fried noodles at the heart of its vibrant food culture.",
+    "cuisines": ["thai"]
+  },
+  {
+    "slug": "vietnam",
+    "name": "Vietnam",
+    "continent": "Asia",
+    "blurb": "Vietnam's cuisine emphasizes freshness and contrast, pairing aromatic broths and herb-laden salads with fermented condiments and French-influenced baked goods that speak to its layered colonial history.",
+    "cuisines": ["vietnamese"]
+  },
+  {
+    "slug": "indonesia",
+    "name": "Indonesia",
+    "continent": "Asia",
+    "blurb": "Indonesia's culinary tradition spans an archipelago of over 17,000 islands, producing an astonishing variety of sambal-spiced dishes, coconut curries, and street foods from the original spice islands of the world.",
+    "cuisines": ["indonesian"]
+  },
+  {
+    "slug": "malaysia",
+    "name": "Malaysia",
+    "continent": "Asia",
+    "blurb": "Malaysia's cuisine is a delicious convergence of Malay, Chinese, and Indian culinary traditions, celebrated for its hawker culture and iconic dishes like nasi lemak, laksa, and satay.",
+    "cuisines": ["malaysian"]
+  },
+  {
+    "slug": "philippines",
+    "name": "Philippines",
+    "continent": "Asia",
+    "blurb": "The Philippines' cuisine is defined by vinegar-based marinades, soy sauce, and the adobo braising technique, with a Spanish-Malay-Chinese fusion heritage that makes it one of Southeast Asia's most distinctive food cultures.",
+    "cuisines": ["filipino"]
+  },
+  {
+    "slug": "italy",
+    "name": "Italy",
+    "continent": "Europe",
+    "blurb": "Italy's cuisine is a collection of fiercely regional traditions united by fresh pasta, sun-ripened tomatoes, fine olive oil, and a philosophy of letting outstanding local ingredients speak for themselves.",
+    "cuisines": ["italian"]
+  },
+  {
+    "slug": "france",
+    "name": "France",
+    "continent": "Europe",
+    "blurb": "France is the birthplace of Western classical cuisine, renowned for its meticulous technique, extraordinary dairy and wine culture, and a cooking tradition that has shaped the global culinary landscape.",
+    "cuisines": ["french"]
+  },
+  {
+    "slug": "spain",
+    "name": "Spain",
+    "continent": "Europe",
+    "blurb": "Spain's cuisine ranges from the rice dishes and seafood of the Mediterranean coast to the roast meats of Castile and the tapas culture of Andalusia, united by extraordinary olive oil and vibrant local produce.",
+    "cuisines": ["spanish"]
+  },
+  {
+    "slug": "greece",
+    "name": "Greece",
+    "continent": "Europe",
+    "blurb": "Greece's cuisine is one of the Mediterranean's oldest, grounded in olive oil, fresh herbs, lamb, and sun-ripened produce alongside a legacy of cheese-making and meze culture that stretches back millennia.",
+    "cuisines": ["greek"]
+  },
+  {
+    "slug": "united-kingdom",
+    "name": "United Kingdom",
+    "continent": "Europe",
+    "blurb": "The United Kingdom's food culture has been transformed by waves of immigration from South Asia, the Caribbean, and beyond, sitting alongside enduring British classics built on root vegetables, quality dairy, and fine cured meats.",
+    "cuisines": ["british"]
+  },
+  {
+    "slug": "turkey",
+    "name": "Turkey",
+    "continent": "Asia",
+    "blurb": "Turkey's cuisine is the heir to the Ottoman Empire's vast culinary legacy, combining Central Asian traditions with Mediterranean flavors to produce extraordinary kebabs, mezes, flatbreads, and syrup-soaked pastries.",
+    "cuisines": ["turkish"]
+  },
+  {
+    "slug": "lebanon",
+    "name": "Lebanon",
+    "continent": "Asia",
+    "blurb": "Lebanon's cuisine is one of the Levant's finest, celebrated worldwide for its vibrant meze culture of fresh salads, legume dips, grilled meats, and flatbreads dressed with the finest Lebanese olive oil.",
+    "cuisines": ["lebanese"]
+  },
+  {
+    "slug": "iran",
+    "name": "Iran",
+    "continent": "Asia",
+    "blurb": "Iran's Persian cuisine is one of the world's great culinary traditions, known for saffron-laced rice dishes, herb-filled stews, slow-braised meats with dried fruits, and an extraordinary variety of flatbreads.",
+    "cuisines": ["persian"]
+  },
+  {
+    "slug": "morocco",
+    "name": "Morocco",
+    "continent": "Africa",
+    "blurb": "Morocco's cuisine is a fragrant blend of Berber, Arab, Moorish, and Andalusian influences, celebrated for its tagines, couscous, and preserved lemon preparations spiced with the intricate ras el hanout blend.",
+    "cuisines": ["moroccan"]
+  },
+  {
+    "slug": "ethiopia",
+    "name": "Ethiopia",
+    "continent": "Africa",
+    "blurb": "Ethiopia's cuisine is one of Africa's most distinctive, centered on injera flatbread and the rich stews that accompany it, with a vibrant vegetarian tradition rooted in centuries of religious fasting practices.",
+    "cuisines": ["ethiopian"]
+  },
+  {
+    "slug": "nigeria",
+    "name": "Nigeria",
+    "continent": "Africa",
+    "blurb": "Nigeria is West Africa's most populous nation and a powerhouse of culinary creativity, with jollof rice, palm-oil stews, egusi soup, and suya spice defining a food culture as diverse as its many ethnic communities.",
+    "cuisines": []
+  },
+  {
+    "slug": "senegal",
+    "name": "Senegal",
+    "continent": "Africa",
+    "blurb": "Senegal's cuisine is West Africa's most internationally celebrated, anchored by thiéboudienne fish-and-rice and yassa onion-lemon chicken, shaped by the Atlantic coast, Sahel trade routes, and French influence.",
+    "cuisines": []
+  },
+  {
+    "slug": "egypt",
+    "name": "Egypt",
+    "continent": "Africa",
+    "blurb": "Egypt's cuisine carries thousands of years of culinary heritage, centered on nourishing staples like ful medames, koshari, and molokhiya soup that reflect one of humanity's oldest civilizations along the Nile.",
+    "cuisines": ["egyptian"]
+  },
+  {
+    "slug": "mexico",
+    "name": "Mexico",
+    "continent": "North America",
+    "blurb": "Mexico's UNESCO-recognized cuisine is one of the world's most complex culinary traditions, weaving together thousands of years of indigenous Mesoamerican foodways with Spanish colonial influence into an extraordinary living heritage.",
+    "cuisines": ["mexican"]
+  },
+  {
+    "slug": "united-states",
+    "name": "United States",
+    "continent": "North America",
+    "blurb": "The United States' food culture is a constantly evolving mosaic of immigrant traditions and regional specialties, from Southern barbecue and Creole kitchens of New Orleans to New England seafood and California farm-to-table cuisine.",
+    "cuisines": ["american"]
+  },
+  {
+    "slug": "brazil",
+    "name": "Brazil",
+    "continent": "South America",
+    "blurb": "Brazil's cuisine reflects its vast size and extraordinary biodiversity, from the Afro-Brazilian stews of Bahia and the churrasco culture of the South to Amazonian ingredients and the national comfort of feijoada.",
+    "cuisines": ["brazilian"]
+  },
+  {
+    "slug": "peru",
+    "name": "Peru",
+    "continent": "South America",
+    "blurb": "Peru has emerged as one of the world's most exciting food destinations, building its culinary identity on thousands of native potato varieties, Andean grains, and the ceviche tradition of the Pacific coast.",
+    "cuisines": ["peruvian"]
+  },
+  {
+    "slug": "jamaica",
+    "name": "Jamaica",
+    "continent": "North America",
+    "blurb": "Jamaica's cuisine is vibrant and aromatic, known worldwide for jerk seasoning, rice and peas, ackee and saltfish, and the island's remarkable ability to blend African, British, and local indigenous flavors into something wholly its own.",
+    "cuisines": ["caribbean"]
+  }
+]

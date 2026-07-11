@@ -1,0 +1,3494 @@
+[
+  {
+    "id": "ca-me-shakshuka",
+    "slug": "me-shakshuka",
+    "title": "Shakshuka (Eggs Poached in Spiced Tomato Sauce)",
+    "nativeTitle": "شكشوكة",
+    "description": "A beloved North African and Middle Eastern one-pan breakfast where eggs are gently poached in a bubbling, spiced tomato and capsicum sauce. Bold, warming and ready in under 30 minutes.",
+    "cuisine": "middle-eastern",
+    "country": "egypt",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 30,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "eggs",
+        "normalizedName": "egg",
+        "quantity": 5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ripe tomatoes, roughly chopped",
+        "normalizedName": "tomato",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false,
+        "notes": "or 1 can of crushed tomatoes"
+      },
+      {
+        "name": "red or green capsicum, diced",
+        "normalizedName": "capsicum",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "onion, finely chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, minced",
+        "normalizedName": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "fresh coriander leaves, chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat oil in a wide, heavy-bottomed frying pan or kadai on medium flame. Add the onion and cook, stirring, for 5–6 minutes until soft and lightly golden.",
+        "timerMinutes": 6,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Add the garlic and diced capsicum. Stir-fry for 3 minutes until the capsicum softens slightly and the garlic is fragrant but not brown.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 3,
+        "text": "Add the red chilli powder, cumin, coriander powder and turmeric. Stir for 30 seconds on a lower flame to bloom the spices without burning them.",
+        "method": "kadai-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Tip in the chopped tomatoes with salt and turn the flame to medium-high. Cook, breaking the tomatoes with the back of a spoon, for 8–10 minutes until the sauce thickens and oil begins to separate at the edges.",
+        "timerMinutes": 10,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Use a spoon to make 5 small wells in the sauce. Crack an egg into each well. Cover the pan with a lid and cook on low flame for 5–7 minutes — whites should be just set while the yolks remain a little runny.",
+        "timerMinutes": 7
+      },
+      {
+        "order": 6,
+        "text": "Scatter fresh coriander over the top and serve immediately straight from the pan, with bread or pita for scooping."
+      }
+    ],
+    "cookware": [
+      "frying-pan",
+      "kadai"
+    ],
+    "methods": [
+      "sauteing",
+      "simmering",
+      "one-pot"
+    ],
+    "tags": [
+      "quick",
+      "under-30-minutes",
+      "comfort-food",
+      "budget",
+      "one-pot-meal"
+    ],
+    "allergens": [
+      "egg"
+    ],
+    "nutrition": {
+      "calories": 190,
+      "protein": 12,
+      "carbs": 12,
+      "fat": 11,
+      "fiber": 3,
+      "sugar": 6,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "capsicum",
+        "substitute": "1 medium carrot or zucchini, diced",
+        "notes": "adds different texture but works well"
+      },
+      {
+        "ingredient": "tomato",
+        "substitute": "400 ml passata or one 400 g can crushed tomatoes",
+        "notes": "skip chopping and add directly"
+      },
+      {
+        "ingredient": "cumin",
+        "substitute": "half the quantity of garam masala",
+        "notes": "changes flavour profile slightly but still delicious"
+      }
+    ],
+    "culturalNote": "Shakshuka is eaten from the Maghreb to the Levant and Israel, most often as a hearty communal breakfast served straight from the pan.",
+    "regionalVariation": "Libyan versions add spicy merguez sausage; Israeli-style shakshuka is often milder and may include a dollop of labneh on top.",
+    "indianKitchenAdaptation": "Cook entirely in a kadai on a gas hob — no oven needed. Tomatoes and capsicum are available at every Indian market. Use desi ghee instead of olive oil for a richer taste. Serve with toasted bread, pav or paratha.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-me-hummus",
+    "slug": "me-hummus",
+    "title": "Classic Hummus",
+    "nativeTitle": "حُمُّص",
+    "description": "Silky-smooth chickpea dip blended with tahini, lemon and garlic — the cornerstone of any Middle Eastern spread. A few simple techniques lift home hummus to restaurant quality.",
+    "cuisine": "lebanese",
+    "country": "lebanon",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack",
+      "side"
+    ],
+    "dietType": [
+      "vegan",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 0,
+    "totalTimeMinutes": 10,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "cooked or canned chickpeas",
+        "normalizedName": "chickpea",
+        "quantity": 400,
+        "unit": "g",
+        "optional": false,
+        "notes": "reserve the cooking liquid"
+      },
+      {
+        "name": "tahini (sesame paste)",
+        "normalizedName": "tahini",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "garlic clove",
+        "normalizedName": "garlic",
+        "quantity": 1,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "olive oil, for drizzling",
+        "normalizedName": "olive-oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "red chilli powder or paprika, for garnish",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": true
+      },
+      {
+        "name": "water or chickpea cooking liquid",
+        "normalizedName": "water",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "adjust for desired consistency"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "If using dried chickpeas, soak overnight and pressure-cook for 4–5 whistles until very soft; drain and reserve the liquid. Canned chickpeas can be drained but save a few tablespoons of the liquid.",
+        "method": "pressure-cooking"
+      },
+      {
+        "order": 2,
+        "text": "Place the chickpeas, tahini, lemon juice, garlic and cumin in a blender or food processor. Add a pinch of salt and 3 tablespoons of the reserved liquid.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Blend for 3–4 minutes, scraping down the sides once, until the hummus is completely smooth and pale — longer blending gives a creamier result. Taste and adjust salt and lemon.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 4,
+        "text": "Spread into a shallow bowl with the back of a spoon, making a swirl. Drizzle olive oil over the top, dust with chilli powder or paprika, and serve with pita, bread or vegetables."
+      }
+    ],
+    "cookware": [
+      "blender",
+      "pressure-cooker"
+    ],
+    "methods": [
+      "no-cook",
+      "pressure-cooking"
+    ],
+    "tags": [
+      "healthy",
+      "budget",
+      "low-oil",
+      "party",
+      "kids-friendly",
+      "lunchbox"
+    ],
+    "allergens": [
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 150,
+      "protein": 7,
+      "carbs": 16,
+      "fat": 7,
+      "fiber": 5,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "tahini",
+        "substitute": "2 tbsp roasted peanut butter or sesame seeds blended with oil",
+        "notes": "tahini is available at supermarkets and Middle Eastern grocers in India"
+      },
+      {
+        "ingredient": "chickpea",
+        "substitute": "400 g white kidney beans (lobia) for a milder dip",
+        "notes": "same process"
+      },
+      {
+        "ingredient": "lemon",
+        "substitute": "2 tbsp white vinegar",
+        "notes": "use half the quantity and adjust to taste"
+      }
+    ],
+    "culturalNote": "Hummus bi tahini has been eaten across the Levant for centuries and is central to the concept of mezze — the communal sharing of small dishes before a meal.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": "Chickpeas (kabuli chana) are easy to find in every Indian grocery. Use a domestic mixie for blending — blend in short bursts to prevent motor overheating. Sesame paste (til paste) is a workable substitute for tahini if needed.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-me-falafel",
+    "slug": "me-falafel",
+    "title": "Falafel (Crispy Chickpea Fritters)",
+    "nativeTitle": "فلافل",
+    "description": "Golden, herb-packed fritters made from soaked raw chickpeas — the street-food staple of the Middle East with a crunchy shell and a vivid green, fluffy interior. Serve stuffed in pita or with hummus.",
+    "cuisine": "lebanese",
+    "country": "lebanon",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "snack",
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "dried chickpeas, soaked overnight",
+        "normalizedName": "chickpea",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false,
+        "notes": "do NOT use canned — raw soaked only"
+      },
+      {
+        "name": "onion, roughly chopped",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "fresh coriander leaves and stems",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "fresh parsley",
+        "normalizedName": "parsley",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "green chilli",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "baking soda",
+        "normalizedName": "baking-soda",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "sesame seeds",
+        "normalizedName": "sesame-seeds",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "oil for deep-frying",
+        "normalizedName": "oil",
+        "quantity": 400,
+        "unit": "ml",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Drain the soaked chickpeas well and spread on a cloth to remove excess moisture. They should be softened but still raw — do not cook them."
+      },
+      {
+        "order": 2,
+        "text": "Combine the chickpeas, onion, garlic, coriander, parsley and green chilli in a food processor or mixie. Pulse — do not blend — until the mixture resembles coarse breadcrumbs that just hold together when pressed. Avoid over-processing to a paste.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Transfer to a bowl. Mix in the cumin, coriander powder, baking soda, sesame seeds and salt. Refrigerate for 20 minutes — this helps the falafel hold their shape.",
+        "timerMinutes": 20
+      },
+      {
+        "order": 4,
+        "text": "Shape the mixture into small flattened balls about 3 cm across. Wet your hands lightly to prevent sticking."
+      },
+      {
+        "order": 5,
+        "text": "Heat oil in a kadai to about 175°C — a small piece of mixture should sizzle and rise to the surface in 3 seconds. Fry the falafel in batches for 3–4 minutes, turning once, until deep golden-brown all over.",
+        "timerMinutes": 4,
+        "method": "deep-frying"
+      },
+      {
+        "order": 6,
+        "text": "Drain on paper and serve immediately — falafel are crispiest within 10 minutes of frying. Accompany with hummus, tahini or a simple tomato-cucumber salad."
+      }
+    ],
+    "cookware": [
+      "kadai",
+      "mixie"
+    ],
+    "methods": [
+      "deep-frying",
+      "no-cook"
+    ],
+    "tags": [
+      "street-food",
+      "eid",
+      "party",
+      "budget",
+      "healthy"
+    ],
+    "allergens": [
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 280,
+      "protein": 12,
+      "carbs": 28,
+      "fat": 13,
+      "fiber": 7,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chickpea",
+        "substitute": "250 g dried broad beans (peeled) for Egyptian-style ta'ameya",
+        "notes": "same process; different flavour"
+      },
+      {
+        "ingredient": "parsley",
+        "substitute": "extra coriander leaves",
+        "notes": "parsley adds brightness; all-coriander works fine"
+      },
+      {
+        "ingredient": "sesame-seeds",
+        "substitute": "skip entirely",
+        "notes": "optional for the crust"
+      }
+    ],
+    "culturalNote": "Falafel is so embedded in Levantine street culture that vendor stalls often specialize in nothing else, selling hundreds of pieces every morning.",
+    "regionalVariation": "Egyptian ta'ameya uses split broad beans instead of chickpeas and adds spring onion for a brighter colour; Lebanese and Israeli versions are chickpea-based.",
+    "indianKitchenAdaptation": "Kabuli chana (white chickpeas) is widely available and inexpensive. Fry in a kadai with 400 ml oil on medium flame — a tawa wok works well too. Serve as a party snack with pudina chutney or as a stuffing inside a paratha roll.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-me-tabbouleh",
+    "slug": "me-tabbouleh",
+    "title": "Tabbouleh (Lebanese Parsley Salad)",
+    "nativeTitle": "تَبُّولة",
+    "description": "Lebanon's famous herb-forward salad where finely chopped parsley and mint far outweigh the bulgur wheat, dressed simply with lemon juice and olive oil. Fresh, clean and endlessly refreshing.",
+    "cuisine": "lebanese",
+    "country": "lebanon",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "side",
+      "lunch"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 0,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "fresh parsley, very finely chopped",
+        "normalizedName": "parsley",
+        "quantity": 2,
+        "unit": "bunch",
+        "optional": false,
+        "notes": "use curly or flat-leaf; this is the main ingredient, not a garnish"
+      },
+      {
+        "name": "fresh mint leaves, finely chopped",
+        "normalizedName": "mint",
+        "quantity": 0.5,
+        "unit": "bunch",
+        "optional": false
+      },
+      {
+        "name": "tomatoes, finely diced (seeds removed)",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "spring onion or shallot, finely sliced",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "bulgur wheat or fine semolina (rava)",
+        "normalizedName": "rava",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "soak in cold water for 20 minutes; bulgur is traditional but rava works in India"
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "cucumber, finely diced",
+        "normalizedName": "cucumber",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soak the bulgur wheat (or rava) in cold water for 20 minutes until just softened. Drain thoroughly through a fine sieve and squeeze out any excess water — wet grain will make the salad soggy.",
+        "timerMinutes": 20,
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "While the grain soaks, wash and dry the parsley and mint well. Bundle the herbs and chop very finely using a sharp knife — the knife technique rather than a blender preserves texture."
+      },
+      {
+        "order": 3,
+        "text": "Dice the tomatoes and remove the seeds and excess juice before adding to the bowl. Finely slice the spring onions, including the green tops."
+      },
+      {
+        "order": 4,
+        "text": "Combine the drained grain, parsley, mint, tomato, spring onion and cucumber (if using) in a large bowl. Drizzle over the lemon juice and olive oil, season with salt, and toss gently to combine.",
+        "method": "no-cook"
+      },
+      {
+        "order": 5,
+        "text": "Taste and adjust lemon and salt — tabbouleh should be bright and assertively lemony. Serve immediately or rest for 10 minutes for the flavours to meld; do not refrigerate for long or the herbs will darken."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "no-cook"
+    ],
+    "tags": [
+      "salad",
+      "healthy",
+      "low-oil",
+      "summer",
+      "quick",
+      "under-30-minutes"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 130,
+      "protein": 3,
+      "carbs": 14,
+      "fat": 7,
+      "fiber": 3,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "rava",
+        "substitute": "3 tbsp fine broken wheat (dalia) or skip grain entirely for a gluten-free salad",
+        "notes": "authentic Lebanese tabbouleh uses very little grain"
+      },
+      {
+        "ingredient": "parsley",
+        "substitute": "extra mint and coriander leaves in equal parts",
+        "notes": "flat-leaf parsley gives a better result than coriander but the salad still works"
+      },
+      {
+        "ingredient": "olive-oil",
+        "substitute": "any light neutral oil",
+        "notes": "olive oil gives the authentic flavour"
+      }
+    ],
+    "culturalNote": "Authentic Lebanese tabbouleh is dominated by herbs — the grain is merely a textural accent, not the base — which surprises many first-time eaters accustomed to restaurant adaptations.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": "Use rava (fine sooji) soaked in cold water as the grain component — bulgur wheat may need to be sourced from a specialty or online store. Parsley (parsley/ajmoda) is available at larger vegetable markets or can be ordered online. No cooking needed — just chop, mix and serve.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-me-chicken-shawarma-tawa",
+    "slug": "me-chicken-shawarma-tawa",
+    "title": "Chicken Shawarma (Tawa Home Version)",
+    "nativeTitle": "شاورما",
+    "description": "Juicy spiced chicken thighs marinated in warm Middle Eastern spices, cooked on a tawa and shredded into wraps with garlic sauce and crunchy vegetables. The street-food classic adapted for a home gas hob.",
+    "cuisine": "lebanese",
+    "country": "lebanon",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "boneless chicken thighs, cut into strips",
+        "normalizedName": "chicken",
+        "quantity": 600,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "curd (yogurt)",
+        "normalizedName": "curd",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "ginger-garlic paste",
+        "normalizedName": "ginger-garlic-paste",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cardamom powder",
+        "normalizedName": "cardamom",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cinnamon powder",
+        "normalizedName": "cinnamon",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper powder",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "onion, thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false,
+        "notes": "for the wrap filling"
+      },
+      {
+        "name": "tomato, sliced",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false,
+        "notes": "for the wrap filling"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "In a bowl, combine curd, ginger-garlic paste, cumin, coriander powder, turmeric, chilli powder, cardamom, cinnamon, black pepper, lemon juice, oil and salt. Mix well into a smooth marinade.",
+        "method": "marinating"
+      },
+      {
+        "order": 2,
+        "text": "Add the chicken strips to the marinade and toss to coat evenly. Marinate for at least 30 minutes at room temperature, or up to 8 hours in the refrigerator for deeper flavour.",
+        "timerMinutes": 30
+      },
+      {
+        "order": 3,
+        "text": "Heat a tawa or flat frying pan on high flame until very hot. Place the marinated chicken strips in a single layer — they should sizzle loudly on contact.",
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 4,
+        "text": "Cook on high flame for 3–4 minutes without moving to get a good char on one side, then flip and cook for another 3–4 minutes until the chicken is cooked through with charred, caramelised edges.",
+        "timerMinutes": 8
+      },
+      {
+        "order": 5,
+        "text": "Rest the chicken for 5 minutes, then slice or shred with two forks. The chicken should be moist inside with dark, slightly crispy edges — this mimics the spit-roasted texture."
+      },
+      {
+        "order": 6,
+        "text": "To assemble: lay the shredded chicken on a warm flatbread or paratha, top with sliced onion, tomato, a squeeze of lemon and garlic sauce (or curd mixed with garlic). Wrap tightly and serve immediately."
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "frying-pan"
+    ],
+    "methods": [
+      "marinating",
+      "tawa-cooking",
+      "pan-frying"
+    ],
+    "tags": [
+      "street-food",
+      "wrap",
+      "party",
+      "grill-bbq",
+      "eid"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "protein": 38,
+      "carbs": 8,
+      "fat": 18,
+      "fiber": 1,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "chicken",
+        "substitute": "paneer or firm tofu, sliced — marinate and cook the same way",
+        "notes": "reduce cook time to 3 minutes per side"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "2 tbsp thick buttermilk",
+        "notes": "thinner marinade but same tenderising effect"
+      },
+      {
+        "ingredient": "cardamom",
+        "substitute": "skip — or replace with a pinch of garam masala",
+        "notes": "cardamom gives the distinctive shawarma note"
+      }
+    ],
+    "culturalNote": "Shawarma originated from the Ottoman doner kebab tradition and spread through the Levant, where each region has its own spice blend and serving style.",
+    "regionalVariation": "Lebanese shawarma is served with toum (fluffy garlic paste); Syrian versions often include pickled vegetables and pomegranate molasses in the wrap.",
+    "indianKitchenAdaptation": "Cook on a cast-iron tawa on high flame for char without an oven. Use roomali roti, paratha or even chapati as the wrap. Garlic sauce can be made by blending curd with 2 cloves of garlic and a pinch of salt — a quick and accessible alternative to toum.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tr-menemen",
+    "slug": "tr-menemen",
+    "title": "Menemen (Turkish Scrambled Eggs with Peppers)",
+    "nativeTitle": "Menemen",
+    "description": "A Turkish breakfast classic where eggs are softly scrambled directly in a pan of sautéed capsicum, tomato and green chilli. The eggs stay silky and custardy — nothing like the dry version most people imagine.",
+    "cuisine": "turkish",
+    "country": "turkey",
+    "region": "anatolia",
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "snack"
+    ],
+    "dietType": [
+      "eggetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 20,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "eggs",
+        "normalizedName": "egg",
+        "quantity": 4,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "ripe tomatoes, finely diced",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green capsicum, finely diced",
+        "normalizedName": "capsicum",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "green chilli, finely chopped",
+        "normalizedName": "green-chilli",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "onion, finely diced",
+        "normalizedName": "onion",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": true,
+        "notes": "traditionalists omit onion; add it for extra body"
+      },
+      {
+        "name": "oil or butter",
+        "normalizedName": "oil",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "fresh coriander or parsley leaves",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat oil or butter in a small skillet or kadai on medium flame. If using onion, add it first and cook for 3–4 minutes until soft. Add the capsicum and green chilli, cooking for another 3 minutes until the capsicum softens.",
+        "timerMinutes": 4,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Add the diced tomatoes, a pinch of salt and chilli powder. Cook on medium for 5–6 minutes, stirring, until the tomatoes break down into a chunky, jammy sauce and most of the moisture evaporates.",
+        "timerMinutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Reduce to the lowest flame. Crack the eggs directly over the vegetables and stir gently and continuously with a wooden spoon or spatula — do not beat the eggs before adding.",
+        "method": "pan-frying"
+      },
+      {
+        "order": 4,
+        "text": "Fold the eggs slowly with the vegetable mixture for 2–3 minutes until they just set into soft, creamy curds. Remove from heat while still slightly underdone — residual heat will finish the cooking.",
+        "timerMinutes": 3
+      },
+      {
+        "order": 5,
+        "text": "Season with salt, scatter herbs on top and serve immediately in the pan with crusty bread or pide for scooping."
+      }
+    ],
+    "cookware": [
+      "skillet",
+      "kadai"
+    ],
+    "methods": [
+      "sauteing",
+      "pan-frying"
+    ],
+    "tags": [
+      "quick",
+      "under-30-minutes",
+      "budget",
+      "comfort-food",
+      "bachelor-friendly"
+    ],
+    "allergens": [
+      "egg",
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 220,
+      "protein": 14,
+      "carbs": 9,
+      "fat": 15,
+      "fiber": 2,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "capsicum",
+        "substitute": "zucchini or brinjal, finely diced",
+        "notes": "adds a different but pleasant sweetness"
+      },
+      {
+        "ingredient": "tomato",
+        "substitute": "4 tbsp tomato paste thinned with 3 tbsp water",
+        "notes": "quick weekday shortcut"
+      },
+      {
+        "ingredient": "egg",
+        "substitute": "silken tofu, crumbled — cook identically for a vegan version",
+        "notes": "texture differs but absorbs the sauce beautifully"
+      }
+    ],
+    "culturalNote": "Menemen is fiercely debated in Turkey — the great schism is whether onion belongs in the dish at all, a disagreement that has spawned countless newspaper editorials.",
+    "regionalVariation": "The Aegean coast version often uses olive oil and fresh herbs; the central Anatolian style is spicier and sometimes includes sucuk (spiced sausage).",
+    "indianKitchenAdaptation": "This is essentially a spiced egg bhurji cooked in a different sequence — cook in your smallest kadai on a gas hob. Use desi ghee instead of butter for extra richness. Serve with sliced bread, pav or paratha.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-me-kofta-kebab",
+    "slug": "me-kofta-kebab",
+    "title": "Kofta Kebab (Spiced Ground Meat Patties)",
+    "nativeTitle": "كفتة",
+    "description": "Garlicky, herb-packed cylinders of minced lamb or beef seasoned with onion and warm spices, grilled or pan-seared until deeply browned outside and juicy within. A mezze and street-food staple from Turkey to Egypt.",
+    "cuisine": "middle-eastern",
+    "country": "turkey",
+    "region": "anatolia",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "medium",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "minced lamb or beef (keema)",
+        "normalizedName": "keema",
+        "quantity": 500,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion, grated",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false,
+        "notes": "squeeze out excess water after grating"
+      },
+      {
+        "name": "garlic cloves, minced",
+        "normalizedName": "garlic",
+        "quantity": 3,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "fresh parsley, finely chopped",
+        "normalizedName": "parsley",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "fresh coriander, finely chopped",
+        "normalizedName": "coriander-leaves",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cinnamon powder",
+        "normalizedName": "cinnamon",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper powder",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Grate the onion into a bowl, then squeeze firmly in a clean cloth to remove the water — wet onion will prevent the kofta from holding shape. Discard the liquid.",
+        "method": "no-cook"
+      },
+      {
+        "order": 2,
+        "text": "Combine the keema, squeezed onion, garlic, parsley, coriander, cumin, coriander powder, chilli powder, cinnamon, pepper and salt in a bowl. Mix thoroughly with your hands for 2 minutes until the mixture is sticky and uniform.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 3,
+        "text": "Refrigerate the mixture for 15 minutes — chilling firms up the fat and makes shaping easier. Divide into 12 equal portions and roll each into a sausage shape about 8 cm long.",
+        "timerMinutes": 15
+      },
+      {
+        "order": 4,
+        "text": "Heat a tawa or grill pan on high flame and brush with oil. Place the kofta in a single layer and cook for 3–4 minutes without moving until browned and releasing cleanly from the pan.",
+        "timerMinutes": 4,
+        "method": "grilling"
+      },
+      {
+        "order": 5,
+        "text": "Flip and cook for another 3–4 minutes on the other side, then cook the remaining surfaces briefly until the kofta are browned all over and cooked through with no pink inside.",
+        "timerMinutes": 4,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 6,
+        "text": "Rest for 3 minutes. Serve with warm flatbread, sliced onion, fresh tomato and a squeeze of lemon — or alongside hummus and tabbouleh for a full mezze spread."
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "grill"
+    ],
+    "methods": [
+      "grilling",
+      "tawa-cooking",
+      "marinating"
+    ],
+    "tags": [
+      "grill-bbq",
+      "party",
+      "eid",
+      "street-food"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 310,
+      "protein": 28,
+      "carbs": 4,
+      "fat": 20,
+      "fiber": 1,
+      "sugar": 1,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "keema",
+        "substitute": "500 g chicken mince for a lighter kofta",
+        "notes": "reduce cook time by 2 minutes — chicken cooks faster"
+      },
+      {
+        "ingredient": "parsley",
+        "substitute": "all coriander leaves",
+        "notes": "flavour will be more Indian-leaning but still excellent"
+      },
+      {
+        "ingredient": "cinnamon",
+        "substitute": "a pinch of garam masala",
+        "notes": "similar warm spice profile"
+      }
+    ],
+    "culturalNote": "Kofta in its many forms — grilled, simmered in sauce, fried or baked — stretches from the Balkans through the Middle East to the Indian subcontinent, each region claiming its own version as the original.",
+    "regionalVariation": "Turkish Adana kebab uses only lamb and is much spicier; Egyptian kofta is more herb-forward and often grilled on skewers over charcoal.",
+    "indianKitchenAdaptation": "Use lamb keema (paya keema) or beef keema from your butcher. Shape and cook on a cast-iron tawa on high flame — no grill needed. These kebabs also work pressed flat like shami kebabs or formed into balls for a curry sauce.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-me-mujaddara",
+    "slug": "me-mujaddara",
+    "title": "Mujaddara (Lentil and Rice with Crispy Onions)",
+    "nativeTitle": "مجدّرة",
+    "description": "One of the Levant's oldest and most comforting dishes — earthy brown lentils and rice slow-cooked together in cumin-scented broth, crowned with deeply caramelised fried onions. Simple, nourishing and surprisingly complex in flavour.",
+    "cuisine": "lebanese",
+    "country": "lebanon",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 40,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "brown or green lentils (masoor or whole moong)",
+        "normalizedName": "masoor-dal",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false,
+        "notes": "rinse well; no soaking needed"
+      },
+      {
+        "name": "basmati or long-grain rice",
+        "normalizedName": "rice",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onions, thinly sliced into half-moons",
+        "normalizedName": "onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false,
+        "notes": "2 for caramelising, 1 for the lentil base"
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cinnamon powder",
+        "normalizedName": "cinnamon",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 5,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 700,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "lemon wedges, to serve",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": true,
+        "notes": "squeeze over at serving; use curd on the side if not vegan"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat 4 tablespoons oil in a heavy-bottomed pot on medium flame. Add 2 of the sliced onions with a pinch of salt. Cook, stirring often, for 20–25 minutes, reducing the flame to medium-low after 10 minutes, until the onions are deep mahogany and crispy. Remove and set aside on paper — they will crisp further as they cool.",
+        "timerMinutes": 25,
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "In the same pot with residual oil, add cumin seeds and let them crackle for 20 seconds. Add the remaining sliced onion and cook for 5 minutes until soft.",
+        "timerMinutes": 5,
+        "method": "tempering"
+      },
+      {
+        "order": 3,
+        "text": "Add the rinsed lentils, cumin powder, cinnamon and black pepper. Pour in 700 ml water. Bring to a boil, then reduce to a strong simmer and cook uncovered for 15 minutes until the lentils are about halfway done.",
+        "timerMinutes": 15,
+        "method": "boiling"
+      },
+      {
+        "order": 4,
+        "text": "Add salt and the rinsed rice. Stir once, then reduce to the lowest flame and cover tightly. Cook for 15 minutes until the rice is fully cooked and all liquid is absorbed. Do not lift the lid during this stage.",
+        "timerMinutes": 15,
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Remove from heat and rest, still covered, for 10 minutes. Fluff gently with a fork. Pile into bowls and crown with the crispy caramelised onions. Serve with cold curd or lemon wedges.",
+        "timerMinutes": 10
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "sauteing",
+      "simmering",
+      "one-pot",
+      "tempering"
+    ],
+    "tags": [
+      "comfort-food",
+      "budget",
+      "healthy",
+      "one-pot-meal",
+      "lunchbox"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 340,
+      "protein": 14,
+      "carbs": 52,
+      "fat": 10,
+      "fiber": 8,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "masoor-dal",
+        "substitute": "whole moong or chana dal",
+        "notes": "chana dal needs 5 extra minutes cooking before adding rice"
+      },
+      {
+        "ingredient": "rice",
+        "substitute": "coarse bulgur wheat (cracked wheat/dalia)",
+        "notes": "add with the lentils from the beginning and reduce water by 50 ml"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "lemon wedges for a dairy-free serving option",
+        "notes": "both cut the richness well"
+      }
+    ],
+    "culturalNote": "Mujaddara appears in medieval Arab cookbooks and is sometimes called the dish of the poor — a title it wears proudly, as the caramelised onions turn the humblest lentils into something truly memorable.",
+    "regionalVariation": "Syrian versions use coarse bulgur instead of rice; Palestinian cooks sometimes add cumin-roasted carrot; Egyptian households cook it wetter, like a porridge.",
+    "indianKitchenAdaptation": "Use whole masoor or green moong (sabut moong) — both available at any kirana store. Cook in a heavy-bottomed saucepan on the gas hob exactly as described; no specialist equipment needed. The fried onion technique is identical to birista used in biryani.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-me-manakish-zaatar",
+    "slug": "me-manakish-zaatar",
+    "title": "Manakish with Oregano and Sesame (Zaatar-Style Flatbread)",
+    "nativeTitle": "مناقيش بالزعتر",
+    "description": "Lebanon's beloved breakfast flatbread — a soft, pillowy disc slathered with a fragrant paste of dried oregano, sesame seeds and olive oil, then baked or griddle-cooked until the topping is aromatic and the bread is golden-edged.",
+    "cuisine": "lebanese",
+    "country": "lebanon",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "breakfast",
+      "snack",
+      "tiffin"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "wheat flour (maida)",
+        "normalizedName": "maida",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "instant yeast",
+        "normalizedName": "yeast",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "olive oil (for dough and topping)",
+        "normalizedName": "olive-oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "warm water",
+        "normalizedName": "water",
+        "quantity": 150,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "dried oregano",
+        "normalizedName": "oregano",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "zaatar spice mix is traditional; dried oregano plus sesame is a good home substitute"
+      },
+      {
+        "name": "sesame seeds",
+        "normalizedName": "sesame-seeds",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "sumac or amchur powder (optional)",
+        "normalizedName": "amchur",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "adds the tangy note of authentic zaatar blend"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Mix yeast, sugar and warm water in a small bowl. Leave for 5 minutes until frothy — this confirms the yeast is active.",
+        "timerMinutes": 5,
+        "method": "fermenting"
+      },
+      {
+        "order": 2,
+        "text": "Combine flour and salt in a bowl. Add the yeast water and 1 tablespoon olive oil. Knead for 6–8 minutes into a smooth, slightly tacky dough. Cover with a damp cloth and rest for 20 minutes in a warm spot.",
+        "timerMinutes": 20
+      },
+      {
+        "order": 3,
+        "text": "While the dough rests, mix the dried oregano, sesame seeds, amchur (if using) and 3 tablespoons olive oil together into a thick paste — this is the zaatar-style topping."
+      },
+      {
+        "order": 4,
+        "text": "Divide the dough into 4 equal balls. On a lightly floured surface, roll each ball into a round about 18 cm across and 3 mm thick."
+      },
+      {
+        "order": 5,
+        "text": "Spread 1 tablespoon of the herb-sesame paste evenly over each flatbread, almost to the edges.",
+        "method": "baking"
+      },
+      {
+        "order": 6,
+        "text": "Heat a dry tawa on medium-high flame. Place a flatbread topping-side up and cover with a lid. Cook for 3–4 minutes until the base is golden and the topping is fragrant and set. Repeat for all flatbreads.",
+        "timerMinutes": 4,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 7,
+        "text": "Serve warm. Manakish is traditionally eaten folded or rolled with fresh tomato, cucumber and white cheese — or simply eaten plain as a morning snack."
+      }
+    ],
+    "cookware": [
+      "tawa"
+    ],
+    "methods": [
+      "fermenting",
+      "tawa-cooking",
+      "baking"
+    ],
+    "tags": [
+      "street-food",
+      "tiffin",
+      "kids-friendly",
+      "budget",
+      "party"
+    ],
+    "allergens": [
+      "gluten",
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 300,
+      "protein": 7,
+      "carbs": 40,
+      "fat": 12,
+      "fiber": 3,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "maida",
+        "substitute": "whole wheat flour (atta) for a denser, healthier base",
+        "notes": "add 1 extra tablespoon water as atta absorbs more"
+      },
+      {
+        "ingredient": "oregano",
+        "substitute": "dried thyme, or a mix of thyme and dried mint",
+        "notes": "dried mint plus sesame is a common household shortcut"
+      },
+      {
+        "ingredient": "yeast",
+        "substitute": "skip yeast and use 0.5 tsp baking powder — the bread will be flatter but still tasty",
+        "notes": "allow no resting time with baking powder"
+      }
+    ],
+    "culturalNote": "Manakish bakeries in Lebanon open at dawn and the queue starts before sunrise — these flatbreads are the Lebanese equivalent of a morning newspaper and chai.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": "Tawa-cooking works perfectly — no oven or pizza stone needed. Dried oregano (ajwain phool or regular oregano) is available in grocery stores and online. Sesame seeds (til) are a kitchen staple in India. Amchur powder is a great Indian substitute for sumac's tartness.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-me-baba-ganoush",
+    "slug": "me-baba-ganoush",
+    "title": "Baba Ganoush (Smoky Aubergine Dip)",
+    "nativeTitle": "بابا غنوج",
+    "description": "Roasted brinjal mashed with tahini, garlic and lemon into a smoky, silky dip that is the perfect companion to warm bread and raw vegetables. The char from flame-roasting is the soul of this dish.",
+    "cuisine": "lebanese",
+    "country": "lebanon",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "side",
+      "snack"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "large brinjal (aubergine / eggplant)",
+        "normalizedName": "brinjal",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false,
+        "notes": "choose the fattest ones you can find — more flesh, less skin"
+      },
+      {
+        "name": "tahini (sesame paste)",
+        "normalizedName": "tahini",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves",
+        "normalizedName": "garlic",
+        "quantity": 2,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "olive oil for drizzling",
+        "normalizedName": "olive-oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "fresh parsley or coriander leaves",
+        "normalizedName": "coriander-leaves",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Place the whole brinjal directly on the gas burner over medium-high flame. Roast, turning with tongs every 3 minutes, for 12–15 minutes until the skin is completely charred and collapsed and the flesh inside is very soft. The brinjal should look burnt — this is correct.",
+        "timerMinutes": 15,
+        "method": "roasting"
+      },
+      {
+        "order": 2,
+        "text": "Place the charred brinjal in a colander over a bowl and leave to steam and cool for 10 minutes — this step releases bitter juices. When cool enough to handle, peel off and discard all the charred skin.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Squeeze the peeled flesh gently in your hands to remove excess liquid. Finely chop with a knife rather than blending for a rougher, more textured dip — or blend briefly for a smoother result."
+      },
+      {
+        "order": 4,
+        "text": "Mix the brinjal with minced garlic, tahini, lemon juice, cumin and salt. Taste and adjust lemon and salt — the dip should be assertively smoky and tart. Add a tablespoon of cold water if the consistency is too thick.",
+        "method": "no-cook"
+      },
+      {
+        "order": 5,
+        "text": "Spread into a plate, drizzle olive oil over the surface, and scatter parsley or coriander. Serve at room temperature with warm bread, pita or fresh vegetable sticks."
+      }
+    ],
+    "cookware": [
+      "tawa"
+    ],
+    "methods": [
+      "roasting",
+      "no-cook"
+    ],
+    "tags": [
+      "healthy",
+      "low-oil",
+      "budget",
+      "party",
+      "summer"
+    ],
+    "allergens": [
+      "sesame"
+    ],
+    "nutrition": {
+      "calories": 110,
+      "protein": 3,
+      "carbs": 10,
+      "fat": 7,
+      "fiber": 4,
+      "sugar": 5,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "tahini",
+        "substitute": "2 tbsp roasted sesame seeds blended with 1 tbsp oil",
+        "notes": "grinding fresh sesame works well"
+      },
+      {
+        "ingredient": "lemon",
+        "substitute": "2 tbsp vinegar — use half the quantity",
+        "notes": "a last resort; lemon juice is much better here"
+      },
+      {
+        "ingredient": "brinjal",
+        "substitute": "this dish cannot be substituted — roasted brinjal is the dish",
+        "notes": "try mashed roasted capsicum for a different smoky dip"
+      }
+    ],
+    "culturalNote": "Baba ganoush is eaten across the Levant as part of mezze, and the debate about whether to add pomegranate molasses or fresh tomato to the finished dip divides households across the region.",
+    "regionalVariation": "Syrian versions sometimes add roasted capsicum; Palestinian baba ganoush often includes a spoonful of mayonnaise for creaminess.",
+    "indianKitchenAdaptation": "This is the same technique as the North Indian baigan bharta — char the brinjal directly on your gas hob. Brinjal is inexpensive and easy to find. The only unusual ingredient is tahini — substitute with a paste of toasted til seeds blended with a little oil.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tr-mercimek-soup",
+    "slug": "tr-mercimek-soup",
+    "title": "Turkish Red Lentil Soup (Mercimek Çorbası)",
+    "nativeTitle": "Mercimek Çorbası",
+    "description": "Turkey's national soup — a velvety, orange-hued bowl of blended red lentils seasoned with cumin and finished with a drizzle of chilli-infused butter. Served at almost every table from Istanbul to Gaziantep.",
+    "cuisine": "turkish",
+    "country": "turkey",
+    "region": "anatolia",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "red lentils (masoor dal)",
+        "normalizedName": "masoor-dal",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion, diced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, minced",
+        "normalizedName": "garlic",
+        "quantity": 2,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "carrot, peeled and diced",
+        "normalizedName": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "potato, peeled and diced small",
+        "normalizedName": "potato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": true,
+        "notes": "helps thicken the soup"
+      },
+      {
+        "name": "cumin seeds",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "divided: half for the soup, half for the finishing butter"
+      },
+      {
+        "name": "oil or butter",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "water or stock",
+        "normalizedName": "water",
+        "quantity": 1,
+        "unit": "l",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat 1.5 tablespoons oil in a heavy-bottomed pot on medium flame. Add cumin seeds and let them sizzle for 20 seconds. Add the onion and cook for 5 minutes until soft and translucent.",
+        "timerMinutes": 5,
+        "method": "tempering"
+      },
+      {
+        "order": 2,
+        "text": "Add garlic, carrot and potato. Stir for 2 minutes. Add cumin powder, turmeric and half the chilli powder. Stir for 30 seconds to coat everything in spice.",
+        "method": "sauteing"
+      },
+      {
+        "order": 3,
+        "text": "Rinse the red lentils until the water runs clear. Add them to the pot with 1 litre water and salt. Bring to a boil, skimming any foam, then reduce to a steady simmer. Cook for 20–25 minutes until the lentils and vegetables are completely soft.",
+        "timerMinutes": 25,
+        "method": "simmering"
+      },
+      {
+        "order": 4,
+        "text": "Remove from heat and blend with a hand blender (or in batches in a mixie) until completely smooth. If the soup is too thick, add 100–200 ml hot water and blend again. Taste for salt.",
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "For the finishing drizzle: heat the remaining half-tablespoon oil in a small pan on medium-high until hot. Remove from flame, add the remaining chilli powder and swirl — it will sizzle. Pour this bright red oil over each bowl.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 6,
+        "text": "Serve hot with a squeeze of lemon juice, which brightens the soup considerably. A slice of crusty bread alongside is traditional."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "blender"
+    ],
+    "methods": [
+      "simmering",
+      "sauteing",
+      "tempering",
+      "one-pot"
+    ],
+    "tags": [
+      "soup",
+      "comfort-food",
+      "budget",
+      "healthy",
+      "one-pot-meal",
+      "winter"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 210,
+      "protein": 11,
+      "carbs": 30,
+      "fat": 5,
+      "fiber": 7,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "masoor-dal",
+        "substitute": "yellow moong dal — same colour, slightly milder flavour",
+        "notes": "cooks in the same time"
+      },
+      {
+        "ingredient": "carrot",
+        "substitute": "pumpkin, diced — makes the soup sweeter and a deeper orange",
+        "notes": "works very well"
+      },
+      {
+        "ingredient": "lemon",
+        "substitute": "1 tsp vinegar stirred in at the end",
+        "notes": "a workable substitute when lemon is unavailable"
+      }
+    ],
+    "culturalNote": "Mercimek çorbası is Turkey's everyday soup — served at school canteens, roadside lokanta restaurants and five-star hotels with equal seriousness. The finishing chilli butter is non-negotiable.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": "Red masoor dal is one of India's most common lentils and is very affordable. Cook in a pressure cooker for 2 whistles instead of simmering — faster and identical result. Blend in your domestic mixie. The chilli butter drizzle is very similar to the tadka technique already used in Indian dal.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tr-lahmacun-keema",
+    "slug": "tr-lahmacun-keema",
+    "title": "Lahmacun-Style Keema Flatbread",
+    "nativeTitle": "Lahmacun",
+    "description": "Crispy thin flatbread spread with a fragrant spiced minced-meat topping and finished with fresh parsley and lemon — the Turkish street-food classic adapted for home tawa cooking. Roll it up and eat it on the go.",
+    "cuisine": "turkish",
+    "country": "turkey",
+    "region": "anatolia",
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "dietType": [
+      "non_vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "medium",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "wheat flour (maida)",
+        "normalizedName": "maida",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "instant yeast",
+        "normalizedName": "yeast",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt for dough",
+        "normalizedName": "salt",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "water (warm)",
+        "normalizedName": "water",
+        "quantity": 120,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "lamb or beef mince (keema)",
+        "normalizedName": "keema",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "onion, very finely minced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "tomato, very finely diced",
+        "normalizedName": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "capsicum, very finely diced",
+        "normalizedName": "capsicum",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "garlic cloves, grated",
+        "normalizedName": "garlic",
+        "quantity": 2,
+        "unit": "clove",
+        "optional": false
+      },
+      {
+        "name": "red chilli powder",
+        "normalizedName": "red-chilli-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "coriander powder",
+        "normalizedName": "coriander-seeds",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "fresh parsley, roughly chopped",
+        "normalizedName": "parsley",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "lemon wedges, to serve",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Mix yeast with warm water and a pinch of sugar. Leave 5 minutes until foamy. Combine with flour and salt in a bowl, knead for 5 minutes into a smooth dough. Rest covered for 15 minutes.",
+        "timerMinutes": 20,
+        "method": "fermenting"
+      },
+      {
+        "order": 2,
+        "text": "While the dough rests, make the topping: combine the keema, minced onion, diced tomato, capsicum, garlic, chilli powder, cumin, coriander and salt in a bowl. Squeeze the mixture firmly together with your hands until it becomes a uniform paste — this is critical for it to stick to the dough."
+      },
+      {
+        "order": 3,
+        "text": "Divide the dough into 4 balls. On a floured surface, roll each ball as thin as possible — about 2 mm — into a roughly oval or round shape. The thinner the dough, the crispier the result."
+      },
+      {
+        "order": 4,
+        "text": "Spread a thin, even layer of the raw meat topping over each flatbread, pressing it gently into the dough. Use about 4 tablespoons of topping per round — too thick and it won't cook through."
+      },
+      {
+        "order": 5,
+        "text": "Heat a dry tawa on medium-high flame. Place the lahmacun topping-side up. Cover with a lid and cook for 4–5 minutes until the base is charred in spots and the meat topping has changed colour and cooked through.",
+        "timerMinutes": 5,
+        "method": "tawa-cooking"
+      },
+      {
+        "order": 6,
+        "text": "Transfer to a board. Scatter parsley over the top, squeeze lemon over it, roll into a cylinder and eat immediately. Repeat for remaining flatbreads."
+      }
+    ],
+    "cookware": [
+      "tawa"
+    ],
+    "methods": [
+      "tawa-cooking",
+      "fermenting"
+    ],
+    "tags": [
+      "street-food",
+      "wrap",
+      "budget",
+      "party",
+      "eid"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 350,
+      "protein": 18,
+      "carbs": 38,
+      "fat": 13,
+      "fiber": 2,
+      "sugar": 3,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "keema",
+        "substitute": "finely crumbled soya granules (soaked) for a vegetarian version",
+        "notes": "add 1 tsp extra oil to the topping"
+      },
+      {
+        "ingredient": "maida",
+        "substitute": "whole wheat flour (atta) — dough will be less extensible but still works",
+        "notes": "roll slightly thicker"
+      },
+      {
+        "ingredient": "parsley",
+        "substitute": "fresh coriander leaves",
+        "notes": "a common home adaptation"
+      }
+    ],
+    "culturalNote": "Lahmacun is sometimes called the Turkish pizza, which undersells it — the original is paper-thin, crispy and not remotely like pizza. Street vendors roll hundreds an hour on large wood-fired ovens.",
+    "regionalVariation": "Urfa-style lahmacun uses biber salçası (Turkish red pepper paste) in the topping for a deeper, fruity heat; Gaziantep versions are spicier and may include pine nuts.",
+    "indianKitchenAdaptation": "Keema (minced lamb or beef) is available at butchers across India. Cook on a hot cast-iron tawa with the lid on — the covered steam helps cook the meat topping through. Serve with sliced onion soaked in lemon juice, mimicking the Turkish accompaniment.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-pe-jeweled-rice",
+    "slug": "pe-jeweled-rice",
+    "title": "Persian Jeweled Rice (Simplified Morasa Polo)",
+    "nativeTitle": "مرصع پلو",
+    "description": "A simplified version of Iran's festive saffron rice scattered with caramelised orange peel, tart barberries (or cranberries), toasted nuts and sweet raisins. Visually stunning and fragrant from saffron and rose water.",
+    "cuisine": "persian",
+    "country": "iran",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 35,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "basmati rice, soaked 30 minutes",
+        "normalizedName": "basmati-rice",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "saffron strands",
+        "normalizedName": "saffron",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false,
+        "notes": "bloom in 3 tbsp warm water for 10 minutes"
+      },
+      {
+        "name": "ghee or butter",
+        "normalizedName": "ghee",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "raisins",
+        "normalizedName": "raisin",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cashews, halved",
+        "normalizedName": "cashew",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "slivered almonds",
+        "normalizedName": "almond",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "pistachios, roughly chopped",
+        "normalizedName": "pistachio",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true
+      },
+      {
+        "name": "orange peel or orange zest",
+        "normalizedName": "coconut",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "thin strips of orange peel blanched in water to remove bitterness; no direct coconut equivalent — skip if unavailable"
+      },
+      {
+        "name": "rose water",
+        "normalizedName": "rose-water",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "cardamom pods",
+        "normalizedName": "cardamom",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "sugar",
+        "normalizedName": "sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 600,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "dried cranberries (substitute for barberries)",
+        "normalizedName": "raisin",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "barberries (zereshk) are traditional but cranberries work well"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Bloom the saffron: crush the strands lightly and steep in 3 tablespoons of warm water for 10 minutes until the water turns deep amber.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Bring 600 ml water to a boil in a heavy pot with 1 teaspoon salt. Drain the soaked rice and add to the boiling water. Boil for 6–7 minutes until the rice is half-cooked — it should be firm in the centre when bitten. Drain completely.",
+        "timerMinutes": 7,
+        "method": "boiling"
+      },
+      {
+        "order": 3,
+        "text": "Melt 1.5 tablespoons ghee in the same pot on low flame. Add a thin layer of parboiled rice to cover the base, then pile the remaining rice on top in a mound. Pierce 3 holes in the mound with the handle of a spoon. Drizzle saffron water over the top.",
+        "method": "dum"
+      },
+      {
+        "order": 4,
+        "text": "Cover the pot with a folded cloth or kitchen towel under the lid to absorb steam. Cook on the lowest possible flame for 20–25 minutes until the bottom forms a golden crust (called tahdig) and the rice is fully cooked and fluffy.",
+        "timerMinutes": 25,
+        "method": "dum"
+      },
+      {
+        "order": 5,
+        "text": "While the rice steams, heat the remaining ghee in a small pan. Fry cashews and almonds for 2 minutes until lightly golden. Add raisins and cranberries and stir for 30 seconds. Remove from heat, add pistachios, rose water, sugar and a pinch of cardamom.",
+        "timerMinutes": 3,
+        "method": "sauteing"
+      },
+      {
+        "order": 6,
+        "text": "Gently toss the saffron rice with half the nut-fruit mixture. Pile onto a platter and scatter the remaining nuts and fruit on top. Serve with the crispy tahdig (bottom crust) placed alongside — it is the most prized part of the dish."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "saucepan"
+    ],
+    "methods": [
+      "boiling",
+      "dum",
+      "sauteing"
+    ],
+    "tags": [
+      "festival",
+      "party",
+      "eid",
+      "comfort-food",
+      "sweet"
+    ],
+    "allergens": [
+      "dairy",
+      "nuts"
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein": 7,
+      "carbs": 64,
+      "fat": 14,
+      "fiber": 2,
+      "sugar": 12,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "saffron",
+        "substitute": "a generous pinch of turmeric dissolved in the same water for colour, without the floral flavour",
+        "notes": "saffron is available at Indian spice shops; a small quantity is affordable"
+      },
+      {
+        "ingredient": "raisin",
+        "substitute": "dried mango pieces or extra cranberries",
+        "notes": "the sweet-tart balance is important"
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "butter or neutral oil",
+        "notes": "ghee gives the best flavour for this dish"
+      }
+    ],
+    "culturalNote": "Morasa polo is Iran's most festive rice dish, traditionally served at weddings and Nowruz (Persian New Year) — the colourful toppings are said to represent gemstones.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": "Basmati rice, saffron, ghee, raisins, cashews, almonds and pistachios are all standard Indian pantry items. The dum technique is identical to Indian biryani. Use a heavy-bottomed biryani pot on the lowest flame — a heat diffuser helps if available. Rose water (gulab jal) is sold at every Indian grocery and medical shop.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-pe-joojeh-kebab",
+    "slug": "pe-joojeh-kebab",
+    "title": "Joojeh Kebab (Persian Saffron Curd Chicken)",
+    "nativeTitle": "جوجه کباب",
+    "description": "Iran's most beloved grilled chicken — pieces marinated in a heady mix of saffron, sour curd, lemon and onion, then cooked over high heat until the outside caramelises while the inside stays moist and tender.",
+    "cuisine": "persian",
+    "country": "iran",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "non_vegetarian",
+      "high_protein"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "bone-in chicken pieces or boneless thighs",
+        "normalizedName": "chicken",
+        "quantity": 700,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "saffron strands",
+        "normalizedName": "saffron",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false,
+        "notes": "steep in 3 tbsp warm water for 10 minutes"
+      },
+      {
+        "name": "thick curd (yogurt)",
+        "normalizedName": "curd",
+        "quantity": 4,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "onion, grated (juice included)",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false,
+        "notes": "grating releases enzymes that tenderise the chicken"
+      },
+      {
+        "name": "butter or ghee (for basting)",
+        "normalizedName": "ghee",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "black pepper",
+        "normalizedName": "black-pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "lemon wedges and grilled tomato, to serve",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Crush the saffron strands lightly and steep in 3 tablespoons of warm water for 10 minutes until the liquid is a deep amber colour.",
+        "timerMinutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Combine the saffron water, grated onion (with its juice), curd, lemon juice, black pepper, turmeric and salt in a bowl. Mix well into a smooth yellow marinade.",
+        "method": "marinating"
+      },
+      {
+        "order": 3,
+        "text": "Score the chicken pieces with a knife to let the marinade penetrate. Add to the marinade and coat well. Cover and refrigerate for at least 2 hours — 4–6 hours gives a more deeply flavoured result.",
+        "timerMinutes": 120
+      },
+      {
+        "order": 4,
+        "text": "Bring the chicken to room temperature 20 minutes before cooking. Heat a grill pan, tawa or the grill to high — it should be very hot before the chicken goes on.",
+        "method": "grilling"
+      },
+      {
+        "order": 5,
+        "text": "Cook the chicken on high heat for 6–7 minutes per side for bone-in pieces, or 4–5 minutes per side for boneless thighs. Baste generously with melted ghee or butter each time you turn. The chicken is done when deeply golden with some char and the juices run clear when pierced.",
+        "timerMinutes": 14,
+        "method": "grilling"
+      },
+      {
+        "order": 6,
+        "text": "Serve with Persian rice or flatbread, halved tomatoes grilled alongside (baste them with saffron butter too) and lemon wedges. A bowl of fresh herbs and onion rings is the traditional accompaniment."
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "grill"
+    ],
+    "methods": [
+      "marinating",
+      "grilling",
+      "tawa-cooking"
+    ],
+    "tags": [
+      "grill-bbq",
+      "party",
+      "eid",
+      "summer"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 310,
+      "protein": 36,
+      "carbs": 4,
+      "fat": 16,
+      "fiber": 0,
+      "sugar": 2,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "saffron",
+        "substitute": "a generous pinch of turmeric plus 1 tsp rose water for a hint of fragrance",
+        "notes": "not identical but gives a golden colour and perfume"
+      },
+      {
+        "ingredient": "curd",
+        "substitute": "3 tbsp thick buttermilk or 2 tbsp cream",
+        "notes": "curd's lactic acid is key for tenderising"
+      },
+      {
+        "ingredient": "ghee",
+        "substitute": "butter — equal quantity",
+        "notes": "butter browns faster; watch the heat"
+      }
+    ],
+    "culturalNote": "Joojeh kebab is the dish Iranians miss most when travelling — its distinctive saffron-yellow colour and char are deeply associated with summer evenings over a mangal grill.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": "All ingredients are standard Indian pantry items. Marinate and cook on a cast-iron tawa on high flame, or thread onto skewers and grill over a gas burner directly. Saffron is available at Indian spice shops — a small pinch goes a long way. The marinade is very similar to Indian dahi murgh.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-pe-adas-polo",
+    "slug": "pe-adas-polo",
+    "title": "Adas Polo (Persian Lentil Rice with Dates and Raisins)",
+    "nativeTitle": "عدس پلو",
+    "description": "A warming Persian comfort dish where cooked brown lentils are layered with parboiled basmati rice and finished with sweet dates and raisins. The dum-steamed result is a beautiful, fragrant one-pot meal eaten across Iran on cold evenings.",
+    "cuisine": "persian",
+    "country": "iran",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "medium",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 45,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "basmati rice, soaked 30 minutes",
+        "normalizedName": "basmati-rice",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "brown or green lentils",
+        "normalizedName": "masoor-dal",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false,
+        "notes": "whole masoor or green moong; rinse well"
+      },
+      {
+        "name": "dates, pitted and halved",
+        "normalizedName": "dates",
+        "quantity": 8,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "raisins",
+        "normalizedName": "raisin",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "onion, thinly sliced",
+        "normalizedName": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cumin powder",
+        "normalizedName": "cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "cinnamon powder",
+        "normalizedName": "cinnamon",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "turmeric powder",
+        "normalizedName": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "oil or ghee",
+        "normalizedName": "oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "water",
+        "normalizedName": "water",
+        "quantity": 700,
+        "unit": "ml",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Rinse and simmer the lentils in 400 ml water on medium flame for 15–18 minutes until just tender but still holding their shape — do not overcook. Drain and season lightly with salt.",
+        "timerMinutes": 18,
+        "method": "boiling"
+      },
+      {
+        "order": 2,
+        "text": "In a separate pot, boil 700 ml salted water. Drain the soaked rice and cook in the boiling water for 6 minutes until half-cooked — the grains should be firm at the centre. Drain through a sieve.",
+        "timerMinutes": 6,
+        "method": "boiling"
+      },
+      {
+        "order": 3,
+        "text": "Heat 2 tablespoons oil in a heavy pot on medium. Add the sliced onion and cook for 8 minutes until golden and beginning to caramelise. Add cumin, cinnamon and turmeric, stir for 30 seconds.",
+        "timerMinutes": 8,
+        "method": "sauteing"
+      },
+      {
+        "order": 4,
+        "text": "Add the cooked lentils, dates and raisins to the onion. Mix gently. Layer the parboiled rice over the lentil mixture in the same pot, mounding it in the centre.",
+        "method": "dum"
+      },
+      {
+        "order": 5,
+        "text": "Drizzle 1 tablespoon oil over the rice. Cover with a cloth-wrapped lid and cook on the lowest flame for 20–25 minutes until the rice is perfectly fluffy and a golden crust forms on the base.",
+        "timerMinutes": 25,
+        "method": "dum"
+      },
+      {
+        "order": 6,
+        "text": "To serve, scoop the rice and lentil layer onto a platter and place the tahdig (crispy crust) on the side or on top. The dish is traditionally eaten with a simple yogurt and cucumber salad."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot",
+      "saucepan"
+    ],
+    "methods": [
+      "boiling",
+      "sauteing",
+      "dum",
+      "one-pot"
+    ],
+    "tags": [
+      "comfort-food",
+      "budget",
+      "one-pot-meal",
+      "winter",
+      "eid"
+    ],
+    "allergens": [],
+    "nutrition": {
+      "calories": 390,
+      "protein": 12,
+      "carbs": 68,
+      "fat": 8,
+      "fiber": 8,
+      "sugar": 14,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "masoor-dal",
+        "substitute": "red lentils (split masoor) — cook for only 8 minutes as they soften faster",
+        "notes": "texture will be softer and less distinct"
+      },
+      {
+        "ingredient": "dates",
+        "substitute": "dried figs or chopped dried apricots",
+        "notes": "maintain the sweet-savoury balance"
+      },
+      {
+        "ingredient": "raisin",
+        "substitute": "dried cranberries for a tart note",
+        "notes": "changes the sweetness profile slightly"
+      }
+    ],
+    "culturalNote": "Adas polo is one of Iran's oldest rice dishes, mentioned in classical Persian literature as a meal of nourishment. The combination of lentils with sweet dried fruit reflects the ancient Persian appreciation for sweet-savoury balance.",
+    "regionalVariation": "Some families add a layer of fried potato slices on the bottom for an especially crispy tahdig; northern Iranian versions sometimes include pomegranate seeds.",
+    "indianKitchenAdaptation": "Whole masoor lentils, basmati rice, dates (khajoor), raisins, ghee and all the spices are available in every Indian grocery store. The dum technique is identical to biryani — use a thick-bottomed handi or pressure cooker base (without the lid locked). Khajoor rice has a long tradition in Indian households too, making this very approachable.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-me-fattoush",
+    "slug": "me-fattoush",
+    "title": "Fattoush (Lebanese Bread Salad)",
+    "nativeTitle": "فتوش",
+    "description": "Lebanon's vibrant bread salad — a colourful tumble of crisp toasted pita shards, fresh cucumber, tomato, radish and herbs dressed with lemon, sumac and olive oil. Crunchy, tangy and ready in minutes.",
+    "cuisine": "lebanese",
+    "country": "lebanon",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "side",
+      "lunch"
+    ],
+    "dietType": [
+      "vegan"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 0,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "stale or toasted flatbread or bread, broken into shards",
+        "normalizedName": "bread",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false,
+        "notes": "pita, khubz or even regular bread works; leftover bread is ideal"
+      },
+      {
+        "name": "tomatoes, cut into wedges",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cucumber, diced",
+        "normalizedName": "cucumber",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "spring onions, sliced",
+        "normalizedName": "spring-onion",
+        "quantity": 3,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "capsicum, cut into strips",
+        "normalizedName": "capsicum",
+        "quantity": 0.5,
+        "unit": "piece",
+        "optional": true
+      },
+      {
+        "name": "fresh parsley, roughly chopped",
+        "normalizedName": "parsley",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "fresh mint leaves, torn",
+        "normalizedName": "mint",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "amchur or sumac powder",
+        "normalizedName": "amchur",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "optional": false,
+        "notes": "sumac is traditional; amchur gives the same sour fruity note"
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "oil for shallow-frying bread (optional)",
+        "normalizedName": "oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "notes": "fry the bread pieces instead of toasting for extra crunch"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Break or tear the flatbread into rough 3–4 cm shards. Either toast under a grill, in a dry pan on medium flame, or shallow-fry in 2 tablespoons oil for 2 minutes until golden and very crisp. Set aside — they should crunch loudly when pressed.",
+        "timerMinutes": 3,
+        "method": "shallow-frying"
+      },
+      {
+        "order": 2,
+        "text": "Prepare the vegetables: cut tomatoes into wedges and salt them lightly in a colander for 5 minutes, then gently squeeze to remove excess juice. Dice the cucumber and slice the spring onions and capsicum.",
+        "method": "no-cook"
+      },
+      {
+        "order": 3,
+        "text": "Make the dressing: whisk together lemon juice, olive oil, amchur (or sumac), and a pinch of salt in a small bowl until slightly emulsified."
+      },
+      {
+        "order": 4,
+        "text": "Combine the tomatoes, cucumber, spring onion, capsicum, parsley and mint in a large bowl. Pour over the dressing and toss well.",
+        "method": "no-cook"
+      },
+      {
+        "order": 5,
+        "text": "Add the toasted bread pieces and toss once — then serve immediately. The bread should be crisp: if you dress the salad and wait, the bread softens. This is unavoidable, so assemble right before eating."
+      }
+    ],
+    "cookware": [
+      "frying-pan",
+      "tawa"
+    ],
+    "methods": [
+      "no-cook",
+      "shallow-frying"
+    ],
+    "tags": [
+      "salad",
+      "healthy",
+      "quick",
+      "under-30-minutes",
+      "summer",
+      "budget",
+      "leftover-friendly"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 180,
+      "protein": 4,
+      "carbs": 22,
+      "fat": 9,
+      "fiber": 3,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "bread",
+        "substitute": "broken papad or poori shells — gives a similar crispy texture",
+        "notes": "changes the flavour profile but still works"
+      },
+      {
+        "ingredient": "amchur",
+        "substitute": "extra lemon juice (1 tbsp)",
+        "notes": "sumac has a fruity quality lemon alone cannot replicate, but amchur comes closest"
+      },
+      {
+        "ingredient": "parsley",
+        "substitute": "all coriander leaves for a more Indian-tasting salad",
+        "notes": "flavour changes but the concept holds"
+      }
+    ],
+    "culturalNote": "Fattoush was created as a way to use up stale flatbread — the Lebanese equivalent of Italian panzanella. Its name derives from the Arabic word for crumbled or torn bread.",
+    "regionalVariation": "Some Lebanese families add purslane (a succulent herb) to the salad; Syrian fattoush is sometimes spicier and uses more pomegranate molasses in the dressing.",
+    "indianKitchenAdaptation": "Regular bread or chapati broken and toasted in a dry tawa makes an excellent substitute for pita. Amchur powder (dried mango) is the perfect Indian replacement for sumac. The salad needs no cooking — just chop, dress and serve. Works brilliantly as a side with any grilled dish.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-me-paneer-halloumi-salad",
+    "slug": "me-paneer-halloumi-salad",
+    "title": "Pan-Fried Paneer Halloumi-Style Salad",
+    "nativeTitle": null,
+    "description": "Thick-cut paneer slabs seared in a dry pan until golden-crusted and squeaky — a brilliant Indian-kitchen substitute for the Cypriot halloumi — served over a bright Middle Eastern salad of tomato, cucumber, mint and lemon.",
+    "cuisine": "mediterranean",
+    "country": "lebanon",
+    "region": null,
+    "language": "en",
+    "mealType": [
+      "lunch",
+      "side"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "mild",
+    "budgetLevel": "moderate",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 10,
+    "totalTimeMinutes": 20,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "paneer, sliced 1 cm thick",
+        "normalizedName": "paneer",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false,
+        "notes": "firm commercial paneer works best; homemade may crumble"
+      },
+      {
+        "name": "olive oil",
+        "normalizedName": "olive-oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "tomatoes, diced",
+        "normalizedName": "tomato",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "cucumber, diced",
+        "normalizedName": "cucumber",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "fresh mint leaves",
+        "normalizedName": "mint",
+        "quantity": 1,
+        "unit": "handful",
+        "optional": false
+      },
+      {
+        "name": "spring onion, sliced",
+        "normalizedName": "spring-onion",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "name": "lemon juice",
+        "normalizedName": "lemon",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "olive oil for dressing",
+        "normalizedName": "olive-oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "amchur or sumac powder",
+        "normalizedName": "amchur",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true,
+        "notes": "adds the Middle Eastern tang"
+      },
+      {
+        "name": "black pepper",
+        "normalizedName": "black-pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": null,
+        "unit": "to_taste",
+        "optional": false
+      },
+      {
+        "name": "dried oregano",
+        "normalizedName": "oregano",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pat the paneer slices thoroughly dry with paper towels — surface moisture is the enemy of a good sear. Season each slice with a little black pepper and salt on both sides.",
+        "method": "pan-frying"
+      },
+      {
+        "order": 2,
+        "text": "Heat a dry skillet or tawa on high flame until very hot. Add just 1 tablespoon olive oil. Place paneer slices without crowding the pan and cook for 2–3 minutes without moving until the underside is deep golden and releases cleanly.",
+        "timerMinutes": 3,
+        "method": "pan-frying"
+      },
+      {
+        "order": 3,
+        "text": "Flip each slice and cook for another 2 minutes until the second side is equally golden. Remove to a plate. The paneer should be firm, golden and slightly chewy on the outside — reminiscent of grilled halloumi.",
+        "timerMinutes": 2
+      },
+      {
+        "order": 4,
+        "text": "Toss the tomatoes, cucumber, spring onion and mint in a bowl. Drizzle over lemon juice and 2 tablespoons olive oil, season with salt and amchur. Toss gently."
+      },
+      {
+        "order": 5,
+        "text": "Arrange the salad on a plate, lay the warm golden paneer slices on top, scatter dried oregano if using, and serve immediately. The contrast between the warm seared paneer and cool crisp salad is the point of the dish."
+      }
+    ],
+    "cookware": [
+      "tawa",
+      "skillet"
+    ],
+    "methods": [
+      "pan-frying",
+      "no-cook"
+    ],
+    "tags": [
+      "salad",
+      "healthy",
+      "quick",
+      "under-30-minutes",
+      "summer",
+      "party"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition": {
+      "calories": 300,
+      "protein": 16,
+      "carbs": 8,
+      "fat": 22,
+      "fiber": 2,
+      "sugar": 4,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "paneer",
+        "substitute": "firm tofu, pressed and dried, for a vegan version",
+        "notes": "sears equally well if dried thoroughly"
+      },
+      {
+        "ingredient": "olive-oil",
+        "substitute": "any neutral oil for frying; use oil for the dressing too if olive oil is unavailable",
+        "notes": "olive oil adds a Mediterranean note"
+      },
+      {
+        "ingredient": "amchur",
+        "substitute": "a squeeze of extra lemon juice",
+        "notes": "amchur carries a fruity sourness lemon alone lacks"
+      }
+    ],
+    "culturalNote": "Halloumi from Cyprus has become a global favourite for its ability to hold its shape when grilled or pan-fried. Paneer, which behaves identically, is a perfect Indian-kitchen substitute and often available fresher and cheaper.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": "Paneer is widely available across India and behaves exactly like halloumi when seared — it holds shape, browns beautifully and becomes pleasantly chewy. Use a well-seasoned tawa on high flame. Amchur powder substitutes perfectly for sumac in the dressing.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "ca-tr-pilaf-vermicelli",
+    "slug": "tr-pilaf-vermicelli",
+    "title": "Turkish Rice Pilaf with Vermicelli (Şehriyeli Pirinç Pilavı)",
+    "nativeTitle": "Şehriyeli Pirinç Pilavı",
+    "description": "A Turkish staple — long-grain rice cooked together with butter-toasted vermicelli noodles until every grain is separate, fluffy and tinged golden. A deceptively simple technique that elevates plain rice into something memorable.",
+    "cuisine": "turkish",
+    "country": "turkey",
+    "region": "anatolia",
+    "language": "en",
+    "mealType": [
+      "side",
+      "lunch",
+      "dinner"
+    ],
+    "dietType": [
+      "vegetarian"
+    ],
+    "difficulty": "easy",
+    "spiceLevel": "none",
+    "budgetLevel": "budget",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "basmati or long-grain rice, soaked 15 minutes",
+        "normalizedName": "basmati-rice",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "name": "vermicelli (seviya), broken into 2 cm pieces",
+        "normalizedName": "vermicelli",
+        "quantity": 60,
+        "unit": "g",
+        "optional": false,
+        "notes": "Indian seviya/vermicelli works perfectly"
+      },
+      {
+        "name": "butter",
+        "normalizedName": "butter",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "notes": "butter gives the best flavour; ghee also works"
+      },
+      {
+        "name": "oil",
+        "normalizedName": "oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "name": "water or vegetable stock",
+        "normalizedName": "water",
+        "quantity": 550,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "name": "salt",
+        "normalizedName": "salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Heat butter and oil together in a heavy-bottomed pot on medium flame until the butter foams and the foam subsides — combined fat prevents the butter from burning. Add the broken vermicelli pieces.",
+        "method": "sauteing"
+      },
+      {
+        "order": 2,
+        "text": "Stir the vermicelli constantly for 3–4 minutes on medium flame until evenly golden-brown and nutty-smelling — watch carefully as they can go from golden to burnt quickly.",
+        "timerMinutes": 4
+      },
+      {
+        "order": 3,
+        "text": "Drain the soaked rice well and add to the pot. Stir gently for 1 minute to coat the grains in the butter and lightly toast them.",
+        "timerMinutes": 1
+      },
+      {
+        "order": 4,
+        "text": "Pour in 550 ml boiling water (or warm stock) and salt. Stir once, bring to a boil, then reduce to the lowest flame. Cover tightly with a lid.",
+        "method": "simmering"
+      },
+      {
+        "order": 5,
+        "text": "Cook covered on very low flame for 15 minutes — do not lift the lid. After 15 minutes, remove from heat and leave covered for 10 more minutes. The rice will finish cooking in the residual steam.",
+        "timerMinutes": 25
+      },
+      {
+        "order": 6,
+        "text": "Fluff with a fork and serve. Every grain should be separate and lightly golden, with the toasted vermicelli distributed throughout. Serve as a side with kofta, shawarma or any grilled dish."
+      }
+    ],
+    "cookware": [
+      "heavy-bottomed-pot"
+    ],
+    "methods": [
+      "sauteing",
+      "simmering",
+      "one-pot"
+    ],
+    "tags": [
+      "comfort-food",
+      "budget",
+      "kids-friendly",
+      "one-pot-meal",
+      "quick",
+      "under-30-minutes"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ],
+    "nutrition": {
+      "calories": 290,
+      "protein": 5,
+      "carbs": 52,
+      "fat": 7,
+      "fiber": 1,
+      "sugar": 0,
+      "sodium": null,
+      "isEstimate": true
+    },
+    "substitutions": [
+      {
+        "ingredient": "butter",
+        "substitute": "ghee — equal quantity; gives a richer, more Indian character",
+        "notes": "both work beautifully"
+      },
+      {
+        "ingredient": "vermicelli",
+        "substitute": "fine broken pasta (angel hair) or thin broken spaghetti",
+        "notes": "toast the same way"
+      },
+      {
+        "ingredient": "basmati-rice",
+        "substitute": "sona masoori or any long-grain rice, soaked 20 minutes",
+        "notes": "adjust water by 30 ml if using shorter grain rice"
+      }
+    ],
+    "culturalNote": "Şehriyeli pilav is the default rice side dish across Turkish homes — simple enough for a Tuesday but polished enough for guests. The toasted vermicelli is the step that most surprises newcomers to Turkish cooking.",
+    "regionalVariation": null,
+    "indianKitchenAdaptation": "Indian seviya (vermicelli) is identical to Turkish şehriye — available in every kirana store for a few rupees. Toast in a kadai with ghee or butter on medium flame. The technique and result are very similar to the rice-and-vermicelli base used in Indian pilaf. Use any long-grain rice you have.",
+    "source": "Cook Anything editorial — AI-drafted original",
+    "sourceUrl": null,
+    "license": "original",
+    "author": "Cook Anything Kitchen",
+    "verificationStatus": "ai_drafted",
+    "image": null,
+    "imageLicense": null,
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z"
+  }
+]
