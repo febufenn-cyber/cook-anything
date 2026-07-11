@@ -107,7 +107,8 @@ assert.equal(conflictReason(mutation({ entityType: "meal_plan_entry", recordId: 
 const root = process.cwd();
 const migration = fs.readFileSync(path.join(root, "supabase", "migrations", "20260712_phase5_portable_kitchen.sql"), "utf8");
 const hardening = fs.readFileSync(path.join(root, "supabase", "migrations", "20260712_phase5_sync_push_hardening.sql"), "utf8");
-const sql = `${migration}\n${hardening}`;
+const migrationDevice = fs.readFileSync(path.join(root, "supabase", "migrations", "20260712_phase5_migration_device_registration.sql"), "utf8");
+const sql = `${migration}\n${hardening}\n${migrationDevice}`;
 
 assert.match(sql, /auth\.uid\(\)/);
 assert.match(sql, /sync_mutation_receipts/);
@@ -122,6 +123,9 @@ assert.doesNotMatch(sql, /grant\s+(?:select|insert|update|delete|all)\s+on\s+pub
 assert.match(hardening, /current_record := null/);
 assert.match(hardening, /receipt := null/);
 assert.match(hardening, /server-compacted/);
+assert.match(migrationDevice, /existing_user <> actor/);
+assert.match(migrationDevice, /existing_revoked is not null/);
+assert.match(migrationDevice, /Migration device/);
 assert.match(sql, /secret_field_forbidden/);
 assert.match(sql, /request_account_deletion/);
 
