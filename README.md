@@ -78,7 +78,7 @@ worker/           public API, validation, execution and Durable Object boundarie
 bridge/           hardened optional Claude Code bridge and shutdown controls
 scripts/          data pipeline, companion snapshot generator and security tests
 docs/             recipe spec, scaling, AI assistant, Phase 0/1 runbooks
-.db/schema.sql    Postgres/Supabase upgrade path
+db/schema.sql     Postgres/Supabase upgrade path
 ```
 
 ## Content rules
