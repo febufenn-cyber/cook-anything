@@ -122,12 +122,18 @@ async function testStateBlockBoundary(): Promise<void> {
   assert.deepEqual(valid.state, state);
 
   const malformedJson = parseStateBlock("Safe visible reply.<state>{not-json}</state>hidden-tail");
-  assert.equal(malformedJson.reply, "Safe visible reply.hidden-tail");
+  assert.equal(malformedJson.reply, "Safe visible reply.");
   assert.equal(malformedJson.state, null);
 
   const missingClose = parseStateBlock("Safe visible reply.<state>{\"secret\":\"must not leak\"}");
   assert.equal(missingClose.reply, "Safe visible reply.");
   assert.equal(missingClose.state, null);
+
+  const repeated = parseStateBlock(
+    `Visible.<state>${JSON.stringify(state)}</state><state>{\"secret\":true}</state>`,
+  );
+  assert.equal(repeated.reply, "Visible.");
+  assert.deepEqual(repeated.state, state);
 }
 
 async function testGate(): Promise<void> {
