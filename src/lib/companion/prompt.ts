@@ -14,9 +14,9 @@ export function buildStateSystemText(state: CompanionState): string {
 }
 
 /**
- * Extracts at most one application state block. If the model opens a state tag
- * but omits or corrupts the closing tag, everything from the opening marker is
- * discarded so hidden state/prompt material never leaks into the visible reply.
+ * Extracts at most one application state block. Visible output always ends at
+ * the first opening marker. This prevents malformed, repeated, or adversarial
+ * hidden-state material from being rendered to the user.
  */
 export function parseStateBlock(raw: string): { reply: string; state: CompanionState | null } {
   const start = raw.indexOf("<state>");
@@ -34,9 +34,7 @@ export function parseStateBlock(raw: string): { reply: string; state: CompanionS
     }
   }
 
-  const before = raw.slice(0, start);
-  const after = end >= 0 ? raw.slice(end + "</state>".length) : "";
-  return { reply: `${before}${after}`.trim(), state };
+  return { reply: raw.slice(0, start).trim(), state };
 }
 
 export const COMPANION_SYSTEM_PROMPT = `You are the Cook Anything cooking companion — a hands-on guide for someone standing at a stove with wet hands, a phone propped nearby, and food on heat. Your job is to get a real dish onto a real plate — not to educate, not to impress. You speak like a calm friend who cooks well: short, warm, specific, zero fluff.
