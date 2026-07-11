@@ -6,7 +6,16 @@
 # Claude subscription login (re-auth with the vps-claude-oauth flow).
 set -u
 LOG=/opt/cook-anything/logs/watchdog.log
+DISABLE_MARKER=/opt/cook-anything/BRIDGE_DISABLED
+mkdir -p "$(dirname "$LOG")"
 note() { printf '%s %s\n' "$(date -u +%FT%TZ)" "$1" >> "$LOG"; }
+
+# Safety shutdown beats availability. phase0-disable.sh creates this marker;
+# cron may continue to invoke the watchdog, but it must never resurrect either
+# service until an operator deliberately removes the marker.
+if [ -e "$DISABLE_MARKER" ]; then
+  exit 0
+fi
 
 # 1. Bridge answering locally?
 if ! curl -fsS -m 5 localhost:8788/health >/dev/null 2>&1; then
