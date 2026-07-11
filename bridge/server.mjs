@@ -31,8 +31,6 @@ if (!SIGNING_SECRET || SIGNING_SECRET.length < 32) {
 }
 await mkdir(WORK_DIR, { recursive: true, mode: 0o700 });
 
-const DISALLOWED_TOOLS =
-  "Bash,Read,Edit,Write,NotebookEdit,WebFetch,WebSearch,Task,Glob,Grep,TodoWrite,KillShell,BashOutput";
 const replayCache = new Map();
 let activeExecutions = 0;
 
@@ -236,7 +234,12 @@ async function executeTurn(body, abortSignal) {
     "--output-format", "json",
     "--model", MODEL,
     "--max-turns", "1",
-    "--disallowed-tools", DISALLOWED_TOOLS,
+    "--safe-mode",
+    "--disable-slash-commands",
+    "--no-session-persistence",
+    "--strict-mcp-config",
+    "--tools", "",
+    "--disallowed-tools", "*",
     "--system-prompt", `${body.system}\n\n${body.state_system}`,
   ];
 
