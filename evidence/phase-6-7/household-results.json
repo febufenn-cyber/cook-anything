@@ -1,0 +1,38 @@
+{
+  "id": "household",
+  "date": "2026-07-12T10:48:26.041Z",
+  "project": "cook-anything-staging (hosted; ref redacted)",
+  "source": "evidence/phase-6-7/hosted-battery-results.json",
+  "results": [
+    {
+      "id": "household-create",
+      "status": "passed",
+      "detail": "status 200"
+    },
+    {
+      "id": "household-invite-create",
+      "status": "passed",
+      "detail": "status 200"
+    },
+    {
+      "id": "household-invite-accept",
+      "status": "passed",
+      "detail": "status 200"
+    },
+    {
+      "id": "household-invite-replay-rejected",
+      "status": "passed",
+      "detail": "status 400"
+    },
+    {
+      "id": "household-viewer-write-denied",
+      "status": "passed",
+      "detail": "status 400"
+    },
+    {
+      "id": "household-removed-member-loses-access",
+      "status": "passed",
+      "detail": "status 404"
+    }
+  ]
+}

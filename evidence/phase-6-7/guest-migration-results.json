@@ -1,0 +1,14 @@
+{
+  "id": "guest-migration",
+  "date": "2026-07-12T10:48:26.041Z",
+  "status": "partial",
+  "provenHosted": [
+    "use-this-device reset semantics (sync_reset_personal_scope: tombstone+reupload path, status 200)"
+  ],
+  "pendingHosted": [
+    "merge choice with real conflict display (UI flow)",
+    "use-cloud-kitchen pull-from-zero (UI flow)",
+    "no-auto-selection + cancellation safety (UI flow)"
+  ],
+  "note": "RPC-level semantics proven; the three-choice UI flow needs a browser session against staging with auth \u2014 queued with device QA."
+}

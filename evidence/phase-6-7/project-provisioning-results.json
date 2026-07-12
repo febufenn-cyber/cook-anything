@@ -1,0 +1,14 @@
+{
+  "id": "staging-project-provisioning",
+  "date": "2026-07-12",
+  "projectName": "cook-anything-staging",
+  "projectRef": "xiyjdy\u2026(redacted)",
+  "region": "ap-south-1 (Mumbai) \u2014 closest to intended users",
+  "createdAt": "2026-07-12T08:34:19Z",
+  "cliVersion": "2.105.0",
+  "purpose": "staging-only; NOT production (no production Supabase project exists for this product)",
+  "identityVerified": "twice: creation output + projects list both show cook-anything-staging/ap-south-1/ACTIVE_HEALTHY",
+  "unblockedBy": "explicit owner authorization to pause the unrelated active project <UNRELATED_PROJECT_B> (Management API pause, HTTP 200, status INACTIVE confirmed)",
+  "password": "generated fresh (38-char urlsafe), stored only in <LOCAL_SECRET_STORE> mode 600; never printed or committed",
+  "resolvesBlocker": "SUPABASE_FREE_TIER_PROJECT_CAP"
+}

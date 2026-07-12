@@ -1,0 +1,12 @@
+=== remote migrations ===
+[{"version":"20260712000100"},{"version":"20260712000200"},{"version":"20260712000300"},{"version":"20260712000400"},{"version":"20260712000500"},{"version":"20260712000600"},{"version":"20260712000700"}]
+=== public table count ===
+[{"count":18}]
+=== tables without RLS (must be []) ===
+[]
+=== direct anon/authenticated grants (must be []) ===
+[]
+=== service-role-only fns callable by authenticated (must be []) ===
+[{"proname":"claim_publication_candidate"},{"proname":"mark_publication_candidate_pr"},{"proname":"prepare_contribution_account_deletion"},{"proname":"recover_expired_publication_claims"}]
+=== authenticated RPC grants exist (expect >20) ===
+[{"count":35}]

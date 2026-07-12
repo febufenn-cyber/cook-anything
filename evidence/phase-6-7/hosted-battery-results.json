@@ -1,0 +1,161 @@
+{
+  "id": "hosted-staging-battery",
+  "project": "cook-anything-staging (ref redacted)",
+  "date": "2026-07-12T10:48:26.041Z",
+  "total": 30,
+  "passed": 29,
+  "warned": 1,
+  "failed": 0,
+  "results": [
+    {
+      "id": "rls-anon-table-read-denied",
+      "status": "passed",
+      "detail": "status 401"
+    },
+    {
+      "id": "device-registration",
+      "status": "passed",
+      "detail": "status 200 {\"ok\":true}"
+    },
+    {
+      "id": "sync-push",
+      "status": "passed",
+      "detail": "status 200 {\"accepted\":[],\"conflicts\":[{\"id\":\"1d29fdc3-182d-40ab-9472-4f32669132de\",\"reason\":\"concurrent_edit\","
+    },
+    {
+      "id": "duplicate-mutation-idempotent",
+      "status": "passed",
+      "detail": "same mutationId replayed without error/duplication"
+    },
+    {
+      "id": "rls-cross-user-pull-denied",
+      "status": "passed",
+      "detail": "denied 404"
+    },
+    {
+      "id": "household-create",
+      "status": "passed",
+      "detail": "status 200"
+    },
+    {
+      "id": "household-invite-create",
+      "status": "passed",
+      "detail": "status 200"
+    },
+    {
+      "id": "household-invite-accept",
+      "status": "passed",
+      "detail": "status 200"
+    },
+    {
+      "id": "household-invite-replay-rejected",
+      "status": "passed",
+      "detail": "status 400"
+    },
+    {
+      "id": "household-viewer-write-denied",
+      "status": "passed",
+      "detail": "status 400"
+    },
+    {
+      "id": "household-removed-member-loses-access",
+      "status": "passed",
+      "detail": "status 404"
+    },
+    {
+      "id": "contribution-draft-create",
+      "status": "passed",
+      "detail": "status 200 {\"draft\":{\"id\":\"bd5dcdb5-be38-4d95-96e2-cd7f78e22b51\",\"scope\":{\"id\":null,\"type\":"
+    },
+    {
+      "id": "contribution-submit",
+      "status": "passed",
+      "detail": "status 200 {\"draft\":{\"id\":\"bd5dcdb5-be38-4d95-96e2-cd7f78e22b51\",\"scope\":{\"id\":null,\"type\":\"personal\"},\"title\":"
+    },
+    {
+      "id": "contributor-self-review-blocked",
+      "status": "passed",
+      "detail": "status 400 {\"code\":\"P0001\",\"details\":null,\"hint\":null,\"message\":\"self_review_forbidden\"}"
+    },
+    {
+      "id": "double-tester-blocked",
+      "status": "warn",
+      "detail": "first 404, second 404"
+    },
+    {
+      "id": "browser-cannot-claim-candidates",
+      "status": "passed",
+      "detail": "status 403"
+    },
+    {
+      "id": "browser-cannot-run-deletion-prep",
+      "status": "passed",
+      "detail": "status 403"
+    },
+    {
+      "id": "magic-link-generated",
+      "status": "passed",
+      "detail": "status 200"
+    },
+    {
+      "id": "magic-link-first-use",
+      "status": "passed",
+      "detail": "status 200"
+    },
+    {
+      "id": "magic-link-replay-rejected",
+      "status": "passed",
+      "detail": "status 403"
+    },
+    {
+      "id": "magic-link-malformed-rejected",
+      "status": "passed",
+      "detail": "status 403"
+    },
+    {
+      "id": "token-refresh",
+      "status": "passed",
+      "detail": "status 200"
+    },
+    {
+      "id": "sign-out",
+      "status": "passed",
+      "detail": "status 204"
+    },
+    {
+      "id": "revoked-session-refresh-rejected",
+      "status": "passed",
+      "detail": "status 400"
+    },
+    {
+      "id": "revoked-device-push-denied",
+      "status": "passed",
+      "detail": "revoke 200, push-after 400"
+    },
+    {
+      "id": "use-this-device-reset",
+      "status": "passed",
+      "detail": "status 200 {\"ok\":true,\"deleted\":0}"
+    },
+    {
+      "id": "deletion-requested",
+      "status": "passed",
+      "detail": "status 200"
+    },
+    {
+      "id": "deletion-worker-hosted",
+      "status": "passed",
+      "detail": "{\"id\":\"account-deletion-worker\",\"processed\":1,\"completed\":1,\"failed\":0,\"dryRun\":false,\"users\":[{\"userId\":\"a37beca7-fad9-"
+    },
+    {
+      "id": "deletion-auth-user-gone",
+      "status": "passed",
+      "detail": "status 404"
+    },
+    {
+      "id": "deletion-idempotent-rerun",
+      "status": "passed",
+      "detail": "rerun no-op"
+    }
+  ]
+}

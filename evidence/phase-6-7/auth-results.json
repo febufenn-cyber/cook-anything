@@ -1,0 +1,48 @@
+{
+  "id": "auth",
+  "date": "2026-07-12T10:48:26.041Z",
+  "project": "cook-anything-staging (hosted; ref redacted)",
+  "source": "evidence/phase-6-7/hosted-battery-results.json",
+  "results": [
+    {
+      "id": "magic-link-generated",
+      "status": "passed",
+      "detail": "status 200"
+    },
+    {
+      "id": "magic-link-first-use",
+      "status": "passed",
+      "detail": "status 200"
+    },
+    {
+      "id": "magic-link-replay-rejected",
+      "status": "passed",
+      "detail": "status 403"
+    },
+    {
+      "id": "magic-link-malformed-rejected",
+      "status": "passed",
+      "detail": "status 403"
+    },
+    {
+      "id": "token-refresh",
+      "status": "passed",
+      "detail": "status 200"
+    },
+    {
+      "id": "sign-out",
+      "status": "passed",
+      "detail": "status 204"
+    },
+    {
+      "id": "revoked-session-refresh-rejected",
+      "status": "passed",
+      "detail": "status 400"
+    }
+  ],
+  "providers": {
+    "magicLink": "passed (generate/first-use/replay-rejected/malformed-rejected via admin link API)",
+    "google": "blocked \u2014 no staging OAuth console credentials",
+    "apple": "blocked \u2014 no staging OAuth console credentials"
+  }
+}

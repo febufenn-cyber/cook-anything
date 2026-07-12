@@ -1,0 +1,10 @@
+{
+  "id": "publication-lifecycle-hosted",
+  "date": "2026-07-12",
+  "status": "passed",
+  "environment": "hosted cook-anything-staging Supabase + real GitHub repo cook-anything-staging-pub (never production)",
+  "claiming": "5/5 \u2014 atomic claim (1-of-8 concurrency winner), token gate, expiry recovery, duplicate-PR prevention, janitor",
+  "operator": "5/5 \u2014 crash after commit/branch/PR each with base-branch advancement, resume without duplicates, unrelated-branch refusal, allowlist enforcement; draft-PR-only; quarantine paths only; no merge/deploy capability",
+  "operatorState": "remains DISABLED \u2014 not a continuously running service; no production repo access",
+  "evidence": "evidence/phase-6-7/lifecycle-restore-run.log"
+}

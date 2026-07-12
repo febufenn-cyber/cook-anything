@@ -117,7 +117,8 @@ const SECRET_PATTERNS = [
   /sk-[a-zA-Z0-9]{20,}/,
   /service_role/i,
   /BRIDGE_SIGNING_SECRET\s*[:=]\s*["'][^"']+/,
-  /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9\.[A-Za-z0-9_-]{20,}/,
+  // JWTs are checked separately below: the publishable anon key is browser-safe
+  // by design; only privileged-role JWTs (service_role) are secrets.
   /ghp_[A-Za-z0-9]{20,}/,
   /github_pat_[A-Za-z0-9_]{20,}/,
 ];
@@ -126,6 +127,12 @@ for (const path of bundlePaths) {
   const source = await (await get(path)).text();
   for (const pattern of SECRET_PATTERNS) {
     if (pattern.test(source)) bundleFinding = `${path} matches ${pattern}`;
+  }
+  for (const jwt of source.match(/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9\.[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{10,}/g) ?? []) {
+    try {
+      const payload = JSON.parse(Buffer.from(jwt.split(".")[1], "base64url").toString("utf8"));
+      if (payload.role && payload.role !== "anon") bundleFinding = `${path} contains a ${payload.role} JWT`;
+    } catch { bundleFinding = `${path} contains an undecodable JWT`; }
   }
 }
 record("bundles-no-secrets", bundleFinding === "", bundleFinding || `${bundlePaths.length} bundles scanned`);

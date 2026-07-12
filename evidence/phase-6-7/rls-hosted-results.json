@@ -1,0 +1,53 @@
+{
+  "id": "rls-hosted",
+  "date": "2026-07-12T10:48:26.041Z",
+  "project": "cook-anything-staging (hosted; ref redacted)",
+  "source": "evidence/phase-6-7/hosted-battery-results.json",
+  "results": [
+    {
+      "id": "rls-anon-table-read-denied",
+      "status": "passed",
+      "detail": "status 401"
+    },
+    {
+      "id": "rls-cross-user-pull-denied",
+      "status": "passed",
+      "detail": "denied 404"
+    },
+    {
+      "id": "household-viewer-write-denied",
+      "status": "passed",
+      "detail": "status 400"
+    },
+    {
+      "id": "household-removed-member-loses-access",
+      "status": "passed",
+      "detail": "status 404"
+    },
+    {
+      "id": "contributor-self-review-blocked",
+      "status": "passed",
+      "detail": "status 400 {\"code\":\"P0001\",\"details\":null,\"hint\":null,\"message\":\"self_review_forbidden\"}"
+    },
+    {
+      "id": "double-tester-blocked",
+      "status": "warn",
+      "detail": "first 404, second 404"
+    },
+    {
+      "id": "browser-cannot-claim-candidates",
+      "status": "passed",
+      "detail": "status 403"
+    },
+    {
+      "id": "browser-cannot-run-deletion-prep",
+      "status": "passed",
+      "detail": "status 403"
+    }
+  ],
+  "note": "Core actor matrix proven hosted (anon, A/B isolation, viewer write-denial, removed member, self-review block, browser denial of trusted RPCs). Double-tester rule NOT fully proven hosted (harness call-shape warn) \u2014 remains a follow-up.",
+  "blockedActors": [
+    "editorial vs safety reviewer split flows",
+    "publisher/administrator role flows beyond claim denial"
+  ]
+}

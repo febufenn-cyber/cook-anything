@@ -1,0 +1,71 @@
+{
+  "phase": "6.7",
+  "baseCommit": "b2be565c5208dc766517caef80fbaec2f0ab106f",
+  "checks": [
+    {
+      "id": "staging-project-creation-retest",
+      "status": "blocked",
+      "environment": "supabase cloud",
+      "date": "2026-07-12",
+      "actor": "supabase CLI (authenticated)",
+      "inputs": "supabase projects create cook-anything-staging --org-id <SUPABASE_ORG_ID> --region ap-south-1 (fresh password generated into <LOCAL_SECRET_STORE>, mode 600)",
+      "observedResult": "REJECTED again: organization still at the two-active-free-project limit. Project list shows the previously INACTIVE default project was deleted (it never counted), while both remaining projects are ACTIVE_HEALTHY. No slot was actually freed.",
+      "evidence": "this entry (sanitized); CLI error message verbatim in PR discussion",
+      "unresolvedRisk": "all Phase 6.7 hosted gates remain blocked"
+    },
+    {
+      "id": "staging-project-created",
+      "status": "passed",
+      "environment": "supabase cloud",
+      "date": "2026-07-12",
+      "observedResult": "cook-anything-staging ACTIVE_HEALTHY in ap-south-1 after explicit owner authorization to pause an unrelated project; identity verified twice; fresh password in <LOCAL_SECRET_STORE> (mode 600)",
+      "evidence": "evidence/phase-6-7/project-provisioning-results.json",
+      "resolvesBlocker": "SUPABASE_FREE_TIER_PROJECT_CAP"
+    },
+    {
+      "id": "hosted-migrations-applied",
+      "status": "passed",
+      "environment": "hosted staging",
+      "date": "2026-07-12",
+      "observedResult": "10 migrations (000100-001000) applied; three hosted-only defects found and fixed forward (000800 grant hardening, 000900 pgcrypto search_path, 001000 sync_push ambiguity)",
+      "evidence": "evidence/phase-6-7/migration-results.json"
+    },
+    {
+      "id": "hosted-battery",
+      "status": "passed",
+      "environment": "hosted staging",
+      "date": "2026-07-12",
+      "observedResult": "29 passed / 1 warn / 0 failed: RLS core matrix, magic-link auth (incl. replay/malformed rejection), sync push+conflict+idempotency+revocation+reset, households (invite lifecycle incl. replay + removed-member), deletion drill (full pipeline + idempotent rerun). Warn: double-tester rule call-shape — not fully proven hosted",
+      "evidence": "evidence/phase-6-7/hosted-battery-results.json + split files"
+    },
+    {
+      "id": "staging-deploy-smoke",
+      "status": "passed",
+      "environment": "staging (deployed)",
+      "date": "2026-07-12",
+      "observedResult": "Supabase-enabled staging build (URL + publishable key baked; NO service_role in bundle) deployed as version fa5928ff; smoke 25/25",
+      "evidence": "evidence/phase-6-7/hosted-run.log"
+    }
+  ],
+  "blockers": [
+    {
+      "blocker": "SUPABASE_FREE_TIER_PROJECT_CAP",
+      "status": "RESOLVED 2026-07-12: owner explicitly authorized pausing <UNRELATED_PROJECT_B>; cook-anything-staging created (ap-south-1), linked, migrated and validated",
+      "impact": "Hosted staging project cannot be created; every hosted gate in Phase 6.7 (RLS matrix, Auth, sync chaos, households, deletion, restore, publication lifecycle) remains blocked",
+      "requiredHumanAction": "PAUSE one of the two ACTIVE free projects (owner decision — pausing suffices; deletion not required) or upgrade the organization, then re-invoke Phase 6.7. Deleting the already-inactive default project did not free a slot because only ACTIVE projects count toward the limit."
+    },
+    {
+      "blocker": "OAUTH_PROVIDER_CREDENTIALS_UNAVAILABLE",
+      "status": "blocked",
+      "impact": "Google/Apple OAuth unconfigured and untested on staging (magic-link fully proven)",
+      "requiredHumanAction": "Create staging OAuth clients in the Google/Apple consoles with the staging callback URL, then rerun the auth suite"
+    },
+    {
+      "blocker": "HOSTED_UI_FLOW_VALIDATION_PENDING",
+      "status": "blocked",
+      "impact": "Guest-migration three-choice UI flow, full sync-chaos long tail (clock skew, thousand-mutation queues, compaction) and double-tester hosted proof remain",
+      "requiredHumanAction": "Run browser-session flows against staging (pairs naturally with the pending physical-device QA)"
+    }
+  ],
+  "generatedAt": "2026-07-12T15:30:00Z"
+}
