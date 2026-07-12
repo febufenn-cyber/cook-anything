@@ -1,0 +1,93 @@
+{
+  "phase": "6.6",
+  "baseCommit": "b94d1c9ba4bf912e30e25f4d2966cb7e7f8db72d",
+  "branch": "agent/phase-6-6-device-qa-supabase-staging",
+  "generatedAt": "2026-07-12T11:30:00Z",
+  "checks": [
+    {
+      "id": "publication-operator-crash-resumption",
+      "status": "passed",
+      "environment": "real GitHub staging repo (cook-anything-staging-pub) + local Supabase stack",
+      "date": "2026-07-12",
+      "actor": "scripts/test-publication-operator-resumption.mjs",
+      "observedResult": "5/5 after commit-before-branch redesign: crash-after-commit + BASE ADVANCE (orphan ignored, rebuilt on new base), crash-after-branch + BASE ADVANCE (verified branch adopted), crash-after-pr (no duplicate), unrelated branch refused, allowlist enforced. Empty-deterministic-branch failure mode eliminated by design.",
+      "evidence": "evidence/phase-6-6/publication-operator-results.json",
+      "resolvesBlocker": "PUBLICATION_OPERATOR_GITHUB_CRASH_RESUMPTION",
+      "unresolvedRisk": "operator remains disabled; full lifecycle on hosted Supabase pending the staging project"
+    },
+    {
+      "id": "browser-qa-real-chromium",
+      "status": "passed",
+      "environment": "real Chromium engine (Playwright, automated) vs deployed staging",
+      "date": "2026-07-12",
+      "actor": "scripts/qa-browser-matrix.mjs",
+      "observedResult": "21 passed / 1 step-dependent warn / 0 failed after fixes: search incl. Tamil/Hinglish aliases (thayir/pyaz -> 26 matches) + typo, recipe page, Cook Mode open/advance, kitchen/account/my-recipes routes, keyboard tab-order 12/12 + visible focus, no horizontal scroll at 640px, reduced-motion, SW active, offline home+recipe, reconnection, axe 0 violations on 4 pages",
+      "evidence": "evidence/phase-6-6/qa-browser-results.json",
+      "unresolvedRisk": "automated real-engine only; NOT physical-device or screen-reader evidence"
+    },
+    {
+      "id": "accessibility-defects-fixed",
+      "status": "passed",
+      "environment": "staging (deployed) + source",
+      "date": "2026-07-12",
+      "actor": "phase-6.6 agent (Claude)",
+      "observedResult": "axe found 2 critical (unlabeled date input + meal select on kitchen/recipe actions) and site-wide serious color-contrast (tamarind-faint/turmeric-deep 3.66-4.39, below AA 4.5). Fixed: aria-labels added; tokens darkened to #6b5545/#8a5a00 (>=5.0 on all backgrounds). Redeployed staging, re-scanned: 0 violations on all 4 pages.",
+      "evidence": "evidence/phase-6-6/qa-browser-results.json (before/after)",
+      "unresolvedRisk": "manual screen-reader pass still required to confirm semantics beyond axe"
+    },
+    {
+      "id": "supabase-hosted-staging",
+      "status": "blocked",
+      "environment": "supabase cloud",
+      "date": "2026-07-12",
+      "actor": "supabase CLI",
+      "observedResult": "Project creation rejected: org at 2-active-free-project cap. All hosted gates (RLS matrix, OAuth, sync chaos, hosted deletion, restore drill) blocked; local-stack evidence collected and labeled.",
+      "evidence": "evidence/phase-6-6/supabase-staging-results.json",
+      "resolvesBlocker": null,
+      "unresolvedRisk": "hosted-infra parity unproven"
+    }
+  ],
+  "blockers": [
+    {
+      "blocker": "SUPABASE_FREE_TIER_PROJECT_CAP",
+      "status": "blocked",
+      "impact": "Cannot create the hosted staging project: org <SUPABASE_ORG_ID> already has 2 active free projects (<UNRELATED_PROJECT_A>, <UNRELATED_PROJECT_B>). Creation attempt on 2026-07-12 was rejected by Supabase with the 2-project limit message. Hosted-infra gates (hosted RLS parity, hosted OAuth, hosted deletion/restore drills, sync chaos on real network) remain blocked; local isolated stack evidence is collected instead and labeled as such.",
+      "requiredHumanAction": "Pause or delete one unrelated free project, or upgrade the Supabase organization. Then create cook-anything-staging using <SUPABASE_ORG_ID>, <REGION>, and the database password stored in <LOCAL_SECRET_STORE>; link the project, apply migrations 000100\u2013000700, and rerun the Phase 6.6 hosted staging harnesses with staging-scoped environment variables.",
+      "stillBlocking": true
+    },
+    {
+      "blocker": "IPHONE_DEVICE_UNAVAILABLE",
+      "status": "blocked",
+      "impact": "Cannot validate real iPhone Safari, iOS PWA install, lock-screen Cook Mode recovery, or VoiceOver",
+      "requiredHumanAction": "Run the iPhone rows of docs/PHASE-6-6-DEVICE-ACCESSIBILITY-QA.md on a physical iPhone and attach sanitized evidence",
+      "stillBlocking": true
+    },
+    {
+      "blocker": "ANDROID_DEVICE_UNAVAILABLE",
+      "status": "blocked",
+      "impact": "Cannot validate real Android Chrome, Android PWA install, or TalkBack",
+      "requiredHumanAction": "Run the Android rows on a physical Android device and attach sanitized evidence",
+      "stillBlocking": true
+    },
+    {
+      "blocker": "SCREEN_READER_PASS_UNAVAILABLE",
+      "status": "blocked",
+      "impact": "No VoiceOver/TalkBack/NVDA manual pass possible from this agent environment; automated axe checks supplement but do not replace it",
+      "requiredHumanAction": "One manual screen-reader pass of the core flow (search -> recipe -> Cook Mode) with notes",
+      "stillBlocking": true
+    },
+    {
+      "blocker": "OAUTH_PROVIDER_CREDENTIALS_UNAVAILABLE",
+      "status": "blocked",
+      "impact": "Google/Apple OAuth clients require console access; cannot be configured or tested. Email magic-link flow is testable on the local stack via Mailpit and is covered.",
+      "requiredHumanAction": "Create Google (and optionally Apple) OAuth clients with staging redirect URLs and add them to the staging project once it exists",
+      "stillBlocking": true
+    },
+    {
+      "blocker": "PUBLICATION_OPERATOR_GITHUB_CRASH_RESUMPTION",
+      "status": "resolved",
+      "resolution": "Real GitHub crash-resumption tests pass (5/5) INCLUDING base-branch advancement between crash and resume, after the commit-before-branch redesign. Operator remains DISABLED pending hosted Supabase + moderation staffing.",
+      "stillBlocking": false
+    }
+  ]
+}

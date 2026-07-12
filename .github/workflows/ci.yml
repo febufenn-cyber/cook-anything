@@ -79,6 +79,14 @@ jobs:
           set -o pipefail
           node scripts/test-account-deletion-worker.mjs 2>&1 | tee deletion-worker-tests.log
 
+      - name: Phase 6.6 evidence + config checks
+        run: |
+          set -o pipefail
+          node scripts/check-phase66-evidence.mjs 2>&1 | tee phase66-evidence.log
+          node --check scripts/qa-browser-matrix.mjs
+          node --check scripts/test-publication-operator-resumption.mjs
+          npx tsc --noEmit
+
       - name: Mandatory recipe trust gate
         run: |
           set -o pipefail

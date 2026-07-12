@@ -1,0 +1,10 @@
+{
+  "id": "restore-drill",
+  "date": "2026-07-12",
+  "hostedStatus": "blocked",
+  "blocker": "SUPABASE_FREE_TIER_PROJECT_CAP",
+  "scope": "Backup + restore drill into an isolated recovery project",
+  "localStackEvidence": "harness/runbook ready; needs hosted project + real network for meaningful results",
+  "requiredHumanAction": "Free a Supabase project slot (pause/delete/upgrade), create cook-anything-staging, then rerun with STAGING_* env",
+  "safetyInvariant": null
+}

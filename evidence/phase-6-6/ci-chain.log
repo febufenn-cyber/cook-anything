@@ -1,0 +1,24 @@
+=== Final Phase 6.6 chain @ 2026-07-12T09:59:55Z ===
+Phase 6.6 evidence checks passed.
+test:companion: 2
+test:trust: 3
+test:product: 3
+test:kitchen: 1
+test:sync: 1
+test:contributions: 1
+Account-deletion worker tests passed.
+check-trust: 0 error(s), 47 warning(s)
+
+Total Upload: 47.20 KiB / gzip: 13.34 KiB
+=== DONE ===
+test:companion: 2
+test:trust: 3
+test:product: 3
+test:kitchen: 1
+test:sync: 1
+test:contributions: 1
+Account-deletion worker tests passed.
+check-trust: 0 error(s), 47 warning(s)
+
+Total Upload: 47.20 KiB / gzip: 13.34 KiB
+=== CHAIN DONE ===

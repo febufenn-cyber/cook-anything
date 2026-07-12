@@ -1,0 +1,7 @@
+gh: Not Found (HTTP 404)
+PASS crash-after-commit + base advance: orphaned commit ignored, rebuilt on new base, single draft PR, recorded
+PASS crash-after-branch + base advance: verified branch adopted, no duplicate work, recorded
+PASS crash-after-pr: existing PR adopted, no duplicate, recorded
+PASS unrelated-branch: refused, nothing overwritten, no PR
+PASS allowlist: non-allowlisted repository refused before any side effect
+Publication-operator crash-resumption tests passed.

@@ -1,0 +1,10 @@
+{
+  "id": "deletion-drill",
+  "date": "2026-07-12",
+  "hostedStatus": "blocked",
+  "blocker": "SUPABASE_FREE_TIER_PROJECT_CAP",
+  "scope": "Hosted account-deletion drill (normal, household owner, drafts, crash windows, idempotency, log privacy)",
+  "localStackEvidence": "Account-deletion full pipeline + idempotency proven on local stack (evidence/phase-6-5/artifacts/deletion-drill.log)",
+  "requiredHumanAction": "Free a Supabase project slot (pause/delete/upgrade), create cook-anything-staging, then rerun with STAGING_* env",
+  "safetyInvariant": null
+}

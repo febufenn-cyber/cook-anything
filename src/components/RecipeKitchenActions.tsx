@@ -101,8 +101,8 @@ export default function RecipeKitchenActions({ recipe }: { recipe: Recipe }) {
       </div>
       {showPlan && (
         <div className="mt-3 flex flex-wrap gap-2 rounded-card bg-rice-deep p-3">
-          <input type="date" value={date} onChange={(event) => setDate(event.target.value)} className="min-h-10 rounded-full border border-cardamom bg-card px-3 text-sm" />
-          <select value={meal} onChange={(event) => setMeal(event.target.value as typeof meal)} className="min-h-10 rounded-full border border-cardamom bg-card px-3 text-sm"><option value="breakfast">Breakfast</option><option value="lunch">Lunch</option><option value="dinner">Dinner</option><option value="snack">Snack</option></select>
+          <input type="date" value={date} onChange={(event) => setDate(event.target.value)} aria-label="Meal plan date" className="min-h-10 rounded-full border border-cardamom bg-card px-3 text-sm" />
+          <select value={meal} onChange={(event) => setMeal(event.target.value as typeof meal)} aria-label="Meal" className="min-h-10 rounded-full border border-cardamom bg-card px-3 text-sm"><option value="breakfast">Breakfast</option><option value="lunch">Lunch</option><option value="dinner">Dinner</option><option value="snack">Snack</option></select>
           <button onClick={() => void planMeal()} className="min-h-10 rounded-full bg-turmeric px-4 text-sm font-semibold">Add to plan</button>
         </div>
       )}

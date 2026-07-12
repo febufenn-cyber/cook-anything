@@ -1,0 +1,144 @@
+{
+  "id": "qa-browser-matrix",
+  "origin": "https://cook-anything-staging.robofox.online",
+  "generatedAt": "2026-07-12T09:41:42.597Z",
+  "environmentNote": "Automated real-Chromium runs. NOT physical-device or screen-reader evidence; those rows remain blocked in device-matrix.json.",
+  "total": 22,
+  "passed": 21,
+  "warned": 1,
+  "failed": 0,
+  "rows": [
+    {
+      "id": "homepage-load",
+      "environment": "real Chromium engine (Playwright, automated) on macOS",
+      "status": "passed",
+      "detail": "Cook Anything — Tell us what you have. Discover what the world cooks with it."
+    },
+    {
+      "id": "aliases-tamil-hinglish-match",
+      "environment": "real Chromium engine (Playwright, automated) on macOS",
+      "status": "passed",
+      "detail": "thayir/pyaz recognized -> 26 recipe links"
+    },
+    {
+      "id": "typo-handling",
+      "environment": "real Chromium engine (Playwright, automated) on macOS",
+      "status": "passed",
+      "detail": "typo 'tomto' surfaced a suggestion or match"
+    },
+    {
+      "id": "recipe-page",
+      "environment": "real Chromium engine (Playwright, automated) on macOS",
+      "status": "passed",
+      "detail": "Adai"
+    },
+    {
+      "id": "cook-mode-opens",
+      "environment": "real Chromium engine (Playwright, automated) on macOS",
+      "status": "passed",
+      "detail": "dialog role visible"
+    },
+    {
+      "id": "cook-mode-advance",
+      "environment": "real Chromium engine (Playwright, automated) on macOS",
+      "status": "passed",
+      "detail": "advanced two steps"
+    },
+    {
+      "id": "cook-mode-timer",
+      "environment": "real Chromium engine (Playwright, automated) on macOS",
+      "status": "warn",
+      "detail": "current step has no timer button (step-dependent)"
+    },
+    {
+      "id": "route-kitchen-",
+      "environment": "real Chromium engine (Playwright, automated) on macOS",
+      "status": "passed",
+      "detail": "status 200"
+    },
+    {
+      "id": "route-account-",
+      "environment": "real Chromium engine (Playwright, automated) on macOS",
+      "status": "passed",
+      "detail": "status 200"
+    },
+    {
+      "id": "route-my-recipes-",
+      "environment": "real Chromium engine (Playwright, automated) on macOS",
+      "status": "passed",
+      "detail": "status 200"
+    },
+    {
+      "id": "keyboard-tab-order",
+      "environment": "real Chromium engine (Playwright, automated) on macOS",
+      "status": "passed",
+      "detail": "12/12 tab stops landed on interactive elements"
+    },
+    {
+      "id": "keyboard-visible-focus",
+      "environment": "real Chromium engine (Playwright, automated) on macOS",
+      "status": "passed",
+      "detail": "focused element shows outline/box-shadow"
+    },
+    {
+      "id": "zoom-200-no-horizontal-scroll",
+      "environment": "real Chromium engine (Playwright, automated) on macOS (viewport-approximation of 200% zoom)",
+      "status": "passed",
+      "detail": "no horizontal overflow at 640px"
+    },
+    {
+      "id": "reduced-motion-loads",
+      "environment": "real Chromium engine (Playwright, automated) on macOS",
+      "status": "passed",
+      "detail": "page functional with prefers-reduced-motion: reduce"
+    },
+    {
+      "id": "service-worker-registered",
+      "environment": "real Chromium engine (Playwright, automated) on macOS",
+      "status": "passed",
+      "detail": "sw: active"
+    },
+    {
+      "id": "offline-reload-home",
+      "environment": "real Chromium engine (Playwright, automated) on macOS",
+      "status": "passed",
+      "detail": "offline reload status 200"
+    },
+    {
+      "id": "offline-cached-recipe",
+      "environment": "real Chromium engine (Playwright, automated) on macOS",
+      "status": "passed",
+      "detail": "cached recipe status 200"
+    },
+    {
+      "id": "reconnection",
+      "environment": "real Chromium engine (Playwright, automated) on macOS",
+      "status": "passed",
+      "detail": "online reload OK after offline period"
+    },
+    {
+      "id": "axe-",
+      "environment": "real Chromium engine (Playwright, automated) on macOS (automated axe-core supplement)",
+      "status": "passed",
+      "detail": "0 violations"
+    },
+    {
+      "id": "axe-what-can-i-cook-",
+      "environment": "real Chromium engine (Playwright, automated) on macOS (automated axe-core supplement)",
+      "status": "passed",
+      "detail": "0 violations"
+    },
+    {
+      "id": "axe-recipes-tamil-adai-",
+      "environment": "real Chromium engine (Playwright, automated) on macOS (automated axe-core supplement)",
+      "status": "passed",
+      "detail": "0 violations"
+    },
+    {
+      "id": "axe-kitchen-",
+      "environment": "real Chromium engine (Playwright, automated) on macOS (automated axe-core supplement)",
+      "status": "passed",
+      "detail": "0 violations"
+    }
+  ]
+}
