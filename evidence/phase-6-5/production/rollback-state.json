@@ -1,0 +1,14 @@
+{
+  "capturedAt": "2026-07-12T06:20:00Z",
+  "actor": "phase-6.5 agent (Claude), explicit human authorization for one production redeployment",
+  "productionUrl": "https://cook-anything.robofox.online",
+  "workerName": "cook-anything",
+  "previousDeployment": {
+    "versionId": "419abf27-f559-4add-934c-0e1b5b949cd6",
+    "created": "2026-07-11T02:51:58.280Z",
+    "note": "pre-Phase-6.5 build (static routes without security headers); later routing deployment 2026-07-11T03:01:10Z serves this same version at 100%"
+  },
+  "gitCommitBeingDeployed": "d3a4eea3b81d8aab04ae985fad37f99d44ee3eb3",
+  "rollbackCommand": "npx wrangler rollback  # interactive; or: npx wrangler versions deploy 419abf27-f559-4add-934c-0e1b5b949cd6@100%",
+  "rollbackVerification": "node scripts/staging-smoke-test.mjs https://cook-anything.robofox.online (expect the pre-6.5 header failures to return, confirming the old version)"
+}

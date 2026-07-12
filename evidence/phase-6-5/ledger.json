@@ -2,7 +2,7 @@
   "phase": "6.5",
   "commit": "5f838f8429164d211fe90df95105a8c297347f56",
   "branch": "agent/phase-6-5-staging-canary-operations",
-  "generatedAt": "2026-07-12T05:40:00Z",
+  "generatedAt": "2026-07-12T06:50:00Z",
   "checks": [
     {
       "id": "ci-chain-full-rerun",
@@ -181,6 +181,17 @@
       "observedResult": "GitHub verify runs 29178877046 and 29178878074 both success at 5f838f8; local full chain ALL PASSED at parent 29a09d2 (evidence-only delta between the two)",
       "evidence": "gh run 29178877046; evidence/phase-6-5/artifacts/ci-chain-final.log",
       "unresolvedRisk": "none"
+    },
+    {
+      "id": "production-redeploy-verified",
+      "status": "passed",
+      "environment": "production (deployed)",
+      "date": "2026-07-12",
+      "actor": "phase-6.5 agent (Claude) under explicit single-deploy authorization",
+      "inputs": "main @ d3a4eea via CONFIRM_PRODUCTION=yes npm run deploy:production; version 8fb4fd02 (rollback: 419abf27)",
+      "observedResult": "Smoke 25/25; cold(MISS)+cached(HIT) responses both carry the full security-header suite; /_next/static immutable, HTML revalidating, API no-store; companion fail-closed (503/not_configured/no cookie); bundle scan clean; no rollback needed",
+      "evidence": "evidence/phase-6-5/production/{summary.json,preflight.log,smoke.log,headers-cold-cached.log,fail-closed.log,rollback-state.json}",
+      "unresolvedRisk": "none"
     }
   ],
   "blockers": [
@@ -214,7 +225,9 @@
         "fix implemented and staging-verified 25/25",
         "guarded deploy script",
         "deployment runbook"
-      ]
+      ],
+      "status": "resolved",
+      "resolution": "Authorized single redeploy executed 2026-07-12: version 8fb4fd02, smoke 25/25, cold+cached headers verified — see check production-redeploy-verified"
     },
     {
       "blocker": "PUBLICATION_OPERATOR_GITHUB_CRASH_RESUMPTION",

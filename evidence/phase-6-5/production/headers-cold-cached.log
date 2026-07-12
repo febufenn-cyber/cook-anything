@@ -1,0 +1,32 @@
+=== COLD (never-requested path) ===
+HTTP/2 200 
+cf-cache-status: MISS
+cache-control: public, max-age=0, must-revalidate
+strict-transport-security: max-age=31536000; includeSubDomains
+content-security-policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' https: http://localhost:* http://127.0.0.1:*; media-src 'self' blob:; worker-src 'self' blob:
+cross-origin-opener-policy: same-origin
+cross-origin-resource-policy: same-origin
+permissions-policy: camera=(self), microphone=(self), geolocation=(), payment=(), usb=()
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: DENY
+=== SAME PATH REPEATED (cached) ===
+HTTP/2 200 
+cf-cache-status: HIT
+cache-control: public, max-age=0, must-revalidate
+strict-transport-security: max-age=31536000; includeSubDomains
+content-security-policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' https: http://localhost:* http://127.0.0.1:*; media-src 'self' blob:; worker-src 'self' blob:
+x-frame-options: DENY
+=== HOMEPAGE (repeat visit / cached) ===
+HTTP/2 200 
+cf-cache-status: HIT
+cache-control: public, max-age=0, must-revalidate
+content-security-policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' https: http://localhost:* http://127.0.0.1:*; media-src 'self' blob:; worker-src 'self' blob:
+x-frame-options: DENY
+=== /_next/static asset (immutable expected) ===
+HTTP/2 200 
+cf-cache-status: HIT
+cache-control: public, max-age=31536000, immutable
+=== API no-store (disabled companion) ===
+HTTP/2 503 
+cache-control: no-store

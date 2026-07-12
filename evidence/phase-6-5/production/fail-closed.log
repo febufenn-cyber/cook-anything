@@ -1,0 +1,10 @@
+=== POST /api/companion/session with valid shape ===
+HTTP/2 503 
+content-type: application/json; charset=utf-8
+content-length: 50
+cache-control: no-store
+x-content-type-options: nosniff
+
+{"reply":"","state":null,"error":"not_configured"}
+=== POST /api/companion/turn ===
+status 503
