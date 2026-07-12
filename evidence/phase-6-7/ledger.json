@@ -1,1 +1,26 @@
-{"phase":"6.7","baseCommit":"b2be565c5208dc766517caef80fbaec2f0ab106f","checks":[],"blockers":[]}
+{
+  "phase": "6.7",
+  "baseCommit": "b2be565c5208dc766517caef80fbaec2f0ab106f",
+  "checks": [
+    {
+      "id": "staging-project-creation-retest",
+      "status": "blocked",
+      "environment": "supabase cloud",
+      "date": "2026-07-12",
+      "actor": "supabase CLI (authenticated)",
+      "inputs": "supabase projects create cook-anything-staging --org-id <SUPABASE_ORG_ID> --region ap-south-1 (fresh password generated into <LOCAL_SECRET_STORE>, mode 600)",
+      "observedResult": "REJECTED again: organization still at the two-active-free-project limit. Project list shows the previously INACTIVE default project was deleted (it never counted), while both remaining projects are ACTIVE_HEALTHY. No slot was actually freed.",
+      "evidence": "this entry (sanitized); CLI error message verbatim in PR discussion",
+      "unresolvedRisk": "all Phase 6.7 hosted gates remain blocked"
+    }
+  ],
+  "blockers": [
+    {
+      "blocker": "SUPABASE_FREE_TIER_PROJECT_CAP",
+      "status": "still-blocked (retested 2026-07-12)",
+      "impact": "Hosted staging project cannot be created; every hosted gate in Phase 6.7 (RLS matrix, Auth, sync chaos, households, deletion, restore, publication lifecycle) remains blocked",
+      "requiredHumanAction": "PAUSE one of the two ACTIVE free projects (owner decision \u2014 pausing suffices; deletion not required) or upgrade the organization, then re-invoke Phase 6.7. Deleting the already-inactive default project did not free a slot because only ACTIVE projects count toward the limit."
+    }
+  ],
+  "generatedAt": "2026-07-12T12:40:00Z"
+}
