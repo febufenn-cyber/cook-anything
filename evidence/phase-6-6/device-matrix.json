@@ -1,0 +1,59 @@
+{
+  "id": "device-accessibility-matrix",
+  "date": "2026-07-12",
+  "origin": "https://cook-anything-staging.robofox.online",
+  "physicalDevicesTested": [],
+  "browsersTested": [
+    "Chromium (real engine, Playwright, automated) on macOS"
+  ],
+  "assistiveTechTested": [],
+  "automatedRealEngine": {
+    "note": "Real Chromium engine, automated. Supplements \u2014 does not replace \u2014 physical-device and manual screen-reader testing.",
+    "resultFile": "evidence/phase-6-6/qa-browser-results.json"
+  },
+  "blockedRows": [
+    {
+      "row": "iPhone Safari (all)",
+      "reason": "physical device unavailable",
+      "blocker": "IPHONE_DEVICE_UNAVAILABLE"
+    },
+    {
+      "row": "Android Chrome (all)",
+      "reason": "physical device unavailable",
+      "blocker": "ANDROID_DEVICE_UNAVAILABLE"
+    },
+    {
+      "row": "PWA install (iOS + Android)",
+      "reason": "physical device unavailable"
+    },
+    {
+      "row": "VoiceOver / TalkBack / NVDA manual pass",
+      "reason": "no screen reader in agent env",
+      "blocker": "SCREEN_READER_PASS_UNAVAILABLE"
+    },
+    {
+      "row": "macOS Safari / desktop Firefox manual",
+      "reason": "not attempted this phase (Chromium engine used); Playwright firefox/webkit available as follow-up"
+    }
+  ],
+  "defectsFound": [
+    {
+      "id": "a11y-unlabeled-date-select",
+      "severity": "critical (axe)",
+      "where": "KitchenDashboard meal-plan row + RecipeKitchenActions",
+      "detail": "type=date input and meal <select> had no accessible name (axe label + select-name)",
+      "fix": "added aria-label to both in both components",
+      "blocksCanaryA": "was yes (critical); fixed",
+      "status": "fixed"
+    },
+    {
+      "id": "a11y-color-contrast",
+      "severity": "serious (axe)",
+      "where": "site-wide: text-tamarind-faint + text-turmeric-deep on rice/rice-deep/card at small sizes",
+      "detail": "computed ratios 3.66-4.39, below WCAG AA 4.5:1 for normal text (only large-text AA)",
+      "fix": "darkened both design tokens to #6b5545 / #8a5a00 -> all combos >=5.0",
+      "blocksCanaryA": "serious not critical; fixed anyway",
+      "status": "fixed"
+    }
+  ]
+}

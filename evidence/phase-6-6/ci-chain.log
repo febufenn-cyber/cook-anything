@@ -1,0 +1,19 @@
+=== Phase 6.6 CI chain @ 2b8c8bd58276920cad9bbe6b07cde8eb8f20a604 ===
+Phase 6.6 evidence checks passed.
+tsc OK
+Companion security tests passed.
+Companion gate rollover test passed.
+Phase 2 dietary-edge tests passed.
+Worker security-header tests passed.
+Phase 3 edge-case tests passed.
+Corpus correction tests passed.
+Phase 4 local-kitchen tests passed.
+Phase 5 portable-kitchen sync tests passed.
+Phase 6 living-cookbook tests passed.
+Account-deletion worker tests passed.
+SKIP publication-claiming tests: SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY / PGEXEC not set (live stack required).
+Publication-claiming tests passed.
+check-trust: 0 error(s), 47 warning(s)
+
+Total Upload: 47.20 KiB / gzip: 13.34 KiB
+=== CHAIN DONE ===

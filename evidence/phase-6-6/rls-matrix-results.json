@@ -1,0 +1,32 @@
+{
+  "id": "rls-actor-matrix",
+  "date": "2026-07-12",
+  "hostedFullMatrixStatus": "blocked",
+  "blocker": "SUPABASE_FREE_TIER_PROJECT_CAP",
+  "provenOnLocalStack": [
+    {
+      "actor": "anonymous",
+      "check": "GET /rest/v1/sync_records",
+      "result": "denied 42501 (RPC-only surface)"
+    },
+    {
+      "actor": "authenticated user",
+      "check": "GET /rest/v1/recipe_drafts",
+      "result": "denied 42501"
+    },
+    {
+      "actor": "service-role",
+      "check": "prepare_contribution_account_deletion + claim_publication_candidate",
+      "result": "callable only with service-role (000600 fix verified)"
+    }
+  ],
+  "hostedPendingActors": [
+    "user A vs user B personal isolation",
+    "household owner/editor/viewer write matrix",
+    "removed member access loss",
+    "contributor self-review/self-test/self-publish blocks",
+    "two-tester rule",
+    "browser cannot claim candidates"
+  ],
+  "note": "14-actor matrix harness design is in docs/PHASE-6-6-SUPABASE-STAGING.md; execution needs the hosted project."
+}

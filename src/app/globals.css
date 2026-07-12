@@ -12,9 +12,11 @@
   --color-cardamom: #e9e0cd;
   --color-tamarind: #2c1a12;
   --color-tamarind-soft: #5c4636;
-  --color-tamarind-faint: #8a7361;
+  /* Darkened for WCAG AA (4.5:1) on rice/rice-deep/card at small text sizes;
+     prior #8a7361 / #a96d00 only met large-text AA (Phase 6.6 axe finding). */
+  --color-tamarind-faint: #6b5545;
   --color-turmeric: #d98e04;
-  --color-turmeric-deep: #a96d00;
+  --color-turmeric-deep: #8a5a00;
   --color-turmeric-tint: #fbf0d9;
   --color-curry: #33532f;
   --color-curry-tint: #e9efe6;

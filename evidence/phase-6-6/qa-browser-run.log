@@ -1,0 +1,6 @@
+WARN    [real Chromium engine (Playwright, automated) on macOS] cook-mode-timer — current step has no timer button (step-dependent)
+PASSED  [real Chromium engine (Playwright, automated) on macOS (automated axe-core supplement)] axe- — 0 violations
+PASSED  [real Chromium engine (Playwright, automated) on macOS (automated axe-core supplement)] axe-what-can-i-cook- — 0 violations
+PASSED  [real Chromium engine (Playwright, automated) on macOS (automated axe-core supplement)] axe-recipes-tamil-adai- — 0 violations
+PASSED  [real Chromium engine (Playwright, automated) on macOS (automated axe-core supplement)] axe-kitchen- — 0 violations
+SUMMARY 21 passed / 1 warn / 0 failed

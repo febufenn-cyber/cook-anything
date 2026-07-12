@@ -66,6 +66,27 @@ async function github<T>(path: string, init: RequestInit = {}): Promise<T> {
   return await responseJson(response) as T;
 }
 
+/** GET that treats 404 as null — used for idempotent resume checks. */
+async function githubMaybe404<T>(path: string): Promise<T | null> {
+  try {
+    return await github<T>(path);
+  } catch (error) {
+    if (error instanceof Error && error.message.startsWith("request_failed_404")) return null;
+    throw error;
+  }
+}
+
+/**
+ * Crash-injection hook for resumption tests ONLY (OPERATOR_CRASH_AFTER env:
+ * create_branch | create_commit | create_pr). Unset in real operation.
+ */
+function crashPoint(stage: string): void {
+  if (process.env.OPERATOR_CRASH_AFTER === stage) {
+    console.error(`operator_test_crash_after_${stage}`);
+    process.exit(3);
+  }
+}
+
 function validateCandidate(value: unknown): CandidateResponse {
   if (!value || typeof value !== "object" || Array.isArray(value)) throw new Error("invalid_candidate_response");
   const candidate = value as Partial<CandidateResponse>;
@@ -95,7 +116,34 @@ async function main(): Promise<void> {
 
   const ref = await github<{ object: { sha: string } }>(`/git/ref/heads/${encodeURIComponent(baseBranch)}`);
   const baseCommit = await github<{ tree: { sha: string } }>(`/git/commits/${ref.object.sha}`);
-  await github("/git/refs", { method: "POST", body: JSON.stringify({ ref: `refs/heads/${branch}`, sha: ref.object.sha }) });
+
+  // Idempotent branch handling: a previous worker may have crashed after any
+  // GitHub side effect. Resume only when the deterministic branch verifiably
+  // belongs to THIS candidate; never overwrite an unrelated branch.
+  const existingBranch = await githubMaybe404<{ object: { sha: string } }>(
+    `/git/ref/heads/${branch.replaceAll("/", "%2F")}`,
+  );
+  let branchHasVerifiedCommit = false;
+  if (existingBranch) {
+    const evidenceOnBranch = await githubMaybe404<{ content?: string }>(
+      `/contents/${evidencePath}?ref=${encodeURIComponent(branch)}`,
+    );
+    if (evidenceOnBranch?.content) {
+      const prior = JSON.parse(Buffer.from(evidenceOnBranch.content, "base64").toString("utf8")) as {
+        candidateId?: string; contentHash?: string;
+      };
+      if (prior.candidateId !== candidate.id || prior.contentHash !== candidate.contentHash) {
+        throw new Error("existing_branch_belongs_to_different_candidate");
+      }
+      branchHasVerifiedCommit = true; // crash happened after commit creation — reuse it
+    } else if (existingBranch.object.sha !== ref.object.sha) {
+      throw new Error("existing_unrelated_branch_refused");
+    }
+    // else: empty branch at base sha from a crash right after branch creation — reuse it.
+  } else {
+    await github("/git/refs", { method: "POST", body: JSON.stringify({ ref: `refs/heads/${branch}`, sha: ref.object.sha }) });
+  }
+  crashPoint("create_branch");
 
   const candidateFile = JSON.stringify({
     quarantineStatus: "publication_candidate_not_yet_public",
@@ -117,30 +165,41 @@ async function main(): Promise<void> {
     publicationBoundary: "quarantine-first-github-pr-no-auto-merge",
   }, null, 2) + "\n";
 
-  const [candidateBlob, evidenceBlob] = await Promise.all([
-    github<{ sha: string }>("/git/blobs", { method: "POST", body: JSON.stringify({ content: candidateFile, encoding: "utf-8" }) }),
-    github<{ sha: string }>("/git/blobs", { method: "POST", body: JSON.stringify({ content: evidenceFile, encoding: "utf-8" }) }),
-  ]);
-  const tree = await github<{ sha: string }>("/git/trees", {
-    method: "POST",
-    body: JSON.stringify({
-      base_tree: baseCommit.tree.sha,
-      tree: [
-        { path: candidatePath, mode: "100644", type: "blob", sha: candidateBlob.sha },
-        { path: evidencePath, mode: "100644", type: "blob", sha: evidenceBlob.sha },
-      ],
-    }),
-  });
-  const commit = await github<{ sha: string }>("/git/commits", {
-    method: "POST",
-    body: JSON.stringify({
-      message: `Quarantine publication candidate: ${candidate.canonicalSlug}`,
-      tree: tree.sha,
-      parents: [ref.object.sha],
-    }),
-  });
-  await github(`/git/refs/heads/${branch.replaceAll("/", "%2F")}`, { method: "PATCH", body: JSON.stringify({ sha: commit.sha, force: false }) });
-  const pull = await github<{ html_url: string }>("/pulls", {
+  if (!branchHasVerifiedCommit) {
+    const [candidateBlob, evidenceBlob] = await Promise.all([
+      github<{ sha: string }>("/git/blobs", { method: "POST", body: JSON.stringify({ content: candidateFile, encoding: "utf-8" }) }),
+      github<{ sha: string }>("/git/blobs", { method: "POST", body: JSON.stringify({ content: evidenceFile, encoding: "utf-8" }) }),
+    ]);
+    const tree = await github<{ sha: string }>("/git/trees", {
+      method: "POST",
+      body: JSON.stringify({
+        base_tree: baseCommit.tree.sha,
+        tree: [
+          { path: candidatePath, mode: "100644", type: "blob", sha: candidateBlob.sha },
+          { path: evidencePath, mode: "100644", type: "blob", sha: evidenceBlob.sha },
+        ],
+      }),
+    });
+    const commit = await github<{ sha: string }>("/git/commits", {
+      method: "POST",
+      body: JSON.stringify({
+        message: `Quarantine publication candidate: ${candidate.canonicalSlug}`,
+        tree: tree.sha,
+        parents: [ref.object.sha],
+      }),
+    });
+    await github(`/git/refs/heads/${branch.replaceAll("/", "%2F")}`, { method: "PATCH", body: JSON.stringify({ sha: commit.sha, force: false }) });
+  }
+  crashPoint("create_commit");
+
+  // Idempotent PR handling: reuse an existing open draft PR for this exact
+  // head branch instead of opening a duplicate.
+  const openPulls = await github<Array<{ html_url: string; draft: boolean }>>(
+    `/pulls?head=${encodeURIComponent(`${owner}:${branch}`)}&state=open&base=${encodeURIComponent(baseBranch)}`,
+  );
+  let pull = openPulls[0];
+  if (pull && pull.draft !== true) throw new Error("existing_pr_for_branch_is_not_draft");
+  if (!pull) pull = await github<{ html_url: string; draft: boolean }>("/pulls", {
     method: "POST",
     body: JSON.stringify({
       title: `Recipe candidate: ${candidate.canonicalSlug}`,
@@ -159,6 +218,7 @@ async function main(): Promise<void> {
       ].join("\n"),
     }),
   });
+  crashPoint("create_pr");
   if (!/^https:\/\/github\.com\/[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+\/pull\/[0-9]+$/.test(pull.html_url)) throw new Error("invalid_created_pr_url");
   await supabaseRpc("mark_publication_candidate_pr", { p_candidate_id: candidate.id, p_github_pr_url: pull.html_url, p_claim_token: claimToken });
   console.log(JSON.stringify({ ok: true, branch, pullRequest: pull.html_url, candidatePath, evidencePath }));

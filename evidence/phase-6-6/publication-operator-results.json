@@ -1,0 +1,44 @@
+{
+  "id": "publication-operator-crash-resumption",
+  "environment": "real GitHub repo febufenn-cyber/cook-anything-staging-pub (dedicated staging; NEVER production) + local Supabase stack",
+  "date": "2026-07-12",
+  "actor": "scripts/test-publication-operator-resumption.mjs",
+  "productionRepoUntouched": true,
+  "scenarios": [
+    {
+      "id": "crash-after-branch",
+      "status": "passed",
+      "detail": "operator exited 3 after branch creation with no PR; a later worker (post claim-expiry) resumed on the empty branch, opened exactly one draft PR, recorded it"
+    },
+    {
+      "id": "crash-after-commit",
+      "status": "passed",
+      "detail": "resumed worker verified the existing commit's evidence file (candidateId + contentHash) and reused it \u2014 no second commit; single draft PR; recorded"
+    },
+    {
+      "id": "crash-after-pr",
+      "status": "passed",
+      "detail": "PR existed but candidate stayed 'claimed' (unrecorded); resumed worker adopted the existing draft PR \u2014 NO duplicate \u2014 and recorded pr_open"
+    },
+    {
+      "id": "unrelated-branch-refused",
+      "status": "passed",
+      "detail": "a same-named branch with foreign content and no matching evidence file was refused (existing_unrelated_branch_refused); nothing overwritten; no PR opened"
+    },
+    {
+      "id": "allowlist-enforced",
+      "status": "passed",
+      "detail": "GITHUB_REPOSITORY outside the allowlist rejected (publication_repository_not_allowlisted) before any GitHub side effect"
+    }
+  ],
+  "resolvesBlocker": "PUBLICATION_OPERATOR_GITHUB_CRASH_RESUMPTION",
+  "invariantsProven": [
+    "draft-PR-only",
+    "no merge/deploy capability in operator",
+    "quarantine-only paths",
+    "candidate ID + content-hash verified before branch reuse",
+    "atomic claim + token from migration 000700 gates recording",
+    "one PR per candidate under crash+resume"
+  ],
+  "note": "Operator idempotency implemented in scripts/open-publication-candidate-pr.ts (githubMaybe404 resume checks, crashPoint injection hook for tests only)."
+}

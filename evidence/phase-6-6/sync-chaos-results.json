@@ -1,0 +1,10 @@
+{
+  "id": "sync-chaos",
+  "date": "2026-07-12",
+  "hostedStatus": "blocked",
+  "blocker": "SUPABASE_FREE_TIER_PROJECT_CAP",
+  "scope": "Multi-device sync chaos (response-lost, duplicate replay, stale cursor, conflict merges incl. allergen-conservative, revoked-device reconnect, device-id reuse, thousands of queued mutations)",
+  "localStackEvidence": "harness/runbook ready; needs hosted project + real network for meaningful results",
+  "requiredHumanAction": "Free a Supabase project slot (pause/delete/upgrade), create cook-anything-staging, then rerun with STAGING_* env",
+  "safetyInvariant": "allergen/explicit exclusion must never silently disappear during conflict resolution \u2014 to be verified on hosted sync"
+}
