@@ -35,6 +35,60 @@ function hostedCompanionEnabled(env: Env): boolean {
   return env.HOSTED_COMPANION_ENABLED === "true";
 }
 
+async function hmacSha256Hex(secret: string, value: string): Promise<string> {
+  const key = await crypto.subtle.importKey(
+    "raw",
+    new TextEncoder().encode(secret),
+    { name: "HMAC", hash: "SHA-256" },
+    false,
+    ["sign"],
+  );
+  const sig = await crypto.subtle.sign("HMAC", key, new TextEncoder().encode(value));
+  return [...new Uint8Array(sig)].map((b) => b.toString(16).padStart(2, "0")).join("");
+}
+
+function timingSafeEqualHex(a: string, b: string): boolean {
+  if (!/^[a-f0-9]{64}$/.test(a) || !/^[a-f0-9]{64}$/.test(b) || a.length !== b.length) return false;
+  let diff = 0;
+  for (let i = 0; i < a.length; i += 1) diff |= a.charCodeAt(i) ^ b.charCodeAt(i);
+  return diff === 0;
+}
+
+/**
+ * The private subscription bridge announces its current quick-tunnel origin
+ * here, signed with the shared HMAC secret (COMPANION_UPSTREAM_SIGNING_SECRET).
+ * The URL is public but useless without a valid signature — security rests on
+ * the HMAC, not on hiding the URL. The Worker persists the origin to KV, which
+ * executeHostedTurn reads. Only trycloudflare origins are accepted.
+ */
+async function handleBridgeOrigin(request: Request, env: Env): Promise<Response> {
+  if (request.method !== "POST") return jsonResponse({ error: "method_not_allowed" }, 405);
+  const secret = env.COMPANION_UPSTREAM_SIGNING_SECRET;
+  if (!secret || !env.COMPANION_CONFIG) return jsonResponse({ error: "not_configured" }, 503);
+
+  let body: unknown;
+  try {
+    body = await readSmallJson(request, 512);
+  } catch {
+    return jsonResponse({ error: "bad_request" }, 400);
+  }
+  const origin = (body as { origin?: unknown })?.origin;
+  const timestamp = request.headers.get("x-timestamp");
+  const signature = request.headers.get("x-signature");
+  if (typeof origin !== "string" || !timestamp || !signature) return jsonResponse({ error: "bad_request" }, 400);
+  if (!/^https:\/\/[a-z0-9-]+\.trycloudflare\.com$/.test(origin)) return jsonResponse({ error: "bad_origin" }, 400);
+
+  const ts = Number(timestamp);
+  if (!Number.isInteger(ts) || Math.abs(Math.floor(Date.now() / 1_000) - ts) > 120) {
+    return jsonResponse({ error: "expired" }, 401);
+  }
+  const expected = await hmacSha256Hex(secret, `${timestamp}.${origin}`);
+  if (!timingSafeEqualHex(signature, expected)) return jsonResponse({ error: "unauthorized" }, 401);
+
+  await env.COMPANION_CONFIG.put("companion_bridge_origin", origin);
+  return jsonResponse({ ok: true }, 200);
+}
+
 function boundedInt(raw: string | undefined, fallback: number, min: number, max: number): number {
   const parsed = Number.parseInt(raw ?? "", 10);
   return Number.isFinite(parsed) ? Math.min(max, Math.max(min, parsed)) : fallback;
@@ -219,6 +273,9 @@ export default {
       }
       if (url.pathname === "/api/companion/turn") return handleTurn(request, env);
       if (url.pathname === "/api/companion") return legacyCompanionResponse(env);
+      if (url.pathname === "/api/companion/bridge-origin") {
+        return handleBridgeOrigin(request, env);
+      }
       if (url.pathname === "/api/bridge-origin") {
         return jsonResponse({ error: "quick_tunnel_discovery_removed" }, 410);
       }
