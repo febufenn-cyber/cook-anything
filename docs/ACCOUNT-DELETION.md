@@ -1,7 +1,7 @@
 # Account deletion — trusted worker operations
 
 Code: `scripts/account-deletion-worker.mjs` (service-role; NEVER runs in a
-browser or public CI). Schema hooks: `supabase/migrations/20260712_phase6_account_deletion_hardening.sql`
+browser or public CI). Schema hooks: `supabase/migrations/20260712000500_phase6_account_deletion_hardening.sql`
 (deletion request queue + `prepare_contribution_account_deletion`).
 
 ## What deletion does

@@ -115,8 +115,8 @@ async function main(): Promise<void> {
   assert.throws(() => validateCookTest(cookTest, changedHash), /cook_test_version_mismatch/);
 
   const root = process.cwd();
-  const primaryMigration = fs.readFileSync(path.join(root, "supabase", "migrations", "20260712_phase6_living_cookbook.sql"), "utf8");
-  const deletionMigration = fs.readFileSync(path.join(root, "supabase", "migrations", "20260712_phase6_account_deletion_hardening.sql"), "utf8");
+  const primaryMigration = fs.readFileSync(path.join(root, "supabase", "migrations", "20260712000400_phase6_living_cookbook.sql"), "utf8");
+  const deletionMigration = fs.readFileSync(path.join(root, "supabase", "migrations", "20260712000500_phase6_account_deletion_hardening.sql"), "utf8");
   const sql = `${primaryMigration}\n${deletionMigration}`;
   assert.match(sql, /create table if not exists public\.recipe_draft_versions/);
   assert.match(sql, /create table if not exists public\.recipe_submissions/);

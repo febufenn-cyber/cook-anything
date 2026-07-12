@@ -55,11 +55,11 @@ Supabase project, OAuth redirect URLs, publication repository/branch, secrets.
 
 ## 4. Migration sequence (staging before production, in exact order)
 
-1. `supabase/migrations/20260712_phase5_portable_kitchen.sql`
-2. `supabase/migrations/20260712_phase5_sync_push_hardening.sql`
-3. `supabase/migrations/20260712_phase5_migration_device_registration.sql`
-4. `supabase/migrations/20260712_phase6_living_cookbook.sql`
-5. `supabase/migrations/20260712_phase6_account_deletion_hardening.sql`
+1. `supabase/migrations/20260712000100_phase5_portable_kitchen.sql`
+2. `supabase/migrations/20260712000200_phase5_sync_push_hardening.sql`
+3. `supabase/migrations/20260712000300_phase5_migration_device_registration.sql`
+4. `supabase/migrations/20260712000400_phase6_living_cookbook.sql`
+5. `supabase/migrations/20260712000500_phase6_account_deletion_hardening.sql`
 
 After each: record identifier + outcome in the ledger; inspect objects,
 grants, revokes; confirm RLS enabled; confirm no unintended public access.

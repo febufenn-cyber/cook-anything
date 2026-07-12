@@ -93,9 +93,9 @@ Access and refresh tokens remain browser-local account-session data. They are va
 
 Apply all migrations in this exact order:
 
-1. `supabase/migrations/20260712_phase5_portable_kitchen.sql`
-2. `supabase/migrations/20260712_phase5_sync_push_hardening.sql`
-3. `supabase/migrations/20260712_phase5_migration_device_registration.sql`
+1. `supabase/migrations/20260712000100_phase5_portable_kitchen.sql`
+2. `supabase/migrations/20260712000200_phase5_sync_push_hardening.sql`
+3. `supabase/migrations/20260712000300_phase5_migration_device_registration.sql`
 
 The third migration permits the explicit “use this device” choice before ordinary first sync, while rejecting an ID owned by another account and preserving revocation for an existing device.
 
