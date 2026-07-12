@@ -2,7 +2,7 @@
   "phase": "6.5",
   "commit": "1e378ec6961e68826c83b0b65a7d2e72af626746",
   "branch": "agent/phase-6-5-staging-canary-operations",
-  "generatedAt": "2026-07-12T03:20:00Z",
+  "generatedAt": "2026-07-12T04:00:00Z",
   "checks": [
     {
       "id": "ci-chain-full-rerun",
@@ -43,7 +43,7 @@
       "environment": "staging (deployed)",
       "date": "2026-07-12",
       "actor": "phase-6.5 agent (Claude)",
-      "inputs": "Initial deployed smoke run: 14/25 — ALL security headers missing on static routes; assets edge path serves static routes without invoking the Worker on env deploys (run_worker_first true AND [\"/*\"] both not honored; verified via cold-path probes with cf-cache-status MISS)",
+      "inputs": "Initial deployed smoke run: 14/25 \u2014 ALL security headers missing on static routes; assets edge path serves static routes without invoking the Worker on env deploys (run_worker_first true AND [\"/*\"] both not honored; verified via cold-path probes with cf-cache-status MISS)",
       "observedResult": "Fixed via public/_headers at the asset layer + parity assertions in scripts/test-worker-security-headers.ts; immutable cache for /_next/static; final run 25/25. PRODUCTION NOTE: production (deployed pre-6.5) has the same gap until its next authorized deploy.",
       "evidence": "evidence/phase-6-5/artifacts/staging-smoke-initial.log vs staging-smoke-final.log",
       "unresolvedRisk": "production static routes remain headerless until an authorized production deploy ships public/_headers"
@@ -58,6 +58,72 @@
       "observedResult": "main UNPROTECTED; no rulesets; secret scanning DISABLED; push protection DISABLED; vulnerability alerts DISABLED; no dependabot.yml; no environments; workflow perms read-only (good); auto-merge off (good). Repo is PUBLIC.",
       "evidence": "gh api outputs (this ledger entry)",
       "unresolvedRisk": "remediation in progress this phase"
+    },
+    {
+      "id": "migrations-applied-in-order-local",
+      "status": "passed",
+      "environment": "local isolated Supabase stack (Docker)",
+      "date": "2026-07-12",
+      "actor": "supabase db reset",
+      "inputs": "six migrations 000100-000600 after renaming (original files collided on version 20260712 and applied in the wrong lexicographic order)",
+      "observedResult": "All six applied in documented order; 18/18 public tables RLS-enabled; ZERO direct table grants to anon/authenticated; 34 security-definer RPCs exposed to authenticated",
+      "evidence": "evidence/phase-6-5/artifacts/local-migrations.log",
+      "unresolvedRisk": "hosted staging project still required for hosted-infra parity"
+    },
+    {
+      "id": "service-role-guard-fix",
+      "status": "passed",
+      "environment": "local isolated stack",
+      "date": "2026-07-12",
+      "actor": "phase-6.5 agent (Claude)",
+      "inputs": "prepare_contribution_account_deletion / claim_publication_candidate / mark_publication_candidate_pr guarded by legacy request.jwt.claim.role GUC (never set by modern PostgREST)",
+      "observedResult": "Before fix: service-role RPC call rejected with service_role_required (drill log 03:31Z). After migration 000600: call succeeds. Publication operator must be retested in staging.",
+      "evidence": "evidence/phase-6-5/artifacts/deletion-drill.log",
+      "unresolvedRisk": "none for deletion; publication operator staging run pending"
+    },
+    {
+      "id": "account-deletion-worker-unit",
+      "status": "passed",
+      "environment": "CI-safe mock Supabase",
+      "date": "2026-07-12",
+      "actor": "scripts/test-account-deletion-worker.mjs",
+      "inputs": "pending/processing/completed-crash-window/malformed requests; household transfer + delete; dry-run; rerun",
+      "observedResult": "ordering, heir transfer, memberless-household deletion, crash-window finalize, idempotent rerun, dry-run purity all asserted",
+      "evidence": "CI stage 'Phase 6.5 account-deletion worker tests'",
+      "unresolvedRisk": "none"
+    },
+    {
+      "id": "account-deletion-drill-real-stack",
+      "status": "passed",
+      "environment": "local isolated stack",
+      "date": "2026-07-12",
+      "actor": "scripts/account-deletion-worker.mjs (service role)",
+      "inputs": "real user via GoTrue admin; household via create_kitchen_household RPC; request via request_account_deletion RPC",
+      "observedResult": "Full pipeline completed; rerun no-op; auth user 404; households=0 requests=0. Also: anon AND authenticated direct table reads denied (42501)",
+      "evidence": "evidence/phase-6-5/artifacts/deletion-drill.log",
+      "unresolvedRisk": "repeat once against hosted staging project"
+    },
+    {
+      "id": "rls-direct-access-denied",
+      "status": "passed",
+      "environment": "local isolated stack",
+      "date": "2026-07-12",
+      "actor": "curl via PostgREST",
+      "inputs": "GET /rest/v1/sync_records (anon), GET /rest/v1/recipe_drafts (authenticated)",
+      "observedResult": "Both denied with 42501 \u2014 RPC-only surface holds",
+      "evidence": "evidence/phase-6-5/artifacts/deletion-drill.log",
+      "unresolvedRisk": "full 14-actor matrix (households, reviewers, testers, publisher) remains to be scripted"
+    },
+    {
+      "id": "github-protections-enabled",
+      "status": "passed",
+      "environment": "github",
+      "date": "2026-07-12",
+      "actor": "gh api",
+      "inputs": "branch protection (required check verify, no force-push/deletions), secret scanning, push protection, vulnerability alerts, dependabot.yml",
+      "observedResult": "All enabled; 1 moderate dependency vulnerability immediately surfaced (dependabot/1)",
+      "evidence": "gh api responses in PR discussion + this ledger",
+      "unresolvedRisk": "vulnerability remediation PR pending"
     }
   ],
   "blockers": [
@@ -65,13 +131,33 @@
       "blocker": "SUPABASE_STAGING_PROJECT_MISSING",
       "impact": "Cannot apply migrations to a hosted staging project, configure OAuth providers, or run RLS tests against hosted infra; isolated local Supabase stack (Docker) is used for migration + RLS evidence instead",
       "requiredHumanAction": "Create a dedicated Supabase staging project; provide URL + publishable key (and service-role key via approved secret store, never CI) ; configure Google/Apple OAuth + magic-link templates per docs",
-      "workCompletedWithoutCredential": ["migration order validation", "local isolated stack application", "RLS harness", "runbooks"]
+      "workCompletedWithoutCredential": [
+        "migration order validation",
+        "local isolated stack application",
+        "RLS harness",
+        "runbooks"
+      ]
     },
     {
       "blocker": "REAL_DEVICE_AND_HUMAN_QA_REQUIRED",
       "impact": "iPhone/Android device QA, screen-reader passes, human canary cohort, and cook-testing cannot be executed by an automated agent",
       "requiredHumanAction": "Run docs/COOK-TEST-PROTOCOL.md and the browser QA matrix on real devices; recruit canary cohort per docs/CANARY-PLAN.md",
-      "workCompletedWithoutCredential": ["QA matrices", "canary plan", "cook-test protocol", "automated browser checks where possible"]
+      "workCompletedWithoutCredential": [
+        "QA matrices",
+        "canary plan",
+        "cook-test protocol",
+        "automated browser checks where possible"
+      ]
+    },
+    {
+      "blocker": "PRODUCTION_REDEPLOY_AUTHORIZATION",
+      "impact": "Production static routes serve without security headers (pre-6.5 deploy); _headers fix is merged to the branch but production deploys require explicit human authorization",
+      "requiredHumanAction": "After PR review/merge: CONFIRM_PRODUCTION=yes npm run deploy:production, then run the smoke suite against https://cook-anything.robofox.online",
+      "workCompletedWithoutCredential": [
+        "fix implemented and staging-verified 25/25",
+        "guarded deploy script",
+        "deployment runbook"
+      ]
     }
   ]
 }
