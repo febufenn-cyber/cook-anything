@@ -30,7 +30,9 @@
     "export-recipes": "tsx scripts/export-recipes.ts",
     "import-recipes": "tsx scripts/import-recipes.ts",
     "seed": "tsx scripts/seed-recipes.ts",
-    "deploy": "npm run build && npx wrangler deploy"
+    "deploy:staging": "npm run build && npx wrangler deploy --env staging",
+    "smoke:staging": "node scripts/staging-smoke-test.mjs",
+    "deploy:production": "test \"$CONFIRM_PRODUCTION\" = \"yes\" || (echo 'Refusing: set CONFIRM_PRODUCTION=yes after staging smoke tests pass (docs/DEPLOYMENT.md)' && exit 1) && npm run build && npx wrangler deploy"
   },
   "dependencies": {
     "next": "16.2.10",

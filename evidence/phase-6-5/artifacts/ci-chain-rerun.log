@@ -1,0 +1,64 @@
+=== Phase 6.5 CI chain re-run @ e171d2c499df3a270be958ef2f6eae111ecb11eb on 2026-07-12T00:43:05Z ===
+
+added 52 packages in 27s
+--- npm run test:companion ---
+
+> cook-anything@0.1.0 test:companion
+> node scripts/run-companion-security-test.mjs && tsx scripts/test-companion-gate-rollover.ts
+
+Companion security tests passed.
+Companion gate rollover test passed.
+--- npm run test:trust ---
+> cook-anything@0.1.0 test:trust
+> tsx scripts/test-phase2-trust.ts && tsx scripts/test-phase2-dietary-edge.ts && tsx scripts/test-worker-security-headers.ts
+
+Phase 2 trust tests passed.
+Phase 2 dietary-edge tests passed.
+Worker security-header tests passed.
+--- npm run test:product ---
+> cook-anything@0.1.0 test:product
+> tsx scripts/test-phase3-product.ts && tsx scripts/test-phase3-edge-cases.ts && tsx scripts/test-corpus-corrections.ts
+
+Phase 3 product-loop tests passed.
+Phase 3 edge-case tests passed.
+Corpus correction tests passed.
+--- npm run test:kitchen ---
+
+> cook-anything@0.1.0 test:kitchen
+> tsx scripts/test-phase4-kitchen.ts
+
+Phase 4 local-kitchen tests passed.
+--- npm run test:sync ---
+
+> cook-anything@0.1.0 test:sync
+> tsx scripts/test-phase5-sync.ts
+
+Phase 5 portable-kitchen sync tests passed.
+--- npm run test:contributions ---
+
+> cook-anything@0.1.0 test:contributions
+> tsx scripts/test-phase6-contributions.ts
+
+Phase 6 living-cookbook tests passed.
+--- trust:gate ---
+  warn  [tamil-muttai-kuzhambu @ tamil-nonveg-chettinad.json]: Recipe allergen field omitted taxonomy-derived: mustard. Public output uses the safer union.
+  warn  [thayir-sadam-tempered-curd-rice @ tamil-core.json]: Recipe allergen field omitted taxonomy-derived: mustard. Public output uses the safer union.
+  warn  [karnataka-udupi-sambar @ karnataka.json]: Recipe allergen field omitted taxonomy-derived: mustard. Public output uses the safer union.
+  warn  [karnataka-vangi-bath @ karnataka.json]: Recipe allergen field omitted taxonomy-derived: mustard. Public output uses the safer union.
+  warn  [ic-veg-hakka-noodles @ indo-chinese.json]: Recipe allergen field omitted taxonomy-derived: sesame. Public output uses the safer union.
+  warn  [viet-pho-ga @ thai-vietnamese.json]: Recipe allergen field omitted taxonomy-derived: gluten. Public output uses the safer union.
+
+check-trust: 0 error(s), 47 warning(s)
+--- file checks ---
+file checks OK
+--- build ---
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
+--- wrangler dry-run ---
+env.COMPANION_MAX_ACTIVE_EXECUTIONS ("2")                                   Environment Variable      
+env.COMPANION_DAILY_EXECUTION_LIMIT ("300")                                 Environment Variable      
+
+--dry-run: exiting now.
+=== CHAIN COMPLETE: ALL PASSED ===

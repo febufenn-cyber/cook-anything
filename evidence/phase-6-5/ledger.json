@@ -2,7 +2,76 @@
   "phase": "6.5",
   "commit": "1e378ec6961e68826c83b0b65a7d2e72af626746",
   "branch": "agent/phase-6-5-staging-canary-operations",
-  "generatedAt": "2026-07-12T00:00:00Z",
-  "checks": [],
-  "blockers": []
+  "generatedAt": "2026-07-12T03:20:00Z",
+  "checks": [
+    {
+      "id": "ci-chain-full-rerun",
+      "status": "passed",
+      "environment": "local (macOS, node via npm ci)",
+      "date": "2026-07-12",
+      "actor": "phase-6.5 agent (Claude)",
+      "inputs": "npm ci; all phase test suites; trust:gate; file checks; build; wrangler dry-run",
+      "observedResult": "All Phase 1-6 suites passed; trust gate 0 errors/47 allergen-union warnings; build + dry-run OK",
+      "evidence": "evidence/phase-6-5/artifacts/ci-chain-rerun.log",
+      "unresolvedRisk": "none"
+    },
+    {
+      "id": "staging-environment-created",
+      "status": "passed",
+      "environment": "cloudflare",
+      "date": "2026-07-12",
+      "actor": "phase-6.5 agent (Claude)",
+      "inputs": "wrangler env staging: worker cook-anything-staging, DO namespaces per-worker, rate-limit namespaces 92017/92018 (prod: 91017/91018), no KV binding, HOSTED_COMPANION_ENABLED=false, domain cook-anything-staging.robofox.online",
+      "observedResult": "Deployed version 1c0d789b-d14d-4bda-86fa-b80b0b455269; bindings verified via dry-run table",
+      "evidence": "wrangler.jsonc env.staging; evidence/phase-6-5/artifacts/staging-smoke-final.log",
+      "unresolvedRisk": "staging shares the Cloudflare account and robofox.online zone with production (accepted for solo-operator setup)"
+    },
+    {
+      "id": "staging-smoke-suite",
+      "status": "passed",
+      "environment": "staging (deployed)",
+      "date": "2026-07-12",
+      "actor": "scripts/staging-smoke-test.mjs",
+      "inputs": "25 checks: availability, full security-header suite, trust/search assets, kitchen/account/review routes, sw + cache boundaries, hosted-companion fail-closed (503 not_configured, no set-cookie, no-store), bundle secret scan",
+      "observedResult": "25/25 passed",
+      "evidence": "evidence/phase-6-5/artifacts/staging-smoke-final.log",
+      "unresolvedRisk": "review-route currently serves 200 shell (authorization enforced client/RPC-side); revisit when Supabase staging exists"
+    },
+    {
+      "id": "deployed-header-gap-found-and-fixed",
+      "status": "passed",
+      "environment": "staging (deployed)",
+      "date": "2026-07-12",
+      "actor": "phase-6.5 agent (Claude)",
+      "inputs": "Initial deployed smoke run: 14/25 — ALL security headers missing on static routes; assets edge path serves static routes without invoking the Worker on env deploys (run_worker_first true AND [\"/*\"] both not honored; verified via cold-path probes with cf-cache-status MISS)",
+      "observedResult": "Fixed via public/_headers at the asset layer + parity assertions in scripts/test-worker-security-headers.ts; immutable cache for /_next/static; final run 25/25. PRODUCTION NOTE: production (deployed pre-6.5) has the same gap until its next authorized deploy.",
+      "evidence": "evidence/phase-6-5/artifacts/staging-smoke-initial.log vs staging-smoke-final.log",
+      "unresolvedRisk": "production static routes remain headerless until an authorized production deploy ships public/_headers"
+    },
+    {
+      "id": "github-protections-audit",
+      "status": "failed",
+      "environment": "github",
+      "date": "2026-07-12",
+      "actor": "gh api",
+      "inputs": "branch protection, rulesets, secret scanning, push protection, vulnerability alerts, dependabot, environments, workflow permissions",
+      "observedResult": "main UNPROTECTED; no rulesets; secret scanning DISABLED; push protection DISABLED; vulnerability alerts DISABLED; no dependabot.yml; no environments; workflow perms read-only (good); auto-merge off (good). Repo is PUBLIC.",
+      "evidence": "gh api outputs (this ledger entry)",
+      "unresolvedRisk": "remediation in progress this phase"
+    }
+  ],
+  "blockers": [
+    {
+      "blocker": "SUPABASE_STAGING_PROJECT_MISSING",
+      "impact": "Cannot apply migrations to a hosted staging project, configure OAuth providers, or run RLS tests against hosted infra; isolated local Supabase stack (Docker) is used for migration + RLS evidence instead",
+      "requiredHumanAction": "Create a dedicated Supabase staging project; provide URL + publishable key (and service-role key via approved secret store, never CI) ; configure Google/Apple OAuth + magic-link templates per docs",
+      "workCompletedWithoutCredential": ["migration order validation", "local isolated stack application", "RLS harness", "runbooks"]
+    },
+    {
+      "blocker": "REAL_DEVICE_AND_HUMAN_QA_REQUIRED",
+      "impact": "iPhone/Android device QA, screen-reader passes, human canary cohort, and cook-testing cannot be executed by an automated agent",
+      "requiredHumanAction": "Run docs/COOK-TEST-PROTOCOL.md and the browser QA matrix on real devices; recruit canary cohort per docs/CANARY-PLAN.md",
+      "workCompletedWithoutCredential": ["QA matrices", "canary plan", "cook-test protocol", "automated browser checks where possible"]
+    }
+  ]
 }
