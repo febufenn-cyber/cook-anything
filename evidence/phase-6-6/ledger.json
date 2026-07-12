@@ -1,0 +1,39 @@
+{
+  "phase": "6.6",
+  "baseCommit": "b94d1c9ba4bf912e30e25f4d2966cb7e7f8db72d",
+  "branch": "agent/phase-6-6-device-qa-supabase-staging",
+  "generatedAt": "2026-07-12T08:00:00Z",
+  "checks": [],
+  "blockers": [
+    {
+      "blocker": "SUPABASE_FREE_TIER_PROJECT_CAP",
+      "status": "blocked",
+      "impact": "Cannot create the hosted staging project: org qasbonmvvocbukceppww already has 2 active free projects (Verse_a_tile, contract-reviewer). Creation attempt on 2026-07-12 was rejected by Supabase with the 2-project limit message. Hosted-infra gates (hosted RLS parity, hosted OAuth, hosted deletion/restore drills, sync chaos on real network) remain blocked; local isolated stack evidence is collected instead and labeled as such.",
+      "requiredHumanAction": "Pause or delete one existing free project (owner decision) OR upgrade the org, then run: supabase projects create cook-anything-staging --org-id qasbonmvvocbukceppww --region ap-south-1 --db-password <from ~/.cook-anything/staging.env>; then supabase link + db push and rerun the Phase 6.6 harnesses with STAGING_* env"
+    },
+    {
+      "blocker": "IPHONE_DEVICE_UNAVAILABLE",
+      "status": "blocked",
+      "impact": "Cannot validate real iPhone Safari, iOS PWA install, lock-screen Cook Mode recovery, or VoiceOver",
+      "requiredHumanAction": "Run the iPhone rows of docs/PHASE-6-6-DEVICE-ACCESSIBILITY-QA.md on a physical iPhone and attach sanitized evidence"
+    },
+    {
+      "blocker": "ANDROID_DEVICE_UNAVAILABLE",
+      "status": "blocked",
+      "impact": "Cannot validate real Android Chrome, Android PWA install, or TalkBack",
+      "requiredHumanAction": "Run the Android rows on a physical Android device and attach sanitized evidence"
+    },
+    {
+      "blocker": "SCREEN_READER_PASS_UNAVAILABLE",
+      "status": "blocked",
+      "impact": "No VoiceOver/TalkBack/NVDA manual pass possible from this agent environment; automated axe checks supplement but do not replace it",
+      "requiredHumanAction": "One manual screen-reader pass of the core flow (search -> recipe -> Cook Mode) with notes"
+    },
+    {
+      "blocker": "OAUTH_PROVIDER_CREDENTIALS_UNAVAILABLE",
+      "status": "blocked",
+      "impact": "Google/Apple OAuth clients require console access; cannot be configured or tested. Email magic-link flow is testable on the local stack via Mailpit and is covered.",
+      "requiredHumanAction": "Create Google (and optionally Apple) OAuth clients with staging redirect URLs and add them to the staging project once it exists"
+    }
+  ]
+}
