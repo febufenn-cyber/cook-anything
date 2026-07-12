@@ -2,7 +2,7 @@
   "phase": "6.5",
   "commit": "1e378ec6961e68826c83b0b65a7d2e72af626746",
   "branch": "agent/phase-6-5-staging-canary-operations",
-  "generatedAt": "2026-07-12T04:00:00Z",
+  "generatedAt": "2026-07-12T05:00:00Z",
   "checks": [
     {
       "id": "ci-chain-full-rerun",
@@ -43,21 +43,22 @@
       "environment": "staging (deployed)",
       "date": "2026-07-12",
       "actor": "phase-6.5 agent (Claude)",
-      "inputs": "Initial deployed smoke run: 14/25 \u2014 ALL security headers missing on static routes; assets edge path serves static routes without invoking the Worker on env deploys (run_worker_first true AND [\"/*\"] both not honored; verified via cold-path probes with cf-cache-status MISS)",
+      "inputs": "Initial deployed smoke run: 14/25 — ALL security headers missing on static routes; assets edge path serves static routes without invoking the Worker on env deploys (run_worker_first true AND [\"/*\"] both not honored; verified via cold-path probes with cf-cache-status MISS)",
       "observedResult": "Fixed via public/_headers at the asset layer + parity assertions in scripts/test-worker-security-headers.ts; immutable cache for /_next/static; final run 25/25. PRODUCTION NOTE: production (deployed pre-6.5) has the same gap until its next authorized deploy.",
       "evidence": "evidence/phase-6-5/artifacts/staging-smoke-initial.log vs staging-smoke-final.log",
       "unresolvedRisk": "production static routes remain headerless until an authorized production deploy ships public/_headers"
     },
     {
       "id": "github-protections-audit",
-      "status": "failed",
+      "status": "remediated",
       "environment": "github",
       "date": "2026-07-12",
       "actor": "gh api",
       "inputs": "branch protection, rulesets, secret scanning, push protection, vulnerability alerts, dependabot, environments, workflow permissions",
-      "observedResult": "main UNPROTECTED; no rulesets; secret scanning DISABLED; push protection DISABLED; vulnerability alerts DISABLED; no dependabot.yml; no environments; workflow perms read-only (good); auto-merge off (good). Repo is PUBLIC.",
+      "observedResult": "main UNPROTECTED; no rulesets; secret scanning DISABLED; push protection DISABLED; vulnerability alerts DISABLED; no dependabot.yml; no environments; workflow perms read-only (good); auto-merge off (good). Repo is PUBLIC. [HISTORICAL FINDING — all items remediated the same day; see linked check github-protections-enabled]",
       "evidence": "gh api outputs (this ledger entry)",
-      "unresolvedRisk": "remediation in progress this phase"
+      "unresolvedRisk": "none — remediated",
+      "remediatedBy": "github-protections-enabled"
     },
     {
       "id": "migrations-applied-in-order-local",
@@ -110,7 +111,7 @@
       "date": "2026-07-12",
       "actor": "curl via PostgREST",
       "inputs": "GET /rest/v1/sync_records (anon), GET /rest/v1/recipe_drafts (authenticated)",
-      "observedResult": "Both denied with 42501 \u2014 RPC-only surface holds",
+      "observedResult": "Both denied with 42501 — RPC-only surface holds",
       "evidence": "evidence/phase-6-5/artifacts/deletion-drill.log",
       "unresolvedRisk": "full 14-actor matrix (households, reviewers, testers, publisher) remains to be scripted"
     },
@@ -123,7 +124,52 @@
       "inputs": "branch protection (required check verify, no force-push/deletions), secret scanning, push protection, vulnerability alerts, dependabot.yml",
       "observedResult": "All enabled; 1 moderate dependency vulnerability immediately surfaced (dependabot/1)",
       "evidence": "gh api responses in PR discussion + this ledger",
-      "unresolvedRisk": "vulnerability remediation PR pending"
+      "unresolvedRisk": "vulnerability remediation PR pending",
+      "remediates": "github-protections-audit"
+    },
+    {
+      "id": "generated-outputs-removed",
+      "status": "passed",
+      "environment": "repo",
+      "date": "2026-07-12",
+      "actor": "phase-6.5 agent (Claude)",
+      "inputs": "public/companion-recipes/ (541 files) + public/trust-manifest.json accidentally committed via git add -A; PR bloated to 582 changed files",
+      "observedResult": "Removed from index, gitignored, CI assertion added; PR reduced to 41 changed files; clean-checkout worktree (npm ci + build) regenerated all 541 outputs and deployed staging with smoke 25/25",
+      "evidence": "commit history + CI step 'Assert no generated build outputs are committed'",
+      "unresolvedRisk": "none"
+    },
+    {
+      "id": "publication-claim-hardening",
+      "status": "passed",
+      "environment": "local isolated stack",
+      "date": "2026-07-12",
+      "actor": "scripts/test-publication-claiming.mjs",
+      "inputs": "migration 000700: atomic ready->claimed, single-use hashed claim token, 30-min expiry, token-gated PR recording, expired-claim recovery (lazy + janitor RPC); operator script threads the token; 8 parallel claim attempts + expiry/crash scenarios",
+      "observedResult": "1 winner/7 clean rejections; raw token never stored (hash only); missing+wrong token rejected; expired claim cannot record PR; reclaim issues fresh token and kills the old one; one PR per candidate; pr_open terminal. Also fixed: pgcrypto must be schema-qualified (extensions.) under the pinned search_path",
+      "evidence": "evidence/phase-6-5/artifacts/publication-claiming-tests.log",
+      "unresolvedRisk": "staging-repo end-to-end operator run still pending (needs staging Supabase + dedicated staging repo)"
+    },
+    {
+      "id": "dependency-vulnerability-postcss",
+      "status": "passed",
+      "environment": "repo",
+      "date": "2026-07-12",
+      "actor": "phase-6.5 agent (Claude)",
+      "inputs": "GHSA-qx2v-qp2m-jg93 (medium): postcss < 8.5.10 XSS via unescaped </style> in stringify output; resolutions: 8.5.16 (tailwind chain), 8.4.31 (pinned by next@16.2.10)",
+      "observedResult": "Exposure assessment: build-time only in this project (first-party CSS, no untrusted CSS input; nothing ships postcss to browser/Worker). Upgraded anyway via npm override postcss ^8.5.10 -> all resolutions 8.5.17; full build chain re-run green at final head",
+      "evidence": "package.json overrides + evidence/phase-6-5/artifacts/ci-chain-final.log",
+      "unresolvedRisk": "none"
+    },
+    {
+      "id": "evidence-log-sanitation",
+      "status": "passed",
+      "environment": "repo",
+      "date": "2026-07-12",
+      "actor": "phase-6.5 agent (Claude)",
+      "inputs": "grep for JWT patterns (eyJ...), sk-ant-, Bearer tokens, email addresses across evidence/phase-6-5/artifacts/",
+      "observedResult": "No secrets, tokens, or personal identifiers present; logs contain only synthetic UUIDs, status codes, counts and local URLs",
+      "evidence": "scan recorded in PR #7 cleanup commit",
+      "unresolvedRisk": "none"
     }
   ],
   "blockers": [

@@ -2,7 +2,7 @@
   "name": "cook-anything",
   "version": "0.1.0",
   "private": true,
-  "description": "Cook Anything — Tell us what you have. Discover what the world cooks with it.",
+  "description": "Cook Anything \u2014 Tell us what you have. Discover what the world cooks with it.",
   "scripts": {
     "dev": "next dev",
     "prebuild": "npm run trust:gate && tsx scripts/build-search-index.ts && tsx scripts/build-trust-manifest.ts && tsx scripts/build-companion-recipes.ts",
@@ -47,5 +47,8 @@
     "tailwindcss": "^4.3.2",
     "tsx": "^4.23.0",
     "typescript": "^5.9.3"
+  },
+  "overrides": {
+    "postcss": "^8.5.10"
   }
 }
