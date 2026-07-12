@@ -53,8 +53,10 @@ Legend: ✅ evidenced (ledger entry) · 🟡 partial · ⛔ blocked (named block
   a restore drill. Code-complete; local-stack evidence is promising.
 - **Household features**: **NO-GO** — same blockers + full cross-role matrix.
 - **Public contributions**: **NO-GO** — moderation staffing and takedown
-  ownership are documents, not people; publication operator needs a
-  post-guard-fix staging run against a dedicated staging repo.
+  ownership are documents, not people. Publication claim concurrency is
+  hardened (migration 000700, tested); end-to-end GitHub crash resumption
+  remains pending staging validation against a dedicated staging repo (see
+  blocker PUBLICATION_OPERATOR_GITHUB_CRASH_RESUMPTION).
 - **Hosted companion**: **NO-GO (deliberately disabled)** — fail-closed state
   is the verified, correct state. Step-12 checklist untouched by design.
 

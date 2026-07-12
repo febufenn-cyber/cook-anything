@@ -110,6 +110,8 @@ jobs:
           test -s supabase/migrations/20260712000400_phase6_living_cookbook.sql
           test -s supabase/migrations/20260712000500_phase6_account_deletion_hardening.sql
           test -s supabase/migrations/20260712000600_phase65_service_role_guard_fix.sql
+          test -s supabase/migrations/20260712000700_phase65_publication_claim_hardening.sql
+          node --check scripts/test-publication-claiming.mjs
           bash -n bridge/companion-tunnel.sh
           bash -n bridge/companion-watchdog.sh
           bash -n bridge/phase0-disable.sh

@@ -1,8 +1,8 @@
 {
   "phase": "6.5",
-  "commit": "1e378ec6961e68826c83b0b65a7d2e72af626746",
+  "commit": "5f838f8429164d211fe90df95105a8c297347f56",
   "branch": "agent/phase-6-5-staging-canary-operations",
-  "generatedAt": "2026-07-12T05:00:00Z",
+  "generatedAt": "2026-07-12T05:40:00Z",
   "checks": [
     {
       "id": "ci-chain-full-rerun",
@@ -66,8 +66,8 @@
       "environment": "local isolated Supabase stack (Docker)",
       "date": "2026-07-12",
       "actor": "supabase db reset",
-      "inputs": "six migrations 000100-000600 after renaming (original files collided on version 20260712 and applied in the wrong lexicographic order)",
-      "observedResult": "All six applied in documented order; 18/18 public tables RLS-enabled; ZERO direct table grants to anon/authenticated; 34 security-definer RPCs exposed to authenticated",
+      "inputs": "seven migrations 000100-000700 after renaming (original five files collided on version 20260712 and applied in the wrong lexicographic order); 000600 = service-role guard fix, 000700 = publication-claim hardening",
+      "observedResult": "All seven applied in documented order via supabase db reset; 18/18 public tables RLS-enabled; ZERO direct table grants to anon/authenticated; RPC-only surface confirmed",
       "evidence": "evidence/phase-6-5/artifacts/local-migrations.log",
       "unresolvedRisk": "hosted staging project still required for hosted-infra parity"
     },
@@ -122,9 +122,9 @@
       "date": "2026-07-12",
       "actor": "gh api",
       "inputs": "branch protection (required check verify, no force-push/deletions), secret scanning, push protection, vulnerability alerts, dependabot.yml",
-      "observedResult": "All enabled; 1 moderate dependency vulnerability immediately surfaced (dependabot/1)",
+      "observedResult": "All enabled; 1 moderate dependency vulnerability immediately surfaced (postcss GHSA-qx2v-qp2m-jg93) and REMEDIATED in this PR via the postcss 8.5.17 override — see check dependency-vulnerability-postcss. The alert on main clears when PR #7 merges.",
       "evidence": "gh api responses in PR discussion + this ledger",
-      "unresolvedRisk": "vulnerability remediation PR pending",
+      "unresolvedRisk": "none",
       "remediates": "github-protections-audit"
     },
     {
@@ -134,7 +134,7 @@
       "date": "2026-07-12",
       "actor": "phase-6.5 agent (Claude)",
       "inputs": "public/companion-recipes/ (541 files) + public/trust-manifest.json accidentally committed via git add -A; PR bloated to 582 changed files",
-      "observedResult": "Removed from index, gitignored, CI assertion added; PR reduced to 41 changed files; clean-checkout worktree (npm ci + build) regenerated all 541 outputs and deployed staging with smoke 25/25",
+      "observedResult": "Removed from index, gitignored, CI assertion added; PR reduced to 41 changed files at cleanup time (47 at the merge-ready head after the claiming migration, its tests and evidence were added); clean-checkout worktree (npm ci + build) regenerated all 541 outputs and deployed staging with smoke 25/25",
       "evidence": "commit history + CI step 'Assert no generated build outputs are committed'",
       "unresolvedRisk": "none"
     },
@@ -147,7 +147,7 @@
       "inputs": "migration 000700: atomic ready->claimed, single-use hashed claim token, 30-min expiry, token-gated PR recording, expired-claim recovery (lazy + janitor RPC); operator script threads the token; 8 parallel claim attempts + expiry/crash scenarios",
       "observedResult": "1 winner/7 clean rejections; raw token never stored (hash only); missing+wrong token rejected; expired claim cannot record PR; reclaim issues fresh token and kills the old one; one PR per candidate; pr_open terminal. Also fixed: pgcrypto must be schema-qualified (extensions.) under the pinned search_path",
       "evidence": "evidence/phase-6-5/artifacts/publication-claiming-tests.log",
-      "unresolvedRisk": "staging-repo end-to-end operator run still pending (needs staging Supabase + dedicated staging repo)"
+      "unresolvedRisk": "Claim concurrency is hardened; end-to-end GitHub crash resumption remains pending staging validation — a crash after branch/PR creation leaves GitHub state a later worker cannot yet resume (deterministic branch already exists). Operator remains disabled."
     },
     {
       "id": "dependency-vulnerability-postcss",
@@ -169,6 +169,17 @@
       "inputs": "grep for JWT patterns (eyJ...), sk-ant-, Bearer tokens, email addresses across evidence/phase-6-5/artifacts/",
       "observedResult": "No secrets, tokens, or personal identifiers present; logs contain only synthetic UUIDs, status codes, counts and local URLs",
       "evidence": "scan recorded in PR #7 cleanup commit",
+      "unresolvedRisk": "none"
+    },
+    {
+      "id": "final-ci-merge-ready-head",
+      "status": "passed",
+      "environment": "github-actions + local",
+      "date": "2026-07-12",
+      "actor": "GitHub workflow verify + local full chain",
+      "inputs": "Merge-ready head 5f838f8429164d211fe90df95105a8c297347f56 (47 changed files vs main)",
+      "observedResult": "GitHub verify runs 29178877046 and 29178878074 both success at 5f838f8; local full chain ALL PASSED at parent 29a09d2 (evidence-only delta between the two)",
+      "evidence": "gh run 29178877046; evidence/phase-6-5/artifacts/ci-chain-final.log",
       "unresolvedRisk": "none"
     }
   ],
@@ -204,6 +215,18 @@
         "guarded deploy script",
         "deployment runbook"
       ]
+    },
+    {
+      "blocker": "PUBLICATION_OPERATOR_GITHUB_CRASH_RESUMPTION",
+      "impact": "Database claiming is concurrency-safe, but the GitHub operator is not fully crash-resumable: a crash after branch creation (or after PR creation but before Supabase recording) strands GitHub state; a reclaiming worker currently fails on the already-existing deterministic branch. Blocks ENABLING the publication operator; does not block merging PR #7.",
+      "requiredHumanAction": "None immediately (operator disabled). Before enablement: make the operator idempotent — detect existing deterministic branch, verify its candidate ID + content hash before reuse, detect an existing draft PR for the head branch, continue from the last completed step, never overwrite an unrelated branch; test crashes after branch creation, commit creation and PR creation against a dedicated staging repository.",
+      "workCompletedWithoutCredential": [
+        "atomic claim + token + expiry + recovery (migration 000700)",
+        "concurrency and DB-side crash-recovery tests",
+        "operator threads claim token"
+      ]
     }
-  ]
+  ],
+  "baseCommit": "1e378ec6961e68826c83b0b65a7d2e72af626746",
+  "commitNote": "Reviewer-verified merge-ready head. Later commits on the branch are evidence/CI-metadata corrections only (this ledger update itself advances the head)."
 }
