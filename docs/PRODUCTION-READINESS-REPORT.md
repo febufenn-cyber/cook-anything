@@ -5,8 +5,8 @@ Legend: ✅ evidenced (ledger entry) · 🟡 partial · ⛔ blocked (named block
 
 | Subsystem | Code | Configured | Staging deployed | Staging tested | Canary | Prod enabled |
 | --- | --- | --- | --- | --- | --- | --- |
-| Static application | ✅ | ✅ | ✅ | ✅ smoke 25/25 | ⬜ | 🟡 live pre-6.5 build (headerless static routes — needs authorized redeploy) |
-| PWA / offline | ✅ | ✅ | ✅ served | 🟡 sw serving + cache boundaries only | ⬜ | 🟡 as above |
+| Static application | ✅ | ✅ | ✅ | ✅ smoke 25/25 | ⬜ | ✅ deployed @ d3a4eea (v 8fb4fd02), smoke 25/25, cold+cached headers verified |
+| PWA / offline | ✅ | ✅ | ✅ served | 🟡 sw serving + cache boundaries only | ⬜ | 🟡 deployed; device QA outstanding |
 | Recipe trust gate | ✅ | ✅ | n/a (build-time) | ✅ 0 errors in chain rerun | n/a | ✅ enforced in every build |
 | Matcher | ✅ | ✅ | ✅ | 🟡 unit suites only; no deployed QA | ⬜ | 🟡 |
 | Cook Mode | ✅ | ✅ | ✅ | 🟡 unit suites; no device QA | ⬜ | 🟡 |
@@ -30,8 +30,8 @@ Legend: ✅ evidenced (ledger entry) · 🟡 partial · ⛔ blocked (named block
 
 1. **Deployed security headers absent on ALL static routes** — assets edge
    path bypasses the Worker on env deploys; repo tests could not see it.
-   Fixed via `public/_headers` + parity test. Production still affected until
-   an authorized deploy.
+   Fixed via `public/_headers` + parity test; shipped to production 2026-07-12
+   (verified on cold and cached responses).
 2. **Migration version collision + wrong application order** — five files
    shared version `20260712`; CLI failed at #2 and lexicographic order
    contradicted the documented order. Renamed `000100–000500`.
@@ -67,9 +67,9 @@ Legend: ✅ evidenced (ledger entry) · 🟡 partial · ⛔ blocked (named block
    run RLS matrix, OAuth flows, sync chaos, restore drill, deletion drill re-run.
 2. `REAL_DEVICE_AND_HUMAN_QA_REQUIRED` — human: iPhone/Android/desktop QA
    matrix, screen-reader pass, canary cohort, cook testers.
-3. `PRODUCTION_REDEPLOY_AUTHORIZATION` — human: one explicit approval to ship
-   the `_headers` fix + Phase 6.5 worker to production
-   (`CONFIRM_PRODUCTION=yes npm run deploy:production` after PR merge).
+3. `PRODUCTION_REDEPLOY_AUTHORIZATION` — **RESOLVED 2026-07-12**: authorized
+   redeploy executed (version 8fb4fd02); smoke 25/25; cold+cached headers
+   verified; no high-risk feature enabled.
 
 No unsupported production-readiness claim is made: nothing in this phase
 enabled hosted AI, cloud sync, public submissions, or publication anywhere.

@@ -1,0 +1,8 @@
+env.COMPANION_MAX_TURNS_PER_SESSION ("30")                                  Environment Variable      
+env.COMPANION_MAX_ACTIVE_EXECUTIONS ("2")                                   Environment Variable      
+env.COMPANION_DAILY_EXECUTION_LIMIT ("300")                                 Environment Variable      
+
+Uploaded cook-anything (115.85 sec)
+Deployed cook-anything triggers (10.31 sec)
+  cook-anything.robofox.online (custom domain)
+Current Version ID: 8fb4fd02-4b28-4be5-97b5-cc943cbc2549

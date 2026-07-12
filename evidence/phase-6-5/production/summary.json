@@ -1,0 +1,20 @@
+{
+  "id": "production-redeploy-2026-07-12",
+  "authorizedBy": "explicit human authorization (single controlled production redeployment)",
+  "actor": "phase-6.5 agent (Claude)",
+  "date": "2026-07-12",
+  "productionUrl": "https://cook-anything.robofox.online",
+  "deployedCommit": "d3a4eea3b81d8aab04ae985fad37f99d44ee3eb3",
+  "workerName": "cook-anything",
+  "newVersionId": "8fb4fd02-4b28-4be5-97b5-cc943cbc2549",
+  "previousVersionId": "419abf27-f559-4add-934c-0e1b5b949cd6",
+  "preflight": "npm ci + build + all Phase 1-6.5 suites + trust gate + dry-run \u2014 ALL PASSED (preflight.log)",
+  "smoke": "25/25 passed (smoke.log)",
+  "coldHeaders": "cf-cache-status MISS \u2014 full security-header suite present (headers-cold-cached.log)",
+  "cachedHeaders": "cf-cache-status HIT \u2014 identical suite preserved on cached responses incl. homepage",
+  "staticAssetCache": "/_next/static immutable max-age=31536000; HTML max-age=0 must-revalidate (not immutable)",
+  "failClosedCompanion": "503 not_configured, no Set-Cookie, cache-control no-store on session+turn (fail-closed.log)",
+  "bundleSecretScan": "passed (10 bundles, within smoke suite)",
+  "rollbackRequired": false,
+  "highRiskFeaturesEnabled": "none \u2014 hosted companion, Supabase auth/sync, households, public submissions, publication operator, analytics all remain disabled; no migrations applied, no OAuth configured, no VPS changes"
+}
