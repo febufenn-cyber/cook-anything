@@ -36,6 +36,14 @@ jobs:
       - name: Install locked dependencies
         run: npm ci
 
+      - name: Assert no generated build outputs are committed
+        run: |
+          if git ls-files | grep -qE '^(public/(companion-recipes/|trust-manifest\.json|search-index\.json|recipes-index\.json)|out/|\.wrangler)'; then
+            echo "Generated build outputs are committed — remove them; npm run build regenerates them."
+            git ls-files | grep -E '^(public/(companion-recipes/|trust-manifest\.json|search-index\.json|recipes-index\.json)|out/|\.wrangler)' | head
+            exit 1
+          fi
+
       - name: Companion security tests
         run: |
           set -o pipefail
