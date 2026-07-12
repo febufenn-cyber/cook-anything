@@ -80,6 +80,7 @@ async function executeThroughBridge(
   state: CompanionState,
   history: ChatMessage[],
   message: string,
+  sessionKey?: string,
 ): Promise<ExecutionResult> {
   if (!env.COMPANION_UPSTREAM_SIGNING_SECRET) {
     throw new Error("bridge_not_configured");
@@ -94,6 +95,9 @@ async function executeThroughBridge(
     state_system: buildStateSystemText(state),
     history: boundedHistory(history),
     message,
+    // Opaque per-cook-session token: lets the bridge keep a warm Claude session
+    // so follow-up turns reuse the cached recipe prompt instead of re-processing it.
+    ...(sessionKey ? { session_key: sessionKey } : {}),
   });
   const bodyHash = await sha256Hex(body);
   const signature = await hmacSha256Hex(
@@ -183,6 +187,7 @@ export async function executeHostedTurn(
   state: CompanionState,
   history: ChatMessage[],
   message: string,
+  sessionKey?: string,
 ): Promise<ExecutionResult> {
   // Private subscription bridge: a static COMPANION_UPSTREAM var wins; otherwise
   // the current quick-tunnel origin the bridge published (HMAC-authenticated) to
@@ -193,6 +198,6 @@ export async function executeHostedTurn(
       ? (await env.COMPANION_CONFIG.get("companion_bridge_origin")) || ""
       : "");
   return upstream
-    ? executeThroughBridge(env, upstream, recipe, state, history, message)
+    ? executeThroughBridge(env, upstream, recipe, state, history, message, sessionKey)
     : executeThroughAnthropic(env, recipe, state, history, message);
 }

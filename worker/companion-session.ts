@@ -37,6 +37,8 @@ interface SessionRecord {
   updated_at: number;
   turn_count: number;
   recent_turns: Record<string, StoredTurn>;
+  /** Opaque token identifying this cook session to the bridge for warm resume. */
+  bridge_session_key?: string;
 }
 
 interface GateRecord {
@@ -227,6 +229,7 @@ export class CompanionSession {
       updated_at: now,
       turn_count: 0,
       recent_turns: {},
+      bridge_session_key: crypto.randomUUID(),
     };
     await Promise.all([
       this.ctx.storage.put(SESSION_STORAGE_KEY, record),
@@ -283,6 +286,7 @@ export class CompanionSession {
         record.state,
         record.history,
         input.message,
+        record.bridge_session_key,
       );
       if (!executed.reply) throw new Error("upstream_error");
 
