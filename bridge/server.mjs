@@ -116,10 +116,12 @@ function validateHistory(value) {
 function validateBody(value, expectedRequestId) {
   if (!value || typeof value !== "object" || Array.isArray(value)) return null;
   const allowed = new Set([
-    "schema_version", "request_id", "system", "state_system", "history", "message",
+    "schema_version", "request_id", "system", "state_system", "history", "message", "session_key",
   ]);
   if (Object.keys(value).some((key) => !allowed.has(key))) return null;
   if (value.schema_version !== 1 || value.request_id !== expectedRequestId) return null;
+  if (value.session_key !== undefined &&
+      (typeof value.session_key !== "string" || !/^[a-f0-9-]{1,64}$/i.test(value.session_key))) return null;
   if (typeof value.system !== "string" || !value.system || value.system.length > 200_000) return null;
   if (typeof value.state_system !== "string" || value.state_system.length > 50_000) return null;
   if (typeof value.message !== "string" || !value.message.trim() || value.message.length > 2_000) return null;
@@ -228,26 +230,50 @@ function buildUserPrompt(history, message) {
   ].join("\n\n");
 }
 
-async function executeTurn(body, abortSignal) {
-  const args = [
-    "-p",
-    "--output-format", "json",
-    "--model", MODEL,
-    "--max-turns", "1",
-    "--disable-slash-commands",
-    "--no-session-persistence",
-    "--strict-mcp-config",
-    "--tools", "",
-    "--disallowed-tools", "*",
-    "--system-prompt", `${body.system}\n\n${body.state_system}`,
-  ];
+// Warm-session cache: session_key -> { claude session id, expiry }. Resuming a
+// Claude Code session keeps the recipe/companion prompt cached server-side so
+// follow-up turns skip re-processing ~13KB of system prompt every time. Bounded
+// and TTL-expired; keyed only by an opaque per-cook-session token from the Worker.
+const SESSION_TTL_MS = 2 * 60 * 60 * 1_000;
+const MAX_SESSIONS = 500;
+const claudeSessions = new Map();
 
-  const result = await runClaude(args, buildUserPrompt(body.history, body.message), abortSignal);
+function cleanupSessions(now) {
+  for (const [key, entry] of claudeSessions) if (entry.expiresAt <= now) claudeSessions.delete(key);
+  while (claudeSessions.size > MAX_SESSIONS) claudeSessions.delete(claudeSessions.keys().next().value);
+}
+
+const BASE_ARGS = [
+  "-p", "--output-format", "json", "--model", MODEL, "--max-turns", "1",
+  "--disable-slash-commands", "--strict-mcp-config", "--tools", "", "--disallowed-tools", "*",
+];
+
+async function executeTurn(body, abortSignal) {
+  const now = Date.now();
+  cleanupSessions(now);
+  const key = typeof body.session_key === "string" ? body.session_key : null;
+  const warm = key ? claudeSessions.get(key) : null;
+
+  const args = warm
+    ? [...BASE_ARGS, "--resume", warm.id]
+    : [...BASE_ARGS, "--system-prompt", `${body.system}\n\n${body.state_system}`];
+  const stdin = warm
+    ? `Current session state:\n${body.state_system}\n\nNewest user message:\n${body.message}`
+    : buildUserPrompt(body.history, body.message);
+
+  const result = await runClaude(args, stdin, abortSignal);
   if (!result.ok) {
+    // A stale/expired claude session id can no longer resume — drop it so the
+    // next turn rebuilds from scratch instead of failing forever.
+    if (warm) claudeSessions.delete(key);
     return { status: result.error === "rate_limited" ? 429 : 502, body: { error: result.error } };
   }
   const text = typeof result.data?.result === "string" ? result.data.result : "";
   if (!text) return { status: 502, body: { error: "upstream_error" } };
+  const sid = result.data?.session_id;
+  if (key && typeof sid === "string" && sid) {
+    claudeSessions.set(key, { id: sid, expiresAt: now + SESSION_TTL_MS });
+  }
   return { status: 200, body: { result: text } };
 }
 
