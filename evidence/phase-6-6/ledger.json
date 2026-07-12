@@ -2,7 +2,7 @@
   "phase": "6.6",
   "baseCommit": "b94d1c9ba4bf912e30e25f4d2966cb7e7f8db72d",
   "branch": "agent/phase-6-6-device-qa-supabase-staging",
-  "generatedAt": "2026-07-12T09:45:00Z",
+  "generatedAt": "2026-07-12T11:30:00Z",
   "checks": [
     {
       "id": "publication-operator-crash-resumption",
@@ -10,10 +10,10 @@
       "environment": "real GitHub staging repo (cook-anything-staging-pub) + local Supabase stack",
       "date": "2026-07-12",
       "actor": "scripts/test-publication-operator-resumption.mjs",
-      "observedResult": "5/5: crash-after-branch/commit/pr all resume with exactly one draft PR and no duplicate; unrelated same-named branch refused; allowlist enforced before side effects. Operator made idempotent (githubMaybe404 resume checks + candidate-hash verification before branch reuse).",
+      "observedResult": "5/5 after commit-before-branch redesign: crash-after-commit + BASE ADVANCE (orphan ignored, rebuilt on new base), crash-after-branch + BASE ADVANCE (verified branch adopted), crash-after-pr (no duplicate), unrelated branch refused, allowlist enforced. Empty-deterministic-branch failure mode eliminated by design.",
       "evidence": "evidence/phase-6-6/publication-operator-results.json",
       "resolvesBlocker": "PUBLICATION_OPERATOR_GITHUB_CRASH_RESUMPTION",
-      "unresolvedRisk": "none \u2014 but operator stays disabled; needs hosted Supabase for a full end-to-end candidate lifecycle"
+      "unresolvedRisk": "operator remains disabled; full lifecycle on hosted Supabase pending the staging project"
     },
     {
       "id": "browser-qa-real-chromium",
@@ -51,8 +51,8 @@
     {
       "blocker": "SUPABASE_FREE_TIER_PROJECT_CAP",
       "status": "blocked",
-      "impact": "Cannot create the hosted staging project: org qasbonmvvocbukceppww already has 2 active free projects (Verse_a_tile, contract-reviewer). Creation attempt on 2026-07-12 was rejected by Supabase with the 2-project limit message. Hosted-infra gates (hosted RLS parity, hosted OAuth, hosted deletion/restore drills, sync chaos on real network) remain blocked; local isolated stack evidence is collected instead and labeled as such.",
-      "requiredHumanAction": "Pause or delete one existing free project (owner decision) OR upgrade the org, then run: supabase projects create cook-anything-staging --org-id qasbonmvvocbukceppww --region ap-south-1 --db-password <from ~/.cook-anything/staging.env>; then supabase link + db push and rerun the Phase 6.6 harnesses with STAGING_* env",
+      "impact": "Cannot create the hosted staging project: org <SUPABASE_ORG_ID> already has 2 active free projects (<UNRELATED_PROJECT_A>, <UNRELATED_PROJECT_B>). Creation attempt on 2026-07-12 was rejected by Supabase with the 2-project limit message. Hosted-infra gates (hosted RLS parity, hosted OAuth, hosted deletion/restore drills, sync chaos on real network) remain blocked; local isolated stack evidence is collected instead and labeled as such.",
+      "requiredHumanAction": "Pause or delete one existing free project (owner decision) OR upgrade the org, then run: supabase projects create cook-anything-staging --org-id <SUPABASE_ORG_ID> --region <REGION> <LOCAL_SECRET_STORE>>; then supabase link + db push and rerun the Phase 6.6 harnesses with STAGING_* env",
       "stillBlocking": true
     },
     {
@@ -86,7 +86,7 @@
     {
       "blocker": "PUBLICATION_OPERATOR_GITHUB_CRASH_RESUMPTION",
       "status": "resolved",
-      "resolution": "Real GitHub crash-resumption tests pass (5/5) against cook-anything-staging-pub; operator idempotent. See publication-operator-results.json. Operator remains DISABLED pending hosted Supabase + moderation staffing.",
+      "resolution": "Real GitHub crash-resumption tests pass (5/5) INCLUDING base-branch advancement between crash and resume, after the commit-before-branch redesign. Operator remains DISABLED pending hosted Supabase + moderation staffing.",
       "stillBlocking": false
     }
   ]

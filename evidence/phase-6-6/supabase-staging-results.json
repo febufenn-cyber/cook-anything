@@ -3,11 +3,11 @@
   "date": "2026-07-12",
   "hostedStatus": "blocked",
   "blocker": "SUPABASE_FREE_TIER_PROJECT_CAP",
-  "requiredHumanAction": "Free a Supabase project slot (pause/delete/upgrade), create cook-anything-staging, then rerun with STAGING_* env",
   "projectCreationAttempt": {
-    "command": "supabase projects create cook-anything-staging --org-id qasbonmvvocbukceppww --region ap-south-1",
-    "result": "rejected: org at 2-active-free-project limit (Verse_a_tile, contract-reviewer)"
+    "command": "supabase projects create cook-anything-staging --org-id <SUPABASE_ORG_ID> --region <REGION>",
+    "result": "rejected: organization already at the two-active-free-project limit (unrelated projects <UNRELATED_PROJECT_A>, <UNRELATED_PROJECT_B>)"
   },
+  "requiredHumanAction": "Free a Supabase project slot (pause/delete one unrelated free project, or upgrade the org), create cook-anything-staging, then rerun the Phase 6.6 harnesses with staging-scoped environment variables",
   "localStackEvidence": {
     "migrationsApplied": "000100-000700 in order (7)",
     "rlsEnabledAllPublicTables": true,

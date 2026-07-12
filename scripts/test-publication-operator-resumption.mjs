@@ -67,35 +67,44 @@ function runOperator(candidateId, crashAfter) {
 const expireClaim = (id) => sql(`update publication_candidates set claim_expires_at = now() - interval '1 minute' where id='${id}'`);
 const prsForBranch = (branch) => gh(`"repos/${STAGING_PUB_REPO}/pulls?head=${STAGING_PUB_REPO.split("/")[0]}:${branch}&state=all" --jq '[.[] | {url: .html_url, draft: .draft, state: .state}]'`);
 const candidateStatus = (id) => sql(`select status||':'||coalesce(github_pr_url,'-') from publication_candidates where id='${id}'`);
+const branchExists = (branch) => { try { gh(`repos/${STAGING_PUB_REPO}/git/ref/heads/${branch.replaceAll("/", "%2F")}`); return true; } catch { return false; } };
+/** Advance the base branch (simulates unrelated work landing between crash and resume). */
+const advanceBase = (tag) =>
+  gh(`-X PUT repos/${STAGING_PUB_REPO}/contents/advance-${tag}.txt -f message="base advance ${tag}" -f content="YWR2YW5jZQ==" --jq '.commit.sha'`);
 
-// --- Scenario 1: crash after branch creation, resume ------------------------
-{
-  const c = await makeCandidate("branchcrash");
-  const crashed = runOperator(c.id, "create_branch");
-  assert.equal(crashed.status, 3, `expected injected crash, got ${crashed.status}: ${crashed.stderr}`);
-  assert.equal(prsForBranch(c.branch).length, 0, "no PR after branch-stage crash");
-  expireClaim(c.id);
-  const resumed = runOperator(c.id, null);
-  assert.equal(resumed.status, 0, `resume failed: ${resumed.stderr}`);
-  const prs = prsForBranch(c.branch);
-  assert.equal(prs.length, 1, "exactly one PR after resume");
-  assert.equal(prs[0].draft, true, "PR is draft");
-  assert.match(candidateStatus(c.id), /^pr_open:https/, "candidate recorded");
-  console.log("PASS crash-after-branch: resumed on empty branch, single draft PR, recorded");
-}
-
-// --- Scenario 2: crash after commit creation, resume ------------------------
+// --- Scenario 1: crash after commit (orphan, NO branch), base ADVANCES, resume
 {
   const c = await makeCandidate("commitcrash");
   const crashed = runOperator(c.id, "create_commit");
-  assert.equal(crashed.status, 3);
+  assert.equal(crashed.status, 3, `expected injected crash, got ${crashed.status}: ${crashed.stderr}`);
+  assert.equal(branchExists(c.branch), false, "commit-stage crash leaves only an orphaned commit — no branch");
+  assert.equal(prsForBranch(c.branch).length, 0, "no PR after commit-stage crash");
+  advanceBase("s1-" + c.slug);
   expireClaim(c.id);
   const resumed = runOperator(c.id, null);
-  assert.equal(resumed.status, 0, `resume failed: ${resumed.stderr}`);
+  assert.equal(resumed.status, 0, `resume after base advance failed: ${resumed.stderr}`);
   const prs = prsForBranch(c.branch);
-  assert.equal(prs.length, 1, "exactly one PR; committed branch reused without new commit");
+  assert.equal(prs.length, 1, "exactly one PR after resume against the ADVANCED base");
+  assert.equal(prs[0].draft, true, "PR is draft");
+  assert.match(candidateStatus(c.id), /^pr_open:https/, "candidate recorded");
+  console.log("PASS crash-after-commit + base advance: orphaned commit ignored, rebuilt on new base, single draft PR, recorded");
+}
+
+// --- Scenario 2: crash after branch creation, base ADVANCES, resume ----------
+{
+  const c = await makeCandidate("branchcrash");
+  const crashed = runOperator(c.id, "create_branch");
+  assert.equal(crashed.status, 3);
+  assert.equal(branchExists(c.branch), true, "branch exists at the verified candidate commit");
+  assert.equal(prsForBranch(c.branch).length, 0, "no PR yet");
+  advanceBase("s2-" + c.slug);
+  expireClaim(c.id);
+  const resumed = runOperator(c.id, null);
+  assert.equal(resumed.status, 0, `resume after base advance failed: ${resumed.stderr}`);
+  const prs = prsForBranch(c.branch);
+  assert.equal(prs.length, 1, "verified branch adopted after base advance; exactly one draft PR");
   assert.match(candidateStatus(c.id), /^pr_open:https/);
-  console.log("PASS crash-after-commit: verified existing commit reused, single draft PR, recorded");
+  console.log("PASS crash-after-branch + base advance: verified branch adopted, no duplicate work, recorded");
 }
 
 // --- Scenario 3: crash after PR creation (before recording), resume ---------

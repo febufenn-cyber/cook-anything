@@ -3,15 +3,15 @@
 ## Hosted staging project: BLOCKED (free-tier cap)
 
 Creation was attempted on 2026-07-12 with the authenticated CLI:
-`supabase projects create cook-anything-staging --org-id qasbonmvvocbukceppww --region ap-south-1`
+`supabase projects create cook-anything-staging --org-id <SUPABASE_ORG_ID> --region <REGION>`
 Supabase rejected it: the org owner already has 2 active free projects
-(`Verse_a_tile`, `contract-reviewer`). Pausing/deleting either is an owner
+(`<UNRELATED_PROJECT_A>`, `<UNRELATED_PROJECT_B>`). Pausing/deleting either is an owner
 decision this agent will not make.
 
 **Human action to unblock** (then rerun the harnesses below with staging env):
 pause or delete one free project OR upgrade the org, rerun the create command
-(db password already generated in `~/.cook-anything/staging.env`, mode 600),
-then `supabase link --project-ref <ref>` + `supabase db push`, configure auth
+(db password already generated in `<LOCAL_SECRET_STORE>`, mode 600),
+then `supabase link --project-ref <STAGING_PROJECT_REF>` + `supabase db push`, configure auth
 redirect origins for `https://cook-anything-staging.robofox.online`, and set
 `NEXT_PUBLIC_SUPABASE_URL` / `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` on the
 staging Worker env only. Never the service-role key in browser vars.

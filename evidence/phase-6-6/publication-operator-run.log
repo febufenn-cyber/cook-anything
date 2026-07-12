@@ -1,24 +1,7 @@
-both fixes applied
-===== OPERATOR RERUN =====
-PASS crash-after-branch: resumed on empty branch, single draft PR, recorded
-PASS crash-after-commit: verified existing commit reused, single draft PR, recorded
+gh: Not Found (HTTP 404)
+PASS crash-after-commit + base advance: orphaned commit ignored, rebuilt on new base, single draft PR, recorded
+PASS crash-after-branch + base advance: verified branch adopted, no duplicate work, recorded
 PASS crash-after-pr: existing PR adopted, no duplicate, recorded
 PASS unrelated-branch: refused, nothing overwritten, no PR
 PASS allowlist: non-allowlisted repository refused before any side effect
 Publication-operator crash-resumption tests passed.
-===== QA RERUN =====
-PASSED  [real Chromium engine (Playwright, automated) on macOS] homepage-load — Cook Anything — Tell us what you have. Discover what the world cooks with it.
-node:internal/modules/run_main:123
-    triggerUncaughtException(
-    ^
-
-page.waitForSelector: Timeout 60000ms exceeded.
-Call log:
-  - waiting for locator('input[type=\'text\']') to be visible
-
-    at /Users/febin/samayal ai/scripts/qa-browser-matrix.mjs:39:14 {
-  log: [ "  - waiting for locator('input[type=\\'text\\']') to be visible" ],
-  name: 'TimeoutError'
-}
-
-Node.js v22.22.3

@@ -4,41 +4,42 @@
   "date": "2026-07-12",
   "actor": "scripts/test-publication-operator-resumption.mjs",
   "productionRepoUntouched": true,
+  "design": "commit-before-branch: quarantine blobs/tree/commit are created first, then the deterministic branch ref is created directly at the verified candidate commit. A crash between the two leaves only an orphaned, unreferenced commit (harmless); an empty deterministic branch can no longer exist, so any existing branch without this candidate's evidence file is refused as foreign.",
   "scenarios": [
     {
-      "id": "crash-after-branch",
+      "id": "crash-after-commit-then-base-advance",
       "status": "passed",
-      "detail": "operator exited 3 after branch creation with no PR; a later worker (post claim-expiry) resumed on the empty branch, opened exactly one draft PR, recorded it"
+      "detail": "crash left an orphaned commit and NO branch; the base branch then advanced; a resuming worker rebuilt against the new base, created the branch at the fresh verified commit, opened exactly one draft PR, recorded it"
     },
     {
-      "id": "crash-after-commit",
+      "id": "crash-after-branch-then-base-advance",
       "status": "passed",
-      "detail": "resumed worker verified the existing commit's evidence file (candidateId + contentHash) and reused it \u2014 no second commit; single draft PR; recorded"
+      "detail": "branch existed at the verified candidate commit; base advanced; resuming worker verified candidateId+contentHash on the branch, adopted it, opened exactly one draft PR against the advanced base, recorded it"
     },
     {
       "id": "crash-after-pr",
       "status": "passed",
-      "detail": "PR existed but candidate stayed 'claimed' (unrecorded); resumed worker adopted the existing draft PR \u2014 NO duplicate \u2014 and recorded pr_open"
+      "detail": "PR existed unrecorded; resuming worker adopted it \u2014 no duplicate \u2014 and recorded pr_open"
     },
     {
       "id": "unrelated-branch-refused",
       "status": "passed",
-      "detail": "a same-named branch with foreign content and no matching evidence file was refused (existing_unrelated_branch_refused); nothing overwritten; no PR opened"
+      "detail": "same-named branch with foreign content refused (existing_unrelated_branch_refused); nothing overwritten; no PR"
     },
     {
       "id": "allowlist-enforced",
       "status": "passed",
-      "detail": "GITHUB_REPOSITORY outside the allowlist rejected (publication_repository_not_allowlisted) before any GitHub side effect"
+      "detail": "non-allowlisted repository rejected before any side effect"
     }
   ],
   "resolvesBlocker": "PUBLICATION_OPERATOR_GITHUB_CRASH_RESUMPTION",
+  "scopeNote": "Resolution covers GitHub-side crash resumption for the tested crash points including base-branch advancement between crash and resume. Full end-to-end candidate lifecycle on hosted Supabase remains pending the staging project; the operator stays disabled.",
   "invariantsProven": [
     "draft-PR-only",
-    "no merge/deploy capability in operator",
+    "no merge/deploy capability",
     "quarantine-only paths",
-    "candidate ID + content-hash verified before branch reuse",
-    "atomic claim + token from migration 000700 gates recording",
-    "one PR per candidate under crash+resume"
-  ],
-  "note": "Operator idempotency implemented in scripts/open-publication-candidate-pr.ts (githubMaybe404 resume checks, crashPoint injection hook for tests only)."
+    "candidate-ID + content-hash verification before branch reuse",
+    "atomic claim + single-use token (migration 000700) gates recording",
+    "one PR per candidate under crash+resume+base-advance"
+  ]
 }

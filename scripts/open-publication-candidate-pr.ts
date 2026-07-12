@@ -117,9 +117,12 @@ async function main(): Promise<void> {
   const ref = await github<{ object: { sha: string } }>(`/git/ref/heads/${encodeURIComponent(baseBranch)}`);
   const baseCommit = await github<{ tree: { sha: string } }>(`/git/commits/${ref.object.sha}`);
 
-  // Idempotent branch handling: a previous worker may have crashed after any
-  // GitHub side effect. Resume only when the deterministic branch verifiably
-  // belongs to THIS candidate; never overwrite an unrelated branch.
+  // Idempotent branch handling: the deterministic branch is only ever created
+  // AT a verified candidate commit (commit-before-branch ordering below), so
+  // an existing branch either carries this candidate's evidence file — safe to
+  // resume — or it is foreign and must be refused. An "empty branch at base"
+  // ambiguity cannot occur; a crash before branch creation leaves at most an
+  // orphaned (unreferenced, harmless) commit.
   const existingBranch = await githubMaybe404<{ object: { sha: string } }>(
     `/git/ref/heads/${branch.replaceAll("/", "%2F")}`,
   );
@@ -128,22 +131,15 @@ async function main(): Promise<void> {
     const evidenceOnBranch = await githubMaybe404<{ content?: string }>(
       `/contents/${evidencePath}?ref=${encodeURIComponent(branch)}`,
     );
-    if (evidenceOnBranch?.content) {
-      const prior = JSON.parse(Buffer.from(evidenceOnBranch.content, "base64").toString("utf8")) as {
-        candidateId?: string; contentHash?: string;
-      };
-      if (prior.candidateId !== candidate.id || prior.contentHash !== candidate.contentHash) {
-        throw new Error("existing_branch_belongs_to_different_candidate");
-      }
-      branchHasVerifiedCommit = true; // crash happened after commit creation — reuse it
-    } else if (existingBranch.object.sha !== ref.object.sha) {
-      throw new Error("existing_unrelated_branch_refused");
+    if (!evidenceOnBranch?.content) throw new Error("existing_unrelated_branch_refused");
+    const prior = JSON.parse(Buffer.from(evidenceOnBranch.content, "base64").toString("utf8")) as {
+      candidateId?: string; contentHash?: string;
+    };
+    if (prior.candidateId !== candidate.id || prior.contentHash !== candidate.contentHash) {
+      throw new Error("existing_branch_belongs_to_different_candidate");
     }
-    // else: empty branch at base sha from a crash right after branch creation — reuse it.
-  } else {
-    await github("/git/refs", { method: "POST", body: JSON.stringify({ ref: `refs/heads/${branch}`, sha: ref.object.sha }) });
+    branchHasVerifiedCommit = true;
   }
-  crashPoint("create_branch");
 
   const candidateFile = JSON.stringify({
     quarantineStatus: "publication_candidate_not_yet_public",
@@ -166,6 +162,11 @@ async function main(): Promise<void> {
   }, null, 2) + "\n";
 
   if (!branchHasVerifiedCommit) {
+    // Commit BEFORE branch: build the quarantine blobs/tree/commit first, then
+    // create the deterministic branch ref pointing directly at the verified
+    // commit. A crash between the two leaves only an orphaned commit (no ref),
+    // which a resuming worker safely ignores by rebuilding against the current
+    // base — the empty-deterministic-branch failure mode no longer exists.
     const [candidateBlob, evidenceBlob] = await Promise.all([
       github<{ sha: string }>("/git/blobs", { method: "POST", body: JSON.stringify({ content: candidateFile, encoding: "utf-8" }) }),
       github<{ sha: string }>("/git/blobs", { method: "POST", body: JSON.stringify({ content: evidenceFile, encoding: "utf-8" }) }),
@@ -188,9 +189,10 @@ async function main(): Promise<void> {
         parents: [ref.object.sha],
       }),
     });
-    await github(`/git/refs/heads/${branch.replaceAll("/", "%2F")}`, { method: "PATCH", body: JSON.stringify({ sha: commit.sha, force: false }) });
+    crashPoint("create_commit");
+    await github("/git/refs", { method: "POST", body: JSON.stringify({ ref: `refs/heads/${branch}`, sha: commit.sha }) });
   }
-  crashPoint("create_commit");
+  crashPoint("create_branch");
 
   // Idempotent PR handling: reuse an existing open draft PR for this exact
   // head branch instead of opening a duplicate.

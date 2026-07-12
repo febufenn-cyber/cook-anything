@@ -38,7 +38,7 @@ accessibility or data-loss defect remains (both found were fixed).
 ## Workstream B — hosted Supabase staging
 
 **Hosted project: BLOCKED** — creation rejected because the org is at the
-2-active-free-project cap (`Verse_a_tile`, `contract-reviewer`). Exact unblock
+2-active-free-project cap (`<UNRELATED_PROJECT_A>`, `<UNRELATED_PROJECT_B>`). Exact unblock
 steps in `docs/PHASE-6-6-SUPABASE-STAGING.md`. Consequently the hosted RLS
 matrix, OAuth flows, guest-migration, multi-device sync chaos, household matrix,
 hosted deletion drill, and backup/restore drill are all blocked; each has a
