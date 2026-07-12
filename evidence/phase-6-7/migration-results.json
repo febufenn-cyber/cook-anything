@@ -1,0 +1,33 @@
+{
+  "id": "hosted-migrations",
+  "date": "2026-07-12",
+  "project": "cook-anything-staging (ref redacted)",
+  "applied": [
+    "000100",
+    "000200",
+    "000300",
+    "000400",
+    "000500",
+    "000600",
+    "000700",
+    "000800",
+    "000900",
+    "001000"
+  ],
+  "verification": "remote history complete; 18 public tables; RLS enabled on all; zero direct anon/authenticated table grants; trusted RPCs revoked from browser roles (post-000800); authenticated RPC surface = 35 security-definer functions",
+  "hostedOnlyDefectsFoundAndFixed": [
+    {
+      "migration": "000800",
+      "finding": "hosted default privileges auto-granted EXECUTE to browser roles on the four trusted functions (guarded in-function, but grant-level hardening applied)"
+    },
+    {
+      "migration": "000900",
+      "finding": "five functions called unqualified pgcrypto (digest/gen_random_bytes) under pinned search_path \u2014 sync_push, personal reset, household invites and cloud draft saves were inoperable over the API (42883)"
+    },
+    {
+      "migration": "001000",
+      "finding": "sync_push plpgsql variable mutation_id collided with the receipts column (42702) \u2014 every push failed after device validation; variable renamed"
+    }
+  ],
+  "evidence": "evidence/phase-6-7/migration-verify.log + hosted-run.log"
+}

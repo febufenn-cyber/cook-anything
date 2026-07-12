@@ -1,0 +1,17 @@
+{
+  "id": "restore-drill",
+  "date": "2026-07-12",
+  "status": "passed-with-limitation",
+  "method": "hosted logical dump (supabase db dump via session pooler aws-1, ports 5432) -> isolated local stack restore (public schema dropped first)",
+  "verified": {
+    "tables": 18,
+    "rlsDisabledTables": 0,
+    "households": 7,
+    "publicationCandidates": 6
+  },
+  "limitations": [
+    "Free tier has no hosted PITR \u2014 logical dump/restore is the strongest supported method",
+    "supabase db dump restored schema + RLS-enabled state but ZERO policies (restored DB is default-deny \u2014 safe direction, but incomplete). Documented recovery procedure: apply migrations 000100-001000 FIRST (recreates all policies/functions/grants), then restore the --data-only dump",
+    "direct db host is IPv6-only; use the aws-1 session pooler (Management API is the authoritative source for the pooler host)"
+  ]
+}

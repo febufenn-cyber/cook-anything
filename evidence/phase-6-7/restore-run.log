@@ -1,0 +1,11 @@
+We recommend updating regularly for new features and bug fixes: https://supabase.com/docs/guides/cli/getting-started#updating-the-supabase-cli
+We recommend updating regularly for new features and bug fixes: https://supabase.com/docs/guides/cli/getting-started#updating-the-supabase-cli
+dump lines:     2675 schema,      546 data
+
+
+restored tables: 18
+restored RLS-disabled (must be 0): 0
+restored policies: 0
+restored households: 7
+restored sync_records: 0
+restored publication_candidates: 6

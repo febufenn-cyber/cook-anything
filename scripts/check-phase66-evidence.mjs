@@ -36,9 +36,9 @@ else ok(`ledger: ${ledger.checks.length} checks, ${ledger.blockers.length} block
 
 // 2. migration list 000100–000700 in order
 const migs = readdirSync("supabase/migrations").filter((f) => f.endsWith(".sql")).sort();
-const expected = ["000100", "000200", "000300", "000400", "000500", "000600", "000700"];
+const expected = ["000100", "000200", "000300", "000400", "000500", "000600", "000700", "000800", "000900", "001000"];
 const seq = migs.map((m) => m.match(/20260712(\d{6})/)?.[1]).filter(Boolean);
-if (JSON.stringify(seq) === JSON.stringify(expected)) ok("migrations 000100-000700 present in order");
+if (JSON.stringify(seq) === JSON.stringify(expected)) ok("migrations 000100-001000 present in order");
 else fail(`migration sequence mismatch: ${JSON.stringify(seq)}`);
 
 // 3. no production-ish Supabase URL or service-role JWT in committed evidence/fixtures

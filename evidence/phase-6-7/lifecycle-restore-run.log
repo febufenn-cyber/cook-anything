@@ -1,0 +1,23 @@
+===== PUBLICATION LIFECYCLE (hosted Supabase + real GitHub) =====
+PASS crash-after-commit + base advance: orphaned commit ignored, rebuilt on new base, single draft PR, recorded
+PASS crash-after-branch + base advance: verified branch adopted, no duplicate work, recorded
+PASS crash-after-pr: existing PR adopted, no duplicate, recorded
+PASS unrelated-branch: refused, nothing overwritten, no PR
+PASS allowlist: non-allowlisted repository refused before any side effect
+Publication-operator crash-resumption tests passed.
+===== CLAIMING SUITE (hosted) =====
+PASS concurrency: 1 winner / 7 clean rejections, token issued, only hash stored
+PASS token gate: missing + mismatched tokens rejected
+PASS crash recovery: expiry blocks stale worker; reclaim issues fresh token
+PASS duplicate prevention: one PR per candidate, pr_open is terminal for claiming
+PASS janitor: recover_expired_publication_claims operational
+Publication-claiming tests passed.
+===== RESTORE DRILL (hosted dump -> isolated local restore) =====
+Try rerunning the command with --debug to troubleshoot the error.
+Try rerunning the command with --debug to troubleshoot the error.
+       0 /tmp/staging-dump.sql
+       2 /tmp/staging-data.sql
+restored tables: 0
+restored RLS-disabled (must be 0): 0
+restored households rows: 
+restored sync_records rows: 

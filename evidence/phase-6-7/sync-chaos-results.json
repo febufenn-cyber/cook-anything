@@ -1,0 +1,35 @@
+{
+  "id": "sync-chaos",
+  "date": "2026-07-12T10:48:26.041Z",
+  "project": "cook-anything-staging (hosted; ref redacted)",
+  "source": "evidence/phase-6-7/hosted-battery-results.json",
+  "results": [
+    {
+      "id": "device-registration",
+      "status": "passed",
+      "detail": "status 200 {\"ok\":true}"
+    },
+    {
+      "id": "sync-push",
+      "status": "passed",
+      "detail": "status 200 {\"accepted\":[],\"conflicts\":[{\"id\":\"1d29fdc3-182d-40ab-9472-4f32669132de\",\"reason\":\"concurrent_edit\","
+    },
+    {
+      "id": "duplicate-mutation-idempotent",
+      "status": "passed",
+      "detail": "same mutationId replayed without error/duplication"
+    },
+    {
+      "id": "revoked-device-push-denied",
+      "status": "passed",
+      "detail": "revoke 200, push-after 400"
+    },
+    {
+      "id": "use-this-device-reset",
+      "status": "passed",
+      "detail": "status 200 {\"ok\":true,\"deleted\":0}"
+    }
+  ],
+  "note": "Hosted core proven: push+conflict machinery (concurrent_edit surfaced), duplicate-mutation receipt idempotency, revoked-device denial, personal-scope reset. Full chaos list (clock skew, thousands of mutations, compaction, interrupted pulls) remains engine-tested only \u2014 hosted follow-up.",
+  "safetyInvariant": "allergen-exclusion conflict preservation engine-tested (phase-5 suite); hosted UI-level verification pending"
+}
