@@ -75,12 +75,13 @@ function boundedHistory(history: ChatMessage[]): { role: "user" | "assistant"; c
 
 async function executeThroughBridge(
   env: Env,
+  upstream: string,
   recipe: TrustedCompanionRecipe,
   state: CompanionState,
   history: ChatMessage[],
   message: string,
 ): Promise<ExecutionResult> {
-  if (!env.COMPANION_UPSTREAM || !env.COMPANION_UPSTREAM_SIGNING_SECRET) {
+  if (!env.COMPANION_UPSTREAM_SIGNING_SECRET) {
     throw new Error("bridge_not_configured");
   }
 
@@ -102,7 +103,7 @@ async function executeThroughBridge(
 
   let response: Response;
   try {
-    response = await fetchWithTimeout(`${env.COMPANION_UPSTREAM.replace(/\/$/, "")}/turn`, {
+    response = await fetchWithTimeout(`${upstream.replace(/\/$/, "")}/turn`, {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -183,7 +184,15 @@ export async function executeHostedTurn(
   history: ChatMessage[],
   message: string,
 ): Promise<ExecutionResult> {
-  return env.COMPANION_UPSTREAM
-    ? executeThroughBridge(env, recipe, state, history, message)
+  // Private subscription bridge: a static COMPANION_UPSTREAM var wins; otherwise
+  // the current quick-tunnel origin the bridge published (HMAC-authenticated) to
+  // COMPANION_CONFIG KV. Falls back to a direct Anthropic key only if neither.
+  const upstream =
+    env.COMPANION_UPSTREAM ||
+    (env.COMPANION_UPSTREAM_SIGNING_SECRET && env.COMPANION_CONFIG
+      ? (await env.COMPANION_CONFIG.get("companion_bridge_origin")) || ""
+      : "");
+  return upstream
+    ? executeThroughBridge(env, upstream, recipe, state, history, message)
     : executeThroughAnthropic(env, recipe, state, history, message);
 }

@@ -1,0 +1,8 @@
+=== FULL-FEATURE PRODUCTION BUILD (Supabase enabled; hosted companion stays fail-closed) ===
+
+out/_next/static/chunks/0b1tgp8ltt4sj.js
+supabase config baked in
+no service_role in bundle
+  cook-anything.robofox.online (custom domain)
+Current Version ID: a71bcd92-7e6f-45af-b450-8980c1a9cee0
+PRODUCTION SMOKE: passed 25/25

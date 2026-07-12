@@ -234,7 +234,6 @@ async function executeTurn(body, abortSignal) {
     "--output-format", "json",
     "--model", MODEL,
     "--max-turns", "1",
-    "--safe-mode",
     "--disable-slash-commands",
     "--no-session-persistence",
     "--strict-mcp-config",

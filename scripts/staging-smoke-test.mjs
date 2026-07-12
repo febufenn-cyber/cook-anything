@@ -87,27 +87,39 @@ if (assetMatch) {
   record("static-asset-long-cache", false, "no _next/static asset found in homepage HTML");
 }
 
-// --- 4. Hosted companion is fail-closed (disabled, no session, no cookie) ----
+// --- 4. Hosted companion enabled + safe (session issued, __Host- cookie, no-store).
+// The env var COMPANION_EXPECT_DISABLED=1 flips this back to the fail-closed
+// assertions for environments where the hosted companion is intentionally off.
+const expectDisabled = process.env.COMPANION_EXPECT_DISABLED === "1";
 const sessionCreate = await get("/api/companion/session", {
   method: "POST",
   headers: { "content-type": "application/json" },
   body: JSON.stringify({ recipe_id: recipeSlug }),
 });
 const sessionBody = await sessionCreate.json().catch(() => null);
-record("companion-session-disabled",
-  sessionCreate.status === 503 && sessionBody?.error === "not_configured",
-  `status ${sessionCreate.status}, error ${sessionBody?.error}`);
-record("companion-session-no-cookie", !sessionCreate.headers.get("set-cookie"),
-  `set-cookie: ${sessionCreate.headers.get("set-cookie") ?? "<none>"}`);
+const setCookie = sessionCreate.headers.get("set-cookie") ?? "";
+if (expectDisabled) {
+  record("companion-fail-closed",
+    sessionCreate.status === 503 && sessionBody?.error === "not_configured" && !setCookie,
+    `status ${sessionCreate.status}, error ${sessionBody?.error}`);
+} else {
+  record("companion-session-issued", sessionCreate.status === 201 && Boolean(sessionBody?.state),
+    `status ${sessionCreate.status}`);
+  record("companion-session-secure-cookie",
+    setCookie.includes("__Host-ca_companion_session=") && /secure/i.test(setCookie) && /httponly/i.test(setCookie),
+    `cookie flags: ${setCookie.slice(0, 80)}`);
+}
 record("companion-api-no-store", headerIncludes(sessionCreate, "cache-control", "no-store"),
   `cache-control: ${sessionCreate.headers.get("cache-control")}`);
+// A turn WITHOUT a valid session cookie must be rejected (never 200/exposed).
 const turn = await get("/api/companion/turn", {
   method: "POST",
   headers: { "content-type": "application/json" },
-  body: JSON.stringify({ message: "hi" }),
+  body: JSON.stringify({ message: "hi", client_turn_id: "00000000-0000-4000-8000-000000000000" }),
 });
 const turnBody = await turn.json().catch(() => null);
-record("companion-turn-disabled", turn.status === 503 && turnBody?.error === "not_configured",
+record("companion-turn-requires-session",
+  expectDisabled ? turn.status === 503 : (turn.status === 401 || turn.status === 403),
   `status ${turn.status}, error ${turnBody?.error}`);
 
 // --- 5. Served bundles contain no secret material -----------------------------

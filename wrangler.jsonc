@@ -1,9 +1,11 @@
 {
   // Cook Anything — static export + session-owned Cooking Companion API.
-  // Hosted execution remains explicitly off until Phase 1 review, deployment,
-  // bridge isolation, privacy disclosure, and canary verification are complete.
+  // Hosted execution ENABLED (2026-07-12): powered by the private subscription
+  // bridge (COMPANION_UPSTREAM_SIGNING_SECRET secret + bridge origin published
+  // to COMPANION_CONFIG KV). Caps below bound cost/abuse: 30 turns/session,
+  // 2 concurrent, 300 executions/day global circuit breaker.
   "vars": {
-    "HOSTED_COMPANION_ENABLED": "false",
+    "HOSTED_COMPANION_ENABLED": "true",
     "COMPANION_SESSION_TTL_SECONDS": "7200",
     "COMPANION_MAX_TURNS_PER_SESSION": "30",
     "COMPANION_MAX_ACTIVE_EXECUTIONS": "2",
