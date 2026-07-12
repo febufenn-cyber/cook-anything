@@ -1,0 +1,6 @@
+PASS concurrency: 1 winner / 7 clean rejections, token issued, only hash stored
+PASS token gate: missing + mismatched tokens rejected
+PASS crash recovery: expiry blocks stale worker; reclaim issues fresh token
+PASS duplicate prevention: one PR per candidate, pr_open is terminal for claiming
+PASS janitor: recover_expired_publication_claims operational
+Publication-claiming tests passed.

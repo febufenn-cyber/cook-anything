@@ -60,6 +60,59 @@
     "binding": "ASSETS",
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "404-page",
+    // Static routes are served by the assets edge path (which does NOT invoke
+    // the Worker on env deploys, regardless of run_worker_first form — found
+    // by the Phase 6.5 deployed smoke test). Security headers for static
+    // routes therefore live in public/_headers at the asset layer, kept in
+    // parity with the Worker's CSP by test-worker-security-headers.ts.
     "run_worker_first": ["/api/*"]
+  },
+
+  // ---------------------------------------------------------------------
+  // STAGING — deploy with `npm run deploy:staging` (never bare deploy).
+  // Separate worker (cook-anything-staging => own Durable Object namespaces),
+  // separate rate-limit namespace ids (92017/92018 vs production 91017/91018),
+  // separate domain, NO KV binding (COMPANION_CONFIG is optional and unused),
+  // hosted companion fail-closed. Vars/bindings are intentionally NOT
+  // inherited by wrangler environments, so everything is explicit here.
+  // ---------------------------------------------------------------------
+  "env": {
+    "staging": {
+      "vars": {
+        "HOSTED_COMPANION_ENABLED": "false",
+        "COMPANION_SESSION_TTL_SECONDS": "7200",
+        "COMPANION_MAX_TURNS_PER_SESSION": "30",
+        "COMPANION_MAX_ACTIVE_EXECUTIONS": "1",
+        "COMPANION_DAILY_EXECUTION_LIMIT": "50"
+      },
+      "durable_objects": {
+        "bindings": [
+          { "name": "COMPANION_SESSIONS", "class_name": "CompanionSession" },
+          { "name": "COMPANION_GATE", "class_name": "CompanionGate" }
+        ]
+      },
+      "ratelimits": [
+        {
+          "name": "COMPANION_SESSION_RATE_LIMITER",
+          "namespace_id": "92017",
+          "simple": { "limit": 5, "period": 60 }
+        },
+        {
+          "name": "COMPANION_TURN_RATE_LIMITER",
+          "namespace_id": "92018",
+          "simple": { "limit": 10, "period": 60 }
+        }
+      ],
+      "routes": [
+        { "pattern": "cook-anything-staging.robofox.online", "custom_domain": true }
+      ],
+      "assets": {
+        "directory": "./out",
+        "binding": "ASSETS",
+        "html_handling": "auto-trailing-slash",
+        "not_found_handling": "404-page",
+        "run_worker_first": ["/api/*"]
+      }
+    }
   }
 }

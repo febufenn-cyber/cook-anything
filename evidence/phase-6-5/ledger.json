@@ -1,0 +1,232 @@
+{
+  "phase": "6.5",
+  "commit": "5f838f8429164d211fe90df95105a8c297347f56",
+  "branch": "agent/phase-6-5-staging-canary-operations",
+  "generatedAt": "2026-07-12T05:40:00Z",
+  "checks": [
+    {
+      "id": "ci-chain-full-rerun",
+      "status": "passed",
+      "environment": "local (macOS, node via npm ci)",
+      "date": "2026-07-12",
+      "actor": "phase-6.5 agent (Claude)",
+      "inputs": "npm ci; all phase test suites; trust:gate; file checks; build; wrangler dry-run",
+      "observedResult": "All Phase 1-6 suites passed; trust gate 0 errors/47 allergen-union warnings; build + dry-run OK",
+      "evidence": "evidence/phase-6-5/artifacts/ci-chain-rerun.log",
+      "unresolvedRisk": "none"
+    },
+    {
+      "id": "staging-environment-created",
+      "status": "passed",
+      "environment": "cloudflare",
+      "date": "2026-07-12",
+      "actor": "phase-6.5 agent (Claude)",
+      "inputs": "wrangler env staging: worker cook-anything-staging, DO namespaces per-worker, rate-limit namespaces 92017/92018 (prod: 91017/91018), no KV binding, HOSTED_COMPANION_ENABLED=false, domain cook-anything-staging.robofox.online",
+      "observedResult": "Deployed version 1c0d789b-d14d-4bda-86fa-b80b0b455269; bindings verified via dry-run table",
+      "evidence": "wrangler.jsonc env.staging; evidence/phase-6-5/artifacts/staging-smoke-final.log",
+      "unresolvedRisk": "staging shares the Cloudflare account and robofox.online zone with production (accepted for solo-operator setup)"
+    },
+    {
+      "id": "staging-smoke-suite",
+      "status": "passed",
+      "environment": "staging (deployed)",
+      "date": "2026-07-12",
+      "actor": "scripts/staging-smoke-test.mjs",
+      "inputs": "25 checks: availability, full security-header suite, trust/search assets, kitchen/account/review routes, sw + cache boundaries, hosted-companion fail-closed (503 not_configured, no set-cookie, no-store), bundle secret scan",
+      "observedResult": "25/25 passed",
+      "evidence": "evidence/phase-6-5/artifacts/staging-smoke-final.log",
+      "unresolvedRisk": "review-route currently serves 200 shell (authorization enforced client/RPC-side); revisit when Supabase staging exists"
+    },
+    {
+      "id": "deployed-header-gap-found-and-fixed",
+      "status": "passed",
+      "environment": "staging (deployed)",
+      "date": "2026-07-12",
+      "actor": "phase-6.5 agent (Claude)",
+      "inputs": "Initial deployed smoke run: 14/25 — ALL security headers missing on static routes; assets edge path serves static routes without invoking the Worker on env deploys (run_worker_first true AND [\"/*\"] both not honored; verified via cold-path probes with cf-cache-status MISS)",
+      "observedResult": "Fixed via public/_headers at the asset layer + parity assertions in scripts/test-worker-security-headers.ts; immutable cache for /_next/static; final run 25/25. PRODUCTION NOTE: production (deployed pre-6.5) has the same gap until its next authorized deploy.",
+      "evidence": "evidence/phase-6-5/artifacts/staging-smoke-initial.log vs staging-smoke-final.log",
+      "unresolvedRisk": "production static routes remain headerless until an authorized production deploy ships public/_headers"
+    },
+    {
+      "id": "github-protections-audit",
+      "status": "remediated",
+      "environment": "github",
+      "date": "2026-07-12",
+      "actor": "gh api",
+      "inputs": "branch protection, rulesets, secret scanning, push protection, vulnerability alerts, dependabot, environments, workflow permissions",
+      "observedResult": "main UNPROTECTED; no rulesets; secret scanning DISABLED; push protection DISABLED; vulnerability alerts DISABLED; no dependabot.yml; no environments; workflow perms read-only (good); auto-merge off (good). Repo is PUBLIC. [HISTORICAL FINDING — all items remediated the same day; see linked check github-protections-enabled]",
+      "evidence": "gh api outputs (this ledger entry)",
+      "unresolvedRisk": "none — remediated",
+      "remediatedBy": "github-protections-enabled"
+    },
+    {
+      "id": "migrations-applied-in-order-local",
+      "status": "passed",
+      "environment": "local isolated Supabase stack (Docker)",
+      "date": "2026-07-12",
+      "actor": "supabase db reset",
+      "inputs": "seven migrations 000100-000700 after renaming (original five files collided on version 20260712 and applied in the wrong lexicographic order); 000600 = service-role guard fix, 000700 = publication-claim hardening",
+      "observedResult": "All seven applied in documented order via supabase db reset; 18/18 public tables RLS-enabled; ZERO direct table grants to anon/authenticated; RPC-only surface confirmed",
+      "evidence": "evidence/phase-6-5/artifacts/local-migrations.log",
+      "unresolvedRisk": "hosted staging project still required for hosted-infra parity"
+    },
+    {
+      "id": "service-role-guard-fix",
+      "status": "passed",
+      "environment": "local isolated stack",
+      "date": "2026-07-12",
+      "actor": "phase-6.5 agent (Claude)",
+      "inputs": "prepare_contribution_account_deletion / claim_publication_candidate / mark_publication_candidate_pr guarded by legacy request.jwt.claim.role GUC (never set by modern PostgREST)",
+      "observedResult": "Before fix: service-role RPC call rejected with service_role_required (drill log 03:31Z). After migration 000600: call succeeds. Publication operator must be retested in staging.",
+      "evidence": "evidence/phase-6-5/artifacts/deletion-drill.log",
+      "unresolvedRisk": "none for deletion; publication operator staging run pending"
+    },
+    {
+      "id": "account-deletion-worker-unit",
+      "status": "passed",
+      "environment": "CI-safe mock Supabase",
+      "date": "2026-07-12",
+      "actor": "scripts/test-account-deletion-worker.mjs",
+      "inputs": "pending/processing/completed-crash-window/malformed requests; household transfer + delete; dry-run; rerun",
+      "observedResult": "ordering, heir transfer, memberless-household deletion, crash-window finalize, idempotent rerun, dry-run purity all asserted",
+      "evidence": "CI stage 'Phase 6.5 account-deletion worker tests'",
+      "unresolvedRisk": "none"
+    },
+    {
+      "id": "account-deletion-drill-real-stack",
+      "status": "passed",
+      "environment": "local isolated stack",
+      "date": "2026-07-12",
+      "actor": "scripts/account-deletion-worker.mjs (service role)",
+      "inputs": "real user via GoTrue admin; household via create_kitchen_household RPC; request via request_account_deletion RPC",
+      "observedResult": "Full pipeline completed; rerun no-op; auth user 404; households=0 requests=0. Also: anon AND authenticated direct table reads denied (42501)",
+      "evidence": "evidence/phase-6-5/artifacts/deletion-drill.log",
+      "unresolvedRisk": "repeat once against hosted staging project"
+    },
+    {
+      "id": "rls-direct-access-denied",
+      "status": "passed",
+      "environment": "local isolated stack",
+      "date": "2026-07-12",
+      "actor": "curl via PostgREST",
+      "inputs": "GET /rest/v1/sync_records (anon), GET /rest/v1/recipe_drafts (authenticated)",
+      "observedResult": "Both denied with 42501 — RPC-only surface holds",
+      "evidence": "evidence/phase-6-5/artifacts/deletion-drill.log",
+      "unresolvedRisk": "full 14-actor matrix (households, reviewers, testers, publisher) remains to be scripted"
+    },
+    {
+      "id": "github-protections-enabled",
+      "status": "passed",
+      "environment": "github",
+      "date": "2026-07-12",
+      "actor": "gh api",
+      "inputs": "branch protection (required check verify, no force-push/deletions), secret scanning, push protection, vulnerability alerts, dependabot.yml",
+      "observedResult": "All enabled; 1 moderate dependency vulnerability immediately surfaced (postcss GHSA-qx2v-qp2m-jg93) and REMEDIATED in this PR via the postcss 8.5.17 override — see check dependency-vulnerability-postcss. The alert on main clears when PR #7 merges.",
+      "evidence": "gh api responses in PR discussion + this ledger",
+      "unresolvedRisk": "none",
+      "remediates": "github-protections-audit"
+    },
+    {
+      "id": "generated-outputs-removed",
+      "status": "passed",
+      "environment": "repo",
+      "date": "2026-07-12",
+      "actor": "phase-6.5 agent (Claude)",
+      "inputs": "public/companion-recipes/ (541 files) + public/trust-manifest.json accidentally committed via git add -A; PR bloated to 582 changed files",
+      "observedResult": "Removed from index, gitignored, CI assertion added; PR reduced to 41 changed files at cleanup time (47 at the merge-ready head after the claiming migration, its tests and evidence were added); clean-checkout worktree (npm ci + build) regenerated all 541 outputs and deployed staging with smoke 25/25",
+      "evidence": "commit history + CI step 'Assert no generated build outputs are committed'",
+      "unresolvedRisk": "none"
+    },
+    {
+      "id": "publication-claim-hardening",
+      "status": "passed",
+      "environment": "local isolated stack",
+      "date": "2026-07-12",
+      "actor": "scripts/test-publication-claiming.mjs",
+      "inputs": "migration 000700: atomic ready->claimed, single-use hashed claim token, 30-min expiry, token-gated PR recording, expired-claim recovery (lazy + janitor RPC); operator script threads the token; 8 parallel claim attempts + expiry/crash scenarios",
+      "observedResult": "1 winner/7 clean rejections; raw token never stored (hash only); missing+wrong token rejected; expired claim cannot record PR; reclaim issues fresh token and kills the old one; one PR per candidate; pr_open terminal. Also fixed: pgcrypto must be schema-qualified (extensions.) under the pinned search_path",
+      "evidence": "evidence/phase-6-5/artifacts/publication-claiming-tests.log",
+      "unresolvedRisk": "Claim concurrency is hardened; end-to-end GitHub crash resumption remains pending staging validation — a crash after branch/PR creation leaves GitHub state a later worker cannot yet resume (deterministic branch already exists). Operator remains disabled."
+    },
+    {
+      "id": "dependency-vulnerability-postcss",
+      "status": "passed",
+      "environment": "repo",
+      "date": "2026-07-12",
+      "actor": "phase-6.5 agent (Claude)",
+      "inputs": "GHSA-qx2v-qp2m-jg93 (medium): postcss < 8.5.10 XSS via unescaped </style> in stringify output; resolutions: 8.5.16 (tailwind chain), 8.4.31 (pinned by next@16.2.10)",
+      "observedResult": "Exposure assessment: build-time only in this project (first-party CSS, no untrusted CSS input; nothing ships postcss to browser/Worker). Upgraded anyway via npm override postcss ^8.5.10 -> all resolutions 8.5.17; full build chain re-run green at final head",
+      "evidence": "package.json overrides + evidence/phase-6-5/artifacts/ci-chain-final.log",
+      "unresolvedRisk": "none"
+    },
+    {
+      "id": "evidence-log-sanitation",
+      "status": "passed",
+      "environment": "repo",
+      "date": "2026-07-12",
+      "actor": "phase-6.5 agent (Claude)",
+      "inputs": "grep for JWT patterns (eyJ...), sk-ant-, Bearer tokens, email addresses across evidence/phase-6-5/artifacts/",
+      "observedResult": "No secrets, tokens, or personal identifiers present; logs contain only synthetic UUIDs, status codes, counts and local URLs",
+      "evidence": "scan recorded in PR #7 cleanup commit",
+      "unresolvedRisk": "none"
+    },
+    {
+      "id": "final-ci-merge-ready-head",
+      "status": "passed",
+      "environment": "github-actions + local",
+      "date": "2026-07-12",
+      "actor": "GitHub workflow verify + local full chain",
+      "inputs": "Merge-ready head 5f838f8429164d211fe90df95105a8c297347f56 (47 changed files vs main)",
+      "observedResult": "GitHub verify runs 29178877046 and 29178878074 both success at 5f838f8; local full chain ALL PASSED at parent 29a09d2 (evidence-only delta between the two)",
+      "evidence": "gh run 29178877046; evidence/phase-6-5/artifacts/ci-chain-final.log",
+      "unresolvedRisk": "none"
+    }
+  ],
+  "blockers": [
+    {
+      "blocker": "SUPABASE_STAGING_PROJECT_MISSING",
+      "impact": "Cannot apply migrations to a hosted staging project, configure OAuth providers, or run RLS tests against hosted infra; isolated local Supabase stack (Docker) is used for migration + RLS evidence instead",
+      "requiredHumanAction": "Create a dedicated Supabase staging project; provide URL + publishable key (and service-role key via approved secret store, never CI) ; configure Google/Apple OAuth + magic-link templates per docs",
+      "workCompletedWithoutCredential": [
+        "migration order validation",
+        "local isolated stack application",
+        "RLS harness",
+        "runbooks"
+      ]
+    },
+    {
+      "blocker": "REAL_DEVICE_AND_HUMAN_QA_REQUIRED",
+      "impact": "iPhone/Android device QA, screen-reader passes, human canary cohort, and cook-testing cannot be executed by an automated agent",
+      "requiredHumanAction": "Run docs/COOK-TEST-PROTOCOL.md and the browser QA matrix on real devices; recruit canary cohort per docs/CANARY-PLAN.md",
+      "workCompletedWithoutCredential": [
+        "QA matrices",
+        "canary plan",
+        "cook-test protocol",
+        "automated browser checks where possible"
+      ]
+    },
+    {
+      "blocker": "PRODUCTION_REDEPLOY_AUTHORIZATION",
+      "impact": "Production static routes serve without security headers (pre-6.5 deploy); _headers fix is merged to the branch but production deploys require explicit human authorization",
+      "requiredHumanAction": "After PR review/merge: CONFIRM_PRODUCTION=yes npm run deploy:production, then run the smoke suite against https://cook-anything.robofox.online",
+      "workCompletedWithoutCredential": [
+        "fix implemented and staging-verified 25/25",
+        "guarded deploy script",
+        "deployment runbook"
+      ]
+    },
+    {
+      "blocker": "PUBLICATION_OPERATOR_GITHUB_CRASH_RESUMPTION",
+      "impact": "Database claiming is concurrency-safe, but the GitHub operator is not fully crash-resumable: a crash after branch creation (or after PR creation but before Supabase recording) strands GitHub state; a reclaiming worker currently fails on the already-existing deterministic branch. Blocks ENABLING the publication operator; does not block merging PR #7.",
+      "requiredHumanAction": "None immediately (operator disabled). Before enablement: make the operator idempotent — detect existing deterministic branch, verify its candidate ID + content hash before reuse, detect an existing draft PR for the head branch, continue from the last completed step, never overwrite an unrelated branch; test crashes after branch creation, commit creation and PR creation against a dedicated staging repository.",
+      "workCompletedWithoutCredential": [
+        "atomic claim + token + expiry + recovery (migration 000700)",
+        "concurrency and DB-side crash-recovery tests",
+        "operator threads claim token"
+      ]
+    }
+  ],
+  "baseCommit": "1e378ec6961e68826c83b0b65a7d2e72af626746",
+  "commitNote": "Reviewer-verified merge-ready head. Later commits on the branch are evidence/CI-metadata corrections only (this ledger update itself advances the head)."
+}

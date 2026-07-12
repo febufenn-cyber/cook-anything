@@ -1,0 +1,45 @@
+=== applied migrations (order) ===
+20260712000100 phase5_portable_kitchen
+20260712000200 phase5_sync_push_hardening
+20260712000300 phase5_migration_device_registration
+20260712000400 phase6_living_cookbook
+20260712000500 phase6_account_deletion_hardening
+=== tables without RLS (must be empty) ===
+=== public table count ===
+18
+=== direct grants to anon/authenticated (expect none on tables) ===
+=== security definer functions exposed to authenticated ===
+accept_household_invite
+add_recipe_cook_test
+add_recipe_editorial_review
+approve_recipe_publication_candidate
+can_read_kitchen_scope
+can_read_recipe_draft
+can_write_kitchen_scope
+can_write_recipe_draft
+claim_publication_candidate
+create_household_invite
+create_kitchen_household
+export_cloud_kitchen
+get_recipe_draft
+get_recipe_submission
+has_contribution_role
+list_kitchen_households
+list_my_recipe_submissions
+list_recipe_drafts
+list_recipe_review_queue
+list_sync_devices
+mark_publication_candidate_pr
+prepare_contribution_account_deletion
+recipe_draft_bundle
+recipe_submission_bundle
+register_sync_device
+request_account_deletion
+revoke_sync_device
+save_recipe_draft_version
+submit_recipe_version
+sync_kitchen_summary
+sync_pull
+sync_push
+sync_reset_personal_scope
+withdraw_recipe_submission

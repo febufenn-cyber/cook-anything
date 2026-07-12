@@ -1,0 +1,21 @@
+# Controlled dependency updates: weekly, grouped, PRs only — never auto-merged.
+# Security updates surface via enabled vulnerability alerts; version bumps stay
+# reviewable and small. CI's `verify` check gates every update PR like any PR.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 3
+    groups:
+      dev-tooling:
+        dependency-type: development
+    labels: ["dependencies"]
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 2

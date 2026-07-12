@@ -61,8 +61,13 @@ function clientIp(request: Request): string {
   return request.headers.get("cf-connecting-ip") ?? "unknown";
 }
 
-function secureAssetResponse(response: Response): Response {
+function secureAssetResponse(response: Response, pathname = "/"): Response {
   const headers = new Headers(response.headers);
+  // Content-hashed build assets are safe to cache aggressively; everything
+  // else keeps the asset layer's conservative revalidation defaults.
+  if (pathname.startsWith("/_next/static/")) {
+    headers.set("cache-control", "public, max-age=31536000, immutable");
+  }
   headers.set("content-security-policy", CONTENT_SECURITY_POLICY);
   headers.set("referrer-policy", "strict-origin-when-cross-origin");
   headers.set("x-content-type-options", "nosniff");
@@ -217,7 +222,7 @@ export default {
       if (url.pathname === "/api/bridge-origin") {
         return jsonResponse({ error: "quick_tunnel_discovery_removed" }, 410);
       }
-      return secureAssetResponse(await env.ASSETS.fetch(request));
+      return secureAssetResponse(await env.ASSETS.fetch(request), url.pathname);
     } catch {
       if (url.pathname.startsWith("/api/companion")) {
         return jsonResponse({ reply: "", state: null, error: "internal" }, 500);

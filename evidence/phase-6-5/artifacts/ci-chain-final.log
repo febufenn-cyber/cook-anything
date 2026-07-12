@@ -1,0 +1,23 @@
+=== Phase 6.5 FINAL CI chain @ 29a09d28db9184576d74fbe2036bc769aefa9610 on 2026-07-12T03:51:40Z ===
+added 51 packages in 5s
+generated-outputs guard OK
+Companion security tests passed.
+Companion gate rollover test passed.
+Phase 2 trust tests passed.
+Phase 2 dietary-edge tests passed.
+Worker security-header tests passed.
+Phase 3 product-loop tests passed.
+Phase 3 edge-case tests passed.
+Corpus correction tests passed.
+Phase 4 local-kitchen tests passed.
+Phase 5 portable-kitchen sync tests passed.
+Phase 6 living-cookbook tests passed.
+Account-deletion worker tests passed.
+
+check-trust: 0 error(s), 47 warning(s)
+file checks OK (7 migrations)
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
+Total Upload: 47.20 KiB / gzip: 13.34 KiB
+Total Upload: 47.20 KiB / gzip: 13.34 KiB
+=== FINAL CHAIN COMPLETE: ALL PASSED ===

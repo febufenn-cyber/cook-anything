@@ -1,0 +1,19 @@
+user: 7e8e5d56-6e5d-467f-98e4-ee1d44c15a9f
+{"id": "e218f0c1-4e00-4481-9a1e-19a077ee55fc", "name": "Dril
+-- anon direct table read (must be denied/empty):
+{"code":"42501","details":null,"hint":"Grant the required privileges to the current role with: GRANT SELECT ON public.sy
+-- authed direct table read (must be denied/empty):
+{"code":"42501","details":null,"hint":"Grant the required privileges to the current role with: GRANT SELECT ON public.re
+{"ok": true, "status": "pending"}
+{"at":"2026-07-12T03:33:43.574Z","userId":"7e8e5d56-6e5d-467f-98e4-ee1d44c15a9f","step":"revoke-devices","ok":true}
+{"at":"2026-07-12T03:33:43.582Z","userId":"7e8e5d56-6e5d-467f-98e4-ee1d44c15a9f","step":"household","household":"e218f0c1-4e00-4481-9a1e-19a077ee55fc","deleted":true}
+{"at":"2026-07-12T03:33:43.587Z","userId":"7e8e5d56-6e5d-467f-98e4-ee1d44c15a9f","step":"contribution-prep","ok":true,"deletedPrivateDrafts":0,"retainedPublishedDrafts":0}
+{"at":"2026-07-12T03:33:43.595Z","userId":"7e8e5d56-6e5d-467f-98e4-ee1d44c15a9f","step":"personal-data","ok":true}
+{"at":"2026-07-12T03:33:43.615Z","userId":"7e8e5d56-6e5d-467f-98e4-ee1d44c15a9f","step":"auth-delete","ok":true,"alreadyDeleted":false}
+{"id":"account-deletion-worker","processed":1,"completed":1,"failed":0,"dryRun":false,"users":[{"userId":"7e8e5d56-6e5d-467f-98e4-ee1d44c15a9f","status":"completed"}]}
+-- rerun (idempotency):
+{"id":"account-deletion-worker","processed":0,"completed":0,"failed":0,"dryRun":false,"users":[]}
+-- auth user exists after drill (expect 404):
+404
+households:0
+requests:0

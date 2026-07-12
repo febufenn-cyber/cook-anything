@@ -2,7 +2,7 @@
   "name": "cook-anything",
   "version": "0.1.0",
   "private": true,
-  "description": "Cook Anything — Tell us what you have. Discover what the world cooks with it.",
+  "description": "Cook Anything \u2014 Tell us what you have. Discover what the world cooks with it.",
   "scripts": {
     "dev": "next dev",
     "prebuild": "npm run trust:gate && tsx scripts/build-search-index.ts && tsx scripts/build-trust-manifest.ts && tsx scripts/build-companion-recipes.ts",
@@ -30,7 +30,9 @@
     "export-recipes": "tsx scripts/export-recipes.ts",
     "import-recipes": "tsx scripts/import-recipes.ts",
     "seed": "tsx scripts/seed-recipes.ts",
-    "deploy": "npm run build && npx wrangler deploy"
+    "deploy:staging": "npm run build && npx wrangler deploy --env staging",
+    "smoke:staging": "node scripts/staging-smoke-test.mjs",
+    "deploy:production": "test \"$CONFIRM_PRODUCTION\" = \"yes\" || (echo 'Refusing: set CONFIRM_PRODUCTION=yes after staging smoke tests pass (docs/DEPLOYMENT.md)' && exit 1) && npm run build && npx wrangler deploy"
   },
   "dependencies": {
     "next": "16.2.10",
@@ -45,5 +47,8 @@
     "tailwindcss": "^4.3.2",
     "tsx": "^4.23.0",
     "typescript": "^5.9.3"
+  },
+  "overrides": {
+    "postcss": "^8.5.10"
   }
 }

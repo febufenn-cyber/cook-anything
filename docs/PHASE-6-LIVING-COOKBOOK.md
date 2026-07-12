@@ -55,11 +55,11 @@ A browser save always commits locally before any cloud call. Cloud failure there
 
 Apply all migrations in this exact order:
 
-1. `supabase/migrations/20260712_phase5_portable_kitchen.sql`
-2. `supabase/migrations/20260712_phase5_sync_push_hardening.sql`
-3. `supabase/migrations/20260712_phase5_migration_device_registration.sql`
-4. `supabase/migrations/20260712_phase6_living_cookbook.sql`
-5. `supabase/migrations/20260712_phase6_account_deletion_hardening.sql`
+1. `supabase/migrations/20260712000100_phase5_portable_kitchen.sql`
+2. `supabase/migrations/20260712000200_phase5_sync_push_hardening.sql`
+3. `supabase/migrations/20260712000300_phase5_migration_device_registration.sql`
+4. `supabase/migrations/20260712000400_phase6_living_cookbook.sql`
+5. `supabase/migrations/20260712000500_phase6_account_deletion_hardening.sql`
 
 The fifth migration makes contributor, reviewer, tester and publisher identities nullable for retained licensed evidence and adds a service-role deletion-preparation RPC. Do not apply it before the primary Phase 6 schema.
 

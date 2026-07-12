@@ -105,9 +105,9 @@ assert.equal(conflictReason(mutation({ operation: "delete", payload: undefined }
 assert.equal(conflictReason(mutation({ entityType: "meal_plan_entry", recordId: "2026-07-12:dinner" }), { ...remote, entityType: "meal_plan_entry" }), "meal_slot");
 
 const root = process.cwd();
-const migration = fs.readFileSync(path.join(root, "supabase", "migrations", "20260712_phase5_portable_kitchen.sql"), "utf8");
-const hardening = fs.readFileSync(path.join(root, "supabase", "migrations", "20260712_phase5_sync_push_hardening.sql"), "utf8");
-const migrationDevice = fs.readFileSync(path.join(root, "supabase", "migrations", "20260712_phase5_migration_device_registration.sql"), "utf8");
+const migration = fs.readFileSync(path.join(root, "supabase", "migrations", "20260712000100_phase5_portable_kitchen.sql"), "utf8");
+const hardening = fs.readFileSync(path.join(root, "supabase", "migrations", "20260712000200_phase5_sync_push_hardening.sql"), "utf8");
+const migrationDevice = fs.readFileSync(path.join(root, "supabase", "migrations", "20260712000300_phase5_migration_device_registration.sql"), "utf8");
 const sql = `${migration}\n${hardening}\n${migrationDevice}`;
 
 assert.match(sql, /auth\.uid\(\)/);

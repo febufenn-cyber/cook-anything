@@ -1,0 +1,26 @@
+PASS  home-200 — status 200
+FAIL  header:content-security-policy:default-src 'self' — got: <missing>
+FAIL  header:content-security-policy:frame-ancestors 'none' — got: <missing>
+FAIL  header:content-security-policy:object-src 'none' — got: <missing>
+FAIL  header:referrer-policy:strict-origin-when-cross — got: <missing>
+FAIL  header:x-content-type-options:nosniff — got: <missing>
+FAIL  header:x-frame-options:DENY — got: <missing>
+FAIL  header:permissions-policy:geolocation=() — got: <missing>
+FAIL  header:cross-origin-opener-policy:same-origin — got: <missing>
+FAIL  header:cross-origin-resource-policy:same-origin — got: <missing>
+FAIL  header:strict-transport-security:max-age=31536000 — got: <missing>
+PASS  recipe-page — status 200, type text/html
+PASS  search-index — status 200, type application/json
+PASS  trust-manifest — status 200, type application/json
+PASS  kitchen-dashboard — status 200, type text/html
+PASS  account-page — status 200, type text/html
+PASS  review-route — status 200, type text/html
+PASS  service-worker — status 200, type text/javascript
+PASS  sw-not-immutable — cache-control: public, max-age=0, must-revalidate
+FAIL  static-asset-long-cache — cache-control: public, max-age=0, must-revalidate
+PASS  companion-session-disabled — status 503, error not_configured
+PASS  companion-session-no-cookie — set-cookie: <none>
+PASS  companion-api-no-store — cache-control: no-store
+PASS  companion-turn-disabled — status 503, error not_configured
+PASS  bundles-no-secrets — 10 bundles scanned
+{"id":"staging-smoke-test","origin":"https://cook-anything-staging.robofox.online","generatedAt":"2026-07-12T03:02:59.419Z","total":25,"failed":11,"status":"failed","results":[{"id":"home-200","status":"passed","detail":"status 200"},{"id":"header:content-security-policy:default-src 'self'","status":"failed","detail":"got: <missing>"},{"id":"header:content-security-policy:frame-ancestors 'none'","status":"failed","detail":"got: <missing>"},{"id":"header:content-security-policy:object-src 'none'","status":"failed","detail":"got: <missing>"},{"id":"header:referrer-policy:strict-origin-when-cross","status":"failed","detail":"got: <missing>"},{"id":"header:x-content-type-options:nosniff","status":"failed","detail":"got: <missing>"},{"id":"header:x-frame-options:DENY","status":"failed","detail":"got: <missing>"},{"id":"header:permissions-policy:geolocation=()","status":"failed","detail":"got: <missing>"},{"id":"header:cross-origin-opener-policy:same-origin","status":"failed","detail":"got: <missing>"},{"id":"header:cross-origin-resource-policy:same-origin","status":"failed","detail":"got: <missing>"},{"id":"header:strict-transport-security:max-age=31536000","status":"failed","detail":"got: <missing>"},{"id":"recipe-page","status":"passed","detail":"status 200, type text/html"},{"id":"search-index","status":"passed","detail":"status 200, type application/json"},{"id":"trust-manifest","status":"passed","detail":"status 200, type application/json"},{"id":"kitchen-dashboard","status":"passed","detail":"status 200, type text/html"},{"id":"account-page","status":"passed","detail":"status 200, type text/html"},{"id":"review-route","status":"passed","detail":"status 200, type text/html"},{"id":"service-worker","status":"passed","detail":"status 200, type text/javascript"},{"id":"sw-not-immutable","status":"passed","detail":"cache-control: public, max-age=0, must-revalidate"},{"id":"static-asset-long-cache","status":"failed","detail":"cache-control: public, max-age=0, must-revalidate"},{"id":"companion-session-disabled","status":"passed","detail":"status 503, error not_configured"},{"id":"companion-session-no-cookie","status":"passed","detail":"set-cookie: <none>"},{"id":"companion-api-no-store","status":"passed","detail":"cache-control: no-store"},{"id":"companion-turn-disabled","status":"passed","detail":"status 503, error not_configured"},{"id":"bundles-no-secrets","status":"passed","detail":"10 bundles scanned"}]}

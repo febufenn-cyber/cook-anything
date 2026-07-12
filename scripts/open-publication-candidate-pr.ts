@@ -7,7 +7,7 @@ interface CandidateResponse {
   contentHash: string;
   canonicalSlug: string;
   candidateJson: Record<string, unknown>;
-  status: "ready";
+  status: "claimed";
   createdAt: string;
 }
 
@@ -69,7 +69,8 @@ async function github<T>(path: string, init: RequestInit = {}): Promise<T> {
 function validateCandidate(value: unknown): CandidateResponse {
   if (!value || typeof value !== "object" || Array.isArray(value)) throw new Error("invalid_candidate_response");
   const candidate = value as Partial<CandidateResponse>;
-  if (candidate.status !== "ready") throw new Error("publication_candidate_not_ready");
+  // The hardened claim RPC atomically transitions ready -> claimed before returning.
+  if (candidate.status !== "claimed") throw new Error("publication_candidate_not_claimed");
   if (typeof candidate.id !== "string" || candidate.id !== candidateId) throw new Error("publication_candidate_identity_mismatch");
   if (typeof candidate.contentHash !== "string" || !/^[a-f0-9]{64}$/.test(candidate.contentHash)) throw new Error("invalid_candidate_hash");
   if (typeof candidate.canonicalSlug !== "string" || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(candidate.canonicalSlug)) throw new Error("invalid_candidate_slug");
@@ -80,7 +81,12 @@ function validateCandidate(value: unknown): CandidateResponse {
 }
 
 async function main(): Promise<void> {
-  const candidate = validateCandidate(await supabaseRpc<unknown>("claim_publication_candidate", { p_candidate_id: candidateId }));
+  const rawClaim = await supabaseRpc<unknown>("claim_publication_candidate", { p_candidate_id: candidateId });
+  const candidate = validateCandidate(rawClaim);
+  // Single-use claim token (returned exactly once): required to record the PR,
+  // so a second worker or an expired claim can never attach a duplicate PR.
+  const claimToken = (rawClaim as Record<string, unknown>)?.claimToken;
+  if (typeof claimToken !== "string" || claimToken.length < 32) throw new Error("missing_claim_token");
   const [owner, repo] = repository.split("/");
   const short = candidate.id.replace(/-/g, "").slice(0, 10);
   const branch = `contribution/${candidate.canonicalSlug}-${short}`;
@@ -154,7 +160,7 @@ async function main(): Promise<void> {
     }),
   });
   if (!/^https:\/\/github\.com\/[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+\/pull\/[0-9]+$/.test(pull.html_url)) throw new Error("invalid_created_pr_url");
-  await supabaseRpc("mark_publication_candidate_pr", { p_candidate_id: candidate.id, p_github_pr_url: pull.html_url });
+  await supabaseRpc("mark_publication_candidate_pr", { p_candidate_id: candidate.id, p_github_pr_url: pull.html_url, p_claim_token: claimToken });
   console.log(JSON.stringify({ ok: true, branch, pullRequest: pull.html_url, candidatePath, evidencePath }));
 }
 
