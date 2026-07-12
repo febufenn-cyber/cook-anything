@@ -64,5 +64,17 @@ if (/notEqual\(STAGING_PUB_REPO, "febufenn-cyber\/cook-anything"/.test(opTest))
   ok("operator resumption test guards against the production repo");
 else fail("operator resumption test missing production-repo guard");
 
+// 6. malformed placeholder sequences (redaction artifacts) in evidence/docs
+const PLACEHOLDER_TARGETS = [...required.filter(existsSync),
+  "docs/PHASE-6-6-SUPABASE-STAGING.md", "docs/PHASE-6-6-RESULTS.md", "docs/PHASE-6-6-DEVICE-ACCESSIBILITY-QA.md"];
+for (const f of PLACEHOLDER_TARGETS.filter(existsSync)) {
+  const text = readFileSync(f, "utf8");
+  if (/>>|<</.test(text)) fail(`malformed '>>' or '<<' sequence in ${f}`);
+  const opens = (text.match(/<[A-Z][A-Z0-9_]*>/g) ?? []).length;
+  const lone = (text.match(/<[A-Z][A-Z0-9_]*(?![A-Z0-9_>])/g) ?? []).length - opens >= 1;
+  if (lone) fail(`unbalanced <PLACEHOLDER> token in ${f}`);
+}
+ok("no malformed placeholder sequences in evidence/docs");
+
 console.log(failures === 0 ? "\nPhase 6.6 evidence checks passed." : `\n${failures} check(s) failed.`);
 process.exit(failures === 0 ? 0 : 1);

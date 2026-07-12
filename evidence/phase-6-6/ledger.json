@@ -52,7 +52,7 @@
       "blocker": "SUPABASE_FREE_TIER_PROJECT_CAP",
       "status": "blocked",
       "impact": "Cannot create the hosted staging project: org <SUPABASE_ORG_ID> already has 2 active free projects (<UNRELATED_PROJECT_A>, <UNRELATED_PROJECT_B>). Creation attempt on 2026-07-12 was rejected by Supabase with the 2-project limit message. Hosted-infra gates (hosted RLS parity, hosted OAuth, hosted deletion/restore drills, sync chaos on real network) remain blocked; local isolated stack evidence is collected instead and labeled as such.",
-      "requiredHumanAction": "Pause or delete one existing free project (owner decision) OR upgrade the org, then run: supabase projects create cook-anything-staging --org-id <SUPABASE_ORG_ID> --region <REGION> <LOCAL_SECRET_STORE>>; then supabase link + db push and rerun the Phase 6.6 harnesses with STAGING_* env",
+      "requiredHumanAction": "Pause or delete one unrelated free project, or upgrade the Supabase organization. Then create cook-anything-staging using <SUPABASE_ORG_ID>, <REGION>, and the database password stored in <LOCAL_SECRET_STORE>; link the project, apply migrations 000100\u2013000700, and rerun the Phase 6.6 hosted staging harnesses with staging-scoped environment variables.",
       "stillBlocking": true
     },
     {
